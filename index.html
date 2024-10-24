@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Player Characters</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <button onclick="loadPlayer('aviana')">Aviana</button>
+            <button onclick="loadPlayer('fearghas')">Fearghas</button>
+            <button onclick="loadPlayer('plex')">Plex</button>
+            <button onclick="loadPlayer('shalkoc')">Shalkoc</button>
+        </nav>
+    </header>
+
+    <main>
+        <section id="features" class="active">
+            <h2 onclick="toggleSection('features')">Features</h2>
+            <div class="content"></div>
+        </section>
+
+        <section id="items" class="active">
+            <h2 onclick="toggleSection('items')">Items</h2>
+            <div class="content"></div>
+        </section>
+
+        <section id="spells" class="active">
+            <h2 onclick="toggleSection('spells')">Spells</h2>
+            <div class="content"></div>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>

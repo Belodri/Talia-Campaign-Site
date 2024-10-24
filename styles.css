@@ -1,0 +1,80 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    padding: 1rem;
+    text-align: center;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    margin: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    padding: 10px;
+    background-color: white;
+}
+
+h2 {
+    margin: 0;
+    cursor: pointer;
+}
+
+.content {
+    display: none;
+    padding: 10px 0;
+}
+
+.active .content {
+    display: block;
+}
+
+
+.collapsible-item {
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    padding: 10px;
+    background-color: #f9f9f9;
+}
+
+.collapsible-header {
+    display: flex;
+    justify-content: space-between; /* Ensure proper spacing between flex items */
+    cursor: pointer;
+    background-color: #e0e0e0;
+    padding: 10px;
+}
+
+.collapsible-header div {
+    padding: 0 5px; /* Optional padding for a bit of space inside each div */
+}
+
+.collapsible-content {
+    display: none;
+    padding: 10px;
+    background-color: #ffffff;
+}
+
+.collapsible-item.active .collapsible-content {
+    display: block;
+}

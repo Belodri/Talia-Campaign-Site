@@ -1,0 +1,62 @@
+{
+    "features": [
+        {
+            "name": "Rage",
+            "description": "While raging, you gain advantages on Strength checks and saving throws.",
+            "type": "Class Feature",
+            "quantity": null,
+            "requiresAttunement": null,
+            "spellLevelAndSchool": null,
+            "spellRange": null
+        },
+        {
+            "name": "Unarmored Defense",
+            "description": "While not wearing armor, your AC equals 10 + your Dexterity modifier + your Constitution modifier.",
+            "type": "Class Feature",
+            "quantity": null,
+            "requiresAttunement": null,
+            "spellLevelAndSchool": null,
+            "spellRange": null
+        }
+    ],
+    "items": [
+        {
+            "name": "Greatsword",
+            "description": "A large two-handed sword, perfect for devastating attacks.",
+            "type": "Weapon",
+            "quantity": 1,
+            "requiresAttunement": null,
+            "spellLevelAndSchool": null,
+            "spellRange": null
+        },
+        {
+            "name": "Ring of Protection",
+            "description": "Grants a +1 bonus to AC and saving throws while wearing this ring.",
+            "type": "Wondrous Item",
+            "quantity": 1,
+            "requiresAttunement": true,
+            "spellLevelAndSchool": null,
+            "spellRange": null
+        }
+    ],
+    "spells": [
+        {
+            "name": "Fireball",
+            "description": "A bright streak flashes from your pointing finger to a point you choose within range, creating an explosion of fire.",
+            "type": "Evocation",
+            "quantity": null,
+            "requiresAttunement": null,
+            "spellLevelAndSchool": "Level 3, Evocation",
+            "spellRange": "150 feet"
+        },
+        {
+            "name": "Mage Armor",
+            "description": "A magical force surrounds you, granting an AC of 13 + your Dexterity modifier.",
+            "type": "Abjuration",
+            "quantity": null,
+            "requiresAttunement": null,
+            "spellLevelAndSchool": "Level 1, Abjuration",
+            "spellRange": "Touch"
+        }
+    ]
+}
