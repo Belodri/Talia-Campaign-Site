@@ -987,6 +987,17 @@
         "spellLevel": null,
         "spellRange": null,
         "spellSchool": null
+      },
+      {
+        "name": "Guardian's Reflex",
+        "itemType": "feat",
+        "description": "<div><p><em>Prerequisite: Constitution 15 or higher</em></p><div><div class=\"rd__b  rd__b--3\"><p>With the spirit of a true hero, you leap into harm's way to shield your allies, taking the hit they cannot. You gain the following benefits:</p><p class=\"rd__p-list-item\" data-roll-name-ancestor=\"Ability Score Increase.\"><span class=\"bold rd__list-item-name\">Ability Score Increase.</span> Increase your Constitution score by 1, to a maximum of 20.</p><ul class=\"rd__list rd__list-hang-notitle\"><li class=\"rd__li \"><p class=\"rd__p-list-item\" data-roll-name-ancestor=\"Intervene\"><span class=\"bold rd__list-item-name\">Intervene.</span> When a creature you can see hits a target you can see, other than yourself, with a ranged weapon or spell attack, you can use your reaction to intercept it. To use this reaction, there must be an unoccupied space adjacent to the target, between the target and the attacker, and within your jumping distance. You leap to this space, landing directly in the line of attack and taking the hit intended for the target, applying all effects of the attack to yourself as though you were the original target. Until the end of the turn, the target gains &amp;Reference[Three-Quarters Cover] and cannot roll death saving throws. You can use this reaction a number of times equal to your proficiency bonus, regaining all expended uses when you finish a long rest.</p></li></ul></div></div></div>",
+        "requirements": "Feat (Barbarian 12)",
+        "typeLabel": null,
+        "subType": "",
+        "spellLevel": null,
+        "spellRange": null,
+        "spellSchool": null
       }
     ],
     "Fearghas MacAllistar": [
@@ -2269,17 +2280,6 @@
         "spellSchool": null
       },
       {
-        "name": "Jump",
-        "itemType": "feat",
-        "description": "<p>Using your bonus action, you can jump up to a number of feet equal to 5 plus 5 feet for every 2 points of your highest skill modifier between Athletics and Acrobatics. For example, if your highest modifier is +4, you can jump up to 15 feet.</p>",
-        "requirements": "",
-        "typeLabel": null,
-        "subType": "",
-        "spellLevel": null,
-        "spellRange": null,
-        "spellSchool": null
-      },
-      {
         "name": "Soul Coin",
         "itemType": "loot",
         "description": "<div class=\"rd__b  rd__b--2\"><p><em>Soul coin</em>s are about 5 inches across and about an inch thick, minted from infernal iron. Each coin weighs one-third of a pound, and is inscribed with Infernal writing and a spell that magically binds a single soul to the coin. Because each <em>soul coin</em> has a unique soul trapped within it, each has a story. A creature might have been imprisoned as a result of defaulting on a deal, while another might be the victim of a night hag's curse.</p><div class=\"rd__b  rd__b--3\"><p><span class=\"entry-title-inner\"><strong>Carrying Soul Coins</strong></span></p><p>To hold a <em>soul coin</em> is to feel the soul bound within it—overcome with rage or fraught with despair.</p><p>An evil creature can carry as many <em>soul coin</em>s as it wishes (up to its maximum weight allowance). A non-evil creature can carry a number of <em>soul coin</em>s equal to or less than its Constitution modifier without penalty. A non-evil creature carrying a number of <em>soul coin</em>s greater than its Constitution modifier has disadvantage on its attack rolls, ability checks, and saving throws.</p></div><div class=\"rd__b  rd__b--3\"><p><span class=\"entry-title-inner\"><strong>Freeing a Soul</strong></span></p><p>Casting a spell that removes a curse on a <em>soul coin</em> frees the soul trapped within it, as does expending all of the coin's charges. The coin itself rusts from within and is destroyed once the soul is released. A freed soul travels to the realm of the god it served or the outer plane most closely tied to its alignment (DM's choice). The souls of lawful evil creatures released from <em>soul coin</em>s typically emerge from the River Styx as devils.</p><p>Freeing a soul from a <em>soul coin</em> is considered a good act, even if the soul belongs to an evil creature.</p></div><div class=\"rd__b  rd__b--3\"><p><span class=\"entry-title-inner\"><strong>Hellish Currency</strong></span></p><p><em>Soul coin</em>s are a currency of the Nine Hells and are highly valued by devils. The coins are used among the infernal hierarchy to barter for favours, bribe the unwilling, and reward the faithful for services rendered.</p><p><em>Soul coin</em>s are created by Mammon and his greater devils on Minauros, the third layer of the Nine Hells, in a vast chamber where the captured souls of evil mortals are bound into the coins. These coins are then distributed throughout the Nine Hells to be used for goods and services, infernal deals, dark bargains, and bribes.</p></div><p><strong>Unmake a Soul</strong></p><p>When casting a spell which requires repeated castings for it's effects to become permanent, soul coins can be expended as a material component and the souls trapped inside unmade. Each soul coin expended this way reduces the number of required castings by three.</p><p>Unmaking a soul is different to freeing it as doing so erases the soul from existence itself, it's essence lost forever. Unmaking a soul is considered an evil act.</p></div>",
@@ -2836,6 +2836,44 @@
         "spellLevel": "9th Level",
         "spellRange": "30 ft",
         "spellSchool": "Conjuration"
+      },
+      {
+        "name": "Ironclad Heritage",
+        "itemType": "feat",
+        "description": "<div><p><em>Prerequisite: Dwarf (mountain)</em></p><div><div class=\"rd__b  rd__b--3\"><p>Among many of your kin, chainmail might pass as armor, but only heavy plates and a shield make one fully dressed. You gain the following benefit:</p><ul class=\"rd__list\"><li class=\"rd__li \">Increase your Strength score by 1, to a maximum of 20.</li><li class=\"rd__li \">You gain proficiency with heavy armor and shields.</li></ul></div></div></div>",
+        "requirements": "Feat (Wizard 12)",
+        "typeLabel": null,
+        "subType": "",
+        "spellLevel": null,
+        "spellRange": null,
+        "spellSchool": null
+      },
+      {
+        "name": "Jump",
+        "itemType": "feat",
+        "description": "<p>Using your bonus action, you can jump up to a number of feet equal to 5 plus 5 feet for every 2 points of your highest skill modifier between Athletics and Acrobatics. For example, if your highest modifier is +4, you can jump up to 15 feet.</p>",
+        "requirements": "",
+        "typeLabel": null,
+        "subType": "",
+        "spellLevel": null,
+        "spellRange": null,
+        "spellSchool": null
+      },
+      {
+        "name": "Sending",
+        "itemType": "spell",
+        "description": "<div class=\"rd__b  rd__b--3\"><p>You send a short message of twenty-five words or less to a creature with which you are familiar. The creature hears the message in its mind, recognizes you as the sender if it knows you, and can answer in a like manner immediately. The spell enables creatures with Intelligence scores of at least 1 to understand the meaning of your message.</p><p>You can send the message across any distance and even to other planes of existence, but if the target is on a different plane than you, there is a [[/r 1d20]]{5 percent} chance that the message doesn't arrive.</p></div>",
+        "spellLevel": "3rd Level",
+        "spellRange": "Special",
+        "spellSchool": "Evocation"
+      },
+      {
+        "name": "Slow",
+        "itemType": "spell",
+        "description": "<div class=\"rd__b  rd__b--3\"><p>You alter time around up to six creatures of your choice in a 40-foot cube within range. Each target must succeed on a Wisdom saving throw or be affected by this spell for the duration.</p><p>An affected target's speed is halved, it takes a −2 penalty to AC and Dexterity saving throws, and becomes &amp;Reference[distracted]. On its turn, it can use either an action or a bonus action, not both. Regardless of the creature's abilities or magic items, it can't make more than one melee or ranged attack during its turn.</p><p>If the creature attempts to cast a spell with a casting time of 1 action, roll a [[/r d20]]. On an 11 or higher, the spell doesn't take effect until the creature's next turn, and the creature must use its action on that turn to complete the spell. If it can't, the spell is wasted.</p><p>A creature affected by this spell makes another Wisdom saving throw at the end of each of its turns. On a successful save, the effect ends for it.</p></div>",
+        "spellLevel": "3rd Level",
+        "spellRange": "120 ft",
+        "spellSchool": "Transmutation"
       }
     ],
     "Plex": [
@@ -3785,17 +3823,6 @@
         "spellSchool": null
       },
       {
-        "name": "Jump",
-        "itemType": "feat",
-        "description": "<p>Using your bonus action, you can jump up to a number of feet equal to 5 plus 5 feet for every 2 points of your highest skill modifier between Athletics and Acrobatics. For example, if your highest modifier is +4, you can jump up to 15 feet.</p>",
-        "requirements": "",
-        "typeLabel": null,
-        "subType": "",
-        "spellLevel": null,
-        "spellRange": null,
-        "spellSchool": null
-      },
-      {
         "name": "Echoing Crystalbloom",
         "itemType": "consumable",
         "description": "<p>When this crystalline flower shatters, it covers creatures in a 10ft sphere in it's fine dust unless they succeed on a Dexterity saving throw against the contraption's save DC.</p><p>Any creature covered by the dust involuntarily echoes it’s own speech for 10 minutes, making it much more difficult to form the verbal components of spells.</p><p>While under this effect, casting a spell with verbal components requires a bonus action and the caster's full movement in addition to the spells normal requirements.</p>",
@@ -4231,6 +4258,17 @@
         "spellLevel": "9th Level",
         "spellRange": "30 ft",
         "spellSchool": "Conjuration"
+      },
+      {
+        "name": "Jump",
+        "itemType": "feat",
+        "description": "<p>Using your bonus action, you can jump up to a number of feet equal to 5 plus 5 feet for every 2 points of your highest skill modifier between Athletics and Acrobatics. For example, if your highest modifier is +4, you can jump up to 15 feet.</p>",
+        "requirements": "",
+        "typeLabel": null,
+        "subType": "",
+        "spellLevel": null,
+        "spellRange": null,
+        "spellSchool": null
       }
     ],
     "Shalkoc Zornax": [
@@ -4815,17 +4853,6 @@
         "spellSchool": null
       },
       {
-        "name": "Jump",
-        "itemType": "feat",
-        "description": "<p>Using your bonus action, you can jump up to a number of feet equal to 5 plus 5 feet for every 2 points of your highest skill modifier between Athletics and Acrobatics. For example, if your highest modifier is +4, you can jump up to 15 feet.</p>",
-        "requirements": "",
-        "typeLabel": null,
-        "subType": "",
-        "spellLevel": null,
-        "spellRange": null,
-        "spellSchool": null
-      },
-      {
         "name": "Tiamat's Tear",
         "itemType": "loot",
         "description": "<p>Only a dragonborn of royal blood can use this unique gemstone to command the movements of the flying island Nabu-Anshar.</p>",
@@ -5238,6 +5265,36 @@
         "quantity": 5,
         "typeLabel": "Food",
         "subType": "meal",
+        "spellLevel": null,
+        "spellRange": null,
+        "spellSchool": null
+      },
+      {
+        "name": "Gift of the Metallic Dragon",
+        "itemType": "feat",
+        "description": "<div><p>You've manifested some of the power of metallic dragons, granting you the following benefits:</p><div><div class=\"rd__b  rd__b--3\"><ul class=\"rd__list rd__list-hang-notitle\"><li class=\"rd__li \"><p class=\"rd__p-list-item\" data-roll-name-ancestor=\"Ability Score Increase.\"><span class=\"bold rd__list-item-name\">Ability Score Increase.</span> Increase your Intelligence, Wisdom, or Charisma by 1, to a maximum of 20. (WIS)</p></li><li class=\"rd__li \"><p class=\"rd__p-list-item\" data-roll-name-ancestor=\"Ability Score Increase.\"><span class=\"bold rd__list-item-name\">Draconic Healing.</span> You learn the <span class=\"bold\" data-plut-hover=\"true\" data-plut-hover-page=\"spells.html\" data-plut-hover-source=\"PHB\" data-plut-hover-hash=\"cure%20wounds_phb\"><a class=\"content-link\" draggable=\"true\" data-link data-uuid=\"Compendium.talia-custom.customItems.Item.s1aALImVM1eBUrJu\" data-id=\"s1aALImVM1eBUrJu\" data-type=\"Item\" data-pack=\"talia-custom.customItems\" data-tooltip=\"Spell Item\">Cure Wounds</a></span> spell. You can cast this spell without expending a spell slot. Once you cast this spell in this way, you can't do so again until you finish a long rest. You can also cast this spell using spell slots you have. The spell's spellcasting ability is the ability increased by this feat.</p></li><li class=\"rd__li \"><p class=\"rd__p-list-item\" data-roll-name-ancestor=\"Ability Score Increase.\"><span class=\"bold rd__list-item-name\">Protective Wings.</span> You can manifest protective wings that can shield you or others. When you or another creature you can see within 5 feet of you is hit by an attack roll, you can use your reaction to manifest spectral wings from your back for a moment. You grant a bonus to the target's AC equal to your proficiency bonus against that attack roll, potentially causing it to miss. You can use this reaction a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest.</p></li></ul></div></div></div>",
+        "requirements": "Feat (Monk 12)",
+        "typeLabel": null,
+        "subType": "",
+        "spellLevel": null,
+        "spellRange": null,
+        "spellSchool": null
+      },
+      {
+        "name": "Cure Wounds",
+        "itemType": "spell",
+        "description": "<div class=\"rd__b  rd__b--3\"><p>A creature you touch regains a number of hit points equal to [[/r 1d8]] + your spellcasting ability modifier. This spell has no effect on undead or constructs.</p></div><div class=\"rd__b  rd__b--3\"><div data-roll-name-ancestor=\"At Higher Levels\" class=\"rd__b  rd__b--3\"><span class=\"rd__h rd__h--3\" data-title-index=\"1\"> <span class=\"entry-title-inner\">At Higher Levels.</span></span> <p>When you cast this spell using a spell slot of 2nd level or higher, the healing increases by [[/r 1d8]] for each slot level above 1st.</p></div></div>",
+        "spellLevel": "1st Level",
+        "spellRange": "Touch",
+        "spellSchool": "Evocation"
+      },
+      {
+        "name": "Jump",
+        "itemType": "feat",
+        "description": "<p>Using your bonus action, you can jump up to a number of feet equal to 5 plus 5 feet for every 2 points of your highest skill modifier between Athletics and Acrobatics. For example, if your highest modifier is +4, you can jump up to 15 feet.</p>",
+        "requirements": "",
+        "typeLabel": null,
+        "subType": "",
         "spellLevel": null,
         "spellRange": null,
         "spellSchool": null
