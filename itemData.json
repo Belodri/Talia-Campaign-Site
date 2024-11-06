@@ -805,7 +805,7 @@
         "spellSchool": null
       },
       {
-        "name": "Book: Slaves and Kings",
+        "name": "Book: Slaves and Kings (Drofi's possession atm)",
         "itemType": "loot",
         "description": "<p>A book describing the steamy and forbidden romance between a rich multi-goldillionaire and the down-on-her-luck cleaner maid.</p><p>Threehundred pages of best-selling material made for fourtyfive year old women.</p>",
         "quantity": 1,
@@ -995,6 +995,17 @@
         "requirements": "Feat (Barbarian 12)",
         "typeLabel": null,
         "subType": "",
+        "spellLevel": null,
+        "spellRange": null,
+        "spellSchool": null
+      },
+      {
+        "name": "Ioun Stone, Language Knowledge",
+        "itemType": "equipment",
+        "description": "<div class=\"rd__b  rd__b--2\"><p>An <i>Ioun stone</i> is named after Ioun, a god of knowledge and prophecy revered on some worlds. Many types of <i>Ioun stone</i> exist, each type a distinct combination of shape and color.</p><p>When you use an action to toss one of these stones into the air, the stone orbits your head at a distance of [[/r 1d3]] feet and confers a benefit to you. Thereafter, another creature must use an action to grasp or net the stone to separate it from you, either by making a successful attack roll against AC 24 or a successful DC 24 Dexterity (&amp;Reference[skill=Acrobatics]) check. You can use an action to seize and stow the stone, ending its effect.</p><p>A stone has AC 24, 10 hit points, and resistance to all damage. It is considered to be an object that is being worn while it orbits your head.</p><p>You are fluent in one additional language while this pulsating bit of red jeweled crystal orbits your head. The DM chooses the language bestowed by the stone.</p></div>",
+        "attunement": "",
+        "quantity": 1,
+        "typeLabel": "Trinket",
         "spellLevel": null,
         "spellRange": null,
         "spellSchool": null
@@ -2641,7 +2652,7 @@
         "itemType": "consumable",
         "description": "<div class=\"rd__b  rd__b--2\"><p>This gemstone contains a crystallized bit of spellcasting magic.</p><p>When you cast a spell that has a casting time of 1 action while holding the <em>mind crystal</em>, you can modify the spell in the way described below. You can use only a single <em>mind crystal</em> to modify the spell, and you can't use a <em>mind crystal</em> and a Metamagic option on the same spell. Once you use the <em>mind crystal</em>, it shatters into nothingness.</p><div data-roll-name-ancestor=\"Modify Spell\" class=\"rd__b  rd__b--3\"><p><span class=\"entry-title-inner\"><strong>Modify Spell</strong></span></p><p>You cast the spell without any somatic or verbal components for this casting.</p></div></div>",
         "attunement": "",
-        "quantity": 5,
+        "quantity": 4,
         "typeLabel": "Trinket",
         "subType": "",
         "spellLevel": null,
@@ -2732,7 +2743,7 @@
         "itemType": "consumable",
         "description": "<div class=\"rd__b  rd__b--3\"><p>An immobile, faintly shimmering barrier springs into existence in a 10-foot radius around you and remains for the duration.</p><div class=\"rd__spc-inline-post\"></div><p>Any spell of 5th level or lower cast from outside the barrier can't affect creatures or objects within it, even if the spell is cast using a higher level spell slot. Such a spell can target creatures and objects within the barrier, but the spell has no effect on them. Similarly, the area within the barrier is excluded from the areas affected by such spells.</p></div><div class=\"rd__b  rd__b--3\"><div data-roll-name-ancestor=\"At Higher Levels\" class=\"rd__b  rd__b--3\"><span class=\"rd__h rd__h--3\" data-title-index=\"1\"> <span class=\"entry-title-inner\">At Higher Levels.</span></span> <p>When you cast this spell using a spell slot of 7th level or higher, the barrier blocks spells of one level higher for each slot level above 6th.</p><div class=\"rd__spc-inline-post\"></div></div><div class=\"rd__spc-inline-post\"></div></div>",
         "attunement": "",
-        "quantity": 2,
+        "quantity": 1,
         "typeLabel": "Scroll",
         "subType": "",
         "spellLevel": null,
@@ -2874,6 +2885,60 @@
         "spellLevel": "3rd Level",
         "spellRange": "120 ft",
         "spellSchool": "Transmutation"
+      },
+      {
+        "name": "Mage Wine",
+        "itemType": "consumable",
+        "description": "<div class=\"rd__b  rd__b--2\"><p>If you are capable of casting spells from the wizard's spell list, then when you drink this rich red potion, you will instantly regain one spell slot that you cast earlier in the day. Roll a [[/r 1d4]] to determine the slot level. If you haven't used any slots of that level, you regain the lowest level slot you have used.</p></div>",
+        "attunement": "",
+        "quantity": 2,
+        "typeLabel": "Potion",
+        "subType": "",
+        "spellLevel": null,
+        "spellRange": null,
+        "spellSchool": null
+      },
+      {
+        "name": "Spell Scroll: Guidance",
+        "itemType": "consumable",
+        "description": "<div class=\"rd__b  rd__b--3\"><p>You touch one willing creature. Once before the spell ends, the target can roll a [[/r d4]] and add the number rolled to one ability check of its choice. It has to roll the die before making the ability check. The spell then ends.</p></div>",
+        "attunement": "",
+        "quantity": 1,
+        "typeLabel": "Scroll",
+        "subType": "",
+        "spellLevel": null,
+        "spellRange": null,
+        "spellSchool": null
+      },
+      {
+        "name": "Ioun Stone, Language Knowledge",
+        "itemType": "equipment",
+        "description": "<div class=\"rd__b  rd__b--2\"><p>An <i>Ioun stone</i> is named after Ioun, a god of knowledge and prophecy revered on some worlds. Many types of <i>Ioun stone</i> exist, each type a distinct combination of shape and color.</p><p>When you use an action to toss one of these stones into the air, the stone orbits your head at a distance of [[/r 1d3]] feet and confers a benefit to you. Thereafter, another creature must use an action to grasp or net the stone to separate it from you, either by making a successful attack roll against AC 24 or a successful DC 24 Dexterity (&amp;Reference[skill=Acrobatics]) check. You can use an action to seize and stow the stone, ending its effect.</p><p>A stone has AC 24, 10 hit points, and resistance to all damage. It is considered to be an object that is being worn while it orbits your head.</p><p>You are fluent in one additional language while this pulsating bit of red jeweled crystal orbits your head. The DM chooses the language bestowed by the stone.</p></div>",
+        "attunement": "",
+        "quantity": 1,
+        "typeLabel": "Trinket",
+        "spellLevel": null,
+        "spellRange": null,
+        "spellSchool": null
+      },
+      {
+        "name": "Amulet of Proof against Detection and Location",
+        "itemType": "equipment",
+        "description": "<div class=\"rd__b  rd__b--2\"><p>While wearing this amulet, you are hidden from <span class=\"bold\">divination</span> magic. You can't be targeted by such magic or perceived through magical scrying sensors.</p></div>",
+        "attunement": "required",
+        "quantity": 1,
+        "typeLabel": "Trinket",
+        "spellLevel": null,
+        "spellRange": null,
+        "spellSchool": null
+      },
+      {
+        "name": "Guidance",
+        "itemType": "spell",
+        "description": "<div class=\"rd__b  rd__b--3\"><p>You touch one willing creature. Once before the spell ends, the target can roll a [[/r d4]] and add the number rolled to one ability check of its choice. It has to roll the die before making the ability check. The spell then ends.</p></div>",
+        "spellLevel": "Cantrip",
+        "spellRange": "Touch",
+        "spellSchool": "Divination"
       }
     ],
     "Plex": [
@@ -4269,6 +4334,41 @@
         "spellLevel": null,
         "spellRange": null,
         "spellSchool": null
+      },
+      {
+        "name": "Versatility through Unpredictability",
+        "itemType": "feat",
+        "description": "<div><div><div class=\"rd__b  rd__b--3\"><p>As a bonus action, you can attempt to swap a prepared spell with an unprepared spell. Choose a prepared spell, then roll a [[/r d20]].</p><p>On a roll of 10 or lower, you must replace the chosen prepared spell with an unprepared spell of a lower spell level.<br />On a roll of 11 or higher, you must replace the chosen prepared spell with an unprepared spell of a higher spell level.</p><p>If the result would force you to choose an unprepared spell of a higher level than your highest available spell slot, the swap fails and the chosen prepared spell remains unchanged. The same applies if the roll would force you to swap a 1st-level spell for a spell of a lower level.</p></div></div></div>",
+        "requirements": "",
+        "typeLabel": null,
+        "subType": "",
+        "spellLevel": null,
+        "spellRange": null,
+        "spellSchool": null
+      },
+      {
+        "name": "Mage Wine",
+        "itemType": "consumable",
+        "description": "<div class=\"rd__b  rd__b--2\"><p>If you are capable of casting spells from the wizard's spell list, then when you drink this rich red potion, you will instantly regain one spell slot that you cast earlier in the day. Roll a [[/r 1d4]] to determine the slot level. If you haven't used any slots of that level, you regain the lowest level slot you have used.</p></div>",
+        "attunement": "",
+        "quantity": 2,
+        "typeLabel": "Potion",
+        "subType": "",
+        "spellLevel": null,
+        "spellRange": null,
+        "spellSchool": null
+      },
+      {
+        "name": "Spell Scroll: Globe of Invulnerability",
+        "itemType": "consumable",
+        "description": "<div class=\"rd__b  rd__b--3\"><p>An immobile, faintly shimmering barrier springs into existence in a 10-foot radius around you and remains for the duration.</p><div class=\"rd__spc-inline-post\"></div><p>Any spell of 5th level or lower cast from outside the barrier can't affect creatures or objects within it, even if the spell is cast using a higher level spell slot. Such a spell can target creatures and objects within the barrier, but the spell has no effect on them. Similarly, the area within the barrier is excluded from the areas affected by such spells.</p></div><div class=\"rd__b  rd__b--3\"><div data-roll-name-ancestor=\"At Higher Levels\" class=\"rd__b  rd__b--3\"><span class=\"rd__h rd__h--3\" data-title-index=\"1\"> <span class=\"entry-title-inner\">At Higher Levels.</span></span> <p>When you cast this spell using a spell slot of 7th level or higher, the barrier blocks spells of one level higher for each slot level above 6th.</p><div class=\"rd__spc-inline-post\"></div></div><div class=\"rd__spc-inline-post\"></div></div>",
+        "attunement": "",
+        "quantity": 1,
+        "typeLabel": "Scroll",
+        "subType": "",
+        "spellLevel": null,
+        "spellRange": null,
+        "spellSchool": null
       }
     ],
     "Shalkoc Zornax": [
@@ -5224,7 +5324,7 @@
         "name": "Rhubarb Pie",
         "itemType": "loot",
         "description": "<p>Rhubarb Pie delights with its sweet and tangy taste, accentuated by a fruity filling that holds together nicely. Since rhubarb is a seasonal vegetable, this pie is only available for a limited time after the cold seasons.</p>",
-        "quantity": 7,
+        "quantity": 4,
         "typeLabel": "Food",
         "subType": "snack",
         "spellLevel": null,
@@ -5272,7 +5372,7 @@
       {
         "name": "Gift of the Metallic Dragon",
         "itemType": "feat",
-        "description": "<div><p>You've manifested some of the power of metallic dragons, granting you the following benefits:</p><div><div class=\"rd__b  rd__b--3\"><ul class=\"rd__list rd__list-hang-notitle\"><li class=\"rd__li \"><p class=\"rd__p-list-item\" data-roll-name-ancestor=\"Ability Score Increase.\"><span class=\"bold rd__list-item-name\">Ability Score Increase.</span> Increase your Intelligence, Wisdom, or Charisma by 1, to a maximum of 20. (WIS)</p></li><li class=\"rd__li \"><p class=\"rd__p-list-item\" data-roll-name-ancestor=\"Ability Score Increase.\"><span class=\"bold rd__list-item-name\">Draconic Healing.</span> You learn the <span class=\"bold\" data-plut-hover=\"true\" data-plut-hover-page=\"spells.html\" data-plut-hover-source=\"PHB\" data-plut-hover-hash=\"cure%20wounds_phb\"><a class=\"content-link\" draggable=\"true\" data-link data-uuid=\"Compendium.talia-custom.customItems.Item.s1aALImVM1eBUrJu\" data-id=\"s1aALImVM1eBUrJu\" data-type=\"Item\" data-pack=\"talia-custom.customItems\" data-tooltip=\"Spell Item\">Cure Wounds</a></span> spell. You can cast this spell without expending a spell slot. Once you cast this spell in this way, you can't do so again until you finish a long rest. You can also cast this spell using spell slots you have. The spell's spellcasting ability is the ability increased by this feat.</p></li><li class=\"rd__li \"><p class=\"rd__p-list-item\" data-roll-name-ancestor=\"Ability Score Increase.\"><span class=\"bold rd__list-item-name\">Protective Wings.</span> You can manifest protective wings that can shield you or others. When you or another creature you can see within 5 feet of you is hit by an attack roll, you can use your reaction to manifest spectral wings from your back for a moment. You grant a bonus to the target's AC equal to your proficiency bonus against that attack roll, potentially causing it to miss. You can use this reaction a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest.</p></li></ul></div></div></div>",
+        "description": "<div><p>You've manifested some of the power of metallic dragons, granting you the following benefits:</p><div><div class=\"rd__b  rd__b--3\"><ul class=\"rd__list rd__list-hang-notitle\"><li class=\"rd__li \"><p class=\"rd__p-list-item\" data-roll-name-ancestor=\"Ability Score Increase.\"><span class=\"bold rd__list-item-name\">Ability Score Increase.</span> Increase your Intelligence, Wisdom, or Charisma by 1, to a maximum of 20. (WIS)</p></li><li class=\"rd__li \"><p class=\"rd__p-list-item\" data-roll-name-ancestor=\"Ability Score Increase.\"><span class=\"bold rd__list-item-name\">Draconic Healing.</span> You learn the <span class=\"bold\" data-plut-hover=\"true\" data-plut-hover-page=\"spells.html\" data-plut-hover-source=\"PHB\" data-plut-hover-hash=\"cure%20wounds_phb\">Cure Wounds</span> spell. You can cast this spell without expending a spell slot. Once you cast this spell in this way, you can't do so again until you finish a long rest. You can also cast this spell using spell slots you have. The spell's spellcasting ability is the ability increased by this feat.</p></li><li class=\"rd__li \"><p class=\"rd__p-list-item\" data-roll-name-ancestor=\"Ability Score Increase.\"><span class=\"bold rd__list-item-name\">Protective Wings.</span> You can manifest protective wings that can shield you or others. When you or another creature you can see within 5 feet of you is hit by an attack roll, you can use your reaction to manifest spectral wings from your back for a moment. You grant a bonus to the target's AC equal to your proficiency bonus against that attack roll, potentially causing it to miss. You can use this reaction a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest.</p></li></ul></div></div></div>",
         "requirements": "Feat (Monk 12)",
         "typeLabel": null,
         "subType": "",
@@ -5295,6 +5395,17 @@
         "requirements": "",
         "typeLabel": null,
         "subType": "",
+        "spellLevel": null,
+        "spellRange": null,
+        "spellSchool": null
+      },
+      {
+        "name": "Ioun Stone, Language Knowledge",
+        "itemType": "equipment",
+        "description": "<div class=\"rd__b  rd__b--2\"><p>An <i>Ioun stone</i> is named after Ioun, a god of knowledge and prophecy revered on some worlds. Many types of <i>Ioun stone</i> exist, each type a distinct combination of shape and color.</p><p>When you use an action to toss one of these stones into the air, the stone orbits your head at a distance of [[/r 1d3]] feet and confers a benefit to you. Thereafter, another creature must use an action to grasp or net the stone to separate it from you, either by making a successful attack roll against AC 24 or a successful DC 24 Dexterity (&amp;Reference[skill=Acrobatics]) check. You can use an action to seize and stow the stone, ending its effect.</p><p>A stone has AC 24, 10 hit points, and resistance to all damage. It is considered to be an object that is being worn while it orbits your head.</p><p>You are fluent in one additional language while this pulsating bit of red jeweled crystal orbits your head. The DM chooses the language bestowed by the stone.</p></div>",
+        "attunement": "",
+        "quantity": 1,
+        "typeLabel": "Trinket",
         "spellLevel": null,
         "spellRange": null,
         "spellSchool": null
