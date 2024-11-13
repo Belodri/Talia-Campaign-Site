@@ -650,41 +650,9 @@
         "name": "Dried Meat",
         "itemType": "loot",
         "description": "<p>The process of drying meat is long and extensive. In some particular cases, for the highest quality of dried meat, it can take over a year. It is highly sought after due to its extended shelf life, and depending on the meat used, it is, quite frankly, delicious.</p>",
-        "quantity": 87,
+        "quantity": 68,
         "typeLabel": "Food",
         "subType": "meal",
-        "spellLevel": null,
-        "spellRange": null,
-        "spellSchool": null
-      },
-      {
-        "name": "Potato Sack",
-        "itemType": "container",
-        "description": "<p>A sack can hold up to 1 cubic foot or 30 pounds of gear.</p>",
-        "attunement": "",
-        "quantity": 1,
-        "spellLevel": null,
-        "spellRange": null,
-        "spellSchool": null
-      },
-      {
-        "name": "Tinderbox",
-        "itemType": "loot",
-        "description": "<p>This small container holds flint, fire steel, and tinder (usually dry cloth soaked in light oil) used to kindle a fire. Using it to light a torch - or anything else with abundant, exposed fuel - takes an action. Lighting any other fire takes 1 minute.</p>\n<p> </p>",
-        "quantity": 1,
-        "typeLabel": "Loot",
-        "subType": "",
-        "spellLevel": null,
-        "spellRange": null,
-        "spellSchool": null
-      },
-      {
-        "name": "Spyglass",
-        "itemType": "loot",
-        "description": "<p>Objects viewed through a spyglass are magnified to twice their size.</p>\n<p> </p>",
-        "quantity": 1,
-        "typeLabel": "Loot",
-        "subType": "",
         "spellLevel": null,
         "spellRange": null,
         "spellSchool": null
@@ -694,17 +662,6 @@
         "itemType": "loot",
         "description": "<p>A textile fabric that is obtained from farm animals, mainly sheep, and is primarily used for clothing. In addition to that, it is also used for blankets, saddle cloths for cavalry, carpeting, and on rare occasions even a soil fertilizer.</p><p></p>",
         "quantity": 6,
-        "typeLabel": "Loot",
-        "subType": "",
-        "spellLevel": null,
-        "spellRange": null,
-        "spellSchool": null
-      },
-      {
-        "name": "Liquid Solid Slate",
-        "itemType": "loot",
-        "description": "<p>Little is known about the process of liquefaction, however, when used as an alloy with another metal, it is said to be unbreakable. Due to its weight, it makes it difficult for people trying to move stealthily.</p>",
-        "quantity": 20,
         "typeLabel": "Loot",
         "subType": "",
         "spellLevel": null,
@@ -771,17 +728,6 @@
         "spellSchool": null
       },
       {
-        "name": "Dragon \"Hair\"",
-        "itemType": "loot",
-        "description": "<p>Actually are Hair from a frost Giantess named Drufi.</p>",
-        "quantity": 1,
-        "typeLabel": "Loot",
-        "subType": "",
-        "spellLevel": null,
-        "spellRange": null,
-        "spellSchool": null
-      },
-      {
         "name": "Potion of Speed",
         "itemType": "consumable",
         "description": "<div class=\"rd__b  rd__b--2\"><p>When you drink this potion, you gain the effect of the Haste spell for 1 minute (no concentration required). The potion's yellow fluid is streaked with black and swirls on its own.</p></div>",
@@ -794,31 +740,9 @@
         "spellSchool": null
       },
       {
-        "name": "Jade",
-        "itemType": "loot",
-        "description": "<p>Its primary form is called Jadeite, after cutting, it's mainly used in ornamental sculptures and figurines. Musicians of all kinds believed that if they wore Jade, they would improve their musical prowess</p>",
-        "quantity": 1,
-        "typeLabel": "Gemstone",
-        "subType": "",
-        "spellLevel": null,
-        "spellRange": null,
-        "spellSchool": null
-      },
-      {
         "name": "Book: Slaves and Kings (Drofi's possession atm)",
         "itemType": "loot",
         "description": "<p>A book describing the steamy and forbidden romance between a rich multi-goldillionaire and the down-on-her-luck cleaner maid.</p><p>Threehundred pages of best-selling material made for fourtyfive year old women.</p>",
-        "quantity": 1,
-        "typeLabel": "Loot",
-        "subType": "",
-        "spellLevel": null,
-        "spellRange": null,
-        "spellSchool": null
-      },
-      {
-        "name": "Small Knife",
-        "itemType": "loot",
-        "description": "<p>A blunt knife used by the scholarly to open letters and correspondence.</p>",
         "quantity": 1,
         "typeLabel": "Loot",
         "subType": "",
@@ -927,17 +851,6 @@
         "spellSchool": null
       },
       {
-        "name": "Marble",
-        "itemType": "loot",
-        "description": "<p>Marble</p><p>The favorite tool of skilled sculptors, marble, transforms thoughts and emotions into beautiful sculptures as they carve it. Polished to a shine, it earns the sculptor a hefty profit when sold. Marble is one of the heaviest and most resilient stones that can be bought with coin. Its elegance makes it a popular choice for nobility, who use it for indoor flooring and heavy furnishings.</p>",
-        "quantity": 2,
-        "typeLabel": "Loot",
-        "subType": "",
-        "spellLevel": null,
-        "spellRange": null,
-        "spellSchool": null
-      },
-      {
         "name": "Dented Iron Flask",
         "itemType": "consumable",
         "description": "<p><em>Wondrous item</em></p><p>This iron bottle has a brass stopper. You can use an action to speak the flask's command word, targeting a creature that you can see within 60 feet of you. If the target is native to a plane of existence other than the one you're on, the target must succeed on a DC 17 Wisdom saving throw or be trapped in the flask. If the target has been trapped by the flask before, it has advantage on the saving throw. Once trapped, a creature remains in the flask until released. The flask can hold only one creature at a time. A creature trapped in the flask doesn't need to breathe, eat, or drink and doesn't age.</p><p>You can use an action to remove the flask's stopper and release the creature the flask contains. The creature acts in accordance with its normal disposition and alignment.</p><p>An @UUID[Compendium.dnd5e.spells.Item.3OZnNhunvRtPOQmH]{Identify} spell reveals that a creature is inside the flask, but the only way to determine the type of creature is to open the flask.</p>",
@@ -1006,6 +919,150 @@
         "attunement": "",
         "quantity": 1,
         "typeLabel": "Trinket",
+        "spellLevel": null,
+        "spellRange": null,
+        "spellSchool": null
+      },
+      {
+        "name": "Potion of Giant Size",
+        "itemType": "consumable",
+        "description": "<div class=\"rd__b  rd__b--2\"><p><em>This potion is a pale white liquid made from the tongue of a giant clam, with a pungent aroma akin to that of rotting algae. It tastes sweet, however, when consumed.</em></p><p>When you drink this potion, your size increases by up to two categories for 24 hours. For that duration, your Strength becomes 25, if it isn't already higher, and your hit point maximum is doubled (your current hit points are doubled when you drink the potion). In addition, the reach of your melee attacks increases by 5 feet.</p><p>Everything you are carrying and wearing also increases in size for the duration. When rolling damage for weapons enlarged in this manner, roll three times the normal number of dice; for example, an enlarged longsword would deal [[/r 3d8]] slashing damage (instead of [[/r 1d8]]), or [[/r 3d10]] slashing damage (instead of [[/r 1d10]]) when used with two hands.</p></div>",
+        "attunement": "",
+        "quantity": 2,
+        "typeLabel": "Potion",
+        "subType": "",
+        "spellLevel": null,
+        "spellRange": null,
+        "spellSchool": null
+      },
+      {
+        "name": "Torch",
+        "itemType": "consumable",
+        "description": "<div class=\"rd__b  rd__b--2\"><p>A torch burns for 1 hour, providing bright light in a 20-foot radius and dim light for an additional 20 feet. If you make a melee attack with a burning torch and hit, it deals 1 fire damage.</p></div>",
+        "attunement": "",
+        "quantity": 10,
+        "typeLabel": "Trinket",
+        "subType": "",
+        "spellLevel": null,
+        "spellRange": null,
+        "spellSchool": null
+      },
+      {
+        "name": "Ancient Brick",
+        "itemType": "loot",
+        "description": "",
+        "quantity": 1,
+        "typeLabel": "Loot",
+        "subType": "",
+        "spellLevel": null,
+        "spellRange": null,
+        "spellSchool": null
+      },
+      {
+        "name": "Backpack",
+        "itemType": "container",
+        "description": "<div class=\"rd__b  rd__b--2\"><p>A backpack can hold one cubic foot or 30 pounds of gear. You can also strap items, such as a bedroll or a coil of rope, to the outside of a backpack.</p></div>",
+        "attunement": "",
+        "quantity": 1,
+        "spellLevel": null,
+        "spellRange": null,
+        "spellSchool": null
+      },
+      {
+        "name": "Dragon \"Hair\"",
+        "itemType": "loot",
+        "description": "<p>Actually are Hair from a frost Giantess named Drufi.</p>",
+        "quantity": 1,
+        "typeLabel": "Loot",
+        "subType": "",
+        "spellLevel": null,
+        "spellRange": null,
+        "spellSchool": null
+      },
+      {
+        "name": "Jade",
+        "itemType": "loot",
+        "description": "<p>Its primary form is called Jadeite, after cutting, it's mainly used in ornamental sculptures and figurines. Musicians of all kinds believed that if they wore Jade, they would improve their musical prowess</p>",
+        "quantity": 1,
+        "typeLabel": "Gemstone",
+        "subType": "",
+        "spellLevel": null,
+        "spellRange": null,
+        "spellSchool": null
+      },
+      {
+        "name": "Tinderbox",
+        "itemType": "loot",
+        "description": "<p>This small container holds flint, fire steel, and tinder (usually dry cloth soaked in light oil) used to kindle a fire. Using it to light a torch - or anything else with abundant, exposed fuel - takes an action. Lighting any other fire takes 1 minute.</p>\n<p> </p>",
+        "quantity": 1,
+        "typeLabel": "Loot",
+        "subType": "",
+        "spellLevel": null,
+        "spellRange": null,
+        "spellSchool": null
+      },
+      {
+        "name": "Spyglass",
+        "itemType": "loot",
+        "description": "<p>Objects viewed through a spyglass are magnified to twice their size.</p>\n<p> </p>",
+        "quantity": 1,
+        "typeLabel": "Loot",
+        "subType": "",
+        "spellLevel": null,
+        "spellRange": null,
+        "spellSchool": null
+      },
+      {
+        "name": "Potato Sack",
+        "itemType": "container",
+        "description": "<p>A sack can hold up to 1 cubic foot or 30 pounds of gear.</p>",
+        "attunement": "",
+        "quantity": 1,
+        "spellLevel": null,
+        "spellRange": null,
+        "spellSchool": null
+      },
+      {
+        "name": "Liquid Solid Slate",
+        "itemType": "loot",
+        "description": "<p>Little is known about the process of liquefaction, however, when used as an alloy with another metal, it is said to be unbreakable. Due to its weight, it makes it difficult for people trying to move stealthily.</p>",
+        "quantity": 20,
+        "typeLabel": "Loot",
+        "subType": "",
+        "spellLevel": null,
+        "spellRange": null,
+        "spellSchool": null
+      },
+      {
+        "name": "Small Knife",
+        "itemType": "loot",
+        "description": "<p>A blunt knife used by the scholarly to open letters and correspondence.</p>",
+        "quantity": 1,
+        "typeLabel": "Loot",
+        "subType": "",
+        "spellLevel": null,
+        "spellRange": null,
+        "spellSchool": null
+      },
+      {
+        "name": "Marble",
+        "itemType": "loot",
+        "description": "<p>Marble</p><p>The favorite tool of skilled sculptors, marble, transforms thoughts and emotions into beautiful sculptures as they carve it. Polished to a shine, it earns the sculptor a hefty profit when sold. Marble is one of the heaviest and most resilient stones that can be bought with coin. Its elegance makes it a popular choice for nobility, who use it for indoor flooring and heavy furnishings.</p>",
+        "quantity": 2,
+        "typeLabel": "Loot",
+        "subType": "",
+        "spellLevel": null,
+        "spellRange": null,
+        "spellSchool": null
+      },
+      {
+        "name": "Hempen Rope (50 ft.)",
+        "itemType": "consumable",
+        "description": "<p>Rope, whether made of hemp or silk, has 2 hit points and can be burst with a DC 17 Strength check.</p>",
+        "attunement": "",
+        "quantity": 1,
+        "typeLabel": "Trinket",
+        "subType": "",
         "spellLevel": null,
         "spellRange": null,
         "spellSchool": null
@@ -1719,7 +1776,7 @@
         "name": "Black Pearl",
         "itemType": "loot",
         "description": "<p>Called the Black Pearl only as a descriptor factor, for it is known that it's possible to dye the pearl to achieve this specific dark color. In some religions, it is believed that if these pearls are found, they show the deity's favor or disfavor based on circumstance</p>",
-        "quantity": 8,
+        "quantity": 7,
         "typeLabel": "Gemstone",
         "subType": "",
         "spellLevel": null,
@@ -2104,7 +2161,7 @@
         "name": "Essence of Legend",
         "itemType": "loot",
         "description": "<p>Extracted from slain creatures renowned for their legendary resistances. This ethereal substance pulses with arcane energy, embodying the essence of resilience and defiance against formidable adversaries.</p>",
-        "quantity": 15,
+        "quantity": 14,
         "typeLabel": "Ingredient",
         "subType": "bodyPart",
         "spellLevel": null,
@@ -2762,7 +2819,7 @@
         "name": "Snow Moss",
         "itemType": "loot",
         "description": "<p>Clings to the walls of deep glacial crevasses. Its tiny, delicate leaves form a thick, velvety carpet that glistens with frost under the icy light.</p>",
-        "quantity": 13,
+        "quantity": 11,
         "typeLabel": "Ingredient",
         "subType": "herb",
         "spellLevel": null,
@@ -2939,6 +2996,18 @@
         "spellLevel": "Cantrip",
         "spellRange": "Touch",
         "spellSchool": "Divination"
+      },
+      {
+        "name": "Activated: Counterspell - 3rd",
+        "itemType": "consumable",
+        "description": "<div class=\"rd__b  rd__b--3\"><p>You attempt to interrupt a creature in the process of casting a spell. If the creature is casting a spell of 3rd level or lower, its spell fails and has no effect. If it is casting a spell of 4th level or higher, make an ability check using your spellcasting ability. The DC equals 10 + the spell's level. On a success, the creature's spell fails and has no effect.</p><div class=\"rd__spc-inline-post\"></div></div><div class=\"rd__b  rd__b--3\"><div class=\"rd__b  rd__b--3\"><span class=\"rd__h rd__h--3\" data-title-index=\"1\"> <span class=\"entry-title-inner\">At Higher Levels.</span></span> <p>When you cast this spell using a spell slot of 4th level or higher, the interrupted spell has no effect if its level is less than or equal to the level of the spell slot you used.</p><div class=\"rd__spc-inline-post\"></div></div><div class=\"rd__spc-inline-post\"></div></div>",
+        "attunement": "",
+        "quantity": 1,
+        "typeLabel": "Spell Gem",
+        "subType": "",
+        "spellLevel": null,
+        "spellRange": null,
+        "spellSchool": null
       }
     ],
     "Plex": [
@@ -2971,28 +3040,6 @@
         "attunement": "",
         "quantity": 1,
         "typeLabel": "Hat",
-        "spellLevel": null,
-        "spellRange": null,
-        "spellSchool": null
-      },
-      {
-        "name": "Backpack",
-        "itemType": "container",
-        "description": "<div class=\"rd__b  rd__b--2\"><p>A backpack can hold one cubic foot or 30 pounds of gear. You can also strap items, such as a bedroll or a coil of rope, to the outside of a backpack.</p></div>",
-        "attunement": "",
-        "quantity": 1,
-        "spellLevel": null,
-        "spellRange": null,
-        "spellSchool": null
-      },
-      {
-        "name": "Torch",
-        "itemType": "consumable",
-        "description": "<div class=\"rd__b  rd__b--2\"><p>A torch burns for 1 hour, providing bright light in a 20-foot radius and dim light for an additional 20 feet. If you make a melee attack with a burning torch and hit, it deals 1 fire damage.</p></div>",
-        "attunement": "",
-        "quantity": 10,
-        "typeLabel": "Trinket",
-        "subType": "",
         "spellLevel": null,
         "spellRange": null,
         "spellSchool": null
@@ -4185,18 +4232,6 @@
         "spellSchool": "Transmutation"
       },
       {
-        "name": "Hempen Rope (50 ft.)",
-        "itemType": "consumable",
-        "description": "<p>Rope, whether made of hemp or silk, has 2 hit points and can be burst with a DC 17 Strength check.</p>",
-        "attunement": "",
-        "quantity": 2,
-        "typeLabel": "Trinket",
-        "subType": "",
-        "spellLevel": null,
-        "spellRange": null,
-        "spellSchool": null
-      },
-      {
         "name": "Mage Hand",
         "itemType": "spell",
         "description": "<div class=\"rd__b  rd__b--3\"><p>A spectral, floating hand appears at a point you choose within range. The hand lasts for the duration or until you dismiss it as an action. The hand vanishes if it is ever more than 30 feet away from you or if you cast this spell again.</p><div class=\"rd__spc-inline-post\"></div><p>You can use your action to control the hand. You can use the hand to manipulate an object, open an unlocked door or container, stow or retrieve an item from an open container, or pour the contents out of a vial. You can move the hand up to 30 feet each time you use it.</p><p>The hand can't attack, activate magic items, or carry more than 10 pounds.</p></div>",
@@ -4276,17 +4311,6 @@
         "spellSchool": null
       },
       {
-        "name": "Ancient Brick",
-        "itemType": "loot",
-        "description": "",
-        "quantity": 1,
-        "typeLabel": "Loot",
-        "subType": "",
-        "spellLevel": null,
-        "spellRange": null,
-        "spellSchool": null
-      },
-      {
         "name": "bed sheet",
         "itemType": "loot",
         "description": "",
@@ -4296,14 +4320,6 @@
         "spellLevel": null,
         "spellRange": null,
         "spellSchool": null
-      },
-      {
-        "name": "Contingency: 5th Level Telekinesis",
-        "itemType": "spell",
-        "description": "<p><b>Circumstance: </b>If Plex notices a attempted mele attack or grapple against him. </p>\n        <p>The contingent spell takes effect immediately after the circumstance is met for the first time, whether or not you want it to, and then contingency ends.</p>undefined",
-        "spellLevel": "5th Level",
-        "spellRange": "60 ft",
-        "spellSchool": "Transmutation"
       },
       {
         "name": "Important Bowl to a dead man",
@@ -4365,6 +4381,53 @@
         "attunement": "",
         "quantity": 1,
         "typeLabel": "Scroll",
+        "subType": "",
+        "spellLevel": null,
+        "spellRange": null,
+        "spellSchool": null
+      },
+      {
+        "name": "Temporal Shunt",
+        "itemType": "spell",
+        "description": "<div class=\"rd__b  rd__b--3\"><p>You target the triggering creature, which must succeed on a Wisdom saving throw or vanish, being thrown to another point in time and causing the attack to miss or the spell to be wasted. At the start of its next turn, the target reappears where it was or in the closest unoccupied space. The target doesn't remember you casting the spell or being affected by it.</p></div><div class=\"rd__b  rd__b--3\"><div data-roll-name-ancestor=\"At Higher Levels\" class=\"rd__b  rd__b--3\"><span class=\"rd__h rd__h--3\" data-title-index=\"1\"> <span class=\"entry-title-inner\">At Higher Levels.</span></span> <p>When you cast this spell using a spell slot of 6th level or higher, you can target one additional creature for each slot level above 5th. All targets must be within 30 feet of each other.</p></div></div>",
+        "spellLevel": "5th Level",
+        "spellRange": "120 ft",
+        "spellSchool": "Transmutation"
+      },
+      {
+        "name": "Gravity Fissure",
+        "itemType": "spell",
+        "description": "<div class=\"rd__b  rd__b--3\"><p>You manifest a ravine of gravitational energy in a line originating from you that is 100 feet long and 5 feet wide. Each creature in that line must make a Constitution saving throw, taking [[/damage 8d8 type=force]] damage on a failed save, or half as much damage on a successful one.</p><p>Each creature within 10 feet of the line but not in it must succeed on a Constitution saving throw or take [[/damage 8d8 type=force]] damage and be pulled toward the line until the creature is in its area.</p></div><div class=\"rd__b  rd__b--3\"><div data-roll-name-ancestor=\"At Higher Levels\" class=\"rd__b  rd__b--3\"><p><span class=\"entry-title-inner\">At Higher Levels.</span></p><p>When you cast this spell using a spell slot of 7th level or higher, the damage increases by [[/damage 1d8]] for each slot level above 6th.</p></div></div>",
+        "spellLevel": "6th Level",
+        "spellRange": "None",
+        "spellSchool": "Evocation"
+      },
+      {
+        "name": "Vortex Swap",
+        "itemType": "spell",
+        "description": "<div class=\"rd__b  rd__b--3\"><p>You magically twist space around two creatures you can see within range simultaneously. Each target must succeed on a Constitution saving throw (each target can choose to fail), or get teleported to the location the other target occupied when you cast the spell.</p><p>If this spell would cause a target that was teleported to occupy the same spot as a solid object or creature, it is immediately shunted to the nearest unoccupied space that it can occupy and takes [[/damage 4d6 type=force]] damage.</p></div><div class=\"rd__b  rd__b--3\"><div data-roll-name-ancestor=\"At Higher Levels\" class=\"rd__b  rd__b--3\"><p><span class=\"entry-title-inner\">At Higher Levels.</span></p><p>When you cast this spell using a spell slot of 5th level or higher, the range of the spell increases by 30 feet for each slot level above 4th. If cast using a spell slot of 7th level or higher, you can choose to cast this spell as a reaction, which you take immediately after initiative has been rolled.</p></div></div>",
+        "spellLevel": "4th Level",
+        "spellRange": "60 ft",
+        "spellSchool": "Conjuration"
+      },
+      {
+        "name": "Bottle of Bagiennik Snot",
+        "itemType": "consumable",
+        "description": "<div class=\"rd__b  rd__b--2\"><p><em>As repulsive as many might find the snot of the frog-like Bagiennik, they cannot deny it's healing abilities.</em></p><p>You regain 8d4 + 8 hit points when you drink this potion.</p></div>",
+        "attunement": "",
+        "quantity": 9,
+        "typeLabel": "Potion",
+        "subType": "",
+        "spellLevel": null,
+        "spellRange": null,
+        "spellSchool": null
+      },
+      {
+        "name": "Felt Hat (Two-Person Tent)",
+        "itemType": "loot",
+        "description": "<p>A simple and portable canvas shelter, a tent sleeps two.</p>",
+        "quantity": 1,
+        "typeLabel": "Adventuring Gear",
         "subType": "",
         "spellLevel": null,
         "spellRange": null,
@@ -4673,17 +4736,6 @@
         "spellSchool": null
       },
       {
-        "name": "Chef",
-        "itemType": "feat",
-        "description": "<div><p>Time spent mastering the culinary arts has paid off, granting you the following benefits:</p><div><div class=\"rd__b  rd__b--3\"><ul><li><p>Increase your Dexterity, Constitution, or Wisdom by 1, to a maximum of 20.</p></li><li><p>You gain proficiency with cook's utensils if you don't already have it.</p></li><li><p>As part of a short rest, you can cook a quick snack for your party, provided you have ingredients and cook's utensils on hand. Doing so takes one snack item for each party member and lets everyone in your party regain hit points equal to 1d8 * your proficiency bonus.</p></li><li><p>When you finish a long rest and at the cost of one meal item per party member, you can make a meal for your party that gives them temporary hit points equal to 2d4 * your proficiency bonus.</p></li></ul></div></div></div>",
-        "requirements": "Feat (Monk 4)",
-        "typeLabel": null,
-        "subType": "",
-        "spellLevel": null,
-        "spellRange": null,
-        "spellSchool": null
-      },
-      {
         "name": "Slumbering Dragon Vessel",
         "itemType": "consumable",
         "description": "<p>This vessel can be a potion bottle, drinking horn, or other container meant to hold a liquid.</p><p>As a bonus action, if the vessel is empty, you can speak the command word to fill the vessel with one of the following (your choice): ale, olive oil, a potion of healing, or a potion of climbing. Once this property is used, it can't be used until the next dawn.</p>",
@@ -4736,17 +4788,6 @@
         "description": "<p>Your mastery of the Ki flowing through you makes you immune to disease and allows you to use your Deflect Missiles feature on ranged spell attacks as well as ranged weapon attacks.</p>",
         "requirements": "Monk 9",
         "typeLabel": null,
-        "subType": "",
-        "spellLevel": null,
-        "spellRange": null,
-        "spellSchool": null
-      },
-      {
-        "name": "Sassafras",
-        "itemType": "loot",
-        "description": "",
-        "quantity": 1,
-        "typeLabel": "Spice",
         "subType": "",
         "spellLevel": null,
         "spellRange": null,
@@ -5020,17 +5061,6 @@
         "spellSchool": null
       },
       {
-        "name": "Star Anise",
-        "itemType": "loot",
-        "description": "",
-        "quantity": 1,
-        "typeLabel": "Loot",
-        "subType": "",
-        "spellLevel": null,
-        "spellRange": null,
-        "spellSchool": null
-      },
-      {
         "name": "Activated: Greater Invisibility - 4th",
         "itemType": "consumable",
         "description": "<table><tbody><tr><td><p style=\"font-weight:bold;text-align:center\"><strong>4th Level</strong></p></td></tr></tbody></table><div class=\"rd__b  rd__b--3\"><p>You or a creature you touch becomes &amp;Reference[condition=invisible] until the spell ends. Anything the target is wearing or carrying is &amp;Reference[condition=invisible] as long as it is on the target's person.</p></div>",
@@ -5067,34 +5097,12 @@
         "spellSchool": null
       },
       {
-        "name": "White Dragon Egg",
-        "itemType": "loot",
-        "description": "<p>The egg of a white dragon. If kept sufficiently cold it might hatch soon…</p>",
-        "quantity": 1,
-        "typeLabel": "Loot",
-        "subType": "",
-        "spellLevel": null,
-        "spellRange": null,
-        "spellSchool": null
-      },
-      {
         "name": "Potion of Speed",
         "itemType": "consumable",
         "description": "<div class=\"rd__b  rd__b--2\"><p>When you drink this potion, you gain the effect of the Haste spell for 1 minute (no concentration required). The potion's yellow fluid is streaked with black and swirls on its own.</p></div>",
         "attunement": "",
         "quantity": 1,
         "typeLabel": "Potion",
-        "subType": "",
-        "spellLevel": null,
-        "spellRange": null,
-        "spellSchool": null
-      },
-      {
-        "name": "Aloe Vera",
-        "itemType": "loot",
-        "description": "",
-        "quantity": 1,
-        "typeLabel": "Spice",
         "subType": "",
         "spellLevel": null,
         "spellRange": null,
@@ -5181,20 +5189,9 @@
         "name": "Dried Meat",
         "itemType": "loot",
         "description": "<p>The process of drying meat is long and extensive. In some particular cases, for the highest quality of dried meat, it can take over a year. It is highly sought after due to its extended shelf life, and depending on the meat used, it is, quite frankly, delicious.</p>",
-        "quantity": 13,
+        "quantity": 8,
         "typeLabel": "Food",
         "subType": "meal",
-        "spellLevel": null,
-        "spellRange": null,
-        "spellSchool": null
-      },
-      {
-        "name": "Chili Pepper",
-        "itemType": "loot",
-        "description": "<p>Harvested usually in most warm climates, it is used mainly as a spice in cuisines to add some \"warmth\" to the dish.</p>",
-        "quantity": 1,
-        "typeLabel": "Spice",
-        "subType": "spice",
         "spellLevel": null,
         "spellRange": null,
         "spellSchool": null
@@ -5233,7 +5230,7 @@
         "spellSchool": null
       },
       {
-        "name": "Saffron",
+        "name": "Sassafras",
         "itemType": "loot",
         "description": "",
         "quantity": 2,
@@ -5244,21 +5241,10 @@
         "spellSchool": null
       },
       {
-        "name": "Sassafras",
-        "itemType": "loot",
-        "description": "",
-        "quantity": 1,
-        "typeLabel": "Spice",
-        "subType": "",
-        "spellLevel": null,
-        "spellRange": null,
-        "spellSchool": null
-      },
-      {
         "name": "Star Anise",
         "itemType": "loot",
         "description": "",
-        "quantity": 1,
+        "quantity": 2,
         "typeLabel": "Loot",
         "subType": "",
         "spellLevel": null,
@@ -5321,17 +5307,6 @@
         "spellSchool": null
       },
       {
-        "name": "Rhubarb Pie",
-        "itemType": "loot",
-        "description": "<p>Rhubarb Pie delights with its sweet and tangy taste, accentuated by a fruity filling that holds together nicely. Since rhubarb is a seasonal vegetable, this pie is only available for a limited time after the cold seasons.</p>",
-        "quantity": 4,
-        "typeLabel": "Food",
-        "subType": "snack",
-        "spellLevel": null,
-        "spellRange": null,
-        "spellSchool": null
-      },
-      {
         "name": "Thorn Whip",
         "itemType": "spell",
         "description": "<div class=\"rd__b  rd__b--3\"><p>You create a long, vine-like whip covered in thorns that lashes out at your command toward a creature in range. Make a melee spell attack against the target. If the attack hits, the creature takes [[/damage 1d6 type=piercing]] damage, and if the creature is Large or smaller, you pull the creature up to 10 feet closer to you.</p><div class=\"rd__spc-inline-post\"></div><p>This spell's damage increases by [[/r 1d6]] when you reach 5th level ([[/damage 2d6]]), 11th level ([[/damage 3d6]]), and 17th level ([[/damage 4d6]]).</p></div>",
@@ -5362,7 +5337,7 @@
         "name": "Dried Meat",
         "itemType": "loot",
         "description": "<p>The process of drying meat is long and extensive. In some particular cases, for the highest quality of dried meat, it can take over a year. It is highly sought after due to its extended shelf life, and depending on the meat used, it is, quite frankly, delicious.</p>",
-        "quantity": 5,
+        "quantity": 24,
         "typeLabel": "Food",
         "subType": "meal",
         "spellLevel": null,
@@ -5406,6 +5381,105 @@
         "attunement": "",
         "quantity": 1,
         "typeLabel": "Trinket",
+        "spellLevel": null,
+        "spellRange": null,
+        "spellSchool": null
+      },
+      {
+        "name": "Chef",
+        "itemType": "feat",
+        "description": "<div><p>Time spent mastering the culinary arts has paid off, granting you the following benefits:</p><div><div class=\"rd__b  rd__b--3\"><ul><li><p>Increase your Dexterity, Constitution, or Wisdom by 1, to a maximum of 20.</p></li><li><p>You gain proficiency with cook's utensils if you don't already have it.</p></li><li><p>As part of a short rest, you can cook a quick snack for your party, provided you have ingredients and cook's utensils on hand. Doing so takes one snack item for each party member and lets everyone in your party regain hit points equal to 1d8 * your proficiency bonus.</p></li><li><p>When you finish a long rest and at the cost of one meal item per party member, you can make a meal for your party that gives them temporary hit points equal to 2d4 * your proficiency bonus.</p></li></ul></div></div></div>",
+        "requirements": "Feat (Monk 4)",
+        "typeLabel": null,
+        "subType": "",
+        "spellLevel": null,
+        "spellRange": null,
+        "spellSchool": null
+      },
+      {
+        "name": "Lavender",
+        "itemType": "loot",
+        "description": "",
+        "quantity": 13,
+        "typeLabel": "Spice",
+        "subType": "",
+        "spellLevel": null,
+        "spellRange": null,
+        "spellSchool": null
+      },
+      {
+        "name": "Chili Pepper",
+        "itemType": "loot",
+        "description": "<p>Harvested usually in most warm climates, it is used mainly as a spice in cuisines to add some \"warmth\" to the dish.</p>",
+        "quantity": 10,
+        "typeLabel": "Spice",
+        "subType": "spice",
+        "spellLevel": null,
+        "spellRange": null,
+        "spellSchool": null
+      },
+      {
+        "name": "Eucalyptus",
+        "itemType": "loot",
+        "description": "",
+        "quantity": 10,
+        "typeLabel": "Spice",
+        "subType": "",
+        "spellLevel": null,
+        "spellRange": null,
+        "spellSchool": null
+      },
+      {
+        "name": "Ginger",
+        "itemType": "loot",
+        "description": "<p>Ginger, is widely used as a spice and folk medicine. It is provided as tea for those who have weak stomachs to combat nausea, among other things.</p>",
+        "quantity": 10,
+        "typeLabel": "Spice",
+        "subType": "",
+        "spellLevel": null,
+        "spellRange": null,
+        "spellSchool": null
+      },
+      {
+        "name": "Licorice Root",
+        "itemType": "loot",
+        "description": "",
+        "quantity": 10,
+        "typeLabel": "Spice",
+        "subType": "",
+        "spellLevel": null,
+        "spellRange": null,
+        "spellSchool": null
+      },
+      {
+        "name": "Rhubarb",
+        "itemType": "loot",
+        "description": "",
+        "quantity": 10,
+        "typeLabel": "Spice",
+        "subType": "",
+        "spellLevel": null,
+        "spellRange": null,
+        "spellSchool": null
+      },
+      {
+        "name": "Vanilla",
+        "itemType": "loot",
+        "description": "",
+        "quantity": 10,
+        "typeLabel": "Spice",
+        "subType": "",
+        "spellLevel": null,
+        "spellRange": null,
+        "spellSchool": null
+      },
+      {
+        "name": "Wasabi",
+        "itemType": "loot",
+        "description": "",
+        "quantity": 10,
+        "typeLabel": "Spice",
+        "subType": "",
         "spellLevel": null,
         "spellRange": null,
         "spellSchool": null
