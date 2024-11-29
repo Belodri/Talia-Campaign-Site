@@ -264,7 +264,7 @@
         "itemType": "consumable",
         "description": "<div class=\"rd__b  rd__b--2\"><p><em>The potion's red liquid glimmers when agitated.</em></p><p>You regain 4d4 + 4 hit points when you drink this potion.</p></div>",
         "attunement": "",
-        "quantity": 3,
+        "quantity": 2,
         "typeLabel": "Potion",
         "subType": "",
         "spellLevel": null,
@@ -491,17 +491,6 @@
         "spellSchool": null
       },
       {
-        "name": "Legendary Vigor",
-        "itemType": "feat",
-        "description": "<p>Before making a Strength or Constitution ability check or saving throw, you can expend 1 Mythic Power to automatically succeed, treating the result as a critical success without rolling.</p>",
-        "requirements": "Mythic Legend 1",
-        "typeLabel": null,
-        "subType": "",
-        "spellLevel": null,
-        "spellRange": null,
-        "spellSchool": null
-      },
-      {
         "name": "Titanous Strength",
         "itemType": "feat",
         "description": "<p>Your Strength and Constitution scores, as well as your maximum for those scores, increase by 2 for each Mythic Rank you have.</p>",
@@ -705,30 +694,6 @@
         "spellSchool": null
       },
       {
-        "name": "Potion of Growth",
-        "itemType": "consumable",
-        "description": "<div class=\"rd__b  rd__b--2\"><p><em>The red in the potion's liquid continuously expands from a tiny bead to color the clear liquid around it and then contracts. Shaking the bottle fails to interrupt this process.</em></p><p>When you drink this potion, you gain the \"enlarge\" effect of the enlarge/reduce spell for 1d4 hours (no concentration required):</p></div><p>While enlarged, your size is increased by one category and your weight is multiplied by eight.<br />You have advantage on Strength checks and saving throws and your attacks with weapons deal an additional 1d4 damage.</p>",
-        "attunement": "",
-        "quantity": 1,
-        "typeLabel": "Potion",
-        "subType": "",
-        "spellLevel": null,
-        "spellRange": null,
-        "spellSchool": null
-      },
-      {
-        "name": "Potion of Speed",
-        "itemType": "consumable",
-        "description": "<div class=\"rd__b  rd__b--2\"><p>When you drink this potion, you gain the effect of the Haste spell for 1 minute (no concentration required). The potion's yellow fluid is streaked with black and swirls on its own.</p></div>",
-        "attunement": "",
-        "quantity": 1,
-        "typeLabel": "Potion",
-        "subType": "",
-        "spellLevel": null,
-        "spellRange": null,
-        "spellSchool": null
-      },
-      {
         "name": "Book: Slaves and Kings (Drofi's possession atm)",
         "itemType": "loot",
         "description": "<p>A book describing the steamy and forbidden romance between a rich multi-goldillionaire and the down-on-her-luck cleaner maid.</p><p>Threehundred pages of best-selling material made for fourtyfive year old women.</p>",
@@ -747,17 +712,6 @@
         "quantity": 1,
         "typeLabel": "Trinket",
         "subType": "",
-        "spellLevel": null,
-        "spellRange": null,
-        "spellSchool": null
-      },
-      {
-        "name": "Aztec Draconic Shield",
-        "itemType": "equipment",
-        "description": "<p>A shield is made from wood or metal and is carried in one hand. Wielding a shield increases your Armor Class by 2. You can benefit from only one shield at a time.</p>",
-        "attunement": "NaN",
-        "quantity": 1,
-        "typeLabel": "Shield",
         "spellLevel": null,
         "spellRange": null,
         "spellSchool": null
@@ -823,28 +777,12 @@
         "itemType": "consumable",
         "description": "<blockquote><p>Amonst Alushinyrra's elites, the hottest trends are also the deadliest. This polish ensures you're both.</p></blockquote><p>When applied to non-magical natural weapons, such as teeth, claws, or pincers, this shimmering substance not only enhances the user's looks for 12 hours. Attacks with the enchanted natural weapons deal an additional 2d6 fire damage on hit and are treated as magical for the purpose of overcoming damage reduction.</p>",
         "attunement": "",
-        "quantity": 3,
+        "quantity": 2,
         "typeLabel": "Potion",
         "subType": "",
         "spellLevel": null,
         "spellRange": null,
         "spellSchool": null
-      },
-      {
-        "name": "Resistance",
-        "itemType": "spell",
-        "description": "<p>You touch one willing creature. For the duration of the spell, the creature adds a d4 to all saving throws.</p>",
-        "spellLevel": "Cantrip",
-        "spellRange": "Touch",
-        "spellSchool": "Abjuration"
-      },
-      {
-        "name": "Death Ward",
-        "itemType": "spell",
-        "description": "<p>You touch a creature and grant it a measure of protection from death.</p><p>The first time the target would drop to 0 hit points as a result of taking damage, the target instead drops to 1 hit point, and the spell ends.</p><p>If the spell is still in effect when the target is subjected to an effect that would kill it instantaneously without dealing damage, that effect is instead negated against the target, and the spell ends.</p>",
-        "spellLevel": "4th Level",
-        "spellRange": "Touch",
-        "spellSchool": "Abjuration"
       },
       {
         "name": "Shalkoc's Black Scale",
@@ -1035,69 +973,83 @@
         "spellSchool": null
       },
       {
-        "name": "Potion of Necrotic Resistance",
-        "itemType": "consumable",
-        "description": "<p><em>The potion is a plain indescriminate color and smells slightly foul.</em></p><p>When you drink this potion, you gain resistance to Necrotic type damage for 1 hour.</p>",
-        "attunement": "",
-        "quantity": 1,
-        "typeLabel": "Potion",
+        "name": "Legendary Vigor",
+        "itemType": "feat",
+        "description": "<p>By expending 1 Mythic Power as a free action on your turn, you can achieve feats of strength and endurance that most would consider to lie firmly in the realm of myth and legend. Alternatively, while it is not your turn, you can use this feature as a reaction, which you take before making a Strength or Constitution ability check or saving throw.</p><p>For 1 round per Mythic Rank, you gain the following benefits:</p><ul><li><p>Whenever you make a Strength or Constitution ability check or saving throw, you treat a d20 roll of 19 or lower as a 20.</p></li><li><p>When using the Grapple action, you can grapple creatures of any size as if they were no more than one size larger than you.</p></li><li><p>The damage of your melee weapon attacks against structures and objects increases by a factor of 10 per Mythic Rank.</p></li><li><p>The maximum distance you can jump and the distance you can shove a creature when you use the Shove action both increase by a factor of 10 per mythic rank.</p></li><li><p>Your carrying capacity and the weight you can push, drag, or lift increases by a factor of 10 per Mythic Rank.</p></li></ul><p> Immediately after this effect ends, the grappled condition ends on any creature grappled by you if its size exceeds the maximum size you can grapple.</p>",
+        "requirements": "Mythic Legend 1",
+        "typeLabel": null,
         "subType": "",
         "spellLevel": null,
         "spellRange": null,
         "spellSchool": null
       },
       {
-        "name": "Potion of Heroism",
-        "itemType": "consumable",
-        "description": "<p><em>This blue potion bubbles and steams as if boiling.</em></p><p>When you drink this potion you gain 10 temporary hit points. Additionally you are under the effect of the Bless spell for 1 hour (no concentration required).</p>",
-        "attunement": "",
-        "quantity": 1,
-        "typeLabel": "Potion",
+        "name": "Sacred Flame",
+        "itemType": "spell",
+        "description": "<div class=\"rd__b  rd__b--3\"><p>Flame-like radiance descends on a creature that you can see within range. The target must succeed on a Dexterity saving throw or take [[/damage 1d8 type=radiant]] damage. The target gains no benefit from cover for this saving throw.</p><div class=\"rd__spc-inline-post\"><p></p></div><p>The spell's damage increases by [[/r 1d8]] when you reach 5th level ([[/damage 2d8]]), 11th level ([[/damage 3d8]]), and 17th level ([[/damage 4d8]]).</p></div>",
+        "spellLevel": "Cantrip",
+        "spellRange": "60 ft",
+        "spellSchool": "Evocation"
+      },
+      {
+        "name": "Fire Shield",
+        "itemType": "spell",
+        "description": "<div class=\"rd__b  rd__b--3\"><p>Thin and wispy flames wreathe your body for the duration, shedding bright light in a 10-foot radius and dim light for an additional 10 feet. You can end the spell early by using an action to dismiss it.</p><div class=\"rd__spc-inline-post\"></div><p>The flames provide you with a warm shield or a chill shield, as you choose. The warm shield grants you resistance to cold damage, and the chill shield grants you resistance to fire damage.</p><p>In addition, whenever a creature within 5 feet of you hits you with a melee attack, the shield erupts with flame. The attacker takes [[/damage 2d8 type=fire]] damage from a warm shield, or [[/damage 2d8 type=cold]] damage from a cold shield.</p></div>",
+        "spellLevel": "4th Level",
+        "spellRange": "Self",
+        "spellSchool": "Evocation"
+      },
+      {
+        "name": "Adept Forager",
+        "itemType": "feat",
+        "description": "<p>You have advantage on Survival checks and you add your Constitution modifier to these checks.</p>",
+        "requirements": "Elk Spirit",
+        "typeLabel": "Spirit Beast Power",
+        "subType": "beastPower",
+        "spellLevel": null,
+        "spellRange": null,
+        "spellSchool": null
+      },
+      {
+        "name": "Battering Ram",
+        "itemType": "feat",
+        "description": "<p>When you take the Attack action on your turn, you can replace one of your attacks with a special charge attack.</p><p>You move up to 50 feet in a straight line that is 5 feet wide, stopping when you hit the first creature in your path. The creature must make a Strength saving throw (DC = 8 + your Strength modifier + your Constitution modifier + your proficiency bonus). On a failed save, the creature takes 1d12 + your Strength modifier bludgeoning damage and is knocked back a distance equal to how far you charged before hitting it (to a maximum of 50 feet).</p><p>﻿If the creature is knocked back into another creature or a solid object, additional effects occur based on the distance it was knocked back:</p><ul><li><p>Less than 30 feet: The creature is &amp;Reference[distracted] until the start of its next turn.</p></li><li><p>30 to 40 feet: The creature is &amp;Reference[restrained] until the end of its next turn.</p></li><li><p>More than 40 feet: The creature is &amp;Reference[paralyzed] until the end of its next turn.</p></li></ul><p>﻿If the creature collides with another creature, both creatures suffer the same effect.</p>",
+        "requirements": "Elk Spirit",
+        "typeLabel": "Spirit Beast Power",
+        "subType": "beastPower",
+        "spellLevel": null,
+        "spellRange": null,
+        "spellSchool": null
+      },
+      {
+        "name": "Survival Instincts",
+        "itemType": "feat",
+        "description": "<p>Your walking speed is increased by 20ft, you have a 1d6 bonus to your initiative rolls and, as long as you aren't incapacitated, you cannot be surprised.</p><p>Using Battering Ram grants you an amount of temporary hit points equal to your barbarian level.</p>",
+        "requirements": "Elk Spirit",
+        "typeLabel": "Spirit Beast Power",
+        "subType": "beastPower",
+        "spellLevel": null,
+        "spellRange": null,
+        "spellSchool": null
+      },
+      {
+        "name": "Hearthstone",
+        "itemType": "loot",
+        "description": "<p>The Hearthstone is a sacred item among all giantkin. These heavy, flat pieces of granite—typically 1 to 2 feet in diameter—are painstakingly carved by mighty runepriests, imbued with ancient magic to tether the bearer’s essence to a place of safety. Revered as both currency and a protective charm, Hearthstones are traded between giants with great reverence, their value lying not only in material worth but in the promise of an arduous but ultimately safe journey back home in death, for those strong enough to endure it.</p><p><strong>Shattering</strong></p><p>When a creature carrying a Hearthstone dies, the Hearthstone shatters. Upon doing so, the creature must make a [[/save con DC 18 format=long]]. On a successful save, the creature's body and any attuned items it carried at the time of its death instantly return to the location of its last extended rest (an extended rest takes 1 month). The body appears unconscious, afflicted by a deep fever, and remains in this state until the soul completes its return journey.</p><p>Unless the creature’s soul is captured at the time of the creature's death, it must travel through a cold and snow-covered woodland, eventually finding refuge in a warm cabin, symbolizing its body. The journey back to its body takes a number of weeks equal to 50 minus the result of the saving throw (minimum of 1 week). During this time, the creature cannot be revived by any means, including spells like revivify or raise dead.</p><p>Once the soul completes its journey, the creature’s fever breaks, and it awakens with 1 hit point. The Hearthstone is destroyed after use and cannot be restored or repaired.</p>",
+        "quantity": 2,
+        "typeLabel": "Exotic Currency",
         "subType": "",
         "spellLevel": null,
         "spellRange": null,
         "spellSchool": null
       },
       {
-        "name": "Compelled Duel",
-        "itemType": "feat",
-        "description": "<p>Using your bonus action, you can roll an Intimidation check to challenge a single creature that can see you to a duel.</p><p>The DC against this ability is check's total.</p><p>The creature needs to make a Wisdom saving throw. On a failed save, it has to focus all of it's attention solely on you for it's next two turns.</p><p>Creatures with a Strength score that is higher than their Intelligence and Wisdom scores combined automatically fail this save.</p><p>Only one creature can be compelled to duel you at any given time.</p>",
-        "requirements": "Bear Spirit",
-        "typeLabel": "Spirit Beast Power",
-        "subType": "beastPower",
-        "spellLevel": null,
-        "spellRange": null,
-        "spellSchool": null
-      },
-      {
-        "name": "Ironfur",
-        "itemType": "feat",
-        "description": "<p>When you take damage from a melee attack, your damage resistances reflect half of the incoming damage back at the attacker instead of just preventing it.</p>",
-        "requirements": "Bear Spirit",
-        "typeLabel": "Spirit Beast Power",
-        "subType": "beastPower",
-        "spellLevel": null,
-        "spellRange": null,
-        "spellSchool": null
-      },
-      {
-        "name": "Intimidating Presence",
-        "itemType": "feat",
-        "description": "<p>You have advantage on Intimidation checks and you add your Strength modifier to Intimidation checks.</p>",
-        "requirements": "Bear Spirit",
-        "typeLabel": "Spirit Beast Power",
-        "subType": "beastPower",
-        "spellLevel": null,
-        "spellRange": null,
-        "spellSchool": null
-      },
-      {
-        "name": "Savage Taunt",
-        "itemType": "feat",
-        "description": "<p>Using your bonus action, you can roll an Intimidation check to present yourself as the biggest threat on the battlefield.</p><p>The DC against this ability is half the check's total, rounded up.</p><p>Hostile creatures within 20ft of you need to make a Wisdom saving throw. On a failed save, they have to focus all of their attention solely on you for their next two turns.</p><p>Creatures with a Strength score that is higher than their Intelligence and Wisdom scores combined automatically fail this save.</p>",
-        "requirements": "Bear Spirit",
-        "typeLabel": "Spirit Beast Power",
-        "subType": "beastPower",
+        "name": "Aztec Draconic Shield",
+        "itemType": "equipment",
+        "description": "<p>A shield is made from wood or metal and is carried in one hand. Wielding a shield increases your Armor Class by 2. You can benefit from only one shield at a time.</p>",
+        "attunement": "NaN",
+        "quantity": 1,
+        "typeLabel": "Shield",
         "spellLevel": null,
         "spellRange": null,
         "spellSchool": null
@@ -1592,18 +1544,6 @@
         "spellSchool": null
       },
       {
-        "name": "Potion of Heroism",
-        "itemType": "consumable",
-        "description": "<p><em>This blue potion bubbles and steams as if boiling.</em></p><p>When you drink this potion you gain 10 temporary hit points. Additionally you are under the effect of the Bless spell for 1 hour (no concentration required).</p>",
-        "attunement": "",
-        "quantity": 1,
-        "typeLabel": "Potion",
-        "subType": "",
-        "spellLevel": null,
-        "spellRange": null,
-        "spellSchool": null
-      },
-      {
         "name": "Potion of Maximum Power",
         "itemType": "consumable",
         "description": "<p><em>This glowing purple liquid smells of sugar and plum, but it has a muddy taste.</em></p><p>The first time you cast a damage-dealing spell of 4th level or lower within 1 minute after drinking the potion, instead of rolling dice to determine the damage dealt, you instead use the highest number possible for each die.</p>",
@@ -1866,7 +1806,7 @@
         "name": "Plant Muscle Fibres",
         "itemType": "loot",
         "description": "<p>Harvested from medium-sized or larger plant creatures upon their demise. These fibrous strands possess a resilient texture and a pale green hue, reminiscent of the plant creature's own tissues.</p>",
-        "quantity": 51,
+        "quantity": 45,
         "typeLabel": "Ingredient",
         "subType": "bodyPart",
         "spellLevel": null,
@@ -1899,7 +1839,7 @@
         "name": "Salt Vine",
         "itemType": "loot",
         "description": "<p>Found on coastal rocks exposed to continuous sea mist. Characterized by fleshy, silver-tinted leaves with curled edges. Clusters of small, star-shaped flowers bloom in shades ranging from light purple to deep violet.</p>",
-        "quantity": 7,
+        "quantity": 4,
         "typeLabel": "Ingredient",
         "subType": "herb",
         "spellLevel": null,
@@ -1921,7 +1861,7 @@
         "name": "Bloodroot",
         "itemType": "loot",
         "description": "<p>Clings to the walls of particularly damp caverns. A blood-red vine adorned with thick, black needles, resembling smoldering embers.</p>",
-        "quantity": 23,
+        "quantity": 21,
         "typeLabel": "Ingredient",
         "subType": "herb",
         "spellLevel": null,
@@ -2207,7 +2147,7 @@
         "name": "Necromantic Binding",
         "itemType": "loot",
         "description": "<p>Acquired from huge-sized or larger undead creatures. This dark, ethereal essence carries an aura of death and decay, radiating an ominous energy that binds the undead to their master's will.</p>",
-        "quantity": 44,
+        "quantity": 43,
         "typeLabel": "Ingredient",
         "subType": "bodyPart",
         "spellLevel": null,
@@ -2505,7 +2445,7 @@
         "name": "Blue-White Diamond",
         "itemType": "loot",
         "description": "<p>The most notable gem from the Diamond variations is usually the colorless one which does have a blue-white tint. The use of diamonds is mainly in the jewelry market. Due to its brilliance, hardness, and rarity, it is the most famous of all gemstones. </p>",
-        "quantity": 8,
+        "quantity": 22,
         "typeLabel": "Gemstone",
         "subType": "",
         "spellLevel": null,
@@ -3029,18 +2969,6 @@
         "spellSchool": null
       },
       {
-        "name": "Potion of Necrotic Resistance",
-        "itemType": "consumable",
-        "description": "<p><em>The potion is a plain indescriminate color and smells slightly foul.</em></p><p>When you drink this potion, you gain resistance to Necrotic type damage for 1 hour.</p>",
-        "attunement": "",
-        "quantity": 1,
-        "typeLabel": "Potion",
-        "subType": "",
-        "spellLevel": null,
-        "spellRange": null,
-        "spellSchool": null
-      },
-      {
         "name": "Raulothim's Psychic Lance",
         "itemType": "spell",
         "description": "<div class=\"rd__b  rd__b--3\"><p>You unleash a shimmering lance of psychic power from your forehead at a creature that you can see within range. Alternatively, you can utter a creature's name. If the named target is within range, it becomes the spell's target even if you can't see it. If the named target isn't within range, the lance dissipates without effect.</p><div class=\"rd__spc-inline-post\"></div><p>The target must make an Intelligence saving throw. On a failed save, the target takes <span><span class=\"roll-link\" data-type=\"damage\" data-formula=\"7d6\" data-damage-type=\"psychic\"><a data-action=\"roll\"><i class=\"fa-solid fa-dice-d20\"></i>7d6</a></span> psychic</span> damage and is <span class=\"reference-link\"><a class=\"content-link\" data-uuid=\"Compendium.dnd5e.rules.JournalEntry.w7eitkpD7QQTB6j0.JournalEntryPage.TpkZgLfxCmSndmpb\" data-id=\"TpkZgLfxCmSndmpb\" data-type=\"JournalEntryPage\" data-pack=\"dnd5e.rules\" data-tooltip=\"Rule Page\"><i class=\"fas fa-book-open\"></i>Incapacitated</a><a class=\"enricher-action\" data-action=\"apply\" data-status=\"incapacitated\" data-tooltip=\"EDITOR.DND5E.Inline.ApplyStatus\" aria-label=\"Apply Status to Selected Tokens\"><i class=\"fas fa-fw fa-reply-all fa-flip-horizontal\"></i></a></span> until the start of your next turn. On a successful save, the creature takes half as much damage and isn't <span class=\"reference-link\"><a class=\"content-link\" data-uuid=\"Compendium.dnd5e.rules.JournalEntry.w7eitkpD7QQTB6j0.JournalEntryPage.TpkZgLfxCmSndmpb\" data-id=\"TpkZgLfxCmSndmpb\" data-type=\"JournalEntryPage\" data-pack=\"dnd5e.rules\" data-tooltip=\"Rule Page\"><i class=\"fas fa-book-open\"></i>Incapacitated</a><a class=\"enricher-action\" data-action=\"apply\" data-status=\"incapacitated\" data-tooltip=\"EDITOR.DND5E.Inline.ApplyStatus\" aria-label=\"Apply Status to Selected Tokens\"><i class=\"fas fa-fw fa-reply-all fa-flip-horizontal\"></i></a></span>.</p></div><div class=\"rd__b  rd__b--3\"><div class=\"rd__b  rd__b--3\"><span class=\"rd__h rd__h--3\" data-title-index=\"1\"> <span class=\"entry-title-inner\">At Higher Levels.</span></span> <p>When you cast this spell using a spell slot of 5th level or higher, the damage increases by <span><span class=\"roll-link\" data-formula=\"1d6\" data-type=\"damage\"><a data-action=\"roll\"><i class=\"fa-solid fa-dice-d20\"></i>1d6</a></span> </span> for each slot level above 4th.</p><div class=\"rd__spc-inline-post\"></div></div><div class=\"rd__spc-inline-post\"></div></div>",
@@ -3075,6 +3003,63 @@
         "spellLevel": "3rd Level",
         "spellRange": "150 ft",
         "spellSchool": "Evocation"
+      },
+      {
+        "name": "Shield",
+        "itemType": "equipment",
+        "description": "<p>A shield is made from wood or metal and is carried in one hand. Wielding a shield increases your Armor Class by 2. You can benefit from only one shield at a time.</p>",
+        "attunement": "",
+        "quantity": 1,
+        "typeLabel": "Shield",
+        "spellLevel": null,
+        "spellRange": null,
+        "spellSchool": null
+      },
+      {
+        "name": "Ioun Stone, Sandstone",
+        "itemType": "equipment",
+        "description": "<div class=\"rd__b  rd__b--2\"><p>An <em>Ioun stone</em> is named after Ioun, a god of knowledge and prophecy revered on some worlds. Many types of <em>Ioun stone</em> exist, each type a distinct combination of shape and color.</p><p>When you use an action to toss one of these stones into the air, the stone orbits your head at a distance of [[/r 1d3]] feet and confers a benefit to you. Thereafter, another creature must use an action to grasp or net the stone to separate it from you, either by making a successful attack roll against AC 24 or a successful DC 24 Dexterity (&amp;Reference[skill=Acrobatics]) check. You can use an action to seize and stow the stone, ending its effect.</p><p>A stone has AC 24, 10 hit points, and resistance to all damage. It is considered to be an object that is being worn while it orbits your head.</p><p>While this sandstone orbits your head, any critical hit against you becomes a normal hit.</p></div>",
+        "attunement": "required",
+        "quantity": 1,
+        "typeLabel": "Trinket",
+        "spellLevel": null,
+        "spellRange": null,
+        "spellSchool": null
+      },
+      {
+        "name": "Flame-Runed Jeweler's Tools",
+        "itemType": "tool",
+        "description": "<p><em>Only the fire giants of Muspelheim know how to scribe runes capable of enhancing one's craftsmanship.</em></p><p>When you make a tool check using this tool, you can choose to consume one charge to add a d4 to the roll. The tool regains all spent charges when you take a long rest.</p>",
+        "attunement": "",
+        "quantity": 1,
+        "typeLabel": "Artisan's Tools",
+        "spellLevel": null,
+        "spellRange": null,
+        "spellSchool": null
+      },
+      {
+        "name": "Potion of Heroism",
+        "itemType": "consumable",
+        "description": "<p><em>This blue potion bubbles and steams as if boiling.</em></p><p>When you drink this potion you gain 10 temporary hit points. Additionally you are under the effect of the Bless spell for 1 hour (no concentration required).</p>",
+        "attunement": "",
+        "quantity": 5,
+        "typeLabel": "Potion",
+        "subType": "",
+        "spellLevel": null,
+        "spellRange": null,
+        "spellSchool": null
+      },
+      {
+        "name": "Potion of Speed",
+        "itemType": "consumable",
+        "description": "<div class=\"rd__b  rd__b--2\"><p>When you drink this potion, you gain the effect of the Haste spell for 1 minute (no concentration required). The potion's yellow fluid is streaked with black and swirls on its own.</p></div>",
+        "attunement": "",
+        "quantity": 2,
+        "typeLabel": "Potion",
+        "subType": "",
+        "spellLevel": null,
+        "spellRange": null,
+        "spellSchool": null
       }
     ],
     "Plex": [
@@ -3971,7 +3956,7 @@
       {
         "name": "Master of Chance",
         "itemType": "feat",
-        "description": "<p>You have a bonus to skill checks with one skill equal to 5 times your Charisma modifier.</p><p>This bonus changes to a different skill whenever you make a skill check, though it can apply to the same skill multiple times in a row.</p><p>You are not aware of which skill this bonus currently affects.</p>",
+        "description": "<p>When you make any skill check, roll an additional [[/r d12]]. If it lands on a 12, you gain a bonus to that skill check equal to 5 times your Charisma modifier.</p>",
         "requirements": "Mythic Trickster 1",
         "typeLabel": null,
         "subType": "",
@@ -4299,22 +4284,6 @@
         "spellSchool": "Transmutation"
       },
       {
-        "name": "Mage Hand",
-        "itemType": "spell",
-        "description": "<div class=\"rd__b  rd__b--3\"><p>A spectral, floating hand appears at a point you choose within range. The hand lasts for the duration or until you dismiss it as an action. The hand vanishes if it is ever more than 30 feet away from you or if you cast this spell again.</p><div class=\"rd__spc-inline-post\"></div><p>You can use your action to control the hand. You can use the hand to manipulate an object, open an unlocked door or container, stow or retrieve an item from an open container, or pour the contents out of a vial. You can move the hand up to 30 feet each time you use it.</p><p>The hand can't attack, activate magic items, or carry more than 10 pounds.</p></div>",
-        "spellLevel": "Cantrip",
-        "spellRange": "30 ft",
-        "spellSchool": "Conjuration"
-      },
-      {
-        "name": "Dimension Door",
-        "itemType": "spell",
-        "description": "<div class=\"rd__b  rd__b--3\"><p>You teleport yourself from your current location to any other spot within range. You arrive at exactly the spot desired. It can be a place you can see, one you can visualize, or one you can describe by stating distance and direction, such as \"200 feet straight downward\" or \"upward to the northwest at a 45-degree angle, 300 feet.\"</p><div class=\"rd__spc-inline-post\"></div><p>You can bring along objects as long as their weight doesn't exceed what you can carry. You can also bring one willing creature of your size or smaller who is carrying gear up to its carrying capacity. The creature must be within 5 feet of you when you cast this spell.</p><p>If you would arrive in a place already occupied by an object or a creature, you and any creature traveling with you each take [[/damage 4d6 type=force]] damage, and the spell fails to teleport you.</p></div>",
-        "spellLevel": "4th Level",
-        "spellRange": "500 ft",
-        "spellSchool": "Conjuration"
-      },
-      {
         "name": "Dreamfeather",
         "itemType": "loot",
         "description": "<p>A Dreamfeather is an exceedingly rare and delicate token from the plane of Elysium. These iridescent feathers belong to the Aethergale, small and ethereal songbirds whose rainbow-tinted plumage usually vanishes when shed. However, when an Aethergale is moved by a performance of true beauty and passion—be it a bard's heartfelt song or an artist's soul-stirring creation—a feather may fall and remain intact, becoming what is known as a Dreamfeather.</p><p>Treasured and used as a currency by the Azata, the celestial beings of Elysium, Dreamfeathers are regarded as symbols artistic spirit. To find such a feather is seen as an acknowledgment of one’s creativity and emotional depth. They emit a faint glow, and their touch brings a gentle feeling of calm, as though carrying the nostalgia-filled songs of the Aethergale itself.</p><p><strong>Shared Inspiration</strong></p><p>A creature holding a Dreamfeather can use it to transfer one of it's inspirations to another creature it can see. This consumes the magic which resides in the feather and it vanishes into nothingness. A creature which doesn't have any inspirations, cannot use this ability.</p>",
@@ -4499,6 +4468,30 @@
         "spellLevel": null,
         "spellRange": null,
         "spellSchool": null
+      },
+      {
+        "name": "Microscopic Proportions",
+        "itemType": "spell",
+        "description": "<div class=\"rd__b  rd__b--3\"><p>You cause a creature or an object you can see within range to shrink for the duration. Choose either a creature or an object that is neither worn nor carried. If the target is unwilling, it can make a Constitution saving throw. On a success, the spell has no effect.</p><p>If the target is a creature, everything it is wearing and carrying changes size with it. Any item dropped by an affected creature returns to normal size at once.</p><p>The target's size is quartered in all dimensions, and its weight is reduced to one-sixteenth of normal. This reduction decreases its size by up to two categories—from Medium to Tiny, for example. Until the spell ends, the target also has disadvantage on Strength checks and Strength saving throws as well as advantage on Dexterity checks and Dexterity saving throws. The target's weapons also shrink to match its new size. While these weapons are reduced, the target's attacks with them deal [[/damage 2d4]] less damage (this can't reduce the damage below 1).</p></div>",
+        "spellLevel": "3rd Level",
+        "spellRange": "30 ft",
+        "spellSchool": "Transmutation"
+      },
+      {
+        "name": "Phantasmal Horror",
+        "itemType": "spell",
+        "description": "<p>You select a creature you can see within range and create an illusion of its worst nightmares, which only it can see.</p><p>The target must make a Wisdom saving throw. On a failed it takes 4d10 psychic damage and is frightened. On a successful save, the spell ends. For the duration of the spell this effect repeats at the start of each of the target's turns.</p><p>If the target's CR is less than the spell level and it's not not immune to being frightened, the dies on a failed saving throw.</p><p><strong>At Higher Levels</strong> <br />When you cast this spell using a spell slot of 5th level or higher, the damage increases by 1d10 for each slot level above 4th.</p>",
+        "spellLevel": "4th Level",
+        "spellRange": "120 ft",
+        "spellSchool": "Illusion"
+      },
+      {
+        "name": "Minor Illusion",
+        "itemType": "spell",
+        "description": "<div class=\"rd__b  rd__b--3\"><p>You create a sound or an image of an object within range that lasts for the duration. The illusion also ends if you dismiss it as an action or cast this spell again.</p><div class=\"rd__spc-inline-post\"><p></p></div><p>If you create a sound, its volume can range from a whisper to a scream. It can be your voice, someone else's voice, a lion's roar, a beating of drums, or any other sound you choose. The sound continues unabated throughout the duration, or you can make discrete sounds at different times before the spell ends.</p><p>If you create an image of an object—such as a chair, muddy footprints, or a small chest—it must be no larger than a 5-foot cube. The image can't create sound, light, smell, or any other sensory effect. Physical interaction with the image reveals it to be an illusion, because things can pass through it.</p><p>If a creature uses its action to examine the sound or image, the creature can determine that it is an illusion with a successful <span style=\"font-family:ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace\">[[/skill investigation dc=@attributes.spelldc format=long]]</span> against your spell save DC. If a creature discerns the illusion for what it is, the illusion becomes faint to the creature.</p></div>",
+        "spellLevel": "Cantrip",
+        "spellRange": "30 ft",
+        "spellSchool": "Illusion"
       }
     ],
     "Shalkoc Zornax": [
@@ -5314,7 +5307,7 @@
       {
         "name": "Cure Wounds",
         "itemType": "spell",
-        "description": "<div class=\"rd__b  rd__b--3\"><p>A creature you touch regains a number of hit points equal to [[/r 1d8]] + your spellcasting ability modifier. This spell has no effect on undead or constructs.</p></div><div class=\"rd__b  rd__b--3\"><div data-roll-name-ancestor=\"At Higher Levels\" class=\"rd__b  rd__b--3\"><span class=\"rd__h rd__h--3\" data-title-index=\"1\"> <span class=\"entry-title-inner\">At Higher Levels.</span></span> <p>When you cast this spell using a spell slot of 2nd level or higher, the healing increases by [[/r 1d8]] for each slot level above 1st.</p></div></div>",
+        "description": "<div class=\"rd__b  rd__b--3\"><p>A creature you touch regains a number of hit points equal to [[/r 2d8]] + your spellcasting ability modifier. This spell has no effect on undead or constructs.</p><p><span class=\"entry-title-inner\">At Higher Levels. <br /></span>When you cast this spell using a spell slot of 2nd level or higher, the healing increases by [[/r 2d8]] for each slot level above 1st.</p></div>",
         "spellLevel": "1st Level",
         "spellRange": "Touch",
         "spellSchool": "Evocation"
@@ -5337,17 +5330,6 @@
         "attunement": "",
         "quantity": 1,
         "typeLabel": "Trinket",
-        "spellLevel": null,
-        "spellRange": null,
-        "spellSchool": null
-      },
-      {
-        "name": "Chef",
-        "itemType": "feat",
-        "description": "<div><p>Time spent mastering the culinary arts has paid off, granting you the following benefits:</p><div><div class=\"rd__b  rd__b--3\"><ul><li><p>Increase your Dexterity, Constitution, or Wisdom by 1, to a maximum of 20.</p></li><li><p>You gain proficiency with cook's utensils if you don't already have it.</p></li><li><p>As part of a short rest, you can cook a quick snack for your party, provided you have ingredients and cook's utensils on hand. Doing so takes one snack item for each party member and lets everyone in your party regain hit points equal to 1d8 * your proficiency bonus.</p></li><li><p>When you finish a long rest and at the cost of one meal item per party member, you can make a meal for your party that gives them temporary hit points equal to 2d4 * your proficiency bonus.</p></li></ul></div></div></div>",
-        "requirements": "Feat (Monk 4)",
-        "typeLabel": null,
-        "subType": "",
         "spellLevel": null,
         "spellRange": null,
         "spellSchool": null
@@ -5441,18 +5423,6 @@
         "spellSchool": null
       },
       {
-        "name": "Potion of Necrotic Resistance",
-        "itemType": "consumable",
-        "description": "<p><em>The potion is a plain indescriminate color and smells slightly foul.</em></p><p>When you drink this potion, you gain resistance to Necrotic type damage for 1 hour.</p>",
-        "attunement": "",
-        "quantity": 1,
-        "typeLabel": "Potion",
-        "subType": "",
-        "spellLevel": null,
-        "spellRange": null,
-        "spellSchool": null
-      },
-      {
         "name": "Bread",
         "itemType": "loot",
         "description": "<p>Bread is a staple food made from dough that has been baked. It comes in a variety of shapes, sizes, and flavors. It is often sold as a side in most taverns and inns for any of the main meals they serve.</p>",
@@ -5462,6 +5432,28 @@
         "spellLevel": null,
         "spellRange": null,
         "spellSchool": null
+      },
+      {
+        "name": "Meal",
+        "itemType": "loot",
+        "description": "<p>A meticulously cooked slice of premium meat, often beef, cooked with precision and often with a side by your choice of fresh greens or soft mashed potatoes.</p><p></p>",
+        "quantity": 1,
+        "typeLabel": "Food",
+        "subType": "meal",
+        "spellLevel": null,
+        "spellRange": null,
+        "spellSchool": null
+      },
+      {
+        "name": "Chef",
+        "itemType": "feat",
+        "description": "<div><p>Time spent mastering the culinary arts has paid off, increasing your Dexterity score by 1, to a maximum of 20, and granting you proficiency with cook's utensils if you didn't already have it.</p></div><p>If you have ingredients and cook's utensils on hand, you can prepare up to 10 meals during one hour of dedicated work or as part of a short or long rest. Each meal requires one food and, optionally, one spice.</p><p>When preparing a meal, you can choose to enhance either its restorative or preventative properties, granting it one of the following benefits:</p><ul><li><p><strong>Restorative</strong>. The creature regains a number of hit points equal to 1d8 * your proficiency bonus.</p></li><li><p><strong>Preventative</strong>. The creature gains a number of temporary hit points equal to 2d4 * your proficiency bonus.</p></li></ul><p>Meals retain these enhanced properties only while fresh, meaning they must be consumed within 30 minutes of preparation. A creature that consumes a fresh meal gains the selected benefit as well as the effect of any spice used to flavor the meal.</p><p>A creature can benefit from only one enhanced meal per rest period.</p>",
+        "requirements": "Feat (Monk 4)",
+        "typeLabel": null,
+        "subType": "",
+        "spellLevel": null,
+        "spellRange": null,
+        "spellSchool": null
       }
     ]
-  }
+}

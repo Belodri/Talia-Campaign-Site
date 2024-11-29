@@ -3,8 +3,27 @@ let formattedData = null;
 // Initialize the data loading process on page load
 document.addEventListener('DOMContentLoaded', loadAndProcessData);
 
+function adjustLastUpdateDisplay() {
+    // Get the element with the UTC timestamp
+    const lastUpdatedElement = document.getElementById('last-updated');
+    const timestamp = lastUpdatedElement.dataset.timestamp;
+
+    // Convert to the user's local timezone
+    if (timestamp) {
+        const localDate = new Date(timestamp);
+        const formattedDate = localDate.toLocaleString(undefined, {
+            year: "numeric",
+            month: "2-digit",
+            day: "2-digit",
+            hour: "2-digit",
+            minute: "2-digit",
+        });
+        lastUpdatedElement.textContent = formattedDate;
+    }
+}
 
 async function loadAndProcessData() {
+    adjustLastUpdateDisplay();
     try {
         const response = await fetch('itemData.json');
         if (!response.ok) {
