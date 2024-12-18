@@ -395,7 +395,7 @@
         "itemType": "consumable",
         "description": "<table>\n        <tbody>\n            <tr>\n                <td>\n                    <p style=\"text-align:center;font-weight:bold\">9th Level</p>\n                </td>\n            </tr>\n            \n            <tr>\n                <td>\n                    <p>Whenever I'm inflicted with any effect this spell can remove apart from cursed.</p>\n                </td>\n            </tr>\n        </tbody>\n    </table><p>You imbue a creature you touch with positive energy to undo a debilitating effect. You can reduce the target's exhaustion level by one, or end one of the following effects on the target:</p><p>One effect that &amp;Reference[condition=charmed] or &amp;Reference[condition=petrified] the target</p><p>One curse, including the target's attunement to a cursed magic item</p><p>Any reduction to one of the target's ability scores</p><p>One effect reducing the target's hit point maximum</p>",
         "attunement": "NaN",
-        "quantity": 2,
+        "quantity": 1,
         "typeLabel": "Spell Gem",
         "subType": "",
         "spellLevel": null,
@@ -504,7 +504,7 @@
       {
         "name": "Grapple",
         "itemType": "feat",
-        "description": "<p>When you want to grab a creature or wrestle with it, you can use the Attack action to make a special melee attack, a grapple. If you're able to make multiple attacks with the Attack action, this attack replaces one of them. The target of your grapple must be no more than one size larger than you, and it must be within your reach.</p><p>Using at least one free hand, you try to seize the target by making a grapple check, a <span style=\"font-family:ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace\">[[/skill athletics format=long]]</span> contested by the target's <span style=\"font-family:ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace\">[[/skill athletics format=long]]</span> or <span style=\"font-family:ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace\">[[/skill acrobatics format=long]]</span> (the target chooses the ability to use). You succeed automatically if the target is incapacitated. If you succeed, you subject the target to the grappled effect (see the appendix). The condition specifies the things that end it, and you can release the target whenever you like (no action required).</p>",
+        "description": "<p>When you want to grab a creature or wrestle with it, you can use the Attack action to make a special melee attack, a grapple. If you're able to make multiple attacks with the Attack action, this attack replaces one of them. The target of your grapple must be no more than one size larger than you, and it must be within your reach.</p><p>Using at least one free hand, you try to seize the target by making a grapple check, a [[/skill ath format=long]] contested by the target's [[/skill ath format=long]] or [[/skill acr format=long]] (the target chooses the ability to use). You succeed automatically if the target is incapacitated. If you succeed, you subject the target to the &amp;Reference[grappled] effect. The condition specifies the things that end it, and you can release the target whenever you like (no action required).</p>",
         "requirements": "",
         "typeLabel": null,
         "subType": "",
@@ -559,7 +559,7 @@
       {
         "name": "Jump",
         "itemType": "feat",
-        "description": "<p>Using your bonus action, you can jump up to a number of feet equal to 5 plus 5 feet for every 2 points of your highest skill modifier between Athletics and Acrobatics. For example, if your highest modifier is +4, you can jump up to 15 feet.</p>",
+        "description": "<p>Using your bonus action, you can jump up to [[/r @talia.jumpDistance]] ft.</p>",
         "requirements": "",
         "typeLabel": null,
         "subType": "",
@@ -999,7 +999,7 @@
         "itemType": "consumable",
         "description": "<div class=\"rd__b  rd__b--2\"><p><em>The red in the potion's liquid continuously expands from a tiny bead to color the clear liquid around it and then contracts. Shaking the bottle fails to interrupt this process.</em></p><p>When you drink this potion, you gain the \"enlarge\" effect of the enlarge/reduce spell for 1d4 hours (no concentration required):</p></div><p>While enlarged, your size is increased by one category and your weight is multiplied by eight.<br />You have advantage on Strength checks and saving throws and your attacks with weapons deal an additional 1d4 damage.</p>",
         "attunement": "",
-        "quantity": 2,
+        "quantity": 1,
         "typeLabel": "Potion",
         "subType": "",
         "spellLevel": null,
@@ -1045,17 +1045,6 @@
         "spellLevel": "4th Level",
         "spellRange": "Touch",
         "spellSchool": "Abjuration"
-      },
-      {
-        "name": "Plate Armor of the Litr Rune",
-        "itemType": "equipment",
-        "description": "<div class=\"rd__b  rd__b--2\"><p>The ornate decorations and runes of this +2 plate armor are covered in the scratches of many battles. A character who examines the runes and succeeds on a [[/skill his dc=20]] check recognizes it as a litr (\"color\" in Giant) rune that confers great power.</p><p>The armor has 10 charges, and it regains [[/r 1d4]] expanded charges when you finish a long rest. Its properties are as follows:</p><ul><li><p><strong>Focus of the Litr Rune.</strong> You can use the armor as a spellcasting focus for your spells. Any visible effects created by a spell cast through this armor shimmer in many different colors.</p></li><li><p><strong>Flash of the Litr Rune.</strong> If a creature scores a critical hit against you, you can expend 1 charge as a free action to emit a flash of bright light. All creatures within 60 feet of you that can see you must make a [[/save con dc=20 format=long]] or be &amp;Reference[blinded]. Any creature blinded by this effect can repeat the saving throw at the end of each of their turns to end the effect.</p></li><li><p><span class=\"entry-title-inner\"><strong>Ward of the Litr Rune.</strong> As an action you can expend 8 charges to activate the Ward of the Litr Rune for 1 minute. While the ward is active, a barrier of translucent panels of many-colored light forms around you, making you resistant to 4 different types of damage and vulnerable to one other. The types of damage you're resistant and vulnerable to are determined randomly when you first receive the effect and at the start of each round in combat.</span></p></li><li><p><strong>Gift of the Litr Rune.</strong> A master blacksmith can transfer the armor's magic to another nonmagical plate armor by etching the exact decorations and runes that adorn this armor into the other. The transfer takes 8 hours of uninterrupted work that requires the two items to be within 5 feet of each other. At the end, this this armor is destroyed and the chosen item gains all properties of this armor.</p></li></ul><p>The wearer has disadvantage on Dexterity (Stealth) checks.</p><p>If the wearer has a Strength score lower than 15, their speed is reduced by 10 feet.</p></div>",
-        "attunement": "required",
-        "quantity": 1,
-        "typeLabel": "Heavy Armor",
-        "spellLevel": null,
-        "spellRange": null,
-        "spellSchool": null
       },
       {
         "name": "Spirit of the Eagle",
@@ -1118,6 +1107,29 @@
         "description": "<p>While you're grappling a creature, you can expend 1 Mythic Power as an action to throw the grappled creature 20 feet straight up into the air and leap after it.</p><p>While airborne, make an unarmed attack against the creature. If the attack hits, the creature is flung an additional 20 feet upward, and you follow along, propelled by the momentum of your jump. <br />You may repeat this process a number of times equal to your mythic rank, launching the creature another 20 feet upward with each successful hit. The sequence ends early if an attack misses.</p><p>When the sequence ends—whether due to a missed attack or after the maximum number of attacks—you seize the grappled creature and drive it into the ground as you land. <br />You take no falling damage, but the grappled creature and all other creatures within 5 feet of it must make a [[/save dex dc=8+@abilities.str.mod+@prof format=long]] (DC = 8 + your Strength modifier + your proficiency bonus), which the grappled creature automatically fails. On a failed save, a creature takes damage as though falling from double the total height reached and falls &amp;Reference[prone]. On a successful save, it takes half as much damage and isn't knocked &amp;Reference[prone].</p>",
         "requirements": "Mythic Legend 2",
         "typeLabel": null,
+        "subType": "",
+        "spellLevel": null,
+        "spellRange": null,
+        "spellSchool": null
+      },
+      {
+        "name": "Obsidian Ingot",
+        "itemType": "loot",
+        "description": "<p>An obsidian ingot is a small, expertly chiseled bar of pure obsidian. It is said to be incredibly dense and heavy, and can only be crafted by the most skilled blacksmiths. The metal has a deep, dark color that seems to absorb light, but when struck, it glows with a fiery inner light. </p><p></p>",
+        "quantity": 7,
+        "typeLabel": "Loot",
+        "subType": "",
+        "spellLevel": null,
+        "spellRange": null,
+        "spellSchool": null
+      },
+      {
+        "name": "Potion of Healing",
+        "itemType": "consumable",
+        "description": "<p><em>The potion's red liquid glimmers when agitated.</em></p><p>You regain 2d4+2 hit points when you drink this potion.</p>",
+        "attunement": "",
+        "quantity": 1,
+        "typeLabel": "Potion",
         "subType": "",
         "spellLevel": null,
         "spellRange": null,
@@ -1679,17 +1691,6 @@
         "spellSchool": null
       },
       {
-        "name": "Star Ruby",
-        "itemType": "loot",
-        "description": "<p>Or simply known as Rose Quartz, is a pink gemstone mainly used in jewelry. The large slabs can be cut into multiple shapes from hearts, for holidays and anniversaries to huge round shapes, for wizards' crystal balls. </p>",
-        "quantity": 0,
-        "typeLabel": "Gemstone",
-        "subType": "",
-        "spellLevel": null,
-        "spellRange": null,
-        "spellSchool": null
-      },
-      {
         "name": "Wand of Entangle",
         "itemType": "consumable",
         "description": "<p>This wand has 7 charges. While holding it, you can use an action to expend 1 of its charges to cast the entangle spell (save DC 13) from it.</p><p>The wand regains 1d6 + 1 expended charges daily at dawn. If you expend the wand's last charge, roll a d20. On a 1, the wand crumbles into ashes and is destroyed.</p>",
@@ -1794,17 +1795,6 @@
         "spellSchool": null
       },
       {
-        "name": "Agate",
-        "itemType": "loot",
-        "description": "<p>It is usually found in rocks and comes in a variety of amazing colors. Used for millennia in forms of arts and crafts. Based on the region it can have different names or colors. Good common examples are \"Fire agate\" which is a deep red or \"Moss Agate\" which has a moss-like appearance and gas a deep green shade.</p>",
-        "quantity": 0,
-        "typeLabel": "Gemstone",
-        "subType": "",
-        "spellLevel": null,
-        "spellRange": null,
-        "spellSchool": null
-      },
-      {
         "name": "Black Pearl",
         "itemType": "loot",
         "description": "<p>Called the Black Pearl only as a descriptor factor, for it is known that it's possible to dye the pearl to achieve this specific dark color. In some religions, it is believed that if these pearls are found, they show the deity's favor or disfavor based on circumstance</p>",
@@ -1863,7 +1853,7 @@
         "name": "Ooze Drops",
         "itemType": "loot",
         "description": "<p>Collected from large-sized or larger ooze creatures. These translucent, gelatinous orbs exude a faint iridescence, containing potent enzymes and acids capable of dissolving various materials.</p>",
-        "quantity": 2,
+        "quantity": 3,
         "typeLabel": "Ingredient",
         "subType": "bodyPart",
         "spellLevel": null,
@@ -1875,17 +1865,6 @@
         "itemType": "loot",
         "description": "<p>Found on coastal rocks exposed to continuous sea mist. Characterized by fleshy, silver-tinted leaves with curled edges. Clusters of small, star-shaped flowers bloom in shades ranging from light purple to deep violet.</p>",
         "quantity": 4,
-        "typeLabel": "Ingredient",
-        "subType": "herb",
-        "spellLevel": null,
-        "spellRange": null,
-        "spellSchool": null
-      },
-      {
-        "name": "Shatterstone",
-        "itemType": "loot",
-        "description": "<p>Typically found on rocky mountain surfaces at high altitudes. Its dense clusters of slender, silver-gray leaves blend in with the rocky environment. A pale yellow flowers dots the plant, adding a subtle touch of contrast to its surroundings.</p>",
-        "quantity": 1,
         "typeLabel": "Ingredient",
         "subType": "herb",
         "spellLevel": null,
@@ -2212,22 +2191,6 @@
         "spellSchool": null
       },
       {
-        "name": "Raulothim's Psychic Lance",
-        "itemType": "spell",
-        "description": "<div class=\"rd__b  rd__b--3\"><p>You unleash a shimmering lance of psychic power from your forehead at a creature that you can see within range. Alternatively, you can utter a creature's name. If the named target is within range, it becomes the spell's target even if you can't see it. If the named target isn't within range, the lance dissipates without effect.</p><div class=\"rd__spc-inline-post\"></div><p>The target must make an Intelligence saving throw. On a failed save, the target takes <span><span class=\"roll-link\" data-type=\"damage\" data-formula=\"7d6\" data-damage-type=\"psychic\"><a data-action=\"roll\"><i class=\"fa-solid fa-dice-d20\"></i>7d6</a></span> psychic</span> damage and is <span class=\"reference-link\"><a class=\"content-link\" data-uuid=\"Compendium.dnd5e.rules.JournalEntry.w7eitkpD7QQTB6j0.JournalEntryPage.TpkZgLfxCmSndmpb\" data-id=\"TpkZgLfxCmSndmpb\" data-type=\"JournalEntryPage\" data-pack=\"dnd5e.rules\" data-tooltip=\"Rule Page\"><i class=\"fas fa-book-open\"></i>Incapacitated</a><a class=\"enricher-action\" data-action=\"apply\" data-status=\"incapacitated\" data-tooltip=\"EDITOR.DND5E.Inline.ApplyStatus\" aria-label=\"Apply Status to Selected Tokens\"><i class=\"fas fa-fw fa-reply-all fa-flip-horizontal\"></i></a></span> until the start of your next turn. On a successful save, the creature takes half as much damage and isn't <span class=\"reference-link\"><a class=\"content-link\" data-uuid=\"Compendium.dnd5e.rules.JournalEntry.w7eitkpD7QQTB6j0.JournalEntryPage.TpkZgLfxCmSndmpb\" data-id=\"TpkZgLfxCmSndmpb\" data-type=\"JournalEntryPage\" data-pack=\"dnd5e.rules\" data-tooltip=\"Rule Page\"><i class=\"fas fa-book-open\"></i>Incapacitated</a><a class=\"enricher-action\" data-action=\"apply\" data-status=\"incapacitated\" data-tooltip=\"EDITOR.DND5E.Inline.ApplyStatus\" aria-label=\"Apply Status to Selected Tokens\"><i class=\"fas fa-fw fa-reply-all fa-flip-horizontal\"></i></a></span>.</p></div><div class=\"rd__b  rd__b--3\"><div class=\"rd__b  rd__b--3\"><span class=\"rd__h rd__h--3\" data-title-index=\"1\"> <span class=\"entry-title-inner\">At Higher Levels.</span></span> <p>When you cast this spell using a spell slot of 5th level or higher, the damage increases by <span><span class=\"roll-link\" data-formula=\"1d6\" data-type=\"damage\"><a data-action=\"roll\"><i class=\"fa-solid fa-dice-d20\"></i>1d6</a></span> </span> for each slot level above 4th.</p><div class=\"rd__spc-inline-post\"></div></div><div class=\"rd__spc-inline-post\"></div></div>",
-        "spellLevel": "4th Level",
-        "spellRange": "120 ft",
-        "spellSchool": "Enchantment"
-      },
-      {
-        "name": "Vicious Mockery",
-        "itemType": "spell",
-        "description": "<div class=\"rd__b  rd__b--3\"><p>You unleash a string of insults laced with subtle enchantments at a creature you can see within range. If the target can hear you (though it need not understand you), it must succeed on a Wisdom saving throw or take [[/damage 1d4 type=psychic]] damage and have disadvantage on the next attack roll it makes before the end of its next turn.</p><div class=\"rd__spc-inline-post\"></div><p>This spell's damage increases by [[/r 1d4]] when you reach 5th level ([[/damage 2d4]]), 11th level ([[/damage 3d4]]), and 17th level ([[/damage 4d4]]).</p></div>",
-        "spellLevel": "Cantrip",
-        "spellRange": "60 ft",
-        "spellSchool": "Enchantment"
-      },
-      {
         "name": "Tankard of Plenty",
         "itemType": "equipment",
         "description": "<div class=\"rd__b  rd__b--2\"><p>This golden stein is decorated with dancing dwarves and grain patterns. Speaking the command word (\"Illefarn\") while grasping the handle fills the tankard with three pints of rich dwarven ale. This power can be used up to three times per day.</p></div>",
@@ -2345,17 +2308,6 @@
         "spellLevel": "4th Level",
         "spellRange": "Self",
         "spellSchool": "Necromancy"
-      },
-      {
-        "name": "Grapple",
-        "itemType": "feat",
-        "description": "<p>When you want to grab a creature or wrestle with it, you can use the Attack action to make a special melee attack, a grapple. If you're able to make multiple attacks with the Attack action, this attack replaces one of them. The target of your grapple must be no more than one size larger than you, and it must be within your reach.</p><p>Using at least one free hand, you try to seize the target by making a grapple check, a <span style=\"font-family:ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace\">[[/skill athletics format=long]]</span> contested by the target's <span style=\"font-family:ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace\">[[/skill athletics format=long]]</span> or <span style=\"font-family:ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace\">[[/skill acrobatics format=long]]</span> (the target chooses the ability to use). You succeed automatically if the target is incapacitated. If you succeed, you subject the target to the grappled effect (see the appendix). The condition specifies the things that end it, and you can release the target whenever you like (no action required).</p>",
-        "requirements": "",
-        "typeLabel": null,
-        "subType": "",
-        "spellLevel": null,
-        "spellRange": null,
-        "spellSchool": null
       },
       {
         "name": "Soul Coin",
@@ -2768,17 +2720,6 @@
         "spellSchool": null
       },
       {
-        "name": "Water Flower",
-        "itemType": "loot",
-        "description": "<p>Flourishes in warm thermal springs. Its broad, floating leaves are star-shaped and create a dense canopy over the water's surface. The petals are translucent, allowing sunlight to filter through.</p>",
-        "quantity": 1,
-        "typeLabel": "Ingredient",
-        "subType": "herb",
-        "spellLevel": null,
-        "spellRange": null,
-        "spellSchool": null
-      },
-      {
         "name": "Fever Grass",
         "itemType": "loot",
         "description": "<p><span style=\"font-family:Signika, sans-serif\">Thrives abundantly in sunny grasslands. Slender stems bear needle-like leaves and golden-hued flowers. Possesses a fragrant aroma believed to hold medicinal properties.</span></p>",
@@ -2825,7 +2766,7 @@
         "itemType": "consumable",
         "description": "<div class=\"rd__b  rd__b--2\"><p><em>The potion's red liquid glimmers when agitated.</em></p><p>You regain 8d4 + 8 hit points when you drink this potion.</p></div>",
         "attunement": "",
-        "quantity": 3,
+        "quantity": 7,
         "typeLabel": "Potion",
         "subType": "",
         "spellLevel": null,
@@ -2904,17 +2845,6 @@
         "itemType": "feat",
         "description": "<div><p><em>Prerequisite: Dwarf (mountain)</em></p><div><div class=\"rd__b  rd__b--3\"><p>Among many of your kin, chainmail might pass as armor, but only heavy plates and a shield make one fully dressed. You gain the following benefit:</p><ul class=\"rd__list\"><li class=\"rd__li \">Increase your Strength score by 1, to a maximum of 20.</li><li class=\"rd__li \">You gain proficiency with heavy armor and shields.</li></ul></div></div></div>",
         "requirements": "Feat (Wizard 12)",
-        "typeLabel": null,
-        "subType": "",
-        "spellLevel": null,
-        "spellRange": null,
-        "spellSchool": null
-      },
-      {
-        "name": "Jump",
-        "itemType": "feat",
-        "description": "<p>Using your bonus action, you can jump up to a number of feet equal to 5 plus 5 feet for every 2 points of your highest skill modifier between Athletics and Acrobatics. For example, if your highest modifier is +4, you can jump up to 15 feet.</p>",
-        "requirements": "",
         "typeLabel": null,
         "subType": "",
         "spellLevel": null,
@@ -3038,7 +2968,7 @@
         "itemType": "consumable",
         "description": "<p><em>This blue potion bubbles and steams as if boiling.</em></p><p>When you drink this potion you gain 10 temporary hit points. Additionally you are under the effect of the Bless spell for 1 hour (no concentration required).</p>",
         "attunement": "",
-        "quantity": 2,
+        "quantity": 1,
         "typeLabel": "Potion",
         "subType": "",
         "spellLevel": null,
@@ -3297,22 +3227,6 @@
         "spellSchool": null
       },
       {
-        "name": "Raulothim's Psychic Lance",
-        "itemType": "spell",
-        "description": "<div class=\"rd__b  rd__b--3\"><p>You unleash a shimmering lance of psychic power from your forehead at a creature that you can see within range. Alternatively, you can utter a creature's name. If the named target is within range, it becomes the spell's target even if you can't see it. If the named target isn't within range, the lance dissipates without effect.</p><div class=\"rd__spc-inline-post\"></div><p>The target must make an Intelligence saving throw. On a failed save, the target takes <span><span class=\"roll-link\" data-type=\"damage\" data-formula=\"7d6\" data-damage-type=\"psychic\"><a data-action=\"roll\"><i class=\"fa-solid fa-dice-d20\"></i>7d6</a></span> psychic</span> damage and is <span class=\"reference-link\"><a class=\"content-link\" data-uuid=\"Compendium.dnd5e.rules.JournalEntry.w7eitkpD7QQTB6j0.JournalEntryPage.TpkZgLfxCmSndmpb\" data-id=\"TpkZgLfxCmSndmpb\" data-type=\"JournalEntryPage\" data-pack=\"dnd5e.rules\" data-tooltip=\"Rule Page\"><i class=\"fas fa-book-open\"></i>Incapacitated</a><a class=\"enricher-action\" data-action=\"apply\" data-status=\"incapacitated\" data-tooltip=\"EDITOR.DND5E.Inline.ApplyStatus\" aria-label=\"Apply Status to Selected Tokens\"><i class=\"fas fa-fw fa-reply-all fa-flip-horizontal\"></i></a></span> until the start of your next turn. On a successful save, the creature takes half as much damage and isn't <span class=\"reference-link\"><a class=\"content-link\" data-uuid=\"Compendium.dnd5e.rules.JournalEntry.w7eitkpD7QQTB6j0.JournalEntryPage.TpkZgLfxCmSndmpb\" data-id=\"TpkZgLfxCmSndmpb\" data-type=\"JournalEntryPage\" data-pack=\"dnd5e.rules\" data-tooltip=\"Rule Page\"><i class=\"fas fa-book-open\"></i>Incapacitated</a><a class=\"enricher-action\" data-action=\"apply\" data-status=\"incapacitated\" data-tooltip=\"EDITOR.DND5E.Inline.ApplyStatus\" aria-label=\"Apply Status to Selected Tokens\"><i class=\"fas fa-fw fa-reply-all fa-flip-horizontal\"></i></a></span>.</p></div><div class=\"rd__b  rd__b--3\"><div class=\"rd__b  rd__b--3\"><span class=\"rd__h rd__h--3\" data-title-index=\"1\"> <span class=\"entry-title-inner\">At Higher Levels.</span></span> <p>When you cast this spell using a spell slot of 5th level or higher, the damage increases by <span><span class=\"roll-link\" data-formula=\"1d6\" data-type=\"damage\"><a data-action=\"roll\"><i class=\"fa-solid fa-dice-d20\"></i>1d6</a></span> </span> for each slot level above 4th.</p><div class=\"rd__spc-inline-post\"></div></div><div class=\"rd__spc-inline-post\"></div></div>",
-        "spellLevel": "4th Level",
-        "spellRange": "120 ft",
-        "spellSchool": "Enchantment"
-      },
-      {
-        "name": "Vicious Mockery",
-        "itemType": "spell",
-        "description": "<div class=\"rd__b  rd__b--3\"><p>You unleash a string of insults laced with subtle enchantments at a creature you can see within range. If the target can hear you (though it need not understand you), it must succeed on a Wisdom saving throw or take [[/damage 1d4 type=psychic]] damage and have disadvantage on the next attack roll it makes before the end of its next turn.</p><div class=\"rd__spc-inline-post\"></div><p>This spell's damage increases by [[/r 1d4]] when you reach 5th level ([[/damage 2d4]]), 11th level ([[/damage 3d4]]), and 17th level ([[/damage 4d4]]).</p></div>",
-        "spellLevel": "Cantrip",
-        "spellRange": "60 ft",
-        "spellSchool": "Enchantment"
-      },
-      {
         "name": "Hoarfrost Shield",
         "itemType": "equipment",
         "description": "<p><em>Requires attunement by a spellcaster.</em></p><p>While holding this shield you benefit from the following properties:</p><p><strong>Cold Absorption.</strong> Whenever you are subjected to cold damage, you take no damage and instead gain a number of hit points equal to the cold damage dealt.</p><p><strong>Piercing Cold.</strong> Spells you cast that deal cold damage gain a +2 bonus to spell attack rolls and spell save DCs and any 1 or 2 on any of the spells' damage die are rerolled.</p><p></p><p>The shield has 12 charges and regains 1d12 expended charges when you finish a long rest. You can use the following abilities by expending charges:</p><p><strong>Thermal Void (1 charge).</strong> Immediately after a creature hits you with a melee attack, you can expend 1 charge to activate the shield as a free action and freeze the attacking creature in place. It must succeed on a [[/save con dc=@attributes.spelldc format=long]] against your spell save DC or take [[/damage 4d8 type=cold]] damage and become &amp;Reference[restrained] until the start of it's next turn.</p><p><strong>Curse of Biting Cold (2 charges).</strong> You can expend 2 charges to cast Curse of Biting Cold at 4th level. You can choose to upcast this spell by spending one additional charge per additional spell level.</p><p><strong>Otiluke's Freezing Sphere (6 charges).</strong> You can expend 6 charges to cast Otiluke's Freezing Sphere at 6th level.</p>",
@@ -3355,18 +3269,6 @@
         "name": "Activated: Dispel Magic - 3rd",
         "itemType": "consumable",
         "description": "<div class=\"rd__b  rd__b--3\"><p>Choose one creature, object, or magical effect within range. Any spell of 3rd level or lower on the target ends. For each spell of 4th level or higher on the target, make an ability check using your spellcasting ability. The DC equals 10 + the spell's level. On a successful check, the spell ends.</p><div class=\"rd__spc-inline-post\"></div></div><div class=\"rd__b  rd__b--3\"><div class=\"rd__b  rd__b--3\"><span class=\"rd__h rd__h--3\" data-title-index=\"1\"> <span class=\"entry-title-inner\">At Higher Levels.</span></span> <p>When you cast this spell using a spell slot of 4th level or higher, you automatically end the effects of a spell on the target if the spell's level is equal to or less than the level of the spell slot you used.</p><div class=\"rd__spc-inline-post\"></div></div><div class=\"rd__spc-inline-post\"></div></div>",
-        "attunement": "",
-        "quantity": 1,
-        "typeLabel": "Spell Gem",
-        "subType": "",
-        "spellLevel": null,
-        "spellRange": null,
-        "spellSchool": null
-      },
-      {
-        "name": "Activated: Sending - 3rd",
-        "itemType": "consumable",
-        "description": "<div class=\"rd__b  rd__b--3\"><p>You send a short message of twenty-five words or less to a creature with which you are familiar. The creature hears the message in its mind, recognizes you as the sender if it knows you, and can answer in a like manner immediately. The spell enables creatures with Intelligence scores of at least 1 to understand the meaning of your message.</p><p>You can send the message across any distance and even to other planes of existence, but if the target is on a different plane than you, there is a [[/r 1d20]]{5 percent} chance that the message doesn't arrive.</p></div>",
         "attunement": "",
         "quantity": 1,
         "typeLabel": "Spell Gem",
@@ -3522,6 +3424,144 @@
         "itemType": "feat",
         "description": "<p>You can expend 1 Mythic Power and choose a school of magic to perform a profane ritual, requiring 4 hours of uninterrupted work and the corpse of a humanoid creature, which is consumed in the process. The number of such rituals you can perform each day equals half your mythic rank rounded up.</p><p>Upon completion you are imbued with profane power for the next 24 hours, empowering your ability to bend the weave of magic to your will. Whenever you cast a spell of the chosen school by expending a spell slot during this time, the spell is treated as if it were cast using a spell slot one level higher, up to a maximum of 9th level. This bonus is doubled if the chosen school is Necromancy.</p><p>The unholy nature of the ritual leaves no trace of the consumed corpse, erasing it entirely from existence.</p>",
         "requirements": "Mythic Lich 2",
+        "typeLabel": null,
+        "subType": "",
+        "spellLevel": null,
+        "spellRange": null,
+        "spellSchool": null
+      },
+      {
+        "name": "Raulothim's Psychic Lance",
+        "itemType": "spell",
+        "description": "<div class=\"rd__b  rd__b--3\"><p>You unleash a shimmering lance of psychic power from your forehead at a creature that you can see within range. Alternatively, you can utter a creature's name. If the named target is within range, it becomes the spell's target even if you can't see it. If the named target isn't within range, the lance dissipates without effect.</p><div class=\"rd__spc-inline-post\"></div><p>The target must make an Intelligence saving throw. On a failed save, the target takes <span><span class=\"roll-link\" data-type=\"damage\" data-formula=\"7d6\" data-damage-type=\"psychic\"><a data-action=\"roll\"><i class=\"fa-solid fa-dice-d20\"></i>7d6</a></span> psychic</span> damage and is <span class=\"reference-link\"><a class=\"content-link\" data-uuid=\"Compendium.dnd5e.rules.JournalEntry.w7eitkpD7QQTB6j0.JournalEntryPage.TpkZgLfxCmSndmpb\" data-id=\"TpkZgLfxCmSndmpb\" data-type=\"JournalEntryPage\" data-pack=\"dnd5e.rules\" data-tooltip=\"Rule Page\"><i class=\"fas fa-book-open\"></i>Incapacitated</a><a class=\"enricher-action\" data-action=\"apply\" data-status=\"incapacitated\" data-tooltip=\"EDITOR.DND5E.Inline.ApplyStatus\" aria-label=\"Apply Status to Selected Tokens\"><i class=\"fas fa-fw fa-reply-all fa-flip-horizontal\"></i></a></span> until the start of your next turn. On a successful save, the creature takes half as much damage and isn't <span class=\"reference-link\"><a class=\"content-link\" data-uuid=\"Compendium.dnd5e.rules.JournalEntry.w7eitkpD7QQTB6j0.JournalEntryPage.TpkZgLfxCmSndmpb\" data-id=\"TpkZgLfxCmSndmpb\" data-type=\"JournalEntryPage\" data-pack=\"dnd5e.rules\" data-tooltip=\"Rule Page\"><i class=\"fas fa-book-open\"></i>Incapacitated</a><a class=\"enricher-action\" data-action=\"apply\" data-status=\"incapacitated\" data-tooltip=\"EDITOR.DND5E.Inline.ApplyStatus\" aria-label=\"Apply Status to Selected Tokens\"><i class=\"fas fa-fw fa-reply-all fa-flip-horizontal\"></i></a></span>.</p></div><div class=\"rd__b  rd__b--3\"><div class=\"rd__b  rd__b--3\"><span class=\"rd__h rd__h--3\" data-title-index=\"1\"> <span class=\"entry-title-inner\">At Higher Levels.</span></span> <p>When you cast this spell using a spell slot of 5th level or higher, the damage increases by <span><span class=\"roll-link\" data-formula=\"1d6\" data-type=\"damage\"><a data-action=\"roll\"><i class=\"fa-solid fa-dice-d20\"></i>1d6</a></span> </span> for each slot level above 4th.</p><div class=\"rd__spc-inline-post\"></div></div><div class=\"rd__spc-inline-post\"></div></div>",
+        "spellLevel": "4th Level",
+        "spellRange": "120 ft",
+        "spellSchool": "Enchantment"
+      },
+      {
+        "name": "Vicious Mockery",
+        "itemType": "spell",
+        "description": "<div class=\"rd__b  rd__b--3\"><p>You unleash a string of insults laced with subtle enchantments at a creature you can see within range. If the target can hear you (though it need not understand you), it must succeed on a Wisdom saving throw or take [[/damage 1d4 type=psychic]] damage and have disadvantage on the next attack roll it makes before the end of its next turn.</p><div class=\"rd__spc-inline-post\"></div><p>This spell's damage increases by [[/r 1d4]] when you reach 5th level ([[/damage 2d4]]), 11th level ([[/damage 3d4]]), and 17th level ([[/damage 4d4]]).</p></div>",
+        "spellLevel": "Cantrip",
+        "spellRange": "60 ft",
+        "spellSchool": "Enchantment"
+      },
+      {
+        "name": "Jump",
+        "itemType": "feat",
+        "description": "<p>Using your bonus action, you can jump up to [[/r @talia.jumpDistance]] ft.</p>",
+        "requirements": "",
+        "typeLabel": null,
+        "subType": "",
+        "spellLevel": null,
+        "spellRange": null,
+        "spellSchool": null
+      },
+      {
+        "name": "Flame Pearl",
+        "itemType": "loot",
+        "description": "",
+        "quantity": 1,
+        "typeLabel": "Loot",
+        "subType": "",
+        "spellLevel": null,
+        "spellRange": null,
+        "spellSchool": null
+      },
+      {
+        "name": "Bag of Scolding",
+        "itemType": "container",
+        "description": "<p><em>Wondrous item</em></p><p>While equipped, this bag has an interior space considerably larger than its outside dimensions, roughly 2 feet in diameter at the mouth and 4 feet deep. The bag can hold up to 300 pounds, not exceeding a volume of 64 cubic feet. The bag weighs 15 pounds, regardless of its contents. Retrieving an item from the bag requires an action.</p><p>If the bag is overloaded, pierced, or torn, it ruptures and is destroyed, and its contents are scattered in the Astral Plane. If the bag is turned inside out, its contents spill forth, unharmed, but the bag must be put right before it can be used again.</p><p>Breathing creatures inside the bag can survive up to a number of minutes equal to 10 divided by the number of creatures (minimum 1 minute), after which time they begin to suffocate.</p>",
+        "attunement": "",
+        "quantity": 1,
+        "spellLevel": null,
+        "spellRange": null,
+        "spellSchool": null
+      },
+      {
+        "name": "Plate Armor of the Litr Rune",
+        "itemType": "equipment",
+        "description": "<div class=\"rd__b  rd__b--2\"><p>The ornate decorations and runes of this +2 plate armor are covered in the scratches of many battles. A character who examines the runes and succeeds on a [[/skill his dc=20]] check recognizes it as a litr (\"color\" in Giant) rune that confers great power.</p><p>The armor has 10 charges, and it regains [[/r 1d4]] expanded charges when you finish a long rest. Its properties are as follows:</p><ul><li><p><strong>Focus of the Litr Rune.</strong> You can use the armor as a spellcasting focus for your spells. Any visible effects created by a spell cast through this armor shimmer in many different colors.</p></li><li><p><strong>Flash of the Litr Rune.</strong> If a creature scores a critical hit against you, you can expend 1 charge as a free action to emit a flash of bright light. All creatures within 60 feet of you that can see you must make a [[/save con dc=20 format=long]] or be &amp;Reference[blinded]. Any creature blinded by this effect can repeat the saving throw at the end of each of their turns to end the effect.</p></li><li><p><span class=\"entry-title-inner\"><strong>Ward of the Litr Rune.</strong> As an action you can expend 8 charges to activate the Ward of the Litr Rune for 1 minute. While the ward is active, a barrier of translucent panels of many-colored light forms around you, making you resistant to 4 different types of damage and vulnerable to one other. The types of damage you're resistant and vulnerable to are determined randomly when you first receive the effect and at the start of each round in combat.</span></p></li><li><p><strong>Gift of the Litr Rune.</strong> A master blacksmith can transfer the armor's magic to another nonmagical plate armor by etching the exact decorations and runes that adorn this armor into the other. The transfer takes 8 hours of uninterrupted work that requires the two items to be within 5 feet of each other. At the end, this this armor is destroyed and the chosen item gains all properties of this armor.</p></li></ul><p>The wearer has disadvantage on Dexterity (Stealth) checks.</p><p>If the wearer has a Strength score lower than 15, their speed is reduced by 10 feet.</p></div>",
+        "attunement": "required",
+        "quantity": 1,
+        "typeLabel": "Heavy Armor",
+        "spellLevel": null,
+        "spellRange": null,
+        "spellSchool": null
+      },
+      {
+        "name": "Obsidian Ingot",
+        "itemType": "loot",
+        "description": "<p>An obsidian ingot is a small, expertly chiseled bar of pure obsidian. It is said to be incredibly dense and heavy, and can only be crafted by the most skilled blacksmiths. The metal has a deep, dark color that seems to absorb light, but when struck, it glows with a fiery inner light. </p><p></p>",
+        "quantity": 2,
+        "typeLabel": "Loot",
+        "subType": "",
+        "spellLevel": null,
+        "spellRange": null,
+        "spellSchool": null
+      },
+      {
+        "name": "Pyrope",
+        "itemType": "loot",
+        "description": "<p>Pyrope, a type of garnet known for its exquisite beauty, also holds military significance. It is believed that adorning weaponry with this garnet allows it to penetrate the thickest hides or demolish the strongest doors, aided by arcane forces.</p>",
+        "quantity": 3,
+        "typeLabel": "Gemstone",
+        "subType": "",
+        "spellLevel": null,
+        "spellRange": null,
+        "spellSchool": null
+      },
+      {
+        "name": "Oil of Immovability",
+        "itemType": "consumable",
+        "description": "<div class=\"rd__b  rd__b--2\"><p>A vial of this usually contains 4 doses. As an action, a dose can be applied to the hinges of a door or chest lid, the gears of a machine, the axel of a wagon, or to the moving parts of another object. For the next 8 hours, those moving parts are locked in place. It requires a [[/check str dc=25 format=long]] to move the parts, but that usually causes the object to break first, unless it is a very sturdy object.</p></div>",
+        "attunement": "",
+        "quantity": 1,
+        "typeLabel": "Potion",
+        "subType": "",
+        "spellLevel": null,
+        "spellRange": null,
+        "spellSchool": null
+      },
+      {
+        "name": "Flame Pearl",
+        "itemType": "loot",
+        "description": "",
+        "quantity": 1,
+        "typeLabel": "Loot",
+        "subType": "",
+        "spellLevel": null,
+        "spellRange": null,
+        "spellSchool": null
+      },
+      {
+        "name": "Potion of Mind Restoration",
+        "itemType": "consumable",
+        "description": "<div class=\"rd__b  rd__b--2\"><p>This potion cures any type of insanity or confusion, restores memories that have been altered or removed with the <i>modify memory</i> or similar spell, ends the charmed condition, and reverses the effects of the <i>feeblemind</i> spell. This potion is a clear purple that sparkles when you shake it.</p></div>",
+        "attunement": "",
+        "quantity": 1,
+        "typeLabel": "Potion",
+        "subType": "",
+        "spellLevel": null,
+        "spellRange": null,
+        "spellSchool": null
+      },
+      {
+        "name": "Pure Wrong",
+        "itemType": "loot",
+        "description": "<p>Extracted from large-sized or larger aberration creatures. This eerie substance exudes an unsettling aura, its shifting colors and slimy texture defying natural order.</p>",
+        "quantity": 7,
+        "typeLabel": "Ingredient",
+        "subType": "bodyPart",
+        "spellLevel": null,
+        "spellRange": null,
+        "spellSchool": null
+      },
+      {
+        "name": "Grapple",
+        "itemType": "feat",
+        "description": "<p>When you want to grab a creature or wrestle with it, you can use the Attack action to make a special melee attack, a grapple. If you're able to make multiple attacks with the Attack action, this attack replaces one of them. The target of your grapple must be no more than one size larger than you, and it must be within your reach.</p><p>Using at least one free hand, you try to seize the target by making a grapple check, a [[/skill ath format=long]] contested by the target's [[/skill ath format=long]] or [[/skill acr format=long]] (the target chooses the ability to use). You succeed automatically if the target is incapacitated. If you succeed, you subject the target to the &amp;Reference[grappled] effect. The condition specifies the things that end it, and you can release the target whenever you like (no action required).</p>",
+        "requirements": "",
         "typeLabel": null,
         "subType": "",
         "spellLevel": null,
@@ -4432,17 +4472,6 @@
         "spellSchool": null
       },
       {
-        "name": "Grapple",
-        "itemType": "feat",
-        "description": "<p>When you want to grab a creature or wrestle with it, you can use the Attack action to make a special melee attack, a grapple. If you're able to make multiple attacks with the Attack action, this attack replaces one of them. The target of your grapple must be no more than one size larger than you, and it must be within your reach.</p><p>Using at least one free hand, you try to seize the target by making a grapple check, a <span style=\"font-family:ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace\">[[/skill athletics format=long]]</span> contested by the target's <span style=\"font-family:ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace\">[[/skill athletics format=long]]</span> or <span style=\"font-family:ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace\">[[/skill acrobatics format=long]]</span> (the target chooses the ability to use). You succeed automatically if the target is incapacitated. If you succeed, you subject the target to the grappled effect (see the appendix). The condition specifies the things that end it, and you can release the target whenever you like (no action required).</p>",
-        "requirements": "",
-        "typeLabel": null,
-        "subType": "",
-        "spellLevel": null,
-        "spellRange": null,
-        "spellSchool": null
-      },
-      {
         "name": "Echoing Crystalbloom",
         "itemType": "consumable",
         "description": "<p>When this crystalline flower shatters, it covers creatures in a 10ft sphere in it's fine dust unless they succeed on a Dexterity saving throw against the contraption's save DC.</p><p>Any creature covered by the dust involuntarily echoes it’s own speech for 10 minutes, making it much more difficult to form the verbal components of spells.</p><p>While under this effect, casting a spell with verbal components requires a bonus action and the caster's full movement in addition to the spells normal requirements.</p>",
@@ -4833,17 +4862,6 @@
         "spellSchool": "Conjuration"
       },
       {
-        "name": "Jump",
-        "itemType": "feat",
-        "description": "<p>Using your bonus action, you can jump up to a number of feet equal to 5 plus 5 feet for every 2 points of your highest skill modifier between Athletics and Acrobatics. For example, if your highest modifier is +4, you can jump up to 15 feet.</p>",
-        "requirements": "",
-        "typeLabel": null,
-        "subType": "",
-        "spellLevel": null,
-        "spellRange": null,
-        "spellSchool": null
-      },
-      {
         "name": "Versatility through Unpredictability",
         "itemType": "feat",
         "description": "<div><div><div class=\"rd__b  rd__b--3\"><p>As a bonus action, you can attempt to swap a prepared spell with an unprepared spell. Choose a prepared spell, then roll a [[/r d20]].</p><p>On a roll of 10 or lower, you must replace the chosen prepared spell with an unprepared spell of a lower spell level.<br />On a roll of 11 or higher, you must replace the chosen prepared spell with an unprepared spell of a higher spell level.</p><p>If the result would force you to choose an unprepared spell of a higher level than your highest available spell slot, the swap fails and the chosen prepared spell remains unchanged. The same applies if the roll would force you to swap a 1st-level spell for a spell of a lower level.</p></div></div></div>",
@@ -4965,6 +4983,28 @@
         "itemType": "feat",
         "description": "<p>Whenever a hostile creature within 300 feet rolls a natural 1 on its initiative, it dies immediately. You are free to narrate the cause of its death in any manner you like as long as it doesn't mechanically impact any other creature or the environment.</p><p>If it rolls a natural 20 instead, a perfect duplicate of the creature, including its items and equipment, appears in the closest unoccupied space and immediately after the original creature in initiative order (without rolling for initiative). The original and its duplicate immediately become hostile towards one another, each believing themselves to be the 'real' one.</p>",
         "requirements": "Mythic Trickster 2",
+        "typeLabel": null,
+        "subType": "",
+        "spellLevel": null,
+        "spellRange": null,
+        "spellSchool": null
+      },
+      {
+        "name": "Jump",
+        "itemType": "feat",
+        "description": "<p>Using your bonus action, you can jump up to [[/r @talia.jumpDistance]] ft.</p>",
+        "requirements": "",
+        "typeLabel": null,
+        "subType": "",
+        "spellLevel": null,
+        "spellRange": null,
+        "spellSchool": null
+      },
+      {
+        "name": "Grapple",
+        "itemType": "feat",
+        "description": "<p>When you want to grab a creature or wrestle with it, you can use the Attack action to make a special melee attack, a grapple. If you're able to make multiple attacks with the Attack action, this attack replaces one of them. The target of your grapple must be no more than one size larger than you, and it must be within your reach.</p><p>Using at least one free hand, you try to seize the target by making a grapple check, a [[/skill ath format=long]] contested by the target's [[/skill ath format=long]] or [[/skill acr format=long]] (the target chooses the ability to use). You succeed automatically if the target is incapacitated. If you succeed, you subject the target to the &amp;Reference[grappled] effect. The condition specifies the things that end it, and you can release the target whenever you like (no action required).</p>",
+        "requirements": "",
         "typeLabel": null,
         "subType": "",
         "spellLevel": null,
@@ -5319,18 +5359,6 @@
         "spellSchool": null
       },
       {
-        "name": "Potion of Healing",
-        "itemType": "consumable",
-        "description": "<p><em>The potion's red liquid glimmers when agitated.</em></p><p>You regain 2d4+2 hit points when you drink this potion.</p>",
-        "attunement": "",
-        "quantity": 2,
-        "typeLabel": "Potion",
-        "subType": "",
-        "spellLevel": null,
-        "spellRange": null,
-        "spellSchool": null
-      },
-      {
         "name": "Circlet of Wisdom",
         "itemType": "equipment",
         "description": "<p>This circlet grants a +2 bonus to the wearer’s Wisdom score when attuned.</p>",
@@ -5467,17 +5495,6 @@
         "itemType": "feat",
         "description": "<p>Upon your death, if your life essence is not captured, it returns to your hoard, where it coalesces into an egg. Any items you were wearing or carrying at the time of death are also recalled to your hoard. After [[/r 1d10]] days, the egg hatches, and you are reborn as a tiny pseudodragon, retaining all memories from your previous lives.</p><p>After an additional [[/r 1d20]] days, your pseudodragon form grows to small size. Another [[/r 1d20]] days later, you are fully restored and can transform back into your dragonborn form, regaining all features and abilities you possessed before your death.</p>",
         "requirements": "Mythic Dragon 1",
-        "typeLabel": null,
-        "subType": "",
-        "spellLevel": null,
-        "spellRange": null,
-        "spellSchool": null
-      },
-      {
-        "name": "Grapple",
-        "itemType": "feat",
-        "description": "<p>When you want to grab a creature or wrestle with it, you can use the Attack action to make a special melee attack, a grapple. If you're able to make multiple attacks with the Attack action, this attack replaces one of them. The target of your grapple must be no more than one size larger than you, and it must be within your reach.</p><p>Using at least one free hand, you try to seize the target by making a grapple check, a <span style=\"font-family:ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace\">[[/skill athletics format=long]]</span> contested by the target's <span style=\"font-family:ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace\">[[/skill athletics format=long]]</span> or <span style=\"font-family:ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace\">[[/skill acrobatics format=long]]</span> (the target chooses the ability to use). You succeed automatically if the target is incapacitated. If you succeed, you subject the target to the grappled effect (see the appendix). The condition specifies the things that end it, and you can release the target whenever you like (no action required).</p>",
-        "requirements": "",
         "typeLabel": null,
         "subType": "",
         "spellLevel": null,
@@ -5632,17 +5649,6 @@
         "spellSchool": null
       },
       {
-        "name": "Wolf Ribs",
-        "itemType": "loot",
-        "description": "<p>Wolf Ribs gathered from the giant wolf that we fight in the mountain. Look tasty and a bit cold to touch. Should be cooked before consumed!</p>",
-        "quantity": 3,
-        "typeLabel": "Food",
-        "subType": "meal",
-        "spellLevel": null,
-        "spellRange": null,
-        "spellSchool": null
-      },
-      {
         "name": "Star Anise",
         "itemType": "loot",
         "description": "",
@@ -5742,17 +5748,6 @@
         "spellLevel": "1st Level",
         "spellRange": "Touch",
         "spellSchool": "Evocation"
-      },
-      {
-        "name": "Jump",
-        "itemType": "feat",
-        "description": "<p>Using your bonus action, you can jump up to a number of feet equal to 5 plus 5 feet for every 2 points of your highest skill modifier between Athletics and Acrobatics. For example, if your highest modifier is +4, you can jump up to 15 feet.</p>",
-        "requirements": "",
-        "typeLabel": null,
-        "subType": "",
-        "spellLevel": null,
-        "spellRange": null,
-        "spellSchool": null
       },
       {
         "name": "Ioun Stone, Language Knowledge",
@@ -5949,6 +5944,50 @@
         "itemType": "feat",
         "description": "<p>As an action, you can expend 1 Mythic Power to create a cloud of mind-altering fog in a 1-mile radius that lasts for 1 hour.</p><p>The fog lightly obscures the area, and creatures inside it are unaware of their minds and senses being distorted by the miasma unless they are either immune to &amp;Reference[illusion] or &amp;Reference[enchantment] magic, succeed on a [[/check inv dc=30]] or [[/check prc dc=30]] check, or possess &amp;Reference[rule=truesight]. Even if a creature becomes aware of the miasma’s mind-altering properties, they still suffer its effects as long as they remain within the fog.</p><p>The miasma distorts the mind and senses of other creatures while enhancing your ability to take advantage of their altered state of mind. While inside the area:</p><ul><li><p>You have advantage on saving throws against being &amp;Reference[charmed] or &amp;Reference[frightened] as well as on [[/skill ste]], [[/skill prc]], [[/skill ins]], and [[/skill dec]] checks.</p></li><li><p>Other creatures have disadvantage on saving throws against being &amp;Reference[charmed] or &amp;Reference[frightened] as well as on [[/skill prc]], [[/skill ins]], and [[/skill sur]] checks.</p></li></ul><p>Additionally, when you see a creature within the miasma make an attack, you can use your reaction to manipulate their perception, causing them to mistake another creature of your choice for their intended target, provided the new target is a valid option for the attack (e.g., within range). If the attacker is aware of the miasma's mind altering properties, they can make a [[/save wis format=long]] against your ki save DC to avoid the redirection of that attack.</p>",
         "requirements": "Mythic Dragon 2",
+        "typeLabel": null,
+        "subType": "",
+        "spellLevel": null,
+        "spellRange": null,
+        "spellSchool": null
+      },
+      {
+        "name": "Jump",
+        "itemType": "feat",
+        "description": "<p>Using your bonus action, you can jump up to [[/r @talia.jumpDistance]] ft.</p>",
+        "requirements": "",
+        "typeLabel": null,
+        "subType": "",
+        "spellLevel": null,
+        "spellRange": null,
+        "spellSchool": null
+      },
+      {
+        "name": "Obsidian Ingot",
+        "itemType": "loot",
+        "description": "<p>An obsidian ingot is a small, expertly chiseled bar of pure obsidian. It is said to be incredibly dense and heavy, and can only be crafted by the most skilled blacksmiths. The metal has a deep, dark color that seems to absorb light, but when struck, it glows with a fiery inner light. </p><p></p>",
+        "quantity": 1,
+        "typeLabel": "Loot",
+        "subType": "",
+        "spellLevel": null,
+        "spellRange": null,
+        "spellSchool": null
+      },
+      {
+        "name": "Vial of Blood Ozoze",
+        "itemType": "loot",
+        "description": "",
+        "quantity": 1,
+        "typeLabel": "Loot",
+        "subType": "",
+        "spellLevel": null,
+        "spellRange": null,
+        "spellSchool": null
+      },
+      {
+        "name": "Grapple",
+        "itemType": "feat",
+        "description": "<p>When you want to grab a creature or wrestle with it, you can use the Attack action to make a special melee attack, a grapple. If you're able to make multiple attacks with the Attack action, this attack replaces one of them. The target of your grapple must be no more than one size larger than you, and it must be within your reach.</p><p>Using at least one free hand, you try to seize the target by making a grapple check, a [[/skill ath format=long]] contested by the target's [[/skill ath format=long]] or [[/skill acr format=long]] (the target chooses the ability to use). You succeed automatically if the target is incapacitated. If you succeed, you subject the target to the &amp;Reference[grappled] effect. The condition specifies the things that end it, and you can release the target whenever you like (no action required).</p>",
+        "requirements": "",
         "typeLabel": null,
         "subType": "",
         "spellLevel": null,
