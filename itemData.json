@@ -192,17 +192,6 @@
         "spellSchool": null
       },
       {
-        "name": "Meat Cleaver",
-        "itemType": "weapon",
-        "description": "<p>This one-handed axe is light and balanced for throwing while remaining useful in hand combat.</p>",
-        "attunement": "",
-        "quantity": 1,
-        "typeLabel": "Simple Melee",
-        "spellLevel": null,
-        "spellRange": null,
-        "spellSchool": null
-      },
-      {
         "name": "Rod of Unwilling Retribution",
         "itemType": "equipment",
         "description": "<p>Up to three times per day when another entity you can see within 60 feet damages you, the Rod activates and zaps the creature nearest to you who must make a Dexterity saving throw (DC = 10 + your character level), taking 2d10 lightning damage on a failed save or half as much on a successful one.</p>",
@@ -364,17 +353,6 @@
         "requirements": "Spirit Warrior",
         "typeLabel": "Spirit Beast's Blessing",
         "subType": "beastBlessing",
-        "spellLevel": null,
-        "spellRange": null,
-        "spellSchool": null
-      },
-      {
-        "name": "Javelin",
-        "itemType": "weapon",
-        "description": "<p>This light and flexible spear is designed for throwing, but is versatile enough to be used in melee combat as well.</p>",
-        "attunement": "",
-        "quantity": 1,
-        "typeLabel": "Simple Melee",
         "spellLevel": null,
         "spellRange": null,
         "spellSchool": null
@@ -694,17 +672,6 @@
         "spellSchool": null
       },
       {
-        "name": "Book: Slaves and Kings (Drofi's possession atm)",
-        "itemType": "loot",
-        "description": "<p>A book describing the steamy and forbidden romance between a rich multi-goldillionaire and the down-on-her-luck cleaner maid.</p><p>Threehundred pages of best-selling material made for fourtyfive year old women.</p>",
-        "quantity": 1,
-        "typeLabel": "Loot",
-        "subType": "",
-        "spellLevel": null,
-        "spellRange": null,
-        "spellSchool": null
-      },
-      {
         "name": "Jungle Vine (50ft)",
         "itemType": "consumable",
         "description": "<p>Rope, made from hanging vines, has 2 hit points and can be burst with a DC 17 Strength check.</p>",
@@ -785,17 +752,6 @@
         "spellSchool": null
       },
       {
-        "name": "Shalkoc's Black Scale",
-        "itemType": "loot",
-        "description": "<p>An scale from Shalkoc given to Aviana in good gesture, just before he goes to fetch some Wine from the Cellar.</p>",
-        "quantity": 1,
-        "typeLabel": "Loot",
-        "subType": "",
-        "spellLevel": null,
-        "spellRange": null,
-        "spellSchool": null
-      },
-      {
         "name": "Guardian's Reflex",
         "itemType": "feat",
         "description": "<div><p><em>Prerequisite: Constitution 15 or higher</em></p><div><div class=\"rd__b  rd__b--3\"><p>With the spirit of a true hero, you leap into harm's way to shield your allies, taking the hit they cannot. You gain the following benefits:</p><p class=\"rd__p-list-item\" data-roll-name-ancestor=\"Ability Score Increase.\"><span class=\"bold rd__list-item-name\">Ability Score Increase.</span> Increase your Constitution score by 1, to a maximum of 20.</p><ul class=\"rd__list rd__list-hang-notitle\"><li class=\"rd__li \"><p class=\"rd__p-list-item\" data-roll-name-ancestor=\"Intervene\"><span class=\"bold rd__list-item-name\">Intervene.</span> When a creature you can see hits a target you can see, other than yourself, with a ranged weapon or spell attack, you can use your reaction to intercept it. To use this reaction, there must be an unoccupied space adjacent to the target, between the target and the attacker, and within your jumping distance. You leap to this space, landing directly in the line of attack and taking the hit intended for the target, applying all effects of the attack to yourself as though you were the original target. Until the end of the turn, the target gains &amp;Reference[Three-Quarters Cover] and cannot roll death saving throws. You can use this reaction a number of times equal to your proficiency bonus, regaining all expended uses when you finish a long rest.</p></li></ul></div></div></div>",
@@ -834,19 +790,8 @@
         "itemType": "consumable",
         "description": "<div class=\"rd__b  rd__b--2\"><p>A torch burns for 1 hour, providing bright light in a 20-foot radius and dim light for an additional 20 feet. If you make a melee attack with a burning torch and hit, it deals 1 fire damage.</p></div>",
         "attunement": "",
-        "quantity": 10,
+        "quantity": 2,
         "typeLabel": "Trinket",
-        "subType": "",
-        "spellLevel": null,
-        "spellRange": null,
-        "spellSchool": null
-      },
-      {
-        "name": "Ancient Brick",
-        "itemType": "loot",
-        "description": "",
-        "quantity": 1,
-        "typeLabel": "Loot",
         "subType": "",
         "spellLevel": null,
         "spellRange": null,
@@ -858,28 +803,6 @@
         "description": "<div class=\"rd__b  rd__b--2\"><p>A backpack can hold one cubic foot or 30 pounds of gear. You can also strap items, such as a bedroll or a coil of rope, to the outside of a backpack.</p></div>",
         "attunement": "",
         "quantity": 1,
-        "spellLevel": null,
-        "spellRange": null,
-        "spellSchool": null
-      },
-      {
-        "name": "Dragon \"Hair\"",
-        "itemType": "loot",
-        "description": "<p>Actually are Hair from a frost Giantess named Drufi.</p>",
-        "quantity": 1,
-        "typeLabel": "Loot",
-        "subType": "",
-        "spellLevel": null,
-        "spellRange": null,
-        "spellSchool": null
-      },
-      {
-        "name": "Jade",
-        "itemType": "loot",
-        "description": "<p>Its primary form is called Jadeite, after cutting, it's mainly used in ornamental sculptures and figurines. Musicians of all kinds believed that if they wore Jade, they would improve their musical prowess</p>",
-        "quantity": 1,
-        "typeLabel": "Gemstone",
-        "subType": "",
         "spellLevel": null,
         "spellRange": null,
         "spellSchool": null
@@ -912,28 +835,6 @@
         "description": "<p>A sack can hold up to 1 cubic foot or 30 pounds of gear.</p>",
         "attunement": "",
         "quantity": 1,
-        "spellLevel": null,
-        "spellRange": null,
-        "spellSchool": null
-      },
-      {
-        "name": "Small Knife",
-        "itemType": "loot",
-        "description": "<p>A blunt knife used by the scholarly to open letters and correspondence.</p>",
-        "quantity": 1,
-        "typeLabel": "Loot",
-        "subType": "",
-        "spellLevel": null,
-        "spellRange": null,
-        "spellSchool": null
-      },
-      {
-        "name": "Marble",
-        "itemType": "loot",
-        "description": "<p>Marble</p><p>The favorite tool of skilled sculptors, marble, transforms thoughts and emotions into beautiful sculptures as they carve it. Polished to a shine, it earns the sculptor a hefty profit when sold. Marble is one of the heaviest and most resilient stones that can be bought with coin. Its elegance makes it a popular choice for nobility, who use it for indoor flooring and heavy furnishings.</p>",
-        "quantity": 2,
-        "typeLabel": "Loot",
-        "subType": "",
         "spellLevel": null,
         "spellRange": null,
         "spellSchool": null
@@ -976,20 +877,9 @@
         "name": "Hearthstone",
         "itemType": "loot",
         "description": "<p>The Hearthstone is a sacred item among all giantkin. These heavy, flat pieces of granite—typically 1 to 2 feet in diameter—are painstakingly carved by mighty runepriests, imbued with ancient magic to tether the bearer’s essence to a place of safety. Revered as both currency and a protective charm, Hearthstones are traded between giants with great reverence, their value lying not only in material worth but in the promise of an arduous but ultimately safe journey back home in death, for those strong enough to endure it.</p><p><strong>Shattering</strong></p><p>When a creature carrying a Hearthstone dies, the Hearthstone shatters. Upon doing so, the creature must make a [[/save con DC 18 format=long]]. On a successful save, the creature's body and any attuned items it carried at the time of its death instantly return to the location of its last extended rest (an extended rest takes 1 month). The body appears unconscious, afflicted by a deep fever, and remains in this state until the soul completes its return journey.</p><p>Unless the creature’s soul is captured at the time of the creature's death, it must travel through a cold and snow-covered woodland, eventually finding refuge in a warm cabin, symbolizing its body. The journey back to its body takes a number of weeks equal to 50 minus the result of the saving throw (minimum of 1 week). During this time, the creature cannot be revived by any means, including spells like revivify or raise dead.</p><p>Once the soul completes its journey, the creature’s fever breaks, and it awakens with 1 hit point. The Hearthstone is destroyed after use and cannot be restored or repaired.</p>",
-        "quantity": 2,
+        "quantity": 1,
         "typeLabel": "Exotic Currency",
         "subType": "",
-        "spellLevel": null,
-        "spellRange": null,
-        "spellSchool": null
-      },
-      {
-        "name": "Aztec Draconic Shield",
-        "itemType": "equipment",
-        "description": "<p>A shield is made from wood or metal and is carried in one hand. Wielding a shield increases your Armor Class by 2. You can benefit from only one shield at a time.</p>",
-        "attunement": "NaN",
-        "quantity": 1,
-        "typeLabel": "Shield",
         "spellLevel": null,
         "spellRange": null,
         "spellSchool": null
@@ -1058,39 +948,6 @@
         "spellSchool": null
       },
       {
-        "name": "Keen Sight",
-        "itemType": "feat",
-        "description": "<p>You have advantage on Perception checks.</p>",
-        "requirements": "Eagle Spirit",
-        "typeLabel": "Spirit Beast Power",
-        "subType": "beastPower",
-        "spellLevel": null,
-        "spellRange": null,
-        "spellSchool": null
-      },
-      {
-        "name": "Diving Strike",
-        "itemType": "weapon",
-        "description": "<p>As a bonus action, you leap at a creature within jumping distance that's at least 10ft away from you and attack it with a natural weapon attack. If this attack hits, it deals an additional 1d6 damage for every 10ft of distance between your starting location and the target creature.</p><p>Afterwards, regardless of the attack hitting, you move to land in the nearest unoccupied space (and cause any effects that trigger upon landing a jump).</p>",
-        "attunement": "",
-        "quantity": 1,
-        "typeLabel": "Natural",
-        "spellLevel": null,
-        "spellRange": null,
-        "spellSchool": null
-      },
-      {
-        "name": "Billowing Wings",
-        "itemType": "feat",
-        "description": "<p>You have a flying speed equal to your current walking speed. This benefit works only in short bursts; you fall if you end your turn in the air and nothing else is holding you aloft.</p>",
-        "requirements": "Eagle Spirit",
-        "typeLabel": "Spirit Beast Power",
-        "subType": "beastPower",
-        "spellLevel": null,
-        "spellRange": null,
-        "spellSchool": null
-      },
-      {
         "name": "Unflinching",
         "itemType": "feat",
         "description": "<p>Whenever you take damage from a critical hit, you immediately regain 2d12 hit points per mythic rank. </p><p>If the hit points restored this way exceed the damage taken from the triggering hit, all hostile creatures that can see you must make a [[/save wis dc=8+@abilities.con.mod+@prof format=long]] (DC = 8 + your Constitution modifier + your proficiency bonus) or become &amp;Reference[frightened]. While frightened by this effect, a creature must take the Dash action and move away from you by the safest available route on each of its turns, unless there is nowhere to move. If the creature ends its turn in a location where it doesn't have line of sight to you, the creature can make another [[/save wis dc=8+@abilities.con.mod+@prof format=long]]. On a successful save, the effect ends for that creature.</p>",
@@ -1113,17 +970,6 @@
         "spellSchool": null
       },
       {
-        "name": "Obsidian Ingot",
-        "itemType": "loot",
-        "description": "<p>An obsidian ingot is a small, expertly chiseled bar of pure obsidian. It is said to be incredibly dense and heavy, and can only be crafted by the most skilled blacksmiths. The metal has a deep, dark color that seems to absorb light, but when struck, it glows with a fiery inner light. </p><p></p>",
-        "quantity": 7,
-        "typeLabel": "Loot",
-        "subType": "",
-        "spellLevel": null,
-        "spellRange": null,
-        "spellSchool": null
-      },
-      {
         "name": "Potion of Healing",
         "itemType": "consumable",
         "description": "<p><em>The potion's red liquid glimmers when agitated.</em></p><p>You regain 2d4+2 hit points when you drink this potion.</p>",
@@ -1131,6 +977,73 @@
         "quantity": 1,
         "typeLabel": "Potion",
         "subType": "",
+        "spellLevel": null,
+        "spellRange": null,
+        "spellSchool": null
+      },
+      {
+        "name": "Bugman’s Ale",
+        "itemType": "consumable",
+        "description": "<blockquote><p>This special brew was originally created by the legendary dwarven brewmaster Joseph Bugman, and he shared its recipe only with his most trusted apprentices.</p></blockquote><p>When you drink this ale, you need to make a DC 30 Constitution saving throw. On a failed save, you become immune to the &amp;Reference[Frightened] condition for 8 hours.</p>",
+        "attunement": "",
+        "quantity": 8,
+        "typeLabel": "Food",
+        "subType": "",
+        "spellLevel": null,
+        "spellRange": null,
+        "spellSchool": null
+      },
+      {
+        "name": "Ace card given from a Devil",
+        "itemType": "loot",
+        "description": "",
+        "quantity": 1,
+        "typeLabel": "Loot",
+        "subType": "",
+        "spellLevel": null,
+        "spellRange": null,
+        "spellSchool": null
+      },
+      {
+        "name": "Solitary Hunter",
+        "itemType": "feat",
+        "description": "<p>When both you and your target are isolated and you deal damage to it, double all of your damage dice. A creature is isolated if no ally is within it's line of sight.</p>",
+        "requirements": "Tiger Spirit",
+        "typeLabel": "Spirit Beast Power",
+        "subType": "beastPower",
+        "spellLevel": null,
+        "spellRange": null,
+        "spellSchool": null
+      },
+      {
+        "name": "Ambush Predator",
+        "itemType": "feat",
+        "description": "<p>You have advantage on Stealth checks.</p>",
+        "requirements": "Tiger Spirit",
+        "typeLabel": "Spirit Beast Power",
+        "subType": "beastPower",
+        "spellLevel": null,
+        "spellRange": null,
+        "spellSchool": null
+      },
+      {
+        "name": "Pouncing Strikes",
+        "itemType": "weapon",
+        "description": "<p>You make a single attack with your natural weapons against up to 4 different creatures within range. This ability can only be used right after landing from a jump.</p>",
+        "attunement": "",
+        "quantity": 1,
+        "typeLabel": "Natural",
+        "spellLevel": null,
+        "spellRange": null,
+        "spellSchool": null
+      },
+      {
+        "name": "Scent of Blood",
+        "itemType": "feat",
+        "description": "<p>If you are hiding when you take the jump action, you can activate Rage as a free action while you're mid-air.</p>",
+        "requirements": "Tiger Spirit",
+        "typeLabel": "Spirit Beast Power",
+        "subType": "beastPower",
         "spellLevel": null,
         "spellRange": null,
         "spellSchool": null
@@ -1735,17 +1648,6 @@
         "itemType": "loot",
         "description": "<p>A Indian like Pipe for smoking</p>",
         "quantity": 1,
-        "typeLabel": "Loot",
-        "subType": "",
-        "spellLevel": null,
-        "spellRange": null,
-        "spellSchool": null
-      },
-      {
-        "name": "Square Cube Crystals",
-        "itemType": "loot",
-        "description": "",
-        "quantity": 2,
         "typeLabel": "Loot",
         "subType": "",
         "spellLevel": null,
@@ -2517,18 +2419,6 @@
         "spellSchool": null
       },
       {
-        "name": "Wandering Wart",
-        "itemType": "consumable",
-        "description": "<p>When this mushroom bursts open, it covers any creature in a 5ft radius in it's spores for one minute.</p><p>A creature covered in these spores teleports 5ft laterally in a random direction at the beginning of it's turn. A single creature can be affected by multiple instances of this effect, each adding 5ft to the teleportation distance.</p>",
-        "attunement": "NaN",
-        "quantity": 1,
-        "typeLabel": "Unusual Material",
-        "subType": "",
-        "spellLevel": null,
-        "spellRange": null,
-        "spellSchool": null
-      },
-      {
         "name": "Activated: Dispel Magic - 3rd",
         "itemType": "consumable",
         "description": "<table>\n        <tbody>\n            <tr>\n                <td>\n                    <p style=\"text-align:center;font-weight:bold\">3rd Level</p>\n                </td>\n            </tr>\n            \n        </tbody>\n    </table><div class=\"rd__b  rd__b--3\"><p>Choose one creature, object, or magical effect within range. Any spell of 3rd level or lower on the target ends. For each spell of 4th level or higher on the target, make an ability check using your spellcasting ability. The DC equals 10 + the spell's level. On a successful check, the spell ends.</p><div class=\"rd__spc-inline-post\"></div></div><div class=\"rd__b  rd__b--3\"><div class=\"rd__b  rd__b--3\"><span class=\"rd__h rd__h--3\" data-title-index=\"1\"> <span class=\"entry-title-inner\">At Higher Levels.</span></span> <p>When you cast this spell using a spell slot of 4th level or higher, you automatically end the effects of a spell on the target if the spell's level is equal to or less than the level of the spell slot you used.</p><div class=\"rd__spc-inline-post\"></div></div><div class=\"rd__spc-inline-post\"></div></div>",
@@ -3290,18 +3180,6 @@
         "spellSchool": null
       },
       {
-        "name": "Activated: Sending - 3rd",
-        "itemType": "consumable",
-        "description": "<div class=\"rd__b  rd__b--3\"><p>You send a short message of twenty-five words or less to a creature with which you are familiar. The creature hears the message in its mind, recognizes you as the sender if it knows you, and can answer in a like manner immediately. The spell enables creatures with Intelligence scores of at least 1 to understand the meaning of your message.</p><p>You can send the message across any distance and even to other planes of existence, but if the target is on a different plane than you, there is a [[/r 1d20]]{5 percent} chance that the message doesn't arrive.</p></div>",
-        "attunement": "",
-        "quantity": 1,
-        "typeLabel": "Spell Gem",
-        "subType": "",
-        "spellLevel": null,
-        "spellRange": null,
-        "spellSchool": null
-      },
-      {
         "name": "Activated: Wind Walk - 6th",
         "itemType": "consumable",
         "description": "<div class=\"rd__b  rd__b--3\"><p>You and up to ten willing creatures you can see within range assume a gaseous form for the duration, appearing as wisps of cloud. While in this cloud form, a creature has a flying speed of 300 feet and has resistance to damage from nonmagical weapons. The only actions a creature can take in this form are the <span class=\"bold\" data-plut-hover=\"true\" data-plut-hover-page=\"actions.html\" data-plut-hover-source=\"PHB\" data-plut-hover-hash=\"dash_phb\">Dash</span> action or to revert to its normal form. Reverting takes 1 minute, during which time a creature is &amp;Reference[condition=incapacitated] and can't move. Until the spell ends, a creature can revert to cloud form, which also requires the 1-minute transformation.</p><div class=\"rd__spc-inline-post\"></div><p>If a creature is in cloud form and flying when the effect ends, the creature descends 60 feet per round for 1 minute until it lands, which it does safely. If it can't land after 1 minute, the creature falls the remaining distance.</p></div>",
@@ -3458,17 +3336,6 @@
         "spellSchool": null
       },
       {
-        "name": "Flame Pearl",
-        "itemType": "loot",
-        "description": "",
-        "quantity": 1,
-        "typeLabel": "Loot",
-        "subType": "",
-        "spellLevel": null,
-        "spellRange": null,
-        "spellSchool": null
-      },
-      {
         "name": "Bag of Scolding",
         "itemType": "container",
         "description": "<p><em>Wondrous item</em></p><p>While equipped, this bag has an interior space considerably larger than its outside dimensions, roughly 2 feet in diameter at the mouth and 4 feet deep. The bag can hold up to 300 pounds, not exceeding a volume of 64 cubic feet. The bag weighs 15 pounds, regardless of its contents. Retrieving an item from the bag requires an action.</p><p>If the bag is overloaded, pierced, or torn, it ruptures and is destroyed, and its contents are scattered in the Astral Plane. If the bag is turned inside out, its contents spill forth, unharmed, but the bag must be put right before it can be used again.</p><p>Breathing creatures inside the bag can survive up to a number of minutes equal to 10 divided by the number of creatures (minimum 1 minute), after which time they begin to suffocate.</p>",
@@ -3485,17 +3352,6 @@
         "attunement": "required",
         "quantity": 1,
         "typeLabel": "Heavy Armor",
-        "spellLevel": null,
-        "spellRange": null,
-        "spellSchool": null
-      },
-      {
-        "name": "Obsidian Ingot",
-        "itemType": "loot",
-        "description": "<p>An obsidian ingot is a small, expertly chiseled bar of pure obsidian. It is said to be incredibly dense and heavy, and can only be crafted by the most skilled blacksmiths. The metal has a deep, dark color that seems to absorb light, but when struck, it glows with a fiery inner light. </p><p></p>",
-        "quantity": 2,
-        "typeLabel": "Loot",
-        "subType": "",
         "spellLevel": null,
         "spellRange": null,
         "spellSchool": null
@@ -3518,17 +3374,6 @@
         "attunement": "",
         "quantity": 1,
         "typeLabel": "Potion",
-        "subType": "",
-        "spellLevel": null,
-        "spellRange": null,
-        "spellSchool": null
-      },
-      {
-        "name": "Flame Pearl",
-        "itemType": "loot",
-        "description": "",
-        "quantity": 1,
-        "typeLabel": "Loot",
         "subType": "",
         "spellLevel": null,
         "spellRange": null,
@@ -3567,6 +3412,38 @@
         "spellLevel": null,
         "spellRange": null,
         "spellSchool": null
+      },
+      {
+        "name": "Spell Scroll: Chain Lightning",
+        "itemType": "consumable",
+        "description": "<div class=\"rd__b  rd__b--3\"><p>You release a surge of static energy that fills the air, crackling as it seeks its path. Choose a target you can see within range, and make a ranged spell attack. If the attack hits, the static energy arcs towards the closest creature within 30 feet of the previous target that hasn’t been struck by this casting of Chain Lightning. You make a new ranged spell attack for each new target. This process repeats up to three times, plus one additional time for each critical hit you score, or until there are no valid targets, or until you choose to end the chain.</p><p>Once the path is fully traced, all hit creatures are struck in a flash of destructive force, each taking [[/damage 10d8 type=lightning]] damage simultaneously. If the initial attack roll was a critical hit, each creature struck by the lightning takes critical damage from this casting of Chain Lightning.</p><p><strong>At Higher Levels.</strong></p><p>When you cast this spell using a spell slot of 7th level or higher, the spell's damage increases by [[/damage 2d8 type=lightning]] and it's critical hit range increases by 1 for each spell slot level above 6th.</p></div>",
+        "attunement": "",
+        "quantity": 1,
+        "typeLabel": "Scroll",
+        "subType": "",
+        "spellLevel": null,
+        "spellRange": null,
+        "spellSchool": null
+      },
+      {
+        "name": "Triggered: Greater Restoration - 9th",
+        "itemType": "consumable",
+        "description": "<table>\n        <tbody>\n            <tr>\n                <td>\n                    <p style=\"text-align:center;font-weight:bold\">9th Level</p>\n                </td>\n            </tr>\n            \n            <tr>\n                <td>\n                    <p>Whenever I'm inflicted with any effect this spell can remove apart from cursed.</p>\n                </td>\n            </tr>\n        </tbody>\n    </table><p>You imbue a creature you touch with positive energy to undo a debilitating effect. You can reduce the target's exhaustion level by one, or end one of the following effects on the target:</p><p>One effect that &amp;Reference[condition=charmed] or &amp;Reference[condition=petrified] the target</p><p>One curse, including the target's attunement to a cursed magic item</p><p>Any reduction to one of the target's ability scores</p><p>One effect reducing the target's hit point maximum</p>",
+        "attunement": "NaN",
+        "quantity": 1,
+        "typeLabel": "Spell Gem",
+        "subType": "",
+        "spellLevel": null,
+        "spellRange": null,
+        "spellSchool": null
+      },
+      {
+        "name": "Chain Lightning",
+        "itemType": "spell",
+        "description": "<div class=\"rd__b  rd__b--3\"><p>You release a surge of static energy that fills the air, crackling as it seeks its path. Choose a target you can see within range, and make a ranged spell attack. If the attack hits, the static energy arcs towards the closest creature within 30 feet of the previous target that hasn’t been struck by this casting of Chain Lightning. You make a new ranged spell attack for each new target. This process repeats up to three times, plus one additional time for each critical hit you score, or until there are no valid targets, or until you choose to end the chain.</p><p>Once the path is fully traced, all hit creatures are struck in a flash of destructive force, each taking [[/damage 10d8 type=lightning]] damage simultaneously. If the initial attack roll was a critical hit, each creature struck by the lightning takes critical damage from this casting of Chain Lightning.</p><p><strong>At Higher Levels.</strong></p><p>When you cast this spell using a spell slot of 7th level or higher, the spell's damage increases by [[/damage 2d8 type=lightning]] and it's critical hit range increases by 1 for each spell slot level above 6th.</p></div>",
+        "spellLevel": "6th Level",
+        "spellRange": "150 ft",
+        "spellSchool": "Evocation"
       }
     ],
     "Plex": [
@@ -4167,17 +4044,6 @@
         "spellSchool": null
       },
       {
-        "name": "Coral Fragment",
-        "itemType": "loot",
-        "description": "",
-        "quantity": 1,
-        "typeLabel": "Loot",
-        "subType": "",
-        "spellLevel": null,
-        "spellRange": null,
-        "spellSchool": null
-      },
-      {
         "name": "Sea Urchin",
         "itemType": "loot",
         "description": "",
@@ -4210,18 +4076,6 @@
         "spellSchool": null
       },
       {
-        "name": "Hurting Stone",
-        "itemType": "consumable",
-        "description": "<p>When this stone hits a creature or object after being dropped or thrown, it deals 2d6 magical bludgeoning damage and loudly shouts “Ow!”.</p>",
-        "attunement": "",
-        "quantity": 2,
-        "typeLabel": "Unusual Material",
-        "subType": "",
-        "spellLevel": null,
-        "spellRange": null,
-        "spellSchool": null
-      },
-      {
         "name": "Light-Shy Mushroom",
         "itemType": "consumable",
         "description": "<p>Bursts open when exposed to bright light, releasing a cloud of pitch-black spores that heavily obscure vision in a 10ft sphere. The cloud dissipates after one minute.</p>",
@@ -4241,38 +4095,6 @@
         "quantity": 2,
         "typeLabel": "Unusual Material",
         "subType": "",
-        "spellLevel": null,
-        "spellRange": null,
-        "spellSchool": null
-      },
-      {
-        "name": "Vanishing Velvet",
-        "itemType": "consumable",
-        "description": "<p>Upon coming into contact with water, this moss turns itself and any creature it's covering mostly invisible for 10 minutes.</p><p>During combat, an affected creature rolls a 1d10 at the start of every combatant's turn, loosing it's invisibility on a 1 and regaining or maintaining it on a roll of 2 or higher.</p>",
-        "attunement": "NaN",
-        "quantity": 1,
-        "typeLabel": "Unusual Material",
-        "subType": "",
-        "spellLevel": null,
-        "spellRange": null,
-        "spellSchool": null
-      },
-      {
-        "name": "Traditional alarm trap",
-        "itemType": "container",
-        "description": "<p>Save DC: 15 | Attack Bonus: 8</p><p><span style=\"text-decoration:underline\"><strong><span style=\"text-decoration:underline\">Mechanism</span></strong></span></p><p>A cloth tied up to the roof stuffed with coal and ash and rocks , <br />and can be triggerd with a rope hanging down.</p>",
-        "attunement": "",
-        "quantity": 1,
-        "spellLevel": null,
-        "spellRange": null,
-        "spellSchool": null
-      },
-      {
-        "name": "Miniature Shoulder mounted trebuchet",
-        "itemType": "container",
-        "description": "<p>Save DC: 15 | Attack Bonus: 8</p><p><span style=\"text-decoration:underline\"><strong><span style=\"text-decoration:underline\">Mechanism</span></strong></span></p><p>A tiny Shoulder mounted trebuchet with a string hanging from where the weight is supposed to go, pulling the string will trigger the trebuchet, the trebuchet is camoflaged with Vanishing Velvet,</p>",
-        "attunement": "",
-        "quantity": 1,
         "spellLevel": null,
         "spellRange": null,
         "spellSchool": null
@@ -4717,50 +4539,6 @@
         "spellSchool": null
       },
       {
-        "name": "CLothes with flying aid",
-        "itemType": "container",
-        "description": "<p>Save DC: 17 | Attack Bonus: 10</p><p><span style=\"text-decoration:underline\"><strong><span style=\"text-decoration:underline\">Mechanism</span></strong></span></p><p>Clothes with flying aid maid to fit a Chicken, hopefully making it able to fly</p>",
-        "attunement": "",
-        "quantity": 1,
-        "spellLevel": null,
-        "spellRange": null,
-        "spellSchool": null
-      },
-      {
-        "name": "Breezeblossom",
-        "itemType": "consumable",
-        "description": "<p>It’s petals will always be carried away by a gentle breeze, going as far to create one themselves if needed. This breeze disperses any magical cloud or fog effects.</p>",
-        "attunement": "",
-        "quantity": 2,
-        "typeLabel": "Unusual Material",
-        "subType": "",
-        "spellLevel": null,
-        "spellRange": null,
-        "spellSchool": null
-      },
-      {
-        "name": "CLothes with flying aid",
-        "itemType": "container",
-        "description": "<p>Save DC: 23 | Attack Bonus: 16</p><p><span style=\"text-decoration:underline\"><strong><span style=\"text-decoration:underline\">Mechanism</span></strong></span></p><p>Clothes with flying aid maid to fit a Chicken, hopefully making it able to fly</p>",
-        "attunement": "",
-        "quantity": 1,
-        "spellLevel": null,
-        "spellRange": null,
-        "spellSchool": null
-      },
-      {
-        "name": "Breezeblossom",
-        "itemType": "consumable",
-        "description": "<p>It’s petals will always be carried away by a gentle breeze, going as far to create one themselves if needed. This breeze disperses any magical cloud or fog effects.</p>",
-        "attunement": "",
-        "quantity": 2,
-        "typeLabel": "Unusual Material",
-        "subType": "",
-        "spellLevel": null,
-        "spellRange": null,
-        "spellSchool": null
-      },
-      {
         "name": "Enlarge/Reduce",
         "itemType": "spell",
         "description": "<div class=\"rd__b  rd__b--3\"><p>You cause a creature or an object you can see within range to grow larger or smaller for the duration. Choose either a creature or an object that is neither worn nor carried. If the target is unwilling, it can make a Constitution saving throw. On a success, the spell has no effect.</p><div class=\"rd__spc-inline-post\"><p>If the target is a creature, everything it is wearing and carrying changes size with it. Any item dropped by an affected creature returns to normal size at once.</p><p><span class=\"entry-title-inner\"><strong>Enlarge</strong></span></p><p>The target's size doubles in all dimensions, and its weight is multiplied by eight. This growth increases its size by one category—from Medium to Large, for example. If there isn't enough room for the target to double its size, the creature or object attains the maximum possible size in the space available. Until the spell ends, the target also has advantage on Strength checks and Strength saving throws. The target's weapons also grow to match its new size. While these weapons are enlarged, the target's attacks with them deal [[/r 1d4]] extra damage.</p><div class=\"rd__spc-inline-post\"><p></p></div></div><div class=\"rd__b  rd__b--3\"><p><span class=\"entry-title-inner\"><strong>Reduce</strong></span></p><p>The target's size is halved in all dimensions, and its weight is reduced to one-eighth of normal. This reduction decreases its size by one category—from Medium to Small, for example. Until the spell ends, the target also has disadvantage on Strength checks and Strength saving throws. The target's weapons also shrink to match its new size. While these weapons are reduced, the target's attacks with them deal [[/r 1d4]] less damage (this can't reduce the damage below 1).</p><div class=\"rd__spc-inline-post\"><p></p></div></div></div>",
@@ -4952,22 +4730,6 @@
         "spellSchool": "Transmutation"
       },
       {
-        "name": "Phantasmal Horror",
-        "itemType": "spell",
-        "description": "<p>You select a creature you can see within range and create an illusion of its worst nightmares, which only it can see.</p><p>The target must make a Wisdom saving throw. On a failed it takes 4d10 psychic damage and is frightened. On a successful save, the spell ends. For the duration of the spell this effect repeats at the start of each of the target's turns.</p><p>If the target's CR is less than the spell level and it's not not immune to being frightened, the dies on a failed saving throw.</p><p><strong>At Higher Levels</strong> <br />When you cast this spell using a spell slot of 5th level or higher, the damage increases by 1d10 for each slot level above 4th.</p>",
-        "spellLevel": "4th Level",
-        "spellRange": "120 ft",
-        "spellSchool": "Illusion"
-      },
-      {
-        "name": "Minor Illusion",
-        "itemType": "spell",
-        "description": "<div class=\"rd__b  rd__b--3\"><p>You create a sound or an image of an object within range that lasts for the duration. The illusion also ends if you dismiss it as an action or cast this spell again.</p><div class=\"rd__spc-inline-post\"><p></p></div><p>If you create a sound, its volume can range from a whisper to a scream. It can be your voice, someone else's voice, a lion's roar, a beating of drums, or any other sound you choose. The sound continues unabated throughout the duration, or you can make discrete sounds at different times before the spell ends.</p><p>If you create an image of an object—such as a chair, muddy footprints, or a small chest—it must be no larger than a 5-foot cube. The image can't create sound, light, smell, or any other sensory effect. Physical interaction with the image reveals it to be an illusion, because things can pass through it.</p><p>If a creature uses its action to examine the sound or image, the creature can determine that it is an illusion with a successful <span style=\"font-family:ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace\">[[/skill investigation dc=@attributes.spelldc format=long]]</span> against your spell save DC. If a creature discerns the illusion for what it is, the illusion becomes faint to the creature.</p></div>",
-        "spellLevel": "Cantrip",
-        "spellRange": "30 ft",
-        "spellSchool": "Illusion"
-      },
-      {
         "name": "Convincing Arguments",
         "itemType": "feat",
         "description": "<p>When you or a creature you can see within 300 feet becomes affected by one or more conditions, you can use your reaction and expend 1 Mythic Power to attempt to convince the affected creature that the conditions are merely figments of its imagination.</p><p>Choose one condition affecting the target and make a [[/skill dec]] check against the target’s passive Wisdom (Insight). On a success, the chosen condition ends. You may repeat this process for each additional condition affecting the target.</p><p>If any of these Charisma (Deception) checks results in a natural 20, you can end any number of conditions currently affecting the target, regardless of the other results.</p>",
@@ -5010,6 +4772,45 @@
         "spellLevel": null,
         "spellRange": null,
         "spellSchool": null
+      },
+      {
+        "name": "Jim's Lance of Compensation",
+        "itemType": "weapon",
+        "description": "<blockquote><p>Jim was very proud of his lance.</p></blockquote><p>This lance is enchanted with an illusion that makes it look twice as long as a regular lance. It also lacks the reach property.</p>",
+        "attunement": "",
+        "quantity": 1,
+        "typeLabel": "Martial Melee",
+        "spellLevel": null,
+        "spellRange": null,
+        "spellSchool": null
+      },
+      {
+        "name": "Sneezing Powder",
+        "itemType": "consumable",
+        "description": "<p>This light powder hangs in the air for up to one minute, filling the volume of a 10ft sphere. A creature entering or starting it’s turn in this cloud immediately uses it’s reaction to sneeze.</p>",
+        "attunement": "",
+        "quantity": 1,
+        "typeLabel": "Unusual Material",
+        "subType": "",
+        "spellLevel": null,
+        "spellRange": null,
+        "spellSchool": null
+      },
+      {
+        "name": "Phantasmal Horror",
+        "itemType": "spell",
+        "description": "<p>You select a creature you can see within range and create an illusion of its worst nightmares, which only it can see.</p><p>The target must make a Wisdom saving throw. On a failed it takes 4d10 psychic damage and is frightened. On a successful save, the spell ends. For the duration of the spell this effect repeats at the start of each of the target's turns.</p><p>If the target's CR is less than the spell level and it's not not immune to being frightened, the dies on a failed saving throw.</p><p><strong>At Higher Levels</strong> <br />When you cast this spell using a spell slot of 5th level or higher, the damage increases by 1d10 for each slot level above 4th.</p>",
+        "spellLevel": "4th Level",
+        "spellRange": "120 ft",
+        "spellSchool": "Illusion"
+      },
+      {
+        "name": "Minor Illusion",
+        "itemType": "spell",
+        "description": "<div class=\"rd__b  rd__b--3\"><p>You create a sound or an image of an object within range that lasts for the duration. The illusion also ends if you dismiss it as an action or cast this spell again.</p><div class=\"rd__spc-inline-post\"><p></p></div><p>If you create a sound, its volume can range from a whisper to a scream. It can be your voice, someone else's voice, a lion's roar, a beating of drums, or any other sound you choose. The sound continues unabated throughout the duration, or you can make discrete sounds at different times before the spell ends.</p><p>If you create an image of an object—such as a chair, muddy footprints, or a small chest—it must be no larger than a 5-foot cube. The image can't create sound, light, smell, or any other sensory effect. Physical interaction with the image reveals it to be an illusion, because things can pass through it.</p><p>If a creature uses its action to examine the sound or image, the creature can determine that it is an illusion with a successful <span style=\"font-family:ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace\">[[/skill investigation dc=@attributes.spelldc format=long]]</span> against your spell save DC. If a creature discerns the illusion for what it is, the illusion becomes faint to the creature.</p></div>",
+        "spellLevel": "Cantrip",
+        "spellRange": "30 ft",
+        "spellSchool": "Illusion"
       }
     ],
     "Shalkoc Zornax": [
@@ -5549,7 +5350,7 @@
       {
         "name": "Wyrmreaver Gauntlets",
         "itemType": "equipment",
-        "description": "<div class=\"rd__b  rd__b--2\"><p><em>Requires attunement by a monk</em></p><p>Originally crafted for ground-bound giant brawlers to fight against dragons and other enormous predators of the sky, these studded gauntlets are engraved with the dragon rune.</p><p>While you are wearing these gauntlets, your unarmed strike deals an additional [[/damage 1d6 force]] damage on a hit.</p><p><strong>Guarding Runes</strong></p><p>Additionally, whenever you finish a long rest, choose one of the following damage types: acid, cold, fire, lightning, or poison. You have resistance to the chosen damage type until you finish another long rest.</p><div class=\"rd__b  rd__b--3\"><p></p><p><span class=\"entry-title-inner\"><strong>Invoking the Runes</strong></span></p><p>As a bonus action, you can invoke the gauntlets' runes and summon two enormous spectral fists that envelop the gauntlets and mimic your hand motions. The fists can also launch themselves to strike distant opponents, returning immediately to your space after they hit or miss.</p><p>The fists last for 1 minute or until you are &amp;Reference[incapacitated]. While the spectral fists are active, unarmed strikes you make on your turn have a reach of 30 feet, and when you hit a creature with an opportunity attack made with your unarmed strike, the creature must succeed on a [[/save str dc=8+@prof+@abilities.str.mod format=long ]] or fall &amp;Reference[prone].</p><p>Once the runes have been invoked, they can't be invoked again until the next dawn.</p></div></div>",
+        "description": "<div class=\"rd__b  rd__b--2\"><p><em>Requires attunement by a monk</em></p><p>Originally crafted for ground-bound giant brawlers to fight against dragons and other enormous predators of the sky, these studded gauntlets are engraved with the dragon rune.</p><p>While you are wearing these gauntlets, your unarmed strike deals an additional <span><span class=\"roll-link\" data-type=\"damage\" data-formula=\"1d6\" data-damage-type=\"force\"><a data-action=\"roll\"><i class=\"fa-solid fa-dice-d20\"></i>1d6</a></span> force</span> damage on a hit.</p><p><strong>Guarding Runes</strong></p><p>You have resistance to one of the following damage types of your choice: acid, cold, fire, lightning, or poison. You can change the chosen type when you finish a long rest.</p><div class=\"rd__b  rd__b--3\"><p><span class=\"entry-title-inner\"><strong>Invoking the Runes</strong></span></p><p>As a bonus action, you can invoke the gauntlets' runes and summon two enormous spectral fists that envelop the gauntlets and mimic your hand motions. The fists can also launch themselves to strike distant opponents, returning immediately to your space after they hit or miss.</p><p>The fists last for 1 minute or until you are <span class=\"reference-link\"><a class=\"content-link\" draggable=\"true\" data-link data-uuid=\"Compendium.dnd5e.rules.JournalEntry.w7eitkpD7QQTB6j0.JournalEntryPage.TpkZgLfxCmSndmpb\" data-id=\"TpkZgLfxCmSndmpb\" data-type=\"JournalEntryPage\" data-pack=\"dnd5e.rules\" data-tooltip=\"Rule Page\"><i class=\"fas fa-book-open\"></i>Incapacitated</a><a class=\"enricher-action\" data-action=\"apply\" data-status=\"incapacitated\" data-tooltip=\"EDITOR.DND5E.Inline.ApplyStatus\" aria-label=\"Apply Status to Selected Tokens\"><i class=\"fas fa-fw fa-reply-all fa-flip-horizontal\"></i></a></span>. While the spectral fists are active, unarmed strikes you make on your turn have a reach of 30 feet, and when you hit a creature with an opportunity attack made with your unarmed strike, the creature must succeed on a <span class=\"roll-link\" data-type=\"save\" data-dc=\"11\" data-format=\"long\" data-ability=\"str\"><a data-action=\"roll\"><i class=\"fa-solid fa-dice-d20\"></i>DC 11 Strength saving throw</a><a class=\"enricher-action\" data-action=\"request\" data-tooltip=\"EDITOR.DND5E.Inline.RequestRoll\" aria-label=\"Request Roll\"><i class=\"fa-solid fa-comment-dots\"></i></a></span> or fall <span class=\"reference-link\"><a class=\"content-link\" draggable=\"true\" data-link data-uuid=\"Compendium.dnd5e.rules.JournalEntry.w7eitkpD7QQTB6j0.JournalEntryPage.y0TkcdyoZlOTmAFT\" data-id=\"y0TkcdyoZlOTmAFT\" data-type=\"JournalEntryPage\" data-pack=\"dnd5e.rules\" data-tooltip=\"Rule Page\"><i class=\"fas fa-book-open\"></i>Prone</a><a class=\"enricher-action\" data-action=\"apply\" data-status=\"prone\" data-tooltip=\"EDITOR.DND5E.Inline.ApplyStatus\" aria-label=\"Apply Status to Selected Tokens\"><i class=\"fas fa-fw fa-reply-all fa-flip-horizontal\"></i></a></span>.</p><p>Once the runes have been invoked, they can't be invoked again until the next dawn.</p></div></div>",
         "attunement": "required",
         "quantity": 1,
         "typeLabel": "Clothing",
@@ -5599,17 +5400,6 @@
         "attunement": "",
         "quantity": 1,
         "typeLabel": "Potion",
-        "subType": "",
-        "spellLevel": null,
-        "spellRange": null,
-        "spellSchool": null
-      },
-      {
-        "name": "Yarrow",
-        "itemType": "loot",
-        "description": "",
-        "quantity": 1,
-        "typeLabel": "Spice",
         "subType": "",
         "spellLevel": null,
         "spellRange": null,
@@ -5723,7 +5513,7 @@
         "name": "Dried Meat",
         "itemType": "loot",
         "description": "<p>The process of drying meat is long and extensive. In some particular cases, for the highest quality of dried meat, it can take over a year. It is highly sought after due to its extended shelf life, and depending on the meat used, it is, quite frankly, delicious.</p>",
-        "quantity": 25,
+        "quantity": 23,
         "typeLabel": "Food",
         "subType": "meal",
         "spellLevel": null,
@@ -5764,7 +5554,7 @@
         "name": "Lavender",
         "itemType": "loot",
         "description": "",
-        "quantity": 13,
+        "quantity": 5,
         "typeLabel": "Spice",
         "subType": "",
         "spellLevel": null,
@@ -5775,7 +5565,7 @@
         "name": "Chili Pepper",
         "itemType": "loot",
         "description": "<p>Harvested usually in most warm climates, it is used mainly as a spice in cuisines to add some \"warmth\" to the dish.</p>",
-        "quantity": 10,
+        "quantity": 5,
         "typeLabel": "Spice",
         "subType": "spice",
         "spellLevel": null,
@@ -5786,7 +5576,7 @@
         "name": "Eucalyptus",
         "itemType": "loot",
         "description": "",
-        "quantity": 10,
+        "quantity": 5,
         "typeLabel": "Spice",
         "subType": "",
         "spellLevel": null,
@@ -5797,7 +5587,7 @@
         "name": "Ginger",
         "itemType": "loot",
         "description": "<p>Ginger, is widely used as a spice and folk medicine. It is provided as tea for those who have weak stomachs to combat nausea, among other things.</p>",
-        "quantity": 7,
+        "quantity": 3,
         "typeLabel": "Spice",
         "subType": "",
         "spellLevel": null,
@@ -5808,7 +5598,7 @@
         "name": "Licorice Root",
         "itemType": "loot",
         "description": "",
-        "quantity": 11,
+        "quantity": 5,
         "typeLabel": "Spice",
         "subType": "",
         "spellLevel": null,
@@ -5819,7 +5609,7 @@
         "name": "Rhubarb",
         "itemType": "loot",
         "description": "",
-        "quantity": 11,
+        "quantity": 5,
         "typeLabel": "Spice",
         "subType": "",
         "spellLevel": null,
@@ -5830,7 +5620,7 @@
         "name": "Vanilla",
         "itemType": "loot",
         "description": "",
-        "quantity": 10,
+        "quantity": 4,
         "typeLabel": "Spice",
         "subType": "",
         "spellLevel": null,
@@ -5841,7 +5631,7 @@
         "name": "Wasabi",
         "itemType": "loot",
         "description": "",
-        "quantity": 8,
+        "quantity": 5,
         "typeLabel": "Spice",
         "subType": "",
         "spellLevel": null,
@@ -5855,17 +5645,6 @@
         "quantity": 3,
         "typeLabel": "Food",
         "subType": "snack",
-        "spellLevel": null,
-        "spellRange": null,
-        "spellSchool": null
-      },
-      {
-        "name": "Meal",
-        "itemType": "loot",
-        "description": "<p>A meticulously cooked slice of premium meat, often beef, cooked with precision and often with a side by your choice of fresh greens or soft mashed potatoes.</p><p></p>",
-        "quantity": 1,
-        "typeLabel": "Food",
-        "subType": "meal",
         "spellLevel": null,
         "spellRange": null,
         "spellSchool": null
@@ -5921,7 +5700,7 @@
         "name": "Dried Meat",
         "itemType": "loot",
         "description": "<p>The process of drying meat is long and extensive. In some particular cases, for the highest quality of dried meat, it can take over a year. It is highly sought after due to its extended shelf life, and depending on the meat used, it is, quite frankly, delicious.</p>",
-        "quantity": 37,
+        "quantity": 36,
         "typeLabel": "Food",
         "subType": "meal",
         "spellLevel": null,
@@ -5962,17 +5741,6 @@
         "spellSchool": null
       },
       {
-        "name": "Obsidian Ingot",
-        "itemType": "loot",
-        "description": "<p>An obsidian ingot is a small, expertly chiseled bar of pure obsidian. It is said to be incredibly dense and heavy, and can only be crafted by the most skilled blacksmiths. The metal has a deep, dark color that seems to absorb light, but when struck, it glows with a fiery inner light. </p><p></p>",
-        "quantity": 1,
-        "typeLabel": "Loot",
-        "subType": "",
-        "spellLevel": null,
-        "spellRange": null,
-        "spellSchool": null
-      },
-      {
         "name": "Vial of Blood Ozoze",
         "itemType": "loot",
         "description": "",
@@ -5990,6 +5758,17 @@
         "requirements": "",
         "typeLabel": null,
         "subType": "",
+        "spellLevel": null,
+        "spellRange": null,
+        "spellSchool": null
+      },
+      {
+        "name": "Boots of Blinding Speed",
+        "itemType": "equipment",
+        "description": "<p>While worn, your walking speed is increased by 30ft and you are &amp;Reference[blinded].</p>",
+        "attunement": "",
+        "quantity": 1,
+        "typeLabel": "Clothing",
         "spellLevel": null,
         "spellRange": null,
         "spellSchool": null
