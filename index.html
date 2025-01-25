@@ -9,33 +9,54 @@
 <body>
     <header>
         <nav>
-            <button onclick="loadPlayer('Aviana Winterwing')">Aviana Winterwing</button>
-            <button onclick="loadPlayer('Fearghas MacAllistar')">Fearghas MacAllistar</button>
-            <button onclick="loadPlayer('Plex')">Plex</button>
-            <button onclick="loadPlayer('Shalkoc Zornax')">Shalkoc Zornax</button>
+            <button onclick="showPlayer('Aviana Winterwing')">Aviana Winterwing</button>
+            <button onclick="showPlayer('Fearghas MacAllistar')">Fearghas MacAllistar</button>
+            <button onclick="showPlayer('Plex')">Plex</button>
+            <button onclick="showPlayer('Shalkoc Zornax')">Shalkoc Zornax</button>
+            <button onclick="showSettlement()">Settlement Overview</button>
         </nav>
         <div class="timestamp">
-            <p>Last updated: <!-- last-updated --></span></p>
+            <p class="ingame-date" id="ingame-date-display"></p>
         </div>
     </header>
 
     <main>
-        <section id="features" class="active">
-            <h2 onclick="toggleSection('features')">Features</h2>
-            <div class="content"></div>
-        </section>
+        <div id="characterDisplay" class="hidden">
+            <section id="feature-items">
+                <h1 onclick="toggleHidden('feature-items-content')">Features</h1>
+                <div id="feature-items-content" class="content hidden"></div>
+            </section>
 
-        <section id="items" class="active">
-            <h2 onclick="toggleSection('items')">Items</h2>
-            <div class="content"></div>
-        </section>
+            <section id="physical-items">
+                <h1 onclick="toggleHidden('physical-items-content')">Items</h1>
+                <div id="physical-items-content" class="content hidden"></div>
+            </section>
 
-        <section id="spells" class="active">
-            <h2 onclick="toggleSection('spells')">Spells</h2>
-            <div class="content"></div>
-        </section>
+            <section id="spell-items">
+                <h1 onclick="toggleHidden('spell-items-content')">Spells</h1>
+                <div id="spell-items-content" class="content hidden"></div>
+            </section>
+        </div>
+
+        <div id="settlementDisplay" class="hidden">
+            <div id="settlement-attributes">
+
+            </div>
+            <section id="building-items">
+                <h1 onclick="toggleHidden('building-items-content')">Buildings</h1>
+                <div id="building-items-content" class="content hidden"></div>
+            </section>
+            <section id="effect-items">
+                <h1 onclick="toggleHidden('effect-items-content')">Effects</h1>
+                <div id="effect-items-content" class="content hidden"></div>
+            </section>
+        </div>
     </main>
 
     <script src="script.js"></script>
 </body>
+
+<footer>
+    <p>Last updated: <!-- last-updated --></span></p>
+</footer>
 </html>
