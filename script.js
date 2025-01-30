@@ -107,16 +107,17 @@ function populateSection(sectionId, itemArray) {
     const contentDiv = section.querySelector('.content');
     contentDiv.innerHTML = '';
 
-    if(!itemArray?.length) {
-        contentDiv.innerHTML = '<p>No data available</p>';
-        return;
+    if(itemArray.length) {
+        itemArray.forEach(item => {
+            const itemCardDiv = createItemCard(item);
+            if(!itemCardDiv) return;
+            contentDiv.appendChild(itemCardDiv);
+        });
+        
+        toggleHidden(sectionId, false)
+    } else {
+        toggleHidden(sectionId, true);
     }
-
-    itemArray.forEach(item => {
-        const itemCardDiv = createItemCard(item);
-        if(!itemCardDiv) return;
-        contentDiv.appendChild(itemCardDiv);
-    });
 }
 
 /**
