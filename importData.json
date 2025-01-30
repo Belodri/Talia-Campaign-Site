@@ -208,14 +208,6 @@
           "requirements": "Spirit Warrior"
         },
         {
-          "name": "Activated: Comprehend Languages",
-          "section": "physical-items",
-          "description": "<table>\n        <tbody>\n            <tr>\n                <td>\n                    <p style=\"text-align:center;font-weight:bold\">1st Level</p>\n                </td>\n            </tr>\n            \n        </tbody>\n    </table><div class=\"rd__b  rd__b--3\"><p>For the duration, you understand the literal meaning of any spoken language that you hear. You also understand any written language that you see, but you must be touching the surface on which the words are written. It takes about 1 minute to read one page of text.</p><div class=\"rd__spc-inline-post\"></div><p>This spell doesn't decode secret messages in a text or a glyph, such as an arcane sigil, that isn't part of a written language.</p></div>",
-          "quantity": 1,
-          "combinedLabel": "Spell Gem",
-          "attunementLabel": ""
-        },
-        {
           "name": "Inspiring Flex",
           "section": "feature-items",
           "description": "<blockquote><p>Aviana flexes. It is very effective.</p></blockquote><p><span style=\"font-family:'Google Sans', Roboto, sans-serif\">As an action you flex your muscles while looking directly into the eyes of one creature that can see you.<br />That creature gains one Inspiration die, a d6.</span></p><p><span style=\"font-family:'Google Sans', Roboto, sans-serif\">Once within the next 10 minutes, the creature can roll the die and add the number rolled to one ability check, attack roll, damage roll, or saving throw it makes. The creature cannot choose to use the Inspiration die after the roll has been made.<br />Once the Inspiration die is rolled, it is lost. A creature can only have 1 Flexing Inspiration die at any time.</span></p><p><span style=\"font-family:'Google Sans', Roboto, sans-serif\">You can use this ability a number of times equal to the sum of your Strength and Constitution modifiers.<br />You regain any expended uses when you finish a long rest.</span></p>",
@@ -571,7 +563,7 @@
           "name": "Hearthstone",
           "section": "physical-items",
           "description": "<p>The Hearthstone is a sacred item among all giantkin. These heavy, flat pieces of granite—typically 1 to 2 feet in diameter—are painstakingly carved by mighty runepriests, imbued with ancient magic to tether the bearer’s essence to a place of safety. Revered as both currency and a protective charm, Hearthstones are traded between giants with great reverence, their value lying not only in material worth but in the promise of an arduous but ultimately safe journey back home in death, for those strong enough to endure it.</p><p><strong>Shattering</strong></p><p>When a creature carrying a Hearthstone dies, the Hearthstone shatters. Upon doing so, the creature must make a [[/save con DC 18 format=long]]. On a successful save, the creature's body and any attuned items it carried at the time of its death instantly return to the location of its last extended rest (an extended rest takes 1 month). The body appears unconscious, afflicted by a deep fever, and remains in this state until the soul completes its return journey.</p><p>Unless the creature’s soul is captured at the time of the creature's death, it must travel through a cold and snow-covered woodland, eventually finding refuge in a warm cabin, symbolizing its body. The journey back to its body takes a number of weeks equal to 50 minus the result of the saving throw (minimum of 1 week). During this time, the creature cannot be revived by any means, including spells like revivify or raise dead.</p><p>Once the soul completes its journey, the creature’s fever breaks, and it awakens with 1 hit point. The Hearthstone is destroyed after use and cannot be restored or repaired.</p>",
-          "quantity": 2,
+          "quantity": 1,
           "combinedLabel": "Exotic Currency",
           "attunementLabel": ""
         },
@@ -634,14 +626,6 @@
           "requirements": "Mythic Legend 2"
         },
         {
-          "name": "Potion of Healing",
-          "section": "physical-items",
-          "description": "<p><em>The potion's red liquid glimmers when agitated.</em></p><p>You regain 2d4+2 hit points when you drink this potion.</p>",
-          "quantity": 1,
-          "combinedLabel": "Potion",
-          "attunementLabel": ""
-        },
-        {
           "name": "Bugman’s Ale",
           "section": "physical-items",
           "description": "<blockquote><p>This special brew was originally created by the legendary dwarven brewmaster Joseph Bugman, and he shared its recipe only with his most trusted apprentices.</p></blockquote><p>When you drink this ale, you need to make a DC 30 Constitution saving throw. On a failed save, you become immune to the &amp;Reference[Frightened] condition for 8 hours.</p>",
@@ -658,36 +642,32 @@
           "attunementLabel": ""
         },
         {
-          "name": "Compelled Duel",
-          "section": "feature-items",
-          "description": "<p>Using your bonus action, you can roll an Intimidation check to challenge a single creature that can see you to a duel.</p><p>The DC against this ability is check's total.</p><p>The creature needs to make a Wisdom saving throw. On a failed save, it has to focus all of it's attention solely on you for it's next two turns.</p><p>Creatures with a Strength score that is higher than their Intelligence and Wisdom scores combined automatically fail this save.</p><p>Only one creature can be compelled to duel you at any given time.</p>",
-          "requirements": "Bear Spirit"
-        },
-        {
-          "name": "Ironfur",
-          "section": "feature-items",
-          "description": "<p>When you take damage from a melee attack, your damage resistances reflect half of the incoming damage back at the attacker instead of just preventing it.</p>",
-          "requirements": "Bear Spirit"
-        },
-        {
-          "name": "Intimidating Presence",
-          "section": "feature-items",
-          "description": "<p>You have advantage on Intimidation checks and you add your Strength modifier to Intimidation checks.</p>",
-          "requirements": "Bear Spirit"
-        },
-        {
-          "name": "Savage Taunt",
-          "section": "feature-items",
-          "description": "<p>Using your bonus action, you can roll an Intimidation check to present yourself as the biggest threat on the battlefield.</p><p>The DC against this ability is half the check's total, rounded up.</p><p>Hostile creatures within 20ft of you need to make a Wisdom saving throw. On a failed save, they have to focus all of their attention solely on you for their next two turns.</p><p>Creatures with a Strength score that is higher than their Intelligence and Wisdom scores combined automatically fail this save.</p>",
-          "requirements": "Bear Spirit"
-        },
-        {
           "name": "Potion of Fire Resistance",
           "section": "physical-items",
           "description": "<p><em>The potion is a plain indescriminate color and smells slightly foul.</em></p><p>When you drink this potion, you gain resistance to Fire type damage for 1 hour.</p>",
           "quantity": 1,
           "combinedLabel": "Potion",
           "attunementLabel": ""
+        },
+        {
+          "name": "Keen Sight",
+          "section": "feature-items",
+          "description": "<p>You have advantage on Perception checks.</p>",
+          "requirements": "Eagle Spirit"
+        },
+        {
+          "name": "Diving Strike",
+          "section": "physical-items",
+          "description": "<p>As a bonus action, you leap at a creature within jumping distance that's at least 10ft away from you and attack it with a natural weapon attack. If this attack hits, it deals an additional 1d6 damage for every 10ft of distance between your starting location and the target creature.</p><p>Afterwards, regardless of the attack hitting, you move to land in the nearest unoccupied space (and cause any effects that trigger upon landing a jump).</p>",
+          "quantity": 1,
+          "combinedLabel": "Natural",
+          "attunementLabel": ""
+        },
+        {
+          "name": "Billowing Wings",
+          "section": "feature-items",
+          "description": "<p>You have a flying speed equal to your current walking speed. This benefit works only in short bursts; you fall if you end your turn in the air and nothing else is holding you aloft.</p>",
+          "requirements": "Eagle Spirit"
         }
       ],
       "Fearghas MacAllistar": [
@@ -1396,14 +1376,6 @@
           "attunementLabel": ""
         },
         {
-          "name": "Spell Scroll: Wind Walk",
-          "section": "physical-items",
-          "description": "<div class=\"rd__b  rd__b--3\"><p>You and up to ten willing creatures you can see within range assume a gaseous form for the duration, appearing as wisps of cloud. While in this cloud form, a creature has a flying speed of 300 feet and has resistance to damage from nonmagical weapons. The only actions a creature can take in this form are the <span class=\"bold\" data-plut-hover=\"true\" data-plut-hover-page=\"actions.html\" data-plut-hover-source=\"PHB\" data-plut-hover-hash=\"dash_phb\">Dash</span> action or to revert to its normal form. Reverting takes 1 minute, during which time a creature is &amp;Reference[condition=incapacitated] and can't move. Until the spell ends, a creature can revert to cloud form, which also requires the 1-minute transformation.</p><div class=\"rd__spc-inline-post\"></div><p>If a creature is in cloud form and flying when the effect ends, the creature descends 60 feet per round for 1 minute until it lands, which it does safely. If it can't land after 1 minute, the creature falls the remaining distance.</p></div>",
-          "quantity": 1,
-          "combinedLabel": "Scroll",
-          "attunementLabel": ""
-        },
-        {
           "name": "Spell Scroll: Gentle Repose",
           "section": "physical-items",
           "description": "<p>You touch a corpse or other remains. For the duration, the target is protected from decay and can't become undead.</p><p>The spell also effectively extends the time limit on raising the target from the dead, since days spent under the influence of this spell don't count against the time limit of spells such as raise dead.</p>",
@@ -1949,7 +1921,7 @@
           "name": "Potion of Superior Healing",
           "section": "physical-items",
           "description": "<div class=\"rd__b  rd__b--2\"><p><em>The potion's red liquid glimmers when agitated.</em></p><p>You regain 8d4 + 8 hit points when you drink this potion.</p></div>",
-          "quantity": 7,
+          "quantity": 6,
           "combinedLabel": "Potion",
           "attunementLabel": ""
         },
@@ -2514,7 +2486,7 @@
         {
           "name": "Chain Lightning",
           "section": "spell-items",
-          "description": "<div class=\"rd__b  rd__b--3\"><p>You release a surge of static energy that fills the air, crackling as it seeks its path. Choose a target you can see within range, and make a ranged spell attack. If the attack hits, the static energy arcs towards the closest creature within 30 feet of the previous target that hasn’t been struck by this casting of Chain Lightning. You make a new ranged spell attack for each new target. This process repeats up to three times, plus one additional time for each critical hit you score, or until there are no valid targets, or until you choose to end the chain.</p><p>Once the path is fully traced, all hit creatures are struck in a flash of destructive force, each taking [[/damage 10d8 type=lightning]] damage simultaneously. If the initial attack roll was a critical hit, each creature struck by the lightning takes critical damage from this casting of Chain Lightning.</p><p><strong>At Higher Levels.</strong></p><p>When you cast this spell using a spell slot of 7th level or higher, the spell's damage increases by [[/damage 2d8 type=lightning]] and it's critical hit range increases by 1 for each spell slot level above 6th.</p></div>",
+          "description": "<div class=\"rd__b  rd__b--3\"><p>You release a surge of static energy that fills the air, crackling as it seeks its path. Choose a target you can see within range, and make a ranged spell attack. If the attack hits, the static energy arcs towards the closest creature within 30 feet of the previous target that hasn’t been struck by this casting of Chain Lightning. You make a new ranged spell attack for each new target. This process repeats up to three times, plus one additional time for each critical hit you score, or until there are no valid targets, or until you choose to end the chain. Critical hits on chained targets do not roll bonus damage, instead adding to the maximum chain size.</p><p>Once the path is fully traced, all hit creatures are struck in a flash of destructive force, each taking [[/damage 10d8 type=lightning]] damage simultaneously. If the initial attack roll was a critical hit, each creature struck by the lightning takes critical damage from this casting of Chain Lightning.</p><p><strong>At Higher Levels.</strong></p><p>When you cast this spell using a spell slot of 7th level or higher, the spell's damage increases by [[/damage 2d8 type=lightning]] and it's critical hit range increases by 1 for each spell slot level above 6th.</p></div>",
           "spellLevel": "6th Level",
           "spellRange": "150 ft",
           "spellSchool": "Evocation"
@@ -2541,6 +2513,14 @@
           "description": "<p><em>The potion is a plain indescriminate color and smells slightly foul.</em></p><p>When you drink this potion, you gain resistance to Fire type damage for 1 hour.</p>",
           "quantity": 1,
           "combinedLabel": "Potion",
+          "attunementLabel": ""
+        },
+        {
+          "name": "Hearthstone",
+          "section": "physical-items",
+          "description": "<p>The Hearthstone is a sacred item among all giantkin. These heavy, flat pieces of granite—typically 1 to 2 feet in diameter—are painstakingly carved by mighty runepriests, imbued with ancient magic to tether the bearer’s essence to a place of safety. Revered as both currency and a protective charm, Hearthstones are traded between giants with great reverence, their value lying not only in material worth but in the promise of an arduous but ultimately safe journey back home in death, for those strong enough to endure it.</p><p><strong>Shattering</strong></p><p>When a creature carrying a Hearthstone dies, the Hearthstone shatters. Upon doing so, the creature must make a [[/save con DC 18 format=long]]. On a successful save, the creature's body and any attuned items it carried at the time of its death instantly return to the location of its last extended rest (an extended rest takes 1 month). The body appears unconscious, afflicted by a deep fever, and remains in this state until the soul completes its return journey.</p><p>Unless the creature’s soul is captured at the time of the creature's death, it must travel through a cold and snow-covered woodland, eventually finding refuge in a warm cabin, symbolizing its body. The journey back to its body takes a number of weeks equal to 50 minus the result of the saving throw (minimum of 1 week). During this time, the creature cannot be revived by any means, including spells like revivify or raise dead.</p><p>Once the soul completes its journey, the creature’s fever breaks, and it awakens with 1 hit point. The Hearthstone is destroyed after use and cannot be restored or repaired.</p>",
+          "quantity": 1,
+          "combinedLabel": "Exotic Currency",
           "attunementLabel": ""
         }
       ],
@@ -3238,14 +3218,6 @@
           "attunementLabel": "Requires Attunement"
         },
         {
-          "name": "Create Water",
-          "section": "spell-items",
-          "description": "<div class=\"rd__b  rd__b--3\"><p>You create up to 10 gallons of clean water within range in an open container. Alternatively, the water falls as rain in a 30-foot cube within range, extinguishing exposed flames in the area.</p></div>",
-          "spellLevel": "1st Level",
-          "spellRange": "30 ft",
-          "spellSchool": "Transmutation"
-        },
-        {
           "name": "Maelstrom",
           "section": "spell-items",
           "description": "<div class=\"rd__b  rd__b--3\"><p>A swirling mass of 5-foot-deep water appears in a 30-foot radius centered on a point you can see within range. The point must be on the ground or in a body of water. </p><p>Until the spell ends, that area is <span class=\"reference-link\"><a class=\"content-link\" draggable=\"true\" data-link data-uuid=\"Compendium.dnd5e.rules.JournalEntry.NizgRXLNUqtdlC1s.JournalEntryPage.6tqz947qO8vPyxvD\" data-id=\"6tqz947qO8vPyxvD\" data-type=\"JournalEntryPage\" data-pack=\"dnd5e.rules\" data-tooltip=\"Rule Page\">difficult terrain</a></span>, and any creature that starts its turn there must succeed on a Strength saving throw or take <span class=\"roll-link\" data-type=\"damage\" data-formula=\"6d6\" data-damage-type=\"bludgeoning\"><a data-action=\"roll\">6d6</a></span> bludgeoning damage and be pulled 10 feet toward the center. On a successful save, a creature takes half as much damage and is not pulled towards the center.</p></div>",
@@ -3517,7 +3489,7 @@
           "name": "Bottle of Bagiennik Snot",
           "section": "physical-items",
           "description": "<div class=\"rd__b  rd__b--2\"><p><em>As repulsive as many might find the snot of the frog-like Bagiennik, they cannot deny it's healing abilities.</em></p><p>You regain 8d4 + 8 hit points when you drink this potion.</p></div>",
-          "quantity": 9,
+          "quantity": 8,
           "combinedLabel": "Potion",
           "attunementLabel": ""
         },
@@ -3592,6 +3564,14 @@
           "spellLevel": "Cantrip",
           "spellRange": "30 ft",
           "spellSchool": "Illusion"
+        },
+        {
+          "name": "Create Water",
+          "section": "spell-items",
+          "description": "<div class=\"rd__b  rd__b--3\"><p>You create up to 10 gallons of clean water within range in an open container. Alternatively, the water falls as rain in a 30-foot cube within range, extinguishing exposed flames in the area.</p></div>",
+          "spellLevel": "1st Level",
+          "spellRange": "30 ft",
+          "spellSchool": "Transmutation"
         }
       ],
       "Shalkoc Zornax": [
@@ -3992,14 +3972,6 @@
           "attunementLabel": ""
         },
         {
-          "name": "Cheese",
-          "section": "physical-items",
-          "description": "",
-          "quantity": 1,
-          "combinedLabel": "Food (meal)",
-          "attunementLabel": ""
-        },
-        {
           "name": "Grilled Steak",
           "section": "physical-items",
           "description": "<p>A meticulously cooked slice of premium meat, often beef, cooked with precision and often with a side by your choice of fresh greens or soft mashed potatoes.</p><p></p>",
@@ -4081,7 +4053,7 @@
           "name": "Chili Pepper",
           "section": "physical-items",
           "description": "<p>Harvested usually in most warm climates, it is used mainly as a spice in cuisines to add some \"warmth\" to the dish.</p>",
-          "quantity": 5,
+          "quantity": 4,
           "combinedLabel": "Spice (spice)",
           "attunementLabel": ""
         },
@@ -4090,14 +4062,6 @@
           "section": "physical-items",
           "description": "",
           "quantity": 5,
-          "combinedLabel": "Spice",
-          "attunementLabel": ""
-        },
-        {
-          "name": "Ginger",
-          "section": "physical-items",
-          "description": "<p>Ginger, is widely used as a spice and folk medicine. It is provided as tea for those who have weak stomachs to combat nausea, among other things.</p>",
-          "quantity": 3,
           "combinedLabel": "Spice",
           "attunementLabel": ""
         },
@@ -4151,7 +4115,7 @@
           "name": "Potion of Superior Healing",
           "section": "physical-items",
           "description": "<div class=\"rd__b  rd__b--2\"><p><em>The potion's red liquid glimmers when agitated.</em></p><p>You regain 8d4 + 8 hit points when you drink this potion.</p></div>",
-          "quantity": 3,
+          "quantity": 2,
           "combinedLabel": "Potion",
           "attunementLabel": ""
         },
@@ -4175,7 +4139,7 @@
           "name": "Dried Meat",
           "section": "physical-items",
           "description": "<p>The process of drying meat is long and extensive. In some particular cases, for the highest quality of dried meat, it can take over a year. It is highly sought after due to its extended shelf life, and depending on the meat used, it is, quite frankly, delicious.</p>",
-          "quantity": 36,
+          "quantity": 33,
           "combinedLabel": "Food (meal)",
           "attunementLabel": ""
         },
@@ -4761,5 +4725,5 @@
         }
       ]
     },
-    "ingameDate": "Octavus 21, 1497"
+    "ingameDate": "Octavus 22, 1497"
   }
