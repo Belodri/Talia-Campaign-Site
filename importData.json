@@ -407,7 +407,7 @@
           "name": "Activated: Hold Person - 2nd",
           "section": "physical-items",
           "description": "<table>\n        <tbody>\n            <tr>\n                <td>\n                    <p style=\"text-align:center;font-weight:bold\">2nd Level</p>\n                </td>\n            </tr>\n            \n        </tbody>\n    </table><div class=\"rd__b  rd__b--3\"><p>Choose a humanoid that you can see within range. The target must succeed on a Wisdom saving throw or be <span class=\"reference-link\"><a class=\"content-link\" data-uuid=\"Compendium.dnd5e.rules.JournalEntry.w7eitkpD7QQTB6j0.JournalEntryPage.xnSV5hLJIMaTABXP\" data-id=\"xnSV5hLJIMaTABXP\" data-type=\"JournalEntryPage\" data-pack=\"dnd5e.rules\" data-tooltip=\"Rule Page\"><i class=\"fas fa-book-open\"></i>Paralyzed</a><a class=\"enricher-action\" data-action=\"apply\" data-status=\"paralyzed\" data-tooltip=\"EDITOR.DND5E.Inline.ApplyStatus\" aria-label=\"Apply Status to Selected Tokens\"><i class=\"fas fa-fw fa-reply-all fa-flip-horizontal\"></i></a></span> for the duration. At the end of each of its turns, the target can make another Wisdom saving throw. On a success, the spell ends on the target.</p><div class=\"rd__spc-inline-post\"></div></div><div class=\"rd__b  rd__b--3\"><div class=\"rd__b  rd__b--3\"><span class=\"rd__h rd__h--3\" data-title-index=\"1\"> <span class=\"entry-title-inner\">At Higher Levels.</span></span> <p>When you cast this spell using a spell slot of 3rd level or higher, you can target one additional humanoid for each slot level above 2nd. The humanoids must be within 30 feet of each other when you target them.</p><div class=\"rd__spc-inline-post\"></div></div><div class=\"rd__spc-inline-post\"></div></div>",
-          "quantity": 2,
+          "quantity": 1,
           "combinedLabel": "Spell Gem",
           "attunementLabel": ""
         },
@@ -650,24 +650,28 @@
           "attunementLabel": ""
         },
         {
-          "name": "Keen Sight",
+          "name": "Compelled Duel",
           "section": "feature-items",
-          "description": "<p>You have advantage on Perception checks.</p>",
-          "requirements": "Eagle Spirit"
+          "description": "<p>Using your bonus action, you can roll an Intimidation check to challenge a single creature that can see you to a duel.</p><p>The DC against this ability is check's total.</p><p>The creature needs to make a Wisdom saving throw. On a failed save, it has to focus all of it's attention solely on you for it's next two turns.</p><p>Creatures with a Strength score that is higher than their Intelligence and Wisdom scores combined automatically fail this save.</p><p>Only one creature can be compelled to duel you at any given time.</p>",
+          "requirements": "Bear Spirit"
         },
         {
-          "name": "Diving Strike",
-          "section": "physical-items",
-          "description": "<p>As a bonus action, you leap at a creature within jumping distance that's at least 10ft away from you and attack it with a natural weapon attack. If this attack hits, it deals an additional 1d6 damage for every 10ft of distance between your starting location and the target creature.</p><p>Afterwards, regardless of the attack hitting, you move to land in the nearest unoccupied space (and cause any effects that trigger upon landing a jump).</p>",
-          "quantity": 1,
-          "combinedLabel": "Natural",
-          "attunementLabel": ""
+          "name": "Ironfur",
+          "section": "feature-items",
+          "description": "<p>When you take damage from a melee attack, your damage resistances reflect half of the incoming damage back at the attacker instead of just preventing it.</p>",
+          "requirements": "Bear Spirit"
         },
         {
-          "name": "Billowing Wings",
+          "name": "Intimidating Presence",
           "section": "feature-items",
-          "description": "<p>You have a flying speed equal to your current walking speed. This benefit works only in short bursts; you fall if you end your turn in the air and nothing else is holding you aloft.</p>",
-          "requirements": "Eagle Spirit"
+          "description": "<p>You have advantage on Intimidation checks and you add your Strength modifier to Intimidation checks.</p>",
+          "requirements": "Bear Spirit"
+        },
+        {
+          "name": "Savage Taunt",
+          "section": "feature-items",
+          "description": "<p>Using your bonus action, you can roll an Intimidation check to present yourself as the biggest threat on the battlefield.</p><p>The DC against this ability is half the check's total, rounded up.</p><p>Hostile creatures within 20ft of you need to make a Wisdom saving throw. On a failed save, they have to focus all of their attention solely on you for their next two turns.</p><p>Creatures with a Strength score that is higher than their Intelligence and Wisdom scores combined automatically fail this save.</p>",
+          "requirements": "Bear Spirit"
         }
       ],
       "Fearghas MacAllistar": [
@@ -1317,7 +1321,7 @@
           "name": "Potion of Greater Healing",
           "section": "physical-items",
           "description": "<div class=\"rd__b  rd__b--2\"><p><em>The potion's red liquid glimmers when agitated.</em></p><p>You regain 4d4 + 4 hit points when you drink this potion.</p></div>",
-          "quantity": 5,
+          "quantity": 4,
           "combinedLabel": "Potion",
           "attunementLabel": ""
         },
@@ -1921,7 +1925,7 @@
           "name": "Potion of Superior Healing",
           "section": "physical-items",
           "description": "<div class=\"rd__b  rd__b--2\"><p><em>The potion's red liquid glimmers when agitated.</em></p><p>You regain 8d4 + 8 hit points when you drink this potion.</p></div>",
-          "quantity": 6,
+          "quantity": 5,
           "combinedLabel": "Potion",
           "attunementLabel": ""
         },
@@ -2520,6 +2524,14 @@
           "section": "physical-items",
           "description": "<p>The Hearthstone is a sacred item among all giantkin. These heavy, flat pieces of granite—typically 1 to 2 feet in diameter—are painstakingly carved by mighty runepriests, imbued with ancient magic to tether the bearer’s essence to a place of safety. Revered as both currency and a protective charm, Hearthstones are traded between giants with great reverence, their value lying not only in material worth but in the promise of an arduous but ultimately safe journey back home in death, for those strong enough to endure it.</p><p><strong>Shattering</strong></p><p>When a creature carrying a Hearthstone dies, the Hearthstone shatters. Upon doing so, the creature must make a [[/save con DC 18 format=long]]. On a successful save, the creature's body and any attuned items it carried at the time of its death instantly return to the location of its last extended rest (an extended rest takes 1 month). The body appears unconscious, afflicted by a deep fever, and remains in this state until the soul completes its return journey.</p><p>Unless the creature’s soul is captured at the time of the creature's death, it must travel through a cold and snow-covered woodland, eventually finding refuge in a warm cabin, symbolizing its body. The journey back to its body takes a number of weeks equal to 50 minus the result of the saving throw (minimum of 1 week). During this time, the creature cannot be revived by any means, including spells like revivify or raise dead.</p><p>Once the soul completes its journey, the creature’s fever breaks, and it awakens with 1 hit point. The Hearthstone is destroyed after use and cannot be restored or repaired.</p>",
           "quantity": 1,
+          "combinedLabel": "Exotic Currency",
+          "attunementLabel": ""
+        },
+        {
+          "name": "Soul Coin",
+          "section": "physical-items",
+          "description": "<div class=\"rd__b  rd__b--2\"><p><em>Soul coin</em>s are about 5 inches across and about an inch thick, minted from infernal iron. Each coin weighs one-third of a pound, and is inscribed with Infernal writing and a spell that magically binds a single soul to the coin. Because each <em>soul coin</em> has a unique soul trapped within it, each has a story. A creature might have been imprisoned as a result of defaulting on a deal, while another might be the victim of a night hag's curse.</p><div class=\"rd__b  rd__b--3\"><p><span class=\"entry-title-inner\"><strong>Carrying Soul Coins</strong></span></p><p>To hold a <em>soul coin</em> is to feel the soul bound within it—overcome with rage or fraught with despair.</p><p>An evil creature can carry as many <em>soul coin</em>s as it wishes (up to its maximum weight allowance). A non-evil creature can carry a number of <em>soul coin</em>s equal to or less than its Constitution modifier without penalty. A non-evil creature carrying a number of <em>soul coin</em>s greater than its Constitution modifier has disadvantage on its attack rolls, ability checks, and saving throws.</p></div><div class=\"rd__b  rd__b--3\"><p><span class=\"entry-title-inner\"><strong>Freeing a Soul</strong></span></p><p>Casting a spell that removes a curse on a <em>soul coin</em> frees the soul trapped within it, as does expending all of the coin's charges. The coin itself rusts from within and is destroyed once the soul is released. A freed soul travels to the realm of the god it served or the outer plane most closely tied to its alignment (DM's choice). The souls of lawful evil creatures released from <em>soul coin</em>s typically emerge from the River Styx as devils.</p><p>Freeing a soul from a <em>soul coin</em> is considered a good act, even if the soul belongs to an evil creature.</p></div><div class=\"rd__b  rd__b--3\"><p><span class=\"entry-title-inner\"><strong>Hellish Currency</strong></span></p><p><em>Soul coin</em>s are a currency of the Nine Hells and are highly valued by devils. The coins are used among the infernal hierarchy to barter for favours, bribe the unwilling, and reward the faithful for services rendered.</p><p><em>Soul coin</em>s are created by Mammon and his greater devils on Minauros, the third layer of the Nine Hells, in a vast chamber where the captured souls of evil mortals are bound into the coins. These coins are then distributed throughout the Nine Hells to be used for goods and services, infernal deals, dark bargains, and bribes.</p></div><p><strong>Unmake a Soul</strong></p><p>When casting a spell which requires repeated castings for it's effects to become permanent, soul coins can be expended as a material component and the souls trapped inside unmade. Each soul coin expended this way reduces the number of required castings by three.</p><p>Unmaking a soul is different to freeing it as doing so erases the soul from existence itself, it's essence lost forever. Unmaking a soul is considered an evil act.</p></div>",
+          "quantity": 15,
           "combinedLabel": "Exotic Currency",
           "attunementLabel": ""
         }
@@ -3210,22 +3222,6 @@
           "spellSchool": "Evocation"
         },
         {
-          "name": "Cane of Tides",
-          "section": "physical-items",
-          "description": "<p><em>Requires attunement by a spellcaster.</em></p><p>You gain a +2 bonus to spell attack rolls and to the saving throw DCs of your spells.</p><p>The cane has 8 charges and regains 1d8 expended charges when you finish a long rest. You can use the following abilities by expending charges:</p><ul><li><p>Add damage: When you cast a spell that deals bludgeoning or cold damage, you can expend 1 or more charges to add an additional 1d8 damage of the same type for each charge you expend.</p></li><li><p>Create Water: You can expend 1 charge to cast the Create Water effect of the Create or Destroy Water spell at 1st level using a bonus action.</p></li><li><p>Maelstrom: You can expend 5 charges to cast Maelstrom at 5th level.</p></li></ul>",
-          "quantity": 1,
-          "combinedLabel": "Rod",
-          "attunementLabel": "Requires Attunement"
-        },
-        {
-          "name": "Maelstrom",
-          "section": "spell-items",
-          "description": "<div class=\"rd__b  rd__b--3\"><p>A swirling mass of 5-foot-deep water appears in a 30-foot radius centered on a point you can see within range. The point must be on the ground or in a body of water. </p><p>Until the spell ends, that area is <span class=\"reference-link\"><a class=\"content-link\" draggable=\"true\" data-link data-uuid=\"Compendium.dnd5e.rules.JournalEntry.NizgRXLNUqtdlC1s.JournalEntryPage.6tqz947qO8vPyxvD\" data-id=\"6tqz947qO8vPyxvD\" data-type=\"JournalEntryPage\" data-pack=\"dnd5e.rules\" data-tooltip=\"Rule Page\">difficult terrain</a></span>, and any creature that starts its turn there must succeed on a Strength saving throw or take <span class=\"roll-link\" data-type=\"damage\" data-formula=\"6d6\" data-damage-type=\"bludgeoning\"><a data-action=\"roll\">6d6</a></span> bludgeoning damage and be pulled 10 feet toward the center. On a successful save, a creature takes half as much damage and is not pulled towards the center.</p></div>",
-          "spellLevel": "5th Level",
-          "spellRange": "120 ft",
-          "spellSchool": "Evocation"
-        },
-        {
           "name": "Instant Door",
           "section": "physical-items",
           "description": "<div class=\"rd__b  rd__b--2\"><p>This item resembles an ornate key of bright copper, often inset with semi-precious stones or detailed with engraved filigree scrollwork and ornaments. </p><p>While holding the key, you can use an action to make a turning motion to create a door in any wall within 5 feet of you. This door goes through a wall up to 5 feet thick, creating an exit that remains until you remove it. Turning the key in the opposite direction turns any normal, non‑magical door into a section of stone or other material matching the wall to either side (wood, wattle, plaster, and so on).</p></div>",
@@ -3396,7 +3392,7 @@
         {
           "name": "Sunbeam",
           "section": "spell-items",
-          "description": "<div class=\"rd__b  rd__b--3\"><p>A beam of brilliant light flashes out from your hand in a 5-foot-wide, 60-foot-long line. Each creature in the line must make a Constitution saving throw. On a failed save, a creature takes [[/damage 6d8 type=radiant]] damage and is &amp;Reference[condition=blinded] until your next turn. On a successful save, it takes half as much damage and isn't &amp;Reference[condition=blinded] by this spell. Undead and oozes have disadvantage on this saving throw.</p><div class=\"rd__spc-inline-post\"></div><p>You can create a new line of radiance as your action on any turn until the spell ends.</p><p>For the duration, a mote of brilliant radiance shines in your hand. It sheds bright light in a 30-foot radius and dim light for an additional 30 feet. This light is sunlight.</p></div>",
+          "description": "<div class=\"rd__b  rd__b--3\"><p>A beam of brilliant light flashes out from your hand in a 5-foot-wide, 60-foot-long line. Each creature in the line must make a Constitution saving throw. On a failed save, a creature takes [[/damage 6d8 type=radiant]] damage and is &amp;Reference[condition=blinded] until your next turn. On a successful save, it takes half as much damage and isn't &amp;Reference[condition=blinded] by this spell. Undead and oozes have disadvantage on this saving throw.</p><div class=\"rd__spc-inline-post\"><p></p></div><p>You can create a new line of radiance as your action on any turn until the spell ends.</p><p>For the duration, a mote of brilliant radiance shines in your hand. It sheds bright light in a 30-foot radius and dim light for an additional 30 feet. This light is sunlight.</p></div>",
           "spellLevel": "6th Level",
           "spellRange": "None",
           "spellSchool": "Evocation"
@@ -3566,12 +3562,28 @@
           "spellSchool": "Illusion"
         },
         {
-          "name": "Create Water",
+          "name": "Cane of Tides",
+          "section": "physical-items",
+          "description": "<p><em>Requires attunement by a spellcaster.</em></p><p>You gain a +2 bonus to spell attack rolls and to the saving throw DCs of your spells.</p><p>The cane has 8 charges and regains 1d8 expended charges when you finish a long rest. You can use the following abilities by expending charges:</p><ul><li><p>Add damage: When you cast a spell that deals bludgeoning or cold damage, you can expend 1 or more charges to add an additional 1d8 damage of the same type for each charge you expend.</p></li><li><p>Create Water: You can expend 1 charge to cast the Create Water effect of the Create or Destroy Water spell at 1st level using a bonus action.</p></li><li><p>Maelstrom: You can expend 5 charges to cast Maelstrom at 5th level.</p></li></ul>",
+          "quantity": 1,
+          "combinedLabel": "Rod",
+          "attunementLabel": "Requires Attunement"
+        },
+        {
+          "name": "Create Water - Cane of Tides",
           "section": "spell-items",
           "description": "<div class=\"rd__b  rd__b--3\"><p>You create up to 10 gallons of clean water within range in an open container. Alternatively, the water falls as rain in a 30-foot cube within range, extinguishing exposed flames in the area.</p></div>",
           "spellLevel": "1st Level",
           "spellRange": "30 ft",
           "spellSchool": "Transmutation"
+        },
+        {
+          "name": "Maelstrom",
+          "section": "spell-items",
+          "description": "<div class=\"rd__b  rd__b--3\"><p>A swirling mass of 5-foot-deep water appears in a 30-foot radius centered on a point you can see within range. The point must be on the ground or in a body of water.</p><p>Until the spell ends, that area is <span class=\"reference-link\">&amp;Reference[difficult terrain]</span>, and any creature that starts its turn there must succeed on a Strength saving throw or take [[/damage 6d6 type=bludgeoning]] damage and be pulled 10 feet toward the center. On a successful save, a creature takes half as much damage and is not pulled towards the center.</p></div>",
+          "spellLevel": "5th Level",
+          "spellRange": "120 ft",
+          "spellSchool": "Evocation"
         }
       ],
       "Shalkoc Zornax": [
@@ -3927,14 +3939,6 @@
           "name": "Potion of Cold Resistance",
           "section": "physical-items",
           "description": "<p><em>The potion is a plain indescriminate color and smells slightly foul.</em></p><p>When you drink this potion, you gain resistance to Cold type damage for 1 hour.</p>",
-          "quantity": 1,
-          "combinedLabel": "Potion",
-          "attunementLabel": ""
-        },
-        {
-          "name": "Potion of Speed",
-          "section": "physical-items",
-          "description": "<div class=\"rd__b  rd__b--2\"><p>When you drink this potion, you gain the effect of the Haste spell for 1 minute (no concentration required). The potion's yellow fluid is streaked with black and swirls on its own.</p></div>",
           "quantity": 1,
           "combinedLabel": "Potion",
           "attunementLabel": ""
