@@ -2,12 +2,6 @@
     "playerData": {
       "Aviana Winterwing": [
         {
-          "name": "Stone's Endurance",
-          "section": "feature-items",
-          "description": "<p>You can focus yourself to occasionally shrug off injury. When you're about to take damage, you can use your reaction to roll a d12. Add your Constitution modifier to the number rolled, and reduce the damage by that total. You can use this trait a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest.</p>",
-          "requirements": "Background"
-        },
-        {
           "name": "Powerful Build",
           "section": "feature-items",
           "description": "<p>You count as one size larger when determining your carrying capacity and the weight you can push, drag, or lift.</p>",
@@ -22,7 +16,7 @@
         {
           "name": "Danger Sense",
           "section": "feature-items",
-          "description": "<div class=\"rd__b  rd__b--3\"><p>At 2nd level, you gain an uncanny sense of when things nearby aren't as they should be, giving you an edge when you dodge away from danger. You have advantage on Dexterity saving throws against effects that you can see, such as traps and spells. To gain this benefit, you can't be <span class=\"reference-link\"><a class=\"content-link\" data-uuid=\"Compendium.dnd5e.rules.JournalEntry.w7eitkpD7QQTB6j0.JournalEntryPage.0b8N4FymGGfbZGpJ\" data-id=\"0b8N4FymGGfbZGpJ\" data-type=\"JournalEntryPage\" data-pack=\"dnd5e.rules\" data-tooltip=\"Rule Page\">Blinded</a></span>, <span class=\"reference-link\"><a class=\"content-link\" data-uuid=\"Compendium.dnd5e.rules.JournalEntry.w7eitkpD7QQTB6j0.JournalEntryPage.6G8JSjhn701cBITY\" data-id=\"6G8JSjhn701cBITY\" data-type=\"JournalEntryPage\" data-pack=\"dnd5e.rules\" data-tooltip=\"Rule Page\">Deafened</a></span>, or <span class=\"reference-link\"><a class=\"content-link\" data-uuid=\"Compendium.dnd5e.rules.JournalEntry.w7eitkpD7QQTB6j0.JournalEntryPage.TpkZgLfxCmSndmpb\" data-id=\"TpkZgLfxCmSndmpb\" data-type=\"JournalEntryPage\" data-pack=\"dnd5e.rules\" data-tooltip=\"Rule Page\">Incapacitated</a></span>.</p><div class=\"rd__spc-inline-post\"><p></p></div></div>",
+          "description": "<div class=\"rd__b  rd__b--3\"><p>At 2nd level, you gain an uncanny sense of when things nearby aren't as they should be, giving you an edge when you dodge away from danger. You have advantage on Dexterity saving throws against effects that you can see, such as traps and spells. To gain this benefit, you can't be <span class=\"reference-link\">&amp;Reference[blinded], &amp;Reference[deafened], or &amp;Reference[incapacitated].</span></p></div>",
           "requirements": "Barbarian 2"
         },
         {
@@ -70,12 +64,6 @@
           "spellLevel": "2nd Level",
           "spellRange": "Touch",
           "spellSchool": "Divination"
-        },
-        {
-          "name": "Silver Wing Shield",
-          "section": "feature-items",
-          "description": "<p>You use your powerful wings instead of a regular shield, granting you +2 to your AC.</p>",
-          "requirements": "Background"
         },
         {
           "name": "Lethal Limbs",
@@ -159,7 +147,7 @@
           "name": "Potion of Greater Healing",
           "section": "physical-items",
           "description": "<div class=\"rd__b  rd__b--2\"><p><em>The potion's red liquid glimmers when agitated.</em></p><p>You regain 4d4 + 4 hit points when you drink this potion.</p></div>",
-          "quantity": 2,
+          "quantity": 1,
           "combinedLabel": "Potion",
           "attunementLabel": ""
         },
@@ -234,12 +222,6 @@
           "quantity": 1,
           "combinedLabel": "Spell Gem",
           "attunementLabel": ""
-        },
-        {
-          "name": "Dodge",
-          "section": "feature-items",
-          "description": "<p>When you take the Dodge action, you focus entirely on avoiding attacks. Until the start of your next turn, any attack roll made against you has disadvantage if you can see the attacker, and you make Dexterity saving throws with advantage. You lose this benefit if you are incapacitated (as explained in the appendix) or if your speed drops to 0.</p>",
-          "requirements": ""
         },
         {
           "name": "Spelleater's Charm",
@@ -404,14 +386,6 @@
           "attunementLabel": ""
         },
         {
-          "name": "Activated: Hold Person - 2nd",
-          "section": "physical-items",
-          "description": "<table>\n        <tbody>\n            <tr>\n                <td>\n                    <p style=\"text-align:center;font-weight:bold\">2nd Level</p>\n                </td>\n            </tr>\n            \n        </tbody>\n    </table><div class=\"rd__b  rd__b--3\"><p>Choose a humanoid that you can see within range. The target must succeed on a Wisdom saving throw or be <span class=\"reference-link\"><a class=\"content-link\" data-uuid=\"Compendium.dnd5e.rules.JournalEntry.w7eitkpD7QQTB6j0.JournalEntryPage.xnSV5hLJIMaTABXP\" data-id=\"xnSV5hLJIMaTABXP\" data-type=\"JournalEntryPage\" data-pack=\"dnd5e.rules\" data-tooltip=\"Rule Page\"><i class=\"fas fa-book-open\"></i>Paralyzed</a><a class=\"enricher-action\" data-action=\"apply\" data-status=\"paralyzed\" data-tooltip=\"EDITOR.DND5E.Inline.ApplyStatus\" aria-label=\"Apply Status to Selected Tokens\"><i class=\"fas fa-fw fa-reply-all fa-flip-horizontal\"></i></a></span> for the duration. At the end of each of its turns, the target can make another Wisdom saving throw. On a success, the spell ends on the target.</p><div class=\"rd__spc-inline-post\"></div></div><div class=\"rd__b  rd__b--3\"><div class=\"rd__b  rd__b--3\"><span class=\"rd__h rd__h--3\" data-title-index=\"1\"> <span class=\"entry-title-inner\">At Higher Levels.</span></span> <p>When you cast this spell using a spell slot of 3rd level or higher, you can target one additional humanoid for each slot level above 2nd. The humanoids must be within 30 feet of each other when you target them.</p><div class=\"rd__spc-inline-post\"></div></div><div class=\"rd__spc-inline-post\"></div></div>",
-          "quantity": 1,
-          "combinedLabel": "Spell Gem",
-          "attunementLabel": ""
-        },
-        {
           "name": "Activated: Feather Fall - 1st",
           "section": "physical-items",
           "description": "<table>\n        <tbody>\n            <tr>\n                <td>\n                    <p style=\"text-align:center;font-weight:bold\">1st Level</p>\n                </td>\n            </tr>\n            \n        </tbody>\n    </table><div class=\"rd__b  rd__b--3\"><p>Choose up to five falling creatures within range. A falling creature's rate of descent slows to 60 feet per round until the spell ends. If the creature lands before the spell ends, it takes no falling damage and can land on its feet, and the spell ends for that creature.</p><div class=\"rd__spc-inline-post\"></div></div>",
@@ -571,7 +545,7 @@
           "name": "Potion of Growth",
           "section": "physical-items",
           "description": "<div class=\"rd__b  rd__b--2\"><p><em>The red in the potion's liquid continuously expands from a tiny bead to color the clear liquid around it and then contracts. Shaking the bottle fails to interrupt this process.</em></p><p>When you drink this potion, you gain the \"enlarge\" effect of the enlarge/reduce spell for 1d4 hours (no concentration required):</p></div><p>While enlarged, your size is increased by one category and your weight is multiplied by eight.<br />You have advantage on Strength checks and saving throws and your attacks with weapons deal an additional 1d4 damage.</p>",
-          "quantity": 3,
+          "quantity": 2,
           "combinedLabel": "Potion",
           "attunementLabel": ""
         },
@@ -650,6 +624,26 @@
           "attunementLabel": ""
         },
         {
+          "name": "Dodge",
+          "section": "feature-items",
+          "description": "<p>When you take the Dodge action, you focus entirely on avoiding attacks. Until the start of your next turn, any attack roll made against you has disadvantage if you can see the attacker, and you make Dexterity saving throws with advantage. You lose this benefit if you are incapacitated (as explained in the appendix) or if your speed drops to 0.</p>",
+          "requirements": ""
+        },
+        {
+          "name": "Stone's Endurance",
+          "section": "feature-items",
+          "description": "<p>You can focus yourself to occasionally shrug off injury. When you're about to take damage, you can use your reaction to roll a d12. Add your Constitution modifier to the number rolled, and reduce the damage by that total ([[/roll 1d12+@abilities.con.mod #Damage Reduction]]). You can use this trait a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest.</p>",
+          "requirements": "Background"
+        },
+        {
+          "name": "Silver Wing Shield",
+          "section": "physical-items",
+          "description": "<p>You use your powerful wings instead of a regular shield, granting you +2 to your AC.</p><section id=\"secret-vi3ooVbWWTOfyTRq\" class=\"secret\"><p>You cannot unequip this item.</p></section>",
+          "quantity": 1,
+          "combinedLabel": "Shield",
+          "attunementLabel": ""
+        },
+        {
           "name": "Compelled Duel",
           "section": "feature-items",
           "description": "<p>Using your bonus action, you can roll an Intimidation check to challenge a single creature that can see you to a duel.</p><p>The DC against this ability is check's total.</p><p>The creature needs to make a Wisdom saving throw. On a failed save, it has to focus all of it's attention solely on you for it's next two turns.</p><p>Creatures with a Strength score that is higher than their Intelligence and Wisdom scores combined automatically fail this save.</p><p>Only one creature can be compelled to duel you at any given time.</p>",
@@ -672,6 +666,22 @@
           "section": "feature-items",
           "description": "<p>Using your bonus action, you can roll an Intimidation check to present yourself as the biggest threat on the battlefield.</p><p>The DC against this ability is half the check's total, rounded up.</p><p>Hostile creatures within 20ft of you need to make a Wisdom saving throw. On a failed save, they have to focus all of their attention solely on you for their next two turns.</p><p>Creatures with a Strength score that is higher than their Intelligence and Wisdom scores combined automatically fail this save.</p>",
           "requirements": "Bear Spirit"
+        },
+        {
+          "name": "Boots of Vile Darkness",
+          "section": "physical-items",
+          "description": "<p>When you land from a jump, magical darkness spreads from your location, as per the <strong>Darkness</strong> spell. This effect does not require concentration and lasts for the spell’s normal duration. Any previous darkness created by these boots is immediately dispelled when this effect occurs.</p>",
+          "quantity": 1,
+          "combinedLabel": "Clothing",
+          "attunementLabel": "Requires Attunement"
+        },
+        {
+          "name": "Darkness",
+          "section": "spell-items",
+          "description": "<div class=\"rd__b  rd__b--3\"><p>Magical darkness spreads from a point you choose within range to fill a 15-foot-radius sphere for the duration. The darkness spreads around corners. A creature with <span class=\"reference-link\"><a class=\"content-link\" draggable=\"true\" data-link data-uuid=\"Compendium.dnd5e.rules.JournalEntry.NizgRXLNUqtdlC1s.JournalEntryPage.ldmA1PbnEGVkmE11\" data-id=\"ldmA1PbnEGVkmE11\" data-type=\"JournalEntryPage\" data-pack=\"dnd5e.rules\" data-tooltip=\"Rule Page\"><i class=\"fas fa-book-open\"></i>Darkvision</a></span> can't see through this darkness, and nonmagical light can't illuminate it.</p><p>If the point you choose is on an object you are holding or one that isn't being worn or carried, the darkness emanates from the object and moves with it. Completely covering the source of the darkness with an opaque object, such as a bowl or a helm, blocks the darkness.</p><p>If any of this spell's area overlaps with an area of light created by a spell of 2nd level or lower, the spell that created the light is dispelled.</p></div>",
+          "spellLevel": "2nd Level",
+          "spellRange": "60 ft",
+          "spellSchool": "Evocation"
         }
       ],
       "Fearghas MacAllistar": [
@@ -806,14 +816,6 @@
           "spellSchool": "Transmutation"
         },
         {
-          "name": "Grease",
-          "section": "spell-items",
-          "description": "<div class=\"rd__b  rd__b--3\"><p>Slick grease covers the ground in a 10-foot square centered on a point within range and turns it into <span class=\"reference-link\"><a class=\"content-link\" data-uuid=\"Compendium.dnd5e.rules.JournalEntry.NizgRXLNUqtdlC1s.JournalEntryPage.6tqz947qO8vPyxvD\" data-id=\"6tqz947qO8vPyxvD\" data-type=\"JournalEntryPage\" data-pack=\"dnd5e.rules\" data-tooltip=\"Rule Page\"><i class=\"fas fa-book-open\"></i>difficult terrain</a></span> for the duration.</p><div class=\"rd__spc-inline-post\"></div><p>When the grease appears, each creature standing in its area must succeed on a Dexterity saving throw or fall <span class=\"reference-link\"><a class=\"content-link\" data-uuid=\"Compendium.dnd5e.rules.JournalEntry.w7eitkpD7QQTB6j0.JournalEntryPage.y0TkcdyoZlOTmAFT\" data-id=\"y0TkcdyoZlOTmAFT\" data-type=\"JournalEntryPage\" data-pack=\"dnd5e.rules\" data-tooltip=\"Rule Page\"><i class=\"fas fa-book-open\"></i>Prone</a><a class=\"enricher-action\" data-action=\"apply\" data-status=\"prone\" data-tooltip=\"EDITOR.DND5E.Inline.ApplyStatus\" aria-label=\"Apply Status to Selected Tokens\"><i class=\"fas fa-fw fa-reply-all fa-flip-horizontal\"></i></a></span>. A creature that enters the area or ends its turn there must also succeed on a Dexterity saving throw or fall <span class=\"reference-link\"><a class=\"content-link\" data-uuid=\"Compendium.dnd5e.rules.JournalEntry.w7eitkpD7QQTB6j0.JournalEntryPage.y0TkcdyoZlOTmAFT\" data-id=\"y0TkcdyoZlOTmAFT\" data-type=\"JournalEntryPage\" data-pack=\"dnd5e.rules\" data-tooltip=\"Rule Page\"><i class=\"fas fa-book-open\"></i>Prone</a><a class=\"enricher-action\" data-action=\"apply\" data-status=\"prone\" data-tooltip=\"EDITOR.DND5E.Inline.ApplyStatus\" aria-label=\"Apply Status to Selected Tokens\"><i class=\"fas fa-fw fa-reply-all fa-flip-horizontal\"></i></a></span>.</p></div>",
-          "spellLevel": "1st Level",
-          "spellRange": "60 ft",
-          "spellSchool": "Conjuration"
-        },
-        {
           "name": "Comprehend Languages",
           "section": "spell-items",
           "description": "<div class=\"rd__b  rd__b--3\"><p>For the duration, you understand the literal meaning of any spoken language that you hear. You also understand any written language that you see, but you must be touching the surface on which the words are written. It takes about 1 minute to read one page of text.</p><div class=\"rd__spc-inline-post\"></div><p>This spell doesn't decode secret messages in a text or a glyph, such as an arcane sigil, that isn't part of a written language.</p></div>",
@@ -835,14 +837,6 @@
           "description": "<div class=\"rd__b  rd__b--3\"><p>As you hold your hands with thumbs touching and fingers spread, a thin sheet of flames shoots forth from your outstretched fingertips. Each creature in a 15-foot cone must make a Dexterity saving throw. A creature takes <a class=\"inline-roll roll\" data-mode=\"roll\" data-flavor data-formula=\"3d6\"><i class=\"fas fa-dice-d20\"></i>3d6</a> fire damage on a failed save, or half as much damage on a successful one.</p><div class=\"rd__spc-inline-post\"></div><p>The fire ignites any flammable objects in the area that aren't being worn or carried.</p></div><div class=\"rd__b  rd__b--3\"><div class=\"rd__b  rd__b--3\"><span class=\"rd__h rd__h--3\" data-title-index=\"1\"> <span class=\"entry-title-inner\">At Higher Levels.</span></span> <p>When you cast this spell using a spell slot of 2nd level or higher, the damage increases by <a class=\"inline-roll roll\" data-mode=\"roll\" data-flavor data-formula=\"1d6\"><i class=\"fas fa-dice-d20\"></i>1d6</a> for each slot level above 1st.</p><div class=\"rd__spc-inline-post\"></div></div><div class=\"rd__spc-inline-post\"></div></div>",
           "spellLevel": "1st Level",
           "spellRange": "Self",
-          "spellSchool": "Evocation"
-        },
-        {
-          "name": "Earth Tremor",
-          "section": "spell-items",
-          "description": "<div class=\"rd__b  rd__b--3\"><p>You cause a tremor in the ground around a point within range. Each creature other than you in that area must make a Dexterity saving throw. On a failed save, a creature takes [[/r 1d6]] bludgeoning damage and is knocked &amp;Reference[condition=prone]. If the ground in that area is loose earth or stone, it becomes &amp;Reference[rule=difficultterrain]{difficult terrain} until cleared, with each 5-foot-diameter portion requiring at least 1 minute to clear by hand.</p><div class=\"rd__spc-inline-post\"><p></p></div></div><div class=\"rd__b  rd__b--3\"><div class=\"rd__b  rd__b--3\"><p><span class=\"entry-title-inner\">At Higher Levels.</span></p><p>When you cast this spell using a spell slot of 2nd level or higher, the damage increases by [[/r 1d6]] for each slot level above 1st.</p><div class=\"rd__spc-inline-post\"><p></p></div></div><div class=\"rd__spc-inline-post\"><p></p></div></div>",
-          "spellLevel": "1st Level",
-          "spellRange": "30 ft",
           "spellSchool": "Evocation"
         },
         {
@@ -892,14 +886,6 @@
           "spellLevel": "2nd Level",
           "spellRange": "60 ft",
           "spellSchool": "Transmutation"
-        },
-        {
-          "name": "Hold Person",
-          "section": "spell-items",
-          "description": "<div class=\"rd__b  rd__b--3\"><p>Choose a humanoid that you can see within range. The target must succeed on a Wisdom saving throw or be <span class=\"reference-link\"><a class=\"content-link\" data-uuid=\"Compendium.dnd5e.rules.JournalEntry.w7eitkpD7QQTB6j0.JournalEntryPage.xnSV5hLJIMaTABXP\" data-id=\"xnSV5hLJIMaTABXP\" data-type=\"JournalEntryPage\" data-pack=\"dnd5e.rules\" data-tooltip=\"Rule Page\"><i class=\"fas fa-book-open\"></i>Paralyzed</a><a class=\"enricher-action\" data-action=\"apply\" data-status=\"paralyzed\" data-tooltip=\"EDITOR.DND5E.Inline.ApplyStatus\" aria-label=\"Apply Status to Selected Tokens\"><i class=\"fas fa-fw fa-reply-all fa-flip-horizontal\"></i></a></span> for the duration. At the end of each of its turns, the target can make another Wisdom saving throw. On a success, the spell ends on the target.</p><div class=\"rd__spc-inline-post\"></div></div><div class=\"rd__b  rd__b--3\"><div class=\"rd__b  rd__b--3\"><span class=\"rd__h rd__h--3\" data-title-index=\"1\"> <span class=\"entry-title-inner\">At Higher Levels.</span></span> <p>When you cast this spell using a spell slot of 3rd level or higher, you can target one additional humanoid for each slot level above 2nd. The humanoids must be within 30 feet of each other when you target them.</p><div class=\"rd__spc-inline-post\"></div></div><div class=\"rd__spc-inline-post\"></div></div>",
-          "spellLevel": "2nd Level",
-          "spellRange": "60 ft",
-          "spellSchool": "Enchantment"
         },
         {
           "name": "Spike Growth",
@@ -968,7 +954,7 @@
         {
           "name": "Wall of Fire",
           "section": "spell-items",
-          "description": "<div class=\"rd__b  rd__b--3\"><p>You create a wall of fire on a solid surface within range. You can make the wall up to 60 feet long, 20 feet high, and 1 foot thick, or a ringed wall up to 20 feet in diameter, 20 feet high, and 1 foot thick. The wall is opaque and lasts for the duration.</p><p>When the wall appears, each creature within its area must make a Dexterity saving throw. On a failed save, a creature takes [[/r 5d8]] fire damage, or half as much damage on a successful save.</p><p>One side of the wall, selected by you when you cast this spell, deals [[/r 5d8]] fire damage to each creature that ends its turn within 10 feet of that side or inside the wall. A creature takes the same damage when it enters the wall for the first time on a turn or ends its turn there. The other side of the wall deals no damage.</p></div><div class=\"rd__b  rd__b--3\"><div class=\"rd__b  rd__b--3\"><h5><span class=\"entry-title-inner\">At Higher Levels</span></h5><p>When you cast this spell using a spell slot of 5th level or higher, the damage increases by [[/r 1d8]] for each slot level above 4th.</p></div></div>",
+          "description": "<div class=\"rd__b  rd__b--3\"><p>You create a wall of fire on a solid surface within range. You can make the wall up to 60 feet long, 20 feet high, and 1 foot thick, or a ringed wall up to 20 feet in diameter, 20 feet high, and 1 foot thick. The wall is opaque and lasts for the duration.</p><p>When the wall appears, each creature within its area must make a Dexterity saving throw. On a failed save, a creature takes <a class=\"inline-roll roll\" data-mode=\"roll\" data-flavor data-formula=\"5d8\" data-tooltip=\"5d8\"><i class=\"fas fa-dice-d20\"></i>5d8</a> fire damage, or half as much damage on a successful save.</p><p>One side of the wall, selected by you when you cast this spell, deals <a class=\"inline-roll roll\" data-mode=\"roll\" data-flavor data-formula=\"5d8\" data-tooltip=\"5d8\"><i class=\"fas fa-dice-d20\"></i>5d8</a> fire damage to each creature that ends its turn within 10 feet of that side or inside the wall. A creature takes the same damage when it enters the wall for the first time on a turn or ends its turn there. The other side of the wall deals no damage.</p></div><div class=\"rd__b  rd__b--3\"><div class=\"rd__b  rd__b--3\"><h5><span class=\"entry-title-inner\">At Higher Levels</span></h5><p>When you cast this spell using a spell slot of 5th level or higher, the damage increases by <a class=\"inline-roll roll\" data-mode=\"roll\" data-flavor data-formula=\"1d8\" data-tooltip=\"1d8\"><i class=\"fas fa-dice-d20\"></i>1d8</a> for each slot level above 4th.</p></div></div>",
           "spellLevel": "4th Level",
           "spellRange": "120 ft",
           "spellSchool": "Evocation"
@@ -1272,14 +1258,6 @@
           "attunementLabel": "Requires Attunement"
         },
         {
-          "name": "Spell Scroll: Greater Invisibility",
-          "section": "physical-items",
-          "description": "<div class=\"rd__b  rd__b--3\"><p>You or a creature you touch becomes &amp;Reference[condition=invisible] until the spell ends. Anything the target is wearing or carrying is &amp;Reference[condition=invisible] as long as it is on the target's person.</p></div>",
-          "quantity": 1,
-          "combinedLabel": "Scroll",
-          "attunementLabel": ""
-        },
-        {
           "name": "Dragon Scale",
           "section": "physical-items",
           "description": "<p>Only very old and completely undamaged scales of huge dragons are fit for use in alchemy, making them incredibly rare. These iridescent scales gleam with vibrant colors, boasting remarkable resilience and magical properties.</p>",
@@ -1300,14 +1278,6 @@
           "spellLevel": "5th Level",
           "spellRange": "Touch",
           "spellSchool": "Transmutation"
-        },
-        {
-          "name": "Hold Monster",
-          "section": "spell-items",
-          "description": "<p>Choose a creature that you can see within range. The target must succeed on a Wisdom saving throw or be &amp;Reference[Paralyzed] for the Duration. This spell has no effect on Undead. At the end of each of its turns, the target can make another Wisdom saving throw. On a success, the spell ends on the target.</p><p><strong>At Higher Levels.</strong> When you cast this spell using a spell slot of 6th level or higher, you can target one additional creature for each slot level above 5th. The creatures must be within 30 feet of each other when you target them.</p>",
-          "spellLevel": "5th Level",
-          "spellRange": "90 ft",
-          "spellSchool": "Enchantment"
         },
         {
           "name": "Ray of Frost",
@@ -1356,14 +1326,6 @@
           "spellLevel": "6th Level",
           "spellRange": "30 ft",
           "spellSchool": "Transmutation"
-        },
-        {
-          "name": "Greater Invisibility",
-          "section": "spell-items",
-          "description": "<div class=\"rd__b  rd__b--3\"><p>You or a creature you touch becomes &amp;Reference[condition=invisible] until the spell ends. Anything the target is wearing or carrying is &amp;Reference[condition=invisible] as long as it is on the target's person.</p></div>",
-          "spellLevel": "4th Level",
-          "spellRange": "Touch",
-          "spellSchool": "Illusion"
         },
         {
           "name": "Alchemical Synthesis",
@@ -1426,12 +1388,6 @@
           "quantity": 3,
           "combinedLabel": "Spell Gem",
           "attunementLabel": ""
-        },
-        {
-          "name": "Dodge",
-          "section": "feature-items",
-          "description": "<p>When you take the Dodge action, you focus entirely on avoiding attacks. Until the start of your next turn, any attack roll made against you has disadvantage if you can see the attacker, and you make Dexterity saving throws with advantage. You lose this benefit if you are incapacitated (as explained in the appendix) or if your speed drops to 0.</p>",
-          "requirements": ""
         },
         {
           "name": "Rod of Hellish Flames",
@@ -1644,14 +1600,6 @@
           "spellSchool": "Illusion"
         },
         {
-          "name": "Raulothim's Psychic Lance",
-          "section": "spell-items",
-          "description": "<div class=\"rd__b  rd__b--3\"><p>You unleash a shimmering lance of psychic power from your forehead at a creature that you can see within range. Alternatively, you can utter a creature's name. If the named target is within range, it becomes the spell's target even if you can't see it. If the named target isn't within range, the lance dissipates without effect.</p><div class=\"rd__spc-inline-post\"></div><p>The target must make an Intelligence saving throw. On a failed save, the target takes <span><span class=\"roll-link\" data-type=\"damage\" data-formula=\"7d6\" data-damage-type=\"psychic\"><a data-action=\"roll\"><i class=\"fa-solid fa-dice-d20\"></i>7d6</a></span> psychic</span> damage and is <span class=\"reference-link\"><a class=\"content-link\" data-uuid=\"Compendium.dnd5e.rules.JournalEntry.w7eitkpD7QQTB6j0.JournalEntryPage.TpkZgLfxCmSndmpb\" data-id=\"TpkZgLfxCmSndmpb\" data-type=\"JournalEntryPage\" data-pack=\"dnd5e.rules\" data-tooltip=\"Rule Page\"><i class=\"fas fa-book-open\"></i>Incapacitated</a><a class=\"enricher-action\" data-action=\"apply\" data-status=\"incapacitated\" data-tooltip=\"EDITOR.DND5E.Inline.ApplyStatus\" aria-label=\"Apply Status to Selected Tokens\"><i class=\"fas fa-fw fa-reply-all fa-flip-horizontal\"></i></a></span> until the start of your next turn. On a successful save, the creature takes half as much damage and isn't <span class=\"reference-link\"><a class=\"content-link\" data-uuid=\"Compendium.dnd5e.rules.JournalEntry.w7eitkpD7QQTB6j0.JournalEntryPage.TpkZgLfxCmSndmpb\" data-id=\"TpkZgLfxCmSndmpb\" data-type=\"JournalEntryPage\" data-pack=\"dnd5e.rules\" data-tooltip=\"Rule Page\"><i class=\"fas fa-book-open\"></i>Incapacitated</a><a class=\"enricher-action\" data-action=\"apply\" data-status=\"incapacitated\" data-tooltip=\"EDITOR.DND5E.Inline.ApplyStatus\" aria-label=\"Apply Status to Selected Tokens\"><i class=\"fas fa-fw fa-reply-all fa-flip-horizontal\"></i></a></span>.</p></div><div class=\"rd__b  rd__b--3\"><div class=\"rd__b  rd__b--3\"><span class=\"rd__h rd__h--3\" data-title-index=\"1\"> <span class=\"entry-title-inner\">At Higher Levels.</span></span> <p>When you cast this spell using a spell slot of 5th level or higher, the damage increases by <span><span class=\"roll-link\" data-formula=\"1d6\" data-type=\"damage\"><a data-action=\"roll\"><i class=\"fa-solid fa-dice-d20\"></i>1d6</a></span> </span> for each slot level above 4th.</p><div class=\"rd__spc-inline-post\"></div></div><div class=\"rd__spc-inline-post\"></div></div>",
-          "spellLevel": "4th Level",
-          "spellRange": "120 ft",
-          "spellSchool": "Enchantment"
-        },
-        {
           "name": "Blight",
           "section": "spell-items",
           "description": "<div class=\"rd__b  rd__b--3\"><p>Necromantic energy washes over a creature of your choice that you can see within range, draining moisture and vitality from it. The target must make a Constitution saving throw. The target takes [[/damage 8d8 type=necrotic]] damage on a failed save, or half as much damage on a successful one. This spell has no effect on undead or constructs.</p><div class=\"rd__spc-inline-post\"><p></p></div><p>If you target a plant creature or a magical plant, it makes the saving throw with disadvantage, and the spell deals maximum damage to it.</p><p>If you target a nonmagical plant that isn't a creature, such as a tree or shrub, it doesn't make a saving throw, it simply withers and dies.</p><p></p></div><div class=\"rd__b  rd__b--3\"><div class=\"rd__b  rd__b--3\"><p><span class=\"entry-title-inner\"><strong>At Higher Levels</strong></span></p><p>When you cast this spell using a spell slot of 5th level or higher, the damage increases by [[/damage 1d8]] for each slot level above 4th.</p></div></div>",
@@ -1797,7 +1745,7 @@
           "name": "Activated: Shield - 1st",
           "section": "physical-items",
           "description": "<table>\n        <tbody>\n            <tr>\n                <td>\n                    <p style=\"text-align:center;font-weight:bold\">1st Level</p>\n                </td>\n            </tr>\n            \n        </tbody>\n    </table><div class=\"rd__b  rd__b--3\"><p>An invisible barrier of magical force appears and protects you. Until the start of your next turn, you have a +5 bonus to AC, including against the triggering attack, and you take no damage from <a class=\"jlnk__entity-link\" draggable=\"true\" data-plut-hover-page=\"spells.html\" data-plut-hover-source=\"PHB\" data-plut-hover-hash=\"magic%20missile_phb\" data-plut-hover-tag=\"spell\" data-plut-hover-hash-pre-encoded=\"true\" data-plut-rich-link=\"true\" data-plut-rich-link-entity-type=\"Item\" data-plut-rich-link-original-text=\"spell[magic missile]\"><i class=\"fas fas fa-suitcase\"></i> magic missile</a>.</p><div class=\"rd__spc-inline-post\"></div></div>",
-          "quantity": 2,
+          "quantity": 1,
           "combinedLabel": "Spell Gem",
           "attunementLabel": ""
         },
@@ -1925,7 +1873,7 @@
           "name": "Potion of Superior Healing",
           "section": "physical-items",
           "description": "<div class=\"rd__b  rd__b--2\"><p><em>The potion's red liquid glimmers when agitated.</em></p><p>You regain 8d4 + 8 hit points when you drink this potion.</p></div>",
-          "quantity": 5,
+          "quantity": 2,
           "combinedLabel": "Potion",
           "attunementLabel": ""
         },
@@ -2168,38 +2116,6 @@
           "attunementLabel": ""
         },
         {
-          "name": "Activated: Raulothim's Psychic Lance - 4th",
-          "section": "physical-items",
-          "description": "<div class=\"rd__b  rd__b--3\"><p>You unleash a shimmering lance of psychic power from your forehead at a creature that you can see within range. Alternatively, you can utter a creature's name. If the named target is within range, it becomes the spell's target even if you can't see it. If the named target isn't within range, the lance dissipates without effect.</p><div class=\"rd__spc-inline-post\"></div><p>The target must make an Intelligence saving throw. On a failed save, the target takes <span><span class=\"roll-link\" data-type=\"damage\" data-formula=\"7d6\" data-damage-type=\"psychic\"><a data-action=\"roll\"><i class=\"fa-solid fa-dice-d20\"></i>7d6</a></span> psychic</span> damage and is <span class=\"reference-link\"><a class=\"content-link\" data-uuid=\"Compendium.dnd5e.rules.JournalEntry.w7eitkpD7QQTB6j0.JournalEntryPage.TpkZgLfxCmSndmpb\" data-id=\"TpkZgLfxCmSndmpb\" data-type=\"JournalEntryPage\" data-pack=\"dnd5e.rules\" data-tooltip=\"Rule Page\"><i class=\"fas fa-book-open\"></i>Incapacitated</a><a class=\"enricher-action\" data-action=\"apply\" data-status=\"incapacitated\" data-tooltip=\"EDITOR.DND5E.Inline.ApplyStatus\" aria-label=\"Apply Status to Selected Tokens\"><i class=\"fas fa-fw fa-reply-all fa-flip-horizontal\"></i></a></span> until the start of your next turn. On a successful save, the creature takes half as much damage and isn't <span class=\"reference-link\"><a class=\"content-link\" data-uuid=\"Compendium.dnd5e.rules.JournalEntry.w7eitkpD7QQTB6j0.JournalEntryPage.TpkZgLfxCmSndmpb\" data-id=\"TpkZgLfxCmSndmpb\" data-type=\"JournalEntryPage\" data-pack=\"dnd5e.rules\" data-tooltip=\"Rule Page\"><i class=\"fas fa-book-open\"></i>Incapacitated</a><a class=\"enricher-action\" data-action=\"apply\" data-status=\"incapacitated\" data-tooltip=\"EDITOR.DND5E.Inline.ApplyStatus\" aria-label=\"Apply Status to Selected Tokens\"><i class=\"fas fa-fw fa-reply-all fa-flip-horizontal\"></i></a></span>.</p></div><div class=\"rd__b  rd__b--3\"><div class=\"rd__b  rd__b--3\"><span class=\"rd__h rd__h--3\" data-title-index=\"1\"> <span class=\"entry-title-inner\">At Higher Levels.</span></span> <p>When you cast this spell using a spell slot of 5th level or higher, the damage increases by <span><span class=\"roll-link\" data-formula=\"1d6\" data-type=\"damage\"><a data-action=\"roll\"><i class=\"fa-solid fa-dice-d20\"></i>1d6</a></span> </span> for each slot level above 4th.</p><div class=\"rd__spc-inline-post\"></div></div><div class=\"rd__spc-inline-post\"></div></div>",
-          "quantity": 1,
-          "combinedLabel": "Spell Gem",
-          "attunementLabel": ""
-        },
-        {
-          "name": "Activated: Raulothim's Psychic Lance - 4th",
-          "section": "physical-items",
-          "description": "<div class=\"rd__b  rd__b--3\"><p>You unleash a shimmering lance of psychic power from your forehead at a creature that you can see within range. Alternatively, you can utter a creature's name. If the named target is within range, it becomes the spell's target even if you can't see it. If the named target isn't within range, the lance dissipates without effect.</p><div class=\"rd__spc-inline-post\"></div><p>The target must make an Intelligence saving throw. On a failed save, the target takes <span><span class=\"roll-link\" data-type=\"damage\" data-formula=\"7d6\" data-damage-type=\"psychic\"><a data-action=\"roll\"><i class=\"fa-solid fa-dice-d20\"></i>7d6</a></span> psychic</span> damage and is <span class=\"reference-link\"><a class=\"content-link\" data-uuid=\"Compendium.dnd5e.rules.JournalEntry.w7eitkpD7QQTB6j0.JournalEntryPage.TpkZgLfxCmSndmpb\" data-id=\"TpkZgLfxCmSndmpb\" data-type=\"JournalEntryPage\" data-pack=\"dnd5e.rules\" data-tooltip=\"Rule Page\"><i class=\"fas fa-book-open\"></i>Incapacitated</a><a class=\"enricher-action\" data-action=\"apply\" data-status=\"incapacitated\" data-tooltip=\"EDITOR.DND5E.Inline.ApplyStatus\" aria-label=\"Apply Status to Selected Tokens\"><i class=\"fas fa-fw fa-reply-all fa-flip-horizontal\"></i></a></span> until the start of your next turn. On a successful save, the creature takes half as much damage and isn't <span class=\"reference-link\"><a class=\"content-link\" data-uuid=\"Compendium.dnd5e.rules.JournalEntry.w7eitkpD7QQTB6j0.JournalEntryPage.TpkZgLfxCmSndmpb\" data-id=\"TpkZgLfxCmSndmpb\" data-type=\"JournalEntryPage\" data-pack=\"dnd5e.rules\" data-tooltip=\"Rule Page\"><i class=\"fas fa-book-open\"></i>Incapacitated</a><a class=\"enricher-action\" data-action=\"apply\" data-status=\"incapacitated\" data-tooltip=\"EDITOR.DND5E.Inline.ApplyStatus\" aria-label=\"Apply Status to Selected Tokens\"><i class=\"fas fa-fw fa-reply-all fa-flip-horizontal\"></i></a></span>.</p></div><div class=\"rd__b  rd__b--3\"><div class=\"rd__b  rd__b--3\"><span class=\"rd__h rd__h--3\" data-title-index=\"1\"> <span class=\"entry-title-inner\">At Higher Levels.</span></span> <p>When you cast this spell using a spell slot of 5th level or higher, the damage increases by <span><span class=\"roll-link\" data-formula=\"1d6\" data-type=\"damage\"><a data-action=\"roll\"><i class=\"fa-solid fa-dice-d20\"></i>1d6</a></span> </span> for each slot level above 4th.</p><div class=\"rd__spc-inline-post\"></div></div><div class=\"rd__spc-inline-post\"></div></div>",
-          "quantity": 1,
-          "combinedLabel": "Spell Gem",
-          "attunementLabel": ""
-        },
-        {
-          "name": "Activated: Raulothim's Psychic Lance - 4th",
-          "section": "physical-items",
-          "description": "<div class=\"rd__b  rd__b--3\"><p>You unleash a shimmering lance of psychic power from your forehead at a creature that you can see within range. Alternatively, you can utter a creature's name. If the named target is within range, it becomes the spell's target even if you can't see it. If the named target isn't within range, the lance dissipates without effect.</p><div class=\"rd__spc-inline-post\"></div><p>The target must make an Intelligence saving throw. On a failed save, the target takes <span><span class=\"roll-link\" data-type=\"damage\" data-formula=\"7d6\" data-damage-type=\"psychic\"><a data-action=\"roll\"><i class=\"fa-solid fa-dice-d20\"></i>7d6</a></span> psychic</span> damage and is <span class=\"reference-link\"><a class=\"content-link\" data-uuid=\"Compendium.dnd5e.rules.JournalEntry.w7eitkpD7QQTB6j0.JournalEntryPage.TpkZgLfxCmSndmpb\" data-id=\"TpkZgLfxCmSndmpb\" data-type=\"JournalEntryPage\" data-pack=\"dnd5e.rules\" data-tooltip=\"Rule Page\"><i class=\"fas fa-book-open\"></i>Incapacitated</a><a class=\"enricher-action\" data-action=\"apply\" data-status=\"incapacitated\" data-tooltip=\"EDITOR.DND5E.Inline.ApplyStatus\" aria-label=\"Apply Status to Selected Tokens\"><i class=\"fas fa-fw fa-reply-all fa-flip-horizontal\"></i></a></span> until the start of your next turn. On a successful save, the creature takes half as much damage and isn't <span class=\"reference-link\"><a class=\"content-link\" data-uuid=\"Compendium.dnd5e.rules.JournalEntry.w7eitkpD7QQTB6j0.JournalEntryPage.TpkZgLfxCmSndmpb\" data-id=\"TpkZgLfxCmSndmpb\" data-type=\"JournalEntryPage\" data-pack=\"dnd5e.rules\" data-tooltip=\"Rule Page\"><i class=\"fas fa-book-open\"></i>Incapacitated</a><a class=\"enricher-action\" data-action=\"apply\" data-status=\"incapacitated\" data-tooltip=\"EDITOR.DND5E.Inline.ApplyStatus\" aria-label=\"Apply Status to Selected Tokens\"><i class=\"fas fa-fw fa-reply-all fa-flip-horizontal\"></i></a></span>.</p></div><div class=\"rd__b  rd__b--3\"><div class=\"rd__b  rd__b--3\"><span class=\"rd__h rd__h--3\" data-title-index=\"1\"> <span class=\"entry-title-inner\">At Higher Levels.</span></span> <p>When you cast this spell using a spell slot of 5th level or higher, the damage increases by <span><span class=\"roll-link\" data-formula=\"1d6\" data-type=\"damage\"><a data-action=\"roll\"><i class=\"fa-solid fa-dice-d20\"></i>1d6</a></span> </span> for each slot level above 4th.</p><div class=\"rd__spc-inline-post\"></div></div><div class=\"rd__spc-inline-post\"></div></div>",
-          "quantity": 1,
-          "combinedLabel": "Spell Gem",
-          "attunementLabel": ""
-        },
-        {
-          "name": "Activated: Counterspell - 3rd",
-          "section": "physical-items",
-          "description": "<div class=\"rd__b  rd__b--3\"><p>You attempt to interrupt a creature in the process of casting a spell. If the creature is casting a spell of 3rd level or lower, its spell fails and has no effect. If it is casting a spell of 4th level or higher, make an ability check using your spellcasting ability. The DC equals 10 + the spell's level. On a success, the creature's spell fails and has no effect.</p><div class=\"rd__spc-inline-post\"></div></div><div class=\"rd__b  rd__b--3\"><div class=\"rd__b  rd__b--3\"><span class=\"rd__h rd__h--3\" data-title-index=\"1\"> <span class=\"entry-title-inner\">At Higher Levels.</span></span> <p>When you cast this spell using a spell slot of 4th level or higher, the interrupted spell has no effect if its level is less than or equal to the level of the spell slot you used.</p><div class=\"rd__spc-inline-post\"></div></div><div class=\"rd__spc-inline-post\"></div></div>",
-          "quantity": 1,
-          "combinedLabel": "Spell Gem",
-          "attunementLabel": ""
-        },
-        {
           "name": "Activated: Counterspell - 3rd",
           "section": "physical-items",
           "description": "<div class=\"rd__b  rd__b--3\"><p>You attempt to interrupt a creature in the process of casting a spell. If the creature is casting a spell of 3rd level or lower, its spell fails and has no effect. If it is casting a spell of 4th level or higher, make an ability check using your spellcasting ability. The DC equals 10 + the spell's level. On a success, the creature's spell fails and has no effect.</p><div class=\"rd__spc-inline-post\"></div></div><div class=\"rd__b  rd__b--3\"><div class=\"rd__b  rd__b--3\"><span class=\"rd__h rd__h--3\" data-title-index=\"1\"> <span class=\"entry-title-inner\">At Higher Levels.</span></span> <p>When you cast this spell using a spell slot of 4th level or higher, the interrupted spell has no effect if its level is less than or equal to the level of the spell slot you used.</p><div class=\"rd__spc-inline-post\"></div></div><div class=\"rd__spc-inline-post\"></div></div>",
@@ -2225,22 +2141,6 @@
         },
         {
           "name": "Activated: Scorching Ray - 4th",
-          "section": "physical-items",
-          "description": "<div class=\"rd__b  rd__b--3\"><p>You create three rays of fire and hurl them at targets within range. You can hurl them at one target or several.</p><div class=\"rd__spc-inline-post\"></div><p>Make a ranged spell attack for each ray. On a hit, the target takes [[/r 2d6]] fire damage.</p></div><div class=\"rd__b  rd__b--3\"><div class=\"rd__b  rd__b--3\"><span class=\"rd__h rd__h--3\" data-title-index=\"1\"> <span class=\"entry-title-inner\">At Higher Levels.</span></span> <p>When you cast this spell using a spell slot of 3rd level or higher, you create one additional ray for each slot level above 2nd.</p><div class=\"rd__spc-inline-post\"></div></div><div class=\"rd__spc-inline-post\"></div></div>",
-          "quantity": 1,
-          "combinedLabel": "Spell Gem",
-          "attunementLabel": ""
-        },
-        {
-          "name": "Activated: Magic Missile - 4th",
-          "section": "physical-items",
-          "description": "<div class=\"rd__b  rd__b--3\"><p>You create three glowing darts of magical force. Each dart hits a creature of your choice that you can see within range. A dart deals [[/r 1d4 + 1]] force damage to its target. The darts all strike simultaneously, and you can direct them to hit one creature or several.</p><div class=\"rd__spc-inline-post\"></div></div><div class=\"rd__b  rd__b--3\"><div class=\"rd__b  rd__b--3\"><span class=\"rd__h rd__h--3\" data-title-index=\"1\"> <span class=\"entry-title-inner\">At Higher Levels.</span></span> <p>When you cast this spell using a spell slot of 2nd level or higher, the spell creates one more dart for each slot level above 1st.</p><div class=\"rd__spc-inline-post\"></div></div><div class=\"rd__spc-inline-post\"></div></div>",
-          "quantity": 1,
-          "combinedLabel": "Spell Gem",
-          "attunementLabel": ""
-        },
-        {
-          "name": "Activated: Scorching Ray - 6th",
           "section": "physical-items",
           "description": "<div class=\"rd__b  rd__b--3\"><p>You create three rays of fire and hurl them at targets within range. You can hurl them at one target or several.</p><div class=\"rd__spc-inline-post\"></div><p>Make a ranged spell attack for each ray. On a hit, the target takes [[/r 2d6]] fire damage.</p></div><div class=\"rd__b  rd__b--3\"><div class=\"rd__b  rd__b--3\"><span class=\"rd__h rd__h--3\" data-title-index=\"1\"> <span class=\"entry-title-inner\">At Higher Levels.</span></span> <p>When you cast this spell using a spell slot of 3rd level or higher, you create one additional ray for each slot level above 2nd.</p><div class=\"rd__spc-inline-post\"></div></div><div class=\"rd__spc-inline-post\"></div></div>",
           "quantity": 1,
@@ -2396,22 +2296,6 @@
           "requirements": "Mythic Lich 2"
         },
         {
-          "name": "Raulothim's Psychic Lance",
-          "section": "spell-items",
-          "description": "<div class=\"rd__b  rd__b--3\"><p>You unleash a shimmering lance of psychic power from your forehead at a creature that you can see within range. Alternatively, you can utter a creature's name. If the named target is within range, it becomes the spell's target even if you can't see it. If the named target isn't within range, the lance dissipates without effect.</p><div class=\"rd__spc-inline-post\"></div><p>The target must make an Intelligence saving throw. On a failed save, the target takes <span><span class=\"roll-link\" data-type=\"damage\" data-formula=\"7d6\" data-damage-type=\"psychic\"><a data-action=\"roll\"><i class=\"fa-solid fa-dice-d20\"></i>7d6</a></span> psychic</span> damage and is <span class=\"reference-link\"><a class=\"content-link\" data-uuid=\"Compendium.dnd5e.rules.JournalEntry.w7eitkpD7QQTB6j0.JournalEntryPage.TpkZgLfxCmSndmpb\" data-id=\"TpkZgLfxCmSndmpb\" data-type=\"JournalEntryPage\" data-pack=\"dnd5e.rules\" data-tooltip=\"Rule Page\"><i class=\"fas fa-book-open\"></i>Incapacitated</a><a class=\"enricher-action\" data-action=\"apply\" data-status=\"incapacitated\" data-tooltip=\"EDITOR.DND5E.Inline.ApplyStatus\" aria-label=\"Apply Status to Selected Tokens\"><i class=\"fas fa-fw fa-reply-all fa-flip-horizontal\"></i></a></span> until the start of your next turn. On a successful save, the creature takes half as much damage and isn't <span class=\"reference-link\"><a class=\"content-link\" data-uuid=\"Compendium.dnd5e.rules.JournalEntry.w7eitkpD7QQTB6j0.JournalEntryPage.TpkZgLfxCmSndmpb\" data-id=\"TpkZgLfxCmSndmpb\" data-type=\"JournalEntryPage\" data-pack=\"dnd5e.rules\" data-tooltip=\"Rule Page\"><i class=\"fas fa-book-open\"></i>Incapacitated</a><a class=\"enricher-action\" data-action=\"apply\" data-status=\"incapacitated\" data-tooltip=\"EDITOR.DND5E.Inline.ApplyStatus\" aria-label=\"Apply Status to Selected Tokens\"><i class=\"fas fa-fw fa-reply-all fa-flip-horizontal\"></i></a></span>.</p></div><div class=\"rd__b  rd__b--3\"><div class=\"rd__b  rd__b--3\"><span class=\"rd__h rd__h--3\" data-title-index=\"1\"> <span class=\"entry-title-inner\">At Higher Levels.</span></span> <p>When you cast this spell using a spell slot of 5th level or higher, the damage increases by <span><span class=\"roll-link\" data-formula=\"1d6\" data-type=\"damage\"><a data-action=\"roll\"><i class=\"fa-solid fa-dice-d20\"></i>1d6</a></span> </span> for each slot level above 4th.</p><div class=\"rd__spc-inline-post\"></div></div><div class=\"rd__spc-inline-post\"></div></div>",
-          "spellLevel": "4th Level",
-          "spellRange": "120 ft",
-          "spellSchool": "Enchantment"
-        },
-        {
-          "name": "Vicious Mockery",
-          "section": "spell-items",
-          "description": "<div class=\"rd__b  rd__b--3\"><p>You unleash a string of insults laced with subtle enchantments at a creature you can see within range. If the target can hear you (though it need not understand you), it must succeed on a Wisdom saving throw or take [[/damage 1d4 type=psychic]] damage and have disadvantage on the next attack roll it makes before the end of its next turn.</p><div class=\"rd__spc-inline-post\"></div><p>This spell's damage increases by [[/r 1d4]] when you reach 5th level ([[/damage 2d4]]), 11th level ([[/damage 3d4]]), and 17th level ([[/damage 4d4]]).</p></div>",
-          "spellLevel": "Cantrip",
-          "spellRange": "60 ft",
-          "spellSchool": "Enchantment"
-        },
-        {
           "name": "Jump",
           "section": "feature-items",
           "description": "<p>Using your bonus action, you can jump up to [[/r @talia.jumpDistance]] ft.</p>",
@@ -2534,6 +2418,108 @@
           "quantity": 15,
           "combinedLabel": "Exotic Currency",
           "attunementLabel": ""
+        },
+        {
+          "name": "Dodge",
+          "section": "feature-items",
+          "description": "<p>When you take the Dodge action, you focus entirely on avoiding attacks. Until the start of your next turn, any attack roll made against you has disadvantage if you can see the attacker, and you make Dexterity saving throws with advantage. You lose this benefit if you are incapacitated (as explained in the appendix) or if your speed drops to 0.</p>",
+          "requirements": ""
+        },
+        {
+          "name": "Hold Person",
+          "section": "spell-items",
+          "description": "<div class=\"rd__b  rd__b--3\"><p>Choose a humanoid that you can see within range. The target must succeed on a Wisdom saving throw or be <span class=\"reference-link\"><a class=\"content-link\" data-uuid=\"Compendium.dnd5e.rules.JournalEntry.w7eitkpD7QQTB6j0.JournalEntryPage.xnSV5hLJIMaTABXP\" data-id=\"xnSV5hLJIMaTABXP\" data-type=\"JournalEntryPage\" data-pack=\"dnd5e.rules\" data-tooltip=\"Rule Page\"><i class=\"fas fa-book-open\"></i>Paralyzed</a><a class=\"enricher-action\" data-action=\"apply\" data-status=\"paralyzed\" data-tooltip=\"EDITOR.DND5E.Inline.ApplyStatus\" aria-label=\"Apply Status to Selected Tokens\"><i class=\"fas fa-fw fa-reply-all fa-flip-horizontal\"></i></a></span> for the duration. At the end of each of its turns, the target can make another Wisdom saving throw. On a success, the spell ends on the target.</p><div class=\"rd__spc-inline-post\"></div></div><div class=\"rd__b  rd__b--3\"><div class=\"rd__b  rd__b--3\"><span class=\"rd__h rd__h--3\" data-title-index=\"1\"> <span class=\"entry-title-inner\">At Higher Levels.</span></span> <p>When you cast this spell using a spell slot of 3rd level or higher, you can target one additional humanoid for each slot level above 2nd. The humanoids must be within 30 feet of each other when you target them.</p><div class=\"rd__spc-inline-post\"></div></div><div class=\"rd__spc-inline-post\"></div></div>",
+          "spellLevel": "2nd Level",
+          "spellRange": "60 ft",
+          "spellSchool": "Enchantment"
+        },
+        {
+          "name": "Hold Monster",
+          "section": "spell-items",
+          "description": "<p>Choose a creature that you can see within range. The target must succeed on a Wisdom saving throw or be &amp;Reference[Paralyzed] for the Duration. This spell has no effect on Undead. At the end of each of its turns, the target can make another Wisdom saving throw. On a success, the spell ends on the target.</p><p><strong>At Higher Levels.</strong> When you cast this spell using a spell slot of 6th level or higher, you can target one additional creature for each slot level above 5th. The creatures must be within 30 feet of each other when you target them.</p>",
+          "spellLevel": "5th Level",
+          "spellRange": "90 ft",
+          "spellSchool": "Enchantment"
+        },
+        {
+          "name": "Spell Scroll: Greater Invisibility",
+          "section": "physical-items",
+          "description": "<div class=\"rd__b  rd__b--3\"><p>You or a creature you touch becomes &amp;Reference[condition=invisible] until the spell ends. Anything the target is wearing or carrying is &amp;Reference[condition=invisible] as long as it is on the target's person.</p></div>",
+          "quantity": 1,
+          "combinedLabel": "Scroll",
+          "attunementLabel": ""
+        },
+        {
+          "name": "Grease",
+          "section": "spell-items",
+          "description": "<div class=\"rd__b  rd__b--3\"><p>Slick grease covers the ground in a 10-foot square centered on a point within range and turns it into <span class=\"reference-link\"><a class=\"content-link\" data-uuid=\"Compendium.dnd5e.rules.JournalEntry.NizgRXLNUqtdlC1s.JournalEntryPage.6tqz947qO8vPyxvD\" data-id=\"6tqz947qO8vPyxvD\" data-type=\"JournalEntryPage\" data-pack=\"dnd5e.rules\" data-tooltip=\"Rule Page\"><i class=\"fas fa-book-open\"></i>difficult terrain</a></span> for the duration.</p><div class=\"rd__spc-inline-post\"></div><p>When the grease appears, each creature standing in its area must succeed on a Dexterity saving throw or fall <span class=\"reference-link\"><a class=\"content-link\" data-uuid=\"Compendium.dnd5e.rules.JournalEntry.w7eitkpD7QQTB6j0.JournalEntryPage.y0TkcdyoZlOTmAFT\" data-id=\"y0TkcdyoZlOTmAFT\" data-type=\"JournalEntryPage\" data-pack=\"dnd5e.rules\" data-tooltip=\"Rule Page\"><i class=\"fas fa-book-open\"></i>Prone</a><a class=\"enricher-action\" data-action=\"apply\" data-status=\"prone\" data-tooltip=\"EDITOR.DND5E.Inline.ApplyStatus\" aria-label=\"Apply Status to Selected Tokens\"><i class=\"fas fa-fw fa-reply-all fa-flip-horizontal\"></i></a></span>. A creature that enters the area or ends its turn there must also succeed on a Dexterity saving throw or fall <span class=\"reference-link\"><a class=\"content-link\" data-uuid=\"Compendium.dnd5e.rules.JournalEntry.w7eitkpD7QQTB6j0.JournalEntryPage.y0TkcdyoZlOTmAFT\" data-id=\"y0TkcdyoZlOTmAFT\" data-type=\"JournalEntryPage\" data-pack=\"dnd5e.rules\" data-tooltip=\"Rule Page\"><i class=\"fas fa-book-open\"></i>Prone</a><a class=\"enricher-action\" data-action=\"apply\" data-status=\"prone\" data-tooltip=\"EDITOR.DND5E.Inline.ApplyStatus\" aria-label=\"Apply Status to Selected Tokens\"><i class=\"fas fa-fw fa-reply-all fa-flip-horizontal\"></i></a></span>.</p></div>",
+          "spellLevel": "1st Level",
+          "spellRange": "60 ft",
+          "spellSchool": "Conjuration"
+        },
+        {
+          "name": "Earth Tremor",
+          "section": "spell-items",
+          "description": "<div class=\"rd__b  rd__b--3\"><p>You cause a tremor in the ground around a point within range. Each creature other than you in that area must make a Dexterity saving throw. On a failed save, a creature takes [[/damage 1d6 type=bludgeoning]] damage and is knocked &amp;Reference[condition=prone]. If the ground in that area is loose earth or stone, it becomes &amp;Reference[rule=difficultterrain]{difficult terrain} until cleared, with each 5-foot-diameter portion requiring at least 1 minute to clear by hand.</p></div><div class=\"rd__b  rd__b--3\"><div class=\"rd__b  rd__b--3\"><p><span class=\"entry-title-inner\"><strong>At Higher Levels</strong></span></p><p>When you cast this spell using a spell slot of 2nd level or higher, the damage increases by [[/damage 1d6]] for each slot level above 1st.</p></div></div>",
+          "spellLevel": "1st Level",
+          "spellRange": "30 ft",
+          "spellSchool": "Evocation"
+        },
+        {
+          "name": "Greater Invisibility",
+          "section": "spell-items",
+          "description": "<div class=\"rd__b  rd__b--3\"><p>You or a creature you touch becomes &amp;Reference[condition=invisible] until the spell ends. Anything the target is wearing or carrying is &amp;Reference[condition=invisible] as long as it is on the target's person.</p></div>",
+          "spellLevel": "4th Level",
+          "spellRange": "Touch",
+          "spellSchool": "Illusion"
+        },
+        {
+          "name": "Activated: Raulothim's Psychic Lance - 4th",
+          "section": "physical-items",
+          "description": "<div class=\"rd__b  rd__b--3\"><p>You unleash a shimmering lance of psychic power from your forehead at a creature that you can see within range. Alternatively, you can utter a creature's name. If the named target is within range, it becomes the spell's target even if you can't see it. If the named target isn't within range, the lance dissipates without effect.</p><div class=\"rd__spc-inline-post\"></div><p>The target must make an Intelligence saving throw. On a failed save, the target takes <span><span class=\"roll-link\" data-type=\"damage\" data-formula=\"7d6\" data-damage-type=\"psychic\"><a data-action=\"roll\"><i class=\"fa-solid fa-dice-d20\"></i>7d6</a></span> psychic</span> damage and is <span class=\"reference-link\"><a class=\"content-link\" data-uuid=\"Compendium.dnd5e.rules.JournalEntry.w7eitkpD7QQTB6j0.JournalEntryPage.TpkZgLfxCmSndmpb\" data-id=\"TpkZgLfxCmSndmpb\" data-type=\"JournalEntryPage\" data-pack=\"dnd5e.rules\" data-tooltip=\"Rule Page\"><i class=\"fas fa-book-open\"></i>Incapacitated</a><a class=\"enricher-action\" data-action=\"apply\" data-status=\"incapacitated\" data-tooltip=\"EDITOR.DND5E.Inline.ApplyStatus\" aria-label=\"Apply Status to Selected Tokens\"><i class=\"fas fa-fw fa-reply-all fa-flip-horizontal\"></i></a></span> until the start of your next turn. On a successful save, the creature takes half as much damage and isn't <span class=\"reference-link\"><a class=\"content-link\" data-uuid=\"Compendium.dnd5e.rules.JournalEntry.w7eitkpD7QQTB6j0.JournalEntryPage.TpkZgLfxCmSndmpb\" data-id=\"TpkZgLfxCmSndmpb\" data-type=\"JournalEntryPage\" data-pack=\"dnd5e.rules\" data-tooltip=\"Rule Page\"><i class=\"fas fa-book-open\"></i>Incapacitated</a><a class=\"enricher-action\" data-action=\"apply\" data-status=\"incapacitated\" data-tooltip=\"EDITOR.DND5E.Inline.ApplyStatus\" aria-label=\"Apply Status to Selected Tokens\"><i class=\"fas fa-fw fa-reply-all fa-flip-horizontal\"></i></a></span>.</p></div><div class=\"rd__b  rd__b--3\"><div class=\"rd__b  rd__b--3\"><span class=\"rd__h rd__h--3\" data-title-index=\"1\"> <span class=\"entry-title-inner\">At Higher Levels.</span></span> <p>When you cast this spell using a spell slot of 5th level or higher, the damage increases by <span><span class=\"roll-link\" data-formula=\"1d6\" data-type=\"damage\"><a data-action=\"roll\"><i class=\"fa-solid fa-dice-d20\"></i>1d6</a></span> </span> for each slot level above 4th.</p><div class=\"rd__spc-inline-post\"></div></div><div class=\"rd__spc-inline-post\"></div></div>",
+          "quantity": 1,
+          "combinedLabel": "Spell Gem",
+          "attunementLabel": ""
+        },
+        {
+          "name": "Activated: Raulothim's Psychic Lance - 4th",
+          "section": "physical-items",
+          "description": "<div class=\"rd__b  rd__b--3\"><p>You unleash a shimmering lance of psychic power from your forehead at a creature that you can see within range. Alternatively, you can utter a creature's name. If the named target is within range, it becomes the spell's target even if you can't see it. If the named target isn't within range, the lance dissipates without effect.</p><div class=\"rd__spc-inline-post\"></div><p>The target must make an Intelligence saving throw. On a failed save, the target takes <span><span class=\"roll-link\" data-type=\"damage\" data-formula=\"7d6\" data-damage-type=\"psychic\"><a data-action=\"roll\"><i class=\"fa-solid fa-dice-d20\"></i>7d6</a></span> psychic</span> damage and is <span class=\"reference-link\"><a class=\"content-link\" data-uuid=\"Compendium.dnd5e.rules.JournalEntry.w7eitkpD7QQTB6j0.JournalEntryPage.TpkZgLfxCmSndmpb\" data-id=\"TpkZgLfxCmSndmpb\" data-type=\"JournalEntryPage\" data-pack=\"dnd5e.rules\" data-tooltip=\"Rule Page\"><i class=\"fas fa-book-open\"></i>Incapacitated</a><a class=\"enricher-action\" data-action=\"apply\" data-status=\"incapacitated\" data-tooltip=\"EDITOR.DND5E.Inline.ApplyStatus\" aria-label=\"Apply Status to Selected Tokens\"><i class=\"fas fa-fw fa-reply-all fa-flip-horizontal\"></i></a></span> until the start of your next turn. On a successful save, the creature takes half as much damage and isn't <span class=\"reference-link\"><a class=\"content-link\" data-uuid=\"Compendium.dnd5e.rules.JournalEntry.w7eitkpD7QQTB6j0.JournalEntryPage.TpkZgLfxCmSndmpb\" data-id=\"TpkZgLfxCmSndmpb\" data-type=\"JournalEntryPage\" data-pack=\"dnd5e.rules\" data-tooltip=\"Rule Page\"><i class=\"fas fa-book-open\"></i>Incapacitated</a><a class=\"enricher-action\" data-action=\"apply\" data-status=\"incapacitated\" data-tooltip=\"EDITOR.DND5E.Inline.ApplyStatus\" aria-label=\"Apply Status to Selected Tokens\"><i class=\"fas fa-fw fa-reply-all fa-flip-horizontal\"></i></a></span>.</p></div><div class=\"rd__b  rd__b--3\"><div class=\"rd__b  rd__b--3\"><span class=\"rd__h rd__h--3\" data-title-index=\"1\"> <span class=\"entry-title-inner\">At Higher Levels.</span></span> <p>When you cast this spell using a spell slot of 5th level or higher, the damage increases by <span><span class=\"roll-link\" data-formula=\"1d6\" data-type=\"damage\"><a data-action=\"roll\"><i class=\"fa-solid fa-dice-d20\"></i>1d6</a></span> </span> for each slot level above 4th.</p><div class=\"rd__spc-inline-post\"></div></div><div class=\"rd__spc-inline-post\"></div></div>",
+          "quantity": 1,
+          "combinedLabel": "Spell Gem",
+          "attunementLabel": ""
+        },
+        {
+          "name": "Activated: Raulothim's Psychic Lance - 4th",
+          "section": "physical-items",
+          "description": "<div class=\"rd__b  rd__b--3\"><p>You unleash a shimmering lance of psychic power from your forehead at a creature that you can see within range. Alternatively, you can utter a creature's name. If the named target is within range, it becomes the spell's target even if you can't see it. If the named target isn't within range, the lance dissipates without effect.</p><div class=\"rd__spc-inline-post\"></div><p>The target must make an Intelligence saving throw. On a failed save, the target takes <span><span class=\"roll-link\" data-type=\"damage\" data-formula=\"7d6\" data-damage-type=\"psychic\"><a data-action=\"roll\"><i class=\"fa-solid fa-dice-d20\"></i>7d6</a></span> psychic</span> damage and is <span class=\"reference-link\"><a class=\"content-link\" data-uuid=\"Compendium.dnd5e.rules.JournalEntry.w7eitkpD7QQTB6j0.JournalEntryPage.TpkZgLfxCmSndmpb\" data-id=\"TpkZgLfxCmSndmpb\" data-type=\"JournalEntryPage\" data-pack=\"dnd5e.rules\" data-tooltip=\"Rule Page\"><i class=\"fas fa-book-open\"></i>Incapacitated</a><a class=\"enricher-action\" data-action=\"apply\" data-status=\"incapacitated\" data-tooltip=\"EDITOR.DND5E.Inline.ApplyStatus\" aria-label=\"Apply Status to Selected Tokens\"><i class=\"fas fa-fw fa-reply-all fa-flip-horizontal\"></i></a></span> until the start of your next turn. On a successful save, the creature takes half as much damage and isn't <span class=\"reference-link\"><a class=\"content-link\" data-uuid=\"Compendium.dnd5e.rules.JournalEntry.w7eitkpD7QQTB6j0.JournalEntryPage.TpkZgLfxCmSndmpb\" data-id=\"TpkZgLfxCmSndmpb\" data-type=\"JournalEntryPage\" data-pack=\"dnd5e.rules\" data-tooltip=\"Rule Page\"><i class=\"fas fa-book-open\"></i>Incapacitated</a><a class=\"enricher-action\" data-action=\"apply\" data-status=\"incapacitated\" data-tooltip=\"EDITOR.DND5E.Inline.ApplyStatus\" aria-label=\"Apply Status to Selected Tokens\"><i class=\"fas fa-fw fa-reply-all fa-flip-horizontal\"></i></a></span>.</p></div><div class=\"rd__b  rd__b--3\"><div class=\"rd__b  rd__b--3\"><span class=\"rd__h rd__h--3\" data-title-index=\"1\"> <span class=\"entry-title-inner\">At Higher Levels.</span></span> <p>When you cast this spell using a spell slot of 5th level or higher, the damage increases by <span><span class=\"roll-link\" data-formula=\"1d6\" data-type=\"damage\"><a data-action=\"roll\"><i class=\"fa-solid fa-dice-d20\"></i>1d6</a></span> </span> for each slot level above 4th.</p><div class=\"rd__spc-inline-post\"></div></div><div class=\"rd__spc-inline-post\"></div></div>",
+          "quantity": 1,
+          "combinedLabel": "Spell Gem",
+          "attunementLabel": ""
+        },
+        {
+          "name": "Raulothim's Psychic Lance",
+          "section": "spell-items",
+          "description": "<div class=\"rd__b  rd__b--3\"><p>You unleash a shimmering lance of psychic power from your forehead at a creature that you can see within range. Alternatively, you can utter a creature's name. If the named target is within range, it becomes the spell's target even if you can't see it. If the named target isn't within range, the lance dissipates without effect.</p><div class=\"rd__spc-inline-post\"></div><p>The target must make an Intelligence saving throw. On a failed save, the target takes <span><span class=\"roll-link\" data-type=\"damage\" data-formula=\"7d6\" data-damage-type=\"psychic\"><a data-action=\"roll\"><i class=\"fa-solid fa-dice-d20\"></i>7d6</a></span> psychic</span> damage and is <span class=\"reference-link\"><a class=\"content-link\" data-uuid=\"Compendium.dnd5e.rules.JournalEntry.w7eitkpD7QQTB6j0.JournalEntryPage.TpkZgLfxCmSndmpb\" data-id=\"TpkZgLfxCmSndmpb\" data-type=\"JournalEntryPage\" data-pack=\"dnd5e.rules\" data-tooltip=\"Rule Page\"><i class=\"fas fa-book-open\"></i>Incapacitated</a><a class=\"enricher-action\" data-action=\"apply\" data-status=\"incapacitated\" data-tooltip=\"EDITOR.DND5E.Inline.ApplyStatus\" aria-label=\"Apply Status to Selected Tokens\"><i class=\"fas fa-fw fa-reply-all fa-flip-horizontal\"></i></a></span> until the start of your next turn. On a successful save, the creature takes half as much damage and isn't <span class=\"reference-link\"><a class=\"content-link\" data-uuid=\"Compendium.dnd5e.rules.JournalEntry.w7eitkpD7QQTB6j0.JournalEntryPage.TpkZgLfxCmSndmpb\" data-id=\"TpkZgLfxCmSndmpb\" data-type=\"JournalEntryPage\" data-pack=\"dnd5e.rules\" data-tooltip=\"Rule Page\"><i class=\"fas fa-book-open\"></i>Incapacitated</a><a class=\"enricher-action\" data-action=\"apply\" data-status=\"incapacitated\" data-tooltip=\"EDITOR.DND5E.Inline.ApplyStatus\" aria-label=\"Apply Status to Selected Tokens\"><i class=\"fas fa-fw fa-reply-all fa-flip-horizontal\"></i></a></span>.</p></div><div class=\"rd__b  rd__b--3\"><div class=\"rd__b  rd__b--3\"><span class=\"rd__h rd__h--3\" data-title-index=\"1\"> <span class=\"entry-title-inner\">At Higher Levels.</span></span> <p>When you cast this spell using a spell slot of 5th level or higher, the damage increases by <span><span class=\"roll-link\" data-formula=\"1d6\" data-type=\"damage\"><a data-action=\"roll\"><i class=\"fa-solid fa-dice-d20\"></i>1d6</a></span> </span> for each slot level above 4th.</p><div class=\"rd__spc-inline-post\"></div></div><div class=\"rd__spc-inline-post\"></div></div>",
+          "spellLevel": "4th Level",
+          "spellRange": "120 ft",
+          "spellSchool": "Enchantment"
+        },
+        {
+          "name": "Raulothim's Psychic Lance",
+          "section": "spell-items",
+          "description": "<div class=\"rd__b  rd__b--3\"><p>You unleash a shimmering lance of psychic power from your forehead at a creature that you can see within range. Alternatively, you can utter a creature's name. If the named target is within range, it becomes the spell's target even if you can't see it. If the named target isn't within range, the lance dissipates without effect.</p><div class=\"rd__spc-inline-post\"></div><p>The target must make an Intelligence saving throw. On a failed save, the target takes <span><span class=\"roll-link\" data-type=\"damage\" data-formula=\"7d6\" data-damage-type=\"psychic\"><a data-action=\"roll\"><i class=\"fa-solid fa-dice-d20\"></i>7d6</a></span> psychic</span> damage and is <span class=\"reference-link\"><a class=\"content-link\" data-uuid=\"Compendium.dnd5e.rules.JournalEntry.w7eitkpD7QQTB6j0.JournalEntryPage.TpkZgLfxCmSndmpb\" data-id=\"TpkZgLfxCmSndmpb\" data-type=\"JournalEntryPage\" data-pack=\"dnd5e.rules\" data-tooltip=\"Rule Page\"><i class=\"fas fa-book-open\"></i>Incapacitated</a><a class=\"enricher-action\" data-action=\"apply\" data-status=\"incapacitated\" data-tooltip=\"EDITOR.DND5E.Inline.ApplyStatus\" aria-label=\"Apply Status to Selected Tokens\"><i class=\"fas fa-fw fa-reply-all fa-flip-horizontal\"></i></a></span> until the start of your next turn. On a successful save, the creature takes half as much damage and isn't <span class=\"reference-link\"><a class=\"content-link\" data-uuid=\"Compendium.dnd5e.rules.JournalEntry.w7eitkpD7QQTB6j0.JournalEntryPage.TpkZgLfxCmSndmpb\" data-id=\"TpkZgLfxCmSndmpb\" data-type=\"JournalEntryPage\" data-pack=\"dnd5e.rules\" data-tooltip=\"Rule Page\"><i class=\"fas fa-book-open\"></i>Incapacitated</a><a class=\"enricher-action\" data-action=\"apply\" data-status=\"incapacitated\" data-tooltip=\"EDITOR.DND5E.Inline.ApplyStatus\" aria-label=\"Apply Status to Selected Tokens\"><i class=\"fas fa-fw fa-reply-all fa-flip-horizontal\"></i></a></span>.</p></div><div class=\"rd__b  rd__b--3\"><div class=\"rd__b  rd__b--3\"><span class=\"rd__h rd__h--3\" data-title-index=\"1\"> <span class=\"entry-title-inner\">At Higher Levels.</span></span> <p>When you cast this spell using a spell slot of 5th level or higher, the damage increases by <span><span class=\"roll-link\" data-formula=\"1d6\" data-type=\"damage\"><a data-action=\"roll\"><i class=\"fa-solid fa-dice-d20\"></i>1d6</a></span> </span> for each slot level above 4th.</p><div class=\"rd__spc-inline-post\"></div></div><div class=\"rd__spc-inline-post\"></div></div>",
+          "spellLevel": "4th Level",
+          "spellRange": "120 ft",
+          "spellSchool": "Enchantment"
+        },
+        {
+          "name": "Vicious Mockery",
+          "section": "spell-items",
+          "description": "<div class=\"rd__b  rd__b--3\"><p>You unleash a string of insults laced with subtle enchantments at a creature you can see within range. If the target can hear you (though it need not understand you), it must succeed on a Wisdom saving throw or take [[/damage 1d4 type=psychic]] damage and have disadvantage on the next attack roll it makes before the end of its next turn.</p><div class=\"rd__spc-inline-post\"></div><p>This spell's damage increases by [[/r 1d4]] when you reach 5th level ([[/damage 2d4]]), 11th level ([[/damage 3d4]]), and 17th level ([[/damage 4d4]]).</p></div>",
+          "spellLevel": "Cantrip",
+          "spellRange": "60 ft",
+          "spellSchool": "Enchantment"
         }
       ],
       "Plex": [
@@ -2646,14 +2632,6 @@
           "spellSchool": "Illusion"
         },
         {
-          "name": "Evard's Black Tentacles",
-          "section": "spell-items",
-          "description": "<div class=\"rd__b  rd__b--3\"><p>Squirming, ebony tentacles fill a 20-foot square on ground that you can see within range. For the duration, these tentacles turn the ground in the area into <span class=\"reference-link\"><a class=\"content-link\" data-uuid=\"Compendium.dnd5e.rules.JournalEntry.NizgRXLNUqtdlC1s.JournalEntryPage.6tqz947qO8vPyxvD\" data-id=\"6tqz947qO8vPyxvD\" data-type=\"JournalEntryPage\" data-pack=\"dnd5e.rules\" data-tooltip=\"Rule Page\"><i class=\"fas fa-book-open\"></i>difficult terrain</a></span>.</p><div class=\"rd__spc-inline-post\"></div><p>When a creature enters the affected area for the first time on a turn or starts its turn there, the creature must succeed on a Dexterity saving throw or take <a class=\"inline-roll roll\" data-mode=\"roll\" data-flavor data-formula=\"3d6\"><i class=\"fas fa-dice-d20\"></i>3d6</a> bludgeoning damage and be <span class=\"reference-link\"><a class=\"content-link\" data-uuid=\"Compendium.dnd5e.rules.JournalEntry.w7eitkpD7QQTB6j0.JournalEntryPage.cSVcyZyNe2iG1fIc\" data-id=\"cSVcyZyNe2iG1fIc\" data-type=\"JournalEntryPage\" data-pack=\"dnd5e.rules\" data-tooltip=\"Rule Page\"><i class=\"fas fa-book-open\"></i>Restrained</a><a class=\"enricher-action\" data-action=\"apply\" data-status=\"restrained\" data-tooltip=\"EDITOR.DND5E.Inline.ApplyStatus\" aria-label=\"Apply Status to Selected Tokens\"><i class=\"fas fa-fw fa-reply-all fa-flip-horizontal\"></i></a></span> by the tentacles until the spell ends. A creature that starts its turn in the area and is already <span class=\"reference-link\"><a class=\"content-link\" data-uuid=\"Compendium.dnd5e.rules.JournalEntry.w7eitkpD7QQTB6j0.JournalEntryPage.cSVcyZyNe2iG1fIc\" data-id=\"cSVcyZyNe2iG1fIc\" data-type=\"JournalEntryPage\" data-pack=\"dnd5e.rules\" data-tooltip=\"Rule Page\"><i class=\"fas fa-book-open\"></i>Restrained</a><a class=\"enricher-action\" data-action=\"apply\" data-status=\"restrained\" data-tooltip=\"EDITOR.DND5E.Inline.ApplyStatus\" aria-label=\"Apply Status to Selected Tokens\"><i class=\"fas fa-fw fa-reply-all fa-flip-horizontal\"></i></a></span> by the tentacles takes <a class=\"inline-roll roll\" data-mode=\"roll\" data-flavor data-formula=\"3d6\"><i class=\"fas fa-dice-d20\"></i>3d6</a> bludgeoning damage.</p><p>A creature <span class=\"reference-link\"><a class=\"content-link\" data-uuid=\"Compendium.dnd5e.rules.JournalEntry.w7eitkpD7QQTB6j0.JournalEntryPage.cSVcyZyNe2iG1fIc\" data-id=\"cSVcyZyNe2iG1fIc\" data-type=\"JournalEntryPage\" data-pack=\"dnd5e.rules\" data-tooltip=\"Rule Page\"><i class=\"fas fa-book-open\"></i>Restrained</a><a class=\"enricher-action\" data-action=\"apply\" data-status=\"restrained\" data-tooltip=\"EDITOR.DND5E.Inline.ApplyStatus\" aria-label=\"Apply Status to Selected Tokens\"><i class=\"fas fa-fw fa-reply-all fa-flip-horizontal\"></i></a></span> by the tentacles can use its action to make a Strength or Dexterity check (its choice) against your spell save DC. On a success, it frees itself.</p></div>",
-          "spellLevel": "4th Level",
-          "spellRange": "90 ft",
-          "spellSchool": "Conjuration"
-        },
-        {
           "name": "Gust of Wind",
           "section": "spell-items",
           "description": "<div class=\"rd__b  rd__b--3\"><p>A line of strong wind 60 feet long and 10 feet wide blasts from you in a direction you choose for the spell's duration. Each creature that starts its turn in the line must succeed on a Strength saving throw or be pushed 15 feet away from you in a direction following the line.</p><div class=\"rd__spc-inline-post\"></div><p>Any creature in the line must spend 2 feet of movement for every 1 foot it moves when moving closer to you.</p><p>The gust disperses gas or vapor, and it extinguishes candles, torches, and similar unprotected flames in the area. It causes protected flames, such as those of lanterns, to dance wildly and has a <a class=\"inline-roll roll\" data-mode=\"roll\" data-flavor=\"50 percent\" data-formula=\"1d100\" data-tooltip=\"1d100\"><i class=\"fas fa-dice-d20\"></i>50 percent</a> chance to extinguish them.</p><p>As a bonus action on each of your turns before the spell ends, you can change the direction in which the line blasts from you.</p></div>",
@@ -2704,18 +2682,10 @@
         {
           "name": "Sapping Sting",
           "section": "spell-items",
-          "description": "<div class=\"rd__b  rd__b--3\"><p>You sap the vitality of one creature you can see in range. The target must succeed on a Constitution saving throw or take [[/r 1d4]] necrotic damage and fall &amp;Reference[condition=prone].</p><div class=\"rd__spc-inline-post\"></div><p>This spell's damage increases by [[/r 1d4]] when you reach 5th level ([[/r 2d4]]), 11th level ([[/r 3d4]]), and 17th level ([[/r 4d4]]).</p></div>",
+          "description": "<div class=\"rd__b  rd__b--3\"><p>You sap the vitality of one creature you can see in range. The target must succeed on a Constitution saving throw or take [[/r 1d4]] necrotic damage and fall &amp;Reference[condition=prone].</p><div class=\"rd__spc-inline-post\"><p></p></div><p>This spell's damage increases by [[/r 1d4]] when you reach 5th level ([[/r 2d4]]), 11th level ([[/r 3d4]]), and 17th level ([[/r 4d4]]).</p></div>",
           "spellLevel": "Cantrip",
           "spellRange": "30 ft",
           "spellSchool": "Necromancy"
-        },
-        {
-          "name": "Sleet Storm",
-          "section": "spell-items",
-          "description": "<div class=\"rd__b  rd__b--3\"><p>Until the spell ends, freezing rain and sleet fall in a 20-foot-tall cylinder with a 40-foot radius centered on a point you choose within range. The area is <span class=\"reference-link\"><a class=\"content-link\" data-uuid=\"Compendium.dnd5e.rules.JournalEntry.NizgRXLNUqtdlC1s.JournalEntryPage.wPFjfRruboxhtL4b\" data-id=\"wPFjfRruboxhtL4b\" data-type=\"JournalEntryPage\" data-pack=\"dnd5e.rules\" data-tooltip=\"Rule Page\"><i class=\"fas fa-book-open\"></i>heavily obscured</a></span>, and exposed flames in the area are doused.</p><div class=\"rd__spc-inline-post\"></div><p>The ground in the area is covered with slick ice, making it <span class=\"reference-link\"><a class=\"content-link\" data-uuid=\"Compendium.dnd5e.rules.JournalEntry.NizgRXLNUqtdlC1s.JournalEntryPage.6tqz947qO8vPyxvD\" data-id=\"6tqz947qO8vPyxvD\" data-type=\"JournalEntryPage\" data-pack=\"dnd5e.rules\" data-tooltip=\"Rule Page\"><i class=\"fas fa-book-open\"></i>difficult terrain</a></span>. When a creature enters the spell's area for the first time on a turn or starts its turn there, it must make a Dexterity saving throw. On a failed save, it falls <span class=\"reference-link\"><a class=\"content-link\" data-uuid=\"Compendium.dnd5e.rules.JournalEntry.w7eitkpD7QQTB6j0.JournalEntryPage.y0TkcdyoZlOTmAFT\" data-id=\"y0TkcdyoZlOTmAFT\" data-type=\"JournalEntryPage\" data-pack=\"dnd5e.rules\" data-tooltip=\"Rule Page\"><i class=\"fas fa-book-open\"></i>Prone</a><a class=\"enricher-action\" data-action=\"apply\" data-status=\"prone\" data-tooltip=\"EDITOR.DND5E.Inline.ApplyStatus\" aria-label=\"Apply Status to Selected Tokens\"><i class=\"fas fa-fw fa-reply-all fa-flip-horizontal\"></i></a></span>.</p><p>If a creature starts its turn in the spell's area and is <a class=\"jlnk__entity-link\" draggable=\"true\" data-plut-hover-page=\"conditionsdiseases.html\" data-plut-hover-source=\"PHB\" data-plut-hover-hash=\"concentration_phb\" data-plut-hover-tag=\"status\" data-plut-hover-hash-pre-encoded=\"true\" data-plut-rich-link=\"true\" data-plut-rich-link-entity-type=\"Item\" data-plut-rich-link-original-text=\"status[concentration||concentrating]\"><i class=\"fas fas fa-suitcase\"></i> concentrating</a> on a spell, the creature must make a successful Constitution saving throw against your spell save DC or lose <a class=\"jlnk__entity-link\" draggable=\"true\" data-plut-hover-page=\"conditionsdiseases.html\" data-plut-hover-source=\"PHB\" data-plut-hover-hash=\"concentration_phb\" data-plut-hover-tag=\"status\" data-plut-hover-hash-pre-encoded=\"true\" data-plut-rich-link=\"true\" data-plut-rich-link-entity-type=\"Item\" data-plut-rich-link-original-text=\"status[concentration]\"><i class=\"fas fas fa-suitcase\"></i> concentration</a>.</p></div>",
-          "spellLevel": "3rd Level",
-          "spellRange": "150 ft",
-          "spellSchool": "Conjuration"
         },
         {
           "name": "Stone Shape",
@@ -2758,17 +2728,9 @@
           "spellSchool": "Conjuration"
         },
         {
-          "name": "Wall of Sand",
-          "section": "spell-items",
-          "description": "<div class=\"rd__b  rd__b--3\"><p>You create a wall of swirling sand on the ground at a point you can see within range. You can make the wall up to 30 feet long, 10 feet high, and 10 feet thick, and it vanishes when the spell ends. It blocks line of sight but not movement. A creature is <span class=\"reference-link\"><a class=\"content-link\" data-uuid=\"Compendium.dnd5e.rules.JournalEntry.w7eitkpD7QQTB6j0.JournalEntryPage.0b8N4FymGGfbZGpJ\" data-id=\"0b8N4FymGGfbZGpJ\" data-type=\"JournalEntryPage\" data-pack=\"dnd5e.rules\" data-tooltip=\"Rule Page\"><i class=\"fas fa-book-open\"></i>Blinded</a><a class=\"enricher-action\" data-action=\"apply\" data-status=\"blinded\" data-tooltip=\"EDITOR.DND5E.Inline.ApplyStatus\" aria-label=\"Apply Status to Selected Tokens\"><i class=\"fas fa-fw fa-reply-all fa-flip-horizontal\"></i></a></span> while in the wall's space and must spend 3 feet of movement for every 1 foot it moves there.</p><div class=\"rd__spc-inline-post\"></div></div>",
-          "spellLevel": "3rd Level",
-          "spellRange": "90 ft",
-          "spellSchool": "Evocation"
-        },
-        {
           "name": "Magnify Gravity",
           "section": "spell-items",
-          "description": "<div class=\"rd__b  rd__b--3\"><p>The gravity in a 10-foot-radius sphere centered on a point you can see within range increases for a moment. Each creature in the sphere on the turn when you cast the spell must make a Constitution saving throw. On a failed save, a creature takes [[/r 2d8]] force damage, and its speed is halved until the end of its next turn. On a successful save, a creature takes half as much damage and suffers no reduction to its speed.</p><div class=\"rd__spc-inline-post\"><p></p></div><p>Until the start of your next turn, any object that isn't being worn or carried in the sphere requires a successful Strength check against your spell save DC to pick up or move.</p></div><div class=\"rd__b  rd__b--3\"><div class=\"rd__b  rd__b--3\"><p><span class=\"entry-title-inner\"><strong>At Higher Levels</strong></span></p><p>When you cast this spell using a spell slot of 2nd level or higher, the damage increases by [[/r 1d8]] for each slot level above 1st.</p><div class=\"rd__spc-inline-post\"><p></p></div></div><div class=\"rd__spc-inline-post\"><p></p></div></div>",
+          "description": "<div class=\"rd__b  rd__b--3\"><p>The gravity in a 10-foot-radius sphere centered on a point you can see within range increases for a moment. Each creature in the sphere on the turn when you cast the spell must make a Constitution saving throw. On a failed save, a creature takes [[/r 2d8]] force damage, and its speed is halved until the end of its next turn. On a successful save, a creature takes half as much damage and suffers no reduction to its speed.</p><p>Until the start of your next turn, any object that isn't being worn or carried in the sphere requires a successful Strength check against your spell save DC to pick up or move.</p></div><div class=\"rd__b  rd__b--3\"><div class=\"rd__b  rd__b--3\"><p><span class=\"entry-title-inner\"><strong>At Higher Levels</strong></span></p><p>When you cast this spell using a spell slot of 2nd level or higher, the damage increases by [[/r 1d8]] for each slot level above 1st.</p></div></div>",
           "spellLevel": "1st Level",
           "spellRange": "60 ft",
           "spellSchool": "Transmutation"
@@ -3102,14 +3064,6 @@
           "spellSchool": "Transmutation"
         },
         {
-          "name": "Telekinesis",
-          "section": "spell-items",
-          "description": "<div class=\"rd__b  rd__b--3\"><p>You gain the ability to move or manipulate creatures or objects by thought. When you cast the spell, and as your action each round for the duration, you can exert your will on one creature or object that you can see within range, causing the appropriate effect below. You can affect the same target round after round, or choose a new one at any time. If you switch targets, the prior target is no longer affected by the spell.</p><p></p><p><span class=\"entry-title-inner\"><strong>Creature</strong></span></p><div class=\"rd__spc-inline-post\"><p>You can try to move a Huge or smaller creature. Make an ability check with your spellcasting ability contested by the creature's Strength check. If you win the contest, you move the creature up to 30 feet in any direction, including upward but not beyond the range of this spell. Until the end of your next turn, the creature is &amp;Reference[condition=restrained] in your telekinetic grip. A creature lifted upward is suspended in mid-air.</p><p>On subsequent rounds, you can use your action to attempt to maintain your telekinetic grip on the creature by repeating the contest.</p><p></p><p><span class=\"entry-title-inner\"><strong>Object</strong></span></p><p>You can try to move an object that weighs up to 1,000 pounds. If the object isn't being worn or carried, you automatically move it up to 30 feet in any direction, but not beyond the range of this spell.</p><p>If the object is worn or carried by a creature, you must make an ability check with your spellcasting ability contested by that creature's Strength check. If you succeed, you pull the object away from that creature and can move it up to 30 feet in any direction but not beyond the range of this spell.</p><p>You can exert fine control on objects with your telekinetic grip, such as manipulating a simple tool, opening a door or a container, stowing or retrieving an item from an open container, or pouring the contents from a vial.</p></div></div>",
-          "spellLevel": "5th Level",
-          "spellRange": "60 ft",
-          "spellSchool": "Transmutation"
-        },
-        {
           "name": "Triggered: Greater Restoration - 9th",
           "section": "physical-items",
           "description": "<table>\n        <tbody>\n            <tr>\n                <td>\n                    <p style=\"text-align:center;font-weight:bold\">9th Level</p>\n                </td>\n            </tr>\n            \n            <tr>\n                <td>\n                    <p>Whenever I'm inflicted with any effect this spell can remove apart from cursed.</p>\n                </td>\n            </tr>\n        </tbody>\n    </table><p>You imbue a creature you touch with positive energy to undo a debilitating effect. You can reduce the target's exhaustion level by one, or end one of the following effects on the target:</p><p>One effect that &amp;Reference[condition=charmed] or &amp;Reference[condition=petrified] the target</p><p>One curse, including the target's attunement to a cursed magic item</p><p>Any reduction to one of the target's ability scores</p><p>One effect reducing the target's hit point maximum</p>",
@@ -3140,12 +3094,6 @@
           "quantity": 1,
           "combinedLabel": "Spell Gem",
           "attunementLabel": ""
-        },
-        {
-          "name": "Dodge",
-          "section": "feature-items",
-          "description": "<p>When you take the Dodge action, you focus entirely on avoiding attacks. Until the start of your next turn, any attack roll made against you has disadvantage if you can see the attacker, and you make Dexterity saving throws with advantage. You lose this benefit if you are incapacitated (as explained in the appendix) or if your speed drops to 0.</p>",
-          "requirements": ""
         },
         {
           "name": "Mantle of the Arcane Trickster",
@@ -3268,14 +3216,6 @@
           "quantity": 1,
           "combinedLabel": "Unusual Material",
           "attunementLabel": ""
-        },
-        {
-          "name": "Greater Invisibility",
-          "section": "spell-items",
-          "description": "<div class=\"rd__b  rd__b--3\"><p>You or a creature you touch becomes &amp;Reference[condition=invisible] until the spell ends. Anything the target is wearing or carrying is &amp;Reference[condition=invisible] as long as it is on the target's person.</p></div>",
-          "spellLevel": "4th Level",
-          "spellRange": "Touch",
-          "spellSchool": "Illusion"
         },
         {
           "name": "Weaver's Tools",
@@ -3546,22 +3486,6 @@
           "attunementLabel": ""
         },
         {
-          "name": "Phantasmal Horror",
-          "section": "spell-items",
-          "description": "<p>You select a creature you can see within range and create an illusion of its worst nightmares, which only it can see.</p><p>The target must make a Wisdom saving throw. On a failed it takes 4d10 psychic damage and is frightened. On a successful save, the spell ends. For the duration of the spell this effect repeats at the start of each of the target's turns.</p><p>If the target's CR is less than the spell level and it's not not immune to being frightened, the dies on a failed saving throw.</p><p><strong>At Higher Levels</strong> <br />When you cast this spell using a spell slot of 5th level or higher, the damage increases by 1d10 for each slot level above 4th.</p>",
-          "spellLevel": "4th Level",
-          "spellRange": "120 ft",
-          "spellSchool": "Illusion"
-        },
-        {
-          "name": "Minor Illusion",
-          "section": "spell-items",
-          "description": "<div class=\"rd__b  rd__b--3\"><p>You create a sound or an image of an object within range that lasts for the duration. The illusion also ends if you dismiss it as an action or cast this spell again.</p><div class=\"rd__spc-inline-post\"><p></p></div><p>If you create a sound, its volume can range from a whisper to a scream. It can be your voice, someone else's voice, a lion's roar, a beating of drums, or any other sound you choose. The sound continues unabated throughout the duration, or you can make discrete sounds at different times before the spell ends.</p><p>If you create an image of an object—such as a chair, muddy footprints, or a small chest—it must be no larger than a 5-foot cube. The image can't create sound, light, smell, or any other sensory effect. Physical interaction with the image reveals it to be an illusion, because things can pass through it.</p><p>If a creature uses its action to examine the sound or image, the creature can determine that it is an illusion with a successful <span style=\"font-family:ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace\">[[/skill investigation dc=@attributes.spelldc format=long]]</span> against your spell save DC. If a creature discerns the illusion for what it is, the illusion becomes faint to the creature.</p></div>",
-          "spellLevel": "Cantrip",
-          "spellRange": "30 ft",
-          "spellSchool": "Illusion"
-        },
-        {
           "name": "Cane of Tides",
           "section": "physical-items",
           "description": "<p><em>Requires attunement by a spellcaster.</em></p><p>You gain a +2 bonus to spell attack rolls and to the saving throw DCs of your spells.</p><p>The cane has 8 charges and regains 1d8 expended charges when you finish a long rest. You can use the following abilities by expending charges:</p><ul><li><p>Add damage: When you cast a spell that deals bludgeoning or cold damage, you can expend 1 or more charges to add an additional 1d8 damage of the same type for each charge you expend.</p></li><li><p>Create Water: You can expend 1 charge to cast the Create Water effect of the Create or Destroy Water spell at 1st level using a bonus action.</p></li><li><p>Maelstrom: You can expend 5 charges to cast Maelstrom at 5th level.</p></li></ul>",
@@ -3584,6 +3508,68 @@
           "spellLevel": "5th Level",
           "spellRange": "120 ft",
           "spellSchool": "Evocation"
+        },
+        {
+          "name": "Dodge",
+          "section": "feature-items",
+          "description": "<p>When you take the Dodge action, you focus entirely on avoiding attacks. Until the start of your next turn, any attack roll made against you has disadvantage if you can see the attacker, and you make Dexterity saving throws with advantage. You lose this benefit if you are incapacitated (as explained in the appendix) or if your speed drops to 0.</p>",
+          "requirements": ""
+        },
+        {
+          "name": "Evard's Black Tentacles",
+          "section": "spell-items",
+          "description": "<div class=\"rd__b  rd__b--3\"><p>Squirming, ebony tentacles fill a 20-foot square on ground that you can see within range. For the duration, these tentacles turn the ground in the area into <span class=\"reference-link\"><a class=\"content-link\" data-uuid=\"Compendium.dnd5e.rules.JournalEntry.NizgRXLNUqtdlC1s.JournalEntryPage.6tqz947qO8vPyxvD\" data-id=\"6tqz947qO8vPyxvD\" data-type=\"JournalEntryPage\" data-pack=\"dnd5e.rules\" data-tooltip=\"Rule Page\"><i class=\"fas fa-book-open\"></i>difficult terrain</a></span>.</p><div class=\"rd__spc-inline-post\"></div><p>When a creature enters the affected area for the first time on a turn or starts its turn there, the creature must succeed on a Dexterity saving throw or take <a class=\"inline-roll roll\" data-mode=\"roll\" data-flavor data-formula=\"3d6\"><i class=\"fas fa-dice-d20\"></i>3d6</a> bludgeoning damage and be <span class=\"reference-link\"><a class=\"content-link\" data-uuid=\"Compendium.dnd5e.rules.JournalEntry.w7eitkpD7QQTB6j0.JournalEntryPage.cSVcyZyNe2iG1fIc\" data-id=\"cSVcyZyNe2iG1fIc\" data-type=\"JournalEntryPage\" data-pack=\"dnd5e.rules\" data-tooltip=\"Rule Page\"><i class=\"fas fa-book-open\"></i>Restrained</a><a class=\"enricher-action\" data-action=\"apply\" data-status=\"restrained\" data-tooltip=\"EDITOR.DND5E.Inline.ApplyStatus\" aria-label=\"Apply Status to Selected Tokens\"><i class=\"fas fa-fw fa-reply-all fa-flip-horizontal\"></i></a></span> by the tentacles until the spell ends. A creature that starts its turn in the area and is already <span class=\"reference-link\"><a class=\"content-link\" data-uuid=\"Compendium.dnd5e.rules.JournalEntry.w7eitkpD7QQTB6j0.JournalEntryPage.cSVcyZyNe2iG1fIc\" data-id=\"cSVcyZyNe2iG1fIc\" data-type=\"JournalEntryPage\" data-pack=\"dnd5e.rules\" data-tooltip=\"Rule Page\"><i class=\"fas fa-book-open\"></i>Restrained</a><a class=\"enricher-action\" data-action=\"apply\" data-status=\"restrained\" data-tooltip=\"EDITOR.DND5E.Inline.ApplyStatus\" aria-label=\"Apply Status to Selected Tokens\"><i class=\"fas fa-fw fa-reply-all fa-flip-horizontal\"></i></a></span> by the tentacles takes <a class=\"inline-roll roll\" data-mode=\"roll\" data-flavor data-formula=\"3d6\"><i class=\"fas fa-dice-d20\"></i>3d6</a> bludgeoning damage.</p><p>A creature <span class=\"reference-link\"><a class=\"content-link\" data-uuid=\"Compendium.dnd5e.rules.JournalEntry.w7eitkpD7QQTB6j0.JournalEntryPage.cSVcyZyNe2iG1fIc\" data-id=\"cSVcyZyNe2iG1fIc\" data-type=\"JournalEntryPage\" data-pack=\"dnd5e.rules\" data-tooltip=\"Rule Page\"><i class=\"fas fa-book-open\"></i>Restrained</a><a class=\"enricher-action\" data-action=\"apply\" data-status=\"restrained\" data-tooltip=\"EDITOR.DND5E.Inline.ApplyStatus\" aria-label=\"Apply Status to Selected Tokens\"><i class=\"fas fa-fw fa-reply-all fa-flip-horizontal\"></i></a></span> by the tentacles can use its action to make a Strength or Dexterity check (its choice) against your spell save DC. On a success, it frees itself.</p></div>",
+          "spellLevel": "4th Level",
+          "spellRange": "90 ft",
+          "spellSchool": "Conjuration"
+        },
+        {
+          "name": "Sleet Storm",
+          "section": "spell-items",
+          "description": "<div class=\"rd__b  rd__b--3\"><p>Until the spell ends, freezing rain and sleet fall in a 20-foot-tall cylinder with a 40-foot radius centered on a point you choose within range. The area is &amp;Reference[heavily obscured] and exposed flames in the area are doused.</p><p>The ground in the area is covered with slick ice, making it &amp;Reference[difficult terrain].When a creature enters the spell's area for the first time on a turn or starts its turn there, it must make a Dexterity saving throw. On a failed save, it falls &amp;Reference[prone].</p><p>If a creature starts its turn in the spell's area and is &amp;Reference[concentrating] on a spell, the creature must make a successful Constitution saving throw against your spell save DC or lose <a class=\"jlnk__entity-link\" draggable=\"true\" data-plut-hover-page=\"conditionsdiseases.html\" data-plut-hover-source=\"PHB\" data-plut-hover-hash=\"concentration_phb\" data-plut-hover-tag=\"status\" data-plut-hover-hash-pre-encoded=\"true\" data-plut-rich-link=\"true\" data-plut-rich-link-entity-type=\"Item\" data-plut-rich-link-original-text=\"status[concentration]\">concentration</a>.</p></div>",
+          "spellLevel": "3rd Level",
+          "spellRange": "150 ft",
+          "spellSchool": "Conjuration"
+        },
+        {
+          "name": "Wall of Sand",
+          "section": "spell-items",
+          "description": "<div class=\"rd__b  rd__b--3\"><p>You create a wall of swirling sand on the ground at a point you can see within range. You can make the wall up to 30 feet long, 10 feet high, and 10 feet thick, and it vanishes when the spell ends. It blocks line of sight but not movement. A creature is <span class=\"reference-link\">&amp;Reference[blinded]</span> while in the wall's space and must spend 3 feet of movement for every 1 foot it moves there.</p></div>",
+          "spellLevel": "3rd Level",
+          "spellRange": "90 ft",
+          "spellSchool": "Evocation"
+        },
+        {
+          "name": "Greater Invisibility",
+          "section": "spell-items",
+          "description": "<div class=\"rd__b  rd__b--3\"><p>You or a creature you touch becomes &amp;Reference[condition=invisible] until the spell ends. Anything the target is wearing or carrying is &amp;Reference[condition=invisible] as long as it is on the target's person.</p></div>",
+          "spellLevel": "4th Level",
+          "spellRange": "Touch",
+          "spellSchool": "Illusion"
+        },
+        {
+          "name": "Telekinesis",
+          "section": "spell-items",
+          "description": "<div class=\"rd__b  rd__b--3\"><p>You gain the ability to move or manipulate creatures or objects by thought. When you cast the spell, and as your action each round for the duration, you can exert your will on one creature or object that you can see within range, causing the appropriate effect below. You can affect the same target round after round, or choose a new one at any time. If you switch targets, the prior target is no longer affected by the spell.</p><p></p><p><span class=\"entry-title-inner\"><strong>Creature</strong></span></p><div class=\"rd__spc-inline-post\"><p>You can try to move a Huge or smaller creature. Make an ability check with your spellcasting ability contested by the creature's Strength check. If you win the contest, you move the creature up to 30 feet in any direction, including upward but not beyond the range of this spell. Until the end of your next turn, the creature is &amp;Reference[condition=restrained] in your telekinetic grip. A creature lifted upward is suspended in mid-air.</p><p>On subsequent rounds, you can use your action to attempt to maintain your telekinetic grip on the creature by repeating the contest.</p><p></p><p><span class=\"entry-title-inner\"><strong>Object</strong></span></p><p>You can try to move an object that weighs up to 1,000 pounds. If the object isn't being worn or carried, you automatically move it up to 30 feet in any direction, but not beyond the range of this spell.</p><p>If the object is worn or carried by a creature, you must make an ability check with your spellcasting ability contested by that creature's Strength check. If you succeed, you pull the object away from that creature and can move it up to 30 feet in any direction but not beyond the range of this spell.</p><p>You can exert fine control on objects with your telekinetic grip, such as manipulating a simple tool, opening a door or a container, stowing or retrieving an item from an open container, or pouring the contents from a vial.</p></div></div>",
+          "spellLevel": "5th Level",
+          "spellRange": "60 ft",
+          "spellSchool": "Transmutation"
+        },
+        {
+          "name": "Phantasmal Horror",
+          "section": "spell-items",
+          "description": "<p>You select a creature you can see within range and create an illusion of its worst nightmares, which only it can see.</p><p>The target must make a Wisdom saving throw. On a failed it takes 4d10 psychic damage and is frightened. On a successful save, the spell ends. For the duration of the spell this effect repeats at the start of each of the target's turns.</p><p>If the target's CR is less than the spell level and it's not not immune to being frightened, the dies on a failed saving throw.</p><p><strong>At Higher Levels</strong> <br />When you cast this spell using a spell slot of 5th level or higher, the damage increases by 1d10 for each slot level above 4th.</p>",
+          "spellLevel": "4th Level",
+          "spellRange": "120 ft",
+          "spellSchool": "Illusion"
+        },
+        {
+          "name": "Minor Illusion",
+          "section": "spell-items",
+          "description": "<div class=\"rd__b  rd__b--3\"><p>You create a sound or an image of an object within range that lasts for the duration. The illusion also ends if you dismiss it as an action or cast this spell again.</p><div class=\"rd__spc-inline-post\"><p></p></div><p>If you create a sound, its volume can range from a whisper to a scream. It can be your voice, someone else's voice, a lion's roar, a beating of drums, or any other sound you choose. The sound continues unabated throughout the duration, or you can make discrete sounds at different times before the spell ends.</p><p>If you create an image of an object—such as a chair, muddy footprints, or a small chest—it must be no larger than a 5-foot cube. The image can't create sound, light, smell, or any other sensory effect. Physical interaction with the image reveals it to be an illusion, because things can pass through it.</p><p>If a creature uses its action to examine the sound or image, the creature can determine that it is an illusion with a successful <span style=\"font-family:ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace\">[[/skill investigation dc=@attributes.spelldc format=long]]</span> against your spell save DC. If a creature discerns the illusion for what it is, the illusion becomes faint to the creature.</p></div>",
+          "spellLevel": "Cantrip",
+          "spellRange": "30 ft",
+          "spellSchool": "Illusion"
         }
       ],
       "Shalkoc Zornax": [
@@ -3646,12 +3632,6 @@
           "section": "feature-items",
           "description": "<p>As an action, you can spend 2 ki points and roll a Martial Arts die. You regain a number of hit points equal to the number rolled plus your proficiency bonus.</p>",
           "requirements": "Monk 4"
-        },
-        {
-          "name": "Stunning Strike",
-          "section": "feature-items",
-          "description": "<p>You can interfere with the flow of ki in an opponent's body. When you hit another creature with a melee weapon attack, you can spend 1 ki point to attempt a stunning strike. The target must succeed on a Constitution saving throw or be &amp;Reference[condition=stunned] until the end of your next turn.</p>",
-          "requirements": "Monk 5"
         },
         {
           "name": "Extra Attack",
@@ -3836,12 +3816,6 @@
           "attunementLabel": "Requires Attunement"
         },
         {
-          "name": "Dodge",
-          "section": "feature-items",
-          "description": "<p>When you take the Dodge action, you focus entirely on avoiding attacks. Until the start of your next turn, any attack roll made against you has disadvantage if you can see the attacker, and you make Dexterity saving throws with advantage. You lose this benefit if you are incapacitated (as explained in the appendix) or if your speed drops to 0.</p>",
-          "requirements": ""
-        },
-        {
           "name": "Handwraps of Swift Strikes",
           "section": "physical-items",
           "description": "<p>When you use Flurry of Blows and both attacks hit, you can immediately make one additional unarmed strike as a free action.</p>",
@@ -3882,14 +3856,6 @@
           "section": "feature-items",
           "description": "<p>Upon your death, if your life essence is not captured, it returns to your hoard, where it coalesces into an egg. Any items you were wearing or carrying at the time of death are also recalled to your hoard. After [[/r 1d10]] days, the egg hatches, and you are reborn as a tiny pseudodragon, retaining all memories from your previous lives.</p><p>After an additional [[/r 1d20]] days, your pseudodragon form grows to small size. Another [[/r 1d20]] days later, you are fully restored and can transform back into your dragonborn form, regaining all features and abilities you possessed before your death.</p>",
           "requirements": "Mythic Dragon 1"
-        },
-        {
-          "name": "Torpor",
-          "section": "physical-items",
-          "description": "<p>A creature subjected to this poison must succeed on a [[/save con 15 format=long]] or become &amp;Reference[poisoned] for 4d6 hours. The &amp;Reference[poisoned] creature is &amp;Reference[incapacitated].</p>",
-          "quantity": 4,
-          "combinedLabel": "Ingested (ingested)",
-          "attunementLabel": ""
         },
         {
           "name": "Tiamat's Tear",
@@ -4026,7 +3992,7 @@
         {
           "name": "Gift of the Metallic Dragon",
           "section": "feature-items",
-          "description": "<div><p>You've manifested some of the power of metallic dragons, granting you the following benefits:</p><div><div class=\"rd__b  rd__b--3\"><ul class=\"rd__list rd__list-hang-notitle\"><li class=\"rd__li \"><p class=\"rd__p-list-item\" data-roll-name-ancestor=\"Ability Score Increase.\"><span class=\"bold rd__list-item-name\">Ability Score Increase.</span> Increase your Intelligence, Wisdom, or Charisma by 1, to a maximum of 20. (WIS)</p></li><li class=\"rd__li \"><p class=\"rd__p-list-item\" data-roll-name-ancestor=\"Ability Score Increase.\"><span class=\"bold rd__list-item-name\">Draconic Healing.</span> You learn the <span class=\"bold\" data-plut-hover=\"true\" data-plut-hover-page=\"spells.html\" data-plut-hover-source=\"PHB\" data-plut-hover-hash=\"cure%20wounds_phb\">Cure Wounds</span> spell. You can cast this spell without expending a spell slot. Once you cast this spell in this way, you can't do so again until you finish a long rest. You can also cast this spell using spell slots you have. The spell's spellcasting ability is the ability increased by this feat.</p></li><li class=\"rd__li \"><p class=\"rd__p-list-item\" data-roll-name-ancestor=\"Ability Score Increase.\"><span class=\"bold rd__list-item-name\">Protective Wings.</span> You can manifest protective wings that can shield you or others. When you or another creature you can see within 5 feet of you is hit by an attack roll, you can use your reaction to manifest spectral wings from your back for a moment. You grant a bonus to the target's AC equal to your proficiency bonus against that attack roll, potentially causing it to miss. You can use this reaction a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest.</p></li></ul></div></div></div>",
+          "description": "<div><p>You've manifested some of the power of metallic dragons, granting you the following benefits:</p><div><div class=\"rd__b  rd__b--3\"><ul class=\"rd__list rd__list-hang-notitle\"><li class=\"rd__li \"><p class=\"rd__p-list-item\" data-roll-name-ancestor=\"Ability Score Increase.\"><span class=\"bold rd__list-item-name\">Ability Score Increase.</span> Increase your Intelligence, Wisdom, or Charisma by 1, to a maximum of 20. (WIS)</p></li><li class=\"rd__li \"><p class=\"rd__p-list-item\" data-roll-name-ancestor=\"Ability Score Increase.\"><span class=\"bold rd__list-item-name\">Draconic Healing.</span> You learn the <span class=\"bold\" data-plut-hover=\"true\" data-plut-hover-page=\"spells.html\" data-plut-hover-source=\"PHB\" data-plut-hover-hash=\"cure%20wounds_phb\">Cure Wounds</span> spell. You can cast this spell without expending a spell slot. Once you cast this spell in this way, you can't do so again until you finish a long rest. You can also cast this spell using spell slots you have. The spell's spellcasting ability is the ability increased by this feat.</p></li><li class=\"rd__li \"><p class=\"rd__p-list-item\" data-roll-name-ancestor=\"Ability Score Increase.\"><span class=\"bold rd__list-item-name\">Protective Wings.</span> You can manifest protective wings that can shield you or others. When you or another creature you can see within 5 feet of you is hit by an attack roll, you can use your reaction to manifest spectral wings from your back for a moment. You grant a bonus to the target's AC equal to your proficiency bonus ([[lookup @prof]]) against that attack roll, potentially causing it to miss. You can use this reaction a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest.</p></li></ul></div></div></div>",
           "requirements": "Monk 12 (Feat)"
         },
         {
@@ -4116,27 +4082,11 @@
           "requirements": "Monk 4 (Feat)"
         },
         {
-          "name": "Potion of Superior Healing",
-          "section": "physical-items",
-          "description": "<div class=\"rd__b  rd__b--2\"><p><em>The potion's red liquid glimmers when agitated.</em></p><p>You regain 8d4 + 8 hit points when you drink this potion.</p></div>",
-          "quantity": 2,
-          "combinedLabel": "Potion",
-          "attunementLabel": ""
-        },
-        {
           "name": "Potion of Growth",
           "section": "physical-items",
           "description": "<div class=\"rd__b  rd__b--2\"><p><em>The red in the potion's liquid continuously expands from a tiny bead to color the clear liquid around it and then contracts. Shaking the bottle fails to interrupt this process.</em></p><p>When you drink this potion, you gain the \"enlarge\" effect of the enlarge/reduce spell for 1d4 hours (no concentration required):</p></div><p>While enlarged, your size is increased by one category and your weight is multiplied by eight.<br />You have advantage on Strength checks and saving throws and your attacks with weapons deal an additional 1d4 damage.</p>",
           "quantity": 1,
           "combinedLabel": "Potion",
-          "attunementLabel": ""
-        },
-        {
-          "name": "Drow Poison",
-          "section": "physical-items",
-          "description": "<p>This poison is typically made only by the drow, and only in a place far removed from sunlight. </p><p>A creature subjected to this poison must succeed on a [[/save con 13 format=long]] or be &amp;Reference[poisoned] for 1 hour. If the saving throw fails by 5 or more, the creature is also &amp;Reference[unconscious] while poisoned in this way. The creature wakes up if it takes damage or if another creature takes an action to shake it awake.</p>",
-          "quantity": 1,
-          "combinedLabel": "Injury (injury)",
           "attunementLabel": ""
         },
         {
@@ -4194,6 +4144,50 @@
           "quantity": 1,
           "combinedLabel": "Potion",
           "attunementLabel": ""
+        },
+        {
+          "name": "Dodge",
+          "section": "feature-items",
+          "description": "<p>When you take the Dodge action, you focus entirely on avoiding attacks. Until the start of your next turn, any attack roll made against you has disadvantage if you can see the attacker, and you make Dexterity saving throws with advantage. You lose this benefit if you are incapacitated (as explained in the appendix) or if your speed drops to 0.</p>",
+          "requirements": ""
+        },
+        {
+          "name": "Stunning Strike",
+          "section": "feature-items",
+          "description": "<p>You can interfere with the flow of ki in an opponent's body. When you hit another creature with a melee weapon attack, you can spend 1 ki point to attempt a stunning strike. The target must succeed on a Constitution saving throw or be &amp;Reference[condition=stunned] until the end of your next turn.</p>",
+          "requirements": "Monk 5"
+        },
+        {
+          "name": "Torpor",
+          "section": "physical-items",
+          "description": "<div class=\"rd__b  rd__b--2\"><p>A creature subjected to this poison must succeed on a [[/save con 15 format=long]] or become <span style=\"font-family:ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace\">&amp;Reference[poisoned]</span> for <a class=\"inline-roll roll\" data-mode=\"roll\" data-flavor data-formula=\"4d6\">4d6</a> hours. The <span style=\"font-family:ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace\">&amp;Reference[poisoned]</span> creature is <span style=\"font-family:ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace\">&amp;Reference[incapacitated].</span></p></div>",
+          "quantity": 4,
+          "combinedLabel": "Ingested (ingested)",
+          "attunementLabel": ""
+        },
+        {
+          "name": "Drow Poison",
+          "section": "physical-items",
+          "description": "<p>This poison is typically made only by the drow, and only in a place far removed from sunlight. </p><p>A creature subjected to this poison must succeed on a [[/save con 13 format=long]] or be &amp;Reference[poisoned] for 1 hour. If the saving throw fails by 5 or more, the creature is also &amp;Reference[unconscious] while poisoned in this way. The creature wakes up if it takes damage or if another creature takes an action to shake it awake.</p>",
+          "quantity": 1,
+          "combinedLabel": "Injury (injury)",
+          "attunementLabel": ""
+        },
+        {
+          "name": "Bracers of Asmodeus",
+          "section": "physical-items",
+          "description": "<div class=\"rd__b  rd__b--2\"><p>If you do not wear armor or use a shield while wearing these bracers, you have a +2 bonus to AC and your unarmed attacks deal an additional 1d4 fire damage.</p><p>Additionally, you activate the bracers to cast the <strong>Command</strong> spell (save DC 18) at 1st level. A Counterspell attempting to interrupt a Command spell cast this way, treats this spell as if it was cast at 6th level. Once this property is used, it can't be used again until you finish a long rest.</p><p><span class=\"entry-title-inner\"><strong>Curse</strong></span></p><p>While attuned to the bracers, you become obsessed with plotting, scheming, and manipulation. You always barter for better deals, often using secrets or leveraging other offers in the process. If you ever decline an opportunity to better yourself financially at another's expense, you immediately take [[/damage 3d10 type=necrotic]] damage. Only the <span class=\"bold\" data-plut-hover=\"true\" data-plut-hover-page=\"spells.html\" data-plut-hover-source=\"PHB\" data-plut-hover-hash=\"remove%20curse_phb\">Remove Curse</span> spell allows you to end attunement to this item.</p></div>",
+          "quantity": 1,
+          "combinedLabel": "Clothing",
+          "attunementLabel": "Requires Attunement"
+        },
+        {
+          "name": "Command",
+          "section": "spell-items",
+          "description": "<div class=\"rd__b  rd__b--3\"><p>You speak a one-word command to a creature you can see within range. The target must succeed on a Wisdom saving throw or follow the command on its next turn. The spell has no effect if the target is undead, if it doesn't understand your language, or if your command is directly harmful to it.</p><p>Some typical commands and their effects follow. You might issue a command other than one described here. If you do so, the DM determines how the target behaves. If the target can't follow your command, the spell ends.</p><div data-roll-name-ancestor=\"Approach\" class=\"rd__b  rd__b--3\"><span class=\"rd__h rd__h--3\" data-title-index=\"1\"> <span class=\"entry-title-inner\">Approach.</span></span> <p>The target moves toward you by the shortest and most direct route, ending its turn if it moves within 5 feet of you.</p></div><div data-roll-name-ancestor=\"Drop\" class=\"rd__b  rd__b--3\"><span class=\"rd__h rd__h--3\" data-title-index=\"2\"> <span class=\"entry-title-inner\">Drop.</span></span> <p>The target drops whatever it is holding and then ends its turn.</p></div><div data-roll-name-ancestor=\"Flee\" class=\"rd__b  rd__b--3\"><span class=\"rd__h rd__h--3\" data-title-index=\"3\"> <span class=\"entry-title-inner\">Flee.</span></span> <p>The target spends its turn moving away from you by the fastest available means.</p></div><div data-roll-name-ancestor=\"Grovel\" class=\"rd__b  rd__b--3\"><span class=\"rd__h rd__h--3\" data-title-index=\"4\"> <span class=\"entry-title-inner\">Grovel.</span></span> <p>The target falls &amp;Reference[condition=prone] and then ends its turn.</p></div><div data-roll-name-ancestor=\"Halt\" class=\"rd__b  rd__b--3\"><span class=\"rd__h rd__h--3\" data-title-index=\"5\"> <span class=\"entry-title-inner\">Halt.</span></span> <p>The target doesn't move and takes no actions. A flying creature stays aloft, provided that it is able to do so. If it must move to stay aloft, it flies the minimum distance needed to remain in the air.</p></div></div><div class=\"rd__b  rd__b--3\"><div data-roll-name-ancestor=\"At Higher Levels\" class=\"rd__b  rd__b--3\"><span class=\"rd__h rd__h--3\" data-title-index=\"1\"> <span class=\"entry-title-inner\">At Higher Levels.</span></span> <p>When you cast this spell using a spell slot of 2nd level or higher, you can affect one additional creature for each slot level above 1st. The creatures must be within 30 feet of each other when you target them.</p></div></div>",
+          "spellLevel": "1st Level",
+          "spellRange": "60 ft",
+          "spellSchool": "Enchantment"
         }
       ]
     },
@@ -4729,5 +4723,5 @@
         }
       ]
     },
-    "ingameDate": "Octavus 22, 1497"
+    "ingameDate": "Octavus 23, 1497"
   }
