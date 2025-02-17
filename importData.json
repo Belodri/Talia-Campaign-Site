@@ -131,7 +131,7 @@
           "name": "Philter of Love",
           "section": "physical-items",
           "description": "",
-          "quantity": 3,
+          "quantity": 2,
           "combinedLabel": "Potion",
           "attunementLabel": ""
         },
@@ -644,6 +644,22 @@
           "attunementLabel": ""
         },
         {
+          "name": "Boots of Vile Darkness",
+          "section": "physical-items",
+          "description": "<p>When you land from a jump, magical darkness spreads from your location, as per the <strong>Darkness</strong> spell. This effect does not require concentration and lasts for the spell’s normal duration. Any previous darkness created by these boots is immediately dispelled when this effect occurs.</p>",
+          "quantity": 1,
+          "combinedLabel": "Clothing",
+          "attunementLabel": "Requires Attunement"
+        },
+        {
+          "name": "Darkness",
+          "section": "spell-items",
+          "description": "<div class=\"rd__b  rd__b--3\"><p>Magical darkness spreads from a point you choose within range to fill a 15-foot-radius sphere for the duration. The darkness spreads around corners. A creature with <span class=\"reference-link\"><a class=\"content-link\" draggable=\"true\" data-link data-uuid=\"Compendium.dnd5e.rules.JournalEntry.NizgRXLNUqtdlC1s.JournalEntryPage.ldmA1PbnEGVkmE11\" data-id=\"ldmA1PbnEGVkmE11\" data-type=\"JournalEntryPage\" data-pack=\"dnd5e.rules\" data-tooltip=\"Rule Page\"><i class=\"fas fa-book-open\"></i>Darkvision</a></span> can't see through this darkness, and nonmagical light can't illuminate it.</p><p>If the point you choose is on an object you are holding or one that isn't being worn or carried, the darkness emanates from the object and moves with it. Completely covering the source of the darkness with an opaque object, such as a bowl or a helm, blocks the darkness.</p><p>If any of this spell's area overlaps with an area of light created by a spell of 2nd level or lower, the spell that created the light is dispelled.</p></div>",
+          "spellLevel": "2nd Level",
+          "spellRange": "60 ft",
+          "spellSchool": "Evocation"
+        },
+        {
           "name": "Compelled Duel",
           "section": "feature-items",
           "description": "<p>Using your bonus action, you can roll an Intimidation check to challenge a single creature that can see you to a duel.</p><p>The DC against this ability is check's total.</p><p>The creature needs to make a Wisdom saving throw. On a failed save, it has to focus all of it's attention solely on you for it's next two turns.</p><p>Creatures with a Strength score that is higher than their Intelligence and Wisdom scores combined automatically fail this save.</p><p>Only one creature can be compelled to duel you at any given time.</p>",
@@ -666,22 +682,6 @@
           "section": "feature-items",
           "description": "<p>Using your bonus action, you can roll an Intimidation check to present yourself as the biggest threat on the battlefield.</p><p>The DC against this ability is half the check's total, rounded up.</p><p>Hostile creatures within 20ft of you need to make a Wisdom saving throw. On a failed save, they have to focus all of their attention solely on you for their next two turns.</p><p>Creatures with a Strength score that is higher than their Intelligence and Wisdom scores combined automatically fail this save.</p>",
           "requirements": "Bear Spirit"
-        },
-        {
-          "name": "Boots of Vile Darkness",
-          "section": "physical-items",
-          "description": "<p>When you land from a jump, magical darkness spreads from your location, as per the <strong>Darkness</strong> spell. This effect does not require concentration and lasts for the spell’s normal duration. Any previous darkness created by these boots is immediately dispelled when this effect occurs.</p>",
-          "quantity": 1,
-          "combinedLabel": "Clothing",
-          "attunementLabel": "Requires Attunement"
-        },
-        {
-          "name": "Darkness",
-          "section": "spell-items",
-          "description": "<div class=\"rd__b  rd__b--3\"><p>Magical darkness spreads from a point you choose within range to fill a 15-foot-radius sphere for the duration. The darkness spreads around corners. A creature with <span class=\"reference-link\"><a class=\"content-link\" draggable=\"true\" data-link data-uuid=\"Compendium.dnd5e.rules.JournalEntry.NizgRXLNUqtdlC1s.JournalEntryPage.ldmA1PbnEGVkmE11\" data-id=\"ldmA1PbnEGVkmE11\" data-type=\"JournalEntryPage\" data-pack=\"dnd5e.rules\" data-tooltip=\"Rule Page\"><i class=\"fas fa-book-open\"></i>Darkvision</a></span> can't see through this darkness, and nonmagical light can't illuminate it.</p><p>If the point you choose is on an object you are holding or one that isn't being worn or carried, the darkness emanates from the object and moves with it. Completely covering the source of the darkness with an opaque object, such as a bowl or a helm, blocks the darkness.</p><p>If any of this spell's area overlaps with an area of light created by a spell of 2nd level or lower, the spell that created the light is dispelled.</p></div>",
-          "spellLevel": "2nd Level",
-          "spellRange": "60 ft",
-          "spellSchool": "Evocation"
         }
       ],
       "Fearghas MacAllistar": [
@@ -1332,14 +1332,6 @@
           "section": "feature-items",
           "description": "<p>Combining arcane knowledge with practiced skill, you can brew potent potions and deadly poisons. Given an hour of uninterrupted time, your alchemist's tools can synthesize ingredients into powerful concoctions.</p>",
           "requirements": ""
-        },
-        {
-          "name": "Spell Scroll: Teleport",
-          "section": "physical-items",
-          "description": "<div class=\"rd__b  rd__b--3\"><p>This spell instantly transports you and up to eight willing creatures of your choice that you can see within range, or a single object that you can see within range, to a destination you select. If you target an object, it must be able to fit entirely inside a 10-foot cube, and it can't be held or carried by an unwilling creature.</p><div class=\"rd__spc-inline-post\"></div><p>The destination you choose must be known to you, and it must be on the same plane of existence as you. Your familiarity with the destination determines whether you arrive there successfully. The DM rolls [[/r d100]] and consults the table.</p><table class=\"w-100 rd__table  stripe-odd-table\"><caption>Teleportation</caption><thead><tr><th class=\"ve-col-8\" data-rd-isroller=\"false\">Familiarity</th><th class=\"ve-col-1 ve-text-center no-wrap\" data-rd-isroller=\"false\">Mishap</th><th class=\"ve-col-1 ve-text-center no-wrap\" data-rd-isroller=\"false\">Similar Area</th><th class=\"ve-col-1 ve-text-center no-wrap\" data-rd-isroller=\"false\">Off Target</th><th class=\"ve-col-1 ve-text-center no-wrap\" data-rd-isroller=\"false\">On Target</th></tr></thead><tbody><tr><td class=\"ve-col-8\">Permanent circle</td><td class=\"ve-col-1 ve-text-center no-wrap\">—</td><td class=\"ve-col-1 ve-text-center no-wrap\">—</td><td class=\"ve-col-1 ve-text-center no-wrap\">—</td><td class=\"ve-col-1 ve-text-center no-wrap\">01–100</td></tr><tr><td class=\"ve-col-8\">Associated object</td><td class=\"ve-col-1 ve-text-center no-wrap\">—</td><td class=\"ve-col-1 ve-text-center no-wrap\">—</td><td class=\"ve-col-1 ve-text-center no-wrap\">—</td><td class=\"ve-col-1 ve-text-center no-wrap\">01–100</td></tr><tr><td class=\"ve-col-8\">Very familiar</td><td class=\"ve-col-1 ve-text-center no-wrap\">01–05</td><td class=\"ve-col-1 ve-text-center no-wrap\">06–13</td><td class=\"ve-col-1 ve-text-center no-wrap\">14–24</td><td class=\"ve-col-1 ve-text-center no-wrap\">25–100</td></tr><tr><td class=\"ve-col-8\">Seen casually</td><td class=\"ve-col-1 ve-text-center no-wrap\">01–33</td><td class=\"ve-col-1 ve-text-center no-wrap\">34–43</td><td class=\"ve-col-1 ve-text-center no-wrap\">44–53</td><td class=\"ve-col-1 ve-text-center no-wrap\">54–100</td></tr><tr><td class=\"ve-col-8\">Viewed once</td><td class=\"ve-col-1 ve-text-center no-wrap\">01–43</td><td class=\"ve-col-1 ve-text-center no-wrap\">44–53</td><td class=\"ve-col-1 ve-text-center no-wrap\">54–73</td><td class=\"ve-col-1 ve-text-center no-wrap\">74–100</td></tr><tr><td class=\"ve-col-8\">Description</td><td class=\"ve-col-1 ve-text-center no-wrap\">01–43</td><td class=\"ve-col-1 ve-text-center no-wrap\">44–53</td><td class=\"ve-col-1 ve-text-center no-wrap\">54–73</td><td class=\"ve-col-1 ve-text-center no-wrap\">74–100</td></tr><tr><td class=\"ve-col-8\">False destination</td><td class=\"ve-col-1 ve-text-center no-wrap\">01–50</td><td class=\"ve-col-1 ve-text-center no-wrap\">51–100</td><td class=\"ve-col-1 ve-text-center no-wrap\">—</td><td class=\"ve-col-1 ve-text-center no-wrap\">—</td></tr></tbody></table><div class=\"rd__b  rd__b--3\"><span class=\"rd__h rd__h--3\" data-title-index=\"1\"> <span class=\"entry-title-inner\">Familiarity.</span></span> <p>\"Permanent circle\" means a permanent teleportation circle whose sigil sequence you know. \"Associated object\" means that you possess an object taken from the desired destination within the last six months, such as a book from a wizard's library, bed linen from a royal suite, or a chunk of marble from a lich's secret tomb.</p><div class=\"rd__spc-inline-post\"></div></div><p>\"Very familiar\" is a place you have been very often, a place you have carefully studied, or a place you can see when you cast the spell. \"Seen casually\" is someplace you have seen more than once but with which you aren't very familiar. \"Viewed once\" is a place you have seen once, possibly using magic. \"Description\" is a place whose location and appearance you know through someone else's description, perhaps from a map.</p><p>\"False destination\" is a place that doesn't exist. Perhaps you tried to scry an enemy's sanctum but instead viewed an illusion, or you are attempting to teleport to a familiar location that no longer exists.</p><div class=\"rd__b  rd__b--3\"><span class=\"rd__h rd__h--3\" data-title-index=\"2\"> <span class=\"entry-title-inner\">On Target.</span></span> <p>You and your group (or the target object) appear where you want to.</p><div class=\"rd__spc-inline-post\"></div></div><div class=\"rd__b  rd__b--3\"><span class=\"rd__h rd__h--3\" data-title-index=\"3\"> <span class=\"entry-title-inner\">Off Target.</span></span> <p>You and your group (or the target object) appear a random distance away from the destination in a random direction. Distance off target is [[/r 1d10 * 1d10]]{1d10 × 1d10} percent of the distance that was to be traveled. For example, if you tried to travel 120 miles, landed off target, and rolled a 5 and 3 on the two [[/r d10]]s, then you would be off target by 15 percent, or 18 miles. The DM determines the direction off target randomly by rolling a [[/r d8]] and designating 1 as north, 2 as northeast, 3 as east, and so on around the points of the compass. If you were teleporting to a coastal city and wound up 18 miles out at sea, you could be in trouble.</p><div class=\"rd__spc-inline-post\"></div></div><div class=\"rd__b  rd__b--3\"><span class=\"rd__h rd__h--3\" data-title-index=\"4\"> <span class=\"entry-title-inner\">Similar Area.</span></span> <p>You and your group (or the target object) wind up in a different area that's visually or thematically similar to the target area. If you are heading for your home laboratory, for example, you might wind up in another wizard's laboratory or in an alchemical supply shop that has many of the same tools and implements as your laboratory. Generally, you appear in the closest similar place, but since the spell has no range limit, you could conceivably wind up anywhere on the plane.</p><div class=\"rd__spc-inline-post\"></div></div><div class=\"rd__b  rd__b--3\"><span class=\"rd__h rd__h--3\" data-title-index=\"5\"> <span class=\"entry-title-inner\">Mishap.</span></span> <p>The spell's unpredictable magic results in a difficult journey. Each teleporting creature (or the target object) takes [[/damage 3d10 type=force]] damage, and the DM rerolls on the table to see where you wind up (multiple mishaps can occur, dealing damage each time).</p><div class=\"rd__spc-inline-post\"></div></div></div>",
-          "quantity": 1,
-          "combinedLabel": "Scroll",
-          "attunementLabel": ""
         },
         {
           "name": "Spell Scroll: Gentle Repose",
@@ -3430,14 +3422,6 @@
           "attunementLabel": ""
         },
         {
-          "name": "Felt Hat (Two-Person Tent)",
-          "section": "physical-items",
-          "description": "<p>A simple and portable canvas shelter, a tent sleeps two.</p>",
-          "quantity": 1,
-          "combinedLabel": "Adventuring Gear",
-          "attunementLabel": ""
-        },
-        {
           "name": "Microscopic Proportions",
           "section": "spell-items",
           "description": "<div class=\"rd__b  rd__b--3\"><p>You cause a creature or an object you can see within range to shrink for the duration. Choose either a creature or an object that is neither worn nor carried. If the target is unwilling, it can make a Constitution saving throw. On a success, the spell has no effect.</p><p>If the target is a creature, everything it is wearing and carrying changes size with it. Any item dropped by an affected creature returns to normal size at once.</p><p>The target's size is quartered in all dimensions, and its weight is reduced to one-sixteenth of normal. This reduction decreases its size by up to two categories—from Medium to Tiny, for example. Until the spell ends, the target also has disadvantage on Strength checks and Strength saving throws as well as advantage on Dexterity checks and Dexterity saving throws. The target's weapons also shrink to match its new size. While these weapons are reduced, the target's attacks with them deal [[/damage 2d4]] less damage (this can't reduce the damage below 1).</p></div>",
@@ -3570,6 +3554,30 @@
           "spellLevel": "Cantrip",
           "spellRange": "30 ft",
           "spellSchool": "Illusion"
+        },
+        {
+          "name": "Devils Hat",
+          "section": "physical-items",
+          "description": "<p>Devils hat</p>",
+          "quantity": 1,
+          "combinedLabel": "Clothing",
+          "attunementLabel": ""
+        },
+        {
+          "name": "Devils outfit",
+          "section": "physical-items",
+          "description": "",
+          "quantity": 1,
+          "combinedLabel": "Clothing",
+          "attunementLabel": ""
+        },
+        {
+          "name": "Silver Tears",
+          "section": "physical-items",
+          "description": "<blockquote><p>In the depths of Mestopheles' dungeons on Cania, the 8th layer of Hell, pain devils extract this silvery powder through the torture of captured celestials. Devils bound for the warfronts of Avernus take flasks and snuff boxes of the stuff to fortify themselves against exposure to the raw chaos of demons. </p></blockquote><p>When you consume this substance as an action, you have advantage on saving throws against any effect from a demonic source for 8 hours.</p>",
+          "quantity": 20,
+          "combinedLabel": "Potion",
+          "attunementLabel": ""
         }
       ],
       "Shalkoc Zornax": [
