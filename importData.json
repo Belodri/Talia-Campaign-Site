@@ -682,6 +682,14 @@
           "section": "feature-items",
           "description": "<p>Using your bonus action, you can roll an Intimidation check to present yourself as the biggest threat on the battlefield.</p><p>The DC against this ability is half the check's total, rounded up.</p><p>Hostile creatures within 20ft of you need to make a Wisdom saving throw. On a failed save, they have to focus all of their attention solely on you for their next two turns.</p><p>Creatures with a Strength score that is higher than their Intelligence and Wisdom scores combined automatically fail this save.</p>",
           "requirements": "Bear Spirit"
+        },
+        {
+          "name": "Activated: Sending - 3rd",
+          "section": "physical-items",
+          "description": "<div class=\"rd__b  rd__b--3\"><p>You send a short message of twenty-five words or less to a creature with which you are familiar. The creature hears the message in its mind, recognizes you as the sender if it knows you, and can answer in a like manner immediately. The spell enables creatures with Intelligence scores of at least 1 to understand the meaning of your message.</p><p>You can send the message across any distance and even to other planes of existence, but if the target is on a different plane than you, there is a [[/r 1d20]]{5 percent} chance that the message doesn't arrive.</p></div>",
+          "quantity": 5,
+          "combinedLabel": "Spell Gem",
+          "attunementLabel": ""
         }
       ],
       "Fearghas MacAllistar": [
@@ -1250,14 +1258,6 @@
           "requirements": ""
         },
         {
-          "name": "+2 Ring of Protection",
-          "section": "physical-items",
-          "description": "<div class=\"rd__b  rd__b--2\"><p>You gain a +2 bonus to AC and saving throws while wearing this ring.</p></div>",
-          "quantity": 1,
-          "combinedLabel": "Trinket",
-          "attunementLabel": "Requires Attunement"
-        },
-        {
           "name": "Dragon Scale",
           "section": "physical-items",
           "description": "<p>Only very old and completely undamaged scales of huge dragons are fit for use in alchemy, making them incredibly rare. These iridescent scales gleam with vibrant colors, boasting remarkable resilience and magical properties.</p>",
@@ -1518,14 +1518,6 @@
           "spellLevel": "4th Level",
           "spellRange": "Self",
           "spellSchool": "Necromancy"
-        },
-        {
-          "name": "Soul Coin",
-          "section": "physical-items",
-          "description": "<div class=\"rd__b  rd__b--2\"><p><em>Soul coin</em>s are about 5 inches across and about an inch thick, minted from infernal iron. Each coin weighs one-third of a pound, and is inscribed with Infernal writing and a spell that magically binds a single soul to the coin. Because each <em>soul coin</em> has a unique soul trapped within it, each has a story. A creature might have been imprisoned as a result of defaulting on a deal, while another might be the victim of a night hag's curse.</p><div class=\"rd__b  rd__b--3\"><p><span class=\"entry-title-inner\"><strong>Carrying Soul Coins</strong></span></p><p>To hold a <em>soul coin</em> is to feel the soul bound within it—overcome with rage or fraught with despair.</p><p>An evil creature can carry as many <em>soul coin</em>s as it wishes (up to its maximum weight allowance). A non-evil creature can carry a number of <em>soul coin</em>s equal to or less than its Constitution modifier without penalty. A non-evil creature carrying a number of <em>soul coin</em>s greater than its Constitution modifier has disadvantage on its attack rolls, ability checks, and saving throws.</p></div><div class=\"rd__b  rd__b--3\"><p><span class=\"entry-title-inner\"><strong>Freeing a Soul</strong></span></p><p>Casting a spell that removes a curse on a <em>soul coin</em> frees the soul trapped within it, as does expending all of the coin's charges. The coin itself rusts from within and is destroyed once the soul is released. A freed soul travels to the realm of the god it served or the outer plane most closely tied to its alignment (DM's choice). The souls of lawful evil creatures released from <em>soul coin</em>s typically emerge from the River Styx as devils.</p><p>Freeing a soul from a <em>soul coin</em> is considered a good act, even if the soul belongs to an evil creature.</p></div><div class=\"rd__b  rd__b--3\"><p><span class=\"entry-title-inner\"><strong>Hellish Currency</strong></span></p><p><em>Soul coin</em>s are a currency of the Nine Hells and are highly valued by devils. The coins are used among the infernal hierarchy to barter for favours, bribe the unwilling, and reward the faithful for services rendered.</p><p><em>Soul coin</em>s are created by Mammon and his greater devils on Minauros, the third layer of the Nine Hells, in a vast chamber where the captured souls of evil mortals are bound into the coins. These coins are then distributed throughout the Nine Hells to be used for goods and services, infernal deals, dark bargains, and bribes.</p></div><p><strong>Unmake a Soul</strong></p><p>When casting a spell which requires repeated castings for it's effects to become permanent, soul coins can be expended as a material component and the souls trapped inside unmade. Each soul coin expended this way reduces the number of required castings by three.</p><p>Unmaking a soul is different to freeing it as doing so erases the soul from existence itself, it's essence lost forever. Unmaking a soul is considered an evil act.</p></div>",
-          "quantity": 23,
-          "combinedLabel": "Exotic Currency",
-          "attunementLabel": ""
         },
         {
           "name": "Activated: Nondetection - 3rd",
@@ -1872,7 +1864,7 @@
         {
           "name": "Voidborn Explorer's Spellbook",
           "section": "physical-items",
-          "description": "<blockquote><p>You’ll use it, won’t you? You’ll use the spells. But remember… it’s not the monsters out there that will break you. It’s what you bring back.</p></blockquote><p><em><br />Requires attunement by a wizard capable of casting 5th-level spells.</em></p><p>This ancient tome, its cover etched with shifting cosmic patterns, hums with an eerie energy. The pages, faded but intact, display not only arcane writings but also celestial maps that seem to twist and change when viewed from different angles. Written by one of the few who ventured into the far reaches of the void and managed to return - though his mind was forever changed and twisted.</p><p>While you're attuned to the book:</p><ul><li><p>You reduce any psychic damage you take by an amount equal to your wizard level.</p></li><li><p>You gain a bonus to Intelligence and Charisma saving throws equal to one-third your wizard level (rounded down).</p></li></ul><p>The spellbook has 12 charges. While holding the book and attuned to it, you can use the charges to cast the following spells without expending a spell slot. Each spell cast in this way consumes charges equal to the spell’s level:</p><ul><li><strong>Lesser Restoration</strong> (2 charges)</li><li><strong>Legend Lore</strong> (5 charges)</li><li><strong>Greater Restoration</strong> (5 charges)</li><li><strong>Word of Recall</strong> (6 charges)</li><li><strong>Sign of Sanctuary</strong> (7 charges)</li><li><strong>Foresight</strong> (9 charges)</li></ul><p>The spellbook regains all expended charges daily at dawn.</p>",
+          "description": "<blockquote><p>You’ll use it, won’t you? You’ll use the spells. But remember… it’s not the monsters out there that will break you. It’s what you bring back.</p></blockquote><p><em><br />Requires attunement by a wizard capable of casting 5th-level spells.</em></p><p>This ancient tome, its cover etched with shifting cosmic patterns, hums with an eerie energy. The pages, faded but intact, display not only arcane writings but also celestial maps that seem to twist and change when viewed from different angles. Written by one of the few who ventured into the far reaches of the void and managed to return - though his mind was forever changed and twisted.</p><p>While you're attuned to the book:</p><ul><li><p>You reduce any psychic damage you take by an amount equal to your wizard level.</p></li><li><p>You gain a bonus to Intelligence and Charisma saving throws equal to one-third your wizard level (rounded down).</p></li></ul><p>The spellbook has 12 charges. While holding the book and attuned to it, you can use the charges to cast the following spells without expending a spell slot or material components. Each spell cast in this way consumes charges equal to the spell’s level:</p><ul><li><strong>Lesser Restoration</strong> (2 charges)</li><li><strong>Legend Lore</strong> (5 charges)</li><li><strong>Greater Restoration</strong> (5 charges)</li><li><strong>Word of Recall</strong> (6 charges)</li><li><strong>Sign of Sanctuary</strong> (7 charges)</li><li><strong>Foresight</strong> (9 charges)</li></ul><p>The spellbook regains all expended charges daily at dawn.</p>",
           "quantity": 1,
           "combinedLabel": "Spellbook",
           "attunementLabel": "Requires Attunement"
@@ -1980,14 +1972,6 @@
           "attunementLabel": ""
         },
         {
-          "name": "Amulet of Proof against Detection and Location",
-          "section": "physical-items",
-          "description": "<div class=\"rd__b  rd__b--2\"><p>While wearing this amulet, you are hidden from <span class=\"bold\">divination</span> magic. You can't be targeted by such magic or perceived through magical scrying sensors.</p></div>",
-          "quantity": 1,
-          "combinedLabel": "Trinket",
-          "attunementLabel": "Requires Attunement"
-        },
-        {
           "name": "Guidance",
           "section": "spell-items",
           "description": "<div class=\"rd__b  rd__b--3\"><p>You touch one willing creature. Once before the spell ends, the target can roll a [[/r d4]] and add the number rolled to one ability check of its choice. It has to roll the die before making the ability check. The spell then ends.</p></div>",
@@ -2025,14 +2009,6 @@
           "description": "<p><em>Only the fire giants of Muspelheim know how to scribe runes capable of enhancing one's craftsmanship.</em></p><p>When you make a tool check using this tool, you can choose to consume one charge to add a d4 to the roll. The tool regains all spent charges when you take a long rest.</p>",
           "quantity": 1,
           "combinedLabel": "Artisan's Tools",
-          "attunementLabel": ""
-        },
-        {
-          "name": "Potion of Heroism",
-          "section": "physical-items",
-          "description": "<p><em>This blue potion bubbles and steams as if boiling.</em></p><p>When you drink this potion you gain 10 temporary hit points. Additionally you are under the effect of the Bless spell for 1 hour (no concentration required).</p>",
-          "quantity": 1,
-          "combinedLabel": "Potion",
           "attunementLabel": ""
         },
         {
@@ -2191,7 +2167,7 @@
           "name": "Activated: Sending - 3rd",
           "section": "physical-items",
           "description": "<div class=\"rd__b  rd__b--3\"><p>You send a short message of twenty-five words or less to a creature with which you are familiar. The creature hears the message in its mind, recognizes you as the sender if it knows you, and can answer in a like manner immediately. The spell enables creatures with Intelligence scores of at least 1 to understand the meaning of your message.</p><p>You can send the message across any distance and even to other planes of existence, but if the target is on a different plane than you, there is a [[/r 1d20]]{5 percent} chance that the message doesn't arrive.</p></div>",
-          "quantity": 1,
+          "quantity": 6,
           "combinedLabel": "Spell Gem",
           "attunementLabel": ""
         },
@@ -2249,7 +2225,7 @@
           "description": "<p>While you are attuned to this grimoire, you can cast each spell written inside as if you had them prepared. These spells can only be contained inside an Unholy Grimoire.</p><p>With your growing mastery of dark arcane arts, you're able to decipher the following spells:</p><ul><li><p>Gravecraft</p></li><li><p>Life Leech</p></li><li><p>Speak with Dead</p></li></ul><p>Completing the rituals to unlock the grimoire's secrets also reveal the following spells:</p><ul><li><p>Withering Touch</p></li><li><p>Soul Cage</p></li></ul>",
           "quantity": 1,
           "combinedLabel": "Spellbook",
-          "attunementLabel": "Requires Attunement"
+          "attunementLabel": ""
         },
         {
           "name": "Gravecraft",
@@ -2407,7 +2383,7 @@
           "name": "Soul Coin",
           "section": "physical-items",
           "description": "<div class=\"rd__b  rd__b--2\"><p><em>Soul coin</em>s are about 5 inches across and about an inch thick, minted from infernal iron. Each coin weighs one-third of a pound, and is inscribed with Infernal writing and a spell that magically binds a single soul to the coin. Because each <em>soul coin</em> has a unique soul trapped within it, each has a story. A creature might have been imprisoned as a result of defaulting on a deal, while another might be the victim of a night hag's curse.</p><div class=\"rd__b  rd__b--3\"><p><span class=\"entry-title-inner\"><strong>Carrying Soul Coins</strong></span></p><p>To hold a <em>soul coin</em> is to feel the soul bound within it—overcome with rage or fraught with despair.</p><p>An evil creature can carry as many <em>soul coin</em>s as it wishes (up to its maximum weight allowance). A non-evil creature can carry a number of <em>soul coin</em>s equal to or less than its Constitution modifier without penalty. A non-evil creature carrying a number of <em>soul coin</em>s greater than its Constitution modifier has disadvantage on its attack rolls, ability checks, and saving throws.</p></div><div class=\"rd__b  rd__b--3\"><p><span class=\"entry-title-inner\"><strong>Freeing a Soul</strong></span></p><p>Casting a spell that removes a curse on a <em>soul coin</em> frees the soul trapped within it, as does expending all of the coin's charges. The coin itself rusts from within and is destroyed once the soul is released. A freed soul travels to the realm of the god it served or the outer plane most closely tied to its alignment (DM's choice). The souls of lawful evil creatures released from <em>soul coin</em>s typically emerge from the River Styx as devils.</p><p>Freeing a soul from a <em>soul coin</em> is considered a good act, even if the soul belongs to an evil creature.</p></div><div class=\"rd__b  rd__b--3\"><p><span class=\"entry-title-inner\"><strong>Hellish Currency</strong></span></p><p><em>Soul coin</em>s are a currency of the Nine Hells and are highly valued by devils. The coins are used among the infernal hierarchy to barter for favours, bribe the unwilling, and reward the faithful for services rendered.</p><p><em>Soul coin</em>s are created by Mammon and his greater devils on Minauros, the third layer of the Nine Hells, in a vast chamber where the captured souls of evil mortals are bound into the coins. These coins are then distributed throughout the Nine Hells to be used for goods and services, infernal deals, dark bargains, and bribes.</p></div><p><strong>Unmake a Soul</strong></p><p>When casting a spell which requires repeated castings for it's effects to become permanent, soul coins can be expended as a material component and the souls trapped inside unmade. Each soul coin expended this way reduces the number of required castings by three.</p><p>Unmaking a soul is different to freeing it as doing so erases the soul from existence itself, it's essence lost forever. Unmaking a soul is considered an evil act.</p></div>",
-          "quantity": 15,
+          "quantity": 35,
           "combinedLabel": "Exotic Currency",
           "attunementLabel": ""
         },
@@ -2512,6 +2488,510 @@
           "spellLevel": "Cantrip",
           "spellRange": "60 ft",
           "spellSchool": "Enchantment"
+        },
+        {
+          "name": "Potion of Heroism",
+          "section": "physical-items",
+          "description": "<p><em>This blue potion bubbles and steams as if boiling.</em></p><p>When you drink this potion you gain 10 temporary hit points. Additionally you are under the effect of the Bless spell for 1 hour (no concentration required).</p>",
+          "quantity": 1,
+          "combinedLabel": "Potion",
+          "attunementLabel": ""
+        },
+        {
+          "name": "Withering Touch",
+          "section": "spell-items",
+          "description": "<div class=\"rd__b  rd__b--3\"><p>Your hands become black claws bathed in necrotic energy. Make a melee spell attack against a creature you can reach. On a hit, the target takes [[/damage 4d8 type=necrotic]] damage and becomes cursed for the duration of the spell. While cursed in this way, the target suffers one of the following effects of your choice, or all effects if the attack is a critical hit:</p><ul><li><p><span class=\"entry-title-inner\"><strong>Curse of Impotence. </strong></span>The number of attacks the target can make using the Multiattack action is reduced by 1.</p></li><li><p><span class=\"entry-title-inner\"><strong>Curse of Lethargy.</strong> The target falls &amp;Reference[prone] upon becoming affected by this spell and at the start of each of its turns in combat.</span></p></li><li><p><span class=\"entry-title-inner\"><strong>Curse of Fragility.</strong> </span>Choose one damage type: bludgeoning, piercing, or slashing. The target's immunity or resistance to that damage type is downgraded by one step. If the target doesn't have immunity or resistance to the chosen damage type, it is vulnerable to that damage type instead.</p></li></ul><p>A remove curse spell or similar magic ends all effects inflicted by this spell.</p><p><strong>At higher levels.</strong> When you cast this spell using a spell slot of 5th level or higher, the damage increases by 1d8 for each slot level above 4th. Additionally, if you cast this spell using a spell slot of 7th level or higher, the spell does not require concentration.</p></div>",
+          "spellLevel": "4th Level",
+          "spellRange": "Touch",
+          "spellSchool": "Necromancy"
+        },
+        {
+          "name": "Soul Cage",
+          "section": "spell-items",
+          "description": "<div class=\"rd__b  rd__b--3\"><p>This spell snatches the soul of a humanoid as it dies and traps it inside the tiny cage you use for the material component. A stolen soul remains inside the cage until the spell ends or until you destroy the cage, which ends the spell. While you have a soul inside the cage, you can exploit it in any of the ways described below. You can use a trapped soul up to six times. Once you exploit a soul for the sixth time, it is released, and the spell ends. While a soul is trapped, the dead humanoid it came from can't be revived.</p><p><span class=\"entry-title-inner\"><strong>Steal Life.</strong> </span>You can use a bonus action to drain vigor from the soul and regain [[/r 2d8]] hit points for each exploit you choose to expend this way.</p><p><span class=\"entry-title-inner\"><strong>Query Soul.</strong> </span>You ask the soul a question (no action required) and receive a brief telepathic answer, which you can understand regardless of the language used. The soul knows only what it knew in life, but it must answer you truthfully and to the best of its ability. The answer is no more than a sentence or two and might be cryptic.</p><p><span class=\"entry-title-inner\"><strong>Borrow Experience.</strong> When you make an attack roll, damage roll, ability check, or saving throw, </span>you can expend one or more exploits to add a +1 bonus to the roll for each one.</p><p><span class=\"entry-title-inner\"><strong>Eyes of the Dead.</strong> </span>You can use an action to name a place the humanoid saw in life, which creates an invisible sensor somewhere in that place if it is on the plane of existence you're currently on. The sensor remains for as long as you concentrate, up to 10 minutes (as if you were concentrating on a spell). You receive visual and auditory information from the sensor as if you were in its space using your senses.</p><p>A creature that can see the sensor (such as one using See Invisibility or &amp;Reference[rule=truesight]) sees a translucent image of the tormented humanoid whose soul you caged.</p></div>",
+          "spellLevel": "6th Level",
+          "spellRange": "60 ft",
+          "spellSchool": "Necromancy"
+        },
+        {
+          "name": "Silver Tears",
+          "section": "physical-items",
+          "description": "<blockquote><p>In the depths of Mestopheles' dungeons on Cania, the 8th layer of Hell, pain devils extract this silvery powder through the torture of captured celestials. Devils bound for the warfronts of Avernus take flasks and snuff boxes of the stuff to fortify themselves against exposure to the raw chaos of demons. </p></blockquote><p>When you consume this substance as an action, you have advantage on saving throws against any effect from a demonic source for 8 hours.</p>",
+          "quantity": 2,
+          "combinedLabel": "Potion",
+          "attunementLabel": ""
+        },
+        {
+          "name": "Shield +2",
+          "section": "physical-items",
+          "description": "<p>While holding this shield, you have a bonus to AC of +2. This bonus is in addition to the shield's normal bonus to AC.</p>",
+          "quantity": 1,
+          "combinedLabel": "Shield",
+          "attunementLabel": ""
+        },
+        {
+          "name": "Anticipate Arcana",
+          "section": "spell-items",
+          "description": "<div class=\"rd__b  rd__b--3\"><p>Your foresight gives you an instant to ready your defenses against a magical attack. When you cast this spell, you have advantage on saving throws against spells and other magical effects until the start of your next turn.</p></div>",
+          "spellLevel": "3rd Level",
+          "spellRange": "Self",
+          "spellSchool": "Divination"
+        },
+        {
+          "name": "Spell Scroll: Anticipate Arcana",
+          "section": "physical-items",
+          "description": "<div class=\"rd__b  rd__b--3\"><p>Your foresight gives you an instant to ready your defenses against a magical attack. When you cast this spell, you have advantage on saving throws against spells and other magical effects until the start of your next turn.</p></div>",
+          "quantity": 1,
+          "combinedLabel": "Scroll",
+          "attunementLabel": ""
+        },
+        {
+          "name": "Spell Scroll: Remove Curse",
+          "section": "physical-items",
+          "description": "<div class=\"rd__b  rd__b--3\"><p>At your touch, all curses affecting one creature or object end. If the object is a cursed magic item, its curse remains, but the spell breaks its owner's attunement to the object so it can be removed or discarded.</p></div>",
+          "quantity": 1,
+          "combinedLabel": "Scroll",
+          "attunementLabel": ""
+        },
+        {
+          "name": "Remove Curse",
+          "section": "spell-items",
+          "description": "<div class=\"rd__b  rd__b--3\"><p>At your touch, all curses affecting one creature or object end. If the object is a cursed magic item, its curse remains, but the spell breaks its owner's attunement to the object so it can be removed or discarded.</p></div>",
+          "spellLevel": "3rd Level",
+          "spellRange": "Touch",
+          "spellSchool": "Abjuration"
+        },
+        {
+          "name": "Spell Scroll: Mordenkainen's Magnificent Mansion",
+          "section": "physical-items",
+          "description": "<div class=\"rd__b  rd__b--3\"><p>You conjure an extradimensional dwelling in range that lasts for the duration. You choose where its one entrance is located. The entrance shimmers faintly and is 5 feet wide and 10 feet tall. You and any creature you designate when you cast the spell can enter the extradimensional dwelling as long as the portal remains open. You can open or close the portal if you are within 30 feet of it. While closed, the portal is invisible.</p><p>Beyond the portal is a magnificent foyer with numerous chambers beyond. The atmosphere is clean, fresh, and warm.</p><p>You can create any floor plan you like, but the space can't exceed 50 cubes, each cube being 10 feet on each side. The place is furnished and decorated as you choose. It contains sufficient food to serve a nine course banquet for up to 100 people. A staff of 100 near-transparent servants attends all who enter. You decide the visual appearance of these servants and their attire. They are completely obedient to your orders. Each servant can perform any task a normal human servant could perform, but they can't attack or take any action that would directly harm another creature. Thus the servants can fetch things, clean, mend, fold clothes, light fires, serve food, pour wine, and so on. The servants can go anywhere in the mansion but can't leave it. Furnishings and other objects created by this spell dissipate into smoke if removed from the mansion. When the spell ends, any creatures or objects left inside the extradimensional space are expelled into the open spaces nearest to the entrance.</p></div>",
+          "quantity": 1,
+          "combinedLabel": "Scroll",
+          "attunementLabel": ""
+        },
+        {
+          "name": "Spell Scroll: Plane Shift",
+          "section": "physical-items",
+          "description": "<div class=\"rd__b  rd__b--3\"><p>You and up to eight willing creatures who link hands in a circle are transported to a different plane of existence. You can specify a target destination in general terms, such as the City of Brass on the Elemental Plane of Fire or the palace of Dispater on the second level of the Nine Hells, and you appear in or near that destination. If you are trying to reach the City of Brass, for example, you might arrive in its Street of Steel, before its Gate of Ashes, or looking at the city from across the Sea of Fire, at the DM's discretion.</p><p>Alternatively, if you know the sigil sequence of a teleportation circle on another plane of existence, this spell can take you to that circle. If the teleportation circle is too small to hold all the creatures you transported, they appear in the closest unoccupied spaces next to the circle.</p><p>You can use this spell to banish an unwilling creature to another plane. Choose a creature within your reach and make a melee spell attack against it. On a hit, the creature must make a Charisma saving throw. If the creature fails this save, it is transported to a random location on the plane of existence you specify. A creature so transported must find its own way back to your current plane of existence.</p></div>",
+          "quantity": 1,
+          "combinedLabel": "Scroll",
+          "attunementLabel": ""
+        },
+        {
+          "name": "Spell Scroll: Disintegrate",
+          "section": "physical-items",
+          "description": "<div class=\"rd__b  rd__b--3\"><p>A thin green ray springs from your pointing finger to a target that you can see within range. The target can be a creature, an object, or a creation of magical force, such as the wall created by Wall of Force.</p><p>A creature targeted by this spell must make a Dexterity saving throw. On a failed save, the target takes [[/damage 10d6 + 40 type=force]] damage. The target is disintegrated if this damage leaves it with 0 hit points.</p><p>A disintegrated creature and everything it is wearing and carrying, except magic items, are reduced to a pile of fine gray dust. The creature can be restored to life only by means of a True Resurrection<span class=\"bold\" data-plut-hover=\"true\" data-plut-hover-page=\"spells.html\" data-plut-hover-source=\"PHB\" data-plut-hover-hash=\"true%20resurrection_phb\"> </span>or a Wish<span class=\"bold\" data-plut-hover=\"true\" data-plut-hover-page=\"spells.html\" data-plut-hover-source=\"PHB\" data-plut-hover-hash=\"wish_phb\"> </span>spell.</p><p>This spell automatically disintegrates a Large or smaller nonmagical object or a creation of magical force. If the target is a Huge or larger object or creation of force, this spell disintegrates a 10-foot-cube portion of it. A magic item is unaffected by this spell.</p></div><div class=\"rd__b  rd__b--3\"><div data-roll-name-ancestor=\"At Higher Levels\" class=\"rd__b  rd__b--3\"><p><span class=\"entry-title-inner\"><strong>At Higher Levels</strong></span></p><p>When you cast this spell using a spell slot of 7th level or higher, the damage increases by [[/damage 3d6]] for each slot level above 6th.</p></div></div>",
+          "quantity": 1,
+          "combinedLabel": "Scroll",
+          "attunementLabel": ""
+        },
+        {
+          "name": "Spell Scroll: Mental Prison",
+          "section": "physical-items",
+          "description": "<div class=\"rd__b  rd__b--3\"><p>You attempt to bind a creature within an illusory cell that only it perceives. One creature you can see within range must make an Intelligence saving throw. The target succeeds automatically if it is immune to being &amp;Reference[condition=charmed].</p><p>On a successful save, the target takes [[/damage 5d10 type=psychic]] damage, and the spell ends. On a failed save, the target takes [[/damage 5d10 type=psychic]] damage, and you make the area immediately around the target's space appear dangerous to it in some way. You might cause the target to perceive itself as being surrounded by fire, floating razors, or hideous maws filled with dripping teeth. Whatever form the illusion takes, the target is &amp;Reference[blinded] and &amp;Reference[deafened] to anything beyond it and is &amp;Reference[restrained] for the spell's duration. If the target is moved out of the illusion, makes a melee attack through it, or reaches any part of its body through it, the target takes [[/damage 10d10 type=psychic]] damage, and the spell ends.</p></div>",
+          "quantity": 1,
+          "combinedLabel": "Scroll",
+          "attunementLabel": ""
+        },
+        {
+          "name": "Spell Scroll: Cone of Cold",
+          "section": "physical-items",
+          "description": "<div class=\"rd__b  rd__b--3\"><p>A blast of cold air erupts from your hands. Each creature in a 60-foot cone must make a Constitution saving throw. A creature takes [[/damage 8d8 type=cold]] damage on a failed save, or half as much damage on a successful one.</p><div class=\"rd__spc-inline-post\"></div><p>A creature killed by this spell becomes a frozen statue until it thaws.</p></div><div class=\"rd__b  rd__b--3\"><div class=\"rd__b  rd__b--3\"><span class=\"rd__h rd__h--3\" data-title-index=\"1\"> <span class=\"entry-title-inner\">At Higher Levels.</span></span> <p>When you cast this spell using a spell slot of 6th level or higher, the damage increases by [[/damage 1d8]] for each slot level above 5th.</p><div class=\"rd__spc-inline-post\"></div></div><div class=\"rd__spc-inline-post\"></div></div>",
+          "quantity": 1,
+          "combinedLabel": "Scroll",
+          "attunementLabel": ""
+        },
+        {
+          "name": "Spell Scroll: Contact Other Plane",
+          "section": "physical-items",
+          "description": "<div class=\"rd__b  rd__b--3\"><p>You mentally contact a demigod, the spirit of a long-dead sage, or some other mysterious entity from another plane. Contacting this extraplanar intelligence can strain or even break your mind. When you cast this spell, make a [[/save ability=intelligence dc=15]] saving throw. On a failure, you take [[/damage 6d6 type=psychic]] damage and are insane until you finish a long rest. While insane, you can't take actions, can't understand what other creatures say, can't read, and speak only in gibberish. A Greater Restoration spell cast on you ends this effect.</p><p>On a successful save, you can ask the entity up to five questions. You must ask your questions before the spell ends. The DM answers each question with one word, such as \"yes,\" \"no,\" \"maybe,\" \"never,\" \"irrelevant,\" or \"unclear\" (if the entity doesn't know the answer to the question). If a one-word answer would be misleading, the DM might instead offer a short phrase as an answer.</p></div>",
+          "quantity": 1,
+          "combinedLabel": "Scroll",
+          "attunementLabel": ""
+        },
+        {
+          "name": "Spell Scroll: Telekinesis",
+          "section": "physical-items",
+          "description": "<div class=\"rd__b  rd__b--3\"><p>You gain the ability to move or manipulate creatures or objects by thought. When you cast the spell, and as your action each round for the duration, you can exert your will on one creature or object that you can see within range, causing the appropriate effect below. You can affect the same target round after round, or choose a new one at any time. If you switch targets, the prior target is no longer affected by the spell.</p><p></p><p><span class=\"entry-title-inner\"><strong>Creature</strong></span></p><div class=\"rd__spc-inline-post\"><p>You can try to move a Huge or smaller creature. Make an ability check with your spellcasting ability contested by the creature's Strength check. If you win the contest, you move the creature up to 30 feet in any direction, including upward but not beyond the range of this spell. Until the end of your next turn, the creature is &amp;Reference[condition=restrained] in your telekinetic grip. A creature lifted upward is suspended in mid-air.</p><p>On subsequent rounds, you can use your action to attempt to maintain your telekinetic grip on the creature by repeating the contest.</p><p></p><p><span class=\"entry-title-inner\"><strong>Object</strong></span></p><p>You can try to move an object that weighs up to 1,000 pounds. If the object isn't being worn or carried, you automatically move it up to 30 feet in any direction, but not beyond the range of this spell.</p><p>If the object is worn or carried by a creature, you must make an ability check with your spellcasting ability contested by that creature's Strength check. If you succeed, you pull the object away from that creature and can move it up to 30 feet in any direction but not beyond the range of this spell.</p><p>You can exert fine control on objects with your telekinetic grip, such as manipulating a simple tool, opening a door or a container, stowing or retrieving an item from an open container, or pouring the contents from a vial.</p></div></div>",
+          "quantity": 1,
+          "combinedLabel": "Scroll",
+          "attunementLabel": ""
+        },
+        {
+          "name": "Spell Scroll: Otiluke's Resilient Sphere",
+          "section": "physical-items",
+          "description": "<div class=\"rd__b  rd__b--3\"><p>A sphere of shimmering force encloses a creature or object of Large size or smaller within range. An unwilling creature must make a Dexterity saving throw. On a failed save, the creature is enclosed for the duration.</p><p>Nothing—not physical objects, energy, or other spell effects—can pass through the barrier, in or out, though a creature in the sphere can breathe there. The sphere is immune to all damage, and a creature or object inside can't be damaged by attacks or effects originating from outside, nor can a creature inside the sphere damage anything outside it.</p><p>The sphere is weightless and just large enough to contain the creature or object inside. An enclosed creature can use its action to push against the sphere's walls and thus roll the sphere at up to half the creature's speed. Similarly, the globe can be picked up and moved by other creatures.</p><p>A disintegrate<span class=\"bold\" data-plut-hover=\"true\" data-plut-hover-page=\"spells.html\" data-plut-hover-source=\"PHB\" data-plut-hover-hash=\"disintegrate_phb\"> </span>spell targeting the globe destroys it without harming anything inside it.</p></div>",
+          "quantity": 1,
+          "combinedLabel": "Scroll",
+          "attunementLabel": ""
+        },
+        {
+          "name": "Spell Scroll: Tongues",
+          "section": "physical-items",
+          "description": "<div class=\"rd__b  rd__b--3\"><p>This spell grants the creature you touch the ability to understand any spoken language it hears. Moreover, when the target speaks, any creature that knows at least one language and can hear the target understands what it says.</p></div>",
+          "quantity": 1,
+          "combinedLabel": "Scroll",
+          "attunementLabel": ""
+        },
+        {
+          "name": "Spell Scroll: Revivify",
+          "section": "physical-items",
+          "description": "<div class=\"rd__b  rd__b--3\"><p>You touch a creature that has died within the last minute. That creature returns to life with 1 hit point. This spell can't return to life a creature that has died of old age, nor can it restore any missing body parts.</p></div>",
+          "quantity": 1,
+          "combinedLabel": "Scroll",
+          "attunementLabel": ""
+        },
+        {
+          "name": "Spell Scroll: Major Image",
+          "section": "physical-items",
+          "description": "<div class=\"rd__b  rd__b--3\"><p>You create the image of an object, a creature, or some other visible phenomenon that is no larger than a 20-foot cube. The image appears at a spot that you can see within range and lasts for the duration. It seems completely real, including sounds, smells, and temperature appropriate to the thing depicted. You can't create sufficient heat or cold to cause damage, a sound loud enough to deal thunder damage or deafen a creature, or a smell that might sicken a creature (like a troglodyte's stench).</p><p>As long as you are within range of the illusion, you can use your action to cause the image to move to any other spot within range. As the image changes location, you can alter its appearance so that its movements appear natural for the image. For example, if you create an image of a creature and move it, you can alter the image so that it appears to be walking. Similarly, you can cause the illusion to make different sounds at different times, even making it carry on a conversation, for example.</p><p>Physical interaction with the image reveals it to be an illusion, because things can pass through it. A creature that uses its action to examine the image can determine that it is an illusion with a successful [[/skill inv]] check against your spell save DC. If a creature discerns the illusion for what it is, the creature can see through the image, and its other sensory qualities become faint to the creature.</p></div><div class=\"rd__b  rd__b--3\"><div data-roll-name-ancestor=\"At Higher Levels\" class=\"rd__b  rd__b--3\"><p><span class=\"entry-title-inner\"><strong>At Higher Levels</strong></span></p><p>When you cast this spell using a spell slot of 6th level or higher, the spell lasts until dispelled, without requiring your concentration.</p></div></div>",
+          "quantity": 1,
+          "combinedLabel": "Scroll",
+          "attunementLabel": ""
+        },
+        {
+          "name": "Spell Scroll: Darkness",
+          "section": "physical-items",
+          "description": "<div class=\"rd__b  rd__b--3\"><p>Magical darkness spreads from a point you choose within range to fill a 15-foot-radius sphere for the duration. The darkness spreads around corners. A creature with <span class=\"reference-link\"><a class=\"content-link\" draggable=\"true\" data-link data-uuid=\"Compendium.dnd5e.rules.JournalEntry.NizgRXLNUqtdlC1s.JournalEntryPage.ldmA1PbnEGVkmE11\" data-id=\"ldmA1PbnEGVkmE11\" data-type=\"JournalEntryPage\" data-pack=\"dnd5e.rules\" data-tooltip=\"Rule Page\"><i class=\"fas fa-book-open\"></i>Darkvision</a></span> can't see through this darkness, and nonmagical light can't illuminate it.</p><p>If the point you choose is on an object you are holding or one that isn't being worn or carried, the darkness emanates from the object and moves with it. Completely covering the source of the darkness with an opaque object, such as a bowl or a helm, blocks the darkness.</p><p>If any of this spell's area overlaps with an area of light created by a spell of 2nd level or lower, the spell that created the light is dispelled.</p></div>",
+          "quantity": 1,
+          "combinedLabel": "Scroll",
+          "attunementLabel": ""
+        },
+        {
+          "name": "Spell Scroll: Detect Thoughts",
+          "section": "physical-items",
+          "description": "<p>For the duration, you can read the thoughts of certain creatures. When you cast the spell and as your action on each turn until the spell ends, you can focus your mind on any one creature that you can see within 30 feet of you. If the creature you choose has an Intelligence of 3 or lower or doesn't speak any language, the creature is unaffected.</p><p>You initially learn the surface thoughts of the creature—what is most on its mind in that moment. As an action, you can either shift your attention to another creature's thoughts or attempt to probe deeper into the same creature's mind. If you probe deeper, the target must make a Wisdom saving throw. If it fails, you gain insight into its reasoning (if any), its emotional state, and something that looms large in its mind (such as something it worries over, loves, or hates). If it succeeds, the spell ends. Either way, the target knows that you are probing into its mind, and unless you shift your attention to another creature's thoughts, the creature can use its action on its turn to make an Intelligence check contested by your Intelligence check; if it succeeds, the spell ends.</p><p>Questions verbally directed at the target creature naturally shape the course of its thoughts, so this spell is particularly effective as part of an interrogation.</p><p>You can also use this spell to detect the presence of thinking creatures you can't see. When you cast the spell or as your action during the duration, you can search for thoughts within 30 feet of you. The spell can penetrate barriers, but 2 feet of rock, 2 inches of any metal other than lead, or a thin sheet of lead blocks you. You can't detect a creature with an Intelligence of 3 or lower or one that doesn't speak any language.</p><p>Once you detect the presence of a creature in this way, you can read its thoughts for the rest of the duration as described above, even if you can't see it, but it must still be within range.</p>",
+          "quantity": 1,
+          "combinedLabel": "Scroll",
+          "attunementLabel": ""
+        },
+        {
+          "name": "Spell Scroll: Immovable Object",
+          "section": "physical-items",
+          "description": "<div class=\"rd__b  rd__b--3\"><p>You touch an object that weighs no more than 10 pounds and cause it to become magically fixed in place. You and the creatures you designate when you cast this spell can move the object normally. You can also set a password that, when spoken within 5 feet of the object, suppresses this spell for 1 minute.</p><div class=\"rd__spc-inline-post\"><p></p></div><p>If the object is fixed in the air, it can hold up to 4,000 pounds of weight. More weight causes the object to fall. Otherwise, a creature can use an action to make a Strength check against your spell save DC. On a success, the creature can move the object up to 10 feet.</p></div><div class=\"rd__b  rd__b--3\"><div class=\"rd__b  rd__b--3\"><p><span class=\"entry-title-inner\"><strong>At Higher Levels</strong></span></p><p>If you cast this spell using a spell slot of 4th or 5th level, the DC to move the object increases by 5, it can carry up to 8,000 pounds of weight, and the duration increases to 24 hours. If you cast this spell using a spell slot of 6th level or higher, the DC to move the object increases by 10, it can carry up to 20,000 pounds of weight, and the effect is permanent until dispelled.</p><div class=\"rd__spc-inline-post\"><p></p></div></div><div class=\"rd__spc-inline-post\"><p></p></div></div>",
+          "quantity": 1,
+          "combinedLabel": "Scroll",
+          "attunementLabel": ""
+        },
+        {
+          "name": "Spell Scroll: Knock",
+          "section": "physical-items",
+          "description": "<div class=\"rd__b  rd__b--3\"><p>Choose an object that you can see within range. The object can be a door, a box, a chest, a set of manacles, a padlock, or another object that contains a mundane or magical means that prevents access.</p><p>A target that is held shut by a mundane lock or that is stuck or barred becomes unlocked, unstuck, or unbarred. If the object has multiple locks, only one of them is unlocked.</p><p>If you choose a target that is held shut with Arcane Lock, that spell is suppressed for 10 minutes, during which time the target can be opened and shut normally.</p><p>When you cast the spell, a loud knock, audible from as far away as 300 feet, emanates from the target object.</p></div>",
+          "quantity": 1,
+          "combinedLabel": "Scroll",
+          "attunementLabel": ""
+        },
+        {
+          "name": "Spell Scroll: Spiritual Weapon",
+          "section": "physical-items",
+          "description": "<div class=\"rd__b  rd__b--3\"><p>You create a floating, spectral weapon that lasts for the duration or until you cast this spell again. When you cast the spell, you can make a melee spell attack against a creature within range. On a hit, the target takes force damage equal to [[/r 1d8]] + your spellcasting ability modifier.</p><p>For as long as the spectral weapon is summoned you can, as a bonus action on your turn, repeat the attack against a creature within range.</p><p>The weapon can take whatever form you choose. Clerics of deities who are associated with a particular weapon (as St. Cuthbert is known for his mace and Thor for his hammer) make this spell's effect resemble that weapon.</p></div><div class=\"rd__b  rd__b--3\"><div class=\"rd__b  rd__b--3\"><p><span class=\"entry-title-inner\"><strong>At Higher Levels</strong></span></p><p>When you cast this spell using a spell slot of 3rd level or higher, the damage increases by [[/r 1d8]] for every two slot levels above 2nd.</p><div class=\"rd__spc-inline-post\"><p></p></div></div><div class=\"rd__spc-inline-post\"><p></p></div></div>",
+          "quantity": 1,
+          "combinedLabel": "Scroll",
+          "attunementLabel": ""
+        },
+        {
+          "name": "Spell Scroll: See Invisibility",
+          "section": "physical-items",
+          "description": "<div class=\"rd__b  rd__b--3\"><p>For the duration, you see &amp;Reference[condition=invisible] creatures and objects as if they were visible, and you can see into the Ethereal Plane. Ethereal creatures and objects appear ghostly and translucent.</p></div>",
+          "quantity": 1,
+          "combinedLabel": "Scroll",
+          "attunementLabel": ""
+        },
+        {
+          "name": "Spell Scroll: Silence",
+          "section": "physical-items",
+          "description": "<div class=\"rd__b  rd__b--3\"><p>For the duration, no sound can be created within or pass through a 20-foot-radius sphere centered on a point you choose within range. Any creature or object entirely inside the sphere is immune to thunder damage, and creatures are <span class=\"reference-link\"><a class=\"content-link\" draggable=\"true\" data-link data-uuid=\"Compendium.dnd5e.rules.JournalEntry.w7eitkpD7QQTB6j0.JournalEntryPage.6G8JSjhn701cBITY\" data-id=\"6G8JSjhn701cBITY\" data-type=\"JournalEntryPage\" data-pack=\"dnd5e.rules\" data-tooltip=\"Rule Page\"><i class=\"fas fa-book-open\"></i>Deafened</a><a class=\"enricher-action\" data-action=\"apply\" data-status=\"deafened\" data-tooltip=\"EDITOR.DND5E.Inline.ApplyStatus\" aria-label=\"Apply Status to Selected Tokens\"><i class=\"fas fa-fw fa-reply-all fa-flip-horizontal\"></i></a></span> while entirely inside it. Casting a spell that includes a verbal component is impossible there.</p></div>",
+          "quantity": 1,
+          "combinedLabel": "Scroll",
+          "attunementLabel": ""
+        },
+        {
+          "name": "Spell Scroll: Aganazzar's Scorcher",
+          "section": "physical-items",
+          "description": "<div class=\"rd__b  rd__b--3\"><p>A line of roaring flame 30 feet long and 5 feet wide emanates from you in a direction you choose. Each creature in the line must make a Dexterity saving throw. A creature takes [[/damage 3d8 type=fire]] damage on a failed save, or half as much damage on a successful one.</p></div><div class=\"rd__b  rd__b--3\"><div data-roll-name-ancestor=\"At Higher Levels\" class=\"rd__b  rd__b--3\"><span class=\"rd__h rd__h--3\" data-title-index=\"1\"> <span class=\"entry-title-inner\">At Higher Levels.</span></span> <p>When you cast this spell using a spell slot of 3rd level or higher, the damage increases by [[/damage 1d8]] for each slot level above 2nd.</p></div></div>",
+          "quantity": 1,
+          "combinedLabel": "Scroll",
+          "attunementLabel": ""
+        },
+        {
+          "name": "Spell Scroll: Hellish Rebuke",
+          "section": "physical-items",
+          "description": "<div class=\"rd__b  rd__b--3\"><p>You point your finger, and the creature that damaged you is momentarily surrounded by hellish flames. The creature must make a Dexterity saving throw. It takes <span class=\"roller render-roller\" title=\"Click to roll. SHIFT to roll a critical hit, CTRL to half damage (rounding down).\" data-packed-dice=\"{&quot;type&quot;:&quot;dice&quot;,&quot;rollable&quot;:true,&quot;toRoll&quot;:&quot;2d10&quot;,&quot;displayText&quot;:&quot;2d10&quot;,&quot;subType&quot;:&quot;damage&quot;}\">2d10</span> fire damage on a failed save, or half as much damage on a successful one.</p><div class=\"rd__spc-inline-post\"></div></div><div class=\"rd__b  rd__b--3\"><div class=\"rd__b  rd__b--3\"><span class=\"rd__h rd__h--3\" data-title-index=\"1\"> <span class=\"entry-title-inner\">At Higher Levels.</span></span> <p>When you cast this spell using a spell slot of 2nd level or higher, the damage increases by <span class=\"roller render-roller\" title=\"Click to roll. SHIFT to roll a critical hit, CTRL to half damage (rounding down).\" data-packed-dice=\"{&quot;type&quot;:&quot;dice&quot;,&quot;rollable&quot;:true,&quot;toRoll&quot;:&quot;2d10&quot;,&quot;displayText&quot;:&quot;1d10&quot;,&quot;prompt&quot;:{&quot;entry&quot;:&quot;Cast at...&quot;,&quot;options&quot;:{&quot;1&quot;:&quot;&quot;,&quot;2&quot;:&quot;1d10&quot;,&quot;3&quot;:&quot;2d10&quot;,&quot;4&quot;:&quot;3d10&quot;,&quot;5&quot;:&quot;4d10&quot;,&quot;6&quot;:&quot;5d10&quot;,&quot;7&quot;:&quot;6d10&quot;,&quot;8&quot;:&quot;7d10&quot;,&quot;9&quot;:&quot;8d10&quot;}},&quot;subType&quot;:&quot;damage&quot;}\">1d10</span> for each slot level above 1st.</p><div class=\"rd__spc-inline-post\"></div></div><div class=\"rd__spc-inline-post\"></div></div>",
+          "quantity": 1,
+          "combinedLabel": "Scroll",
+          "attunementLabel": ""
+        },
+        {
+          "name": "Spell Scroll: Silent Image",
+          "section": "physical-items",
+          "description": "<div class=\"rd__b  rd__b--3\"><p>You create the image of an object, a creature, or some other visible phenomenon that is no larger than a 15-foot cube. The image appears at a spot within range and lasts for the duration. The image is purely visual; it isn't accompanied by sound, smell, or other sensory effects.</p><p>You can use your action to cause the image to move to any spot within range. As the image changes location, you can alter its appearance so that its movements appear natural for the image. For example, if you create an image of a creature and move it, you can alter the image so that it appears to be walking.</p><p>Physical interaction with the image reveals it to be an illusion, because things can pass through it. A creature that uses its action to examine the image can determine that it is an illusion with a successful [[/skill inv]] check against your spell save DC. If a creature discerns the illusion for what it is, the creature can see through the image.</p></div>",
+          "quantity": 1,
+          "combinedLabel": "Scroll",
+          "attunementLabel": ""
+        },
+        {
+          "name": "Spell Scroll: Longstrider",
+          "section": "physical-items",
+          "description": "<div class=\"rd__b  rd__b--3\"><p>You touch a creature. The target's speed increases by 10 feet until the spell ends.</p></div><div class=\"rd__b  rd__b--3\"><div data-roll-name-ancestor=\"At Higher Levels\" class=\"rd__b  rd__b--3\"><span class=\"rd__h rd__h--3\" data-title-index=\"1\"> <span class=\"entry-title-inner\">At Higher Levels.</span></span> <p>When you cast this spell using a spell slot of 2nd level or higher, you can target one additional creature for each slot level above 1st.</p></div></div>",
+          "quantity": 1,
+          "combinedLabel": "Scroll",
+          "attunementLabel": ""
+        },
+        {
+          "name": "Mordenkainen's Magnificent Mansion",
+          "section": "spell-items",
+          "description": "<div class=\"rd__b  rd__b--3\"><p>You conjure an extradimensional dwelling in range that lasts for the duration. You choose where its one entrance is located. The entrance shimmers faintly and is 5 feet wide and 10 feet tall. You and any creature you designate when you cast the spell can enter the extradimensional dwelling as long as the portal remains open. You can open or close the portal if you are within 30 feet of it. While closed, the portal is invisible.</p><p>Beyond the portal is a magnificent foyer with numerous chambers beyond. The atmosphere is clean, fresh, and warm.</p><p>You can create any floor plan you like, but the space can't exceed 50 cubes, each cube being 10 feet on each side. The place is furnished and decorated as you choose. It contains sufficient food to serve a nine course banquet for up to 100 people. A staff of 100 near-transparent servants attends all who enter. You decide the visual appearance of these servants and their attire. They are completely obedient to your orders. Each servant can perform any task a normal human servant could perform, but they can't attack or take any action that would directly harm another creature. Thus the servants can fetch things, clean, mend, fold clothes, light fires, serve food, pour wine, and so on. The servants can go anywhere in the mansion but can't leave it. Furnishings and other objects created by this spell dissipate into smoke if removed from the mansion. When the spell ends, any creatures or objects left inside the extradimensional space are expelled into the open spaces nearest to the entrance.</p></div>",
+          "spellLevel": "7th Level",
+          "spellRange": "300 ft",
+          "spellSchool": "Conjuration"
+        },
+        {
+          "name": "Plane Shift",
+          "section": "spell-items",
+          "description": "<div class=\"rd__b  rd__b--3\"><p>You and up to eight willing creatures who link hands in a circle are transported to a different plane of existence. You can specify a target destination in general terms, such as the City of Brass on the Elemental Plane of Fire or the palace of Dispater on the second level of the Nine Hells, and you appear in or near that destination. If you are trying to reach the City of Brass, for example, you might arrive in its Street of Steel, before its Gate of Ashes, or looking at the city from across the Sea of Fire, at the DM's discretion.</p><p>Alternatively, if you know the sigil sequence of a teleportation circle on another plane of existence, this spell can take you to that circle. If the teleportation circle is too small to hold all the creatures you transported, they appear in the closest unoccupied spaces next to the circle.</p><p>You can use this spell to banish an unwilling creature to another plane. Choose a creature within your reach and make a melee spell attack against it. On a hit, the creature must make a Charisma saving throw. If the creature fails this save, it is transported to a random location on the plane of existence you specify. A creature so transported must find its own way back to your current plane of existence.</p></div>",
+          "spellLevel": "7th Level",
+          "spellRange": "Touch",
+          "spellSchool": "Conjuration"
+        },
+        {
+          "name": "Arcane Gate",
+          "section": "spell-items",
+          "description": "<div class=\"rd__b  rd__b--3\"><p>You create linked teleportation portals that remain open for the duration. Choose two points on the ground that you can see, one point within 10 feet of you and one point within 500 feet of you. A circular portal, 10 feet in diameter, opens over each point. If the portal would open in the space occupied by a creature, the spell fails, and the casting is lost.</p><div class=\"rd__spc-inline-post\"></div><p>The portals are two-dimensional glowing rings filled with mist, hovering inches from the ground and perpendicular to it at the points you choose. A ring is visible only from one side (your choice), which is the side that functions as a portal.</p><p>Any creature or object entering the portal exits from the other portal as if the two were adjacent to each other; passing through a portal from the nonportal side has no effect. The mist that fills each portal is opaque and blocks vision through it. On your turn, you can rotate the rings as a bonus action so that the active side faces in a different direction.</p></div>",
+          "spellLevel": "6th Level",
+          "spellRange": "500 ft",
+          "spellSchool": "Conjuration"
+        },
+        {
+          "name": "Spell Scroll: Arcane Gate",
+          "section": "physical-items",
+          "description": "<div class=\"rd__b  rd__b--3\"><p>You create linked teleportation portals that remain open for the duration. Choose two points on the ground that you can see, one point within 10 feet of you and one point within 500 feet of you. A circular portal, 10 feet in diameter, opens over each point. If the portal would open in the space occupied by a creature, the spell fails, and the casting is lost.</p><div class=\"rd__spc-inline-post\"></div><p>The portals are two-dimensional glowing rings filled with mist, hovering inches from the ground and perpendicular to it at the points you choose. A ring is visible only from one side (your choice), which is the side that functions as a portal.</p><p>Any creature or object entering the portal exits from the other portal as if the two were adjacent to each other; passing through a portal from the nonportal side has no effect. The mist that fills each portal is opaque and blocks vision through it. On your turn, you can rotate the rings as a bonus action so that the active side faces in a different direction.</p></div>",
+          "quantity": 1,
+          "combinedLabel": "Scroll",
+          "attunementLabel": ""
+        },
+        {
+          "name": "Disintegrate",
+          "section": "spell-items",
+          "description": "<div class=\"rd__b  rd__b--3\"><p>A thin green ray springs from your pointing finger to a target that you can see within range. The target can be a creature, an object, or a creation of magical force, such as the wall created by Wall of Force.</p><p>A creature targeted by this spell must make a Dexterity saving throw. On a failed save, the target takes [[/damage 10d6 + 40 type=force]] damage. The target is disintegrated if this damage leaves it with 0 hit points.</p><p>A disintegrated creature and everything it is wearing and carrying, except magic items, are reduced to a pile of fine gray dust. The creature can be restored to life only by means of a True Resurrection<span class=\"bold\" data-plut-hover=\"true\" data-plut-hover-page=\"spells.html\" data-plut-hover-source=\"PHB\" data-plut-hover-hash=\"true%20resurrection_phb\"> </span>or a Wish<span class=\"bold\" data-plut-hover=\"true\" data-plut-hover-page=\"spells.html\" data-plut-hover-source=\"PHB\" data-plut-hover-hash=\"wish_phb\"> </span>spell.</p><p>This spell automatically disintegrates a Large or smaller nonmagical object or a creation of magical force. If the target is a Huge or larger object or creation of force, this spell disintegrates a 10-foot-cube portion of it. A magic item is unaffected by this spell.</p></div><div class=\"rd__b  rd__b--3\"><div data-roll-name-ancestor=\"At Higher Levels\" class=\"rd__b  rd__b--3\"><p><span class=\"entry-title-inner\"><strong>At Higher Levels</strong></span></p><p>When you cast this spell using a spell slot of 7th level or higher, the damage increases by [[/damage 3d6]] for each slot level above 6th.</p></div></div>",
+          "spellLevel": "6th Level",
+          "spellRange": "60 ft",
+          "spellSchool": "Transmutation"
+        },
+        {
+          "name": "Mental Prison",
+          "section": "spell-items",
+          "description": "<div class=\"rd__b  rd__b--3\"><p>You attempt to bind a creature within an illusory cell that only it perceives. One creature you can see within range must make an Intelligence saving throw. The target succeeds automatically if it is immune to being &amp;Reference[condition=charmed].</p><p>On a successful save, the target takes [[/damage 5d10 type=psychic]] damage, and the spell ends. On a failed save, the target takes [[/damage 5d10 type=psychic]] damage, and you make the area immediately around the target's space appear dangerous to it in some way. You might cause the target to perceive itself as being surrounded by fire, floating razors, or hideous maws filled with dripping teeth. Whatever form the illusion takes, the target is &amp;Reference[blinded] and &amp;Reference[deafened] to anything beyond it and is &amp;Reference[restrained] for the spell's duration. If the target is moved out of the illusion, makes a melee attack through it, or reaches any part of its body through it, the target takes [[/damage 10d10 type=psychic]] damage, and the spell ends.</p></div>",
+          "spellLevel": "6th Level",
+          "spellRange": "60 ft",
+          "spellSchool": "Illusion"
+        },
+        {
+          "name": "Cone of Cold",
+          "section": "spell-items",
+          "description": "<div class=\"rd__b  rd__b--3\"><p>A blast of cold air erupts from your hands. Each creature in a 60-foot cone must make a Constitution saving throw. A creature takes [[/damage 8d8 type=cold]] damage on a failed save, or half as much damage on a successful one.</p><div class=\"rd__spc-inline-post\"></div><p>A creature killed by this spell becomes a frozen statue until it thaws.</p></div><div class=\"rd__b  rd__b--3\"><div class=\"rd__b  rd__b--3\"><span class=\"rd__h rd__h--3\" data-title-index=\"1\"> <span class=\"entry-title-inner\">At Higher Levels.</span></span> <p>When you cast this spell using a spell slot of 6th level or higher, the damage increases by [[/damage 1d8]] for each slot level above 5th.</p><div class=\"rd__spc-inline-post\"></div></div><div class=\"rd__spc-inline-post\"></div></div>",
+          "spellLevel": "5th Level",
+          "spellRange": "None",
+          "spellSchool": "Evocation"
+        },
+        {
+          "name": "Contact Other Plane",
+          "section": "spell-items",
+          "description": "<div class=\"rd__b  rd__b--3\"><p>You mentally contact a demigod, the spirit of a long-dead sage, or some other mysterious entity from another plane. Contacting this extraplanar intelligence can strain or even break your mind. When you cast this spell, make a [[/save ability=intelligence dc=15]] saving throw. On a failure, you take [[/damage 6d6 type=psychic]] damage and are insane until you finish a long rest. While insane, you can't take actions, can't understand what other creatures say, can't read, and speak only in gibberish. A Greater Restoration spell cast on you ends this effect.</p><p>On a successful save, you can ask the entity up to five questions. You must ask your questions before the spell ends. The DM answers each question with one word, such as \"yes,\" \"no,\" \"maybe,\" \"never,\" \"irrelevant,\" or \"unclear\" (if the entity doesn't know the answer to the question). If a one-word answer would be misleading, the DM might instead offer a short phrase as an answer.</p></div>",
+          "spellLevel": "5th Level",
+          "spellRange": "Self",
+          "spellSchool": "Divination"
+        },
+        {
+          "name": "Telekinesis",
+          "section": "spell-items",
+          "description": "<div class=\"rd__b  rd__b--3\"><p>You gain the ability to move or manipulate creatures or objects by thought. When you cast the spell, and as your action each round for the duration, you can exert your will on one creature or object that you can see within range, causing the appropriate effect below. You can affect the same target round after round, or choose a new one at any time. If you switch targets, the prior target is no longer affected by the spell.</p><p></p><p><span class=\"entry-title-inner\"><strong>Creature</strong></span></p><div class=\"rd__spc-inline-post\"><p>You can try to move a Huge or smaller creature. Make an ability check with your spellcasting ability contested by the creature's Strength check. If you win the contest, you move the creature up to 30 feet in any direction, including upward but not beyond the range of this spell. Until the end of your next turn, the creature is &amp;Reference[condition=restrained] in your telekinetic grip. A creature lifted upward is suspended in mid-air.</p><p>On subsequent rounds, you can use your action to attempt to maintain your telekinetic grip on the creature by repeating the contest.</p><p></p><p><span class=\"entry-title-inner\"><strong>Object</strong></span></p><p>You can try to move an object that weighs up to 1,000 pounds. If the object isn't being worn or carried, you automatically move it up to 30 feet in any direction, but not beyond the range of this spell.</p><p>If the object is worn or carried by a creature, you must make an ability check with your spellcasting ability contested by that creature's Strength check. If you succeed, you pull the object away from that creature and can move it up to 30 feet in any direction but not beyond the range of this spell.</p><p>You can exert fine control on objects with your telekinetic grip, such as manipulating a simple tool, opening a door or a container, stowing or retrieving an item from an open container, or pouring the contents from a vial.</p></div></div>",
+          "spellLevel": "5th Level",
+          "spellRange": "60 ft",
+          "spellSchool": "Transmutation"
+        },
+        {
+          "name": "Otiluke's Resilient Sphere",
+          "section": "spell-items",
+          "description": "<div class=\"rd__b  rd__b--3\"><p>A sphere of shimmering force encloses a creature or object of Large size or smaller within range. An unwilling creature must make a Dexterity saving throw. On a failed save, the creature is enclosed for the duration.</p><p>Nothing—not physical objects, energy, or other spell effects—can pass through the barrier, in or out, though a creature in the sphere can breathe there. The sphere is immune to all damage, and a creature or object inside can't be damaged by attacks or effects originating from outside, nor can a creature inside the sphere damage anything outside it.</p><p>The sphere is weightless and just large enough to contain the creature or object inside. An enclosed creature can use its action to push against the sphere's walls and thus roll the sphere at up to half the creature's speed. Similarly, the globe can be picked up and moved by other creatures.</p><p>A disintegrate<span class=\"bold\" data-plut-hover=\"true\" data-plut-hover-page=\"spells.html\" data-plut-hover-source=\"PHB\" data-plut-hover-hash=\"disintegrate_phb\"> </span>spell targeting the globe destroys it without harming anything inside it.</p></div>",
+          "spellLevel": "4th Level",
+          "spellRange": "30 ft",
+          "spellSchool": "Evocation"
+        },
+        {
+          "name": "Death Ward",
+          "section": "spell-items",
+          "description": "<p>You touch a creature and grant it a measure of protection from death.</p><p>The first time the target would drop to 0 hit points as a result of taking damage, the target instead drops to 1 hit point, and the spell ends.</p><p>If the spell is still in effect when the target is subjected to an effect that would kill it instantaneously without dealing damage, that effect is instead negated against the target, and the spell ends.</p>",
+          "spellLevel": "4th Level",
+          "spellRange": "Touch",
+          "spellSchool": "Abjuration"
+        },
+        {
+          "name": "Tongues",
+          "section": "spell-items",
+          "description": "<div class=\"rd__b  rd__b--3\"><p>This spell grants the creature you touch the ability to understand any spoken language it hears. Moreover, when the target speaks, any creature that knows at least one language and can hear the target understands what it says.</p></div>",
+          "spellLevel": "3rd Level",
+          "spellRange": "Touch",
+          "spellSchool": "Divination"
+        },
+        {
+          "name": "Revivify",
+          "section": "spell-items",
+          "description": "<div class=\"rd__b  rd__b--3\"><p>You touch a creature that has died within the last minute. That creature returns to life with 1 hit point. This spell can't return to life a creature that has died of old age, nor can it restore any missing body parts.</p></div>",
+          "spellLevel": "3rd Level",
+          "spellRange": "Touch",
+          "spellSchool": "Necromancy"
+        },
+        {
+          "name": "Major Image",
+          "section": "spell-items",
+          "description": "<div class=\"rd__b  rd__b--3\"><p>You create the image of an object, a creature, or some other visible phenomenon that is no larger than a 20-foot cube. The image appears at a spot that you can see within range and lasts for the duration. It seems completely real, including sounds, smells, and temperature appropriate to the thing depicted. You can't create sufficient heat or cold to cause damage, a sound loud enough to deal thunder damage or deafen a creature, or a smell that might sicken a creature (like a troglodyte's stench).</p><p>As long as you are within range of the illusion, you can use your action to cause the image to move to any other spot within range. As the image changes location, you can alter its appearance so that its movements appear natural for the image. For example, if you create an image of a creature and move it, you can alter the image so that it appears to be walking. Similarly, you can cause the illusion to make different sounds at different times, even making it carry on a conversation, for example.</p><p>Physical interaction with the image reveals it to be an illusion, because things can pass through it. A creature that uses its action to examine the image can determine that it is an illusion with a successful [[/skill inv]] check against your spell save DC. If a creature discerns the illusion for what it is, the creature can see through the image, and its other sensory qualities become faint to the creature.</p></div><div class=\"rd__b  rd__b--3\"><div data-roll-name-ancestor=\"At Higher Levels\" class=\"rd__b  rd__b--3\"><p><span class=\"entry-title-inner\"><strong>At Higher Levels</strong></span></p><p>When you cast this spell using a spell slot of 6th level or higher, the spell lasts until dispelled, without requiring your concentration.</p></div></div>",
+          "spellLevel": "3rd Level",
+          "spellRange": "120 ft",
+          "spellSchool": "Illusion"
+        },
+        {
+          "name": "Darkness",
+          "section": "spell-items",
+          "description": "<div class=\"rd__b  rd__b--3\"><p>Magical darkness spreads from a point you choose within range to fill a 15-foot-radius sphere for the duration. The darkness spreads around corners. A creature with <span class=\"reference-link\"><a class=\"content-link\" draggable=\"true\" data-link data-uuid=\"Compendium.dnd5e.rules.JournalEntry.NizgRXLNUqtdlC1s.JournalEntryPage.ldmA1PbnEGVkmE11\" data-id=\"ldmA1PbnEGVkmE11\" data-type=\"JournalEntryPage\" data-pack=\"dnd5e.rules\" data-tooltip=\"Rule Page\"><i class=\"fas fa-book-open\"></i>Darkvision</a></span> can't see through this darkness, and nonmagical light can't illuminate it.</p><p>If the point you choose is on an object you are holding or one that isn't being worn or carried, the darkness emanates from the object and moves with it. Completely covering the source of the darkness with an opaque object, such as a bowl or a helm, blocks the darkness.</p><p>If any of this spell's area overlaps with an area of light created by a spell of 2nd level or lower, the spell that created the light is dispelled.</p></div>",
+          "spellLevel": "2nd Level",
+          "spellRange": "60 ft",
+          "spellSchool": "Evocation"
+        },
+        {
+          "name": "Detect Thoughts",
+          "section": "spell-items",
+          "description": "<p>For the duration, you can read the thoughts of certain creatures. When you cast the spell and as your action on each turn until the spell ends, you can focus your mind on any one creature that you can see within 30 feet of you. If the creature you choose has an Intelligence of 3 or lower or doesn't speak any language, the creature is unaffected.</p><p>You initially learn the surface thoughts of the creature—what is most on its mind in that moment. As an action, you can either shift your attention to another creature's thoughts or attempt to probe deeper into the same creature's mind. If you probe deeper, the target must make a Wisdom saving throw. If it fails, you gain insight into its reasoning (if any), its emotional state, and something that looms large in its mind (such as something it worries over, loves, or hates). If it succeeds, the spell ends. Either way, the target knows that you are probing into its mind, and unless you shift your attention to another creature's thoughts, the creature can use its action on its turn to make an Intelligence check contested by your Intelligence check; if it succeeds, the spell ends.</p><p>Questions verbally directed at the target creature naturally shape the course of its thoughts, so this spell is particularly effective as part of an interrogation.</p><p>You can also use this spell to detect the presence of thinking creatures you can't see. When you cast the spell or as your action during the duration, you can search for thoughts within 30 feet of you. The spell can penetrate barriers, but 2 feet of rock, 2 inches of any metal other than lead, or a thin sheet of lead blocks you. You can't detect a creature with an Intelligence of 3 or lower or one that doesn't speak any language.</p><p>Once you detect the presence of a creature in this way, you can read its thoughts for the rest of the duration as described above, even if you can't see it, but it must still be within range.</p>",
+          "spellLevel": "2nd Level",
+          "spellRange": "30 ft",
+          "spellSchool": "Divination"
+        },
+        {
+          "name": "Immovable Object",
+          "section": "spell-items",
+          "description": "<div class=\"rd__b  rd__b--3\"><p>You touch an object that weighs no more than 10 pounds and cause it to become magically fixed in place. You and the creatures you designate when you cast this spell can move the object normally. You can also set a password that, when spoken within 5 feet of the object, suppresses this spell for 1 minute.</p><div class=\"rd__spc-inline-post\"><p></p></div><p>If the object is fixed in the air, it can hold up to 4,000 pounds of weight. More weight causes the object to fall. Otherwise, a creature can use an action to make a Strength check against your spell save DC. On a success, the creature can move the object up to 10 feet.</p></div><div class=\"rd__b  rd__b--3\"><div class=\"rd__b  rd__b--3\"><p><span class=\"entry-title-inner\"><strong>At Higher Levels</strong></span></p><p>If you cast this spell using a spell slot of 4th or 5th level, the DC to move the object increases by 5, it can carry up to 8,000 pounds of weight, and the duration increases to 24 hours. If you cast this spell using a spell slot of 6th level or higher, the DC to move the object increases by 10, it can carry up to 20,000 pounds of weight, and the effect is permanent until dispelled.</p><div class=\"rd__spc-inline-post\"><p></p></div></div><div class=\"rd__spc-inline-post\"><p></p></div></div>",
+          "spellLevel": "2nd Level",
+          "spellRange": "Touch",
+          "spellSchool": "Transmutation"
+        },
+        {
+          "name": "Knock",
+          "section": "spell-items",
+          "description": "<div class=\"rd__b  rd__b--3\"><p>Choose an object that you can see within range. The object can be a door, a box, a chest, a set of manacles, a padlock, or another object that contains a mundane or magical means that prevents access.</p><p>A target that is held shut by a mundane lock or that is stuck or barred becomes unlocked, unstuck, or unbarred. If the object has multiple locks, only one of them is unlocked.</p><p>If you choose a target that is held shut with Arcane Lock, that spell is suppressed for 10 minutes, during which time the target can be opened and shut normally.</p><p>When you cast the spell, a loud knock, audible from as far away as 300 feet, emanates from the target object.</p></div>",
+          "spellLevel": "2nd Level",
+          "spellRange": "60 ft",
+          "spellSchool": "Transmutation"
+        },
+        {
+          "name": "See Invisibility",
+          "section": "spell-items",
+          "description": "<div class=\"rd__b  rd__b--3\"><p>For the duration, you see &amp;Reference[condition=invisible] creatures and objects as if they were visible, and you can see into the Ethereal Plane. Ethereal creatures and objects appear ghostly and translucent.</p></div>",
+          "spellLevel": "2nd Level",
+          "spellRange": "Self",
+          "spellSchool": "Divination"
+        },
+        {
+          "name": "Spiritual Weapon",
+          "section": "spell-items",
+          "description": "<div class=\"rd__b  rd__b--3\"><p>You create a floating, spectral weapon that lasts for the duration or until you cast this spell again. When you cast the spell, you can make a melee spell attack against a creature within range. On a hit, the target takes force damage equal to [[/r 1d8]] + your spellcasting ability modifier.</p><p>For as long as the spectral weapon is summoned you can, as a bonus action on your turn, repeat the attack against a creature within range.</p><p>The weapon can take whatever form you choose. Clerics of deities who are associated with a particular weapon (as St. Cuthbert is known for his mace and Thor for his hammer) make this spell's effect resemble that weapon.</p></div><div class=\"rd__b  rd__b--3\"><div class=\"rd__b  rd__b--3\"><p><span class=\"entry-title-inner\"><strong>At Higher Levels</strong></span></p><p>When you cast this spell using a spell slot of 3rd level or higher, the damage increases by [[/r 1d8]] for every two slot levels above 2nd.</p><div class=\"rd__spc-inline-post\"><p></p></div></div><div class=\"rd__spc-inline-post\"><p></p></div></div>",
+          "spellLevel": "2nd Level",
+          "spellRange": "Self",
+          "spellSchool": "Evocation"
+        },
+        {
+          "name": "Silence",
+          "section": "spell-items",
+          "description": "<div class=\"rd__b  rd__b--3\"><p>For the duration, no sound can be created within or pass through a 20-foot-radius sphere centered on a point you choose within range. Any creature or object entirely inside the sphere is immune to thunder damage, and creatures are <span class=\"reference-link\"><a class=\"content-link\" draggable=\"true\" data-link data-uuid=\"Compendium.dnd5e.rules.JournalEntry.w7eitkpD7QQTB6j0.JournalEntryPage.6G8JSjhn701cBITY\" data-id=\"6G8JSjhn701cBITY\" data-type=\"JournalEntryPage\" data-pack=\"dnd5e.rules\" data-tooltip=\"Rule Page\"><i class=\"fas fa-book-open\"></i>Deafened</a><a class=\"enricher-action\" data-action=\"apply\" data-status=\"deafened\" data-tooltip=\"EDITOR.DND5E.Inline.ApplyStatus\" aria-label=\"Apply Status to Selected Tokens\"><i class=\"fas fa-fw fa-reply-all fa-flip-horizontal\"></i></a></span> while entirely inside it. Casting a spell that includes a verbal component is impossible there.</p></div>",
+          "spellLevel": "2nd Level",
+          "spellRange": "120 ft",
+          "spellSchool": "Illusion"
+        },
+        {
+          "name": "Aganazzar's Scorcher",
+          "section": "spell-items",
+          "description": "<div class=\"rd__b  rd__b--3\"><p>A line of roaring flame 30 feet long and 5 feet wide emanates from you in a direction you choose. Each creature in the line must make a Dexterity saving throw. A creature takes [[/damage 3d8 type=fire]] damage on a failed save, or half as much damage on a successful one.</p></div><div class=\"rd__b  rd__b--3\"><div data-roll-name-ancestor=\"At Higher Levels\" class=\"rd__b  rd__b--3\"><span class=\"rd__h rd__h--3\" data-title-index=\"1\"> <span class=\"entry-title-inner\">At Higher Levels.</span></span> <p>When you cast this spell using a spell slot of 3rd level or higher, the damage increases by [[/damage 1d8]] for each slot level above 2nd.</p></div></div>",
+          "spellLevel": "2nd Level",
+          "spellRange": "None",
+          "spellSchool": "Evocation"
+        },
+        {
+          "name": "Command",
+          "section": "spell-items",
+          "description": "<div class=\"rd__b  rd__b--3\"><p>You speak a one-word command to a creature you can see within range. The target must succeed on a Wisdom saving throw or follow the command on its next turn. The spell has no effect if the target is undead, if it doesn't understand your language, or if your command is directly harmful to it.</p><p>Some typical commands and their effects follow. You might issue a command other than one described here. If you do so, the DM determines how the target behaves. If the target can't follow your command, the spell ends.</p><div data-roll-name-ancestor=\"Approach\" class=\"rd__b  rd__b--3\"><span class=\"rd__h rd__h--3\" data-title-index=\"1\"> <span class=\"entry-title-inner\">Approach.</span></span> <p>The target moves toward you by the shortest and most direct route, ending its turn if it moves within 5 feet of you.</p></div><div data-roll-name-ancestor=\"Drop\" class=\"rd__b  rd__b--3\"><span class=\"rd__h rd__h--3\" data-title-index=\"2\"> <span class=\"entry-title-inner\">Drop.</span></span> <p>The target drops whatever it is holding and then ends its turn.</p></div><div data-roll-name-ancestor=\"Flee\" class=\"rd__b  rd__b--3\"><span class=\"rd__h rd__h--3\" data-title-index=\"3\"> <span class=\"entry-title-inner\">Flee.</span></span> <p>The target spends its turn moving away from you by the fastest available means.</p></div><div data-roll-name-ancestor=\"Grovel\" class=\"rd__b  rd__b--3\"><span class=\"rd__h rd__h--3\" data-title-index=\"4\"> <span class=\"entry-title-inner\">Grovel.</span></span> <p>The target falls &amp;Reference[condition=prone] and then ends its turn.</p></div><div data-roll-name-ancestor=\"Halt\" class=\"rd__b  rd__b--3\"><span class=\"rd__h rd__h--3\" data-title-index=\"5\"> <span class=\"entry-title-inner\">Halt.</span></span> <p>The target doesn't move and takes no actions. A flying creature stays aloft, provided that it is able to do so. If it must move to stay aloft, it flies the minimum distance needed to remain in the air.</p></div></div><div class=\"rd__b  rd__b--3\"><div data-roll-name-ancestor=\"At Higher Levels\" class=\"rd__b  rd__b--3\"><span class=\"rd__h rd__h--3\" data-title-index=\"1\"> <span class=\"entry-title-inner\">At Higher Levels.</span></span> <p>When you cast this spell using a spell slot of 2nd level or higher, you can affect one additional creature for each slot level above 1st. The creatures must be within 30 feet of each other when you target them.</p></div></div>",
+          "spellLevel": "1st Level",
+          "spellRange": "60 ft",
+          "spellSchool": "Enchantment"
+        },
+        {
+          "name": "Hellish Rebuke",
+          "section": "spell-items",
+          "description": "<div class=\"rd__b  rd__b--3\"><p>You point your finger, and the creature that damaged you is momentarily surrounded by hellish flames. The creature must make a Dexterity saving throw. It takes <span class=\"roller render-roller\" title=\"Click to roll. SHIFT to roll a critical hit, CTRL to half damage (rounding down).\" data-packed-dice=\"{&quot;type&quot;:&quot;dice&quot;,&quot;rollable&quot;:true,&quot;toRoll&quot;:&quot;2d10&quot;,&quot;displayText&quot;:&quot;2d10&quot;,&quot;subType&quot;:&quot;damage&quot;}\">2d10</span> fire damage on a failed save, or half as much damage on a successful one.</p><div class=\"rd__spc-inline-post\"></div></div><div class=\"rd__b  rd__b--3\"><div class=\"rd__b  rd__b--3\"><span class=\"rd__h rd__h--3\" data-title-index=\"1\"> <span class=\"entry-title-inner\">At Higher Levels.</span></span> <p>When you cast this spell using a spell slot of 2nd level or higher, the damage increases by <span class=\"roller render-roller\" title=\"Click to roll. SHIFT to roll a critical hit, CTRL to half damage (rounding down).\" data-packed-dice=\"{&quot;type&quot;:&quot;dice&quot;,&quot;rollable&quot;:true,&quot;toRoll&quot;:&quot;2d10&quot;,&quot;displayText&quot;:&quot;1d10&quot;,&quot;prompt&quot;:{&quot;entry&quot;:&quot;Cast at...&quot;,&quot;options&quot;:{&quot;1&quot;:&quot;&quot;,&quot;2&quot;:&quot;1d10&quot;,&quot;3&quot;:&quot;2d10&quot;,&quot;4&quot;:&quot;3d10&quot;,&quot;5&quot;:&quot;4d10&quot;,&quot;6&quot;:&quot;5d10&quot;,&quot;7&quot;:&quot;6d10&quot;,&quot;8&quot;:&quot;7d10&quot;,&quot;9&quot;:&quot;8d10&quot;}},&quot;subType&quot;:&quot;damage&quot;}\">1d10</span> for each slot level above 1st.</p><div class=\"rd__spc-inline-post\"></div></div><div class=\"rd__spc-inline-post\"></div></div>",
+          "spellLevel": "1st Level",
+          "spellRange": "60 ft",
+          "spellSchool": "Evocation"
+        },
+        {
+          "name": "Longstrider",
+          "section": "spell-items",
+          "description": "<div class=\"rd__b  rd__b--3\"><p>You touch a creature. The target's speed increases by 10 feet until the spell ends.</p></div><div class=\"rd__b  rd__b--3\"><div data-roll-name-ancestor=\"At Higher Levels\" class=\"rd__b  rd__b--3\"><span class=\"rd__h rd__h--3\" data-title-index=\"1\"> <span class=\"entry-title-inner\">At Higher Levels.</span></span> <p>When you cast this spell using a spell slot of 2nd level or higher, you can target one additional creature for each slot level above 1st.</p></div></div>",
+          "spellLevel": "1st Level",
+          "spellRange": "Touch",
+          "spellSchool": "Transmutation"
+        },
+        {
+          "name": "Silent Image",
+          "section": "spell-items",
+          "description": "<div class=\"rd__b  rd__b--3\"><p>You create the image of an object, a creature, or some other visible phenomenon that is no larger than a 15-foot cube. The image appears at a spot within range and lasts for the duration. The image is purely visual; it isn't accompanied by sound, smell, or other sensory effects.</p><p>You can use your action to cause the image to move to any spot within range. As the image changes location, you can alter its appearance so that its movements appear natural for the image. For example, if you create an image of a creature and move it, you can alter the image so that it appears to be walking.</p><p>Physical interaction with the image reveals it to be an illusion, because things can pass through it. A creature that uses its action to examine the image can determine that it is an illusion with a successful [[/skill inv]] check against your spell save DC. If a creature discerns the illusion for what it is, the creature can see through the image.</p></div>",
+          "spellLevel": "1st Level",
+          "spellRange": "60 ft",
+          "spellSchool": "Illusion"
+        },
+        {
+          "name": "Spell Scroll: Command",
+          "section": "physical-items",
+          "description": "<div class=\"rd__b  rd__b--3\"><p>You speak a one-word command to a creature you can see within range. The target must succeed on a Wisdom saving throw or follow the command on its next turn. The spell has no effect if the target is undead, if it doesn't understand your language, or if your command is directly harmful to it.</p><p>Some typical commands and their effects follow. You might issue a command other than one described here. If you do so, the DM determines how the target behaves. If the target can't follow your command, the spell ends.</p><div data-roll-name-ancestor=\"Approach\" class=\"rd__b  rd__b--3\"><span class=\"rd__h rd__h--3\" data-title-index=\"1\"> <span class=\"entry-title-inner\">Approach.</span></span> <p>The target moves toward you by the shortest and most direct route, ending its turn if it moves within 5 feet of you.</p></div><div data-roll-name-ancestor=\"Drop\" class=\"rd__b  rd__b--3\"><span class=\"rd__h rd__h--3\" data-title-index=\"2\"> <span class=\"entry-title-inner\">Drop.</span></span> <p>The target drops whatever it is holding and then ends its turn.</p></div><div data-roll-name-ancestor=\"Flee\" class=\"rd__b  rd__b--3\"><span class=\"rd__h rd__h--3\" data-title-index=\"3\"> <span class=\"entry-title-inner\">Flee.</span></span> <p>The target spends its turn moving away from you by the fastest available means.</p></div><div data-roll-name-ancestor=\"Grovel\" class=\"rd__b  rd__b--3\"><span class=\"rd__h rd__h--3\" data-title-index=\"4\"> <span class=\"entry-title-inner\">Grovel.</span></span> <p>The target falls &amp;Reference[condition=prone] and then ends its turn.</p></div><div data-roll-name-ancestor=\"Halt\" class=\"rd__b  rd__b--3\"><span class=\"rd__h rd__h--3\" data-title-index=\"5\"> <span class=\"entry-title-inner\">Halt.</span></span> <p>The target doesn't move and takes no actions. A flying creature stays aloft, provided that it is able to do so. If it must move to stay aloft, it flies the minimum distance needed to remain in the air.</p></div></div><div class=\"rd__b  rd__b--3\"><div data-roll-name-ancestor=\"At Higher Levels\" class=\"rd__b  rd__b--3\"><span class=\"rd__h rd__h--3\" data-title-index=\"1\"> <span class=\"entry-title-inner\">At Higher Levels.</span></span> <p>When you cast this spell using a spell slot of 2nd level or higher, you can affect one additional creature for each slot level above 1st. The creatures must be within 30 feet of each other when you target them.</p></div></div>",
+          "quantity": 1,
+          "combinedLabel": "Scroll",
+          "attunementLabel": ""
+        },
+        {
+          "name": "Spell Scroll: Death Ward",
+          "section": "physical-items",
+          "description": "<p>You touch a creature and grant it a measure of protection from death.</p><p>The first time the target would drop to 0 hit points as a result of taking damage, the target instead drops to 1 hit point, and the spell ends.</p><p>If the spell is still in effect when the target is subjected to an effect that would kill it instantaneously without dealing damage, that effect is instead negated against the target, and the spell ends.</p>",
+          "quantity": 1,
+          "combinedLabel": "Scroll",
+          "attunementLabel": ""
+        },
+        {
+          "name": "Spell Scroll: Unseen Servant",
+          "section": "physical-items",
+          "description": "<div class=\"rd__b  rd__b--3\"><p>This spell creates an invisible, mindless, shapeless, Medium force that performs simple tasks at your command until the spell ends. The servant springs into existence in an unoccupied space on the ground within range. It has AC 10, 1 hit point, and a Strength of 2, and it can't attack. If it drops to 0 hit points, the spell ends.</p><p>Once on each of your turns as a bonus action, you can mentally command the servant to move up to 15 feet and interact with an object. The servant can perform simple tasks that a human servant could do, such as fetching things, cleaning, mending, folding clothes, lighting fires, serving food, and pouring wine. Once you give the command, the servant performs the task to the best of its ability until it completes the task, then waits for your next command.</p><p>If you command the servant to perform a task that would move it more than 60 feet away from you, the spell ends.</p></div>",
+          "quantity": 1,
+          "combinedLabel": "Scroll",
+          "attunementLabel": ""
+        },
+        {
+          "name": "Unseen Servant",
+          "section": "spell-items",
+          "description": "<div class=\"rd__b  rd__b--3\"><p>This spell creates an invisible, mindless, shapeless, Medium force that performs simple tasks at your command until the spell ends. The servant springs into existence in an unoccupied space on the ground within range. It has AC 10, 1 hit point, and a Strength of 2, and it can't attack. If it drops to 0 hit points, the spell ends.</p><p>Once on each of your turns as a bonus action, you can mentally command the servant to move up to 15 feet and interact with an object. The servant can perform simple tasks that a human servant could do, such as fetching things, cleaning, mending, folding clothes, lighting fires, serving food, and pouring wine. Once you give the command, the servant performs the task to the best of its ability until it completes the task, then waits for your next command.</p><p>If you command the servant to perform a task that would move it more than 60 feet away from you, the spell ends.</p></div>",
+          "spellLevel": "1st Level",
+          "spellRange": "60 ft",
+          "spellSchool": "Conjuration"
+        },
+        {
+          "name": "Tenser's Floating Disk",
+          "section": "spell-items",
+          "description": "<div class=\"rd__b  rd__b--3\"><p>This spell creates a circular, horizontal plane of force, 3 feet in diameter and 1 inch thick, that floats 3 feet above the ground in an unoccupied space of your choice that you can see within range. The disk remains for the duration, and can hold up to 500 pounds. If more weight is placed on it, the spell ends, and everything on the disk falls to the ground.</p><div class=\"rd__spc-inline-post\"></div><p>The disk is immobile while you are within 20 feet of it. If you move more than 20 feet away from it, the disk follows you so that it remains within 20 feet of you. It can move across uneven terrain, up or down stairs, slopes and the like, but it can't cross an elevation change of 10 feet or more. For example, the disk can't move across a 10-foot-deep pit, nor could it leave such a pit if it was created at the bottom.</p><p>If you move more than 100 feet from the disk (typically because it can't move around an obstacle to follow you), the spell ends.</p></div>",
+          "spellLevel": "1st Level",
+          "spellRange": "30 ft",
+          "spellSchool": "Conjuration"
+        },
+        {
+          "name": "Spell Scroll: Tenser's Floating Disk",
+          "section": "physical-items",
+          "description": "<div class=\"rd__b  rd__b--3\"><p>This spell creates a circular, horizontal plane of force, 3 feet in diameter and 1 inch thick, that floats 3 feet above the ground in an unoccupied space of your choice that you can see within range. The disk remains for the duration, and can hold up to 500 pounds. If more weight is placed on it, the spell ends, and everything on the disk falls to the ground.</p><div class=\"rd__spc-inline-post\"></div><p>The disk is immobile while you are within 20 feet of it. If you move more than 20 feet away from it, the disk follows you so that it remains within 20 feet of you. It can move across uneven terrain, up or down stairs, slopes and the like, but it can't cross an elevation change of 10 feet or more. For example, the disk can't move across a 10-foot-deep pit, nor could it leave such a pit if it was created at the bottom.</p><p>If you move more than 100 feet from the disk (typically because it can't move around an obstacle to follow you), the spell ends.</p></div>",
+          "quantity": 1,
+          "combinedLabel": "Scroll",
+          "attunementLabel": ""
         }
       ],
       "Plex": [
@@ -3314,22 +3794,6 @@
           "attunementLabel": "Requires Attunement"
         },
         {
-          "name": "Sun Statue",
-          "section": "physical-items",
-          "description": "<p><em>Requires attunement by a spellcaster</em></p><p>This statue can be used as a spellcasting focus and grants a +1 bonus to spell attack rolls and spell save DC.</p><p>You can use it to cast the Sunbeam spell using your spell save DC once per day without expending a spell slot.</p>",
-          "quantity": 1,
-          "combinedLabel": "Trinket",
-          "attunementLabel": "Requires Attunement"
-        },
-        {
-          "name": "Sunbeam",
-          "section": "spell-items",
-          "description": "<div class=\"rd__b  rd__b--3\"><p>A beam of brilliant light flashes out from your hand in a 5-foot-wide, 60-foot-long line. Each creature in the line must make a Constitution saving throw. On a failed save, a creature takes [[/damage 6d8 type=radiant]] damage and is &amp;Reference[condition=blinded] until your next turn. On a successful save, it takes half as much damage and isn't &amp;Reference[condition=blinded] by this spell. Undead and oozes have disadvantage on this saving throw.</p><div class=\"rd__spc-inline-post\"><p></p></div><p>You can create a new line of radiance as your action on any turn until the spell ends.</p><p>For the duration, a mote of brilliant radiance shines in your hand. It sheds bright light in a 30-foot radius and dim light for an additional 30 feet. This light is sunlight.</p></div>",
-          "spellLevel": "6th Level",
-          "spellRange": "None",
-          "spellSchool": "Evocation"
-        },
-        {
           "name": "Towering Pillar of Hats",
           "section": "feature-items",
           "description": "<p><em>Only true gentlemen know that even a hat deserves a hat.</em></p><p>Each hat you have equipped grants you +1 to your Charisma score.</p>",
@@ -3578,6 +4042,30 @@
           "quantity": 20,
           "combinedLabel": "Potion",
           "attunementLabel": ""
+        },
+        {
+          "name": "Sun Statue",
+          "section": "physical-items",
+          "description": "<p><em>Requires attunement by a spellcaster</em></p><p>This statue can be used as a spellcasting focus and grants a +1 bonus to spell attack rolls and spell save DC.</p><p>You can use it to cast the Sunbeam spell using your spell save DC once per day without expending a spell slot.</p>",
+          "quantity": 1,
+          "combinedLabel": "Trinket",
+          "attunementLabel": "Requires Attunement"
+        },
+        {
+          "name": "Sunbeam",
+          "section": "spell-items",
+          "description": "<div class=\"rd__b  rd__b--3\"><p>A beam of brilliant light flashes out from your hand in a 5-foot-wide, 60-foot-long line. Each creature in the line must make a Constitution saving throw. On a failed save, a creature takes [[/damage 6d8 type=radiant]] damage and is &amp;Reference[condition=blinded] until your next turn. On a successful save, it takes half as much damage and isn't &amp;Reference[condition=blinded] by this spell. Undead and oozes have disadvantage on this saving throw.</p><div class=\"rd__spc-inline-post\"></div><p>You can create a new line of radiance as your action on any turn until the spell ends.</p><p>For the duration, a mote of brilliant radiance shines in your hand. It sheds bright light in a 30-foot radius and dim light for an additional 30 feet. This light is sunlight.</p></div>",
+          "spellLevel": "6th Level",
+          "spellRange": "None",
+          "spellSchool": "Evocation"
+        },
+        {
+          "name": "Activated: Sending - 3rd",
+          "section": "physical-items",
+          "description": "<div class=\"rd__b  rd__b--3\"><p>You send a short message of twenty-five words or less to a creature with which you are familiar. The creature hears the message in its mind, recognizes you as the sender if it knows you, and can answer in a like manner immediately. The spell enables creatures with Intelligence scores of at least 1 to understand the meaning of your message.</p><p>You can send the message across any distance and even to other planes of existence, but if the target is on a different plane than you, there is a [[/r 1d20]]{5 percent} chance that the message doesn't arrive.</p></div>",
+          "quantity": 5,
+          "combinedLabel": "Spell Gem",
+          "attunementLabel": ""
         }
       ],
       "Shalkoc Zornax": [
@@ -3725,7 +4213,7 @@
           "name": "Potion of Legendary Resistance",
           "section": "physical-items",
           "description": "<p><em>The way the potion shimmers is not unlike looking through a kaleidoscope.</em></p><p>When you drink this potion, you gain one Legendary Resistance for 8 hours. Spending it allows you to nullify the effect a single attack, spell, or ability would have on you.</p>",
-          "quantity": 2,
+          "quantity": 1,
           "combinedLabel": "Potion",
           "attunementLabel": ""
         },
@@ -4101,7 +4589,7 @@
           "name": "Dried Meat",
           "section": "physical-items",
           "description": "<p>The process of drying meat is long and extensive. In some particular cases, for the highest quality of dried meat, it can take over a year. It is highly sought after due to its extended shelf life, and depending on the meat used, it is, quite frankly, delicious.</p>",
-          "quantity": 33,
+          "quantity": 32,
           "combinedLabel": "Food (meal)",
           "attunementLabel": ""
         },
@@ -4196,6 +4684,54 @@
           "spellLevel": "1st Level",
           "spellRange": "60 ft",
           "spellSchool": "Enchantment"
+        },
+        {
+          "name": "Activated: Sending - 3rd",
+          "section": "physical-items",
+          "description": "<div class=\"rd__b  rd__b--3\"><p>You send a short message of twenty-five words or less to a creature with which you are familiar. The creature hears the message in its mind, recognizes you as the sender if it knows you, and can answer in a like manner immediately. The spell enables creatures with Intelligence scores of at least 1 to understand the meaning of your message.</p><p>You can send the message across any distance and even to other planes of existence, but if the target is on a different plane than you, there is a [[/r 1d20]]{5 percent} chance that the message doesn't arrive.</p></div>",
+          "quantity": 5,
+          "combinedLabel": "Spell Gem",
+          "attunementLabel": ""
+        },
+        {
+          "name": "Ginger",
+          "section": "physical-items",
+          "description": "<p>Ginger, is widely used as a spice and folk medicine. It is provided as tea for those who have weak stomachs to combat nausea, among other things.</p>",
+          "quantity": 10,
+          "combinedLabel": "Spice",
+          "attunementLabel": ""
+        },
+        {
+          "name": "Ginko Leaves",
+          "section": "physical-items",
+          "description": "",
+          "quantity": 10,
+          "combinedLabel": "Spice",
+          "attunementLabel": ""
+        },
+        {
+          "name": "Ginseng Root Powder",
+          "section": "physical-items",
+          "description": "",
+          "quantity": 4,
+          "combinedLabel": "Spice",
+          "attunementLabel": ""
+        },
+        {
+          "name": "Sassafras",
+          "section": "physical-items",
+          "description": "",
+          "quantity": 5,
+          "combinedLabel": "Spice",
+          "attunementLabel": ""
+        },
+        {
+          "name": "Leaden Fist",
+          "section": "physical-items",
+          "description": "<p><em>Requires attunement by a monk</em></p><p>These heavy handwraps are adorned with large granite prayer beads, each engraved with writing in ancient Terran. </p><p>You can use your action and bonus action on your turn and expend 2 ki points to make a single, powerful unarmed strike that always deals bludgeoning damage. When calculating damage for this attack, instead of rolling a single Martial Arts die, roll a number of Martial Arts dice equal to your monk level.</p><p>If this attack reduces a creature to 0 hit points, you regain 1 ki point.</p>",
+          "quantity": 1,
+          "combinedLabel": "Natural",
+          "attunementLabel": "Requires Attunement"
         }
       ]
     },
