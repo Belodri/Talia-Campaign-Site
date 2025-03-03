@@ -603,16 +603,8 @@
           "name": "Bugman’s Ale",
           "section": "physical-items",
           "description": "<blockquote><p>This special brew was originally created by the legendary dwarven brewmaster Joseph Bugman, and he shared its recipe only with his most trusted apprentices.</p></blockquote><p>When you drink this ale, you need to make a DC 30 Constitution saving throw. On a failed save, you become immune to the &amp;Reference[Frightened] condition for 8 hours.</p>",
-          "quantity": 8,
+          "quantity": 16,
           "combinedLabel": "Food",
-          "attunementLabel": ""
-        },
-        {
-          "name": "Ace card given from a Devil",
-          "section": "physical-items",
-          "description": "",
-          "quantity": 1,
-          "combinedLabel": "Loot",
           "attunementLabel": ""
         },
         {
@@ -689,6 +681,86 @@
           "description": "<div class=\"rd__b  rd__b--3\"><p>You send a short message of twenty-five words or less to a creature with which you are familiar. The creature hears the message in its mind, recognizes you as the sender if it knows you, and can answer in a like manner immediately. The spell enables creatures with Intelligence scores of at least 1 to understand the meaning of your message.</p><p>You can send the message across any distance and even to other planes of existence, but if the target is on a different plane than you, there is a [[/r 1d20]]{5 percent} chance that the message doesn't arrive.</p></div>",
           "quantity": 5,
           "combinedLabel": "Spell Gem",
+          "attunementLabel": ""
+        },
+        {
+          "name": "Manacles",
+          "section": "physical-items",
+          "description": "<p>These metal restraints can bind a Small or Medium creature. Escaping the manacles requires a successful DC 20 Dexterity check. Breaking them requires a successful DC 20 Strength check. Each set of manacles comes with one key. Without the key, a creature proficient with thieves' tools can pick the manacles' lock with a successful DC 15 Dexterity check. Manacles have 15 hit points.</p>",
+          "quantity": 10,
+          "combinedLabel": "Trinket",
+          "attunementLabel": ""
+        },
+        {
+          "name": "Chain (10 feet)",
+          "section": "physical-items",
+          "description": "<p>A chain has 10 hit points. It can be burst with a successful DC 20 Strength check.</p>",
+          "quantity": 20,
+          "combinedLabel": "Trinket",
+          "attunementLabel": ""
+        },
+        {
+          "name": "Triggered: Shield - 1st",
+          "section": "physical-items",
+          "description": "<p><strong>Trigger: </strong>Targeted by magic missile</p><hr /><div class=\"rd__b  rd__b--3\"><p>An invisible barrier of magical force appears and protects you. Until the start of your next turn, you have a +5 bonus to AC, including against the triggering attack, and you take no damage from <a class=\"jlnk__entity-link\" draggable=\"true\" data-plut-hover-page=\"spells.html\" data-plut-hover-source=\"PHB\" data-plut-hover-hash=\"magic%20missile_phb\" data-plut-hover-tag=\"spell\" data-plut-hover-hash-pre-encoded=\"true\" data-plut-rich-link=\"true\" data-plut-rich-link-entity-type=\"Item\" data-plut-rich-link-original-text=\"spell[magic missile]\"><i class=\"fas fas fa-suitcase\"></i> magic missile</a>.</p><div class=\"rd__spc-inline-post\"></div></div>",
+          "quantity": 2,
+          "combinedLabel": "Spell Gem",
+          "attunementLabel": ""
+        },
+        {
+          "name": "Activated: Longstrider - 1st",
+          "section": "physical-items",
+          "description": "<div class=\"rd__b  rd__b--3\"><p>You touch a creature. The target's speed increases by 10 feet until the spell ends.</p></div><div class=\"rd__b  rd__b--3\"><div data-roll-name-ancestor=\"At Higher Levels\" class=\"rd__b  rd__b--3\"><span class=\"rd__h rd__h--3\" data-title-index=\"1\"> <span class=\"entry-title-inner\">At Higher Levels.</span></span> <p>When you cast this spell using a spell slot of 2nd level or higher, you can target one additional creature for each slot level above 1st.</p></div></div>",
+          "quantity": 5,
+          "combinedLabel": "Spell Gem",
+          "attunementLabel": ""
+        },
+        {
+          "name": "Triggered: Anticipate Arcana - 3rd",
+          "section": "physical-items",
+          "description": "<p><strong>Trigger: </strong>Targeted by a spell or magical effect from an enemy that forces a save.</p><hr /><div class=\"rd__b  rd__b--3\"><p>Your foresight gives you an instant to ready your defenses against a magical attack. When you cast this spell, you have advantage on saving throws against spells and other magical effects until the start of your next turn.</p></div>",
+          "quantity": 1,
+          "combinedLabel": "Spell Gem",
+          "attunementLabel": ""
+        },
+        {
+          "name": "Activated: Hold Person - 2nd",
+          "section": "physical-items",
+          "description": "<div class=\"rd__b  rd__b--3\"><p>Choose a humanoid that you can see within range. The target must succeed on a Wisdom saving throw or be <span class=\"reference-link\"><a class=\"content-link\" data-uuid=\"Compendium.dnd5e.rules.JournalEntry.w7eitkpD7QQTB6j0.JournalEntryPage.xnSV5hLJIMaTABXP\" data-id=\"xnSV5hLJIMaTABXP\" data-type=\"JournalEntryPage\" data-pack=\"dnd5e.rules\" data-tooltip=\"Rule Page\"><i class=\"fas fa-book-open\"></i>Paralyzed</a><a class=\"enricher-action\" data-action=\"apply\" data-status=\"paralyzed\" data-tooltip=\"EDITOR.DND5E.Inline.ApplyStatus\" aria-label=\"Apply Status to Selected Tokens\"><i class=\"fas fa-fw fa-reply-all fa-flip-horizontal\"></i></a></span> for the duration. At the end of each of its turns, the target can make another Wisdom saving throw. On a success, the spell ends on the target.</p><div class=\"rd__spc-inline-post\"></div></div><div class=\"rd__b  rd__b--3\"><div class=\"rd__b  rd__b--3\"><span class=\"rd__h rd__h--3\" data-title-index=\"1\"> <span class=\"entry-title-inner\">At Higher Levels.</span></span> <p>When you cast this spell using a spell slot of 3rd level or higher, you can target one additional humanoid for each slot level above 2nd. The humanoids must be within 30 feet of each other when you target them.</p><div class=\"rd__spc-inline-post\"></div></div><div class=\"rd__spc-inline-post\"></div></div>",
+          "quantity": 2,
+          "combinedLabel": "Spell Gem",
+          "attunementLabel": ""
+        },
+        {
+          "name": "Activated: Borrowed Knowledge - 2nd",
+          "section": "physical-items",
+          "description": "<div class=\"rd__b  rd__b--3\"><p>You draw on knowledge from spirits of the past. Choose one skill in which you lack proficiency. For the spell's duration, you have proficiency in the chosen skill. The spell ends early if you cast it again.</p></div>",
+          "quantity": 1,
+          "combinedLabel": "Spell Gem",
+          "attunementLabel": ""
+        },
+        {
+          "name": "Potion of Speed",
+          "section": "physical-items",
+          "description": "<div class=\"rd__b  rd__b--2\"><p>When you drink this potion, you gain the effect of the Haste spell for 1 minute (no concentration required). The potion's yellow fluid is streaked with black and swirls on its own.</p></div>",
+          "quantity": 1,
+          "combinedLabel": "Potion",
+          "attunementLabel": ""
+        },
+        {
+          "name": "Potion of Heroism",
+          "section": "physical-items",
+          "description": "<p><em>This blue potion bubbles and steams as if boiling.</em></p><p>When you drink this potion you gain 10 temporary hit points. Additionally you are under the effect of the Bless spell for 1 hour (no concentration required).</p>",
+          "quantity": 3,
+          "combinedLabel": "Potion",
+          "attunementLabel": ""
+        },
+        {
+          "name": "Potion of Legendary Resistance",
+          "section": "physical-items",
+          "description": "<p><em>The way the potion shimmers is not unlike looking through a kaleidoscope.</em></p><p>When you drink this potion, you gain one Legendary Resistance for 8 hours. Spending it allows you to nullify the effect a single attack, spell, or ability would have on you.</p>",
+          "quantity": 1,
+          "combinedLabel": "Potion",
           "attunementLabel": ""
         }
       ],
@@ -1059,7 +1131,7 @@
           "name": "Potion of Maximum Power",
           "section": "physical-items",
           "description": "<p><em>This glowing purple liquid smells of sugar and plum, but it has a muddy taste.</em></p><p>The first time you cast a damage-dealing spell of 4th level or lower within 1 minute after drinking the potion, instead of rolling dice to determine the damage dealt, you instead use the highest number possible for each die.</p>",
-          "quantity": 3,
+          "quantity": 11,
           "combinedLabel": "Potion",
           "attunementLabel": ""
         },
@@ -1099,7 +1171,7 @@
           "name": "Potion of Legendary Resistance",
           "section": "physical-items",
           "description": "<p><em>The way the potion shimmers is not unlike looking through a kaleidoscope.</em></p><p>When you drink this potion, you gain one Legendary Resistance for 8 hours. Spending it allows you to nullify the effect a single attack, spell, or ability would have on you.</p>",
-          "quantity": 1,
+          "quantity": 2,
           "combinedLabel": "Potion",
           "attunementLabel": ""
         },
@@ -1137,7 +1209,7 @@
           "name": "Potion of Water Breathing",
           "section": "physical-items",
           "description": "<p><em>Its cloudy green fluid smells of the sea and has a jellyfish-like bubble floating in it.</em></p>\n<p>You can breathe underwater for 1 hour after drinking this potion. </p>\n<p> </p>",
-          "quantity": 2,
+          "quantity": 7,
           "combinedLabel": "Potion",
           "attunementLabel": ""
         },
@@ -1191,7 +1263,7 @@
           "name": "Black Pearl",
           "section": "physical-items",
           "description": "<p>Called the Black Pearl only as a descriptor factor, for it is known that it's possible to dye the pearl to achieve this specific dark color. In some religions, it is believed that if these pearls are found, they show the deity's favor or disfavor based on circumstance</p>",
-          "quantity": 7,
+          "quantity": 2,
           "combinedLabel": "Gemstone",
           "attunementLabel": ""
         },
@@ -1199,7 +1271,7 @@
           "name": "Onyx",
           "section": "physical-items",
           "description": "<p>If you wear this stone unenchanted, Lady Luck is bound to frown upon you. An important intaglio stone, used as part of jewelry to seal official documents</p>",
-          "quantity": 13,
+          "quantity": 0,
           "combinedLabel": "Gemstone",
           "attunementLabel": ""
         },
@@ -1215,7 +1287,7 @@
           "name": "Gills",
           "section": "physical-items",
           "description": "<p>Obtained from aquatic beasts. These membranous structures exhibit a delicate, translucent appearance, designed for efficient underwater respiration.</p>",
-          "quantity": 22,
+          "quantity": 19,
           "combinedLabel": "Ingredient (bodyPart)",
           "attunementLabel": ""
         },
@@ -1223,7 +1295,7 @@
           "name": "Plant Muscle Fibres",
           "section": "physical-items",
           "description": "<p>Harvested from medium-sized or larger plant creatures upon their demise. These fibrous strands possess a resilient texture and a pale green hue, reminiscent of the plant creature's own tissues.</p>",
-          "quantity": 45,
+          "quantity": 39,
           "combinedLabel": "Ingredient (bodyPart)",
           "attunementLabel": ""
         },
@@ -1236,18 +1308,10 @@
           "attunementLabel": ""
         },
         {
-          "name": "Salt Vine",
-          "section": "physical-items",
-          "description": "<p>Found on coastal rocks exposed to continuous sea mist. Characterized by fleshy, silver-tinted leaves with curled edges. Clusters of small, star-shaped flowers bloom in shades ranging from light purple to deep violet.</p>",
-          "quantity": 4,
-          "combinedLabel": "Ingredient (herb)",
-          "attunementLabel": ""
-        },
-        {
           "name": "Bloodroot",
           "section": "physical-items",
           "description": "<p>Clings to the walls of particularly damp caverns. A blood-red vine adorned with thick, black needles, resembling smoldering embers.</p>",
-          "quantity": 21,
+          "quantity": 19,
           "combinedLabel": "Ingredient (herb)",
           "attunementLabel": ""
         },
@@ -1291,7 +1355,7 @@
           "name": "Potion of Greater Healing",
           "section": "physical-items",
           "description": "<div class=\"rd__b  rd__b--2\"><p><em>The potion's red liquid glimmers when agitated.</em></p><p>You regain 4d4 + 4 hit points when you drink this potion.</p></div>",
-          "quantity": 4,
+          "quantity": 8,
           "combinedLabel": "Potion",
           "attunementLabel": ""
         },
@@ -1299,7 +1363,7 @@
           "name": "Core Crystal",
           "section": "physical-items",
           "description": "<p>Encased in the core of every permanent construct, this crystal pulses with a rhythmic, crimson luminescence. Its jagged edges and vibrant glow give it an almost organic appearance, as if it were a living heart beating within a metallic shell.</p>",
-          "quantity": 8,
+          "quantity": 7,
           "combinedLabel": "Ingredient (bodyPart)",
           "attunementLabel": ""
         },
@@ -1393,7 +1457,7 @@
           "name": "Essence of Legend",
           "section": "physical-items",
           "description": "<p>Extracted from slain creatures renowned for their legendary resistances. This ethereal substance pulses with arcane energy, embodying the essence of resilience and defiance against formidable adversaries.</p>",
-          "quantity": 5,
+          "quantity": 2,
           "combinedLabel": "Ingredient (bodyPart)",
           "attunementLabel": ""
         },
@@ -1401,7 +1465,7 @@
           "name": "Necromantic Binding",
           "section": "physical-items",
           "description": "<p>Acquired from huge-sized or larger undead creatures. This dark, ethereal essence carries an aura of death and decay, radiating an ominous energy that binds the undead to their master's will.</p>",
-          "quantity": 40,
+          "quantity": 39,
           "combinedLabel": "Ingredient (bodyPart)",
           "attunementLabel": ""
         },
@@ -1451,7 +1515,7 @@
           "name": "Star Ruby",
           "section": "physical-items",
           "description": "<p>Or simply known as Rose Quartz, is a pink gemstone mainly used in jewelry. The large slabs can be cut into multiple shapes from hearts, for holidays and anniversaries to huge round shapes, for wizards' crystal balls. </p>",
-          "quantity": 2,
+          "quantity": 0,
           "combinedLabel": "Gemstone",
           "attunementLabel": ""
         },
@@ -1619,7 +1683,7 @@
           "name": "Blue-White Diamond",
           "section": "physical-items",
           "description": "<p>The most notable gem from the Diamond variations is usually the colorless one which does have a blue-white tint. The use of diamonds is mainly in the jewelry market. Due to its brilliance, hardness, and rarity, it is the most famous of all gemstones. </p>",
-          "quantity": 6,
+          "quantity": 0,
           "combinedLabel": "Gemstone",
           "attunementLabel": ""
         },
@@ -1745,7 +1809,7 @@
           "name": "Emerald",
           "section": "physical-items",
           "description": "<p>Translucent Emeralds are cut and polished in gem cuts for jewelry. Mainly provided as gifts for royalty or nobility. In the past, it was associated with health, fertility, and growth and used to adorn magical items that improved the healing arts.</p>\n<p> </p>",
-          "quantity": 1,
+          "quantity": 0,
           "combinedLabel": "Gemstone",
           "attunementLabel": ""
         },
@@ -1753,7 +1817,7 @@
           "name": "Blue Quartz",
           "section": "physical-items",
           "description": "<p>Preferred by glassmiths or gaffers, to make different types of cups and vases and with help from the blacksmiths, it is used to ornate tankards. Magic wielders use this gemstone to see across the lands or through someone's deceit.</p>",
-          "quantity": 7,
+          "quantity": 4,
           "combinedLabel": "Gemstone",
           "attunementLabel": ""
         },
@@ -1769,14 +1833,6 @@
           "name": "Activated: Plant Growth - 3rd",
           "section": "physical-items",
           "description": "<table>\n        <tbody>\n            <tr>\n                <td>\n                    <p style=\"text-align:center;font-weight:bold\">3rd Level</p>\n                </td>\n            </tr>\n            \n        </tbody>\n    </table><div class=\"rd__b  rd__b--3\"><p>This spell channels vitality into plants within a specific area. There are two possible uses for the spell, granting either immediate or long-term benefits.</p><div class=\"rd__spc-inline-post\"><p></p></div><p>If you cast this spell using 1 action, choose a point within range. All normal plants in a 100-foot radius centered on that point become thick and overgrown. A creature moving through the area must spend 4 feet of movement for every 1 foot it moves.</p><p>You can exclude one or more areas of any size within the spell's area from being affected.</p><p>If you cast this spell over 8 hours, you enrich the land. All plants in a half-mile radius centered on a point within range become enriched for 1 year. The plants yield twice the normal amount of food when harvested.</p></div>",
-          "quantity": 1,
-          "combinedLabel": "Spell Gem",
-          "attunementLabel": ""
-        },
-        {
-          "name": "Activated: Hold Monster - 5th",
-          "section": "physical-items",
-          "description": "<table>\n        <tbody>\n            <tr>\n                <td>\n                    <p style=\"text-align:center;font-weight:bold\">5th Level</p>\n                </td>\n            </tr>\n            \n        </tbody>\n    </table><p>Choose a creature that you can see within range. The target must succeed on a Wisdom saving throw or be &amp;Reference[Paralyzed] for the Duration. This spell has no effect on Undead. At the end of each of its turns, the target can make another Wisdom saving throw. On a success, the spell ends on the target.</p><p><strong>At Higher Levels.</strong> When you cast this spell using a spell slot of 6th level or higher, you can target one additional creature for each slot level above 5th. The creatures must be within 30 feet of each other when you target them.</p>",
           "quantity": 1,
           "combinedLabel": "Spell Gem",
           "attunementLabel": ""
@@ -1801,7 +1857,7 @@
           "name": "Jade",
           "section": "physical-items",
           "description": "<p>Its primary form is called Jadeite, after cutting, it's mainly used in ornamental sculptures and figurines. Musicians of all kinds believed that if they wore Jade, they would improve their musical prowess</p>",
-          "quantity": 4,
+          "quantity": 1,
           "combinedLabel": "Gemstone",
           "attunementLabel": ""
         },
@@ -1814,18 +1870,10 @@
           "attunementLabel": ""
         },
         {
-          "name": "Wineberry Bark",
-          "section": "physical-items",
-          "description": "<p>Typically seen along shaded riverbanks. Its smooth, reddish-brown bark peels in thin strips, revealing a pale, papery layer beneath. The leaves are elliptical with serrated edges, and in autumn, they turn a vibrant crimson color.</p>",
-          "quantity": 1,
-          "combinedLabel": "Ingredient (herb)",
-          "attunementLabel": ""
-        },
-        {
           "name": "Fever Grass",
           "section": "physical-items",
           "description": "<p><span style=\"font-family:Signika, sans-serif\">Thrives abundantly in sunny grasslands. Slender stems bear needle-like leaves and golden-hued flowers. Possesses a fragrant aroma believed to hold medicinal properties.</span></p>",
-          "quantity": 12,
+          "quantity": 10,
           "combinedLabel": "Ingredient (herb)",
           "attunementLabel": ""
         },
@@ -2052,14 +2100,6 @@
           "attunementLabel": ""
         },
         {
-          "name": "Activated: Shield - 1st",
-          "section": "physical-items",
-          "description": "<div class=\"rd__b  rd__b--3\"><p>An invisible barrier of magical force appears and protects you. Until the start of your next turn, you have a +5 bonus to AC, including against the triggering attack, and you take no damage from <a class=\"jlnk__entity-link\" draggable=\"true\" data-plut-hover-page=\"spells.html\" data-plut-hover-source=\"PHB\" data-plut-hover-hash=\"magic%20missile_phb\" data-plut-hover-tag=\"spell\" data-plut-hover-hash-pre-encoded=\"true\" data-plut-rich-link=\"true\" data-plut-rich-link-entity-type=\"Item\" data-plut-rich-link-original-text=\"spell[magic missile]\"><i class=\"fas fas fa-suitcase\"></i> magic missile</a>.</p><div class=\"rd__spc-inline-post\"></div></div>",
-          "quantity": 1,
-          "combinedLabel": "Spell Gem",
-          "attunementLabel": ""
-        },
-        {
           "name": "Activated: Scorching Ray - 6th",
           "section": "physical-items",
           "description": "<div class=\"rd__b  rd__b--3\"><p>You create three rays of fire and hurl them at targets within range. You can hurl them at one target or several.</p><div class=\"rd__spc-inline-post\"></div><p>Make a ranged spell attack for each ray. On a hit, the target takes [[/r 2d6]] fire damage.</p></div><div class=\"rd__b  rd__b--3\"><div class=\"rd__b  rd__b--3\"><span class=\"rd__h rd__h--3\" data-title-index=\"1\"> <span class=\"entry-title-inner\">At Higher Levels.</span></span> <p>When you cast this spell using a spell slot of 3rd level or higher, you create one additional ray for each slot level above 2nd.</p><div class=\"rd__spc-inline-post\"></div></div><div class=\"rd__spc-inline-post\"></div></div>",
@@ -2079,22 +2119,6 @@
           "name": "Activated: Slow - 3rd",
           "section": "physical-items",
           "description": "<div class=\"rd__b  rd__b--3\"><p>You alter time around up to six creatures of your choice in a 40-foot cube within range. Each target must succeed on a Wisdom saving throw or be affected by this spell for the duration.</p><p>An affected target's speed is halved, it takes a −2 penalty to AC and Dexterity saving throws, and becomes &amp;Reference[distracted]. On its turn, it can use either an action or a bonus action, not both. Regardless of the creature's abilities or magic items, it can't make more than one melee or ranged attack during its turn.</p><p>If the creature attempts to cast a spell with a casting time of 1 action, roll a [[/r d20]]. On an 11 or higher, the spell doesn't take effect until the creature's next turn, and the creature must use its action on that turn to complete the spell. If it can't, the spell is wasted.</p><p>A creature affected by this spell makes another Wisdom saving throw at the end of each of its turns. On a successful save, the effect ends for it.</p></div>",
-          "quantity": 1,
-          "combinedLabel": "Spell Gem",
-          "attunementLabel": ""
-        },
-        {
-          "name": "Activated: Counterspell - 3rd",
-          "section": "physical-items",
-          "description": "<div class=\"rd__b  rd__b--3\"><p>You attempt to interrupt a creature in the process of casting a spell. If the creature is casting a spell of 3rd level or lower, its spell fails and has no effect. If it is casting a spell of 4th level or higher, make an ability check using your spellcasting ability. The DC equals 10 + the spell's level. On a success, the creature's spell fails and has no effect.</p><div class=\"rd__spc-inline-post\"></div></div><div class=\"rd__b  rd__b--3\"><div class=\"rd__b  rd__b--3\"><span class=\"rd__h rd__h--3\" data-title-index=\"1\"> <span class=\"entry-title-inner\">At Higher Levels.</span></span> <p>When you cast this spell using a spell slot of 4th level or higher, the interrupted spell has no effect if its level is less than or equal to the level of the spell slot you used.</p><div class=\"rd__spc-inline-post\"></div></div><div class=\"rd__spc-inline-post\"></div></div>",
-          "quantity": 1,
-          "combinedLabel": "Spell Gem",
-          "attunementLabel": ""
-        },
-        {
-          "name": "Activated: Counterspell - 3rd",
-          "section": "physical-items",
-          "description": "<div class=\"rd__b  rd__b--3\"><p>You attempt to interrupt a creature in the process of casting a spell. If the creature is casting a spell of 3rd level or lower, its spell fails and has no effect. If it is casting a spell of 4th level or higher, make an ability check using your spellcasting ability. The DC equals 10 + the spell's level. On a success, the creature's spell fails and has no effect.</p><div class=\"rd__spc-inline-post\"></div></div><div class=\"rd__b  rd__b--3\"><div class=\"rd__b  rd__b--3\"><span class=\"rd__h rd__h--3\" data-title-index=\"1\"> <span class=\"entry-title-inner\">At Higher Levels.</span></span> <p>When you cast this spell using a spell slot of 4th level or higher, the interrupted spell has no effect if its level is less than or equal to the level of the spell slot you used.</p><div class=\"rd__spc-inline-post\"></div></div><div class=\"rd__spc-inline-post\"></div></div>",
           "quantity": 1,
           "combinedLabel": "Spell Gem",
           "attunementLabel": ""
@@ -2204,22 +2228,6 @@
           "attunementLabel": ""
         },
         {
-          "name": "Activated: Shield - 1st",
-          "section": "physical-items",
-          "description": "<div class=\"rd__b  rd__b--3\"><p>An invisible barrier of magical force appears and protects you. Until the start of your next turn, you have a +5 bonus to AC, including against the triggering attack, and you take no damage from <a class=\"jlnk__entity-link\" draggable=\"true\" data-plut-hover-page=\"spells.html\" data-plut-hover-source=\"PHB\" data-plut-hover-hash=\"magic%20missile_phb\" data-plut-hover-tag=\"spell\" data-plut-hover-hash-pre-encoded=\"true\" data-plut-rich-link=\"true\" data-plut-rich-link-entity-type=\"Item\" data-plut-rich-link-original-text=\"spell[magic missile]\"><i class=\"fas fas fa-suitcase\"></i> magic missile</a>.</p><div class=\"rd__spc-inline-post\"></div></div>",
-          "quantity": 1,
-          "combinedLabel": "Spell Gem",
-          "attunementLabel": ""
-        },
-        {
-          "name": "Activated: Shield - 1st",
-          "section": "physical-items",
-          "description": "<div class=\"rd__b  rd__b--3\"><p>An invisible barrier of magical force appears and protects you. Until the start of your next turn, you have a +5 bonus to AC, including against the triggering attack, and you take no damage from <a class=\"jlnk__entity-link\" draggable=\"true\" data-plut-hover-page=\"spells.html\" data-plut-hover-source=\"PHB\" data-plut-hover-hash=\"magic%20missile_phb\" data-plut-hover-tag=\"spell\" data-plut-hover-hash-pre-encoded=\"true\" data-plut-rich-link=\"true\" data-plut-rich-link-entity-type=\"Item\" data-plut-rich-link-original-text=\"spell[magic missile]\"><i class=\"fas fas fa-suitcase\"></i> magic missile</a>.</p><div class=\"rd__spc-inline-post\"></div></div>",
-          "quantity": 1,
-          "combinedLabel": "Spell Gem",
-          "attunementLabel": ""
-        },
-        {
           "name": "Unholy Grimoire of Profanation",
           "section": "physical-items",
           "description": "<p>While you are attuned to this grimoire, you can cast each spell written inside as if you had them prepared. These spells can only be contained inside an Unholy Grimoire.</p><p>With your growing mastery of dark arcane arts, you're able to decipher the following spells:</p><ul><li><p>Gravecraft</p></li><li><p>Life Leech</p></li><li><p>Speak with Dead</p></li></ul><p>Completing the rituals to unlock the grimoire's secrets also reveal the following spells:</p><ul><li><p>Withering Touch</p></li><li><p>Soul Cage</p></li></ul>",
@@ -2289,7 +2297,7 @@
           "name": "Pyrope",
           "section": "physical-items",
           "description": "<p>Pyrope, a type of garnet known for its exquisite beauty, also holds military significance. It is believed that adorning weaponry with this garnet allows it to penetrate the thickest hides or demolish the strongest doors, aided by arcane forces.</p>",
-          "quantity": 3,
+          "quantity": 0,
           "combinedLabel": "Gemstone",
           "attunementLabel": ""
         },
@@ -2313,7 +2321,7 @@
           "name": "Pure Wrong",
           "section": "physical-items",
           "description": "<p>Extracted from large-sized or larger aberration creatures. This eerie substance exudes an unsettling aura, its shifting colors and slimy texture defying natural order.</p>",
-          "quantity": 7,
+          "quantity": 4,
           "combinedLabel": "Ingredient (bodyPart)",
           "attunementLabel": ""
         },
@@ -2359,7 +2367,7 @@
           "name": "Black Nerium",
           "section": "physical-items",
           "description": "<p>Clinging to the sheer faces of rugged cliffs, Black Nerium is a hardy plant with slender and completely black leaves that taper to sharp points. Its blossoms are small and deep purple, almost black, emitting a faint, spicy aroma. The stems are tough and wiry, allowing the plant to anchor itself securely in the rocky crevices where few other plants dare to grow.</p>",
-          "quantity": 9,
+          "quantity": 8,
           "combinedLabel": "Ingredient (herb)",
           "attunementLabel": ""
         },
@@ -2493,7 +2501,7 @@
           "name": "Potion of Heroism",
           "section": "physical-items",
           "description": "<p><em>This blue potion bubbles and steams as if boiling.</em></p><p>When you drink this potion you gain 10 temporary hit points. Additionally you are under the effect of the Bless spell for 1 hour (no concentration required).</p>",
-          "quantity": 1,
+          "quantity": 7,
           "combinedLabel": "Potion",
           "attunementLabel": ""
         },
@@ -2565,14 +2573,6 @@
           "name": "Spell Scroll: Mordenkainen's Magnificent Mansion",
           "section": "physical-items",
           "description": "<div class=\"rd__b  rd__b--3\"><p>You conjure an extradimensional dwelling in range that lasts for the duration. You choose where its one entrance is located. The entrance shimmers faintly and is 5 feet wide and 10 feet tall. You and any creature you designate when you cast the spell can enter the extradimensional dwelling as long as the portal remains open. You can open or close the portal if you are within 30 feet of it. While closed, the portal is invisible.</p><p>Beyond the portal is a magnificent foyer with numerous chambers beyond. The atmosphere is clean, fresh, and warm.</p><p>You can create any floor plan you like, but the space can't exceed 50 cubes, each cube being 10 feet on each side. The place is furnished and decorated as you choose. It contains sufficient food to serve a nine course banquet for up to 100 people. A staff of 100 near-transparent servants attends all who enter. You decide the visual appearance of these servants and their attire. They are completely obedient to your orders. Each servant can perform any task a normal human servant could perform, but they can't attack or take any action that would directly harm another creature. Thus the servants can fetch things, clean, mend, fold clothes, light fires, serve food, pour wine, and so on. The servants can go anywhere in the mansion but can't leave it. Furnishings and other objects created by this spell dissipate into smoke if removed from the mansion. When the spell ends, any creatures or objects left inside the extradimensional space are expelled into the open spaces nearest to the entrance.</p></div>",
-          "quantity": 1,
-          "combinedLabel": "Scroll",
-          "attunementLabel": ""
-        },
-        {
-          "name": "Spell Scroll: Plane Shift",
-          "section": "physical-items",
-          "description": "<div class=\"rd__b  rd__b--3\"><p>You and up to eight willing creatures who link hands in a circle are transported to a different plane of existence. You can specify a target destination in general terms, such as the City of Brass on the Elemental Plane of Fire or the palace of Dispater on the second level of the Nine Hells, and you appear in or near that destination. If you are trying to reach the City of Brass, for example, you might arrive in its Street of Steel, before its Gate of Ashes, or looking at the city from across the Sea of Fire, at the DM's discretion.</p><p>Alternatively, if you know the sigil sequence of a teleportation circle on another plane of existence, this spell can take you to that circle. If the teleportation circle is too small to hold all the creatures you transported, they appear in the closest unoccupied spaces next to the circle.</p><p>You can use this spell to banish an unwilling creature to another plane. Choose a creature within your reach and make a melee spell attack against it. On a hit, the creature must make a Charisma saving throw. If the creature fails this save, it is transported to a random location on the plane of existence you specify. A creature so transported must find its own way back to your current plane of existence.</p></div>",
           "quantity": 1,
           "combinedLabel": "Scroll",
           "attunementLabel": ""
@@ -2991,6 +2991,166 @@
           "description": "<div class=\"rd__b  rd__b--3\"><p>This spell creates a circular, horizontal plane of force, 3 feet in diameter and 1 inch thick, that floats 3 feet above the ground in an unoccupied space of your choice that you can see within range. The disk remains for the duration, and can hold up to 500 pounds. If more weight is placed on it, the spell ends, and everything on the disk falls to the ground.</p><div class=\"rd__spc-inline-post\"></div><p>The disk is immobile while you are within 20 feet of it. If you move more than 20 feet away from it, the disk follows you so that it remains within 20 feet of you. It can move across uneven terrain, up or down stairs, slopes and the like, but it can't cross an elevation change of 10 feet or more. For example, the disk can't move across a 10-foot-deep pit, nor could it leave such a pit if it was created at the bottom.</p><p>If you move more than 100 feet from the disk (typically because it can't move around an obstacle to follow you), the spell ends.</p></div>",
           "quantity": 1,
           "combinedLabel": "Scroll",
+          "attunementLabel": ""
+        },
+        {
+          "name": "Blue Quartz",
+          "section": "physical-items",
+          "description": "<p>Preferred by glassmiths or gaffers, to make different types of cups and vases and with help from the blacksmiths, it is used to ornate tankards. Magic wielders use this gemstone to see across the lands or through someone's deceit.</p>",
+          "quantity": 3,
+          "combinedLabel": "Gemstone",
+          "attunementLabel": ""
+        },
+        {
+          "name": "Activated: Revivify - 3rd",
+          "section": "physical-items",
+          "description": "<div class=\"rd__b  rd__b--3\"><p>You touch a creature that has died within the last minute. That creature returns to life with 1 hit point. This spell can't return to life a creature that has died of old age, nor can it restore any missing body parts.</p></div>",
+          "quantity": 1,
+          "combinedLabel": "Spell Gem",
+          "attunementLabel": ""
+        },
+        {
+          "name": "Activated: Anticipate Arcana - 3rd",
+          "section": "physical-items",
+          "description": "<div class=\"rd__b  rd__b--3\"><p>Your foresight gives you an instant to ready your defenses against a magical attack. When you cast this spell, you have advantage on saving throws against spells and other magical effects until the start of your next turn.</p></div>",
+          "quantity": 1,
+          "combinedLabel": "Spell Gem",
+          "attunementLabel": ""
+        },
+        {
+          "name": "Activated: Anticipate Arcana - 3rd",
+          "section": "physical-items",
+          "description": "<div class=\"rd__b  rd__b--3\"><p>Your foresight gives you an instant to ready your defenses against a magical attack. When you cast this spell, you have advantage on saving throws against spells and other magical effects until the start of your next turn.</p></div>",
+          "quantity": 1,
+          "combinedLabel": "Spell Gem",
+          "attunementLabel": ""
+        },
+        {
+          "name": "Activated: Counterspell - 3rd",
+          "section": "physical-items",
+          "description": "<div class=\"rd__b  rd__b--3\"><p>You attempt to interrupt a creature in the process of casting a spell. If the creature is casting a spell of 3rd level or lower, its spell fails and has no effect. If it is casting a spell of 4th level or higher, make an ability check using your spellcasting ability. The DC equals 10 + the spell's level. On a success, the creature's spell fails and has no effect.</p><div class=\"rd__spc-inline-post\"></div></div><div class=\"rd__b  rd__b--3\"><div class=\"rd__b  rd__b--3\"><span class=\"rd__h rd__h--3\" data-title-index=\"1\"> <span class=\"entry-title-inner\">At Higher Levels.</span></span> <p>When you cast this spell using a spell slot of 4th level or higher, the interrupted spell has no effect if its level is less than or equal to the level of the spell slot you used.</p><div class=\"rd__spc-inline-post\"></div></div><div class=\"rd__spc-inline-post\"></div></div>",
+          "quantity": 1,
+          "combinedLabel": "Spell Gem",
+          "attunementLabel": ""
+        },
+        {
+          "name": "Activated: Counterspell - 3rd",
+          "section": "physical-items",
+          "description": "<div class=\"rd__b  rd__b--3\"><p>You attempt to interrupt a creature in the process of casting a spell. If the creature is casting a spell of 3rd level or lower, its spell fails and has no effect. If it is casting a spell of 4th level or higher, make an ability check using your spellcasting ability. The DC equals 10 + the spell's level. On a success, the creature's spell fails and has no effect.</p><div class=\"rd__spc-inline-post\"></div></div><div class=\"rd__b  rd__b--3\"><div class=\"rd__b  rd__b--3\"><span class=\"rd__h rd__h--3\" data-title-index=\"1\"> <span class=\"entry-title-inner\">At Higher Levels.</span></span> <p>When you cast this spell using a spell slot of 4th level or higher, the interrupted spell has no effect if its level is less than or equal to the level of the spell slot you used.</p><div class=\"rd__spc-inline-post\"></div></div><div class=\"rd__spc-inline-post\"></div></div>",
+          "quantity": 1,
+          "combinedLabel": "Spell Gem",
+          "attunementLabel": ""
+        },
+        {
+          "name": "Activated: Counterspell - 3rd",
+          "section": "physical-items",
+          "description": "<div class=\"rd__b  rd__b--3\"><p>You attempt to interrupt a creature in the process of casting a spell. If the creature is casting a spell of 3rd level or lower, its spell fails and has no effect. If it is casting a spell of 4th level or higher, make an ability check using your spellcasting ability. The DC equals 10 + the spell's level. On a success, the creature's spell fails and has no effect.</p><div class=\"rd__spc-inline-post\"></div></div><div class=\"rd__b  rd__b--3\"><div class=\"rd__b  rd__b--3\"><span class=\"rd__h rd__h--3\" data-title-index=\"1\"> <span class=\"entry-title-inner\">At Higher Levels.</span></span> <p>When you cast this spell using a spell slot of 4th level or higher, the interrupted spell has no effect if its level is less than or equal to the level of the spell slot you used.</p><div class=\"rd__spc-inline-post\"></div></div><div class=\"rd__spc-inline-post\"></div></div>",
+          "quantity": 1,
+          "combinedLabel": "Spell Gem",
+          "attunementLabel": ""
+        },
+        {
+          "name": "Activated: Hold Monster - 5th",
+          "section": "physical-items",
+          "description": "<p>Choose a creature that you can see within range. The target must succeed on a Wisdom saving throw or be &amp;Reference[Paralyzed] for the Duration. This spell has no effect on Undead. At the end of each of its turns, the target can make another Wisdom saving throw. On a success, the spell ends on the target.</p><p><strong>At Higher Levels.</strong> When you cast this spell using a spell slot of 6th level or higher, you can target one additional creature for each slot level above 5th. The creatures must be within 30 feet of each other when you target them.</p>",
+          "quantity": 1,
+          "combinedLabel": "Spell Gem",
+          "attunementLabel": ""
+        },
+        {
+          "name": "Activated: Hold Monster - 5th",
+          "section": "physical-items",
+          "description": "<p>Choose a creature that you can see within range. The target must succeed on a Wisdom saving throw or be &amp;Reference[Paralyzed] for the Duration. This spell has no effect on Undead. At the end of each of its turns, the target can make another Wisdom saving throw. On a success, the spell ends on the target.</p><p><strong>At Higher Levels.</strong> When you cast this spell using a spell slot of 6th level or higher, you can target one additional creature for each slot level above 5th. The creatures must be within 30 feet of each other when you target them.</p>",
+          "quantity": 1,
+          "combinedLabel": "Spell Gem",
+          "attunementLabel": ""
+        },
+        {
+          "name": "Activated: Globe of Invulnerability - 6th",
+          "section": "physical-items",
+          "description": "<div class=\"rd__b  rd__b--3\"><p>An immobile, faintly shimmering barrier springs into existence in a 10-foot radius around you and remains for the duration.</p><div class=\"rd__spc-inline-post\"></div><p>Any spell of 5th level or lower cast from outside the barrier can't affect creatures or objects within it, even if the spell is cast using a higher level spell slot. Such a spell can target creatures and objects within the barrier, but the spell has no effect on them. Similarly, the area within the barrier is excluded from the areas affected by such spells.</p></div><div class=\"rd__b  rd__b--3\"><div data-roll-name-ancestor=\"At Higher Levels\" class=\"rd__b  rd__b--3\"><span class=\"rd__h rd__h--3\" data-title-index=\"1\"> <span class=\"entry-title-inner\">At Higher Levels.</span></span> <p>When you cast this spell using a spell slot of 7th level or higher, the barrier blocks spells of one level higher for each slot level above 6th.</p><div class=\"rd__spc-inline-post\"></div></div><div class=\"rd__spc-inline-post\"></div></div>",
+          "quantity": 1,
+          "combinedLabel": "Spell Gem",
+          "attunementLabel": ""
+        },
+        {
+          "name": "Activated: Soul Cage - 6th",
+          "section": "physical-items",
+          "description": "<div class=\"rd__b  rd__b--3\"><p>This spell snatches the soul of a humanoid as it dies and traps it inside the tiny cage you use for the material component. A stolen soul remains inside the cage until the spell ends or until you destroy the cage, which ends the spell. While you have a soul inside the cage, you can exploit it in any of the ways described below. You can use a trapped soul up to six times. Once you exploit a soul for the sixth time, it is released, and the spell ends. While a soul is trapped, the dead humanoid it came from can't be revived.</p><p><span class=\"entry-title-inner\"><strong>Steal Life.</strong> </span>You can use a bonus action to drain vigor from the soul and regain [[/r 2d8]] hit points for each exploit you choose to expend this way.</p><p><span class=\"entry-title-inner\"><strong>Query Soul.</strong> </span>You ask the soul a question (no action required) and receive a brief telepathic answer, which you can understand regardless of the language used. The soul knows only what it knew in life, but it must answer you truthfully and to the best of its ability. The answer is no more than a sentence or two and might be cryptic.</p><p><span class=\"entry-title-inner\"><strong>Borrow Experience.</strong> When you make an attack roll, damage roll, ability check, or saving throw, </span>you can expend one or more exploits to add a +1 bonus to the roll for each one.</p><p><span class=\"entry-title-inner\"><strong>Eyes of the Dead.</strong> </span>You can use an action to name a place the humanoid saw in life, which creates an invisible sensor somewhere in that place if it is on the plane of existence you're currently on. The sensor remains for as long as you concentrate, up to 10 minutes (as if you were concentrating on a spell). You receive visual and auditory information from the sensor as if you were in its space using your senses.</p><p>A creature that can see the sensor (such as one using See Invisibility or &amp;Reference[rule=truesight]) sees a translucent image of the tormented humanoid whose soul you caged.</p></div>",
+          "quantity": 1,
+          "combinedLabel": "Spell Gem",
+          "attunementLabel": ""
+        },
+        {
+          "name": "Activated: Mental Prison - 6th",
+          "section": "physical-items",
+          "description": "<div class=\"rd__b  rd__b--3\"><p>You attempt to bind a creature within an illusory cell that only it perceives. One creature you can see within range must make an Intelligence saving throw. The target succeeds automatically if it is immune to being &amp;Reference[condition=charmed].</p><p>On a successful save, the target takes [[/damage 5d10 type=psychic]] damage, and the spell ends. On a failed save, the target takes [[/damage 5d10 type=psychic]] damage, and you make the area immediately around the target's space appear dangerous to it in some way. You might cause the target to perceive itself as being surrounded by fire, floating razors, or hideous maws filled with dripping teeth. Whatever form the illusion takes, the target is &amp;Reference[blinded] and &amp;Reference[deafened] to anything beyond it and is &amp;Reference[restrained] for the spell's duration. If the target is moved out of the illusion, makes a melee attack through it, or reaches any part of its body through it, the target takes [[/damage 10d10 type=psychic]] damage, and the spell ends.</p></div>",
+          "quantity": 1,
+          "combinedLabel": "Spell Gem",
+          "attunementLabel": ""
+        },
+        {
+          "name": "Activated: Shield - 1st",
+          "section": "physical-items",
+          "description": "<div class=\"rd__b  rd__b--3\"><p>An invisible barrier of magical force appears and protects you. Until the start of your next turn, you have a +5 bonus to AC, including against the triggering attack, and you take no damage from <a class=\"jlnk__entity-link\" draggable=\"true\" data-plut-hover-page=\"spells.html\" data-plut-hover-source=\"PHB\" data-plut-hover-hash=\"magic%20missile_phb\" data-plut-hover-tag=\"spell\" data-plut-hover-hash-pre-encoded=\"true\" data-plut-rich-link=\"true\" data-plut-rich-link-entity-type=\"Item\" data-plut-rich-link-original-text=\"spell[magic missile]\"><i class=\"fas fas fa-suitcase\"></i> magic missile</a>.</p><div class=\"rd__spc-inline-post\"></div></div>",
+          "quantity": 1,
+          "combinedLabel": "Spell Gem",
+          "attunementLabel": ""
+        },
+        {
+          "name": "Activated: Shield - 1st",
+          "section": "physical-items",
+          "description": "<div class=\"rd__b  rd__b--3\"><p>An invisible barrier of magical force appears and protects you. Until the start of your next turn, you have a +5 bonus to AC, including against the triggering attack, and you take no damage from <a class=\"jlnk__entity-link\" draggable=\"true\" data-plut-hover-page=\"spells.html\" data-plut-hover-source=\"PHB\" data-plut-hover-hash=\"magic%20missile_phb\" data-plut-hover-tag=\"spell\" data-plut-hover-hash-pre-encoded=\"true\" data-plut-rich-link=\"true\" data-plut-rich-link-entity-type=\"Item\" data-plut-rich-link-original-text=\"spell[magic missile]\"><i class=\"fas fas fa-suitcase\"></i> magic missile</a>.</p><div class=\"rd__spc-inline-post\"></div></div>",
+          "quantity": 1,
+          "combinedLabel": "Spell Gem",
+          "attunementLabel": ""
+        },
+        {
+          "name": "Activated: Shield - 1st",
+          "section": "physical-items",
+          "description": "<div class=\"rd__b  rd__b--3\"><p>An invisible barrier of magical force appears and protects you. Until the start of your next turn, you have a +5 bonus to AC, including against the triggering attack, and you take no damage from <a class=\"jlnk__entity-link\" draggable=\"true\" data-plut-hover-page=\"spells.html\" data-plut-hover-source=\"PHB\" data-plut-hover-hash=\"magic%20missile_phb\" data-plut-hover-tag=\"spell\" data-plut-hover-hash-pre-encoded=\"true\" data-plut-rich-link=\"true\" data-plut-rich-link-entity-type=\"Item\" data-plut-rich-link-original-text=\"spell[magic missile]\"><i class=\"fas fas fa-suitcase\"></i> magic missile</a>.</p><div class=\"rd__spc-inline-post\"></div></div>",
+          "quantity": 1,
+          "combinedLabel": "Spell Gem",
+          "attunementLabel": ""
+        },
+        {
+          "name": "Activated: See Invisibility - 2nd",
+          "section": "physical-items",
+          "description": "<div class=\"rd__b  rd__b--3\"><p>For the duration, you see &amp;Reference[condition=invisible] creatures and objects as if they were visible, and you can see into the Ethereal Plane. Ethereal creatures and objects appear ghostly and translucent.</p></div>",
+          "quantity": 1,
+          "combinedLabel": "Spell Gem",
+          "attunementLabel": ""
+        },
+        {
+          "name": "Activated: Counterspell - 3rd",
+          "section": "physical-items",
+          "description": "<div class=\"rd__b  rd__b--3\"><p>You attempt to interrupt a creature in the process of casting a spell. If the creature is casting a spell of 3rd level or lower, its spell fails and has no effect. If it is casting a spell of 4th level or higher, make an ability check using your spellcasting ability. The DC equals 10 + the spell's level. On a success, the creature's spell fails and has no effect.</p><div class=\"rd__spc-inline-post\"></div></div><div class=\"rd__b  rd__b--3\"><div class=\"rd__b  rd__b--3\"><span class=\"rd__h rd__h--3\" data-title-index=\"1\"> <span class=\"entry-title-inner\">At Higher Levels.</span></span> <p>When you cast this spell using a spell slot of 4th level or higher, the interrupted spell has no effect if its level is less than or equal to the level of the spell slot you used.</p><div class=\"rd__spc-inline-post\"></div></div><div class=\"rd__spc-inline-post\"></div></div>",
+          "quantity": 1,
+          "combinedLabel": "Spell Gem",
+          "attunementLabel": ""
+        },
+        {
+          "name": "Activated: Counterspell - 3rd",
+          "section": "physical-items",
+          "description": "<div class=\"rd__b  rd__b--3\"><p>You attempt to interrupt a creature in the process of casting a spell. If the creature is casting a spell of 3rd level or lower, its spell fails and has no effect. If it is casting a spell of 4th level or higher, make an ability check using your spellcasting ability. The DC equals 10 + the spell's level. On a success, the creature's spell fails and has no effect.</p><div class=\"rd__spc-inline-post\"></div></div><div class=\"rd__b  rd__b--3\"><div class=\"rd__b  rd__b--3\"><span class=\"rd__h rd__h--3\" data-title-index=\"1\"> <span class=\"entry-title-inner\">At Higher Levels.</span></span> <p>When you cast this spell using a spell slot of 4th level or higher, the interrupted spell has no effect if its level is less than or equal to the level of the spell slot you used.</p><div class=\"rd__spc-inline-post\"></div></div><div class=\"rd__spc-inline-post\"></div></div>",
+          "quantity": 1,
+          "combinedLabel": "Spell Gem",
+          "attunementLabel": ""
+        },
+        {
+          "name": "Potion of Speed",
+          "section": "physical-items",
+          "description": "<div class=\"rd__b  rd__b--2\"><p>When you drink this potion, you gain the effect of the Haste spell for 1 minute (no concentration required). The potion's yellow fluid is streaked with black and swirls on its own.</p></div>",
+          "quantity": 1,
+          "combinedLabel": "Potion",
+          "attunementLabel": ""
+        },
+        {
+          "name": "Potion of Healing",
+          "section": "physical-items",
+          "description": "<p><em>The potion's red liquid glimmers when agitated.</em></p><p>You regain 2d4+2 hit points when you drink this potion.</p>",
+          "quantity": 6,
+          "combinedLabel": "Potion",
           "attunementLabel": ""
         }
       ],
@@ -3455,7 +3615,7 @@
           "name": "Goblin's Disguise (Without Top-Hat)",
           "section": "physical-items",
           "description": "<p>Simple or ostentacious wear, often used by priests and other religious figures for use in rituals and ceremonies.</p>",
-          "quantity": 1,
+          "quantity": 0,
           "combinedLabel": "Clothing",
           "attunementLabel": ""
         },
@@ -3881,7 +4041,7 @@
           "name": "Bottle of Bagiennik Snot",
           "section": "physical-items",
           "description": "<div class=\"rd__b  rd__b--2\"><p><em>As repulsive as many might find the snot of the frog-like Bagiennik, they cannot deny it's healing abilities.</em></p><p>You regain 8d4 + 8 hit points when you drink this potion.</p></div>",
-          "quantity": 8,
+          "quantity": 7,
           "combinedLabel": "Potion",
           "attunementLabel": ""
         },
@@ -4065,6 +4225,62 @@
           "description": "<div class=\"rd__b  rd__b--3\"><p>You send a short message of twenty-five words or less to a creature with which you are familiar. The creature hears the message in its mind, recognizes you as the sender if it knows you, and can answer in a like manner immediately. The spell enables creatures with Intelligence scores of at least 1 to understand the meaning of your message.</p><p>You can send the message across any distance and even to other planes of existence, but if the target is on a different plane than you, there is a [[/r 1d20]]{5 percent} chance that the message doesn't arrive.</p></div>",
           "quantity": 5,
           "combinedLabel": "Spell Gem",
+          "attunementLabel": ""
+        },
+        {
+          "name": "Activated: Shield - 1st",
+          "section": "physical-items",
+          "description": "<div class=\"rd__b  rd__b--3\"><p>An invisible barrier of magical force appears and protects you. Until the start of your next turn, you have a +5 bonus to AC, including against the triggering attack, and you take no damage from <a class=\"jlnk__entity-link\" draggable=\"true\" data-plut-hover-page=\"spells.html\" data-plut-hover-source=\"PHB\" data-plut-hover-hash=\"magic%20missile_phb\" data-plut-hover-tag=\"spell\" data-plut-hover-hash-pre-encoded=\"true\" data-plut-rich-link=\"true\" data-plut-rich-link-entity-type=\"Item\" data-plut-rich-link-original-text=\"spell[magic missile]\"><i class=\"fas fas fa-suitcase\"></i> magic missile</a>.</p><div class=\"rd__spc-inline-post\"></div></div>",
+          "quantity": 3,
+          "combinedLabel": "Spell Gem",
+          "attunementLabel": ""
+        },
+        {
+          "name": "Activated: Anticipate Arcana - 3rd",
+          "section": "physical-items",
+          "description": "<div class=\"rd__b  rd__b--3\"><p>Your foresight gives you an instant to ready your defenses against a magical attack. When you cast this spell, you have advantage on saving throws against spells and other magical effects until the start of your next turn.</p></div>",
+          "quantity": 2,
+          "combinedLabel": "Spell Gem",
+          "attunementLabel": ""
+        },
+        {
+          "name": "Activated: Borrowed Knowledge - 2nd",
+          "section": "physical-items",
+          "description": "<div class=\"rd__b  rd__b--3\"><p>You draw on knowledge from spirits of the past. Choose one skill in which you lack proficiency. For the spell's duration, you have proficiency in the chosen skill. The spell ends early if you cast it again.</p></div>",
+          "quantity": 1,
+          "combinedLabel": "Spell Gem",
+          "attunementLabel": ""
+        },
+        {
+          "name": "Activated: Counterspell - 3rd",
+          "section": "physical-items",
+          "description": "<div class=\"rd__b  rd__b--3\"><p>You attempt to interrupt a creature in the process of casting a spell. If the creature is casting a spell of 3rd level or lower, its spell fails and has no effect. If it is casting a spell of 4th level or higher, make an ability check using your spellcasting ability. The DC equals 10 + the spell's level. On a success, the creature's spell fails and has no effect.</p><div class=\"rd__spc-inline-post\"></div></div><div class=\"rd__b  rd__b--3\"><div class=\"rd__b  rd__b--3\"><span class=\"rd__h rd__h--3\" data-title-index=\"1\"> <span class=\"entry-title-inner\">At Higher Levels.</span></span> <p>When you cast this spell using a spell slot of 4th level or higher, the interrupted spell has no effect if its level is less than or equal to the level of the spell slot you used.</p><div class=\"rd__spc-inline-post\"></div></div><div class=\"rd__spc-inline-post\"></div></div>",
+          "quantity": 1,
+          "combinedLabel": "Spell Gem",
+          "attunementLabel": ""
+        },
+        {
+          "name": "Potion of Speed",
+          "section": "physical-items",
+          "description": "<div class=\"rd__b  rd__b--2\"><p>When you drink this potion, you gain the effect of the Haste spell for 1 minute (no concentration required). The potion's yellow fluid is streaked with black and swirls on its own.</p></div>",
+          "quantity": 1,
+          "combinedLabel": "Potion",
+          "attunementLabel": ""
+        },
+        {
+          "name": "Potion of Heroism",
+          "section": "physical-items",
+          "description": "<p><em>This blue potion bubbles and steams as if boiling.</em></p><p>When you drink this potion you gain 10 temporary hit points. Additionally you are under the effect of the Bless spell for 1 hour (no concentration required).</p>",
+          "quantity": 3,
+          "combinedLabel": "Potion",
+          "attunementLabel": ""
+        },
+        {
+          "name": "Potion of Legendary Resistance",
+          "section": "physical-items",
+          "description": "<p><em>The way the potion shimmers is not unlike looking through a kaleidoscope.</em></p><p>When you drink this potion, you gain one Legendary Resistance for 8 hours. Spending it allows you to nullify the effect a single attack, spell, or ability would have on you.</p>",
+          "quantity": 1,
+          "combinedLabel": "Potion",
           "attunementLabel": ""
         }
       ],
@@ -4511,7 +4727,7 @@
           "name": "Lavender",
           "section": "physical-items",
           "description": "",
-          "quantity": 5,
+          "quantity": 7,
           "combinedLabel": "Spice",
           "attunementLabel": ""
         },
@@ -4519,7 +4735,7 @@
           "name": "Chili Pepper",
           "section": "physical-items",
           "description": "<p>Harvested usually in most warm climates, it is used mainly as a spice in cuisines to add some \"warmth\" to the dish.</p>",
-          "quantity": 4,
+          "quantity": 5,
           "combinedLabel": "Spice (spice)",
           "attunementLabel": ""
         },
@@ -4527,7 +4743,7 @@
           "name": "Eucalyptus",
           "section": "physical-items",
           "description": "",
-          "quantity": 5,
+          "quantity": 6,
           "combinedLabel": "Spice",
           "attunementLabel": ""
         },
@@ -4535,7 +4751,7 @@
           "name": "Licorice Root",
           "section": "physical-items",
           "description": "",
-          "quantity": 5,
+          "quantity": 6,
           "combinedLabel": "Spice",
           "attunementLabel": ""
         },
@@ -4551,7 +4767,7 @@
           "name": "Vanilla",
           "section": "physical-items",
           "description": "",
-          "quantity": 4,
+          "quantity": 6,
           "combinedLabel": "Spice",
           "attunementLabel": ""
         },
@@ -4559,7 +4775,7 @@
           "name": "Wasabi",
           "section": "physical-items",
           "description": "",
-          "quantity": 5,
+          "quantity": 6,
           "combinedLabel": "Spice",
           "attunementLabel": ""
         },
@@ -4732,6 +4948,54 @@
           "quantity": 1,
           "combinedLabel": "Natural",
           "attunementLabel": "Requires Attunement"
+        },
+        {
+          "name": "Activated: Shield - 1st",
+          "section": "physical-items",
+          "description": "<div class=\"rd__b  rd__b--3\"><p>An invisible barrier of magical force appears and protects you. Until the start of your next turn, you have a +5 bonus to AC, including against the triggering attack, and you take no damage from <a class=\"jlnk__entity-link\" draggable=\"true\" data-plut-hover-page=\"spells.html\" data-plut-hover-source=\"PHB\" data-plut-hover-hash=\"magic%20missile_phb\" data-plut-hover-tag=\"spell\" data-plut-hover-hash-pre-encoded=\"true\" data-plut-rich-link=\"true\" data-plut-rich-link-entity-type=\"Item\" data-plut-rich-link-original-text=\"spell[magic missile]\"><i class=\"fas fas fa-suitcase\"></i> magic missile</a>.</p><div class=\"rd__spc-inline-post\"></div></div>",
+          "quantity": 3,
+          "combinedLabel": "Spell Gem",
+          "attunementLabel": ""
+        },
+        {
+          "name": "Activated: Borrowed Knowledge - 2nd",
+          "section": "physical-items",
+          "description": "<div class=\"rd__b  rd__b--3\"><p>You draw on knowledge from spirits of the past. Choose one skill in which you lack proficiency. For the spell's duration, you have proficiency in the chosen skill. The spell ends early if you cast it again.</p></div>",
+          "quantity": 1,
+          "combinedLabel": "Spell Gem",
+          "attunementLabel": ""
+        },
+        {
+          "name": "Activated: Counterspell - 3rd",
+          "section": "physical-items",
+          "description": "<div class=\"rd__b  rd__b--3\"><p>You attempt to interrupt a creature in the process of casting a spell. If the creature is casting a spell of 3rd level or lower, its spell fails and has no effect. If it is casting a spell of 4th level or higher, make an ability check using your spellcasting ability. The DC equals 10 + the spell's level. On a success, the creature's spell fails and has no effect.</p><div class=\"rd__spc-inline-post\"></div></div><div class=\"rd__b  rd__b--3\"><div class=\"rd__b  rd__b--3\"><span class=\"rd__h rd__h--3\" data-title-index=\"1\"> <span class=\"entry-title-inner\">At Higher Levels.</span></span> <p>When you cast this spell using a spell slot of 4th level or higher, the interrupted spell has no effect if its level is less than or equal to the level of the spell slot you used.</p><div class=\"rd__spc-inline-post\"></div></div><div class=\"rd__spc-inline-post\"></div></div>",
+          "quantity": 1,
+          "combinedLabel": "Spell Gem",
+          "attunementLabel": ""
+        },
+        {
+          "name": "Potion of Heroism",
+          "section": "physical-items",
+          "description": "<p><em>This blue potion bubbles and steams as if boiling.</em></p><p>When you drink this potion you gain 10 temporary hit points. Additionally you are under the effect of the Bless spell for 1 hour (no concentration required).</p>",
+          "quantity": 3,
+          "combinedLabel": "Potion",
+          "attunementLabel": ""
+        },
+        {
+          "name": "Potion of Speed",
+          "section": "physical-items",
+          "description": "<div class=\"rd__b  rd__b--2\"><p>When you drink this potion, you gain the effect of the Haste spell for 1 minute (no concentration required). The potion's yellow fluid is streaked with black and swirls on its own.</p></div>",
+          "quantity": 1,
+          "combinedLabel": "Potion",
+          "attunementLabel": ""
+        },
+        {
+          "name": "Purple Worm Poison",
+          "section": "physical-items",
+          "description": "<div class=\"rd__b  rd__b--2\"><p>The name of this poison has been made up by alchemists to make it seem like it's more difficult to obtain than it really is.</p><p>A creature subjected to this poison must make a [[/save con 19 format=long]], taking [[/damage 12d6 poison]] damage on a failed save, or half as much damage on a successful one.</p></div>",
+          "quantity": 5,
+          "combinedLabel": "Injury (injury)",
+          "attunementLabel": ""
         }
       ]
     },
@@ -4739,10 +5003,10 @@
       "general": {
         "name": "Promise",
         "attributes": {
-          "authority": 1,
+          "authority": 6,
           "economy": 3,
-          "community": 6,
-          "progress": -1,
+          "community": 7,
+          "progress": 0,
           "intrigue": 1
         },
         "capacity": {
@@ -4750,7 +5014,19 @@
           "available": 0
         }
       },
-      "effects": [],
+      "effects": [
+        {
+          "endDateStr": "Decimus 22, 1497",
+          "flavorText": "An act of valor brings the city together, restoring faith in its protectors and fostering a newfound sense of camaraderie.",
+          "grants": [
+            "+2 Authority, +2 Community"
+          ],
+          "isTemporary": true,
+          "name": "Heroic Deed",
+          "remainingDays": 30,
+          "section": "effect-items"
+        }
+      ],
       "buildings": [
         {
           "constructionDateDisplay": "",
@@ -4765,6 +5041,25 @@
           "requires": [
             {
               "displayString": "12 Progress",
+              "classList": "req-not-met"
+            }
+          ],
+          "scale": 4,
+          "section": "building-items"
+        },
+        {
+          "constructionDateDisplay": "",
+          "effectText": "Enables travel and trade via airships.",
+          "flavorText": "A bustling hub of towering scaffolds and massive mooring lines, the dockyard is where skyships are built, loaded, and launched. Merchants and smugglers alike strike deals beneath the towering hulls, while city officials struggle to keep control of what goes in and out.",
+          "grants": [
+            "-6 Authority, +8 Economy, -3 Community, +4 Progress, +4 Intrigue",
+            "Enables travel and trade via airships."
+          ],
+          "name": "Airship Dockyard",
+          "isRecent": false,
+          "requires": [
+            {
+              "displayString": "Goblin Quarters",
               "classList": "req-not-met"
             }
           ],
@@ -4798,7 +5093,7 @@
             "+1 Authority"
           ],
           "name": "Barracks",
-          "isRecent": true,
+          "isRecent": false,
           "requires": [],
           "scale": 1,
           "section": "building-items"
@@ -4878,6 +5173,46 @@
         },
         {
           "constructionDateDisplay": "",
+          "effectText": "Grants the patron deity's blessing to the city as long as its edicts are followed.",
+          "flavorText": "Towering over the city as a fortress of faith, the cathedral is both a place of worship and a symbol of divine protection. Few dare challenge a city under the watchful gaze of its patron deity.",
+          "grants": [
+            "+6 Community",
+            "Grants the patron deity's blessing to the city as long as its edicts are followed."
+          ],
+          "name": "Cathedral",
+          "isRecent": false,
+          "requires": [
+            {
+              "displayString": "12 Community",
+              "classList": "req-not-met"
+            },
+            {
+              "displayString": "Monastery",
+              "classList": "req-not-met"
+            },
+            {
+              "displayString": "Patron Deity",
+              "classList": "req-not-met"
+            }
+          ],
+          "scale": 6,
+          "section": "building-items"
+        },
+        {
+          "constructionDateDisplay": "",
+          "effectText": "",
+          "flavorText": "A city well-defended is a city that endures. The walls ensure safety, though merchants grumble at the restricted flow of goods.",
+          "grants": [
+            "+6 Authority, -3 Economy"
+          ],
+          "name": "City Walls",
+          "isRecent": false,
+          "requires": [],
+          "scale": 3,
+          "section": "building-items"
+        },
+        {
+          "constructionDateDisplay": "",
           "effectText": "",
           "flavorText": "A hive of hammering, shouting, and relentless movement, the construction yard turns raw resources into grand visions, though its clamor often drowns out the city's quieter joys.",
           "grants": [
@@ -4896,6 +5231,24 @@
           "section": "building-items"
         },
         {
+          "constructionDateDisplay": "",
+          "effectText": "",
+          "flavorText": "Fair trials, strict rulings—this is where disputes are settled and criminals face judgment. It keeps the city in order, even if it stifles progress.",
+          "grants": [
+            "+6 Authority, -2 Progress, -1 Intrigue"
+          ],
+          "name": "Courthouse",
+          "isRecent": false,
+          "requires": [
+            {
+              "displayString": "Jail",
+              "classList": "req-not-met"
+            }
+          ],
+          "scale": 2,
+          "section": "building-items"
+        },
+        {
           "constructionDateDisplay": "Septimus 01, 1497",
           "effectText": "8 bottles of the legendary Bugman’s Ale are available for purchase each month.",
           "flavorText": "The air around the Dwarven Brewery is always thick with the smell of brewing ale. It is a place where dwarven tradition meets celebration, its warm hearth a beacon on cold nights.",
@@ -4909,6 +5262,25 @@
             {
               "displayString": "Dwarven Brewmaster",
               "classList": ""
+            }
+          ],
+          "scale": 2,
+          "section": "building-items"
+        },
+        {
+          "constructionDateDisplay": "",
+          "effectText": "Trader",
+          "flavorText": "A noisy, chaotic space where problems are solved with gears, levers, and the occasional explosion. Some see it as the future—others see it as a disaster waiting to happen.",
+          "grants": [
+            "-1 Authority, +1 Economy, -1 Community, +3 Progress",
+            "Trader"
+          ],
+          "name": "Engineer's Workshop",
+          "isRecent": false,
+          "requires": [
+            {
+              "displayString": "Goblin Quarters",
+              "classList": "req-not-met"
             }
           ],
           "scale": 2,
@@ -4935,6 +5307,19 @@
             "+1 Authority, +2 Economy, -1 Progress"
           ],
           "name": "Fighting Pit",
+          "isRecent": false,
+          "requires": [],
+          "scale": 1,
+          "section": "building-items"
+        },
+        {
+          "constructionDateDisplay": "",
+          "effectText": "",
+          "flavorText": "Few things enforce authority like the sight of a hanging body. The gallows keep the city in line, though the weight of fear dampens ambition and sows unease among the people.",
+          "grants": [
+            "+6 Authority, -1 Community, -3 Progress"
+          ],
+          "name": "Gallows",
           "isRecent": false,
           "requires": [],
           "scale": 1,
@@ -4976,7 +5361,7 @@
             },
             {
               "displayString": "Glim Billowdwaddle",
-              "classList": "req-not-met"
+              "classList": "req-met"
             }
           ],
           "scale": 2,
@@ -5003,7 +5388,7 @@
             "+2 Community"
           ],
           "name": "Granary",
-          "isRecent": true,
+          "isRecent": false,
           "requires": [
             {
               "displayString": "Farm",
@@ -5021,7 +5406,20 @@
             "+1 Community"
           ],
           "name": "Graveyard",
-          "isRecent": true,
+          "isRecent": false,
+          "requires": [],
+          "scale": 1,
+          "section": "building-items"
+        },
+        {
+          "constructionDateDisplay": "",
+          "effectText": "",
+          "flavorText": "A humble sanctuary for the destitute, where kindness outweighs profit, though not without resentment from those who see generosity as wasteful.",
+          "grants": [
+            "-3 Economy, +5 Community"
+          ],
+          "name": "Homeless Shelter",
+          "isRecent": false,
           "requires": [],
           "scale": 1,
           "section": "building-items"
@@ -5053,16 +5451,48 @@
           "section": "building-items"
         },
         {
-          "constructionDateDisplay": "",
+          "constructionDateDisplay": "Nonus 22, 1497",
           "effectText": "",
           "flavorText": "The library stands as a testament to the value of knowledge, where every book and tome represents a step toward a brighter, more enlightened future.",
           "grants": [
             "+2 Progress"
           ],
           "name": "Library",
-          "isRecent": false,
+          "isRecent": true,
           "requires": [],
           "scale": 2,
+          "section": "building-items"
+        },
+        {
+          "constructionDateDisplay": "",
+          "effectText": "",
+          "flavorText": "Vendors call out their wares, children weave through the crowds, and deals are struck with firm handshakes. The old ways of trade and barter hold strong in this lively square.",
+          "grants": [
+            "+2 Economy, +2 Community"
+          ],
+          "name": "Market Square",
+          "isRecent": false,
+          "requires": [],
+          "scale": 1,
+          "section": "building-items"
+        },
+        {
+          "constructionDateDisplay": "",
+          "effectText": "Trader",
+          "flavorText": "Within these walls, monks devote themselves to prayer and labor, their careful craftsmanship supporting both their faith and the city beyond.",
+          "grants": [
+            "+1 Economy, +3 Community",
+            "Trader"
+          ],
+          "name": "Monastery",
+          "isRecent": false,
+          "requires": [
+            {
+              "displayString": "Temple",
+              "classList": "req-not-met"
+            }
+          ],
+          "scale": 3,
           "section": "building-items"
         },
         {
@@ -5198,6 +5628,19 @@
           "section": "building-items"
         },
         {
+          "constructionDateDisplay": "",
+          "effectText": "",
+          "flavorText": "A small but meaningful landmark, the shrine serves as a gathering place for those who seek comfort in faith and tradition.",
+          "grants": [
+            "+1 Community"
+          ],
+          "name": "Shrine",
+          "isRecent": false,
+          "requires": [],
+          "scale": 1,
+          "section": "building-items"
+        },
+        {
           "constructionDateDisplay": "Octavus 20, 1497",
           "effectText": "",
           "flavorText": "Billowing smoke and glowing embers mark the heart of the smithy, where metal meets fire to create everything from horseshoes to blades.",
@@ -5205,7 +5648,7 @@
             "+1 Community"
           ],
           "name": "Smithy",
-          "isRecent": true,
+          "isRecent": false,
           "requires": [],
           "scale": 1,
           "section": "building-items"
@@ -5222,10 +5665,23 @@
           "requires": [
             {
               "displayString": "3 Authority",
-              "classList": "req-not-met"
+              "classList": "req-met"
             }
           ],
           "scale": 2,
+          "section": "building-items"
+        },
+        {
+          "constructionDateDisplay": "",
+          "effectText": "",
+          "flavorText": "A relic of old justice—crude, effective, and a stark reminder of the consequences of breaking the law.",
+          "grants": [
+            "+4 Authority, -3 Progress"
+          ],
+          "name": "Stocks",
+          "isRecent": false,
+          "requires": [],
+          "scale": 1,
           "section": "building-items"
         },
         {
@@ -5250,11 +5706,30 @@
         {
           "constructionDateDisplay": "",
           "effectText": "",
-          "flavorText": "Perched on high, the watchtower offers a clear view of the horizon, but its cold, unyielding gaze leaves many feeling watched rather than protected.",
+          "flavorText": "The temple is more than a place of prayer—it is a cornerstone of the community, where traditions are upheld and the people find unity.",
           "grants": [
-            "+3 Authority, -1 Community, -1 Progress"
+            "+2 Community"
           ],
-          "name": "Watchtower",
+          "name": "Temple",
+          "isRecent": false,
+          "requires": [
+            {
+              "displayString": "Shrine",
+              "classList": "req-not-met"
+            }
+          ],
+          "scale": 2,
+          "section": "building-items"
+        },
+        {
+          "constructionDateDisplay": "",
+          "effectText": "Activity: Training (Gain proficiency with a weapon of your choice after spending 2d4 extended rests on this activity.)",
+          "flavorText": "A place where warriors are made, not through words, but through sweat, bruises, and unwavering discipline.",
+          "grants": [
+            "+3 Authority",
+            "Activity: Training (Gain proficiency with a weapon of your choice after spending 2d4 extended rests on this activity.)"
+          ],
+          "name": "Training Grounds",
           "isRecent": false,
           "requires": [
             {
@@ -5264,8 +5739,26 @@
           ],
           "scale": 2,
           "section": "building-items"
+        },
+        {
+          "constructionDateDisplay": "Nonus 22, 1497",
+          "effectText": "",
+          "flavorText": "Perched on high, the watchtower offers a clear view of the horizon, but its cold, unyielding gaze leaves many feeling watched rather than protected.",
+          "grants": [
+            "+3 Authority, -1 Community, -1 Progress"
+          ],
+          "name": "Watchtower",
+          "isRecent": true,
+          "requires": [
+            {
+              "displayString": "Barracks",
+              "classList": ""
+            }
+          ],
+          "scale": 2,
+          "section": "building-items"
         }
       ]
     },
-    "ingameDate": "Octavus 23, 1497"
+    "ingameDate": "Nonus 22, 1497"
   }
