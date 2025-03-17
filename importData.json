@@ -139,7 +139,7 @@
           "name": "Potion of Legendary Resistance",
           "section": "physical-items",
           "description": "<p><em>The way the potion shimmers is not unlike looking through a kaleidoscope.</em></p><p>When you drink this potion, you gain one Legendary Resistance for 8 hours. Spending it allows you to nullify the effect a single attack, spell, or ability would have on you.</p>",
-          "quantity": 2,
+          "quantity": 3,
           "combinedLabel": "Potion",
           "attunementLabel": ""
         },
@@ -147,7 +147,7 @@
           "name": "Potion of Greater Healing",
           "section": "physical-items",
           "description": "<div class=\"rd__b  rd__b--2\"><p><em>The potion's red liquid glimmers when agitated.</em></p><p>You regain 4d4 + 4 hit points when you drink this potion.</p></div>",
-          "quantity": 1,
+          "quantity": 6,
           "combinedLabel": "Potion",
           "attunementLabel": ""
         },
@@ -553,7 +553,7 @@
           "name": "Potion of Superior Healing",
           "section": "physical-items",
           "description": "<div class=\"rd__b  rd__b--2\"><p><em>The potion's red liquid glimmers when agitated.</em></p><p>You regain 8d4 + 8 hit points when you drink this potion.</p></div>",
-          "quantity": 3,
+          "quantity": 2,
           "combinedLabel": "Potion",
           "attunementLabel": ""
         },
@@ -603,16 +603,8 @@
           "name": "Bugman’s Ale",
           "section": "physical-items",
           "description": "<blockquote><p>This special brew was originally created by the legendary dwarven brewmaster Joseph Bugman, and he shared its recipe only with his most trusted apprentices.</p></blockquote><p>When you drink this ale, you need to make a DC 30 Constitution saving throw. On a failed save, you become immune to the &amp;Reference[Frightened] condition for 8 hours.</p>",
-          "quantity": 16,
+          "quantity": 15,
           "combinedLabel": "Food",
-          "attunementLabel": ""
-        },
-        {
-          "name": "Potion of Fire Resistance",
-          "section": "physical-items",
-          "description": "<p><em>The potion is a plain indescriminate color and smells slightly foul.</em></p><p>When you drink this potion, you gain resistance to Fire type damage for 1 hour.</p>",
-          "quantity": 1,
-          "combinedLabel": "Potion",
           "attunementLabel": ""
         },
         {
@@ -652,30 +644,6 @@
           "spellSchool": "Evocation"
         },
         {
-          "name": "Compelled Duel",
-          "section": "feature-items",
-          "description": "<p>Using your bonus action, you can roll an Intimidation check to challenge a single creature that can see you to a duel.</p><p>The DC against this ability is check's total.</p><p>The creature needs to make a Wisdom saving throw. On a failed save, it has to focus all of it's attention solely on you for it's next two turns.</p><p>Creatures with a Strength score that is higher than their Intelligence and Wisdom scores combined automatically fail this save.</p><p>Only one creature can be compelled to duel you at any given time.</p>",
-          "requirements": "Bear Spirit"
-        },
-        {
-          "name": "Ironfur",
-          "section": "feature-items",
-          "description": "<p>When you take damage from a melee attack, your damage resistances reflect half of the incoming damage back at the attacker instead of just preventing it.</p>",
-          "requirements": "Bear Spirit"
-        },
-        {
-          "name": "Intimidating Presence",
-          "section": "feature-items",
-          "description": "<p>You have advantage on Intimidation checks and you add your Strength modifier to Intimidation checks.</p>",
-          "requirements": "Bear Spirit"
-        },
-        {
-          "name": "Savage Taunt",
-          "section": "feature-items",
-          "description": "<p>Using your bonus action, you can roll an Intimidation check to present yourself as the biggest threat on the battlefield.</p><p>The DC against this ability is half the check's total, rounded up.</p><p>Hostile creatures within 20ft of you need to make a Wisdom saving throw. On a failed save, they have to focus all of their attention solely on you for their next two turns.</p><p>Creatures with a Strength score that is higher than their Intelligence and Wisdom scores combined automatically fail this save.</p>",
-          "requirements": "Bear Spirit"
-        },
-        {
           "name": "Activated: Sending - 3rd",
           "section": "physical-items",
           "description": "<div class=\"rd__b  rd__b--3\"><p>You send a short message of twenty-five words or less to a creature with which you are familiar. The creature hears the message in its mind, recognizes you as the sender if it knows you, and can answer in a like manner immediately. The spell enables creatures with Intelligence scores of at least 1 to understand the meaning of your message.</p><p>You can send the message across any distance and even to other planes of existence, but if the target is on a different plane than you, there is a [[/r 1d20]]{5 percent} chance that the message doesn't arrive.</p></div>",
@@ -695,7 +663,7 @@
           "name": "Chain (10 feet)",
           "section": "physical-items",
           "description": "<p>A chain has 10 hit points. It can be burst with a successful DC 20 Strength check.</p>",
-          "quantity": 20,
+          "quantity": 19,
           "combinedLabel": "Trinket",
           "attunementLabel": ""
         },
@@ -711,7 +679,7 @@
           "name": "Activated: Longstrider - 1st",
           "section": "physical-items",
           "description": "<div class=\"rd__b  rd__b--3\"><p>You touch a creature. The target's speed increases by 10 feet until the spell ends.</p></div><div class=\"rd__b  rd__b--3\"><div data-roll-name-ancestor=\"At Higher Levels\" class=\"rd__b  rd__b--3\"><span class=\"rd__h rd__h--3\" data-title-index=\"1\"> <span class=\"entry-title-inner\">At Higher Levels.</span></span> <p>When you cast this spell using a spell slot of 2nd level or higher, you can target one additional creature for each slot level above 1st.</p></div></div>",
-          "quantity": 5,
+          "quantity": 4,
           "combinedLabel": "Spell Gem",
           "attunementLabel": ""
         },
@@ -751,17 +719,43 @@
           "name": "Potion of Heroism",
           "section": "physical-items",
           "description": "<p><em>This blue potion bubbles and steams as if boiling.</em></p><p>When you drink this potion you gain 10 temporary hit points. Additionally you are under the effect of the Bless spell for 1 hour (no concentration required).</p>",
-          "quantity": 2,
+          "quantity": 1,
           "combinedLabel": "Potion",
           "attunementLabel": ""
         },
         {
-          "name": "Potion of Legendary Resistance",
+          "name": "Find Traps",
+          "section": "spell-items",
+          "description": "<div class=\"rd__b  rd__b--3\"><p>You sense the presence of any trap within range that is within line of sight. A trap, for the purpose of this spell, includes anything that would inflict a sudden or unexpected effect you consider harmful or undesirable, which was specifically intended as such by its creator. Thus, the spell would sense an area affected by the <strong>alarm </strong>spell, a <strong>glyph of warding </strong>or a mechanical pit trap, but it would not reveal a natural weakness in the floor, an unstable ceiling, or a hidden sinkhole.</p><p>This spell merely reveals that a trap is present. You don't learn the location of each trap, but you do learn the general nature of the danger posed by a trap you sense.</p></div>",
+          "spellLevel": "2nd Level",
+          "spellRange": "120 ft",
+          "spellSchool": "Divination"
+        },
+        {
+          "name": "Pristine White Dress from an Angel",
           "section": "physical-items",
-          "description": "<p><em>The way the potion shimmers is not unlike looking through a kaleidoscope.</em></p><p>When you drink this potion, you gain one Legendary Resistance for 8 hours. Spending it allows you to nullify the effect a single attack, spell, or ability would have on you.</p>",
+          "description": "<p>Bought for 200g from a Devil in Hell, as you do.<br />This flowing garment leaves much to the imagination, as the revealing clothes are very similar looking to some familiar looking clothes.</p>",
           "quantity": 1,
-          "combinedLabel": "Potion",
+          "combinedLabel": "Loot",
           "attunementLabel": ""
+        },
+        {
+          "name": "Pack Tactics",
+          "section": "feature-items",
+          "description": "<p>All attacks rolls made against hostile creatures within 5ft of you have advantage.</p>",
+          "requirements": "Wolf Spirit"
+        },
+        {
+          "name": "Hamstringing",
+          "section": "feature-items",
+          "description": "<p>All critical hits against hostile creatures within 5ft of you deal an additional xd12 damage where x is half your proficiency bonus rounded up.</p>",
+          "requirements": "Wolf Spirit"
+        },
+        {
+          "name": "Keen Senses",
+          "section": "feature-items",
+          "description": "<p>You have blindsight out to 15ft.</p>",
+          "requirements": "Wolf Spirit"
         }
       ],
       "Fearghas MacAllistar": [
@@ -1355,7 +1349,7 @@
           "name": "Potion of Greater Healing",
           "section": "physical-items",
           "description": "<div class=\"rd__b  rd__b--2\"><p><em>The potion's red liquid glimmers when agitated.</em></p><p>You regain 4d4 + 4 hit points when you drink this potion.</p></div>",
-          "quantity": 8,
+          "quantity": 2,
           "combinedLabel": "Potion",
           "attunementLabel": ""
         },
@@ -2172,14 +2166,6 @@
           "attunementLabel": ""
         },
         {
-          "name": "Activated: Wind Walk - 6th",
-          "section": "physical-items",
-          "description": "<div class=\"rd__b  rd__b--3\"><p>You and up to ten willing creatures you can see within range assume a gaseous form for the duration, appearing as wisps of cloud. While in this cloud form, a creature has a flying speed of 300 feet and has resistance to damage from nonmagical weapons. The only actions a creature can take in this form are the <span class=\"bold\" data-plut-hover=\"true\" data-plut-hover-page=\"actions.html\" data-plut-hover-source=\"PHB\" data-plut-hover-hash=\"dash_phb\">Dash</span> action or to revert to its normal form. Reverting takes 1 minute, during which time a creature is &amp;Reference[condition=incapacitated] and can't move. Until the spell ends, a creature can revert to cloud form, which also requires the 1-minute transformation.</p><div class=\"rd__spc-inline-post\"></div><p>If a creature is in cloud form and flying when the effect ends, the creature descends 60 feet per round for 1 minute until it lands, which it does safely. If it can't land after 1 minute, the creature falls the remaining distance.</p></div>",
-          "quantity": 1,
-          "combinedLabel": "Spell Gem",
-          "attunementLabel": ""
-        },
-        {
           "name": "Activated: Find the Path - 6th",
           "section": "physical-items",
           "description": "<div class=\"rd__b  rd__b--3\"><p>This spell allows you to find the shortest, most direct physical route to a specific fixed location that you are familiar with on the same plane of existence. If you name a destination on another plane of existence, a destination that moves (such as a mobile fortress), or a destination that isn't specific (such as \"a green dragon's lair\"), the spell fails.</p><div class=\"rd__spc-inline-post\"></div><p>For the duration, as long as you are on the same plane of existence as the destination, you know how far it is and in what direction it lies. While you are traveling there, whenever you are presented with a choice of paths along the way, you automatically determine which path is the shortest and most direct route (but not necessarily the safest route) to the destination.</p></div>",
@@ -2453,7 +2439,7 @@
           "name": "Potion of Heroism",
           "section": "physical-items",
           "description": "<p><em>This blue potion bubbles and steams as if boiling.</em></p><p>When you drink this potion you gain 10 temporary hit points. Additionally you are under the effect of the Bless spell for 1 hour (no concentration required).</p>",
-          "quantity": 6,
+          "quantity": 5,
           "combinedLabel": "Potion",
           "attunementLabel": ""
         },
@@ -3104,6 +3090,14 @@
           "quantity": 1,
           "combinedLabel": "Spell Gem",
           "attunementLabel": ""
+        },
+        {
+          "name": "Polymorph",
+          "section": "spell-items",
+          "description": "<div class=\"rd__b  rd__b--3\"><p>This spell transforms a creature that you can see within range into a new form. An unwilling creature must make a Wisdom saving throw to avoid the effect. The spell has no effect on a shapechanger or a creature with 0 hit points.</p><p>The transformation lasts for the duration, or until the target drops to 0 hit points or dies. The new form can be <span class=\"bold\">any beast</span> whose challenge rating is equal to or less than the target's (or the target's level, if it doesn't have a challenge rating). The target's game statistics, including mental ability scores, are replaced by the statistics of the chosen beast. It retains its alignment and personality.</p><p>The target assumes the hit points of its new form. When it reverts to its normal form, the creature returns to the number of hit points it had before it transformed. If it reverts as a result of dropping to 0 hit points, any excess damage carries over to its normal form. As long as the excess damage doesn't reduce the creature's normal form to 0 hit points, it isn't knocked unconscious.</p><p>The creature is limited in the actions it can perform by the nature of its new form, and it can't speak, cast spells, or take any other action that requires hands or speech.</p><p>The target's gear melds into the new form. The creature can't activate, use, wield, or otherwise benefit from any of its equipment.</p></div>",
+          "spellLevel": "4th Level",
+          "spellRange": "60 ft",
+          "spellSchool": "Transmutation"
         }
       ],
       "Plex": [
@@ -4713,7 +4707,7 @@
           "name": "Dried Meat",
           "section": "physical-items",
           "description": "<p>The process of drying meat is long and extensive. In some particular cases, for the highest quality of dried meat, it can take over a year. It is highly sought after due to its extended shelf life, and depending on the meat used, it is, quite frankly, delicious.</p>",
-          "quantity": 20,
+          "quantity": 17,
           "combinedLabel": "Food (meal)",
           "attunementLabel": ""
         },
@@ -4751,7 +4745,7 @@
           "name": "Chili Pepper",
           "section": "physical-items",
           "description": "<p>Harvested usually in most warm climates, it is used mainly as a spice in cuisines to add some \"warmth\" to the dish.</p>",
-          "quantity": 5,
+          "quantity": 4,
           "combinedLabel": "Spice (spice)",
           "attunementLabel": ""
         },
@@ -4929,7 +4923,7 @@
           "name": "Ginko Leaves",
           "section": "physical-items",
           "description": "",
-          "quantity": 10,
+          "quantity": 9,
           "combinedLabel": "Spice",
           "attunementLabel": ""
         },
@@ -4937,7 +4931,7 @@
           "name": "Ginseng Root Powder",
           "section": "physical-items",
           "description": "",
-          "quantity": 3,
+          "quantity": 2,
           "combinedLabel": "Spice",
           "attunementLabel": ""
         },
@@ -4977,7 +4971,7 @@
           "name": "Potion of Heroism",
           "section": "physical-items",
           "description": "<p><em>This blue potion bubbles and steams as if boiling.</em></p><p>When you drink this potion you gain 10 temporary hit points. Additionally you are under the effect of the Bless spell for 1 hour (no concentration required).</p>",
-          "quantity": 2,
+          "quantity": 1,
           "combinedLabel": "Potion",
           "attunementLabel": ""
         },
@@ -4995,6 +4989,14 @@
           "description": "<div class=\"rd__b  rd__b--2\"><p>The name of this poison has been made up by alchemists to make it seem like it's more difficult to obtain than it really is.</p><p>A creature subjected to this poison must make a [[/save con 19 format=long]], taking [[/damage 12d6 poison]] damage on a failed save, or half as much damage on a successful one.</p></div>",
           "quantity": 5,
           "combinedLabel": "Injury (injury)",
+          "attunementLabel": ""
+        },
+        {
+          "name": "Potion of Superior Healing",
+          "section": "physical-items",
+          "description": "<div class=\"rd__b  rd__b--2\"><p><em>The potion's red liquid glimmers when agitated.</em></p><p>You regain 8d4 + 8 hit points when you drink this potion.</p></div>",
+          "quantity": 1,
+          "combinedLabel": "Potion",
           "attunementLabel": ""
         }
       ]
@@ -5023,7 +5025,7 @@
           ],
           "isTemporary": true,
           "name": "Heroic Deed",
-          "remainingDays": 29,
+          "remainingDays": 28,
           "section": "effect-items"
         }
       ],
@@ -5760,5 +5762,5 @@
         }
       ]
     },
-    "ingameDate": "Nonus 23, 1497"
+    "ingameDate": "Nonus 24, 1497"
   }
