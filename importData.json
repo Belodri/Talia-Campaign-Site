@@ -139,7 +139,7 @@
           "name": "Potion of Legendary Resistance",
           "section": "physical-items",
           "description": "<p><em>The way the potion shimmers is not unlike looking through a kaleidoscope.</em></p><p>When you drink this potion, you gain one Legendary Resistance for 8 hours. Spending it allows you to nullify the effect a single attack, spell, or ability would have on you.</p>",
-          "quantity": 3,
+          "quantity": 2,
           "combinedLabel": "Potion",
           "attunementLabel": ""
         },
@@ -147,7 +147,7 @@
           "name": "Potion of Greater Healing",
           "section": "physical-items",
           "description": "<div class=\"rd__b  rd__b--2\"><p><em>The potion's red liquid glimmers when agitated.</em></p><p>You regain 4d4 + 4 hit points when you drink this potion.</p></div>",
-          "quantity": 6,
+          "quantity": 1,
           "combinedLabel": "Potion",
           "attunementLabel": ""
         },
@@ -338,14 +338,6 @@
           "requirements": "Barbarian 11"
         },
         {
-          "name": "Oil of Sharpness",
-          "section": "physical-items",
-          "description": "<div class=\"rd__b  rd__b--2\"><p><em>This clear, gelatinous oil sparkles with tiny, ultrathin silver shards.</em></p><p>Taking a bonus action to apply, the oil can coat the user's weapons. For 1 hour, all attacks with weapons are considered magical and have a +3 bonus to attack and damage rolls.</p></div>",
-          "quantity": 1,
-          "combinedLabel": "Potion",
-          "attunementLabel": ""
-        },
-        {
           "name": "Glasses of Scarlet Sight",
           "section": "physical-items",
           "description": "<blockquote><p>Tainted by the blood of countless battles, these glasses now show the world through a crimson hue, forever marked by their previous owner's fury.</p></blockquote><p>For every 20% of your maximum hit points that you are missing, your melee weapon attacks deal additional damage equal to your Constitution modifier.</p><p>Additionally, when you score a critical hit with a melee weapon attack, you roll one additional weapon damage die for every 20% of your maximum hit points that you are missing.</p>",
@@ -373,7 +365,7 @@
           "name": "Wool",
           "section": "physical-items",
           "description": "<p>A textile fabric that is obtained from farm animals, mainly sheep, and is primarily used for clothing. In addition to that, it is also used for blankets, saddle cloths for cavalry, carpeting, and on rare occasions even a soil fertilizer.</p><p></p>",
-          "quantity": 6,
+          "quantity": 5,
           "combinedLabel": "Loot",
           "attunementLabel": ""
         },
@@ -438,7 +430,7 @@
         {
           "name": "Dented Iron Flask",
           "section": "physical-items",
-          "description": "<p><em>Wondrous item</em></p><p>This iron bottle has a brass stopper. You can use an action to speak the flask's command word, targeting a creature that you can see within 60 feet of you. If the target is native to a plane of existence other than the one you're on, the target must succeed on a DC 17 Wisdom saving throw or be trapped in the flask. If the target has been trapped by the flask before, it has advantage on the saving throw. Once trapped, a creature remains in the flask until released. The flask can hold only one creature at a time. A creature trapped in the flask doesn't need to breathe, eat, or drink and doesn't age.</p><p>You can use an action to remove the flask's stopper and release the creature the flask contains. The creature acts in accordance with its normal disposition and alignment.</p><p>An @UUID[Compendium.dnd5e.spells.Item.3OZnNhunvRtPOQmH]{Identify} spell reveals that a creature is inside the flask, but the only way to determine the type of creature is to open the flask.</p>",
+          "description": "<h3>Current Inhabitant: Haunt - 63 HP</h3><p><em>Wondrous item</em></p><p>This iron bottle has a brass stopper. You can use an action to speak the flask's command word, targeting a creature that you can see within 60 feet of you. If the target is native to a plane of existence other than the one you're on, the target must succeed on a DC 17 Wisdom saving throw or be trapped in the flask. If the target has been trapped by the flask before, it has advantage on the saving throw. Once trapped, a creature remains in the flask until released. The flask can hold only one creature at a time. A creature trapped in the flask doesn't need to breathe, eat, or drink and doesn't age.</p><p>You can use an action to remove the flask's stopper and release the creature the flask contains. The creature acts in accordance with its normal disposition and alignment.</p><p>An @UUID[Compendium.dnd5e.spells.Item.3OZnNhunvRtPOQmH]{Identify} spell reveals that a creature is inside the flask, but the only way to determine the type of creature is to open the flask.</p>",
           "quantity": 1,
           "combinedLabel": "Trinket",
           "attunementLabel": ""
@@ -469,7 +461,7 @@
           "name": "Potion of Giant Size",
           "section": "physical-items",
           "description": "<div class=\"rd__b  rd__b--2\"><p><em>This potion is a pale white liquid made from the tongue of a giant clam, with a pungent aroma akin to that of rotting algae. It tastes sweet, however, when consumed.</em></p><p>When you drink this potion, your size increases by up to two categories for 24 hours. For that duration, your Strength becomes 25, if it isn't already higher, and your hit point maximum is doubled (your current hit points are doubled when you drink the potion). In addition, the reach of your melee attacks increases by 5 feet.</p><p>Everything you are carrying and wearing also increases in size for the duration. When rolling damage for weapons enlarged in this manner, roll three times the normal number of dice; for example, an enlarged longsword would deal [[/r 3d8]] slashing damage (instead of [[/r 1d8]]), or [[/r 3d10]] slashing damage (instead of [[/r 1d10]]) when used with two hands.</p></div>",
-          "quantity": 2,
+          "quantity": 1,
           "combinedLabel": "Potion",
           "attunementLabel": ""
         },
@@ -553,7 +545,7 @@
           "name": "Potion of Superior Healing",
           "section": "physical-items",
           "description": "<div class=\"rd__b  rd__b--2\"><p><em>The potion's red liquid glimmers when agitated.</em></p><p>You regain 8d4 + 8 hit points when you drink this potion.</p></div>",
-          "quantity": 2,
+          "quantity": 1,
           "combinedLabel": "Potion",
           "attunementLabel": ""
         },
@@ -663,7 +655,7 @@
           "name": "Chain (10 feet)",
           "section": "physical-items",
           "description": "<p>A chain has 10 hit points. It can be burst with a successful DC 20 Strength check.</p>",
-          "quantity": 19,
+          "quantity": 20,
           "combinedLabel": "Trinket",
           "attunementLabel": ""
         },
@@ -679,15 +671,7 @@
           "name": "Activated: Longstrider - 1st",
           "section": "physical-items",
           "description": "<div class=\"rd__b  rd__b--3\"><p>You touch a creature. The target's speed increases by 10 feet until the spell ends.</p></div><div class=\"rd__b  rd__b--3\"><div data-roll-name-ancestor=\"At Higher Levels\" class=\"rd__b  rd__b--3\"><span class=\"rd__h rd__h--3\" data-title-index=\"1\"> <span class=\"entry-title-inner\">At Higher Levels.</span></span> <p>When you cast this spell using a spell slot of 2nd level or higher, you can target one additional creature for each slot level above 1st.</p></div></div>",
-          "quantity": 4,
-          "combinedLabel": "Spell Gem",
-          "attunementLabel": ""
-        },
-        {
-          "name": "Triggered: Anticipate Arcana - 3rd",
-          "section": "physical-items",
-          "description": "<p><strong>Trigger: </strong>Targeted by a spell or magical effect from an enemy that forces a save.</p><hr /><div class=\"rd__b  rd__b--3\"><p>Your foresight gives you an instant to ready your defenses against a magical attack. When you cast this spell, you have advantage on saving throws against spells and other magical effects until the start of your next turn.</p></div>",
-          "quantity": 1,
+          "quantity": 3,
           "combinedLabel": "Spell Gem",
           "attunementLabel": ""
         },
@@ -716,14 +700,6 @@
           "attunementLabel": ""
         },
         {
-          "name": "Potion of Heroism",
-          "section": "physical-items",
-          "description": "<p><em>This blue potion bubbles and steams as if boiling.</em></p><p>When you drink this potion you gain 10 temporary hit points. Additionally you are under the effect of the Bless spell for 1 hour (no concentration required).</p>",
-          "quantity": 1,
-          "combinedLabel": "Potion",
-          "attunementLabel": ""
-        },
-        {
           "name": "Find Traps",
           "section": "spell-items",
           "description": "<div class=\"rd__b  rd__b--3\"><p>You sense the presence of any trap within range that is within line of sight. A trap, for the purpose of this spell, includes anything that would inflict a sudden or unexpected effect you consider harmful or undesirable, which was specifically intended as such by its creator. Thus, the spell would sense an area affected by the <strong>alarm </strong>spell, a <strong>glyph of warding </strong>or a mechanical pit trap, but it would not reveal a natural weakness in the floor, an unstable ceiling, or a hidden sinkhole.</p><p>This spell merely reveals that a trap is present. You don't learn the location of each trap, but you do learn the general nature of the danger posed by a trap you sense.</p></div>",
@@ -735,6 +711,38 @@
           "name": "Pristine White Dress from an Angel",
           "section": "physical-items",
           "description": "<p>Bought for 200g from a Devil in Hell, as you do.<br />This flowing garment leaves much to the imagination, as the revealing clothes are very similar looking to some familiar looking clothes.</p>",
+          "quantity": 1,
+          "combinedLabel": "Loot",
+          "attunementLabel": ""
+        },
+        {
+          "name": "Triggered: Anticipate Arcana - 3rd",
+          "section": "physical-items",
+          "description": "<p><strong>Trigger: </strong>Targeted by a spell or magical effect from an enemy that forces a save.</p><hr /><div class=\"rd__b  rd__b--3\"><p>Your foresight gives you an instant to ready your defenses against a magical attack. When you cast this spell, you have advantage on saving throws against spells and other magical effects until the start of your next turn.</p></div>",
+          "quantity": 1,
+          "combinedLabel": "Spell Gem",
+          "attunementLabel": ""
+        },
+        {
+          "name": "Abjurer's Bangle",
+          "section": "physical-items",
+          "description": "<div class=\"rd__b  rd__b--2\"><p>You can clasp or remove this metal bracelet around the wrist or ankle of yourself or a willing creature within your reach using an action, unless that creature already has an Abjurer's Bangle equipped. The bangle emits a ward of abjuration magic from it that has 120 charges. A creature wearing the bangle can use its reaction when it takes damage to speak the bangle's command word and expend any number of charges to gain temporary hit points equal to the number of charges spent. Upon consuming the last charge, the bangle becomes a nonmagical bracelet.</p></div>",
+          "quantity": 1,
+          "combinedLabel": "Trinket",
+          "attunementLabel": ""
+        },
+        {
+          "name": "Wooden Chicken Statue with Knife beak",
+          "section": "physical-items",
+          "description": "",
+          "quantity": 8,
+          "combinedLabel": "Art Object",
+          "attunementLabel": ""
+        },
+        {
+          "name": "bed sheet",
+          "section": "physical-items",
+          "description": "",
           "quantity": 1,
           "combinedLabel": "Loot",
           "attunementLabel": ""
@@ -756,6 +764,14 @@
           "section": "feature-items",
           "description": "<p>You have blindsight out to 15ft.</p>",
           "requirements": "Wolf Spirit"
+        },
+        {
+          "name": "Activated: Mind Blank - 8th",
+          "section": "physical-items",
+          "description": "<div class=\"rd__b  rd__b--3\"><p>Until the spell ends, one willing creature you touch is immune to psychic damage, any effect that would sense its emotions or read its thoughts, divination spells, and the &amp;Reference[condition=charmed] condition. The spell even foils <strong>wish </strong>spells and spells or effects of similar power used to affect the target's mind or to gain information about the target.</p></div>",
+          "quantity": 1,
+          "combinedLabel": "Spell Gem",
+          "attunementLabel": ""
         }
       ],
       "Fearghas MacAllistar": [
@@ -1125,7 +1141,7 @@
           "name": "Potion of Maximum Power",
           "section": "physical-items",
           "description": "<p><em>This glowing purple liquid smells of sugar and plum, but it has a muddy taste.</em></p><p>The first time you cast a damage-dealing spell of 4th level or lower within 1 minute after drinking the potion, instead of rolling dice to determine the damage dealt, you instead use the highest number possible for each die.</p>",
-          "quantity": 11,
+          "quantity": 9,
           "combinedLabel": "Potion",
           "attunementLabel": ""
         },
@@ -1357,7 +1373,7 @@
           "name": "Core Crystal",
           "section": "physical-items",
           "description": "<p>Encased in the core of every permanent construct, this crystal pulses with a rhythmic, crimson luminescence. Its jagged edges and vibrant glow give it an almost organic appearance, as if it were a living heart beating within a metallic shell.</p>",
-          "quantity": 7,
+          "quantity": 5,
           "combinedLabel": "Ingredient (bodyPart)",
           "attunementLabel": ""
         },
@@ -1451,7 +1467,7 @@
           "name": "Essence of Legend",
           "section": "physical-items",
           "description": "<p>Extracted from slain creatures renowned for their legendary resistances. This ethereal substance pulses with arcane energy, embodying the essence of resilience and defiance against formidable adversaries.</p>",
-          "quantity": 2,
+          "quantity": 14,
           "combinedLabel": "Ingredient (bodyPart)",
           "attunementLabel": ""
         },
@@ -1966,14 +1982,6 @@
           "spellSchool": "Transmutation"
         },
         {
-          "name": "Mage Wine",
-          "section": "physical-items",
-          "description": "<div class=\"rd__b  rd__b--2\"><p>If you are capable of casting spells from the wizard's spell list, then when you drink this rich red potion, you will instantly regain one spell slot that you cast earlier in the day. Roll a [[/r 1d4]] to determine the slot level. If you haven't used any slots of that level, you regain the lowest level slot you have used.</p></div>",
-          "quantity": 2,
-          "combinedLabel": "Potion",
-          "attunementLabel": ""
-        },
-        {
           "name": "Spell Scroll: Guidance",
           "section": "physical-items",
           "description": "<div class=\"rd__b  rd__b--3\"><p>You touch one willing creature. Once before the spell ends, the target can roll a [[/r d4]] and add the number rolled to one ability check of its choice. It has to roll the die before making the ability check. The spell then ends.</p></div>",
@@ -2054,14 +2062,6 @@
           "attunementLabel": ""
         },
         {
-          "name": "Activated: Raulothim's Psychic Lance - 4th",
-          "section": "physical-items",
-          "description": "<div class=\"rd__b  rd__b--3\"><p>You unleash a shimmering lance of psychic power from your forehead at a creature that you can see within range. Alternatively, you can utter a creature's name. If the named target is within range, it becomes the spell's target even if you can't see it. If the named target isn't within range, the lance dissipates without effect.</p><div class=\"rd__spc-inline-post\"></div><p>The target must make an Intelligence saving throw. On a failed save, the target takes <span><span class=\"roll-link\" data-type=\"damage\" data-formula=\"7d6\" data-damage-type=\"psychic\"><a data-action=\"roll\"><i class=\"fa-solid fa-dice-d20\"></i>7d6</a></span> psychic</span> damage and is <span class=\"reference-link\"><a class=\"content-link\" data-uuid=\"Compendium.dnd5e.rules.JournalEntry.w7eitkpD7QQTB6j0.JournalEntryPage.TpkZgLfxCmSndmpb\" data-id=\"TpkZgLfxCmSndmpb\" data-type=\"JournalEntryPage\" data-pack=\"dnd5e.rules\" data-tooltip=\"Rule Page\"><i class=\"fas fa-book-open\"></i>Incapacitated</a><a class=\"enricher-action\" data-action=\"apply\" data-status=\"incapacitated\" data-tooltip=\"EDITOR.DND5E.Inline.ApplyStatus\" aria-label=\"Apply Status to Selected Tokens\"><i class=\"fas fa-fw fa-reply-all fa-flip-horizontal\"></i></a></span> until the start of your next turn. On a successful save, the creature takes half as much damage and isn't <span class=\"reference-link\"><a class=\"content-link\" data-uuid=\"Compendium.dnd5e.rules.JournalEntry.w7eitkpD7QQTB6j0.JournalEntryPage.TpkZgLfxCmSndmpb\" data-id=\"TpkZgLfxCmSndmpb\" data-type=\"JournalEntryPage\" data-pack=\"dnd5e.rules\" data-tooltip=\"Rule Page\"><i class=\"fas fa-book-open\"></i>Incapacitated</a><a class=\"enricher-action\" data-action=\"apply\" data-status=\"incapacitated\" data-tooltip=\"EDITOR.DND5E.Inline.ApplyStatus\" aria-label=\"Apply Status to Selected Tokens\"><i class=\"fas fa-fw fa-reply-all fa-flip-horizontal\"></i></a></span>.</p></div><div class=\"rd__b  rd__b--3\"><div class=\"rd__b  rd__b--3\"><span class=\"rd__h rd__h--3\" data-title-index=\"1\"> <span class=\"entry-title-inner\">At Higher Levels.</span></span> <p>When you cast this spell using a spell slot of 5th level or higher, the damage increases by <span><span class=\"roll-link\" data-formula=\"1d6\" data-type=\"damage\"><a data-action=\"roll\"><i class=\"fa-solid fa-dice-d20\"></i>1d6</a></span> </span> for each slot level above 4th.</p><div class=\"rd__spc-inline-post\"></div></div><div class=\"rd__spc-inline-post\"></div></div>",
-          "quantity": 1,
-          "combinedLabel": "Spell Gem",
-          "attunementLabel": ""
-        },
-        {
           "name": "Activated: Shield - 1st",
           "section": "physical-items",
           "description": "<div class=\"rd__b  rd__b--3\"><p>An invisible barrier of magical force appears and protects you. Until the start of your next turn, you have a +5 bonus to AC, including against the triggering attack, and you take no damage from <a class=\"jlnk__entity-link\" draggable=\"true\" data-plut-hover-page=\"spells.html\" data-plut-hover-source=\"PHB\" data-plut-hover-hash=\"magic%20missile_phb\" data-plut-hover-tag=\"spell\" data-plut-hover-hash-pre-encoded=\"true\" data-plut-rich-link=\"true\" data-plut-rich-link-entity-type=\"Item\" data-plut-rich-link-original-text=\"spell[magic missile]\"><i class=\"fas fas fa-suitcase\"></i> magic missile</a>.</p><div class=\"rd__spc-inline-post\"></div></div>",
@@ -2089,14 +2089,6 @@
           "name": "Activated: Slow - 3rd",
           "section": "physical-items",
           "description": "<div class=\"rd__b  rd__b--3\"><p>You alter time around up to six creatures of your choice in a 40-foot cube within range. Each target must succeed on a Wisdom saving throw or be affected by this spell for the duration.</p><p>An affected target's speed is halved, it takes a −2 penalty to AC and Dexterity saving throws, and becomes &amp;Reference[distracted]. On its turn, it can use either an action or a bonus action, not both. Regardless of the creature's abilities or magic items, it can't make more than one melee or ranged attack during its turn.</p><p>If the creature attempts to cast a spell with a casting time of 1 action, roll a [[/r d20]]. On an 11 or higher, the spell doesn't take effect until the creature's next turn, and the creature must use its action on that turn to complete the spell. If it can't, the spell is wasted.</p><p>A creature affected by this spell makes another Wisdom saving throw at the end of each of its turns. On a successful save, the effect ends for it.</p></div>",
-          "quantity": 1,
-          "combinedLabel": "Spell Gem",
-          "attunementLabel": ""
-        },
-        {
-          "name": "Activated: Scorching Ray - 4th",
-          "section": "physical-items",
-          "description": "<div class=\"rd__b  rd__b--3\"><p>You create three rays of fire and hurl them at targets within range. You can hurl them at one target or several.</p><div class=\"rd__spc-inline-post\"></div><p>Make a ranged spell attack for each ray. On a hit, the target takes [[/r 2d6]] fire damage.</p></div><div class=\"rd__b  rd__b--3\"><div class=\"rd__b  rd__b--3\"><span class=\"rd__h rd__h--3\" data-title-index=\"1\"> <span class=\"entry-title-inner\">At Higher Levels.</span></span> <p>When you cast this spell using a spell slot of 3rd level or higher, you create one additional ray for each slot level above 2nd.</p><div class=\"rd__spc-inline-post\"></div></div><div class=\"rd__spc-inline-post\"></div></div>",
           "quantity": 1,
           "combinedLabel": "Spell Gem",
           "attunementLabel": ""
@@ -2321,16 +2313,8 @@
           "name": "Black Nerium",
           "section": "physical-items",
           "description": "<p>Clinging to the sheer faces of rugged cliffs, Black Nerium is a hardy plant with slender and completely black leaves that taper to sharp points. Its blossoms are small and deep purple, almost black, emitting a faint, spicy aroma. The stems are tough and wiry, allowing the plant to anchor itself securely in the rocky crevices where few other plants dare to grow.</p>",
-          "quantity": 8,
+          "quantity": 7,
           "combinedLabel": "Ingredient (herb)",
-          "attunementLabel": ""
-        },
-        {
-          "name": "Potion of Fire Resistance",
-          "section": "physical-items",
-          "description": "<p><em>The potion is a plain indescriminate color and smells slightly foul.</em></p><p>When you drink this potion, you gain resistance to Fire type damage for 1 hour.</p>",
-          "quantity": 1,
-          "combinedLabel": "Potion",
           "attunementLabel": ""
         },
         {
@@ -2439,7 +2423,7 @@
           "name": "Potion of Heroism",
           "section": "physical-items",
           "description": "<p><em>This blue potion bubbles and steams as if boiling.</em></p><p>When you drink this potion you gain 10 temporary hit points. Additionally you are under the effect of the Bless spell for 1 hour (no concentration required).</p>",
-          "quantity": 5,
+          "quantity": 2,
           "combinedLabel": "Potion",
           "attunementLabel": ""
         },
@@ -3060,14 +3044,6 @@
           "attunementLabel": ""
         },
         {
-          "name": "Activated: Counterspell - 3rd",
-          "section": "physical-items",
-          "description": "<div class=\"rd__b  rd__b--3\"><p>You attempt to interrupt a creature in the process of casting a spell. If the creature is casting a spell of 3rd level or lower, its spell fails and has no effect. If it is casting a spell of 4th level or higher, make an ability check using your spellcasting ability. The DC equals 10 + the spell's level. On a success, the creature's spell fails and has no effect.</p><div class=\"rd__spc-inline-post\"></div></div><div class=\"rd__b  rd__b--3\"><div class=\"rd__b  rd__b--3\"><span class=\"rd__h rd__h--3\" data-title-index=\"1\"> <span class=\"entry-title-inner\">At Higher Levels.</span></span> <p>When you cast this spell using a spell slot of 4th level or higher, the interrupted spell has no effect if its level is less than or equal to the level of the spell slot you used.</p><div class=\"rd__spc-inline-post\"></div></div><div class=\"rd__spc-inline-post\"></div></div>",
-          "quantity": 1,
-          "combinedLabel": "Spell Gem",
-          "attunementLabel": ""
-        },
-        {
           "name": "Potion of Speed",
           "section": "physical-items",
           "description": "<div class=\"rd__b  rd__b--2\"><p>When you drink this potion, you gain the effect of the Haste spell for 1 minute (no concentration required). The potion's yellow fluid is streaked with black and swirls on its own.</p></div>",
@@ -3087,7 +3063,7 @@
           "name": "Triggered: Greater Restoration - 9th",
           "section": "physical-items",
           "description": "<p><strong>Trigger: </strong>Whenever I'm inflicted with any effect this spell can remove apart from cursed.</p><hr /><div class=\"rd__b  rd__b--3\"><p></p></div><p>You imbue a creature you touch with positive energy to undo a debilitating effect. You can reduce the target's exhaustion level by one, or end one of the following effects on the target:</p><p>One effect that &amp;Reference[condition=charmed] or &amp;Reference[condition=petrified] the target</p><p>One curse, including the target's attunement to a cursed magic item</p><p>Any reduction to one of the target's ability scores</p><p>One effect reducing the target's hit point maximum</p>",
-          "quantity": 1,
+          "quantity": 5,
           "combinedLabel": "Spell Gem",
           "attunementLabel": ""
         },
@@ -3098,6 +3074,62 @@
           "spellLevel": "4th Level",
           "spellRange": "60 ft",
           "spellSchool": "Transmutation"
+        },
+        {
+          "name": "Small Bronze Hammer",
+          "section": "physical-items",
+          "description": "<p>You are certain that this hammer wasn't here when you entered…</p>",
+          "quantity": 1,
+          "combinedLabel": "Treasure",
+          "attunementLabel": ""
+        },
+        {
+          "name": "Potion of Diminution",
+          "section": "physical-items",
+          "description": "<div class=\"rd__b  rd__b--2\"><p><em>The red in the potion's liquid continuously contracts to a tiny bead and then expands to color the clear liquid around it. Shaking the bottle fails to interrupt this process.</em></p><p>When you drink this potion, you gain the \"reduce\" effect of the enlarge/reduce spell for 1d4 hours (no concentration required):</p></div><p>While reduced, your size is decreased by one category and your weight is reduced to one-eight.<br />You have disadvantage on Strength checks and saving throws and your attacks with weapons deal 1d4 less damage.</p>",
+          "quantity": 4,
+          "combinedLabel": "Potion",
+          "attunementLabel": ""
+        },
+        {
+          "name": "Activated: Deadly Sting - 8th",
+          "section": "physical-items",
+          "description": "<div class=\"rd__b  rd__b--3\"><p>You animate the thorn used as the material component of this spell, directing it to strike a creature in range. Make a melee spell attack against a creature you can see within range.</p></div><p>On a hit, the target takes [[/damage 1d4 type=piercing]] damage plus [[/damage 4d10 type=poison]] damage, and a creature must make a successful Constitution saving throw or become vulnerable to poison damage for the duration of the spell. Until the spell ends, you can make the attack again on each of your turns as an action.</p>",
+          "quantity": 4,
+          "combinedLabel": "Spell Gem",
+          "attunementLabel": ""
+        },
+        {
+          "name": "Activated: Silence - 2nd",
+          "section": "physical-items",
+          "description": "<div class=\"rd__b  rd__b--3\"><p>For the duration, no sound can be created within or pass through a 20-foot-radius sphere centered on a point you choose within range. Any creature or object entirely inside the sphere is immune to thunder damage, and creatures are <span class=\"reference-link\"><a class=\"content-link\" draggable=\"true\" data-link data-uuid=\"Compendium.dnd5e.rules.JournalEntry.w7eitkpD7QQTB6j0.JournalEntryPage.6G8JSjhn701cBITY\" data-id=\"6G8JSjhn701cBITY\" data-type=\"JournalEntryPage\" data-pack=\"dnd5e.rules\" data-tooltip=\"Rule Page\"><i class=\"fas fa-book-open\"></i>Deafened</a><a class=\"enricher-action\" data-action=\"apply\" data-status=\"deafened\" data-tooltip=\"EDITOR.DND5E.Inline.ApplyStatus\" aria-label=\"Apply Status to Selected Tokens\"><i class=\"fas fa-fw fa-reply-all fa-flip-horizontal\"></i></a></span> while entirely inside it. Casting a spell that includes a verbal component is impossible there.</p></div>",
+          "quantity": 2,
+          "combinedLabel": "Spell Gem",
+          "attunementLabel": ""
+        },
+        {
+          "name": "Activated: Mind Blank - 8th",
+          "section": "physical-items",
+          "description": "<div class=\"rd__b  rd__b--3\"><p>Until the spell ends, one willing creature you touch is immune to psychic damage, any effect that would sense its emotions or read its thoughts, divination spells, and the &amp;Reference[condition=charmed] condition. The spell even foils <strong>wish </strong>spells and spells or effects of similar power used to affect the target's mind or to gain information about the target.</p></div>",
+          "quantity": 3,
+          "combinedLabel": "Spell Gem",
+          "attunementLabel": ""
+        },
+        {
+          "name": "Activated: Greater Restoration - 9th",
+          "section": "physical-items",
+          "description": "<p>You imbue a creature you touch with positive energy to undo a debilitating effect. You can reduce the target's exhaustion level by one, or end one of the following effects on the target:</p><p>One effect that &amp;Reference[condition=charmed] or &amp;Reference[condition=petrified] the target</p><p>One curse, including the target's attunement to a cursed magic item</p><p>Any reduction to one of the target's ability scores</p><p>One effect reducing the target's hit point maximum</p>",
+          "quantity": 4,
+          "combinedLabel": "Spell Gem",
+          "attunementLabel": ""
+        },
+        {
+          "name": "Oathgold Coin",
+          "section": "physical-items",
+          "description": "<p>This brilliant, lusterous metal is sacred to the dwarves, said to be the very blood of Smednir, god of gold and gems, who was the first to forge enchanted relics. When he sought to share his love of gold and jewels with the dwarves, Torag forbade it, warning that such gifts would only sow greed and strife among them. But Smednir pleaded, swearing a solemn oath that he alone would bear the burden of greed, so that his kin might cherish wealth without being consumed by it.</p><p>Yet as the dwarves flourished, so too did their desires, and Smednir’s burden grew heavier with each passing age. In time, the weight proved too great, and inevitably, he faltered.  For this failure, Torag beheaded him, and the blood that flowed from his severed neck sunk deep into the earth, forming veins of Oathgold.</p><p>To the dwarves, Smednir’s fall is no tale of treachery, but of tragedy. His story serves as both a warning against making promises one cannot keep and a solemn reminder that no oath, once sworn, is without consequence. Even the smallest broken word carries weight, and so it is said that consuming an Oathgold Coin may absolve a minor lapse, easing the burden of guilt in the eyes of the gods.</p><p><strong>Oathbound Exchange</strong></p><p>A creature holding an Oathgold Coin can consume it as a bonus action to immediately end attunement to one magical item and immediately attune to another magical item in its possession. This new attunement does not require a short rest.</p>",
+          "quantity": 5,
+          "combinedLabel": "Trinket",
+          "attunementLabel": ""
         }
       ],
       "Plex": [
@@ -3462,14 +3494,6 @@
           "attunementLabel": ""
         },
         {
-          "name": "Potion of Healing",
-          "section": "physical-items",
-          "description": "<p><em>The potion's red liquid glimmers when agitated.</em></p><p>You regain 2d4+2 hit points when you drink this potion.</p>",
-          "quantity": 3,
-          "combinedLabel": "Potion",
-          "attunementLabel": ""
-        },
-        {
           "name": "Pipe of Remembrance",
           "section": "physical-items",
           "description": "<div class=\"rd__b  rd__b--2\"><p>This long, delicate wooden pipe features a bowl made from smooth river stone. When the pipe is lit, smoke exhaled from it does not dissipate, instead lingering around the bearer. After 10 minutes, the smoke forms moving shapes that reenact the bearer's most impressive and heroic achievements for 5 minutes. When this realistic performance is complete, the smoke dissipates. The pipe can't be used this way again until the next dawn.</p></div>",
@@ -3642,14 +3666,6 @@
           "spellSchool": "Transmutation"
         },
         {
-          "name": "Mess Kit",
-          "section": "physical-items",
-          "description": "<p>This tin box contains a cup and simple cutlery. The box clamps together, and one side can be used as a cooking pan and the other as a plate or shallow bowl.</p>",
-          "quantity": 1,
-          "combinedLabel": "Loot",
-          "attunementLabel": ""
-        },
-        {
           "name": "Activated: Circle of Death - 9th",
           "section": "physical-items",
           "description": "<table>\n        <tbody>\n            <tr>\n                <td>\n                    <p style=\"text-align:center;font-weight:bold\">9th Level</p>\n                </td>\n            </tr>\n            \n        </tbody>\n    </table><p>A sphere of negative energy ripples out in a 60-foot radius from a point within range. Each creature in that area must make a Constitution saving throw. A target takes 8d6 necrotic damage on a failed save, or half as much damage on a successful one.</p><p><strong>Higher Levels <br /></strong>When you cast this spell using a spell slot of 7th level or higher, the damage increases by 2d6 for each slot level above 6th.</p>",
@@ -3772,14 +3788,6 @@
           "attunementLabel": ""
         },
         {
-          "name": "Wooden Chicken Statue with Knife beak",
-          "section": "physical-items",
-          "description": "",
-          "quantity": 8,
-          "combinedLabel": "Art Object",
-          "attunementLabel": ""
-        },
-        {
           "name": "Troll Musk Concentrate",
           "section": "physical-items",
           "description": "<p>When this flask hits a creature or object, it bursts open and covers the target in a green liquid, a potent aphrodisiac for trolls.</p><p>Upon coming into contact with a living creature, this fatty substance creates a 10ft sphere of foul odour around that creature which persists for 10 minutes.</p><p>When a creature enters the effect’s area for the first time on a turn or starts its turn there, that creature must make a Constitution saving throw against the contraption’s Save DC or become <span class=\"reference-link\"><a class=\"content-link\" data-uuid=\"Compendium.dnd5e.rules.JournalEntry.w7eitkpD7QQTB6j0.JournalEntryPage.lq3TRI6ZlED8ABMx\" data-id=\"lq3TRI6ZlED8ABMx\" data-type=\"JournalEntryPage\" data-pack=\"dnd5e.rules\" data-tooltip=\"Rule Page\"><i class=\"fas fa-book-open\"></i>Poisoned</a><a class=\"enricher-action\" data-action=\"apply\" data-status=\"poisoned\" data-tooltip=\"EDITOR.DND5E.Inline.ApplyStatus\" aria-label=\"Apply Status to Selected Tokens\"><i class=\"fas fa-fw fa-reply-all fa-flip-horizontal\"></i></a></span> until the start of their next turn.</p><p>When a troll fails a saving throw against this effect, it becomes <span class=\"reference-link\"><a class=\"content-link\" data-uuid=\"Compendium.dnd5e.rules.JournalEntry.w7eitkpD7QQTB6j0.JournalEntryPage.zZaEBrKkr66OWJvD\" data-id=\"zZaEBrKkr66OWJvD\" data-type=\"JournalEntryPage\" data-pack=\"dnd5e.rules\" data-tooltip=\"Rule Page\"><i class=\"fas fa-book-open\"></i>Charmed</a><a class=\"enricher-action\" data-action=\"apply\" data-status=\"charmed\" data-tooltip=\"EDITOR.DND5E.Inline.ApplyStatus\" aria-label=\"Apply Status to Selected Tokens\"><i class=\"fas fa-fw fa-reply-all fa-flip-horizontal\"></i></a></span> instead of poisoned.</p>",
@@ -3852,22 +3860,6 @@
           "attunementLabel": ""
         },
         {
-          "name": "Chili Pepper",
-          "section": "physical-items",
-          "description": "<p>Harvested usually in most warm climates, it is used mainly as a spice in cuisines to add some \"warmth\" to the dish.</p>",
-          "quantity": 1,
-          "combinedLabel": "Spice (spice)",
-          "attunementLabel": ""
-        },
-        {
-          "name": "Wasabi",
-          "section": "physical-items",
-          "description": "",
-          "quantity": 1,
-          "combinedLabel": "Spice",
-          "attunementLabel": ""
-        },
-        {
           "name": "Enlarge/Reduce",
           "section": "spell-items",
           "description": "<div class=\"rd__b  rd__b--3\"><p>You cause a creature or an object you can see within range to grow larger or smaller for the duration. Choose either a creature or an object that is neither worn nor carried. If the target is unwilling, it can make a Constitution saving throw. On a success, the spell has no effect.</p><div class=\"rd__spc-inline-post\"><p>If the target is a creature, everything it is wearing and carrying changes size with it. Any item dropped by an affected creature returns to normal size at once.</p><p><span class=\"entry-title-inner\"><strong>Enlarge</strong></span></p><p>The target's size doubles in all dimensions, and its weight is multiplied by eight. This growth increases its size by one category—from Medium to Large, for example. If there isn't enough room for the target to double its size, the creature or object attains the maximum possible size in the space available. Until the spell ends, the target also has advantage on Strength checks and Strength saving throws. The target's weapons also grow to match its new size. While these weapons are enlarged, the target's attacks with them deal [[/r 1d4]] extra damage.</p><div class=\"rd__spc-inline-post\"><p></p></div></div><div class=\"rd__b  rd__b--3\"><p><span class=\"entry-title-inner\"><strong>Reduce</strong></span></p><p>The target's size is halved in all dimensions, and its weight is reduced to one-eighth of normal. This reduction decreases its size by one category—from Medium to Small, for example. Until the spell ends, the target also has disadvantage on Strength checks and Strength saving throws. The target's weapons also shrink to match its new size. While these weapons are reduced, the target's attacks with them deal [[/r 1d4]] less damage (this can't reduce the damage below 1).</p><div class=\"rd__spc-inline-post\"><p></p></div></div></div>",
@@ -3904,14 +3896,6 @@
           "quantity": 1,
           "combinedLabel": "Trinket",
           "attunementLabel": "Requires Attunement"
-        },
-        {
-          "name": "bed sheet",
-          "section": "physical-items",
-          "description": "",
-          "quantity": 1,
-          "combinedLabel": "Loot",
-          "attunementLabel": ""
         },
         {
           "name": "Important Bowl to a dead man",
@@ -3979,7 +3963,7 @@
           "name": "Bottle of Bagiennik Snot",
           "section": "physical-items",
           "description": "<div class=\"rd__b  rd__b--2\"><p><em>As repulsive as many might find the snot of the frog-like Bagiennik, they cannot deny it's healing abilities.</em></p><p>You regain 8d4 + 8 hit points when you drink this potion.</p></div>",
-          "quantity": 7,
+          "quantity": 6,
           "combinedLabel": "Potion",
           "attunementLabel": ""
         },
@@ -4102,27 +4086,11 @@
           "spellSchool": "Transmutation"
         },
         {
-          "name": "Phantasmal Horror",
-          "section": "spell-items",
-          "description": "<p>You select a creature you can see within range and create an illusion of its worst nightmares, which only it can see.</p><p>The target must make a Wisdom saving throw. On a failed it takes 4d10 psychic damage and is frightened. On a successful save, the spell ends. For the duration of the spell this effect repeats at the start of each of the target's turns.</p><p>If the target's CR is less than the spell level and it's not not immune to being frightened, the dies on a failed saving throw.</p><p><strong>At Higher Levels</strong> <br />When you cast this spell using a spell slot of 5th level or higher, the damage increases by 1d10 for each slot level above 4th.</p>",
-          "spellLevel": "4th Level",
-          "spellRange": "120 ft",
-          "spellSchool": "Illusion"
-        },
-        {
-          "name": "Minor Illusion",
-          "section": "spell-items",
-          "description": "<div class=\"rd__b  rd__b--3\"><p>You create a sound or an image of an object within range that lasts for the duration. The illusion also ends if you dismiss it as an action or cast this spell again.</p><div class=\"rd__spc-inline-post\"><p></p></div><p>If you create a sound, its volume can range from a whisper to a scream. It can be your voice, someone else's voice, a lion's roar, a beating of drums, or any other sound you choose. The sound continues unabated throughout the duration, or you can make discrete sounds at different times before the spell ends.</p><p>If you create an image of an object—such as a chair, muddy footprints, or a small chest—it must be no larger than a 5-foot cube. The image can't create sound, light, smell, or any other sensory effect. Physical interaction with the image reveals it to be an illusion, because things can pass through it.</p><p>If a creature uses its action to examine the sound or image, the creature can determine that it is an illusion with a successful <span style=\"font-family:ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace\">[[/skill investigation dc=@attributes.spelldc format=long]]</span> against your spell save DC. If a creature discerns the illusion for what it is, the illusion becomes faint to the creature.</p></div>",
-          "spellLevel": "Cantrip",
-          "spellRange": "30 ft",
-          "spellSchool": "Illusion"
-        },
-        {
           "name": "Devils Hat",
           "section": "physical-items",
           "description": "<p>Devils hat</p>",
           "quantity": 1,
-          "combinedLabel": "Clothing",
+          "combinedLabel": "Hat",
           "attunementLabel": ""
         },
         {
@@ -4209,7 +4177,7 @@
           "name": "Potion of Heroism",
           "section": "physical-items",
           "description": "<p><em>This blue potion bubbles and steams as if boiling.</em></p><p>When you drink this potion you gain 10 temporary hit points. Additionally you are under the effect of the Bless spell for 1 hour (no concentration required).</p>",
-          "quantity": 3,
+          "quantity": 2,
           "combinedLabel": "Potion",
           "attunementLabel": ""
         },
@@ -4292,6 +4260,54 @@
           "spellLevel": "4th Level",
           "spellRange": "Touch",
           "spellSchool": "Abjuration"
+        },
+        {
+          "name": "Mage Hand",
+          "section": "spell-items",
+          "description": "<div class=\"rd__b  rd__b--3\"><p>A spectral, floating hand appears at a point you choose within range. The hand lasts for the duration or until you dismiss it as an action. The hand vanishes if it is ever more than 30 feet away from you or if you cast this spell again.</p><div class=\"rd__spc-inline-post\"></div><p>You can use your action to control the hand. You can use the hand to manipulate an object, open an unlocked door or container, stow or retrieve an item from an open container, or pour the contents out of a vial. You can move the hand up to 30 feet each time you use it.</p><p>The hand can't attack, activate magic items, or carry more than 10 pounds.</p></div>",
+          "spellLevel": "Cantrip",
+          "spellRange": "30 ft",
+          "spellSchool": "Conjuration"
+        },
+        {
+          "name": "Dimension Door",
+          "section": "spell-items",
+          "description": "<div class=\"rd__b  rd__b--3\"><p>You teleport yourself from your current location to any other spot within range. You arrive at exactly the spot desired. It can be a place you can see, one you can visualize, or one you can describe by stating distance and direction, such as \"200 feet straight downward\" or \"upward to the northwest at a 45-degree angle, 300 feet.\"</p><div class=\"rd__spc-inline-post\"></div><p>You can bring along objects as long as their weight doesn't exceed what you can carry. You can also bring one willing creature of your size or smaller who is carrying gear up to its carrying capacity. The creature must be within 5 feet of you when you cast this spell.</p><p>If you would arrive in a place already occupied by an object or a creature, you and any creature traveling with you each take [[/damage 4d6 type=force]] damage, and the spell fails to teleport you.</p></div>",
+          "spellLevel": "4th Level",
+          "spellRange": "500 ft",
+          "spellSchool": "Conjuration"
+        },
+        {
+          "name": "Abjurer's Bangle",
+          "section": "physical-items",
+          "description": "<div class=\"rd__b  rd__b--2\"><p>You can clasp or remove this metal bracelet around the wrist or ankle of yourself or a willing creature within your reach using an action, unless that creature already has an Abjurer's Bangle equipped. The bangle emits a ward of abjuration magic from it that has 120 charges. A creature wearing the bangle can use its reaction when it takes damage to speak the bangle's command word and expend any number of charges to gain temporary hit points equal to the number of charges spent. Upon consuming the last charge, the bangle becomes a nonmagical bracelet.</p></div>",
+          "quantity": 1,
+          "combinedLabel": "Trinket",
+          "attunementLabel": ""
+        },
+        {
+          "name": "Wool",
+          "section": "physical-items",
+          "description": "<p>A textile fabric that is obtained from farm animals, mainly sheep, and is primarily used for clothing. In addition to that, it is also used for blankets, saddle cloths for cavalry, carpeting, and on rare occasions even a soil fertilizer.</p><p></p>",
+          "quantity": 1,
+          "combinedLabel": "Loot",
+          "attunementLabel": ""
+        },
+        {
+          "name": "Faboulus apperance!",
+          "section": "physical-items",
+          "description": "<p>Save DC: 16 | Attack Bonus: 9</p><p><span style=\"text-decoration:underline\"><strong><span style=\"text-decoration:underline\">Mechanism</span></strong></span></p><p>A faboulus spring loaded box with prismatic Thistle inside that will activate at the slightest touch.</p>",
+          "quantity": 1,
+          "combinedLabel": "Container",
+          "attunementLabel": ""
+        },
+        {
+          "name": "+2 Plate Armor",
+          "section": "physical-items",
+          "description": "<div class=\"rd__b  rd__b--2\"><p>Plate consists of shaped, interlocking metal plates to cover the entire body. A suit of plate includes gauntlets, heavy leather boots, a visored helmet, and thick layers of padding underneath the armor. Buckles and straps distribute the weight over the body.</p></div>",
+          "quantity": 2,
+          "combinedLabel": "Heavy Armor",
+          "attunementLabel": ""
         }
       ],
       "Shalkoc Zornax": [
@@ -4707,7 +4723,7 @@
           "name": "Dried Meat",
           "section": "physical-items",
           "description": "<p>The process of drying meat is long and extensive. In some particular cases, for the highest quality of dried meat, it can take over a year. It is highly sought after due to its extended shelf life, and depending on the meat used, it is, quite frankly, delicious.</p>",
-          "quantity": 17,
+          "quantity": 12,
           "combinedLabel": "Food (meal)",
           "attunementLabel": ""
         },
@@ -4860,14 +4876,6 @@
           "attunementLabel": ""
         },
         {
-          "name": "Potion of Fire Resistance",
-          "section": "physical-items",
-          "description": "<p><em>The potion is a plain indescriminate color and smells slightly foul.</em></p><p>When you drink this potion, you gain resistance to Fire type damage for 1 hour.</p>",
-          "quantity": 1,
-          "combinedLabel": "Potion",
-          "attunementLabel": ""
-        },
-        {
           "name": "Dodge",
           "section": "feature-items",
           "description": "<p>When you take the Dodge action, you focus entirely on avoiding attacks. Until the start of your next turn, any attack roll made against you has disadvantage if you can see the attacker, and you make Dexterity saving throws with advantage. You lose this benefit if you are incapacitated (as explained in the appendix) or if your speed drops to 0.</p>",
@@ -4915,7 +4923,7 @@
           "name": "Ginger",
           "section": "physical-items",
           "description": "<p>Ginger, is widely used as a spice and folk medicine. It is provided as tea for those who have weak stomachs to combat nausea, among other things.</p>",
-          "quantity": 9,
+          "quantity": 8,
           "combinedLabel": "Spice",
           "attunementLabel": ""
         },
@@ -4968,14 +4976,6 @@
           "attunementLabel": ""
         },
         {
-          "name": "Potion of Heroism",
-          "section": "physical-items",
-          "description": "<p><em>This blue potion bubbles and steams as if boiling.</em></p><p>When you drink this potion you gain 10 temporary hit points. Additionally you are under the effect of the Bless spell for 1 hour (no concentration required).</p>",
-          "quantity": 1,
-          "combinedLabel": "Potion",
-          "attunementLabel": ""
-        },
-        {
           "name": "Potion of Speed",
           "section": "physical-items",
           "description": "<div class=\"rd__b  rd__b--2\"><p>When you drink this potion, you gain the effect of the Haste spell for 1 minute (no concentration required). The potion's yellow fluid is streaked with black and swirls on its own.</p></div>",
@@ -4992,11 +4992,27 @@
           "attunementLabel": ""
         },
         {
-          "name": "Potion of Superior Healing",
+          "name": "Broth of Needful Fortitude",
           "section": "physical-items",
-          "description": "<div class=\"rd__b  rd__b--2\"><p><em>The potion's red liquid glimmers when agitated.</em></p><p>You regain 8d4 + 8 hit points when you drink this potion.</p></div>",
-          "quantity": 1,
+          "description": "<div class=\"rd__b  rd__b--2\"><p>Favored by intelligent undead, this rich stock is brewed from the flesh and bones of humanoids and typically kept sealed in an earthenware jar. When you consume this broth, you can reduce your &amp;Reference[condition=exhaustion] level by up to 2, and you have advantage on Constitution saving throws against disease, poison, and environmental effects for 8 hours. If you are undead, you also regain [[/r 3d6]] hit points.</p></div>",
+          "quantity": 5,
           "combinedLabel": "Potion",
+          "attunementLabel": ""
+        },
+        {
+          "name": "Wasabi",
+          "section": "physical-items",
+          "description": "",
+          "quantity": 1,
+          "combinedLabel": "Spice",
+          "attunementLabel": ""
+        },
+        {
+          "name": "Chili Pepper",
+          "section": "physical-items",
+          "description": "<p>Harvested usually in most warm climates, it is used mainly as a spice in cuisines to add some \"warmth\" to the dish.</p>",
+          "quantity": 1,
+          "combinedLabel": "Spice (spice)",
           "attunementLabel": ""
         }
       ]
