@@ -4,6 +4,7 @@
     --contrast-primary: #162f44;
     --bg-header: #15191d;
     --bg-section: #262626;
+    --accent-primary: #474f55;
 }
 
 .hidden {
@@ -53,6 +54,10 @@ header {
         button:hover {
             background-color: var(--contrast-primary);
         }
+
+        button.selected {
+            background-color: var(--accent-primary); 
+        }
     }
 
     .timestamp {
@@ -76,6 +81,7 @@ footer {
 }
 
 section {
+    position: sticky;
     margin: 1em;
     background-color: var(--bg-section);
     border: 2px solid black;

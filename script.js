@@ -39,7 +39,7 @@ async function initPageData() {
     initSettlementData(rawData.settlementData);
     adjustIngameDateDisplay(rawData.ingameDate);
     setEffectCount(rawData.settlementData.effects);
-
+    populateNavBar();
     log("Formatted Data", { playerData, settlementData });
 }
 
@@ -67,6 +67,32 @@ function adjustIngameDateDisplay(ingameDate) {
     const ele = document.getElementById('ingame-date-display');
     ele.textContent = `${ingameDate}`;
 }
+
+function populateNavBar() {
+    const rickRollLink = "https://www.youtube.com/watch?v=dQw4w9WgXcQ";
+    const navBar = document.getElementById("navbar");
+    let lastButton = null;
+
+    const createNavButton = (label, onClickFn) => {
+        const button = document.createElement("button");
+        button.textContent = label;
+        button.onclick = (event) => {
+            if (lastButton) lastButton.classList.remove("selected");
+            lastButton = event.target;
+            lastButton.classList.add("selected");
+            onClickFn();
+        };
+        navBar.appendChild(button);
+    }
+
+    Object.keys(playerData).forEach(name => 
+        createNavButton(name, () => showPlayer(name))
+    );
+    createNavButton("Settlement Overview", showSettlement);
+    createNavButton("Government Secrets", () => window.location.href=rickRollLink);
+}
+
+
 //#endregion
 
 //#region Debug
