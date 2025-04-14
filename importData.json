@@ -623,7 +623,7 @@
           "name": "Activated: Sending - 3rd",
           "section": "physical-items",
           "description": "<div class=\"rd__b  rd__b--3\"><p>You send a short message of twenty-five words or less to a creature with which you are familiar. The creature hears the message in its mind, recognizes you as the sender if it knows you, and can answer in a like manner immediately. The spell enables creatures with Intelligence scores of at least 1 to understand the meaning of your message.</p><p>You can send the message across any distance and even to other planes of existence, but if the target is on a different plane than you, there is a [[/r 1d20]]{5 percent} chance that the message doesn't arrive.</p></div>",
-          "quantity": 5,
+          "quantity": 4,
           "combinedLabel": "Spell Gem",
           "attunementLabel": ""
         },
@@ -692,14 +692,6 @@
           "spellSchool": "Divination"
         },
         {
-          "name": "Pristine White Dress from an Angel",
-          "section": "physical-items",
-          "description": "<p>Bought for 200g from a Devil in Hell, as you do.<br />This flowing garment leaves much to the imagination, as the revealing clothes are very similar looking to some familiar looking clothes.</p>",
-          "quantity": 1,
-          "combinedLabel": "Loot",
-          "attunementLabel": ""
-        },
-        {
           "name": "Triggered: Anticipate Arcana - 3rd",
           "section": "physical-items",
           "description": "<p><strong>Trigger: </strong>Targeted by a spell or magical effect from an enemy that forces a save.</p><hr /><div class=\"rd__b  rd__b--3\"><p>Your foresight gives you an instant to ready your defenses against a magical attack. When you cast this spell, you have advantage on saving throws against spells and other magical effects until the start of your next turn.</p></div>",
@@ -756,6 +748,46 @@
           "attunementLabel": ""
         },
         {
+          "name": "Amulet of Fragile Tranquility",
+          "section": "physical-items",
+          "description": "<p><em>requires attunement by a barbarian</em></p><p>You are immune to psychic damage and you have advantage on saving throws against being &amp;Reference[charmed], &amp;Reference[frightened], or otherwise affected by mind-altering effects.</p><p>Additionally, you have a bonus to [[/skill inv]], [[/skill ani]], [[/skill ins]], [[/skill prc]], [[/skill sur]], [[/skill per]], [[/skill dec]], and [[/skill prf]] checks equal to the number of unspent uses of your Rage feature.</p><p><strong>Curse.</strong></p><p>This amulet is cursed, and this curse extends to you for as long as you're attuned to it.</p><p>While cursed this way, you can’t willingly enter a rage but whenever another creature damages you while you are not raging, you immediately enter a rage, expending one use of your Rage feature. If you have no remaining uses of Rage, you instead fall into a Blood Frenzy for 1 minute.</p><p><strong>Blood Frenzy.</strong></p><p>You enter a rage without expending a use of your Rage feature. While in this frenzy:</p><ul><li><p>You are &amp;Reference[blinded] and &amp;Reference[deafened], and your blindsight is reduced to 0 feet.</p></li><li><p>You are immune to telepathy.</p></li><li><p>You can sense the presence of living creatures within 60 feet of you, even through solid objects. This sense does not detect constructs, elementals, oozes, plants, undead, ethereal creatures, petrified creatures, or those immune to bleeding.</p></li><li><p>Each living creature you can sense this way is perceived as prey, and you must take the most direct and effective actions available to hunt down and kill the closest one to the best of your abilities.</p></li></ul>",
+          "quantity": 1,
+          "combinedLabel": "Trinket",
+          "attunementLabel": "Requires Attunement"
+        },
+        {
+          "name": "Shalkoc's Black Scale",
+          "section": "physical-items",
+          "description": "<p>An scale from Shalkoc given to Aviana in good gesture, just before he goes to fetch some Wine from the Cellar.</p>",
+          "quantity": 1,
+          "combinedLabel": "Loot",
+          "attunementLabel": ""
+        },
+        {
+          "name": "Steel Mirror",
+          "section": "physical-items",
+          "description": "<p>A mirror made of steel.</p>",
+          "quantity": 1,
+          "combinedLabel": "Loot",
+          "attunementLabel": ""
+        },
+        {
+          "name": "Ink Pen",
+          "section": "physical-items",
+          "description": "<p>A deviced used in combination with ink to write or draw on a sheet of paper.</p>",
+          "quantity": 1,
+          "combinedLabel": "Loot",
+          "attunementLabel": ""
+        },
+        {
+          "name": "Ink Bottle",
+          "section": "physical-items",
+          "description": "<p>A small bottle of ink for writing upon parchment.</p>",
+          "quantity": 1,
+          "combinedLabel": "Loot",
+          "attunementLabel": ""
+        },
+        {
           "name": "Adept Forager",
           "section": "feature-items",
           "description": "<p>You have advantage on Survival checks and you add your Constitution modifier to these checks.</p>",
@@ -774,12 +806,20 @@
           "requirements": "Elk Spirit"
         },
         {
-          "name": "Amulet of Fragile Tranquility",
+          "name": "Pristine White Dress from an Angel",
           "section": "physical-items",
-          "description": "<p><em>requires attunement by a barbarian</em></p><p>You are immune to psychic damage and you have advantage on saving throws against being &amp;Reference[charmed], &amp;Reference[frightened], or otherwise affected by mind-altering effects.</p><p>Additionally, you have a bonus to [[/skill inv]], [[/skill ani]], [[/skill ins]], [[/skill prc]], [[/skill sur]], [[/skill per]], [[/skill dec]], and [[/skill prf]] checks equal to the number of unspent uses of your Rage feature.</p><p><strong>Curse.</strong></p><p>This amulet is cursed, and this curse extends to you for as long as you're attuned to it.</p><p>While cursed this way, you can’t willingly enter a rage but whenever another creature damages you while you are not raging, you immediately enter a rage, expending one use of your Rage feature. If you have no remaining uses of Rage, you instead fall into a Blood Frenzy for 1 minute.</p><p><strong>Blood Frenzy.</strong></p><p>You enter a rage without expending a use of your Rage feature. While in this frenzy:</p><ul><li><p>You are &amp;Reference[blinded] and &amp;Reference[deafened], and your blindsight is reduced to 0 feet.</p></li><li><p>You are immune to telepathy.</p></li><li><p>You can sense the presence of living creatures within 60 feet of you, even through solid objects. This sense does not detect constructs, elementals, oozes, plants, undead, ethereal creatures, petrified creatures, or those immune to bleeding.</p></li><li><p>Each living creature you can sense this way is perceived as prey, and you must take the most direct and effective actions available to hunt down and kill the closest one to the best of your abilities.</p></li></ul>",
+          "description": "<p>Bought for 200g from a Devil in Hell, as you do.<br />This flowing garment leaves much to the imagination, as the revealing clothes are very similar looking to some familiar looking clothes.</p>",
           "quantity": 1,
-          "combinedLabel": "Trinket",
-          "attunementLabel": "Requires Attunement"
+          "combinedLabel": "Loot",
+          "attunementLabel": ""
+        },
+        {
+          "name": "Potion of Heroism",
+          "section": "physical-items",
+          "description": "<p><em>This blue potion bubbles and steams as if boiling.</em></p><p>When you drink this potion you gain 10 temporary hit points. Additionally you are under the effect of the Bless spell for 1 hour (no concentration required).</p>",
+          "quantity": 1,
+          "combinedLabel": "Potion",
+          "attunementLabel": ""
         }
       ],
       "Fearghas MacAllistar": [
@@ -1219,7 +1259,7 @@
           "name": "Potion of Water Breathing",
           "section": "physical-items",
           "description": "<p><em>Its cloudy green fluid smells of the sea and has a jellyfish-like bubble floating in it.</em></p>\n<p>You can breathe underwater for 1 hour after drinking this potion. </p>\n<p> </p>",
-          "quantity": 7,
+          "quantity": 6,
           "combinedLabel": "Potion",
           "attunementLabel": ""
         },
@@ -1305,7 +1345,7 @@
           "name": "Plant Muscle Fibres",
           "section": "physical-items",
           "description": "<p>Harvested from medium-sized or larger plant creatures upon their demise. These fibrous strands possess a resilient texture and a pale green hue, reminiscent of the plant creature's own tissues.</p>",
-          "quantity": 39,
+          "quantity": 43,
           "combinedLabel": "Ingredient (bodyPart)",
           "attunementLabel": ""
         },
@@ -1313,7 +1353,7 @@
           "name": "Ooze Drops",
           "section": "physical-items",
           "description": "<p>Collected from large-sized or larger ooze creatures. These translucent, gelatinous orbs exude a faint iridescence, containing potent enzymes and acids capable of dissolving various materials.</p>",
-          "quantity": 3,
+          "quantity": 4,
           "combinedLabel": "Ingredient (bodyPart)",
           "attunementLabel": ""
         },
@@ -1594,14 +1634,6 @@
           "spellSchool": "Necromancy"
         },
         {
-          "name": "Activated: Nondetection - 3rd",
-          "section": "physical-items",
-          "description": "<table>\n        <tbody>\n            <tr>\n                <td>\n                    <p style=\"text-align:center;font-weight:bold\">3rd Level</p>\n                </td>\n            </tr>\n            \n        </tbody>\n    </table><p>For the Duration, you hide a target that you touch from Divination magic. The target can be a willing creature or a place or an object no larger than 10 feet in any dimension. The target can't be targeted by any divination magic or perceived through magical Scrying sensors.</p>",
-          "quantity": 1,
-          "combinedLabel": "Spell Gem",
-          "attunementLabel": ""
-        },
-        {
           "name": "Resistance",
           "section": "spell-items",
           "description": "<p>You touch one willing creature. For the duration of the spell, the creature adds a d4 to all saving throws.</p>",
@@ -1859,7 +1891,7 @@
           "name": "Fever Grass",
           "section": "physical-items",
           "description": "<p><span style=\"font-family:Signika, sans-serif\">Thrives abundantly in sunny grasslands. Slender stems bear needle-like leaves and golden-hued flowers. Possesses a fragrant aroma believed to hold medicinal properties.</span></p>",
-          "quantity": 10,
+          "quantity": 11,
           "combinedLabel": "Ingredient (herb)",
           "attunementLabel": ""
         },
@@ -2153,14 +2185,6 @@
           "name": "Activated: Rary's Telepathic Bond - 5th",
           "section": "physical-items",
           "description": "<div class=\"rd__b  rd__b--3\"><p>You forge a telepathic link among up to eight willing creatures of your choice within range, psychically linking each creature to all the others for the duration. Creatures with Intelligence scores of 2 or less aren't affected by this spell.</p><div class=\"rd__spc-inline-post\"></div><p>Until the spell ends, the targets can communicate telepathically through the bond whether or not they have a common language. The communication is possible over any distance, though it can't extend to other planes of existence.</p></div>",
-          "quantity": 1,
-          "combinedLabel": "Spell Gem",
-          "attunementLabel": ""
-        },
-        {
-          "name": "Activated: Teleportation Circle - 5th",
-          "section": "physical-items",
-          "description": "<div class=\"rd__b  rd__b--3\"><p>As you cast the spell, you draw a 10-foot-diameter circle on the ground inscribed with sigils that link your location to a permanent teleportation circle of your choice whose sigil sequence you know and that is on the same plane of existence as you. A shimmering portal opens within the circle you drew and remains open until the end of your next turn. Any creature that enters the portal instantly appears within 5 feet of the destination circle or in the nearest unoccupied space if that space is occupied.</p><div class=\"rd__spc-inline-post\"></div><p>Many major temples, guilds, and other important places have permanent teleportation circles inscribed somewhere within their confines. Each such circle includes a unique sigil sequence—a string of magical runes arranged in a particular pattern. When you first gain the ability to cast this spell, you learn the sigil sequences for two destinations on the Material Plane, determined by the DM. You can learn additional sigil sequences during your adventures. You can commit a new sigil sequence to memory after studying it for 1 minute.</p><p>You can create a permanent teleportation circle by casting this spell in the same location every day for one year. You need not use the circle to teleport when you cast the spell in this way.</p></div>",
           "quantity": 1,
           "combinedLabel": "Spell Gem",
           "attunementLabel": ""
@@ -2466,14 +2490,6 @@
           "spellLevel": "3rd Level",
           "spellRange": "Touch",
           "spellSchool": "Abjuration"
-        },
-        {
-          "name": "Spell Scroll: Mordenkainen's Magnificent Mansion",
-          "section": "physical-items",
-          "description": "<div class=\"rd__b  rd__b--3\"><p>You conjure an extradimensional dwelling in range that lasts for the duration. You choose where its one entrance is located. The entrance shimmers faintly and is 5 feet wide and 10 feet tall. You and any creature you designate when you cast the spell can enter the extradimensional dwelling as long as the portal remains open. You can open or close the portal if you are within 30 feet of it. While closed, the portal is invisible.</p><p>Beyond the portal is a magnificent foyer with numerous chambers beyond. The atmosphere is clean, fresh, and warm.</p><p>You can create any floor plan you like, but the space can't exceed 50 cubes, each cube being 10 feet on each side. The place is furnished and decorated as you choose. It contains sufficient food to serve a nine course banquet for up to 100 people. A staff of 100 near-transparent servants attends all who enter. You decide the visual appearance of these servants and their attire. They are completely obedient to your orders. Each servant can perform any task a normal human servant could perform, but they can't attack or take any action that would directly harm another creature. Thus the servants can fetch things, clean, mend, fold clothes, light fires, serve food, pour wine, and so on. The servants can go anywhere in the mansion but can't leave it. Furnishings and other objects created by this spell dissipate into smoke if removed from the mansion. When the spell ends, any creatures or objects left inside the extradimensional space are expelled into the open spaces nearest to the entrance.</p></div>",
-          "quantity": 1,
-          "combinedLabel": "Scroll",
-          "attunementLabel": ""
         },
         {
           "name": "Spell Scroll: Mental Prison",
@@ -3122,6 +3138,30 @@
           "quantity": 1,
           "combinedLabel": "Potion",
           "attunementLabel": ""
+        },
+        {
+          "name": "Water Flower",
+          "section": "physical-items",
+          "description": "<p>Flourishes in warm thermal springs. Its broad, floating leaves are star-shaped and create a dense canopy over the water's surface. The petals are translucent, allowing sunlight to filter through.</p>",
+          "quantity": 4,
+          "combinedLabel": "Ingredient (herb)",
+          "attunementLabel": ""
+        },
+        {
+          "name": "Salt Vine",
+          "section": "physical-items",
+          "description": "<p>Found on coastal rocks exposed to continuous sea mist. Characterized by fleshy, silver-tinted leaves with curled edges. Clusters of small, star-shaped flowers bloom in shades ranging from light purple to deep violet.</p>",
+          "quantity": 1,
+          "combinedLabel": "Ingredient (herb)",
+          "attunementLabel": ""
+        },
+        {
+          "name": "Potion of Heroism",
+          "section": "physical-items",
+          "description": "<p><em>This blue potion bubbles and steams as if boiling.</em></p><p>When you drink this potion you gain 10 temporary hit points. Additionally you are under the effect of the Bless spell for 1 hour (no concentration required).</p>",
+          "quantity": 2,
+          "combinedLabel": "Potion",
+          "attunementLabel": ""
         }
       ],
       "Naami Jamas": [
@@ -3420,7 +3460,7 @@
         {
           "name": "Spellward",
           "section": "physical-items",
-          "description": "",
+          "description": "<p>A set of two identical silvery bracelets widely used by the people of Ildilas to ward themselves against their own powerful magic.</p><p>Naami's bracelets were made by her father, and she treasures them. One of the bracelets seems to have a darker spot…?</p>",
           "quantity": 1,
           "combinedLabel": "Trinket",
           "attunementLabel": ""
@@ -3584,14 +3624,6 @@
           "spellSchool": "Enchantment"
         },
         {
-          "name": "Inflict Wounds",
-          "section": "spell-items",
-          "description": "<p>Make a melee spell attack against a creature you can reach. On a hit, the target takes 3d10 necrotic damage.</p><p><strong>At Higher Levels.</strong> When you cast this spell using a spell slot of 2nd level or higher, the damage increases by 1d10 for each slot level above 1st.</p>",
-          "spellLevel": "1st Level",
-          "spellRange": "Touch",
-          "spellSchool": "Necromancy"
-        },
-        {
           "name": "Healing Word",
           "section": "spell-items",
           "description": "<div class=\"rd__b  rd__b--3\"><p>A creature of your choice that you can see within range regains hit points equal to [[/r 1d4]] + your spellcasting ability modifier. This spell has no effect on undead or constructs.</p></div><div class=\"rd__b  rd__b--3\"><div data-roll-name-ancestor=\"At Higher Levels\" class=\"rd__b  rd__b--3\"><p><span class=\"entry-title-inner\"><strong>At Higher Levels.</strong> </span>When you cast this spell using a spell slot of 2nd level or higher, the healing increases by [[/r 1d4]] for each slot level above 1st.</p></div></div>",
@@ -3606,14 +3638,6 @@
           "spellLevel": "2nd Level",
           "spellRange": "30 ft",
           "spellSchool": "Necromancy"
-        },
-        {
-          "name": "Prayer of Healing",
-          "section": "spell-items",
-          "description": "<div class=\"rd__b  rd__b--3\"><p>Up to six creatures of your choice that you can see within range each regain hit points equal to [[/r 2d8]] + your spellcasting ability modifier. This spell has no effect on undead or constructs.</p></div><div class=\"rd__b  rd__b--3\"><div data-roll-name-ancestor=\"At Higher Levels\" class=\"rd__b  rd__b--3\"><span class=\"rd__h rd__h--3\" data-title-index=\"1\"> <span class=\"entry-title-inner\">At Higher Levels.</span></span> <p>When you cast this spell using a spell slot of 3rd level or higher, the healing increases by [[/r 1d8]] for each slot level above 2nd.</p></div></div>",
-          "spellLevel": "2nd Level",
-          "spellRange": "30 ft",
-          "spellSchool": "Evocation"
         },
         {
           "name": "Lesser Restoration",
@@ -3776,6 +3800,38 @@
           "section": "feature-items",
           "description": "<p>Using your bonus action, you can jump up to [[/r @talia.jumpDistance]] ft.</p>",
           "requirements": ""
+        },
+        {
+          "name": "Guiding Bolt",
+          "section": "spell-items",
+          "description": "<div class=\"rd__b  rd__b--3\"><p>A flash of light streaks toward a creature of your choice within range. Make a ranged spell attack against the target. On a hit, the target takes [[/damage 4d6 type=radiant]] damage, and the next attack roll made against this target before the end of your next turn has advantage, thanks to the mystical dim light glittering on the target until then.</p></div><div class=\"rd__b  rd__b--3\"><div data-roll-name-ancestor=\"At Higher Levels\" class=\"rd__b  rd__b--3\"><span class=\"rd__h rd__h--3\" data-title-index=\"1\"> <span class=\"entry-title-inner\">At Higher Levels.</span></span> <p>When you cast this spell using a spell slot of 2nd level or higher, the damage increases by [[/damage 1d6]] for each slot level above 1st.</p></div></div>",
+          "spellLevel": "1st Level",
+          "spellRange": "120 ft",
+          "spellSchool": "Evocation"
+        },
+        {
+          "name": "Activated: Nondetection - 3rd",
+          "section": "physical-items",
+          "description": "<table>\n        <tbody>\n            <tr>\n                <td>\n                    <p style=\"text-align:center;font-weight:bold\">3rd Level</p>\n                </td>\n            </tr>\n            \n        </tbody>\n    </table><p>For the Duration, you hide a target that you touch from Divination magic. The target can be a willing creature or a place or an object no larger than 10 feet in any dimension. The target can't be targeted by any divination magic or perceived through magical Scrying sensors.</p>",
+          "quantity": 1,
+          "combinedLabel": "Spell Gem",
+          "attunementLabel": ""
+        },
+        {
+          "name": "Potion of Heroism",
+          "section": "physical-items",
+          "description": "<p><em>This blue potion bubbles and steams as if boiling.</em></p><p>When you drink this potion you gain 10 temporary hit points. Additionally you are under the effect of the Bless spell for 1 hour (no concentration required).</p>",
+          "quantity": 1,
+          "combinedLabel": "Potion",
+          "attunementLabel": ""
+        },
+        {
+          "name": "Cure Wounds",
+          "section": "spell-items",
+          "description": "<div class=\"rd__b  rd__b--3\"><p>A creature you touch regains a number of hit points equal to [[/r 1d8]] + your spellcasting ability modifier. This spell has no effect on undead or constructs.</p></div><div class=\"rd__b  rd__b--3\"><div data-roll-name-ancestor=\"At Higher Levels\" class=\"rd__b  rd__b--3\"><p><span class=\"entry-title-inner\">At Higher Levels.</span></p><p>When you cast this spell using a spell slot of 2nd level or higher, the healing increases by [[/r 1d8]] for each slot level above 1st.</p></div></div>",
+          "spellLevel": "1st Level",
+          "spellRange": "Touch",
+          "spellSchool": "Evocation"
         }
       ],
       "Plex": [
@@ -4330,7 +4386,7 @@
         {
           "name": "Mantle of the Arcane Trickster",
           "section": "physical-items",
-          "description": "<p>While you're protected by the Mage Armor spell, you gain the benefits of the Gift of Alacrity and Veil of Dusk spells, the latter without requiring concentration.</p>",
+          "description": "<p>While you're protected by the Mage Armor spell, you are cloaked in a shadowy veil of darkness and silence. You gain a 1d8 bonus to initiative rolls, advantage on Dexterity (Stealth) checks and a +1 bonus to your armor class.</p>",
           "quantity": 1,
           "combinedLabel": "Clothing",
           "attunementLabel": "Requires Attunement"
@@ -4520,14 +4576,6 @@
           "quantity": 1,
           "combinedLabel": "Exotic Currency",
           "attunementLabel": ""
-        },
-        {
-          "name": "Medallion of Thoughts",
-          "section": "physical-items",
-          "description": "<p><em>Wondrous item, (requires attunement)</em></p><p>The medallion has 3 charges. While wearing it, you can use an action and expend 1 charge to cast the @Compendium[dnd5e.spells.ppWAAEul0QHtm4er]{Detect Thoughts} spell (save DC 13) from it. The medallion regains 1d3 expended charges when you finish a long rest.</p>",
-          "quantity": 1,
-          "combinedLabel": "Trinket",
-          "attunementLabel": "Requires Attunement"
         },
         {
           "name": "Towering Pillar of Hats",
@@ -4908,22 +4956,6 @@
           "spellSchool": "Abjuration"
         },
         {
-          "name": "Mage Hand",
-          "section": "spell-items",
-          "description": "<div class=\"rd__b  rd__b--3\"><p>A spectral, floating hand appears at a point you choose within range. The hand lasts for the duration or until you dismiss it as an action. The hand vanishes if it is ever more than 30 feet away from you or if you cast this spell again.</p><div class=\"rd__spc-inline-post\"></div><p>You can use your action to control the hand. You can use the hand to manipulate an object, open an unlocked door or container, stow or retrieve an item from an open container, or pour the contents out of a vial. You can move the hand up to 30 feet each time you use it.</p><p>The hand can't attack, activate magic items, or carry more than 10 pounds.</p></div>",
-          "spellLevel": "Cantrip",
-          "spellRange": "30 ft",
-          "spellSchool": "Conjuration"
-        },
-        {
-          "name": "Dimension Door",
-          "section": "spell-items",
-          "description": "<div class=\"rd__b  rd__b--3\"><p>You teleport yourself from your current location to any other spot within range. You arrive at exactly the spot desired. It can be a place you can see, one you can visualize, or one you can describe by stating distance and direction, such as \"200 feet straight downward\" or \"upward to the northwest at a 45-degree angle, 300 feet.\"</p><div class=\"rd__spc-inline-post\"></div><p>You can bring along objects as long as their weight doesn't exceed what you can carry. You can also bring one willing creature of your size or smaller who is carrying gear up to its carrying capacity. The creature must be within 5 feet of you when you cast this spell.</p><p>If you would arrive in a place already occupied by an object or a creature, you and any creature traveling with you each take [[/damage 4d6 type=force]] damage, and the spell fails to teleport you.</p></div>",
-          "spellLevel": "4th Level",
-          "spellRange": "500 ft",
-          "spellSchool": "Conjuration"
-        },
-        {
           "name": "Abjurer's Bangle",
           "section": "physical-items",
           "description": "<div class=\"rd__b  rd__b--2\"><p>You can clasp or remove this metal bracelet around the wrist or ankle of yourself or a willing creature within your reach using an action, unless that creature already has an Abjurer's Bangle equipped. The bangle emits a ward of abjuration magic from it that has 120 charges. A creature wearing the bangle can use its reaction when it takes damage to speak the bangle's command word and expend any number of charges to gain temporary hit points equal to the number of charges spent. Upon consuming the last charge, the bangle becomes a nonmagical bracelet.</p></div>",
@@ -4948,20 +4980,44 @@
           "attunementLabel": ""
         },
         {
-          "name": "+2 Plate Armor",
-          "section": "physical-items",
-          "description": "<div class=\"rd__b  rd__b--2\"><p>Plate consists of shaped, interlocking metal plates to cover the entire body. A suit of plate includes gauntlets, heavy leather boots, a visored helmet, and thick layers of padding underneath the armor. Buckles and straps distribute the weight over the body.</p></div>",
-          "quantity": 2,
-          "combinedLabel": "Heavy Armor",
-          "attunementLabel": ""
+          "name": "Mage Hand",
+          "section": "spell-items",
+          "description": "<div class=\"rd__b  rd__b--3\"><p>A spectral, floating hand appears at a point you choose within range. The hand lasts for the duration or until you dismiss it as an action. The hand vanishes if it is ever more than 30 feet away from you or if you cast this spell again.</p><div class=\"rd__spc-inline-post\"></div><p>You can use your action to control the hand. You can use the hand to manipulate an object, open an unlocked door or container, stow or retrieve an item from an open container, or pour the contents out of a vial. You can move the hand up to 30 feet each time you use it.</p><p>The hand can't attack, activate magic items, or carry more than 10 pounds.</p></div>",
+          "spellLevel": "Cantrip",
+          "spellRange": "30 ft",
+          "spellSchool": "Conjuration"
         },
         {
-          "name": "Ancient Adamantine Plate",
+          "name": "Dimension Door",
+          "section": "spell-items",
+          "description": "<div class=\"rd__b  rd__b--3\"><p>You teleport yourself from your current location to any other spot within range. You arrive at exactly the spot desired. It can be a place you can see, one you can visualize, or one you can describe by stating distance and direction, such as \"200 feet straight downward\" or \"upward to the northwest at a 45-degree angle, 300 feet.\"</p><div class=\"rd__spc-inline-post\"></div><p>You can bring along objects as long as their weight doesn't exceed what you can carry. You can also bring one willing creature of your size or smaller who is carrying gear up to its carrying capacity. The creature must be within 5 feet of you when you cast this spell.</p><p>If you would arrive in a place already occupied by an object or a creature, you and any creature traveling with you each take [[/damage 4d6 type=force]] damage, and the spell fails to teleport you.</p></div>",
+          "spellLevel": "4th Level",
+          "spellRange": "500 ft",
+          "spellSchool": "Conjuration"
+        },
+        {
+          "name": "Medallion of Thoughts",
           "section": "physical-items",
-          "description": "<p>While wearing this plate armor, you gain a +2 bonus to AC and any critical hit against you becomes a normal hit.<br />Additionally, if you are moved against your will, you can use your reaction to activate the armor to resist being moved. This ability can be used up to 3 times and the armor regains all expended uses when you finish a long rest.</p><p><strong>Ancient Armor</strong></p><blockquote><p>Arcane Spell Fail chance: 25%<br />Armor Check Penalty: -3</p></blockquote><p><span style=\"font-family:ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace\">&amp;Reference[ancientarmor]</span></p>",
+          "description": "<p><em>Wondrous item, (requires attunement)</em></p><p>The medallion has 3 charges. While wearing it, you can use an action and expend 1 charge to cast the <a class=\"content-link\" draggable=\"true\" data-link data-pack=\"dnd5e.spells\" data-uuid=\"Compendium.dnd5e.spells.Item.ppWAAEul0QHtm4er\" data-id=\"ppWAAEul0QHtm4er\"><i class=\"fas fa-suitcase\"></i>Detect Thoughts</a> spell (save DC 13) from it. The medallion regains 1d3 expended charges when you finish a long rest.</p>",
           "quantity": 1,
-          "combinedLabel": "Heavy Armor",
+          "combinedLabel": "Trinket",
           "attunementLabel": "Requires Attunement"
+        },
+        {
+          "name": "Detect Thoughts",
+          "section": "spell-items",
+          "description": "<p>For the duration, you can read the thoughts of certain creatures. When you cast the spell and as your action on each turn until the spell ends, you can focus your mind on any one creature that you can see within 30 feet of you. If the creature you choose has an Intelligence of 3 or lower or doesn't speak any language, the creature is unaffected.</p><p>You initially learn the surface thoughts of the creature—what is most on its mind in that moment. As an action, you can either shift your attention to another creature's thoughts or attempt to probe deeper into the same creature's mind. If you probe deeper, the target must make a Wisdom saving throw. If it fails, you gain insight into its reasoning (if any), its emotional state, and something that looms large in its mind (such as something it worries over, loves, or hates). If it succeeds, the spell ends. Either way, the target knows that you are probing into its mind, and unless you shift your attention to another creature's thoughts, the creature can use its action on its turn to make an Intelligence check contested by your Intelligence check; if it succeeds, the spell ends.</p><p>Questions verbally directed at the target creature naturally shape the course of its thoughts, so this spell is particularly effective as part of an interrogation.</p><p>You can also use this spell to detect the presence of thinking creatures you can't see. When you cast the spell or as your action during the duration, you can search for thoughts within 30 feet of you. The spell can penetrate barriers, but 2 feet of rock, 2 inches of any metal other than lead, or a thin sheet of lead blocks you. You can't detect a creature with an Intelligence of 3 or lower or one that doesn't speak any language.</p><p>Once you detect the presence of a creature in this way, you can read its thoughts for the rest of the duration as described above, even if you can't see it, but it must still be within range.</p>",
+          "spellLevel": "2nd Level",
+          "spellRange": "30 ft",
+          "spellSchool": "Divination"
+        },
+        {
+          "name": "Potion of Heroism",
+          "section": "physical-items",
+          "description": "<p><em>This blue potion bubbles and steams as if boiling.</em></p><p>When you drink this potion you gain 10 temporary hit points. Additionally you are under the effect of the Bless spell for 1 hour (no concentration required).</p>",
+          "quantity": 1,
+          "combinedLabel": "Potion",
+          "attunementLabel": ""
         }
       ],
       "Shalkoc Zornax": [
@@ -5328,14 +5384,6 @@
           "attunementLabel": ""
         },
         {
-          "name": "Grilled Steak",
-          "section": "physical-items",
-          "description": "<p>A meticulously cooked slice of premium meat, often beef, cooked with precision and often with a side by your choice of fresh greens or soft mashed potatoes.</p><p></p>",
-          "quantity": 1,
-          "combinedLabel": "Food (meal)",
-          "attunementLabel": ""
-        },
-        {
           "name": "Grilled Ribs",
           "section": "physical-items",
           "description": "<p>Fall-off-the-bone ribs, coated in sweet and tangy homemade sauces, are a beloved favorite at most taverns, often served for events or celebrations, and eagerly enjoyed by adventurers returning triumphant from their quests or missions.</p>",
@@ -5371,23 +5419,15 @@
           "name": "Dried Meat",
           "section": "physical-items",
           "description": "<p>The process of drying meat is long and extensive. In some particular cases, for the highest quality of dried meat, it can take over a year. It is highly sought after due to its extended shelf life, and depending on the meat used, it is, quite frankly, delicious.</p>",
-          "quantity": 12,
+          "quantity": 4,
           "combinedLabel": "Food (meal)",
           "attunementLabel": ""
         },
         {
           "name": "Gift of the Metallic Dragon",
           "section": "feature-items",
-          "description": "<div><p>You've manifested some of the power of metallic dragons, granting you the following benefits:</p><div><div class=\"rd__b  rd__b--3\"><ul class=\"rd__list rd__list-hang-notitle\"><li class=\"rd__li \"><p class=\"rd__p-list-item\" data-roll-name-ancestor=\"Ability Score Increase.\"><span class=\"bold rd__list-item-name\">Ability Score Increase.</span> Increase your Intelligence, Wisdom, or Charisma by 1, to a maximum of 20. (WIS)</p></li><li class=\"rd__li \"><p class=\"rd__p-list-item\" data-roll-name-ancestor=\"Ability Score Increase.\"><span class=\"bold rd__list-item-name\">Draconic Healing.</span> You learn the <span class=\"bold\" data-plut-hover=\"true\" data-plut-hover-page=\"spells.html\" data-plut-hover-source=\"PHB\" data-plut-hover-hash=\"cure%20wounds_phb\">Cure Wounds</span> spell. You can cast this spell without expending a spell slot. Once you cast this spell in this way, you can't do so again until you finish a long rest. You can also cast this spell using spell slots you have. The spell's spellcasting ability is the ability increased by this feat.</p></li><li class=\"rd__li \"><p class=\"rd__p-list-item\" data-roll-name-ancestor=\"Ability Score Increase.\"><span class=\"bold rd__list-item-name\">Protective Wings.</span> You can manifest protective wings that can shield you or others. When you or another creature you can see within 5 feet of you is hit by an attack roll, you can use your reaction to manifest spectral wings from your back for a moment. You grant a bonus to the target's AC equal to your proficiency bonus ([[lookup @prof]]) against that attack roll, potentially causing it to miss. You can use this reaction a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest.</p></li></ul></div></div></div>",
+          "description": "<div><p>You've manifested some of the power of metallic dragons, granting you the following benefits:</p><div><div class=\"rd__b  rd__b--3\"><ul class=\"rd__list rd__list-hang-notitle\"><li class=\"rd__li \"><p class=\"rd__p-list-item\" data-roll-name-ancestor=\"Ability Score Increase.\"><span class=\"bold rd__list-item-name\">Ability Score Increase.</span> Increase your Intelligence, Wisdom, or Charisma by 1, to a maximum of 20. (WIS)</p></li><li class=\"rd__li \"><p class=\"rd__p-list-item\" data-roll-name-ancestor=\"Ability Score Increase.\"><span class=\"bold rd__list-item-name\">Draconic Healing.</span> You can cast the <strong>Cure Wounds</strong> spell at 2nd level without expending a spell slot. Once you cast this spell in this way, you can't do so again until you finish a long rest. The spell's spellcasting ability is the ability increased by this feat.</p></li><li class=\"rd__li \"><p class=\"rd__p-list-item\" data-roll-name-ancestor=\"Ability Score Increase.\"><span class=\"bold rd__list-item-name\">Protective Wings.</span> You can manifest protective wings that can shield you or others. When you or another creature you can see within 5 feet of you is hit by an attack roll, you can use your reaction to manifest spectral wings from your back for a moment. You grant a bonus to the target's AC equal to your proficiency bonus ([[lookup @prof]]) against that attack roll, potentially causing it to miss. You can use this reaction a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest.</p></li></ul></div></div></div>",
           "requirements": "Monk 12 (Feat)"
-        },
-        {
-          "name": "Cure Wounds",
-          "section": "spell-items",
-          "description": "<div class=\"rd__b  rd__b--3\"><p>A creature you touch regains a number of hit points equal to [[/r 2d8]] + your spellcasting ability modifier. This spell has no effect on undead or constructs.</p><p><span class=\"entry-title-inner\">At Higher Levels. <br /></span>When you cast this spell using a spell slot of 2nd level or higher, the healing increases by [[/r 2d8]] for each slot level above 1st.</p></div>",
-          "spellLevel": "1st Level",
-          "spellRange": "Touch",
-          "spellSchool": "Evocation"
         },
         {
           "name": "Ioun Stone, Language Knowledge",
@@ -5409,7 +5449,7 @@
           "name": "Chili Pepper",
           "section": "physical-items",
           "description": "<p>Harvested usually in most warm climates, it is used mainly as a spice in cuisines to add some \"warmth\" to the dish.</p>",
-          "quantity": 4,
+          "quantity": 3,
           "combinedLabel": "Spice (spice)",
           "attunementLabel": ""
         },
@@ -5571,7 +5611,7 @@
           "name": "Ginger",
           "section": "physical-items",
           "description": "<p>Ginger, is widely used as a spice and folk medicine. It is provided as tea for those who have weak stomachs to combat nausea, among other things.</p>",
-          "quantity": 8,
+          "quantity": 7,
           "combinedLabel": "Spice",
           "attunementLabel": ""
         },
@@ -5579,7 +5619,7 @@
           "name": "Ginko Leaves",
           "section": "physical-items",
           "description": "",
-          "quantity": 9,
+          "quantity": 6,
           "combinedLabel": "Spice",
           "attunementLabel": ""
         },
@@ -5708,6 +5748,22 @@
           "spellLevel": "2nd Level",
           "spellRange": "Touch",
           "spellSchool": "Necromancy"
+        },
+        {
+          "name": "Cure Wounds (2nd Level)",
+          "section": "spell-items",
+          "description": "<div class=\"rd__b  rd__b--3\"><p>A creature you touch regains a number of hit points equal to [[/r 2d8]] + your spellcasting ability modifier. This spell has no effect on undead or constructs.</p></div><div class=\"rd__b  rd__b--3\"><div data-roll-name-ancestor=\"At Higher Levels\" class=\"rd__b  rd__b--3\"><p><span class=\"entry-title-inner\">At Higher Levels.</span></p><p>When you cast this spell using a spell slot of 2nd level or higher, the healing increases by [[/r 1d8]] for each slot level above 1st.</p></div></div>",
+          "spellLevel": "2nd Level",
+          "spellRange": "Touch",
+          "spellSchool": "Evocation"
+        },
+        {
+          "name": "Potion of Heroism",
+          "section": "physical-items",
+          "description": "<p><em>This blue potion bubbles and steams as if boiling.</em></p><p>When you drink this potion you gain 10 temporary hit points. Additionally you are under the effect of the Bless spell for 1 hour (no concentration required).</p>",
+          "quantity": 1,
+          "combinedLabel": "Potion",
+          "attunementLabel": ""
         }
       ]
     },
