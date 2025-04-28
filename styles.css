@@ -88,8 +88,7 @@ ul.dropdown-menu {
     }
 }
 
-.dropdown-hover:focus-within .dropdown-menu,
-.dropdown-hover:hover .dropdown-menu {
+.dropdown-hover.active .dropdown-menu {
     display: block;
 }
 

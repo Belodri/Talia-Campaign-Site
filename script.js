@@ -69,7 +69,7 @@ function populateCharselect() {
         const button = document.createElement("button");
         button.textContent = name;
         button.dataset.action = "showPlayer";
-        button.classList.add("menu-button");
+        button.classList.add("menu-button", "action-button");
 
         const listItem = document.createElement("li");
         listItem.appendChild(button);
@@ -82,36 +82,72 @@ function populateCharselect() {
 //#region Event Handling
 
 function activateEventListeners() {
-    document.querySelectorAll(".menu-button").forEach(btn => {
-        btn.addEventListener("click", _onMenuButtonClick);
-    });
-
     document.querySelectorAll(".section-header").forEach(ele => {
         ele.addEventListener("click", _onSectionHeaderClick);
+    });
+
+    document.querySelectorAll(".menu-button.action-button").forEach(ele => {
+        ele.addEventListener("click", _onActionButtonClick);
+    });
+
+    document.querySelectorAll(".dropdown-hover").forEach(ele => {
+        ele.addEventListener("pointerenter", _onPointerEnter);
+        ele.addEventListener("pointerleave", _onPointerLeave);
+    });
+
+    document.querySelectorAll(".menu-button.dropdown-button").forEach(ele => {
+        ele.addEventListener("click", _onDropdownButtonClick);
     });
 
     document.addEventListener("click", _onDocumentClick);
 }
 
+function _onPointerEnter(event) {
+    if(event.pointerType !== "mouse") return;
+    removeActiveHovers();
+    event.target.classList.add("active");
+}
+
+function _onPointerLeave(event) {
+    if(event.pointerType !== "mouse") return;
+    removeActiveHovers();
+}
+
 function _onSectionHeaderClick(event) {
-    const toggleId = event.target.dataset.toggleId;
+    const toggleId = event.currentTarget.dataset.toggleId;
     toggleHidden(toggleId);
 }
 
-function _onMenuButtonClick(event) {
+function _onActionButtonClick(event) {
     event.preventDefault();
-    const action = event.target.dataset?.action;
+    event.stopPropagation();
+
+    const action = event.currentTarget.dataset?.action;
     if(!action) return;
 
-    event.target.blur();
+    const dropdown = event.currentTarget.closest(".dropdown-hover");
+    if (dropdown) dropdown.classList.remove("active");
+
+    event.currentTarget.blur();
+
     return action === "showPlayer" ? showPlayer(event) : showSettlement();
 }
 
 function _onDocumentClick(event) {
-    const openDropdown = document.activeElement?.closest(".dropdown-hover");
-    if (openDropdown && !event.target.closest(".dropdown-hover")) {
-        openDropdown.blur();
-    }
+    if (!event.target.closest(".dropdown-hover")) removeActiveHovers();
+}
+
+function _onDropdownButtonClick(event) {
+    event.preventDefault();
+    event.stopPropagation();
+
+    const parentDropdown = event.currentTarget.closest(".dropdown-hover");
+    removeActiveHovers();
+    if (parentDropdown) parentDropdown.classList.add("active");
+}
+
+function removeActiveHovers() {
+    document.querySelectorAll(".dropdown-hover").forEach(ele => ele.classList.remove("active"));
 }
 
 //#endregion
