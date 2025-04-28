@@ -91,10 +91,13 @@ function activateEventListeners() {
     });
 
     document.querySelectorAll(".dropdown-menu").forEach(ele => {
-        ele.addEventListener("click", (event) => {
-            if(event.target.tagName === "BUTTON") {
-                event.target.blur();
-            }
+        ["click", "touchend"].forEach(evt => {
+            ele.addEventListener(evt, (event) => {
+                if(event.target.tagName === "BUTTON") {
+                    if (event.type === "touchend") event.preventDefault(); 
+                    event.target.blur();
+                }
+            });
         });
     });
 }
