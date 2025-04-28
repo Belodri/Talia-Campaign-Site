@@ -77,7 +77,7 @@
           "name": "Athletic",
           "section": "feature-items",
           "description": "<p>- When jumping, you jump an extra 5ft.</p><p>- Increase one ability score of your choice by 1, to a maximum of 20. (STR)</p><p>- You gain proficiency in one skill of your choice. (Persuasion)</p><p>- Choose one skill in which you have proficiency. You gain expertise with that skill, which means your proficiency bonus is doubled for any ability check you make with it. The skill you choose must be one that isn't already benefiting from a feature, such as Expertise, that doubles your proficiency bonus. (Athletics)</p>",
-          "requirements": "Barbarian 4 (Feat)"
+          "requirements": "Feat"
         },
         {
           "name": "Tattoo of the Mountain",
@@ -94,8 +94,8 @@
         {
           "name": "Stable Frenzy",
           "section": "feature-items",
-          "description": "<h5>Frenzied Strikes</h5><p>Your melee attacks that deal non-magical slashing, piercing, or crushing damage are enhanced:</p><p>- Slashing: You reduce the target's physical saving throws by 1 until the end of it's next turn.</p><p>- Piercing: You repeatedly reroll each damage dice that lands on a 1.</p><p>- Crushing: You reduce the target's mental saving throws by 1 until the end of it's next turn.</p><p></p><p>Additionally, while raging you gain the <strong>Stable Footing</strong> condition.</p><h5>Stable Footing</h5><p>You can't be knocked prone or moved along the ground against your will by non-magical means.</p><p></p>",
-          "requirements": "Barbarian 8 (Feat)"
+          "description": "<p>Your melee attacks that deal non-magical slashing, piercing, or crushing damage are enhanced:</p><ul><li><p>Slashing: You reduce the target's physical saving throws by 1 until the end of it's next turn.</p></li><li><p>Piercing: You repeatedly reroll each damage dice that lands on a 1.</p></li><li><p>Crushing: You reduce the target's mental saving throws by 1 until the end of it's next turn.</p></li></ul><p>Additionally, while raging you gain the <strong>Stable Footing</strong> condition.</p><h5>Stable Footing</h5><p>You can't be knocked prone or moved along the ground against your will by non-magical means.</p>",
+          "requirements": "Feat"
         },
         {
           "name": "Common Clothes",
@@ -139,7 +139,7 @@
           "name": "Potion of Legendary Resistance",
           "section": "physical-items",
           "description": "<p><em>The way the potion shimmers is not unlike looking through a kaleidoscope.</em></p><p>When you drink this potion, you gain one Legendary Resistance for 8 hours. Spending it allows you to nullify the effect a single attack, spell, or ability would have on you.</p>",
-          "quantity": 2,
+          "quantity": 1,
           "combinedLabel": "Potion",
           "attunementLabel": ""
         },
@@ -436,18 +436,10 @@
           "attunementLabel": ""
         },
         {
-          "name": "Abyssal Nail Polish",
-          "section": "physical-items",
-          "description": "<blockquote><p>Amonst Alushinyrra's elites, the hottest trends are also the deadliest. This polish ensures you're both.</p></blockquote><p>When applied to non-magical natural weapons, such as teeth, claws, or pincers, this shimmering substance not only enhances the user's looks for 12 hours. Enchanted natural weapons deal an additional 2d6 fire damage and are treated as magical for the purpose of overcoming damage reduction.</p>",
-          "quantity": 1,
-          "combinedLabel": "Potion",
-          "attunementLabel": ""
-        },
-        {
           "name": "Guardian's Reflex",
           "section": "feature-items",
           "description": "<div><p><em>Prerequisite: Constitution 15 or higher</em></p><div><div class=\"rd__b  rd__b--3\"><p>With the spirit of a true hero, you leap into harm's way to shield your allies, taking the hit they cannot. You gain the following benefits:</p><p class=\"rd__p-list-item\" data-roll-name-ancestor=\"Ability Score Increase.\"><span class=\"bold rd__list-item-name\">Ability Score Increase.</span> Increase your Constitution score by 1, to a maximum of 20.</p><ul class=\"rd__list rd__list-hang-notitle\"><li class=\"rd__li \"><p class=\"rd__p-list-item\" data-roll-name-ancestor=\"Intervene\"><span class=\"bold rd__list-item-name\">Intervene.</span> When a creature you can see hits a target you can see, other than yourself, with a ranged weapon or spell attack, you can use your reaction to intercept it. To use this reaction, there must be an unoccupied space adjacent to the target, between the target and the attacker, and within your jumping distance. You leap to this space, landing directly in the line of attack and taking the hit intended for the target, applying all effects of the attack to yourself as though you were the original target. Until the end of the turn, the target gains &amp;Reference[Three-Quarters Cover] and cannot roll death saving throws. You can use this reaction a number of times equal to your proficiency bonus, regaining all expended uses when you finish a long rest.</p></li></ul></div></div></div>",
-          "requirements": "Barbarian 12 (Feat)"
+          "requirements": "Feat"
         },
         {
           "name": "Ioun Stone, Language Knowledge",
@@ -529,7 +521,7 @@
           "name": "Potion of Growth",
           "section": "physical-items",
           "description": "<div class=\"rd__b  rd__b--2\"><p><em>The red in the potion's liquid continuously expands from a tiny bead to color the clear liquid around it and then contracts. Shaking the bottle fails to interrupt this process.</em></p><p>When you drink this potion, you gain the \"enlarge\" effect of the enlarge/reduce spell for 1d4 hours (no concentration required):</p></div><p>While enlarged, your size is increased by one category and your weight is multiplied by eight.<br />You have advantage on Strength checks and saving throws and your attacks with weapons deal an additional 1d4 damage.</p>",
-          "quantity": 1,
+          "quantity": 2,
           "combinedLabel": "Potion",
           "attunementLabel": ""
         },
@@ -579,7 +571,7 @@
           "name": "Bugman’s Ale",
           "section": "physical-items",
           "description": "<blockquote><p>This special brew was originally created by the legendary dwarven brewmaster Joseph Bugman, and he shared its recipe only with his most trusted apprentices.</p></blockquote><p>When you drink this ale, you need to make a DC 30 Constitution saving throw. On a failed save, you become immune to the &amp;Reference[Frightened] condition for 8 hours.</p>",
-          "quantity": 15,
+          "quantity": 14,
           "combinedLabel": "Food",
           "attunementLabel": ""
         },
@@ -676,14 +668,6 @@
           "attunementLabel": ""
         },
         {
-          "name": "Potion of Speed",
-          "section": "physical-items",
-          "description": "<div class=\"rd__b  rd__b--2\"><p>When you drink this potion, you gain the effect of the Haste spell for 1 minute (no concentration required). The potion's yellow fluid is streaked with black and swirls on its own.</p></div>",
-          "quantity": 1,
-          "combinedLabel": "Potion",
-          "attunementLabel": ""
-        },
-        {
           "name": "Find Traps",
           "section": "spell-items",
           "description": "<div class=\"rd__b  rd__b--3\"><p>You sense the presence of any trap within range that is within line of sight. A trap, for the purpose of this spell, includes anything that would inflict a sudden or unexpected effect you consider harmful or undesirable, which was specifically intended as such by its creator. Thus, the spell would sense an area affected by the <strong>alarm </strong>spell, a <strong>glyph of warding </strong>or a mechanical pit trap, but it would not reveal a natural weakness in the floor, an unstable ceiling, or a hidden sinkhole.</p><p>This spell merely reveals that a trap is present. You don't learn the location of each trap, but you do learn the general nature of the danger posed by a trap you sense.</p></div>",
@@ -705,22 +689,6 @@
           "description": "<div class=\"rd__b  rd__b--2\"><p>You can clasp or remove this metal bracelet around the wrist or ankle of yourself or a willing creature within your reach using an action, unless that creature already has an Abjurer's Bangle equipped. The bangle emits a ward of abjuration magic from it that has 120 charges. A creature wearing the bangle can use its reaction when it takes damage to speak the bangle's command word and expend any number of charges to gain temporary hit points equal to the number of charges spent. Upon consuming the last charge, the bangle becomes a nonmagical bracelet.</p></div>",
           "quantity": 1,
           "combinedLabel": "Trinket",
-          "attunementLabel": ""
-        },
-        {
-          "name": "Wooden Chicken Statue with Knife beak",
-          "section": "physical-items",
-          "description": "",
-          "quantity": 8,
-          "combinedLabel": "Art Object",
-          "attunementLabel": ""
-        },
-        {
-          "name": "bed sheet",
-          "section": "physical-items",
-          "description": "",
-          "quantity": 1,
-          "combinedLabel": "Loot",
           "attunementLabel": ""
         },
         {
@@ -788,6 +756,14 @@
           "attunementLabel": ""
         },
         {
+          "name": "Pristine White Dress from an Angel",
+          "section": "physical-items",
+          "description": "<p>Bought for 200g from a Devil in Hell, as you do.<br />This flowing garment leaves much to the imagination, as the revealing clothes are very similar looking to some familiar looking clothes.</p>",
+          "quantity": 1,
+          "combinedLabel": "Loot",
+          "attunementLabel": ""
+        },
+        {
           "name": "Adept Forager",
           "section": "feature-items",
           "description": "<p>You have advantage on Survival checks and you add your Constitution modifier to these checks.</p>",
@@ -804,21 +780,483 @@
           "section": "feature-items",
           "description": "<p>Your walking speed is increased by 20ft, you have a 1d6 bonus to your initiative rolls and, as long as you aren't incapacitated, you cannot be surprised.</p><p>Using Battering Ram grants you an amount of temporary hit points equal to your barbarian level.</p>",
           "requirements": "Elk Spirit"
+        }
+      ],
+      "Emilio Astray": [
+        {
+          "name": "Pact Magic",
+          "section": "feature-items",
+          "description": "<p>Your arcane research and the magic bestowed on you by your patron have given you facility with spells.</p>\n<h5>Cantrips</h5>\n<p>You know two cantrips of your choice from the warlock spell list. You learn additional warlock cantrips of your choice at higher levels, as shown in the Cantrips Known column of the Warlock table.</p>\n<h5>Spell Slots</h5>\n<p>The Warlock table shows how many spell slots you have. The table also shows what the level of those slots is; all of your spell slots are the same level. To cast one of your warlock spells of 1st level or higher, you must expend a spell slot. You regain all expended spell slots when you finish a short or long rest.</p>\n<p>For example, when you are 5th level, you have two 3rd-level spell slots. To cast the 1st-level spell thunderwave, you must spend one of those slots, and you cast it as a 3rd-level spell.</p>\n<h5>Spells Known of 1st Level and Higher</h5>\n<p>At 1st level, you know two 1st-level spells of your choice from the warlock spell list.</p>\n<p>The Spells Known column of the Warlock table shows when you learn more warlock spells of your choice of 1st level and higher. A spell you choose must be of a level no higher than what's shown in the table's Slot Level column for your level. When you reach 6th level, for example, you learn a new warlock spell, which can be 1st, 2nd, or 3rd level.</p>\n<p>Additionally, when you gain a level in this class, you can choose one of the warlock spells you know and replace it with another spell from the warlock spell list, which also must be of a level for which you have spell slots.</p>\n<h5>Spellcasting Ability</h5>\n<p>Charisma is your spellcasting ability for your warlock spells, so you use your Charisma whenever a spell refers to your spellcasting ability. In addition, you use your Charisma modifier when setting the saving throw DC for a warlock spell you cast and when making an attack roll with one.</p>\n<p><strong>Spell save DC</strong> = 8 + your proficiency bonus + your Charisma modifier</p>\n<p><strong>Spell attack modifier </strong>= your proficiency bonus + your Charisma modifier</p>\n<h5>Spellcasting Focus</h5>\n<p>You can use an arcane focus as a spellcasting focus for your warlock spells.</p>",
+          "requirements": "Warlock 1"
         },
         {
-          "name": "Pristine White Dress from an Angel",
+          "name": "Starbonded",
+          "section": "feature-items",
+          "description": "<p>When you are presented with an aberrant creature's natural form, you instantly recall some esoteric bit of lore about that creature. Usually, this information regards the creature's favored diet or habitat, but on rare occasion you may know that creature's name.</p><p>Your DM might rule that this effect may only happen once per day, or that the information only comes to you when you next fall asleep.</p>",
+          "requirements": "Voidwalker"
+        },
+        {
+          "name": "Moderately Armored",
+          "section": "feature-items",
+          "description": "<div><p>Prerequisite: Proficiency with light armor</p><div><div class=\"rd__b  rd__b--3\"><p>You have trained to master the use of medium armor and shields, gaining the following benefits:</p><ul class=\"rd__list\"><li class=\"rd__li \">Increase your Strength or Dexterity by 1, to a maximum of 20. (chosen Dexterity)</li><li class=\"rd__li \">You gain proficiency with medium armor and shields.</li></ul></div></div></div>",
+          "requirements": "Feat"
+        },
+        {
+          "name": "Accrued Vitality",
+          "section": "feature-items",
+          "description": "<p>You can expend 1 Essence Shard to gain [[/r 1d8]] temporary hit points. You can choose to expend one or more additional Essence Shards to increase the temporary hit points gained by [[/r 1d8]] per additional shard.</p>",
+          "requirements": "Void-Tainted 1"
+        },
+        {
+          "name": "Grasping Talons",
+          "section": "feature-items",
+          "description": "<p>You can expend 1 Essence Shard to increase the reach of your Reaping Claws by 5 feet until the end of your next turn.</p>",
+          "requirements": "Void-Tainted 1"
+        },
+        {
+          "name": "Netherwalk",
+          "section": "feature-items",
+          "description": "<p>You can expend 2 Essence Shards to increase your walking speed by 20 feet for 10 minutes.</p>",
+          "requirements": "Void-Tainted 1"
+        },
+        {
+          "name": "Essence Shards",
+          "section": "feature-items",
+          "description": "<p>If you hit a creature with the claws granted by your Void Form, you tear out a shard of its essence to feed your patron. You can never have more shards than you have Warlock levels and you lose all remaining shards when your Void Form ends.</p><p>Starting at 6th level, you immediately gain 2 shards upon entering your Void Form. This number increases to 4 at level 10, and to 6 at level 14.</p>",
+          "requirements": "Void-Tainted 1"
+        },
+        {
+          "name": "Void Form",
+          "section": "feature-items",
+          "description": "<p>You can use your bonus action to awaken the ferocity and hunger of your patron, morphing its form with yours. This transformation lasts for 10 minutes or until you choose to end it as an action. During this time you gain the following abilities:</p><ul><li><p><strong>Heightened Senses.</strong> Your senses become supernaturally keen. You have &amp;Reference[darkvision] out to a range of 60 feet and advantage on [[/check ste]], [[/check prc]], and [[/check sur]] checks.</p></li><li><p><strong>Voracious Mind.</strong> You cannot &amp;Reference[concentration]{concentrate} on spells. If you’re concentrating on a spell when you enter this form, it ends immediately.</p></li><li><p><strong>Psychic Link</strong> Your body counts as a spellcasting focus for your warlock spells.</p></li><li><p><strong>Reaping Claws.</strong> YYou sprout razor-sharp claws, which are natural weapons with a reach of 5 feet. You have proficiency with these weapons and can use your Charisma modifier for the attack and damage rolls made using these natural weapons. On a hit, your claws deal [[/damage 1d6 slashing]] damage.</p></li></ul><p>Starting at 10th level, you can choose to use <strong>Boon of Eldritch Hunger</strong> immediately after using this feature as part of the same bonus action.</p><p>You can use this feature twice and you regain all expended uses when you finish a short or long rest.</p>",
+          "requirements": "Void-Tainted 1"
+        },
+        {
+          "name": "Boons of Eldritch Hunger",
+          "section": "feature-items",
+          "description": "<p>You can use your bonus action to expend Essence Shards for your patron to devour in exchange for various boons. You unlock these boons as you gain Warlock levels, as seen below. Additional boons can be unlocked through killing powerful aberrations and feeding them to your patron (at your GM's discretion).</p><p>Additionally, starting at 14th level, when you activate a boon that cost 2 shards or less for the first time during your turn, you can immediately take one additional bonus action.</p><table border=\"0\"><caption>Boons of Eldritch Hunger</caption><thead><tr><td>Warlock Level</td><td>Boons</td></tr></thead><tbody><tr><td><p>1st</p></td><td><p>@UUID[Compendium.talia-custom.customItems.Item.U4X25sThCNZi2mWy]{Accrued Vitality}, @UUID[Compendium.talia-custom.customItems.Item.gNrTL5o5ZRLpeu7R]{Grasping Talons}, @UUID[Compendium.talia-custom.customItems.Item.COlSs3Vxpnq0tSbS]{Netherwalk}</p></td></tr><tr><td><p>6th</p></td><td><p>@UUID[Compendium.talia-custom.customItems.Item.WgvL8oj2ciQzEZqf]{Bloodrazor}, @UUID[Compendium.talia-custom.customItems.Item.m7xBdHggPzf7HH9d]{Mindrazor}, @UUID[Compendium.talia-custom.customItems.Item.MxAmKvgyVFxAzAiZ]{Phase Shift}</p></td></tr><tr><td><p>10th</p></td><td><p>@UUID[Compendium.talia-custom.customItems.Item.UmA5fXip3CVaIXe0]{Eviscerate}, @UUID[Compendium.talia-custom.customItems.Item.7Di8YGf0toBUTybh]{Eldritch Energies}, @UUID[Compendium.talia-custom.customItems.Item.rjnJSohU36PwyHJB]{Nether Surge}</p></td></tr><tr><td><p>14th</p></td><td><p>@UUID[Compendium.talia-custom.customItems.Item.DA9Joq7kBH9785bA]{Rend}, @UUID[Compendium.talia-custom.customItems.Item.E5mjvRIxU8nztrmj]{Schism}, @UUID[Compendium.talia-custom.customItems.Item.jtt8meGIzyMFiRZh]{Twist of Fate}</p></td></tr></tbody></table>",
+          "requirements": "Void-Tainted 1"
+        },
+        {
+          "name": "Agonizing Blast",
+          "section": "feature-items",
+          "description": "<p>When you cast <strong>Eldritch Blast</strong>, add your Charisma modifier to the damage it deals on a hit.</p>",
+          "requirements": "Warlock 2, Eldritch Blast"
+        },
+        {
+          "name": "Devil's Sight",
+          "section": "feature-items",
+          "description": "<p>You can see normally in darkness, both magical and nonmagical, to a distance of 120 feet.</p>",
+          "requirements": "Warlock 2"
+        },
+        {
+          "name": "Pact of the Tome",
+          "section": "feature-items",
+          "description": "<p>Your patron gives you a grimoire called a Book of Shadows. When you gain this feature, choose three cantrips from any class's spell list (the three needn't be from the same list). While the book is on your person, you can cast those cantrips at will. They don't count against your number of cantrips known. If they don't appear on the warlock spell list, they are nonetheless warlock spells for you.</p><p>If you lose your Book of Shadows, you can perform a 1-hour ceremony to receive a replacement from your patron. This ceremony can be performed during a short or long rest, and it destroys the previous book. The book turns to ash when you die.</p>",
+          "requirements": "Warlock 3"
+        },
+        {
+          "name": "Book of Ancient Secrets",
+          "section": "feature-items",
+          "description": "<p>You can now inscribe magical rituals in your Book of Shadows. Choose two 1st-level spells that have the ritual tag from any class's spell list (the two needn't be from the same list). The spells appear in the book and don't count against the number of spells you know. With your Book of Shadows in hand, you can cast the chosen spells as rituals. You can't cast the spells except as rituals, unless you've learned them by some other means. You can also cast a warlock spell you know as a ritual if it has the ritual tag.</p><p>On your adventures, you can add other ritual spells to your Book of Shadows. When you find such a spell, you can add it to the book if the spell's level is equal to or less than half your warlock level (rounded up) and if you can spare the time to transcribe the spell. For each level of the spell, the transcription process takes 2 hours and costs 50 gp for the rare inks needed to inscribe it.</p>",
+          "requirements": "Warlock 3, Pact of the Tome"
+        },
+        {
+          "name": "Bloodrazor",
+          "section": "feature-items",
+          "description": "<p>You can expend 3 Essence Shards to increase the critical range of attacks you make with your Reaping Claws by 2 until the end of your next turn.</p>",
+          "requirements": "Void-Tainted 6"
+        },
+        {
+          "name": "Mindrazor",
+          "section": "feature-items",
+          "description": "<p>You can expend 3 Essence Shards to add an extra [[/damage 3d8 psychic]] damage to the damage of your Reaping Claws until the end of your next turn.</p>",
+          "requirements": "Void-Tainted 6"
+        },
+        {
+          "name": "Phase Shift",
+          "section": "feature-items",
+          "description": "<p>You can expend 2 Essence Shards to teleport to an unoccupied space you can see within 30 feet.</p>",
+          "requirements": "Void-Tainted 6"
+        },
+        {
+          "name": "Thirsting Claws",
+          "section": "feature-items",
+          "description": "<p>You can attack twice, instead of once, when you take the Attack action with your Reaping Claws on your turn.</p><p>Additionally, attacks made with these claws count as magical for the purpose of overcoming resistance and immunity to nonmagical attacks and damage.</p>",
+          "requirements": "Void-Tainted 6"
+        },
+        {
+          "name": "Eviscerate",
+          "section": "feature-items",
+          "description": "<p>You can expend 3 Essence Shards to gain advantage on melee weapon attacks until the end of your next turn.</p>",
+          "requirements": "Void-Tainted 10"
+        },
+        {
+          "name": "Eldritch Energies",
+          "section": "feature-items",
+          "description": "<p>You can expend 5 Essence Shards to cast a Warlock cantrip you know that has a casting time of 1 Action.</p>",
+          "requirements": "Void-Tainted 10"
+        },
+        {
+          "name": "Nether Surge",
+          "section": "feature-items",
+          "description": "<p>You can expend 6 Essence Shards to regain 1 expended Pact Slot.</p><section class=\"secret\" id=\"secret-ft04GuGP7YQjBFO0\"><p><em>Add the regained pact slot manually.</em></p></section>",
+          "requirements": "Void-Tainted 10"
+        },
+        {
+          "name": "Ravenous Feast",
+          "section": "feature-items",
+          "description": "<p>You gain an additional Essence Shard when you land a critical hit with your claws against a creature for the first time on each turn and when you reduce a creature to 0 hit points for the first time on each turn.</p><p>Additionally, the damage die of your Reaping Claws grows to a d10.</p>",
+          "requirements": "Void-Tainted 10"
+        },
+        {
+          "name": "Mystic Arcanum",
+          "section": "feature-items",
+          "description": "<p>At 11th level, your patron bestows upon you a magical secret called an arcanum. Choose one 6th-level spell from the warlock spell list as this arcanum.</p><p>You can cast your arcanum spell once without expending a spell slot. You must finish a long rest before you can do so again.</p><p>At higher levels, you gain more warlock spells of your choice that can be cast in this way: one 7th-level spell at 13th level, one 8th-level spell at 15th level, and one 9th-level spell at 17th level. You regain all uses of your Mystic Arcanum when you finish a long rest.</p>",
+          "requirements": "Warlock 11"
+        },
+        {
+          "name": "Circle of Death",
+          "section": "spell-items",
+          "description": "<p>A sphere of negative energy ripples out in a 60-foot radius from a point within range. Each creature in that area must make a Constitution saving throw. A target takes 8d6 necrotic damage on a failed save, or half as much damage on a successful one.</p><p><strong>Higher Levels <br /></strong>When you cast this spell using a spell slot of 7th level or higher, the damage increases by 2d6 for each slot level above 6th.</p>",
+          "spellLevel": "6th Level",
+          "spellRange": "150 ft",
+          "spellSchool": "Necromancy"
+        },
+        {
+          "name": "Dying of the Light",
+          "section": "spell-items",
+          "description": "<div class=\"rd__b  rd__b--3\"><p>A wave of withering darkness erupts from you, filling a 120-foot-radius sphere and extinguishing any nonmagical light sources in the area. Any light produced by spells of 6th level or lower is dispelled. Magic items (but not artifacts) that give off light have that property suppressed while in the spell's area. Any light sources brought into the area during the spell's duration are likewise extinguished. Light-producing spells of 7th level or higher function within the area.</p><p>Nonmagical light sources removed from the area can be reignited. Magic items regain their ability to give off light 1 round after leaving the area. This magical darkness foils <span class=\"reference-link\">&amp;Reference[darkvision] </span>except for creatures that can see in magical darkness, such as devils.</p><p>Each creature you choose to be affected that ends its turn in the darkness takes<span class=\"roll-link\" data-type=\"damage\" data-formula=\"4d8\" data-damage-type=\"necrotic\"> </span>[[/damage 4d8 necrotic]] damage and gains one level of <span class=\"reference-link\">&amp;Reference[exhaustion]. </span>A successful Constitution saving throw halves the damage and negates the <span class=\"reference-link\">&amp;Reference[exhaustion].</span></p></div>",
+          "spellLevel": "7th Level",
+          "spellRange": "Self",
+          "spellSchool": "Evocation"
+        },
+        {
+          "name": "Tough",
+          "section": "feature-items",
+          "description": "<div><p>Your hit point maximum increases by an amount equal to twice your level when you gain this feat. Whenever you gain a level thereafter, your hit point maximum increases by an additional 2 hit points.</p></div>",
+          "requirements": "Feat"
+        },
+        {
+          "name": "Grasp of Hadar",
+          "section": "feature-items",
+          "description": "<div><div><p>Once on each of your turns when you hit a creature with your <strong>Eldritch Blast</strong>, you can move that creature in a straight line 10 feet closer to you.</p></div></div>",
+          "requirements": "Warlock 2, Eldritch Blast"
+        },
+        {
+          "name": "Hidden Heart",
+          "section": "feature-items",
+          "description": "<div><div><div class=\"rd__b  rd__b--3\"><p>As long as you have your pact tome on your person, you cannot be compelled to tell the truth via magic, and your illusions and transmutations, including any shapeshifting forms, appear as real to divination magic and truesight.</p></div></div></div>",
+          "requirements": "Warlock 3, Pact of the Tome"
+        },
+        {
+          "name": "Trickster's Escape",
+          "section": "feature-items",
+          "description": "<div><div><p>You can cast <strong>Freedom of Movement</strong> once on yourself without expending a spell slot. You regain the ability to do so when you finish a long rest.</p></div></div>",
+          "requirements": "Warlock 7"
+        },
+        {
+          "name": "Freedom of Movement",
+          "section": "spell-items",
+          "description": "<div class=\"rd__b  rd__b--3\"><p>You touch a willing creature. For the duration, the target's movement is unaffected by &amp;Reference[rule=difficultterrain]{difficult terrain}, and spells and other magical effects can neither reduce the target's speed nor cause the target to be &amp;Reference[condition=paralyzed] or &amp;Reference[condition=restrained].</p><p>The target can also spend 5 feet of movement to automatically escape from nonmagical restraints, such as manacles or a creature that has it &amp;Reference[condition=grappled]. Finally, being underwater imposes no penalties on the target's movement or attacks.</p></div>",
+          "spellLevel": "4th Level",
+          "spellRange": "Touch",
+          "spellSchool": "Abjuration"
+        },
+        {
+          "name": "Blade Ward",
+          "section": "spell-items",
+          "description": "<div class=\"rd__b  rd__b--3\"><p>You extend your hand and trace a sigil of warding in the air. Until the end of your next turn, you have resistance against bludgeoning, piercing, and slashing damage dealt by weapon attacks.</p></div>",
+          "spellLevel": "Cantrip",
+          "spellRange": "Self",
+          "spellSchool": "Abjuration"
+        },
+        {
+          "name": "Eldritch Blast",
+          "section": "spell-items",
+          "description": "<div class=\"rd__b  rd__b--3\"><p>A beam of crackling energy streaks toward a creature within range. Make a ranged spell attack against the target. On a hit, the target takes [[/damage 1d10 type=force]] damage.</p><p>The spell creates more than one beam when you reach higher levels: two beams at 5th level, three beams at 11th level, and four beams at 17th level. You can direct the beams at the same target or at different ones. Make a separate attack roll for each beam.</p></div>",
+          "spellLevel": "Cantrip",
+          "spellRange": "120 ft",
+          "spellSchool": "Evocation"
+        },
+        {
+          "name": "Hellfire",
+          "section": "spell-items",
+          "description": "<div class=\"rd__b  rd__b--3\"><p>You create an eruption of smoldering hellfire around a creature you can see within range. The target must succeed on a Charisma saving throw or take [[/damage 1d4 type=fire]] damage plus [[/damage 1d4 type=necrotic]] damage.</p></div><div class=\"rd__b  rd__b--3\"><div data-roll-name-ancestor=\"At Higher Levels\" class=\"rd__b  rd__b--3\"><p>This spell's damage increases by 1d4 when you reach 5th level (2d4 each), 11th level (3d4 each), and 17th level (4d4 each).</p></div></div>",
+          "spellLevel": "Cantrip",
+          "spellRange": "120 ft",
+          "spellSchool": "Evocation"
+        },
+        {
+          "name": "Frostbite",
+          "section": "spell-items",
+          "description": "<div class=\"rd__b  rd__b--3\"><p>You cause numbing frost to form on one creature that you can see within range. The target must make a Constitution saving throw. On a failed save, the target takes [[/damage 1d6 type=cold]] damage, and it has disadvantage on the next weapon attack roll it makes before the end of its next turn.</p><p>The spell's damage increases by [[/damage 1d6]] when you reach 5th level ([[/damage 2d6]]), 11th level ([[/damage 3d6]]), and 17th level ([[/damage 4d6]]).</p></div>",
+          "spellLevel": "Cantrip",
+          "spellRange": "60 ft",
+          "spellSchool": "Evocation"
+        },
+        {
+          "name": "Counterspell",
+          "section": "spell-items",
+          "description": "<div class=\"rd__b  rd__b--3\"><p>You attempt to interrupt a creature in the process of casting a spell. If the creature is casting a spell of 3rd level or lower, its spell fails and has no effect. If it is casting a spell of 4th level or higher, make an ability check using your spellcasting ability. The DC equals 10 + the spell's level. On a success, the creature's spell fails and has no effect.</p><div class=\"rd__spc-inline-post\"></div></div><div class=\"rd__b  rd__b--3\"><div class=\"rd__b  rd__b--3\"><span class=\"rd__h rd__h--3\" data-title-index=\"1\"> <span class=\"entry-title-inner\">At Higher Levels.</span></span> <p>When you cast this spell using a spell slot of 4th level or higher, the interrupted spell has no effect if its level is less than or equal to the level of the spell slot you used.</p><div class=\"rd__spc-inline-post\"></div></div><div class=\"rd__spc-inline-post\"></div></div>",
+          "spellLevel": "3rd Level",
+          "spellRange": "60 ft",
+          "spellSchool": "Abjuration"
+        },
+        {
+          "name": "Dissonant Whispers",
+          "section": "spell-items",
+          "description": "<div class=\"rd__b  rd__b--3\"><p>You whisper a discordant melody that only one creature of your choice within range can hear, wracking it with terrible pain. The target must make a Wisdom saving throw. On a failed save, it takes [[/damage 3d6 type=psychic]] damage and must immediately use its reaction, if available, to move as far as its speed allows away from you. The creature doesn't move into obviously dangerous ground, such as a fire or a pit. On a successful save, the target takes half as much damage and doesn't have to move away. A &amp;Reference[condition=deafened] creature automatically succeeds on the save.</p></div><div class=\"rd__b  rd__b--3\"><div data-roll-name-ancestor=\"At Higher Levels\" class=\"rd__b  rd__b--3\"><p><span class=\"entry-title-inner\"><strong>At Higher Levels.</strong> </span>When you cast this spell using a spell slot of 2nd level or higher, the damage increases by [[/damage 1d6]] for each slot level above 1st.</p></div></div>",
+          "spellLevel": "1st Level",
+          "spellRange": "60 ft",
+          "spellSchool": "Enchantment"
+        },
+        {
+          "name": "Void Torrent",
+          "section": "spell-items",
+          "description": "<p>You open a small gate to the Far Realms, unleashing a 60-foot cone of inky blackness. Each creature in the area must make a Dexterity saving throw. On a failed saving throw, a target takes [[/damage 3d6 cold]] and [[/damage 3d6 acid]] damage, or half as much on a successful save. You can then dissolve into the torrent, reappearing in an unoccupied space within the cone’s area. This repositioning doesn’t count as movement and doesn’t trigger opportunity attacks.</p>",
+          "spellLevel": "4th Level",
+          "spellRange": "Self",
+          "spellSchool": "Conjuration"
+        },
+        {
+          "name": "Steel Wind Strike",
+          "section": "spell-items",
+          "description": "<div class=\"rd__b  rd__b--3\"><p>You flourish the weapon used in the casting and then vanish to strike like the wind. Choose up to five creatures you can see within range. Make a melee spell attack against each target. On a hit, a target takes [[/damage 6d10 type=force]] damage.</p><p>You can then teleport to an unoccupied space you can see within 5 feet of one of the targets you hit or missed.</p></div>",
+          "spellLevel": "5th Level",
+          "spellRange": "30 ft",
+          "spellSchool": "Conjuration"
+        },
+        {
+          "name": "Nondetection",
+          "section": "spell-items",
+          "description": "<p>For the Duration, you hide a target that you touch from Divination magic. The target can be a willing creature or a place or an object no larger than 10 feet in any dimension. The target can't be targeted by any divination magic or perceived through magical Scrying sensors.</p>",
+          "spellLevel": "3rd Level",
+          "spellRange": "Touch",
+          "spellSchool": "Abjuration"
+        },
+        {
+          "name": "Abhorrent Apparition",
+          "section": "spell-items",
+          "description": "<div class=\"rd__b  rd__b--3\"><p>You toss the item ahead of you to a spot of your choosing within range. Each creature in a 15-foot-sphere centered on that point must make a Wisdom saving throw. On a failed saving throw, a target takes [[/damage 6d8 type=psychic]] damage and becomes &amp;Reference[condition=frightened] of you for 1 minute. On a successful save, it takes half as much damage and isn’t&amp;Reference[condition=frightened]. A creature &amp;Reference[condition=frightened] this way can make another Wisdom saving throw at the end of each of its turns, ending the effect on itself on a success. </p><p><strong>At Higher Levels.</strong> If you cast this spell using a spell slot of 5th level or higher, the damage increases by [[/r 1d8]] for each slot level above 4th.</p></div>",
+          "spellLevel": "4th Level",
+          "spellRange": "60 ft",
+          "spellSchool": "Illusion"
+        },
+        {
+          "name": "Gift of Alacrity",
+          "section": "spell-items",
+          "description": "<div class=\"rd__b  rd__b--3\"><p>You touch a willing creature. For the duration, the target can add [[/r 1d8]] to its initiative rolls.</p></div>",
+          "spellLevel": "1st Level",
+          "spellRange": "Touch",
+          "spellSchool": "Divination"
+        },
+        {
+          "name": "Howling Horrors",
+          "section": "spell-items",
+          "description": "<div class=\"rd__b  rd__b--3\"><p>You let loose the howl of a ravenous eldritch horror. Each hostile creature within range must make a Wisdom saving throw. On a failed saving throw, a target believes it has been transported to the void and is under attack by unspeakable horrors. An affected creature must choose either to face the horrors or to curl into a ball for protection. A creature that faces the horrors takes [[/damage 7d8 psychic]] damage, and then the spell ends on it. A creature that curls into a ball falls &amp;Reference[condition=prone] and is &amp;Reference[condition=stunned] until the end of your next turn. </p><p><strong>At Higher Levels.</strong> When you cast this spell using a spell slot of 6th level or higher, the damage increases by [[/r 2d8]] for each slot level above 5th.</p></div>",
+          "spellLevel": "5th Level",
+          "spellRange": "60 ft",
+          "spellSchool": "Illusion"
+        },
+        {
+          "name": "Arms of Hadar",
+          "section": "spell-items",
+          "description": "<div class=\"rd__b  rd__b--3\"><p>You invoke the power of Hadar, the Dark Hunger. Tendrils of dark energy erupt from you and batter all creatures within 10 feet of you. Each creature in that area must make a Strength saving throw. On a failed save, a target takes [[/damage 2d6 type=necrotic]] damage and is &amp;Reference[distracted] until the start of its next turn. On a successful save, the creature takes half damage, but suffers no other effect.</p></div><div class=\"rd__b  rd__b--3\"><div data-roll-name-ancestor=\"At Higher Levels\" class=\"rd__b  rd__b--3\"><p><span class=\"entry-title-inner\"><strong>At Higher Levels.</strong> </span>When you cast this spell using a spell slot of 2nd level or higher, the damage increases by [[/damage 1d6]] for each slot level above 1st.</p></div></div>",
+          "spellLevel": "1st Level",
+          "spellRange": "Self",
+          "spellSchool": "Conjuration"
+        },
+        {
+          "name": "Hellish Rebuke",
+          "section": "spell-items",
+          "description": "<p>You point your finger, and the creature that damaged you is momentarily surrounded by hellish flames. The creature must make a Dexterity saving throw. It takes [[/damage 2d10 fire]] damage on a failed save, or half as much damage on a successful one.</p><p><strong>At Higher Levels.</strong> When you cast this spell using a spell slot of 2nd level or higher, the damage increases by [[/r 1d10]] for each slot level above 1st.</p>",
+          "spellLevel": "1st Level",
+          "spellRange": "60 ft",
+          "spellSchool": "Evocation"
+        },
+        {
+          "name": "Tasha's Mind Whip",
+          "section": "spell-items",
+          "description": "<div class=\"rd__b  rd__b--3\"><p>You psychically lash out at one creature you can see within range. The target must make an Intelligence saving throw. On a failed save, the target takes [[/damage 3d6 type=psychic]] damage, and is &amp;Reference[distracted] and &amp;Reference[dazed] until the end of its next turn. On a successful save, the target takes half as much damage and suffers none of the spell's other effects.</p></div><div class=\"rd__b  rd__b--3\"><div data-roll-name-ancestor=\"At Higher Levels\" class=\"rd__b  rd__b--3\"><p><span class=\"entry-title-inner\"><strong>At Higher Levels.</strong> </span>When you cast this spell using a spell slot of 3rd level or higher, you can target one additional creature for each slot level above 2nd. The creatures must be within 30 feet of each other when you target them.</p></div></div>",
+          "spellLevel": "2nd Level",
+          "spellRange": "90 ft",
+          "spellSchool": "Enchantment"
+        },
+        {
+          "name": "Detect Thoughts",
+          "section": "spell-items",
+          "description": "<p>For the duration, you can read the thoughts of certain creatures. When you cast the spell and as your action on each turn until the spell ends, you can focus your mind on any one creature that you can see within 30 feet of you. If the creature you choose has an Intelligence of 3 or lower or doesn't speak any language, the creature is unaffected.</p><p>You initially learn the surface thoughts of the creature—what is most on its mind in that moment. As an action, you can either shift your attention to another creature's thoughts or attempt to probe deeper into the same creature's mind. If you probe deeper, the target must make a Wisdom saving throw. If it fails, you gain insight into its reasoning (if any), its emotional state, and something that looms large in its mind (such as something it worries over, loves, or hates). If it succeeds, the spell ends. Either way, the target knows that you are probing into its mind, and unless you shift your attention to another creature's thoughts, the creature can use its action on its turn to make an Intelligence check contested by your Intelligence check; if it succeeds, the spell ends.</p><p>Questions verbally directed at the target creature naturally shape the course of its thoughts, so this spell is particularly effective as part of an interrogation.</p><p>You can also use this spell to detect the presence of thinking creatures you can't see. When you cast the spell or as your action during the duration, you can search for thoughts within 30 feet of you. The spell can penetrate barriers, but 2 feet of rock, 2 inches of any metal other than lead, or a thin sheet of lead blocks you. You can't detect a creature with an Intelligence of 3 or lower or one that doesn't speak any language.</p><p>Once you detect the presence of a creature in this way, you can read its thoughts for the rest of the duration as described above, even if you can't see it, but it must still be within range.</p>",
+          "spellLevel": "2nd Level",
+          "spellRange": "30 ft",
+          "spellSchool": "Divination"
+        },
+        {
+          "name": "Guidance",
+          "section": "spell-items",
+          "description": "<div class=\"rd__b  rd__b--3\"><p>You touch one willing creature. Once before the spell ends, the target can roll a [[/r d4]] and add the number rolled to one ability check of its choice. It has to roll the die before making the ability check. The spell then ends.</p></div>",
+          "spellLevel": "Cantrip",
+          "spellRange": "Touch",
+          "spellSchool": "Divination"
+        },
+        {
+          "name": "Mage Hand",
+          "section": "spell-items",
+          "description": "<div class=\"rd__b  rd__b--3\"><p>A spectral, floating hand appears at a point you choose within range. The hand lasts for the duration or until you dismiss it as an action. The hand vanishes if it is ever more than 30 feet away from you or if you cast this spell again.</p><div class=\"rd__spc-inline-post\"></div><p>You can use your action to control the hand. You can use the hand to manipulate an object, open an unlocked door or container, stow or retrieve an item from an open container, or pour the contents out of a vial. You can move the hand up to 30 feet each time you use it.</p><p>The hand can't attack, activate magic items, or carry more than 10 pounds.</p></div>",
+          "spellLevel": "Cantrip",
+          "spellRange": "30 ft",
+          "spellSchool": "Conjuration"
+        },
+        {
+          "name": "Minor Illusion",
+          "section": "spell-items",
+          "description": "<div class=\"rd__b  rd__b--3\"><p>You create a sound or an image of an object within range that lasts for the duration. The illusion also ends if you dismiss it as an action or cast this spell again.</p><div class=\"rd__spc-inline-post\"><p></p></div><p>If you create a sound, its volume can range from a whisper to a scream. It can be your voice, someone else's voice, a lion's roar, a beating of drums, or any other sound you choose. The sound continues unabated throughout the duration, or you can make discrete sounds at different times before the spell ends.</p><p>If you create an image of an object—such as a chair, muddy footprints, or a small chest—it must be no larger than a 5-foot cube. The image can't create sound, light, smell, or any other sensory effect. Physical interaction with the image reveals it to be an illusion, because things can pass through it.</p><p>If a creature uses its action to examine the sound or image, the creature can determine that it is an illusion with a successful <span style=\"font-family:ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace\">[[/skill investigation dc=@attributes.spelldc format=long]]</span> against your spell save DC. If a creature discerns the illusion for what it is, the illusion becomes faint to the creature.</p></div>",
+          "spellLevel": "Cantrip",
+          "spellRange": "30 ft",
+          "spellSchool": "Illusion"
+        },
+        {
+          "name": "Detect Magic",
+          "section": "spell-items",
+          "description": "<div class=\"rd__b  rd__b--3\"><p>For the duration, you sense the presence of magic within 30 feet of you. If you sense magic in this way, you can use your action to see a faint aura around any visible creature or object in the area that bears magic, and you learn its <a href=\"https://5etools-mirror-2.github.io/book.html#PHB,10,the%20schools%20of%20magic,0\">school of magic</a>, if any.</p><div class=\"rd__spc-inline-post\"></div><p>The spell can penetrate most barriers, but it is blocked by 1 foot of stone, 1 inch of common metal, a thin sheet of lead, or 3 feet of wood or dirt.</p></div>",
+          "spellLevel": "1st Level",
+          "spellRange": "Self",
+          "spellSchool": "Divination"
+        },
+        {
+          "name": "Alarm",
+          "section": "spell-items",
+          "description": "<div class=\"rd__b  rd__b--3\"><p>You set an alarm against unwanted intrusion. Choose a door, a window, or an area within range that is no larger than a 20-foot cube. Until the spell ends, an alarm alerts you whenever a Tiny or larger creature touches or enters the warded area. When you cast the spell, you can designate creatures that won't set off the alarm. You also choose whether the alarm is mental or audible.</p><p>A mental alarm alerts you with a ping in your mind if you are within 1 mile of the warded area. This ping awakens you if you are sleeping.</p><p>An audible alarm produces the sound of a hand bell for 10 seconds within 60 feet.</p></div>",
+          "spellLevel": "1st Level",
+          "spellRange": "30 ft",
+          "spellSchool": "Abjuration"
+        },
+        {
+          "name": "Backpack",
           "section": "physical-items",
-          "description": "<p>Bought for 200g from a Devil in Hell, as you do.<br />This flowing garment leaves much to the imagination, as the revealing clothes are very similar looking to some familiar looking clothes.</p>",
+          "description": "<p>A backpack can hold one cubic foot or 30 pounds of gear. You can also strap items, such as a bedroll or a coil of rope, to the outside of a backpack.</p>",
+          "quantity": 1,
+          "combinedLabel": "Container",
+          "attunementLabel": ""
+        },
+        {
+          "name": "Bedroll",
+          "section": "physical-items",
+          "description": "<p>Roll of cloth used by traveller to sleep in.</p>",
           "quantity": 1,
           "combinedLabel": "Loot",
           "attunementLabel": ""
         },
         {
-          "name": "Potion of Heroism",
+          "name": "Hooded Lantern",
           "section": "physical-items",
-          "description": "<p><em>This blue potion bubbles and steams as if boiling.</em></p><p>When you drink this potion you gain 10 temporary hit points. Additionally you are under the effect of the Bless spell for 1 hour (no concentration required).</p>",
+          "description": "<p>A hooded lantern casts bright light in a 30-foot radius and dim light for an additional 30 feet. Once lit, it burns for 6 hours on a flask (1 pint) of oil. As an action, you can lower the hood, reducing the light to dim light in a 5-foot radius.</p>",
           "quantity": 1,
-          "combinedLabel": "Potion",
+          "combinedLabel": "Trinket",
+          "attunementLabel": ""
+        },
+        {
+          "name": "Moonstone",
+          "section": "physical-items",
+          "description": "<p><em>\"There's a legend that lycanthropes, just at the mere sight of this stone, are forced to shape-shift. Quite fascinating, indeed.\"</em></p><p>It is one of the most affordable gemstones in circulation and in some societies it is sewn into garments as a charm.</p>",
+          "quantity": 1,
+          "combinedLabel": "Gemstone",
+          "attunementLabel": ""
+        },
+        {
+          "name": "Playing Cards Set",
+          "section": "physical-items",
+          "description": "<p>This item encompasses a wide range of playing card types, both unmarked and marked.</p>\n<p>If you are proficient with a gaming set, you can add your proficiency bonus to ability checks you make to play a game with that set. Each type of gaming set requires a separate proficiency.</p>",
+          "quantity": 1,
+          "combinedLabel": "Gaming Set",
+          "attunementLabel": ""
+        },
+        {
+          "name": "Rations",
+          "section": "physical-items",
+          "description": "<p>Rations consist of dry foods suitable for extended travel, including jerky, dried fruit, hardtack, and nuts.</p>",
+          "quantity": 10,
+          "combinedLabel": "Food",
+          "attunementLabel": ""
+        },
+        {
+          "name": "Shovel",
+          "section": "physical-items",
+          "description": "<p>A tool resembling a spade with a broad blade and typically upturned sides, used for moving coals, earth, snow or other material.</p>",
+          "quantity": 1,
+          "combinedLabel": "Loot",
+          "attunementLabel": ""
+        },
+        {
+          "name": "Thieves' Tools",
+          "section": "physical-items",
+          "description": "<p>This set of tools includes a small file, a set of lock picks, a small mirror mounted on a metal handle, a set of narrow-bladed scissors, and a pair of pliers. Proficiency with these tools lets you add your proficiency bonus to any ability checks you make to disarm traps or open locks.</p>",
+          "quantity": 1,
+          "combinedLabel": "Tool",
+          "attunementLabel": ""
+        },
+        {
+          "name": "Tinderbox",
+          "section": "physical-items",
+          "description": "<p>This small container holds flint, fire steel, and tinder (usually dry cloth soaked in light oil) used to kindle a fire. Using it to light a torch - or anything else with abundant, exposed fuel - takes an action. Lighting any other fire takes 1 minute.</p>\n<p> </p>",
+          "quantity": 1,
+          "combinedLabel": "Loot",
+          "attunementLabel": ""
+        },
+        {
+          "name": "Whetstone",
+          "section": "physical-items",
+          "description": "<p>Whetstone is a sharpening stone. It is used to sharpen the edges of steel tools and implements through grinding and honing.</p>",
+          "quantity": 1,
+          "combinedLabel": "Loot",
+          "attunementLabel": ""
+        },
+        {
+          "name": "Adamantine Breastplate",
+          "section": "physical-items",
+          "description": "<div class=\"rd__b  rd__b--2\"><p>This suit of armor is reinforced with adamantine, one of the hardest substances in existence. While you're wearing it, any critical hit against you becomes a normal hit.</p><p>This armor consists of a fitted metal chest piece worn with supple leather. Although it leaves the legs and arms relatively unprotected, this armor provides good protection for the wearer's vital organs while leaving the wearer relatively unencumbered.</p></div>",
+          "quantity": 1,
+          "combinedLabel": "Medium Armor",
+          "attunementLabel": ""
+        },
+        {
+          "name": "Crown of the Wrath Bringer",
+          "section": "physical-items",
+          "description": "<p>This jagged iron circlet bears ornaments in the shape of the enemy rune. When worn, the crown glows with pale light as it draws upon the wearer's fury to strike opponents with vicious terror.</p><p>When you make an attack roll against a creature and hit it while wearing this crown, you can spend and roll one of your unspent Hit Dice. The creature takes extra psychic damage equal to the number rolled.</p><p><strong>Invoking the Rune. </strong>As an action, you can invoke the crown's rune to cast the <strong>Fear</strong> spell (save DC 15) with it; the spell has a duration of 1 minute and doesn't require &amp;Reference[concentration]. Once the rune has been invoked, it can't be invoked again until the next dawn.</p>",
+          "quantity": 1,
+          "combinedLabel": "Hat",
+          "attunementLabel": "Requires Attunement"
+        },
+        {
+          "name": "Fear",
+          "section": "spell-items",
+          "description": "<p>You project a phantasmal image of a creature's worst fears. Each creature in a 30-foot cone must succeed on a Wisdom saving throw or drop whatever it is holding and become &amp;Reference[condition=frightened] for the duration.</p><p>While &amp;Reference[condition=frightened] by this spell, a creature must take the Dash action and move away from you by the safest available route on each of its turns, unless there is nowhere to move. If the creature ends its turn in a location where it doesn't have line of sight to you, the creature can make a Wisdom saving throw. On a successful save, the spell ends for that creature.</p>",
+          "spellLevel": "3rd Level",
+          "spellRange": "Self",
+          "spellSchool": "Illusion"
+        },
+        {
+          "name": "Eldritch Claw Tattoo",
+          "section": "physical-items",
+          "description": "<p>Produced by a special needle, this magic tattoo depicts clawlike forms and other jagged shapes.</p><p><strong>Tattoo Attunement.</strong> To attune to this item, you hold the needle to your skin where you want the tattoo to appear, pressing the needle there throughout the attunement process. When the attunement is complete, the needle turns into the ink that becomes the tattoo, which appears on the skin.<br />If your attunement to the tattoo ends, the tattoo vanishes, and the needle reappears in your space.</p><p><strong>Magical Strikes.</strong> While the tattoo is on your skin, your unarmed strikes are considered magical for the purpose of overcoming immunity and resistance to nonmagical attacks, and you gain a +1 bonus to attack and damage rolls with unarmed strikes.</p><p><strong>Eldritch Maul. </strong>As a bonus action, you can empower the tattoo for 1 minute. For the duration, each of your melee attacks with a weapon or an unarmed strike can reach a target up to 15 feet away from you, as inky tendrils launch toward the target. In addition, your melee attacks deal an extra [[/damage 1d6 type=force]] damage on a hit. Once used, this bonus action can't be used again until you finished a long rest.</p>",
+          "quantity": 1,
+          "combinedLabel": "Trinket",
+          "attunementLabel": "Requires Attunement"
+        },
+        {
+          "name": "Robe of Stars",
+          "section": "physical-items",
+          "description": "<p>This black or dark blue robe is embroidered with small white or silver stars. You gain a +1 bonus to saving throws while you wear it.</p><p>Six stars, located on the robe's upper front portion, are particularly large. While wearing this robe, you can use an action to pull off one of the stars and use it to cast <strong>Magic Missile</strong> as a 5th-level spell. Daily at dusk, <a class=\"inline-roll roll\" data-mode=\"roll\" data-flavor data-formula=\"1d6\" data-tooltip=\"1d6\"><i class=\"fas fa-dice-d20\"></i>1d6</a> removed stars reappear on the robe.</p><p>While you wear the robe, you can use an action to enter the Astral Plane along with everything you are wearing and carrying. You remain there until you use an action to return to the plane you were on. You reappear in the last space you occupied, or if that space is occupied, the nearest unoccupied space.</p>",
+          "quantity": 1,
+          "combinedLabel": "Clothing",
+          "attunementLabel": "Requires Attunement"
+        },
+        {
+          "name": "Wooden Chicken Statue with Knife beak",
+          "section": "physical-items",
+          "description": "",
+          "quantity": 1,
+          "combinedLabel": "Art Object",
           "attunementLabel": ""
         }
       ],
@@ -868,8 +1306,8 @@
         {
           "name": "Skill Expert",
           "section": "feature-items",
-          "description": "<div><hr /><div>\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t<div class=\"rd__b  rd__b--3\"><p>You have honed your proficiency with particular skills, granting you the following benefits:</p><div class=\"rd__spc-inline-post\"></div><ul class=\"rd__list\"><li class=\"rd__li \">Increase one ability score of your choice by 1, to a maximum of 20.</li><li class=\"rd__li \">You gain proficiency in one @table[skills|phb|skill] of your choice.</li><li class=\"rd__li \">Choose one skill in which you have proficiency. You gain expertise with that skill, which means your proficiency bonus is doubled for any ability check you make with it. The skill you choose must be one that isn't already benefiting from a feature, such as Expertise, that doubles your proficiency bonus.</li></ul></div>\n\t\t\t</div></div>",
-          "requirements": "Wizard 8 (Feat)"
+          "description": "<p>You have honed your proficiency with particular skills, granting you the following benefits:</p><ul><li><p>Increase one ability score of your choice by 1, to a maximum of 20.</p></li><li><p>You gain proficiency in one skill of your choice.</p></li><li><p>Choose one skill in which you have proficiency. You gain expertise with that skill, which means your proficiency bonus is doubled for any ability check you make with it. The skill you choose must be one that isn't already benefiting from a feature, such as Expertise, that doubles your proficiency bonus.</p></li></ul>",
+          "requirements": "Feat"
         },
         {
           "name": "Sculpt Spells",
@@ -1221,7 +1659,7 @@
           "name": "Potion of Legendary Resistance",
           "section": "physical-items",
           "description": "<p><em>The way the potion shimmers is not unlike looking through a kaleidoscope.</em></p><p>When you drink this potion, you gain one Legendary Resistance for 8 hours. Spending it allows you to nullify the effect a single attack, spell, or ability would have on you.</p>",
-          "quantity": 2,
+          "quantity": 1,
           "combinedLabel": "Potion",
           "attunementLabel": ""
         },
@@ -1402,18 +1840,10 @@
           "spellSchool": "Evocation"
         },
         {
-          "name": "Potion of Greater Healing",
-          "section": "physical-items",
-          "description": "<div class=\"rd__b  rd__b--2\"><p><em>The potion's red liquid glimmers when agitated.</em></p><p>You regain 4d4 + 4 hit points when you drink this potion.</p></div>",
-          "quantity": 1,
-          "combinedLabel": "Potion",
-          "attunementLabel": ""
-        },
-        {
           "name": "Core Crystal",
           "section": "physical-items",
           "description": "<p>Encased in the core of every permanent construct, this crystal pulses with a rhythmic, crimson luminescence. Its jagged edges and vibrant glow give it an almost organic appearance, as if it were a living heart beating within a metallic shell.</p>",
-          "quantity": 5,
+          "quantity": 25,
           "combinedLabel": "Ingredient (bodyPart)",
           "attunementLabel": ""
         },
@@ -1987,7 +2417,7 @@
           "name": "Ironclad Heritage",
           "section": "feature-items",
           "description": "<div><p><em>Prerequisite: Dwarf (mountain)</em></p><div><div class=\"rd__b  rd__b--3\"><p>Among many of your kin, chainmail might pass as armor, but only heavy plates and a shield make one fully dressed. You gain the following benefit:</p><ul class=\"rd__list\"><li class=\"rd__li \">Increase your Strength score by 1, to a maximum of 20.</li><li class=\"rd__li \">You gain proficiency with heavy armor and shields.</li></ul></div></div></div>",
-          "requirements": "Wizard 12 (Feat)"
+          "requirements": "Feat"
         },
         {
           "name": "Sending",
@@ -2110,14 +2540,6 @@
           "attunementLabel": ""
         },
         {
-          "name": "Activated: Scorching Ray - 4th",
-          "section": "physical-items",
-          "description": "<div class=\"rd__b  rd__b--3\"><p>You create three rays of fire and hurl them at targets within range. You can hurl them at one target or several.</p><div class=\"rd__spc-inline-post\"></div><p>Make a ranged spell attack for each ray. On a hit, the target takes [[/r 2d6]] fire damage.</p></div><div class=\"rd__b  rd__b--3\"><div class=\"rd__b  rd__b--3\"><span class=\"rd__h rd__h--3\" data-title-index=\"1\"> <span class=\"entry-title-inner\">At Higher Levels.</span></span> <p>When you cast this spell using a spell slot of 3rd level or higher, you create one additional ray for each slot level above 2nd.</p><div class=\"rd__spc-inline-post\"></div></div><div class=\"rd__spc-inline-post\"></div></div>",
-          "quantity": 1,
-          "combinedLabel": "Spell Gem",
-          "attunementLabel": ""
-        },
-        {
           "name": "Potion of Time Stop",
           "section": "physical-items",
           "description": "<p><em>The liquid contained in this potion never seems to move.</em></p><p>When you drink this potion, gain the effects of the Time Stop spell for 1d4 + 1 turns.</p><p><strong>Time Stop</strong></p><p>You briefly stop the flow of time for everyone but yourself. No time passes for other creatures, while you take 1d4 + 1 turns in a row, during which you can use actions and move as normal.</p><p>This spell ends if one of the actions you use during this period, or any effects that you create during this period, affects a creature other than you or an object being worn or carried by someone other than you. In addition, the spell ends if you move to a place more than 1,000 feet from the location where you cast it.</p>",
@@ -2169,7 +2591,7 @@
           "name": "Activated: Sending - 3rd",
           "section": "physical-items",
           "description": "<div class=\"rd__b  rd__b--3\"><p>You send a short message of twenty-five words or less to a creature with which you are familiar. The creature hears the message in its mind, recognizes you as the sender if it knows you, and can answer in a like manner immediately. The spell enables creatures with Intelligence scores of at least 1 to understand the meaning of your message.</p><p>You can send the message across any distance and even to other planes of existence, but if the target is on a different plane than you, there is a [[/r 1d20]]{5 percent} chance that the message doesn't arrive.</p></div>",
-          "quantity": 6,
+          "quantity": 4,
           "combinedLabel": "Spell Gem",
           "attunementLabel": ""
         },
@@ -2308,14 +2730,6 @@
           "spellLevel": "6th Level",
           "spellRange": "150 ft",
           "spellSchool": "Evocation"
-        },
-        {
-          "name": "Potion of Growth",
-          "section": "physical-items",
-          "description": "<div class=\"rd__b  rd__b--2\"><p><em>The red in the potion's liquid continuously expands from a tiny bead to color the clear liquid around it and then contracts. Shaking the bottle fails to interrupt this process.</em></p><p>When you drink this potion, you gain the \"enlarge\" effect of the enlarge/reduce spell for 1d4 hours (no concentration required):</p></div><p>While enlarged, your size is increased by one category and your weight is multiplied by eight.<br />You have advantage on Strength checks and saving throws and your attacks with weapons deal an additional 1d4 damage.</p>",
-          "quantity": 2,
-          "combinedLabel": "Potion",
-          "attunementLabel": ""
         },
         {
           "name": "Black Nerium",
@@ -2668,14 +3082,6 @@
           "spellSchool": "Conjuration"
         },
         {
-          "name": "Spell Scroll: Arcane Gate",
-          "section": "physical-items",
-          "description": "<div class=\"rd__b  rd__b--3\"><p>You create linked teleportation portals that remain open for the duration. Choose two points on the ground that you can see, one point within 10 feet of you and one point within 500 feet of you. A circular portal, 10 feet in diameter, opens over each point. If the portal would open in the space occupied by a creature, the spell fails, and the casting is lost.</p><div class=\"rd__spc-inline-post\"></div><p>The portals are two-dimensional glowing rings filled with mist, hovering inches from the ground and perpendicular to it at the points you choose. A ring is visible only from one side (your choice), which is the side that functions as a portal.</p><p>Any creature or object entering the portal exits from the other portal as if the two were adjacent to each other; passing through a portal from the nonportal side has no effect. The mist that fills each portal is opaque and blocks vision through it. On your turn, you can rotate the rings as a bonus action so that the active side faces in a different direction.</p></div>",
-          "quantity": 1,
-          "combinedLabel": "Scroll",
-          "attunementLabel": ""
-        },
-        {
           "name": "Disintegrate",
           "section": "spell-items",
           "description": "<div class=\"rd__b  rd__b--3\"><p>A thin green ray springs from your pointing finger to a target that you can see within range. The target can be a creature, an object, or a creation of magical force, such as the wall created by Wall of Force.</p><p>A creature targeted by this spell must make a Dexterity saving throw. On a failed save, the target takes [[/damage 10d6 + 40 type=force]] damage. The target is disintegrated if this damage leaves it with 0 hit points.</p><p>A disintegrated creature and everything it is wearing and carrying, except magic items, are reduced to a pile of fine gray dust. The creature can be restored to life only by means of a True Resurrection<span class=\"bold\" data-plut-hover=\"true\" data-plut-hover-page=\"spells.html\" data-plut-hover-source=\"PHB\" data-plut-hover-hash=\"true%20resurrection_phb\"> </span>or a Wish<span class=\"bold\" data-plut-hover=\"true\" data-plut-hover-page=\"spells.html\" data-plut-hover-source=\"PHB\" data-plut-hover-hash=\"wish_phb\"> </span>spell.</p><p>This spell automatically disintegrates a Large or smaller nonmagical object or a creation of magical force. If the target is a Huge or larger object or creation of force, this spell disintegrates a 10-foot-cube portion of it. A magic item is unaffected by this spell.</p></div><div class=\"rd__b  rd__b--3\"><div data-roll-name-ancestor=\"At Higher Levels\" class=\"rd__b  rd__b--3\"><p><span class=\"entry-title-inner\"><strong>At Higher Levels</strong></span></p><p>When you cast this spell using a spell slot of 7th level or higher, the damage increases by [[/damage 3d6]] for each slot level above 6th.</p></div></div>",
@@ -3020,14 +3426,6 @@
           "attunementLabel": ""
         },
         {
-          "name": "Activated: Counterspell - 3rd",
-          "section": "physical-items",
-          "description": "<div class=\"rd__b  rd__b--3\"><p>You attempt to interrupt a creature in the process of casting a spell. If the creature is casting a spell of 3rd level or lower, its spell fails and has no effect. If it is casting a spell of 4th level or higher, make an ability check using your spellcasting ability. The DC equals 10 + the spell's level. On a success, the creature's spell fails and has no effect.</p><div class=\"rd__spc-inline-post\"></div></div><div class=\"rd__b  rd__b--3\"><div class=\"rd__b  rd__b--3\"><span class=\"rd__h rd__h--3\" data-title-index=\"1\"> <span class=\"entry-title-inner\">At Higher Levels.</span></span> <p>When you cast this spell using a spell slot of 4th level or higher, the interrupted spell has no effect if its level is less than or equal to the level of the spell slot you used.</p><div class=\"rd__spc-inline-post\"></div></div><div class=\"rd__spc-inline-post\"></div></div>",
-          "quantity": 1,
-          "combinedLabel": "Spell Gem",
-          "attunementLabel": ""
-        },
-        {
           "name": "Potion of Speed",
           "section": "physical-items",
           "description": "<div class=\"rd__b  rd__b--2\"><p>When you drink this potion, you gain the effect of the Haste spell for 1 minute (no concentration required). The potion's yellow fluid is streaked with black and swirls on its own.</p></div>",
@@ -3039,7 +3437,7 @@
           "name": "Potion of Healing",
           "section": "physical-items",
           "description": "<p><em>The potion's red liquid glimmers when agitated.</em></p><p>You regain 2d4+2 hit points when you drink this potion.</p>",
-          "quantity": 6,
+          "quantity": 4,
           "combinedLabel": "Potion",
           "attunementLabel": ""
         },
@@ -3153,14 +3551,6 @@
           "description": "<p>Found on coastal rocks exposed to continuous sea mist. Characterized by fleshy, silver-tinted leaves with curled edges. Clusters of small, star-shaped flowers bloom in shades ranging from light purple to deep violet.</p>",
           "quantity": 1,
           "combinedLabel": "Ingredient (herb)",
-          "attunementLabel": ""
-        },
-        {
-          "name": "Potion of Heroism",
-          "section": "physical-items",
-          "description": "<p><em>This blue potion bubbles and steams as if boiling.</em></p><p>When you drink this potion you gain 10 temporary hit points. Additionally you are under the effect of the Bless spell for 1 hour (no concentration required).</p>",
-          "quantity": 2,
-          "combinedLabel": "Potion",
           "attunementLabel": ""
         }
       ],
@@ -3295,7 +3685,7 @@
           "name": "Healer",
           "section": "feature-items",
           "description": "<div><p>You are an able physician, allowing you to mend wounds quickly and get your allies back in the fight. You gain the following benefits:</p><ul><li><p>Your Wisdom score is increased by 1.</p></li><li class=\"rd__li \">When you use a  to stabilize a dying creature, that creature also regains 1 hit point.</li><li class=\"rd__li \">As an action, you can spend one use of a healer's kit to tend to a creature and restore [[/r 1d6 + 4]] hit points to it, plus additional hit points equal to the creature's maximum number of Hit Dice. The creature can't regain hit points from this feat again until it finishes a short or long rest.</li></ul></div>",
-          "requirements": "Sorcerer 4 (Feat)"
+          "requirements": "Feat"
         },
         {
           "name": "Traveler's Clothes",
@@ -3455,14 +3845,6 @@
           "description": "<p>Whetstone is a sharpening stone. It is used to sharpen the edges of steel tools and implements through grinding and honing.</p>",
           "quantity": 1,
           "combinedLabel": "Loot",
-          "attunementLabel": ""
-        },
-        {
-          "name": "Spellward",
-          "section": "physical-items",
-          "description": "<p>A set of two identical silvery bracelets widely used by the people of Ildilas to ward themselves against their own powerful magic.</p><p>Naami's bracelets were made by her father, and she treasures them. One of the bracelets seems to have a darker spot…?</p>",
-          "quantity": 1,
-          "combinedLabel": "Trinket",
           "attunementLabel": ""
         },
         {
@@ -3810,28 +4192,28 @@
           "spellSchool": "Evocation"
         },
         {
-          "name": "Activated: Nondetection - 3rd",
-          "section": "physical-items",
-          "description": "<table>\n        <tbody>\n            <tr>\n                <td>\n                    <p style=\"text-align:center;font-weight:bold\">3rd Level</p>\n                </td>\n            </tr>\n            \n        </tbody>\n    </table><p>For the Duration, you hide a target that you touch from Divination magic. The target can be a willing creature or a place or an object no larger than 10 feet in any dimension. The target can't be targeted by any divination magic or perceived through magical Scrying sensors.</p>",
-          "quantity": 1,
-          "combinedLabel": "Spell Gem",
-          "attunementLabel": ""
-        },
-        {
-          "name": "Potion of Heroism",
-          "section": "physical-items",
-          "description": "<p><em>This blue potion bubbles and steams as if boiling.</em></p><p>When you drink this potion you gain 10 temporary hit points. Additionally you are under the effect of the Bless spell for 1 hour (no concentration required).</p>",
-          "quantity": 1,
-          "combinedLabel": "Potion",
-          "attunementLabel": ""
-        },
-        {
           "name": "Cure Wounds",
           "section": "spell-items",
           "description": "<div class=\"rd__b  rd__b--3\"><p>A creature you touch regains a number of hit points equal to [[/r 1d8]] + your spellcasting ability modifier. This spell has no effect on undead or constructs.</p></div><div class=\"rd__b  rd__b--3\"><div data-roll-name-ancestor=\"At Higher Levels\" class=\"rd__b  rd__b--3\"><p><span class=\"entry-title-inner\">At Higher Levels.</span></p><p>When you cast this spell using a spell slot of 2nd level or higher, the healing increases by [[/r 1d8]] for each slot level above 1st.</p></div></div>",
           "spellLevel": "1st Level",
           "spellRange": "Touch",
           "spellSchool": "Evocation"
+        },
+        {
+          "name": "Black Sapphire",
+          "section": "physical-items",
+          "description": "<p>Mainly called Star Sapphire, when cut into shape, the reflection of the gem forms into a distinct, six-rayed star. Its magical proprieties have been almost forgotten these days, but it is assumed that its magic involves the passage of time and the ability to control it.</p>",
+          "quantity": 1,
+          "combinedLabel": "Gemstone",
+          "attunementLabel": ""
+        },
+        {
+          "name": "Spellward",
+          "section": "physical-items",
+          "description": "<p>A set of two identical silvery bracelets widely used by the people of Ildilas to ward themselves against their own powerful magic.</p><p>Naami's bracelets were made by her father, and she treasures them. One of the bracelets seems to have a darker spot…?</p>",
+          "quantity": 1,
+          "combinedLabel": "Trinket",
+          "attunementLabel": ""
         }
       ],
       "Plex": [
@@ -3912,8 +4294,8 @@
         {
           "name": "Telekinetic",
           "section": "feature-items",
-          "description": "<div><hr /><div><div class=\"rd__b  rd__b--3\"><p>You learn to move things with your mind, granting you the following benefits:</p><div class=\"rd__spc-inline-post\"><p></p></div><ul class=\"rd__list\"><li class=\"rd__li \">Increase your Intelligence, Wisdom, or Charisma by 1, to a maximum of 20.</li><li class=\"rd__li \">You learn the <a class=\"jlnk__entity-link\" draggable=\"true\" data-plut-hover-page=\"spells.html\" data-plut-hover-source=\"PHB\" data-plut-hover-hash=\"mage%20hand_phb\" data-plut-hover-tag=\"spell\" data-plut-hover-hash-pre-encoded=\"true\" data-plut-rich-link=\"true\" data-plut-rich-link-entity-type=\"Item\" data-plut-rich-link-original-text=\"spell[mage hand]\">mage hand</a> cantrip. You can cast it without verbal or somatic components, and you can make the spectral hand <span class=\"reference-link\"><a class=\"content-link\" data-uuid=\"Compendium.dnd5e.rules.JournalEntry.w7eitkpD7QQTB6j0.JournalEntryPage.3UU5GCTVeRDbZy9u\" data-id=\"3UU5GCTVeRDbZy9u\" data-type=\"JournalEntryPage\" data-pack=\"dnd5e.rules\" data-tooltip=\"Rule Page\">Invisible</a></span>. If you already know this spell, its range increases by 30 feet when you cast it. Its spellcasting ability is the ability increased by this feat.</li><li class=\"rd__li \">As a bonus action, you can try to telekinetically shove one creature you can see within 30 feet of you. When you do so, the target must succeed on a Strength saving throw (DC 8 + your proficiency bonus + the ability modifier of the score increased by this feat) or be moved 5 feet toward you or away from you. A creature can willingly fail this save.</li></ul></div></div></div>",
-          "requirements": "Feat (Wizard 4)"
+          "description": "<p>You learn to move things with your mind, granting you the following benefits:</p><ul><li><p>Increase your Intelligence, Wisdom, or Charisma by 1, to a maximum of 20.</p></li><li><p>You learn the mage hand cantrip. You can cast it without verbal or somatic components, and you can make the spectral hand Invisible. If you already know this spell, its range increases by 30 feet when you cast it. Its spellcasting ability is the ability increased by this feat.</p></li><li><p>As a bonus action, you can try to telekinetically shove one creature you can see within 30 feet of you. When you do so, the target must succeed on a Strength saving throw (DC 8 + your proficiency bonus + the ability modifier of the score increased by this feat) or be moved 5 feet toward you or away from you. A creature can willingly fail this save.</p></li></ul>",
+          "requirements": "Feat"
         },
         {
           "name": "Crushing Impact",
@@ -4056,8 +4438,8 @@
         {
           "name": "Gift of the Gem Dragon",
           "section": "feature-items",
-          "description": "<div><hr /><div>\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t<div class=\"rd__b  rd__b--3\"><p>You've manifested some of the power of gem dragons, granting you the following benefits:</p><div class=\"rd__spc-inline-post\"></div><ul class=\"rd__list rd__list-hang-notitle\"><li class=\"rd__li \"><p class=\"rd__p-list-item\"><span class=\"bold rd__list-item-name\">Ability Score Increase.</span> Increase your Intelligence, Wisdom, or Charisma by 1, to a maximum of 20.</p></li><li class=\"rd__li \"><p class=\"rd__p-list-item\"><span class=\"bold rd__list-item-name\">Telekinetic Reprisal.</span> When you take damage from a creature that is within 10 feet of you, you can use your reaction to emanate telekinetic energy. The creature that dealt damage to you must make a Strength saving throw (DC equals 8 + your proficiency bonus + the ability modifier of the score increased by this feat). On a failed save, the creature takes <a class=\"inline-roll roll\" data-mode=\"roll\" data-flavor data-formula=\"2d8\"><i class=\"fas fa-dice-d20\"></i>2d8</a> force damage and is pushed up to 10 feet away from you. On a successful save, the creature takes half as much damage and isn't pushed. You can use this reaction a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest.</p></li></ul></div>\n\t\t\t</div></div>",
-          "requirements": "Wizard 8 (Feat)"
+          "description": "<p>You've manifested some of the power of gem dragons, granting you the following benefits:</p><ul><li><p>Ability Score Increase. Increase your Intelligence, Wisdom, or Charisma by 1, to a maximum of 20.</p></li><li><p>Telekinetic Reprisal. When you take damage from a creature that is within 10 feet of you, you can use your reaction to emanate telekinetic energy. The creature that dealt damage to you must make a Strength saving throw (DC equals 8 + your proficiency bonus + the ability modifier of the score increased by this feat). On a failed save, the creature takes [[/damage 2d8 force]] damage and is pushed up to 10 feet away from you. On a successful save, the creature takes half as much damage and isn't pushed. You can use this reaction a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest.</p></li></ul>",
+          "requirements": "Feat"
         },
         {
           "name": "Shaman's Hat",
@@ -4614,14 +4996,6 @@
           "requirements": ""
         },
         {
-          "name": "Mage Wine",
-          "section": "physical-items",
-          "description": "<div class=\"rd__b  rd__b--2\"><p>If you are capable of casting spells from the wizard's spell list, then when you drink this rich red potion, you will instantly regain one spell slot that you cast earlier in the day. Roll a [[/r 1d4]] to determine the slot level. If you haven't used any slots of that level, you regain the lowest level slot you have used.</p></div>",
-          "quantity": 2,
-          "combinedLabel": "Potion",
-          "attunementLabel": ""
-        },
-        {
           "name": "Spell Scroll: Globe of Invulnerability",
           "section": "physical-items",
           "description": "<div class=\"rd__b  rd__b--3\"><p>An immobile, faintly shimmering barrier springs into existence in a 10-foot radius around you and remains for the duration.</p><div class=\"rd__spc-inline-post\"></div><p>Any spell of 5th level or lower cast from outside the barrier can't affect creatures or objects within it, even if the spell is cast using a higher level spell slot. Such a spell can target creatures and objects within the barrier, but the spell has no effect on them. Similarly, the area within the barrier is excluded from the areas affected by such spells.</p></div><div class=\"rd__b  rd__b--3\"><div data-roll-name-ancestor=\"At Higher Levels\" class=\"rd__b  rd__b--3\"><span class=\"rd__h rd__h--3\" data-title-index=\"1\"> <span class=\"entry-title-inner\">At Higher Levels.</span></span> <p>When you cast this spell using a spell slot of 7th level or higher, the barrier blocks spells of one level higher for each slot level above 6th.</p><div class=\"rd__spc-inline-post\"></div></div><div class=\"rd__spc-inline-post\"></div></div>",
@@ -4672,7 +5046,7 @@
         {
           "name": "Convincing Arguments",
           "section": "feature-items",
-          "description": "<p>When you or a creature you can see within 300 feet becomes affected by one or more conditions, you can use your reaction and expend 1 Mythic Power to attempt to convince the affected creature that the conditions are merely figments of its imagination.</p><p>Choose one condition affecting the target and make a [[/skill dec]] check against the target’s passive Wisdom (Insight). On a success, the chosen condition ends. You may repeat this process for each additional condition affecting the target.</p><p>If any of these Charisma (Deception) checks results in a natural 20, you can end any number of conditions currently affecting the target, regardless of the other results.</p>",
+          "description": "<p>When you or a creature you can see within 300 feet becomes affected by one or more conditions, you can use your reaction and expend 1 Mythic Power to attempt to convince the affected creature that the conditions are merely figments of its imagination.</p><p>Choose one condition affecting the target and make a [[/skill dec]] check against the target’s passive Wisdom (Insight). On a success, the chosen condition ends. You can repeat this process for each additional condition of your choice that is affecting the target.</p><p>If any of these Charisma (Deception) checks result in a natural 20, you can choose any conditions currently affecting the target and end them, regardless of the other results.</p>",
           "requirements": "Mythic Trickster 2"
         },
         {
@@ -4871,7 +5245,7 @@
           "name": "Potion of Heroism",
           "section": "physical-items",
           "description": "<p><em>This blue potion bubbles and steams as if boiling.</em></p><p>When you drink this potion you gain 10 temporary hit points. Additionally you are under the effect of the Bless spell for 1 hour (no concentration required).</p>",
-          "quantity": 2,
+          "quantity": 1,
           "combinedLabel": "Potion",
           "attunementLabel": ""
         },
@@ -5015,8 +5389,40 @@
           "name": "Potion of Heroism",
           "section": "physical-items",
           "description": "<p><em>This blue potion bubbles and steams as if boiling.</em></p><p>When you drink this potion you gain 10 temporary hit points. Additionally you are under the effect of the Bless spell for 1 hour (no concentration required).</p>",
-          "quantity": 1,
+          "quantity": 2,
           "combinedLabel": "Potion",
+          "attunementLabel": ""
+        },
+        {
+          "name": "Tether Essence",
+          "section": "spell-items",
+          "description": "<div class=\"rd__b  rd__b--3\"><p>Two creatures you can see within range must make a Constitution saving throw, with disadvantage if they are within 30 feet of each other. Either creature can willingly fail the save. If either save succeeds, the spell has no effect. If both saves fail, the creatures are magically linked for the duration, regardless of the distance between them. When damage is dealt to one of them, the same damage is dealt to the other one. If hit points are restored to one of them, the same number of hit points are restored to the other one. If either of the tethered creatures is reduced to 0 hit points, the spell ends on both. If the spell ends on one creature, it ends on both.</p></div>",
+          "spellLevel": "7th Level",
+          "spellRange": "60 ft",
+          "spellSchool": "Necromancy"
+        },
+        {
+          "name": "Reverse Gravity",
+          "section": "spell-items",
+          "description": "<div class=\"rd__b  rd__b--3\"><p>This spell reverses gravity in a 50-foot-radius, 100-foot-high cylinder centered on a point within range. All creatures and objects that aren't somehow anchored to the ground in the area fall upward and reach the top of the area when you cast this spell. A creature can make a Dexterity saving throw to grab onto a fixed object it can reach, thus avoiding the fall.</p><p>If some solid object (such as a ceiling) is encountered in this fall, falling objects and creatures strike it just as they would during a normal downward fall. If an object or creature reaches the top of the area without striking anything, it remains there, oscillating slightly, for the duration.</p><p>At the end of the duration, affected objects and creatures fall back down.</p></div>",
+          "spellLevel": "7th Level",
+          "spellRange": "100 ft",
+          "spellSchool": "Transmutation"
+        },
+        {
+          "name": "Mage Wine",
+          "section": "physical-items",
+          "description": "<div class=\"rd__b  rd__b--2\"><p>If you can cast spells from the wizard spell list, you can drink this rich red potion to regain an expended spell slot. Roll a [[/r d4]] to determine the slot's level. If you have no expended spell slots of the rolled level, you instead regain your lowest-level expended spell slot of 4th level or lower.</p></div>",
+          "quantity": 2,
+          "combinedLabel": "Potion",
+          "attunementLabel": ""
+        },
+        {
+          "name": "Slice of tent",
+          "section": "physical-items",
+          "description": "<p>A sliced bit of a tent roughly the sise of a bedsheet</p>",
+          "quantity": 3,
+          "combinedLabel": "Junk",
           "attunementLabel": ""
         }
       ],
@@ -5117,7 +5523,7 @@
           "name": "Poisoner",
           "section": "feature-items",
           "description": "<p>When you make a damage roll that deals poison damage, it ignores resistance to poison damage. If you would otherwise treat immunity to poison damage as resistance, you now ignore immunity to poison damage as well.</p>",
-          "requirements": "Monk 8 (Feat)"
+          "requirements": "Feat"
         },
         {
           "name": "Traveler's Clothes",
@@ -5416,18 +5822,10 @@
           "attunementLabel": ""
         },
         {
-          "name": "Dried Meat",
-          "section": "physical-items",
-          "description": "<p>The process of drying meat is long and extensive. In some particular cases, for the highest quality of dried meat, it can take over a year. It is highly sought after due to its extended shelf life, and depending on the meat used, it is, quite frankly, delicious.</p>",
-          "quantity": 4,
-          "combinedLabel": "Food (meal)",
-          "attunementLabel": ""
-        },
-        {
           "name": "Gift of the Metallic Dragon",
           "section": "feature-items",
           "description": "<div><p>You've manifested some of the power of metallic dragons, granting you the following benefits:</p><div><div class=\"rd__b  rd__b--3\"><ul class=\"rd__list rd__list-hang-notitle\"><li class=\"rd__li \"><p class=\"rd__p-list-item\" data-roll-name-ancestor=\"Ability Score Increase.\"><span class=\"bold rd__list-item-name\">Ability Score Increase.</span> Increase your Intelligence, Wisdom, or Charisma by 1, to a maximum of 20. (WIS)</p></li><li class=\"rd__li \"><p class=\"rd__p-list-item\" data-roll-name-ancestor=\"Ability Score Increase.\"><span class=\"bold rd__list-item-name\">Draconic Healing.</span> You can cast the <strong>Cure Wounds</strong> spell at 2nd level without expending a spell slot. Once you cast this spell in this way, you can't do so again until you finish a long rest. The spell's spellcasting ability is the ability increased by this feat.</p></li><li class=\"rd__li \"><p class=\"rd__p-list-item\" data-roll-name-ancestor=\"Ability Score Increase.\"><span class=\"bold rd__list-item-name\">Protective Wings.</span> You can manifest protective wings that can shield you or others. When you or another creature you can see within 5 feet of you is hit by an attack roll, you can use your reaction to manifest spectral wings from your back for a moment. You grant a bonus to the target's AC equal to your proficiency bonus ([[lookup @prof]]) against that attack roll, potentially causing it to miss. You can use this reaction a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest.</p></li></ul></div></div></div>",
-          "requirements": "Monk 12 (Feat)"
+          "requirements": "Feat"
         },
         {
           "name": "Ioun Stone, Language Knowledge",
@@ -5505,7 +5903,7 @@
           "name": "Chef",
           "section": "feature-items",
           "description": "<div><p>Time spent mastering the culinary arts has paid off, increasing your Dexterity score by 1, to a maximum of 20, and granting you proficiency with cook's utensils if you didn't already have it.</p></div><p>If you have ingredients and cook's utensils on hand, you can prepare up to 10 meals during one hour of dedicated work or as part of a short or long rest. Each meal requires one food and, optionally, one spice.</p><p>When preparing a meal, you can choose to enhance either its restorative or preventative properties, granting it one of the following benefits:</p><ul><li><p><strong>Restorative</strong>. The creature regains a number of hit points equal to 1d8 * your proficiency bonus.</p></li><li><p><strong>Preventative</strong>. The creature gains a number of temporary hit points equal to 2d4 * your proficiency bonus.</p></li></ul><p>Meals retain these enhanced properties only while fresh, meaning they must be consumed within 30 minutes of preparation. A creature that consumes a fresh meal gains the selected benefit as well as the effect of any spice used to flavor the meal.</p><p>A creature can benefit from only one enhanced meal per rest period.</p>",
-          "requirements": "Monk 4 (Feat)"
+          "requirements": "Feat"
         },
         {
           "name": "Potion of Growth",
@@ -5675,7 +6073,7 @@
           "name": "Purple Worm Poison",
           "section": "physical-items",
           "description": "<div class=\"rd__b  rd__b--2\"><p>The name of this poison has been made up by alchemists to make it seem like it's more difficult to obtain than it really is.</p><p>A creature subjected to this poison must make a [[/save con 19 format=long]], taking [[/damage 12d6 poison]] damage on a failed save, or half as much damage on a successful one.</p></div>",
-          "quantity": 5,
+          "quantity": 4,
           "combinedLabel": "Injury (injury)",
           "attunementLabel": ""
         },
@@ -5756,14 +6154,6 @@
           "spellLevel": "2nd Level",
           "spellRange": "Touch",
           "spellSchool": "Evocation"
-        },
-        {
-          "name": "Potion of Heroism",
-          "section": "physical-items",
-          "description": "<p><em>This blue potion bubbles and steams as if boiling.</em></p><p>When you drink this potion you gain 10 temporary hit points. Additionally you are under the effect of the Bless spell for 1 hour (no concentration required).</p>",
-          "quantity": 1,
-          "combinedLabel": "Potion",
-          "attunementLabel": ""
         }
       ]
     },
@@ -5791,7 +6181,7 @@
           ],
           "isTemporary": true,
           "name": "Heroic Deed",
-          "remainingDays": 27,
+          "remainingDays": 26,
           "section": "effect-items"
         }
       ],
@@ -6528,5 +6918,5 @@
         }
       ]
     },
-    "ingameDate": "Nonus 25, 1497"
+    "ingameDate": "Nonus 26, 1497"
   }

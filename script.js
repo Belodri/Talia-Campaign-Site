@@ -3,7 +3,7 @@
                 Global            
 ----------------------------------------------------------------------------*/
 
-const debug = false;
+let debug = false;
 const playerData = {};
 const settlementData = {};
 
@@ -16,31 +16,25 @@ const settlementData = {};
 document.addEventListener('DOMContentLoaded', onPageLoad);
 
 async function onPageLoad() {
-    await initPageData();
-    adjustLastUpdateDisplay();
-}
-
-async function initPageData() {
-    let rawData;
+    let data;
     try {
         const response = await fetch("importData.json");
-
-        if (!response.ok) {
-            throw new Error('Unable to fetch importData.json');
-        }
-        rawData = await response.json();
-
-        log("Data loaded", rawData );
+        data = await response.json();
     } catch (error) {
         console.error("Error loading and processing data:", error);
+        return;
     }
 
-    initPlayerData(rawData.playerData);
-    initSettlementData(rawData.settlementData);
-    adjustIngameDateDisplay(rawData.ingameDate);
-    setEffectCount(rawData.settlementData.effects);
-    populateNavBar();
-    log("Formatted Data", { playerData, settlementData });
+    log("Data loaded", data );
+    
+    initPlayerData(data.playerData);
+    initSettlementData(data.settlementData);
+    log("Data initialized", { playerData, settlementData });
+
+    adjustLastUpdateDisplay();
+    adjustIngameDateDisplay(data.ingameDate);
+    populateCharselect();
+    activateEventListeners();
 }
 
 function adjustLastUpdateDisplay() {
@@ -68,30 +62,61 @@ function adjustIngameDateDisplay(ingameDate) {
     ele.textContent = `${ingameDate}`;
 }
 
-function populateNavBar() {
-    const rickRollLink = "https://www.youtube.com/watch?v=dQw4w9WgXcQ";
-    const navBar = document.getElementById("navbar");
-    let lastButton = null;
+function populateCharselect() {
+    const charSelectList = document.getElementById("charselect-dropdown");
 
-    const createNavButton = (label, onClickFn) => {
+    Object.keys(playerData).forEach(name => {
         const button = document.createElement("button");
-        button.textContent = label;
-        button.onclick = (event) => {
-            if (lastButton) lastButton.classList.remove("selected");
-            lastButton = event.target;
-            lastButton.classList.add("selected");
-            onClickFn();
-        };
-        navBar.appendChild(button);
-    }
+        button.textContent = name;
+        button.dataset.action = "showPlayer";
+        button.classList.add("menu-button");
 
-    Object.keys(playerData).forEach(name => 
-        createNavButton(name, () => showPlayer(name))
-    );
-    createNavButton("Settlement Overview", showSettlement);
-    createNavButton("Government Secrets", () => window.location.href=rickRollLink);
+        const listItem = document.createElement("li");
+        listItem.appendChild(button);
+        charSelectList.appendChild(listItem);
+    });
 }
 
+//#endregion
+
+//#region Event Handling
+
+function activateEventListeners() {
+    document.querySelectorAll(".menu-button").forEach(btn => {
+        btn.addEventListener("click", _onMenuButtonClick);
+    });
+
+    document.querySelectorAll(".section-header").forEach(ele => {
+        ele.addEventListener("click", _onSectionHeaderClick);
+    });
+
+    document.querySelectorAll(".dropdown-menu").forEach(ele => {
+        ele.addEventListener("click", (event) => {
+            if(event.target.tagName === "BUTTON") {
+                event.target.blur();
+            }
+        });
+    });
+}
+
+function _onSectionHeaderClick(event) {
+    const toggleId = event.target.dataset.toggleId;
+    toggleHidden(toggleId);
+}
+
+function _onMenuButtonClick(event) {
+    switch(event.target.dataset.action) {
+        case "clear": 
+            clearDisplays();
+            break;
+        case "showPlayer":
+            showPlayer(event);
+            break;
+        case "showSettlement":
+            showSettlement();
+            break;
+    }
+}
 
 //#endregion
 
@@ -110,10 +135,19 @@ function log(...args) {
                 Page Interaction            
 ----------------------------------------------------------------------------*/
 
-function showPlayer(playerName) {
+function clearDisplays() {
+    toggleHidden("characterDisplay", true);
+    toggleHidden("settlementDisplay", true);
+}
+
+function showPlayer(event) {
+    const playerName = event.target.textContent;
+
     for(let [sectionId, itemArray] of Object.entries(playerData[playerName])) {
         populateSection(sectionId, itemArray);
     }
+
+    document.getElementById("char-name-title").textContent = playerName;
 
     toggleHidden("characterDisplay", false);
     toggleHidden("settlementDisplay", true);
@@ -529,12 +563,14 @@ function displayAttributes() {
         const attrDiv = document.createElement("div");
         attrDiv.classList.add("attribute-container");
 
-        const attrHeader = document.createElement("h2");
+        const attrHeader = document.createElement("span");
         attrHeader.textContent = value;
+        attrHeader.classList.add("attr-header")
         attrDiv.appendChild(attrHeader);
 
         const attrSpan = document.createElement("span");
         attrSpan.textContent = key;
+        attrSpan.classList.add("attr-label");
         attrDiv.appendChild(attrSpan);
 
         targetElement.appendChild(attrDiv);
