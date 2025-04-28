@@ -90,16 +90,7 @@ function activateEventListeners() {
         ele.addEventListener("click", _onSectionHeaderClick);
     });
 
-    document.querySelectorAll(".dropdown-menu").forEach(ele => {
-        ["click", "touchend"].forEach(evt => {
-            ele.addEventListener(evt, (event) => {
-                if(event.target.tagName === "BUTTON") {
-                    if (event.type === "touchend") event.preventDefault(); 
-                    event.target.blur();
-                }
-            });
-        });
-    });
+    document.addEventListener("click", _onDocumentClick);
 }
 
 function _onSectionHeaderClick(event) {
@@ -108,16 +99,18 @@ function _onSectionHeaderClick(event) {
 }
 
 function _onMenuButtonClick(event) {
-    switch(event.target.dataset.action) {
-        case "clear": 
-            clearDisplays();
-            break;
-        case "showPlayer":
-            showPlayer(event);
-            break;
-        case "showSettlement":
-            showSettlement();
-            break;
+    event.preventDefault();
+    const action = event.target.dataset?.action;
+    if(!action) return;
+
+    event.target.blur();
+    return action === "showPlayer" ? showPlayer(event) : showSettlement();
+}
+
+function _onDocumentClick(event) {
+    const openDropdown = document.activeElement?.closest(".dropdown-hover");
+    if (openDropdown && !event.target.closest(".dropdown-hover")) {
+        openDropdown.blur();
     }
 }
 
@@ -137,11 +130,6 @@ function log(...args) {
 /*----------------------------------------------------------------------------
                 Page Interaction            
 ----------------------------------------------------------------------------*/
-
-function clearDisplays() {
-    toggleHidden("characterDisplay", true);
-    toggleHidden("settlementDisplay", true);
-}
 
 function showPlayer(event) {
     const playerName = event.target.textContent;
