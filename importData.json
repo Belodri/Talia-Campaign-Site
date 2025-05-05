@@ -1697,7 +1697,7 @@
           "name": "Potion of Water Breathing",
           "section": "physical-items",
           "description": "<p><em>Its cloudy green fluid smells of the sea and has a jellyfish-like bubble floating in it.</em></p>\n<p>You can breathe underwater for 1 hour after drinking this potion. </p>\n<p> </p>",
-          "quantity": 6,
+          "quantity": 2,
           "combinedLabel": "Potion",
           "attunementLabel": ""
         },
@@ -3551,6 +3551,14 @@
           "description": "<p>Found on coastal rocks exposed to continuous sea mist. Characterized by fleshy, silver-tinted leaves with curled edges. Clusters of small, star-shaped flowers bloom in shades ranging from light purple to deep violet.</p>",
           "quantity": 1,
           "combinedLabel": "Ingredient (herb)",
+          "attunementLabel": ""
+        },
+        {
+          "name": "Null-Steel Chain (10 feet)",
+          "section": "physical-items",
+          "description": "<p>A chain of heavy, blackened steel which has 10 hit points. It can be burst with a successful DC 20 Strength check. A creature restrained by these chains cannot cast spells of 5th level or lower.</p>",
+          "quantity": 1,
+          "combinedLabel": "Trinket",
           "attunementLabel": ""
         }
       ],
@@ -5594,14 +5602,6 @@
           "attunementLabel": "Requires Attunement"
         },
         {
-          "name": "Potion of Water Breathing",
-          "section": "physical-items",
-          "description": "<p><em>Its cloudy green fluid smells of the sea and has a jellyfish-like bubble floating in it.</em></p>\n<p>You can breathe underwater for 1 hour after drinking this potion. </p>\n<p> </p>",
-          "quantity": 1,
-          "combinedLabel": "Potion",
-          "attunementLabel": ""
-        },
-        {
           "name": "Continual Flame Gem",
           "section": "physical-items",
           "description": "<p>The gem gives the look of a torch that burns providing bright light in a 20-foot radius and dim light for an additional 20 feet.</p>",
@@ -5917,7 +5917,7 @@
           "name": "Dried Meat",
           "section": "physical-items",
           "description": "<p>The process of drying meat is long and extensive. In some particular cases, for the highest quality of dried meat, it can take over a year. It is highly sought after due to its extended shelf life, and depending on the meat used, it is, quite frankly, delicious.</p>",
-          "quantity": 32,
+          "quantity": 28,
           "combinedLabel": "Food (meal)",
           "attunementLabel": ""
         },
@@ -6009,7 +6009,7 @@
           "name": "Ginger",
           "section": "physical-items",
           "description": "<p>Ginger, is widely used as a spice and folk medicine. It is provided as tea for those who have weak stomachs to combat nausea, among other things.</p>",
-          "quantity": 7,
+          "quantity": 6,
           "combinedLabel": "Spice",
           "attunementLabel": ""
         },
@@ -6017,7 +6017,7 @@
           "name": "Ginko Leaves",
           "section": "physical-items",
           "description": "",
-          "quantity": 6,
+          "quantity": 3,
           "combinedLabel": "Spice",
           "attunementLabel": ""
         },
@@ -6154,6 +6154,14 @@
           "spellLevel": "2nd Level",
           "spellRange": "Touch",
           "spellSchool": "Evocation"
+        },
+        {
+          "name": "Potion of Water Breathing",
+          "section": "physical-items",
+          "description": "<p><em>Its cloudy green fluid smells of the sea and has a jellyfish-like bubble floating in it.</em></p>\n<p>You can breathe underwater for 1 hour after drinking this potion. </p>\n<p> </p>",
+          "quantity": 1,
+          "combinedLabel": "Potion",
+          "attunementLabel": ""
         }
       ]
     },
@@ -6181,7 +6189,7 @@
           ],
           "isTemporary": true,
           "name": "Heroic Deed",
-          "remainingDays": 26,
+          "remainingDays": 25,
           "section": "effect-items"
         }
       ],
@@ -6918,5 +6926,5 @@
         }
       ]
     },
-    "ingameDate": "Nonus 26, 1497"
+    "ingameDate": "Nonus 27, 1497"
   }
