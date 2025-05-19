@@ -325,6 +325,24 @@ function fixDescriptionEnrichers(htmlString) {
         "@abilities.int.mod": "Intelligence modifier",
         "@abilities.wis.mod": "Wisdom modifier",
         "@abilities.cha.mod": "Charisma modifier",
+        "/skill acr":"Acrobatics",
+        "/skill ani":"Animal Handling",
+        "/skill arc":"Arcana",
+        "/skill ath":"Athletics",
+        "/skill dec":"Deception",
+        "/skill his":"History",
+        "/skill ins":"Insight",
+        "/skill itm":"Intimidation",
+        "/skill inv":"Investigation",
+        "/skill med":"Medicine",
+        "/skill nat":"Nature",
+        "/skill prc":"Perception",
+        "/skill prf":"Performance",
+        "/skill per":"Persuasion",
+        "/skill rel":"Religion",
+        "/skill slt":"Sleight of Hand",
+        "/skill ste":"Stealth",
+        "/skill sur":"Survival"
     };
 
     // Step 1: Replace static patterns inside text nodes only
@@ -354,8 +372,8 @@ function fixDescriptionEnrichers(htmlString) {
         return `>${innerText}<`;  // reconstruct the text node
     });
 
-    // Step 5: Remove all style attributes from tags
-    processedHtml = processedHtml.replace(/\s*style="[^"]*"/g, "");
+    //// Step 5: Remove all style attributes from tags
+    //processedHtml = processedHtml.replace(/\s*style="[^"]*"/g, "");
 
     return processedHtml;
 }
