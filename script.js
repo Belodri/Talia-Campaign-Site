@@ -296,6 +296,7 @@ function _createItemHeaderSpans(item, itemCard, propKeys) {
     propKeys.forEach(k => {
         const span = document.createElement('span');
         span.textContent = item[k];
+        span.classList.add("collapsible-header-title");
         headerDiv.appendChild(span);
     });
 }

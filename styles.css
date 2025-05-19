@@ -141,6 +141,7 @@ span.section-header:hover {
     background-color: var(--contrast-primary);
 }
 
+
 .collapsible-item {
     margin-bottom: 0.5rem;
     background-color: var(--bg-primary);
@@ -203,13 +204,34 @@ span.section-header:hover {
     }
 }
 
+.journal-display .content {
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+.journal-display .content .journal-page .collapsible-header {
+    padding-inline: 0;
+}
+
+.journal-display .content .journal-page .collapsible-header-title {
+    margin-inline: calc(max(0vw, 50vw - 420px));
+    padding-inline: 0.3em;
+    border-bottom: 1px groove rgba(104, 104, 104, 0.8); 
+}
+
+.collapsible-item.journal-page .description-container {
+    margin-inline: calc(max(0vw, 50vw - 420px));
+    max-width: 840px;
+    padding-inline: 1.5em;
+    margin-top: 0.5rem;
+    background-color: #101418;
+}
+
 /* Collapsible Header Shenanigans */
 
 .collapsible-header {
     cursor: pointer;
     background-color: var(--bg-header);
-    display: flex;
-    
     display: flex;
     padding: 0.5em 1em;
 }
