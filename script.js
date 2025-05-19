@@ -6,6 +6,7 @@
 let debug = false;
 const playerData = {};
 const settlementData = {};
+const journalData = {};
 
 //#endregion
 
@@ -27,8 +28,9 @@ async function onPageLoad() {
 
     log("Data loaded", data );
     
-    initPlayerData(data.playerData);
+    initPlayerData(data.actorItems);
     initSettlementData(data.settlementData);
+    initJournalData(data.journalData);
     log("Data initialized", { playerData, settlementData });
 
     adjustLastUpdateDisplay();
@@ -130,7 +132,11 @@ function _onActionButtonClick(event) {
 
     event.currentTarget.blur();
 
-    return action === "showPlayer" ? showPlayer(event) : showSettlement();
+    switch(action) {
+        case "showPlayer": return showPlayer(event);
+        case "showJournals": return showJournals(event);
+        case "showSettlement": return showSettlement();
+    }
 }
 
 function _onDocumentClick(event) {
@@ -178,6 +184,7 @@ function showPlayer(event) {
 
     toggleHidden("characterDisplay", false);
     toggleHidden("settlementDisplay", true);
+    toggleHidden("journalDisplay", true);
 }
 
 function showSettlement() {
@@ -187,6 +194,17 @@ function showSettlement() {
 
     toggleHidden("characterDisplay", true);
     toggleHidden("settlementDisplay", false);
+    toggleHidden("journalDisplay", true);
+}
+
+function showJournals() {
+    for(let [sectionId, journal] of Object.entries(journalData)) {
+        populateSection(sectionId, journal.pages);
+    }
+
+    toggleHidden("characterDisplay", true);
+    toggleHidden("settlementDisplay", true);
+    toggleHidden("journalDisplay", false);
 }
 
 function populateSection(sectionId, itemArray) {
@@ -229,6 +247,7 @@ function createItemCard(item) {
         "physical-items": createPhysicalItemCard,
         "building-items": createBuildingItemCard,
         "effect-items": createEffectItemCard,
+        "journal-pages": createJournalPageCard,
     }
 
     const handler = sectionHandlers[item.section];
@@ -277,6 +296,7 @@ function _createItemHeaderSpans(item, itemCard, propKeys) {
     propKeys.forEach(k => {
         const span = document.createElement('span');
         span.textContent = item[k];
+        span.classList.add("collapsible-header-title");
         headerDiv.appendChild(span);
     });
 }
@@ -306,6 +326,24 @@ function fixDescriptionEnrichers(htmlString) {
         "@abilities.int.mod": "Intelligence modifier",
         "@abilities.wis.mod": "Wisdom modifier",
         "@abilities.cha.mod": "Charisma modifier",
+        "/skill acr":"Acrobatics",
+        "/skill ani":"Animal Handling",
+        "/skill arc":"Arcana",
+        "/skill ath":"Athletics",
+        "/skill dec":"Deception",
+        "/skill his":"History",
+        "/skill ins":"Insight",
+        "/skill itm":"Intimidation",
+        "/skill inv":"Investigation",
+        "/skill med":"Medicine",
+        "/skill nat":"Nature",
+        "/skill prc":"Perception",
+        "/skill prf":"Performance",
+        "/skill per":"Persuasion",
+        "/skill rel":"Religion",
+        "/skill slt":"Sleight of Hand",
+        "/skill ste":"Stealth",
+        "/skill sur":"Survival"
     };
 
     // Step 1: Replace static patterns inside text nodes only
@@ -335,8 +373,8 @@ function fixDescriptionEnrichers(htmlString) {
         return `>${innerText}<`;  // reconstruct the text node
     });
 
-    // Step 5: Remove all style attributes from tags
-    processedHtml = processedHtml.replace(/\s*style="[^"]*"/g, "");
+    //// Step 5: Remove all style attributes from tags
+    //processedHtml = processedHtml.replace(/\s*style="[^"]*"/g, "");
 
     return processedHtml;
 }
@@ -367,6 +405,22 @@ function createPhysicalItemCard(item) {
 
     _createItemHeaderSpans(item, itemCard, ["name", "combinedLabel", "quantity", "attunementLabel"]);
     _setItemDescription(item, itemCard);
+
+    return itemCard;
+}
+
+function createJournalPageCard(item) {
+    const itemCard =_createBaseItemCard();
+    itemCard.classList.add("journal-page");
+
+    _createItemHeaderSpans(item, itemCard, ["name"]);
+    
+    const contentDiv = itemCard.querySelector('.collapsible-content');
+    const descriptionDiv = document.createElement('div');
+    descriptionDiv.classList.add('description-container');
+    descriptionDiv.innerHTML = item.content;
+
+    contentDiv.appendChild(descriptionDiv);
 
     return itemCard;
 }
@@ -609,6 +663,43 @@ function setEffectCount(effects) {
     
     const buildingH1 = document.querySelector('#effect-items > h1');
     buildingH1.textContent = `Effects (${effectCount})`
+}
+
+//#endregion
+
+//#region Journal
+
+function initJournalData(rawData) {
+    let i = 0;
+    for(const journal of rawData) {
+        const sectionId = `journal-${i}`;
+        journalData[sectionId] = journal;
+
+        createJournalSection(journal, sectionId);
+
+        i++;
+    }
+}
+
+function createJournalSection(journal, sectionId) {
+    const targetEle = document.getElementById("journalDisplay");
+
+    const section = document.createElement("section");
+    section.id = sectionId;
+    section.classList.add("section-wrapper");
+
+    const span = document.createElement("span");
+    span.classList.add("section-header");
+    span.dataset.toggleId = `${sectionId}-content`;
+    span.textContent = journal.name;
+    section.appendChild(span);
+
+    const div = document.createElement("div");
+    div.classList.add("content", "hidden");
+    div.id = `${sectionId}-content`;
+    section.appendChild(div);
+
+    targetEle.appendChild(section);
 }
 
 //#endregion
