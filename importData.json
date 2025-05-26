@@ -756,6 +756,22 @@
         "attunementLabel": ""
       },
       {
+        "name": "Silk robe with gold embroidery",
+        "description": "",
+        "section": "physical-items",
+        "quantity": 1,
+        "combinedLabel": "Art Object",
+        "attunementLabel": ""
+      },
+      {
+        "name": "Gold locket with a painted portrait inside",
+        "description": "",
+        "section": "physical-items",
+        "quantity": 1,
+        "combinedLabel": "Art Object",
+        "attunementLabel": ""
+      },
+      {
         "name": "Pack Tactics",
         "description": "<p>All attacks rolls made against hostile creatures within 5ft of you have advantage.</p>",
         "section": "feature-items",
@@ -772,22 +788,6 @@
         "description": "<p>You have blindsight out to 15ft.</p>",
         "section": "feature-items",
         "requirements": "Wolf Spirit"
-      },
-      {
-        "name": "Silk robe with gold embroidery",
-        "description": "",
-        "section": "physical-items",
-        "quantity": 1,
-        "combinedLabel": "Art Object",
-        "attunementLabel": ""
-      },
-      {
-        "name": "Gold locket with a painted portrait inside",
-        "description": "",
-        "section": "physical-items",
-        "quantity": 1,
-        "combinedLabel": "Art Object",
-        "attunementLabel": ""
       }
     ],
     "Emilio Astray": [
@@ -1276,14 +1276,6 @@
         "attunementLabel": ""
       },
       {
-        "name": "Reaping Claws",
-        "description": "<p>You sprout razor-sharp claws, which are natural weapons you can use to make unarmed strikes against creatures within 5 feet of you. You have proficiency with these weapons and can use your Charisma modifier for the attack and damage rolls made using these natural weapons.</p>",
-        "section": "physical-items",
-        "quantity": 1,
-        "combinedLabel": "Natural",
-        "attunementLabel": ""
-      },
-      {
         "name": "Black Dragonhide Cloak",
         "description": "<p>This cloak is crafted from the scales of a black dragon. While wearing this cloak, you gain a +2 bonus to your Armor Class and you have immunity to acid damage.</p><p>Additionally, you can use an action to speak the cloak's command word and cast the <strong>Blight</strong> spell (save DC 18) from it. Once you use this property, it can't be used again until you finish a long rest.</p>",
         "section": "physical-items",
@@ -1298,6 +1290,14 @@
         "spellLevel": "4th Level",
         "spellRange": "30 ft",
         "spellSchool": "Necromancy"
+      },
+      {
+        "name": "Dreamfeather",
+        "description": "<p>A Dreamfeather is an exceedingly rare and delicate token from the plane of Elysium. These iridescent feathers belong to the Aethergale, small and ethereal songbirds whose rainbow-tinted plumage usually vanishes when shed. However, when an Aethergale is moved by a performance of true beauty and passion—be it a bard's heartfelt song or an artist's soul-stirring creation—a feather may fall and remain intact, becoming what is known as a Dreamfeather.</p><p>Treasured and used as a currency by the Azata, the celestial beings of Elysium, Dreamfeathers are regarded as symbols artistic spirit. To find such a feather is seen as an acknowledgment of one’s creativity and emotional depth. They emit a faint glow, and their touch brings a gentle feeling of calm, as though carrying the nostalgia-filled songs of the Aethergale itself.</p><p><strong>Shared Inspiration. </strong>A creature holding a Dreamfeather can use it to transfer one of it's inspirations to another creature it can see. This consumes the magic which resides in the feather and it vanishes into nothingness. A creature which doesn't have any inspirations, cannot use this ability.</p>",
+        "section": "physical-items",
+        "quantity": 1,
+        "combinedLabel": "Exotic Currency",
+        "attunementLabel": ""
       }
     ],
     "Fearghas MacAllistar": [
@@ -1807,7 +1807,7 @@
         "name": "Plant Muscle Fibres",
         "description": "<p>Harvested from medium-sized or larger plant creatures upon their demise. These fibrous strands possess a resilient texture and a pale green hue, reminiscent of the plant creature's own tissues.</p>",
         "section": "physical-items",
-        "quantity": 43,
+        "quantity": 41,
         "combinedLabel": "Ingredient (bodyPart)",
         "attunementLabel": ""
       },
@@ -2273,7 +2273,7 @@
         "name": "Blue Quartz",
         "description": "<p>Preferred by glassmiths or gaffers, to make different types of cups and vases and with help from the blacksmiths, it is used to ornate tankards. Magic wielders use this gemstone to see across the lands or through someone's deceit.</p>",
         "section": "physical-items",
-        "quantity": 4,
+        "quantity": 3,
         "combinedLabel": "Gemstone",
         "attunementLabel": ""
       },
@@ -2592,14 +2592,6 @@
         "description": "<div><p>You send a short message of twenty-five words or less to a creature with which you are familiar. The creature hears the message in its mind, recognizes you as the sender if it knows you, and can answer in a like manner immediately. The spell enables creatures with Intelligence scores of at least 1 to understand the meaning of your message.</p><p>You can send the message across any distance and even to other planes of existence, but if the target is on a different plane than you, there is a [[/r 1d20]]{5 percent} chance that the message doesn't arrive.</p></div>",
         "section": "physical-items",
         "quantity": 4,
-        "combinedLabel": "Spell Gem",
-        "attunementLabel": ""
-      },
-      {
-        "name": "Activated: Find the Path - 6th",
-        "description": "<div><p>This spell allows you to find the shortest, most direct physical route to a specific fixed location that you are familiar with on the same plane of existence. If you name a destination on another plane of existence, a destination that moves (such as a mobile fortress), or a destination that isn't specific (such as \"a green dragon's lair\"), the spell fails.</p><div></div><p>For the duration, as long as you are on the same plane of existence as the destination, you know how far it is and in what direction it lies. While you are traveling there, whenever you are presented with a choice of paths along the way, you automatically determine which path is the shortest and most direct route (but not necessarily the safest route) to the destination.</p></div>",
-        "section": "physical-items",
-        "quantity": 1,
         "combinedLabel": "Spell Gem",
         "attunementLabel": ""
       },
@@ -3338,14 +3330,6 @@
         "attunementLabel": ""
       },
       {
-        "name": "Activated: Hold Monster - 5th",
-        "description": "<p>Choose a creature that you can see within range. The target must succeed on a Wisdom saving throw or be &amp;Reference[Paralyzed] for the Duration. This spell has no effect on Undead. At the end of each of its turns, the target can make another Wisdom saving throw. On a success, the spell ends on the target.</p><p><strong>At Higher Levels.</strong> When you cast this spell using a spell slot of 6th level or higher, you can target one additional creature for each slot level above 5th. The creatures must be within 30 feet of each other when you target them.</p>",
-        "section": "physical-items",
-        "quantity": 1,
-        "combinedLabel": "Spell Gem",
-        "attunementLabel": ""
-      },
-      {
         "name": "Activated: Globe of Invulnerability - 6th",
         "description": "<div><p>An immobile, faintly shimmering barrier springs into existence in a 10-foot radius around you and remains for the duration.</p><div></div><p>Any spell of 5th level or lower cast from outside the barrier can't affect creatures or objects within it, even if the spell is cast using a higher level spell slot. Such a spell can target creatures and objects within the barrier, but the spell has no effect on them. Similarly, the area within the barrier is excluded from the areas affected by such spells.</p></div><div><div><span> <span>At Higher Levels.</span></span> <p>When you cast this spell using a spell slot of 7th level or higher, the barrier blocks spells of one level higher for each slot level above 6th.</p><div></div></div><div></div></div>",
         "section": "physical-items",
@@ -3498,14 +3482,6 @@
         "attunementLabel": ""
       },
       {
-        "name": "Salt Vine",
-        "description": "<p>Found on coastal rocks exposed to continuous sea mist. Characterized by fleshy, silver-tinted leaves with curled edges. Clusters of small, star-shaped flowers bloom in shades ranging from light purple to deep violet.</p>",
-        "section": "physical-items",
-        "quantity": 1,
-        "combinedLabel": "Ingredient (herb)",
-        "attunementLabel": ""
-      },
-      {
         "name": "Potion of Water Breathing",
         "description": "<p><em>Its cloudy green fluid smells of the sea and has a jellyfish-like bubble floating in it.</em></p>\n<p>You can breathe underwater for 1 hour after drinking this potion. </p>\n<p> </p>",
         "section": "physical-items",
@@ -3543,6 +3519,508 @@
         "section": "physical-items",
         "quantity": 1,
         "combinedLabel": "Trinket",
+        "attunementLabel": ""
+      },
+      {
+        "name": "Dreamfeather",
+        "description": "<p>A Dreamfeather is an exceedingly rare and delicate token from the plane of Elysium. These iridescent feathers belong to the Aethergale, small and ethereal songbirds whose rainbow-tinted plumage usually vanishes when shed. However, when an Aethergale is moved by a performance of true beauty and passion—be it a bard's heartfelt song or an artist's soul-stirring creation—a feather may fall and remain intact, becoming what is known as a Dreamfeather.</p><p>Treasured and used as a currency by the Azata, the celestial beings of Elysium, Dreamfeathers are regarded as symbols artistic spirit. To find such a feather is seen as an acknowledgment of one’s creativity and emotional depth. They emit a faint glow, and their touch brings a gentle feeling of calm, as though carrying the nostalgia-filled songs of the Aethergale itself.</p><p><strong>Shared Inspiration. </strong>A creature holding a Dreamfeather can use it to transfer one of it's inspirations to another creature it can see. This consumes the magic which resides in the feather and it vanishes into nothingness. A creature which doesn't have any inspirations, cannot use this ability.</p>",
+        "section": "physical-items",
+        "quantity": 1,
+        "combinedLabel": "Exotic Currency",
+        "attunementLabel": ""
+      },
+      {
+        "name": "Potion of Heroism",
+        "description": "<p><em>This blue potion bubbles and steams as if boiling.</em></p><p>When you drink this potion you gain 10 temporary hit points. Additionally you are under the effect of the Bless spell for 1 hour (no concentration required).</p>",
+        "section": "physical-items",
+        "quantity": 1,
+        "combinedLabel": "Potion",
+        "attunementLabel": ""
+      },
+      {
+        "name": "Triggered: Mordenkainen's Private Sanctum - 6th",
+        "description": "<p><strong>Trigger: </strong>Saying 'execute' in Dwarvish</p><hr><div><p>You make an area within range magically secure. The area is a cube that can be as small as 5 feet to as large as 100 feet on each side. The spell lasts for the duration or until you use an action to dismiss it.</p><div></div><p>When you cast the spell, you decide what sort of security the spell provides, choosing any or all of the following properties:</p><ul><li>Sound can't pass through the barrier at the edge of the warded area.</li><li>The barrier of the warded area appears dark and foggy, preventing vision (including &amp;Reference[rule=darkvision]) through it.</li><li>Sensors created by divination spells can't appear inside the protected area or pass through the barrier at its perimeter.</li><li>Creatures in the area can't be targeted by divination spells.</li><li>Nothing can teleport into or out of the warded area.</li><li>Planar travel is blocked within the warded area.</li></ul><p>Casting this spell on the same spot every day for a year makes this effect permanent.</p></div><div><div><span> <span>At Higher Levels.</span></span> <p>When you cast this spell using a spell slot of 5th level or higher, you can increase the size of the cube by 100 feet for each slot level beyond 4th. Thus you could protect a cube that can be up to 200 feet on one side by using a spell slot of 5th level.</p><div></div></div><div></div></div>",
+        "section": "physical-items",
+        "quantity": 1,
+        "combinedLabel": "Spell Gem",
+        "attunementLabel": ""
+      }
+    ],
+    "Kyrin Niteshade": [
+      {
+        "name": "Shapechanger",
+        "description": "<p>As an action, you can change your appearance and your voice. You determine the specifics of the changes, including your coloration, hair length, and sex. You can also adjust your height and weight, but not so much that your size changes. You can make yourself appear as a member of another race, though none of your game statistics change. You can't duplicate the appearance of a creature you've never seen, and you must adopt a form that has the same basic arrangement of limbs that you have. Your clothing and equipment aren't changed by this trait.</p><p>You stay in the new form until you use an action to revert to your true form or until you die.</p>",
+        "section": "feature-items",
+        "requirements": "Changeling"
+      },
+      {
+        "name": "City Secrets",
+        "description": "<p>You know the secret patterns and flow to cities and can find passages through the urban sprawl that others would miss. When you are not in combat, you (and companions you lead) can travel between any two locations in the city twice as fast as your speed would normally allow.</p>",
+        "section": "feature-items",
+        "requirements": "Urchin"
+      },
+      {
+        "name": "Thieves' Cant",
+        "description": "<p>During your rogue training you learned thieves' cant, a secret mix of dialect, jargon, and code that allows you to hide messages in seemingly normal conversation. Only another creature that knows thieves' cant understands such messages. It takes four times longer to convey such a message than it does to speak the same idea plainly.</p><p>In addition, you understand a set of secret signs and symbols used to convey short, simple messages, such as whether an area is dangerous or the territory of a thieves' guild, whether loot is nearby, or whether the people in an area are easy marks or will provide a safe house for thieves on the run.</p>",
+        "section": "feature-items",
+        "requirements": "Rogue 1"
+      },
+      {
+        "name": "Sneak Attack",
+        "description": "<p>Beginning at 1st level, you know how to strike subtly and exploit a foe's distraction. Once per turn, you can deal an extra 1d6 damage to one creature you hit with an attack if you have advantage on the attack roll. The attack must use a finesse or a ranged weapon.</p><p>You don't need advantage on the attack roll if another enemy of the target is within 5 feet of it, that enemy isn't incapacitated, and you don't have disadvantage on the attack roll.</p>",
+        "section": "feature-items",
+        "requirements": "Rogue 1"
+      },
+      {
+        "name": "Cunning Action",
+        "description": "<p>Starting at 2nd level, your quick thinking and agility allow you to move and act quickly. You can take a bonus action on each of your turns in combat. This action can be used only to take the Dash, Disengage, or Hide action.</p>",
+        "section": "feature-items",
+        "requirements": "Rogue 2"
+      },
+      {
+        "name": "Actor",
+        "description": "<p>Skilled at mimicry and dramatics, you gain the following benefits:</p><p>Increase your Charisma score by 1, to a maximum of 20.</p><p>You have advantage on &amp;Reference[skill=Deception] and &amp;Reference[skill=Performance] checks when trying to pass yourself off as a different person.</p><p>You can mimic the speech of another person or the sounds made by other creatures. You must have heard the person speaking, or heard the creature make the sound, for at least 1 minute. A successful &amp;Reference[skill=Insight] check contested by your &amp;Reference[skill=Deception] check allows a listener to determine that the effect is faked.</p>",
+        "section": "feature-items",
+        "requirements": "Feat"
+      },
+      {
+        "name": "Uncanny Dodge",
+        "description": "<p>Starting at 5th level, when an attacker that you can see hits you with an attack, you can use your reaction to halve the attack's damage against you.</p>",
+        "section": "feature-items",
+        "requirements": "Rogue 5"
+      },
+      {
+        "name": "Evasion",
+        "description": "<p>At 7th level, your instinctive agility lets you dodge out of the way of certain area effects, such as a blue dragon's lightning breath or a fireball spell. When you are subjected to an effect that allows you to make a Dexterity saving throw to take only half damage, you instead take no damage if you succeed on the saving throw, and only half damage if you fail.</p>",
+        "section": "feature-items",
+        "requirements": "Rogue 7"
+      },
+      {
+        "name": "Mobile",
+        "description": "<p>You are exceptionally speedy and agile. You gain the following benefits:</p><ul><li><p>Your speed increases by 10 feet.</p></li><li><p>When you use the Dash action, &amp;Reference[rule=difficultterrain]{difficult terrain} doesn't cost you extra movement on that turn.</p></li><li><p>When you make a melee attack against a creature, you don't provoke opportunity attacks from that creature for the rest of the turn, whether you hit or not.</p></li></ul>",
+        "section": "feature-items",
+        "requirements": "Feat"
+      },
+      {
+        "name": "Skill Expert",
+        "description": "<p>You have honed your proficiency with particular skills, granting you the following benefits:</p><ul><li><p>Increase one ability score of your choice by 1, to a maximum of 20.</p></li><li><p>You gain proficiency in one skill of your choice.</p></li><li><p>Choose one skill in which you have proficiency. You gain expertise with that skill, which means your proficiency bonus is doubled for any ability check you make with it. The skill you choose must be one that isn't already benefiting from a feature, such as Expertise, that doubles your proficiency bonus.</p></li></ul>",
+        "section": "feature-items",
+        "requirements": "Feat"
+      },
+      {
+        "name": "Reliable Talent",
+        "description": "<p>By 11th level, you have refined your chosen skills until they approach perfection. Whenever you make an ability check that lets you add your proficiency bonus, you can treat a d20 roll of 9 or lower as a 10.</p>",
+        "section": "feature-items",
+        "requirements": "Rogue 11"
+      },
+      {
+        "name": "Psychic Blade",
+        "description": "<p>You can manifest your psionic power as shimmering blades of psychic energy. Whenever you take the Attack action, you can manifest a psychic blade from your free hand and make the attack with that blade. This magic blade is a simple melee weapon with the finesse and thrown properties. It has a normal range of 60 feet and no long range, and on a hit, it deals [[/damage 1d6 psychic]] plus the ability modifier you used for the attack roll. The blade vanishes immediately after it hits or misses its target, and it leaves no mark on its target if it deals damage. After you make an attack with a melee weapon, you can make an attack with a psychic blade as a bonus action on the same turn, provided you have a free hand to create it.</p>",
+        "section": "physical-items",
+        "quantity": 1,
+        "combinedLabel": "Simple Melee",
+        "attunementLabel": ""
+      },
+      {
+        "name": "Psychic Blade (Thrown)",
+        "description": "<p>You can manifest your psionic power as shimmering blades of psychic energy. Whenever you take the Attack action, you can manifest a psychic blade from your free hand and make the attack with that blade. This magic blade is a simple melee weapon with the finesse and thrown properties. It has a normal range of 60 feet and no long range, and on a hit, it deals [[/damage 1d6 psychic]] plus the ability modifier you used for the attack roll. The blade vanishes immediately after it hits or misses its target, and it leaves no mark on its target if it deals damage. After you make an attack with a melee weapon, you can make an attack with a psychic blade as a bonus action on the same turn, provided you have a free hand to create it.</p>",
+        "section": "physical-items",
+        "quantity": 1,
+        "combinedLabel": "Simple Melee",
+        "attunementLabel": ""
+      },
+      {
+        "name": "Psy-Bolstered Knack",
+        "description": "<p>When your nonpsionic training fails you, your psionic power can help: if you fail an ability check using a skill or tool with which you have proficiency, you can roll one Psionic Energy die and add the number rolled to the check, potentially turning failure into success. You expend the die only if the roll succeeds.</p>",
+        "section": "feature-items",
+        "requirements": "Rogue 3 (Soulknife)"
+      },
+      {
+        "name": "Psychic Whispers",
+        "description": "<p>You can establish telepathic communication between yourself and others-perfect for quiet infiltration. As an action, choose one or more creatures you can see, up to a number of creatures equal to your proficiency bonus, and then roll one Psionic Energy die. For a number of hours equal to the number rolled, the chosen creatures can speak telepathically with you, and you can speak telepathically with them. To send or receive a message (no action required), you and the other creature must be within 1 mile of each other. A creature can't use this telepathy if it can't speak any languages, and a creature can end the telepathic connection at any time (no action required). You and the creature don't need to speak a common language to understand each other.</p><p>The first time you use this power after each long rest, you don't expend the Psionic Energy die. All other times you use the power, you expend the die.</p>",
+        "section": "feature-items",
+        "requirements": "Rogue 3 (Soulknife)"
+      },
+      {
+        "name": "Mark Soul",
+        "description": "<p>When you deal Sneak Attack damage to a creature, you can expend one Psionic Energy die to mark the creature's soul until the end of your next turn. Attacks you make against marked creatures cannot have disadvantage and deal extra psychic damage equal to one roll of your Psionic Energy die.</p>",
+        "section": "feature-items",
+        "requirements": "Rogue 9 (Soulknife)"
+      },
+      {
+        "name": "Phantom Pain",
+        "description": "<p>If you make a melee attack with a finesse weapon, you can roll one Psionic Energy die and add the number rolled to the attack roll. If this attack hits, you can choose another creature within 10 feet of the target. The damage of this attack is dealt to the chosen creature in addition to the original target.</p>",
+        "section": "feature-items",
+        "requirements": "Rogue 9 (Soulknife)"
+      },
+      {
+        "name": "Psionic Energy",
+        "description": "<p>You harbor a wellspring of psionic energy within yourself. This energy is represented by your Psionic Energy dice, which are each a [[/r d6]]. You have a number of these dice equal to twice your proficiency bonus, and they fuel various psionic powers you have, which are detailed below.</p><p>Some of your powers expend the Psionic Energy die they use, as specified in a power's description, and you can't use a power if it requires you to use a die when your dice are all expended. You regain all your expended Psionic Energy dice when you finish a long rest. In addition, as a bonus action, you can regain one expended Psionic Energy die, but you can't do so again until you finish a short or long rest.</p><p>When you reach certain levels in this class, the size of your Psionic Energy dice increases: at 5th level ([[/r d8]]), 11th level ([[/r d10]]), and 17th level ([[/r d12]]).</p><p>If a Psionic Power requires your target to make a saving throw to resist the power's effects, the saving throw DC is calculated as follows: </p><p><strong>Psionic save DC</strong> = 8 + Intelligence Modifier + Proficiency Bonus</p>",
+        "section": "feature-items",
+        "requirements": "Rogue 3 (Soulknife)"
+      },
+      {
+        "name": "Psychic Teleportation",
+        "description": "<p>As a bonus action, you manifest one of your Psychic Blades, expend one Psionic Energy die and roll it, and throw the blade at an unoccupied space you can see, up to a number of feet away equal to 10 times the maximum possible roll of your Psionic Energy die. You then teleport to that space, and the blade vanishes. If you rolled a 6 or higher, you regain the expended Psionic Energy die.</p>",
+        "section": "feature-items",
+        "requirements": "Rogue 9 (Soulknife)"
+      },
+      {
+        "name": "Psychic Veil",
+        "description": "<p>You can weave a veil of psychic static to mask yourself. As an action, you can magically become &amp;Reference[condition=invisible], along with anything you are wearing or carrying, for 1 hour or until you dismiss this effect (no action required). This invisibility ends early immediately after you deal damage to a creature or you force a creature to make a saving throw, unless you choose to expend a Psionic Energy die.</p><p>Once you use this feature, you can't do so again until you finish a long rest, unless you expend a Psionic Energy die to use this feature again.</p>",
+        "section": "feature-items",
+        "requirements": "Rogue 13 (Soulknife)"
+      },
+      {
+        "name": "Living Shadow",
+        "description": "<p>The shadow you cast is animate and ever-present, even when lighting conditions would otherwise prevent it. Your shadow occasionally moves out of sync with you. Sometimes it appears to be undertaking random but mundane tasks, while at other times it acts out your darker impulses, threatening or even attacking other shadows. With effort, you can bend this shadow puppetry to your will.</p><p><strong>Grasping Shadow. </strong>You learn the mage hand cantrip if you don't already know it, and require no components to cast it. The hand created by the spell is shadowy but is not bound to your actual shadow. Your spellcasting ability for this spell is Intelligence, Wisdom, or Charisma (your choice when you gain this Dark Gift).</p><p><strong>Shadow Strike. </strong>When you make a melee attack roll, you can increase your reach for that attack by 10 feet. Your shadow stretches and delivers the attack as if it were you. You can use this feature a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest.</p><p><strong>Ominous Will. </strong>Immediately after you make an attack roll, an ability check, or a saving throw and roll a 1 on the [[/r d20]], your shadow exerts a will of its own and might assist or hinder you or those around you. The next time you or a creature within 30 feet of you that you can see makes an attack roll, an ability check, or a saving throw, roll a [[/r d4]]. If the number is odd, reduce the total by the number rolled. If the number is even, increase the total by the number rolled. Once this effect occurs, it can't happen again until you finish a short or long rest.</p>",
+        "section": "feature-items",
+        "requirements": "Dark Gift"
+      },
+      {
+        "name": "Ominous Will",
+        "description": "<p>Immediately after you make an attack roll, an ability check, or a saving throw and roll a 1 on the d20, your shadow exerts a will of its own and might assist or hinder you or those around you. The next time you or a creature within 30 feet of you that you can see makes an attack roll, an ability check, or a saving throw, roll a [[/r d4]]. If the number is odd, reduce the total by the number rolled. If the number is even, increase the total by the number rolled. Once this effect occurs, it can't happen again until you finish a short or long rest.</p>",
+        "section": "feature-items",
+        "requirements": "Living Shadow"
+      },
+      {
+        "name": "Shadow Strike",
+        "description": "<p>When you make a melee attack roll, you can increase your reach for that attack by 10 feet. Your shadow stretches and delivers the attack as if it were you. You can use this feature a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest.</p>",
+        "section": "feature-items",
+        "requirements": "Living Shadow"
+      },
+      {
+        "name": "Grasping Shadow",
+        "description": "<p>You learn the mage hand cantrip if you don't already know it, and require no components to cast it. The hand created by the spell is shadowy but is not bound to your actual shadow. Your spellcasting ability for this spell is Intelligence, Wisdom, or Charisma (your choice when you gain this Dark Gift).</p>",
+        "section": "feature-items",
+        "requirements": "Living Shadow"
+      },
+      {
+        "name": "Shortbow +2",
+        "description": "<p><em>Whether through demonic blessing, celestial bequeathment, crazed experiment, or skillful craft, this weapon has been enhanced to bring more bloodshed by the bearer.</em></p>\n<p>You have a bonus to attack and damage rolls made with this magic weapon.</p>",
+        "section": "physical-items",
+        "quantity": 1,
+        "combinedLabel": "Simple Ranged",
+        "attunementLabel": ""
+      },
+      {
+        "name": "Sun Blade",
+        "description": "<p>This item appears to be a longsword hilt. While grasping the hilt, you can use an object interaction to cause a blade of pure radiance to spring into existence, or make the blade disappear. While the blade exists, this magic longsword has the finesse property. If you are proficient with shortswords or longswords, you are proficient with the sun blade.</p><p>You gain a +2 bonus to attack and damage rolls made with this weapon, which deals radiant damage instead of slashing damage. When you hit an undead with it, that target takes an extra [[/damage 1d8 type=radiant]] damage.</p><p>The sword's luminous blade emits bright light in a 15-foot radius and dim light for an additional 15 feet. The light is sunlight. While the blade persists, you can use an action to expand or reduce its radius of bright and dim light by 5 feet each, to a maximum of 30 feet each or a minimum of 10 feet each.</p>",
+        "section": "physical-items",
+        "quantity": 1,
+        "combinedLabel": "Martial Melee",
+        "attunementLabel": "Requires Attunement"
+      },
+      {
+        "name": "Glamoured Studded Leather",
+        "description": "<p>While wearing this armor, you gain a +1 bonus to AC. You can also use a bonus action to speak the armor's command word and cause the armor to assume the appearance of a normal set of clothing or some other kind of armor. You decide what it looks like, including color, style, and accessories, but the armor retains its normal bulk and weight. The illusory appearance lasts until you use this property again or remove the armor.</p>",
+        "section": "physical-items",
+        "quantity": 1,
+        "combinedLabel": "Light Armor",
+        "attunementLabel": ""
+      },
+      {
+        "name": "Boots of Elvenkind",
+        "description": "<p>While you wear these boots, your steps make no sound, regardless of the surface you are moving across. You also have advantage on &amp;Reference[skill=Stealth] checks that rely on moving silently.</p>",
+        "section": "physical-items",
+        "quantity": 1,
+        "combinedLabel": "Clothing",
+        "attunementLabel": ""
+      },
+      {
+        "name": "Cloak of Elvenkind",
+        "description": "<p>While you wear this cloak with its hood up, &amp;Reference[skill=Perception] checks made to see you have disadvantage, and you have advantage on &amp;Reference[skill=Stealth] checks made to hide, as the cloak's color shifts to camouflage you. Pulling the hood up or down requires an action.</p>",
+        "section": "physical-items",
+        "quantity": 1,
+        "combinedLabel": "Clothing",
+        "attunementLabel": "Requires Attunement"
+      },
+      {
+        "name": "Rogue's Mantle",
+        "description": "<p>This dark, hooded mantle of thick cloth is infused with secretive and deceptive magic. While wearing it, you gain the following benefits:</p><p><strong>Darkvision.</strong> You gain &amp;Reference[rule=darkvision] within a range of 60 feet. If you already have &amp;Reference[rule=darkvision], the mantle increases your &amp;Reference[rule=darkvision]'s range by 60 feet instead.</p><p><strong>Move in Shadows.</strong> While you are in &amp;Reference[rule=dimlight]{dim light} or darkness, you can use a bonus action to teleport, along with anything you are wearing or carrying, up to 30 feet to an unoccupied space you can see that is also in &amp;Reference[rule=dimlight]{dim light} or darkness. You then have advantage on the first melee attack you make before the end of the turn.</p><p><strong>Willful Enmity.</strong> You can cast the Antagonize spell (save DC 15) from the mantle. Once the mantle has cast the spell, it can't cast the spell again until the next dawn.</p>",
+        "section": "physical-items",
+        "quantity": 1,
+        "combinedLabel": "Clothing",
+        "attunementLabel": "Requires Attunement"
+      },
+      {
+        "name": "Antagonize",
+        "description": "<p>You whisper magical words that antagonize one creature of your choice within range. The target must make a Wisdom saving throw. On a failed save, the target takes [[/damage 4d4 psychic]] damage and must immediately use its reaction to make a melee attack against another creature of your choice that you can see. If the target can't make this attack (for example, because there is no one within its reach or because its reaction is unavailable), the target instead has disadvantage on the next attack roll it makes before the start of your next turn. On a successful save, the target takes half as much damage only.</p><p><strong>At Higher Levels. </strong>When you cast this spell using a spell slot of 4th level or higher, the damage increases by [[/damage 1d4]] for each slot level above 3rd.</p>",
+        "section": "spell-items",
+        "spellLevel": "3rd Level",
+        "spellRange": "30 ft",
+        "spellSchool": "Enchantment"
+      },
+      {
+        "name": "Mage Hand",
+        "description": "<div><p>A spectral, floating hand appears at a point you choose within range. The hand lasts for the duration or until you dismiss it as an action. The hand vanishes if it is ever more than 30 feet away from you or if you cast this spell again.</p><div></div><p>You can use your action to control the hand. You can use the hand to manipulate an object, open an unlocked door or container, stow or retrieve an item from an open container, or pour the contents out of a vial. You can move the hand up to 30 feet each time you use it.</p><p>The hand can't attack, activate magic items, or carry more than 10 pounds.</p></div>",
+        "section": "spell-items",
+        "spellLevel": "Cantrip",
+        "spellRange": "30 ft",
+        "spellSchool": "Conjuration"
+      },
+      {
+        "name": "Echo Stone",
+        "description": "<p>This dull-blue river stone is soft to the touch, and makes remarkably little sound if dropped. When an echo stone is squeezed as an action, it glows faintly for 1 minute. The stone records all sound made within 15 feet of it while glowing, then repeats that recorded sound at an equal volume once every 5 minutes. This cycle of repetition continues until the stone is squeezed again as an action, which silences it. Squeezing the stone twice in quick succession as an action causes it to play the sounds it has most recently recorded, rather than recording new sounds.</p>",
+        "section": "physical-items",
+        "quantity": 1,
+        "combinedLabel": "Trinket",
+        "attunementLabel": ""
+      },
+      {
+        "name": "Charlatan's Die",
+        "description": "<div><p>Whenever you roll this six-sided die, you can control which number it rolls.</p></div>",
+        "section": "physical-items",
+        "quantity": 1,
+        "combinedLabel": "Trinket",
+        "attunementLabel": ""
+      },
+      {
+        "name": "Bag of Holding",
+        "description": "<p>This bag has an interior space considerably larger than its outside dimensions, roughly 2 feet in diameter at the mouth and 4 feet deep. The bag can hold up to 500 pounds, not exceeding a volume of 64 cubic feet. The bag weighs 15 pounds, regardless of its contents. Retrieving an item from the bag requires an action.</p><p>If the bag is overloaded, pierced, or torn, it ruptures and is destroyed, and its contents are scattered in the Astral Plane. If the bag is turned inside out, its contents spill forth, unharmed, but the bag must be put right before it can be used again. Breathing creatures inside the bag can survive up to a number of minutes equal to 10 divided by the number of creatures (minimum 1 minute), after which time they begin to suffocate.</p>",
+        "section": "physical-items",
+        "quantity": 1,
+        "combinedLabel": "Container",
+        "attunementLabel": ""
+      },
+      {
+        "name": "Portable Hole",
+        "description": "<p>This fine black cloth, soft as silk, is folded up to the dimensions of a handkerchief. It unfolds into a circular sheet 6 feet in diameter.</p><p>You can use an action to unfold a portable hole and place it on or against a solid surface, whereupon the portable hole creates an extradimensional hole 10 feet deep. The cylindrical space within the hole exists on a different plane, so it can't be used to create open passages. Any creature inside an open portable hole can exit the hole by climbing out of it.</p><p>You can use an action to close a portable hole by taking hold of the edges of the cloth and folding it up. Folding the cloth closes the hole, and any creatures or objects within remain in the extradimensional space. No matter what's in it, the hole weighs next to nothing.</p><p>If the hole is folded up, a creature within the hole's extradimensional space can use an action to make a [[/save ability=strength dc=10]] check. On a successful check, the creature forces its way out and appears within 5 feet of the portable hole or the creature carrying it. A breathing creature within a closed portable hole can survive for up to 10 minutes, after which time it begins to suffocate.</p><p>If the portable hole is overloaded, pierced, or torn, it ruptures and is destroyed, and its contents are scattered in the Astral Plane. Placing a portable hole inside an extradimensional space created by a bag of holding or similar item, or vice versa, instantly destroys both items.</p>",
+        "section": "physical-items",
+        "quantity": 1,
+        "combinedLabel": "Container",
+        "attunementLabel": ""
+      },
+      {
+        "name": "Amulet of Proof against Detection and Location",
+        "description": "<p>While wearing this amulet, you are hidden from divination magic. You can't be targeted by such magic or perceived through magical scrying sensors.</p>",
+        "section": "physical-items",
+        "quantity": 1,
+        "combinedLabel": "Trinket",
+        "attunementLabel": "Requires Attunement"
+      },
+      {
+        "name": "Ioun Stone, Dwarven Language Knowledge",
+        "description": "<p>An Ioun stone is named after Ioun, a god of knowledge and prophecy revered on some worlds. Many types of Ioun stone exist, each type a distinct combination of shape and color.</p><p>When you use an action to toss one of these stones into the air, the stone orbits your head at a distance of [[/r 1d3]] feet and confers a benefit to you. Thereafter, another creature must use an action to grasp or net the stone to separate it from you, either by making a successful attack roll against AC 24 or a successful [[/skill acr dc=24]] check. You can use an action to seize and stow the stone, ending its effect.</p><p>A stone has AC 24, 10 hit points, and resistance to all damage. It is considered to be an object that is being worn while it orbits your head.</p><p>You are fluent in one additional language while this pulsating bit of red jeweled crystal orbits your head. The DM chooses the language bestowed by the stone.</p>",
+        "section": "physical-items",
+        "quantity": 1,
+        "combinedLabel": "Trinket",
+        "attunementLabel": ""
+      },
+      {
+        "name": "Potion of Healing",
+        "description": "<p><em>The potion's red liquid glimmers when agitated.</em></p><p>You regain 2d4+2 hit points when you drink this potion.</p>",
+        "section": "physical-items",
+        "quantity": 2,
+        "combinedLabel": "Potion",
+        "attunementLabel": ""
+      },
+      {
+        "name": "Potion of Greater Healing",
+        "description": "<div><p><em>The potion's red liquid glimmers when agitated.</em></p><p>You regain 4d4 + 4 hit points when you drink this potion.</p></div>",
+        "section": "physical-items",
+        "quantity": 4,
+        "combinedLabel": "Potion",
+        "attunementLabel": ""
+      },
+      {
+        "name": "Potion of Superior Healing",
+        "description": "<div><p><em>The potion's red liquid glimmers when agitated.</em></p><p>You regain 8d4 + 8 hit points when you drink this potion.</p></div>",
+        "section": "physical-items",
+        "quantity": 2,
+        "combinedLabel": "Potion",
+        "attunementLabel": ""
+      },
+      {
+        "name": "Arrow",
+        "description": "<p>Standard ammunition used for bows of all varieties. These mundane arrows are made of smooth wooden shafts with goose feather fletching and hammer metal bodkins.</p>",
+        "section": "physical-items",
+        "quantity": 200,
+        "combinedLabel": "Arrow (arrow)",
+        "attunementLabel": ""
+      },
+      {
+        "name": "Thieves' Tools",
+        "description": "<p>This set of tools includes a small file, a set of lock picks, a small mirror mounted on a metal handle, a set of narrow-bladed scissors, and a pair of pliers. Proficiency with these tools lets you add your proficiency bonus to any ability checks you make to disarm traps or open locks.</p>",
+        "section": "physical-items",
+        "quantity": 1,
+        "combinedLabel": "Tool",
+        "attunementLabel": ""
+      },
+      {
+        "name": "Disguise Kit",
+        "description": "<p>This pouch of cosmetics, hair dye, and small props lets you create disguises that change your physical appearance. Proficiency with this kit lets you add your proficiency bonus to any ability checks you make to create a visual disguise.</p>",
+        "section": "physical-items",
+        "quantity": 1,
+        "combinedLabel": "Tool",
+        "attunementLabel": ""
+      },
+      {
+        "name": "Explorer's Pack",
+        "description": "<p>A backpack can hold one cubic foot or 30 pounds of gear. You can also strap items, such as a bedroll or a coil of rope, to the outside of a backpack.</p>",
+        "section": "physical-items",
+        "quantity": 1,
+        "combinedLabel": "Container",
+        "attunementLabel": ""
+      },
+      {
+        "name": "Tinderbox",
+        "description": "<p>This small container holds flint, fire steel, and tinder (usually dry cloth soaked in light oil) used to kindle a fire. Using it to light a torch - or anything else with abundant, exposed fuel - takes an action. Lighting any other fire takes 1 minute.</p>\n<p> </p>",
+        "section": "physical-items",
+        "quantity": 1,
+        "combinedLabel": "Loot",
+        "attunementLabel": ""
+      },
+      {
+        "name": "Torch",
+        "description": "<p>A torch burns for 1 hour, providing bright light in a 20-foot radius and dim light for an additional 20 feet. If you make a melee attack with a burning torch and hit, it deals 1 fire damage.</p>",
+        "section": "physical-items",
+        "quantity": 10,
+        "combinedLabel": "Trinket",
+        "attunementLabel": ""
+      },
+      {
+        "name": "Bedroll",
+        "description": "<p>Roll of cloth used by traveller to sleep in.</p>",
+        "section": "physical-items",
+        "quantity": 1,
+        "combinedLabel": "Loot",
+        "attunementLabel": ""
+      },
+      {
+        "name": "Rations",
+        "description": "<p>Rations consist of dry foods suitable for extended travel, including jerky, dried fruit, hardtack, and nuts.</p>",
+        "section": "physical-items",
+        "quantity": 10,
+        "combinedLabel": "Food",
+        "attunementLabel": ""
+      },
+      {
+        "name": "Hempen Rope (50 ft.)",
+        "description": "<p>Rope, whether made of hemp or silk, has 2 hit points and can be burst with a DC 17 Strength check.</p>",
+        "section": "physical-items",
+        "quantity": 1,
+        "combinedLabel": "Trinket",
+        "attunementLabel": ""
+      },
+      {
+        "name": "Waterskin",
+        "description": "<p>A leather hide sewn into an enclosed skin which can contain up to 4 pints of liquid. It weighs 5 pounds when full; a pint of water is approximately 1 pound.</p>",
+        "section": "physical-items",
+        "quantity": 1,
+        "combinedLabel": "Food",
+        "attunementLabel": ""
+      },
+      {
+        "name": "Mess Kit",
+        "description": "<p>This tin box contains a cup and simple cutlery. The box clamps together, and one side can be used as a cooking pan and the other as a plate or shallow bowl.</p>",
+        "section": "physical-items",
+        "quantity": 1,
+        "combinedLabel": "Loot",
+        "attunementLabel": ""
+      },
+      {
+        "name": "Rations",
+        "description": "<p>Rations consist of dry foods suitable for extended travel, including jerky, dried fruit, hardtack, and nuts.</p>",
+        "section": "physical-items",
+        "quantity": 40,
+        "combinedLabel": "Food",
+        "attunementLabel": ""
+      },
+      {
+        "name": "Waterskin",
+        "description": "<p>A leather hide sewn into an enclosed skin which can contain up to 4 pints of liquid. It weighs 5 pounds when full; a pint of water is approximately 1 pound.</p>",
+        "section": "physical-items",
+        "quantity": 5,
+        "combinedLabel": "Food",
+        "attunementLabel": ""
+      },
+      {
+        "name": "Ladder (10-foot)",
+        "description": "<p>A ladder 10-foot long, as sturdy or rickety as the hand that crafted or bodged it together.</p>",
+        "section": "physical-items",
+        "quantity": 1,
+        "combinedLabel": "Adventuring Gear",
+        "attunementLabel": ""
+      },
+      {
+        "name": "Oil Flask",
+        "description": "<p>Oil usually comes in a clay flask that holds 1 pint. As an action, you can splash the oil in this flask onto a creature within 5 feet of you or throw it up to 20 feet, shattering it on impact. Make a ranged attack against a target creature or object, treating the oil as an improvised weapon.</p>\n<p>On a hit, the target is covered in oil. If the target takes any fire damage before the oil dries (after 1 minute), the target takes an additional 5 fire damage from the burning oil. You can also pour a flask of oil on the ground to cover a 5-foot-square area, provided that the surface is level.</p>\n<p>If lit, the oil burns for 2 rounds and deals 5 fire damage to any creature that enters the area or ends its turn in the area. A creature can take this damage only once per turn.</p>",
+        "section": "physical-items",
+        "quantity": 4,
+        "combinedLabel": "Trinket",
+        "attunementLabel": ""
+      },
+      {
+        "name": "Lamp",
+        "description": "<p>A lamp casts bright light in a 15-foot radius and dim light for an additional 30 feet. Once lit, it burns for 6 hours on a flask (1 pint) of oil</p>",
+        "section": "physical-items",
+        "quantity": 1,
+        "combinedLabel": "Trinket",
+        "attunementLabel": ""
+      },
+      {
+        "name": "Forgery Kit",
+        "description": "<p>This small box contains a variety of papers and parchments, pens and inks, seals and sealing wax, gold and silver leaf, and other supplies necessary to create convincing forgeries of physical documents. Proficiency with this kit lets you add your proficiency bonus to any ability checks you make to create a physical forgery of a document.</p>",
+        "section": "physical-items",
+        "quantity": 1,
+        "combinedLabel": "Tool",
+        "attunementLabel": ""
+      },
+      {
+        "name": "Caltrops (Bag of 20)",
+        "description": "<p>As an action, you can spread a single bag of caltrops to cover a 5-foot-square area. Any creature that enters the area must succeed on a DC 15 Dexterity saving throw or stop moving and take 1 piercing damage. Until the creature regains at least 1 hit point, its walking speed is reduced by 10 feet. A creature moving through the area at half speed doesn't need to make the saving throw.</p>",
+        "section": "physical-items",
+        "quantity": 2,
+        "combinedLabel": "Trinket",
+        "attunementLabel": ""
+      },
+      {
+        "name": "Ball Bearings (bag of 1000)",
+        "description": "<p>As an action, you can spill these tiny metal balls from their pouch to cover a level area 10 feet square. A creature moving across the covered area must succeed on a DC 10 Dexterity saving throw or fall &amp;Reference[prone]. A creature moving through the area at half speed doesn't need to make the saving throw.</p>",
+        "section": "physical-items",
+        "quantity": 2,
+        "combinedLabel": "Trinket",
+        "attunementLabel": ""
+      },
+      {
+        "name": "Basket",
+        "description": "<p>A basket holds 2 cubic feet or 40 pounds of gear.</p>",
+        "section": "physical-items",
+        "quantity": 1,
+        "combinedLabel": "Container",
+        "attunementLabel": ""
+      },
+      {
+        "name": "Blanket",
+        "description": "<p>A blanket to keep you warm at night.</p>",
+        "section": "physical-items",
+        "quantity": 2,
+        "combinedLabel": "Adventuring Gear",
+        "attunementLabel": ""
+      },
+      {
+        "name": "Bedroll",
+        "description": "<p>Roll of cloth used by traveller to sleep in.</p>",
+        "section": "physical-items",
+        "quantity": 2,
+        "combinedLabel": "Adventuring Gear",
+        "attunementLabel": ""
+      },
+      {
+        "name": "Two-Person Tent",
+        "description": "<p>A simple and portable canvas shelter, a tent sleeps two.</p>",
+        "section": "physical-items",
+        "quantity": 1,
+        "combinedLabel": "Adventuring Gear",
+        "attunementLabel": ""
+      },
+      {
+        "name": "Dreamfeather",
+        "description": "<p>A Dreamfeather is an exceedingly rare and delicate token from the plane of Elysium. These iridescent feathers belong to the Aethergale, small and ethereal songbirds whose rainbow-tinted plumage usually vanishes when shed. However, when an Aethergale is moved by a performance of true beauty and passion—be it a bard's heartfelt song or an artist's soul-stirring creation—a feather may fall and remain intact, becoming what is known as a Dreamfeather.</p><p>Treasured and used as a currency by the Azata, the celestial beings of Elysium, Dreamfeathers are regarded as symbols artistic spirit. To find such a feather is seen as an acknowledgment of one’s creativity and emotional depth. They emit a faint glow, and their touch brings a gentle feeling of calm, as though carrying the nostalgia-filled songs of the Aethergale itself.</p><p><strong>Shared Inspiration. </strong>A creature holding a Dreamfeather can use it to transfer one of it's inspirations to another creature it can see. This consumes the magic which resides in the feather and it vanishes into nothingness. A creature which doesn't have any inspirations, cannot use this ability.</p>",
+        "section": "physical-items",
+        "quantity": 1,
+        "combinedLabel": "Exotic Currency",
         "attunementLabel": ""
       }
     ],
@@ -4221,6 +4699,30 @@
         "section": "physical-items",
         "quantity": 2,
         "combinedLabel": "Potion",
+        "attunementLabel": ""
+      },
+      {
+        "name": "Dreamfeather",
+        "description": "<p>A Dreamfeather is an exceedingly rare and delicate token from the plane of Elysium. These iridescent feathers belong to the Aethergale, small and ethereal songbirds whose rainbow-tinted plumage usually vanishes when shed. However, when an Aethergale is moved by a performance of true beauty and passion—be it a bard's heartfelt song or an artist's soul-stirring creation—a feather may fall and remain intact, becoming what is known as a Dreamfeather.</p><p>Treasured and used as a currency by the Azata, the celestial beings of Elysium, Dreamfeathers are regarded as symbols artistic spirit. To find such a feather is seen as an acknowledgment of one’s creativity and emotional depth. They emit a faint glow, and their touch brings a gentle feeling of calm, as though carrying the nostalgia-filled songs of the Aethergale itself.</p><p><strong>Shared Inspiration. </strong>A creature holding a Dreamfeather can use it to transfer one of it's inspirations to another creature it can see. This consumes the magic which resides in the feather and it vanishes into nothingness. A creature which doesn't have any inspirations, cannot use this ability.</p>",
+        "section": "physical-items",
+        "quantity": 1,
+        "combinedLabel": "Exotic Currency",
+        "attunementLabel": ""
+      },
+      {
+        "name": "Wellspring of Life",
+        "description": "<p>You sprinkle the holy water in an unoccupied space within range and conjure a well that radiates a dim and soothing blue-green light in a 10-foot-radius sphere. Each creature that starts its turn within this light regains [[/r 4d6]] hit points.</p><p>As a bonus action on each of your turns, you can move the well up to 30 feet to an unoccupied space you can see.</p><p><strong>At Higher Levels. </strong>When you cast this spell using a spell slot of 5th level or higher, the healing is increased by [[/r 1d6]] for each slot level above 4th.</p>",
+        "section": "spell-items",
+        "spellLevel": "4th Level",
+        "spellRange": "10 ft",
+        "spellSchool": "Conjuration"
+      },
+      {
+        "name": "Springseed",
+        "description": "<p>A Springseed is a potent and exceptionally rare token of vitality hailing from the celestial Gardens of Tranquility in the plane of Nirvana. These seeds, which shed a soft and dim blue-green light, are produced infrequently by the ancient trees that flourish in that serene realm.</p><p>The celestials of Nirvana occasionally present a Springseed to mortals who have distinguished themselves through exceptionally selfless and good actions. Beyond such gifts, these seeds are highly sought after for the beautiful and unique trees they produce. While typically cultivated on good-aligned planes like the Seven Heavens and Elysium, their uniqueness is valued in many other places too. For example, a small, uncorrupted grove flourishes even in the city of Dis, on the 2nd layer of Hell, standing as a display of the reach of Dispater's influence. Consequently, their rarity and prized nature make them valuable in trade between many planes.</p><p><strong>Consumption.</strong> You can consume a Springseed as a bonus action. Ten minutes after consumption, you gain the benefits of the <strong>Heroes' Feast</strong> spell. Specifically, you are cured of all diseases and poison, become immune to poison and being frightened, and make all Wisdom saving throws with advantage. Your hit point maximum also increases by 2d10, and you gain the same number of hit points. These benefits last for 24 hours.</p><p><strong>Cultivation.</strong> If instead of being consumed, a Springseed is planted in fertile ground and watered daily for 10 days, it sprouts into a magnificent and beautiful tree. If carefully tended, this tree will bear fruit all year round, producing enough nourishing food to sustain up to ten adults. The tree is deeply connected to the positive energies of its origin and, in times of dire need for those who have cared for it, can be awakened as if by the awaken spell, transforming into a CR 9 treant (see MM) that will defend them. The tree, if not destroyed by other means, will live for approximately 500 years. Once the seed is planted, it is consumed.</p>",
+        "section": "physical-items",
+        "quantity": 15,
+        "combinedLabel": "Food",
         "attunementLabel": ""
       }
     ],
@@ -5925,7 +6427,7 @@
         "name": "Dried Meat",
         "description": "<p>The process of drying meat is long and extensive. In some particular cases, for the highest quality of dried meat, it can take over a year. It is highly sought after due to its extended shelf life, and depending on the meat used, it is, quite frankly, delicious.</p>",
         "section": "physical-items",
-        "quantity": 24,
+        "quantity": 20,
         "combinedLabel": "Food (meal)",
         "attunementLabel": ""
       },
@@ -6017,7 +6519,7 @@
         "name": "Ginger",
         "description": "<p>Ginger, is widely used as a spice and folk medicine. It is provided as tea for those who have weak stomachs to combat nausea, among other things.</p>",
         "section": "physical-items",
-        "quantity": 6,
+        "quantity": 5,
         "combinedLabel": "Spice",
         "attunementLabel": ""
       },
@@ -7436,7 +7938,7 @@
         {
           "name": "73",
           "section": "journal-pages",
-          "content": "<header><h1><span><strong>73 - Summary - A strong neck can rule a nation</strong></span></h1></header><section><p><span>Shalkoc flies away from the Duergar with Aviana in the iron flask. She is not happy about this, and when they meet up with us in the tunnel, she tries to strangle Plex, and both disappear to the Feywild. Again. We set up camp in the tunnel with the use of magic and grilled sausages.</span></p><p><span>We return to Ukgluz where many soldiers have been wounded in capturing the Leshen. Fearghas obtains an audience with King Dimzad, who is surprised to see him return alive, but more friendly than last time, and very forthcoming with (unwanted) advice on how to handle his slaves (that's us). There are some casual mentions of how to bind demons (shudder), and the \"demon engines\" the Duergar are using. This definitely is just an edgy name of no actual significance. Has to be. Right?</span></p><p><span>Fearghas requests a day of preparation before going to war with Matron Vandree. Dimzad agrees, and gifts to Fearghas a null-steel chain to better control his slaves. Fearghas invites us to his beautiful 7th-level mansion, and we have tea and investigate the null-steel chain. Emilio is particularly bothered by it. For Fearghas and I, it uncomfortably inhibits magic... and the chain's colour sends me into a panic as I suspect it's been made using the blood of angels.</span></p><p><span>Don't ask me how I know.</span></p><p><span>They ask me how I know.</span></p><p><span>Shalkoc assumes I have killed an angel.</span></p><p><span>Words fail me, surely this will have no consequences.</span></p><p><span>The party agrees to investigate the process of making the chains. We return to Ukgluz, ask around, learn that the chains are regular steel which are then treated in secret by priests, and no one is allowed in to see the process. Oh. No. Somewhere on the way, Shalkoc gets a ~~Discord ping~~ Message from Zariel checking in on his progress. Shalkoc replies that he has found an angel-slayer (HE MEANS ME) and Zariel orders him to present this person to her before the end of the week. Well this escalated quickly.</span></p><p><span>We can't figure out a way to spy on the priests yet, so we go to an apothecary for Shalkoc's needs of tasty herbs. We ask the apothecary if she has seen any unusual creatures, as Emilio insists the voidborn will return.</span></p><p><span>The Duergar just love to tell people how to handle their slaves. The apothecary scams us with foul-smelling \"mould\" (I'm convinced she chopped that off a rotting corpse somewhere) and mentions larvae larger than usual by a nearby lake. Fearghas freaks her out by saying he is an alchemist, and we walk to the lake.</span></p><p><span>Nature is twisted here, plants and larvae mutated, but Emilio doesn't sense the touch of the void. It reminds me too much of a certain demon and I grow increasingly anxious. Fearghas detects transmutation magic coming from inside the lake. We chug potions of water breathing, and jump in.</span></p><p><span>After a good half-hour of nerve-wracking swimming in darkness, and glimpsing tentacles among sharp pillars, we reach a brine pool and a fleshy wall pierced with long metal spikes. It looks like a huge, ancient creature being tortured. Reluctantly, I tell the party about the Sibriex lair I was in. I give them as much information as I can, including telepathic images of half-organic corridors and twisted creatures, but my courage fails me at the end.</span></p><p><span>We follow a current to a giant eye, also pierced with spikes. We can squeeze in... we don't talk very long before deciding to go in. The party is intrigued, but my conscience will not let me walk away. This thing is so close to a city full of people... slavers, yes, but people nonetheless.</span></p><p><span>Wait... the Duergar use \"demon engines\"? What if this big creature was *not* a giant tortured fish? What if the close proximity with Ukgluz is deliberate? I am filled with dread at the strong suspicion that we are... intruding into the lair of a Sibriex... that is *working with* the Duergar.</span></p></section>"
+          "content": "<h1>Summary - A strong neck can rule a nation</h1><p>Shalkoc flies away from the Duergar with Aviana in the iron flask. She is not happy about this, and when they meet up with us in the tunnel, she tries to strangle Plex, and both disappear to the Feywild. Again. We set up camp in the tunnel with the use of magic and grilled sausages.</p><p>We return to Ukgluz where many soldiers have been wounded in capturing the Leshen. Fearghas obtains an audience with King Dimzad, who is surprised to see him return alive, but more friendly than last time, and very forthcoming with (unwanted) advice on how to handle his slaves (that's us). There are some casual mentions of how to bind demons (shudder), and the \"demon engines\" the Duergar are using. This definitely is just an edgy name of no actual significance. Has to be. Right?</p><p>Fearghas requests a day of preparation before going to war with Matron Vandree. Dimzad agrees, and gifts to Fearghas a null-steel chain to better control his slaves. Fearghas invites us to his beautiful 7th-level mansion, and we have tea and investigate the null-steel chain. Emilio is particularly bothered by it. For Fearghas and I, it uncomfortably inhibits magic... and the chain's colour sends me into a panic as I suspect it's been made using the blood of angels.</p><p>Don't ask me how I know.</p><p>They ask me how I know.</p><p>Shalkoc assumes I have killed an angel.</p><p>Words fail me, surely this will have no consequences.</p><p>The party agrees to investigate the process of making the chains. We return to Ukgluz, ask around, learn that the chains are regular steel which are then treated in secret by priests, and no one is allowed in to see the process. Oh. No. Somewhere on the way, Shalkoc gets a ~~Discord ping~~ Message from Zariel checking in on his progress. Shalkoc replies that he has found an angel-slayer (HE MEANS ME) and Zariel orders him to present this person to her before the end of the week. Well this escalated quickly.</p><p>We can't figure out a way to spy on the priests yet, so we go to an apothecary for Shalkoc's needs of tasty herbs. We ask the apothecary if she has seen any unusual creatures, as Emilio insists the voidborn will return.</p><p>The Duergar just love to tell people how to handle their slaves. The apothecary scams us with foul-smelling \"mould\" (I'm convinced she chopped that off a rotting corpse somewhere) and mentions larvae larger than usual by a nearby lake. Fearghas freaks her out by saying he is an alchemist, and we walk to the lake.</p><p>Nature is twisted here, plants and larvae mutated, but Emilio doesn't sense the touch of the void. It reminds me too much of a certain demon and I grow increasingly anxious. Fearghas detects transmutation magic coming from inside the lake. We chug potions of water breathing, and jump in.</p><p>After a good half-hour of nerve-wracking swimming in darkness, and glimpsing tentacles among sharp pillars, we reach a brine pool and a fleshy wall pierced with long metal spikes. It looks like a huge, ancient creature being tortured. Reluctantly, I tell the party about the Sibriex lair I was in. I give them as much information as I can, including telepathic images of half-organic corridors and twisted creatures, but my courage fails me at the end.</p><p>We follow a current to a giant eye, also pierced with spikes. We can squeeze in... we don't talk very long before deciding to go in. The party is intrigued, but my conscience will not let me walk away. This thing is so close to a city full of people... slavers, yes, but people nonetheless.</p><p>Wait... the Duergar use \"demon engines\"? What if this big creature was *not* a giant tortured fish? What if the close proximity with Ukgluz is deliberate? I am filled with dread at the strong suspicion that we are... intruding into the lair of a Sibriex... that is *working with* the Duergar.</p>"
         },
         {
           "name": "74",
@@ -7502,6 +8004,11 @@
           "name": "75 - There are TOO MANY fluids!!",
           "section": "journal-pages",
           "content": "<p>Fearghas crushes a gem of Mind Blank and smears the dust on my forehead. I am excluded from the telepathic bond, but immune to psychic damage, charmed, mind reading, and scrying spells. Shalkoc makes me a batch of… meat… cookies? Lacking in crunch, they are surprisingly tasty. I try to not wonder too much where the meat comes from. Plex pulls out a stash of Silver Tears and requests something in exchange for them, which makes Fearghas grumble. After trading with our goblin for cocaine, Fearghas casts Foresight on Shalkoc to give him the power of the Echo and advantage on pretty much everything. I give Aviana a root to eat and recover 21 HP. She claims I am the only one who cares about healing her, which is not only false but mildly pisses off Shalkoc (understandably).</p><p>Clouds of magical darkness drift past us. We're already completely lost in the maze of shifting corridors… We eventually gather our courage and leave the bubble. As we walked along a narrow hallway, then walked back, we found a wall. Then another wall as we turned around. The ground started to open up, a puddle of blood forming, sizzling like acid. Emilio and Fearghas start to feel unwell. The hallway in front of us opens up and the walls around us twist and shake with growing intensity. A cloud of darkness comes towards us! Just in time, Emilio warns us of a creature in the darkness, then says the wall blinked, removing one of the Walleyes.</p><p>Emilio goes ahead and describes a lake of blood to us in the darkness, and a big creature ahead. There is a snake-like creature in the pool, along with body parts and, below the surface, items like in a waste pool. We wonder if there is a stomach up ahead, I interject that this is not a real creature we are in. Emilio fires his three blasts into the darkness, and hits another Major Malleable. A snake made of guts slithers from the blood pool and up the wall. The Slithering Bowel (eat dirt, Aerelia) sprays digestive fluids at Emilio, he dodges most of it.</p><p>Aviana walks up to Emilio; the tunnels are barely wide enough for her. She casts Resistance on herself, then takes out the dented iron flask and holds it at the ready. One of the eyes on the wall glares at Emilio with such intensity that he is charmed. I heal him of his poison, then apply Piercing the Veil. Emilio turns to me and says that now he is not the only one cursed with knowledge. Shalkoc tries to blindly punch the Slithering Bowel, but misses, punches a hole into the wall that immediately closes itself. Another of those abominations spits a tooth at Shalkoc, who deflects it onto the other bowel. It spits another spray of digestive fluid at us. I am so disgusted I dodge it close to perfectly, but Plex on my shoulder is not so lucky and gets a whole drop on him.</p><p>Plex and Emilio are blinded by the acid. Emilio is hit by more acid, and dazed. Fearghas mumbles at the back, and then casts a Lightning Bolt, under my direction. His spell only grazes us harmlessly, but it hits two bowels and the Obscuroth from last time that we didn't chase. It was just chilling invisible at 1 HP. F in the chat. It appears as its corpse drops on the shore of the blood lake. Shalkoc is grabbed by something exceedingly fleshy and dragged into the acid pool. He managed \"elp\" before he got attacked by a Major Malleable.</p><p>The walls are spasming violently, tripping Emilio who was already blinded, charmed, and dazed. From the ground, he shoots three blasts at… Fearghas? They all miss, and Emilio shakes himself from his daze. He breaks free from the Walleye's charm too, but he is still lying prone. One of the slithering bowels spits acid at us, blinding Emilio and Plex all over again. Aviana works herself into a rage and steps into the darkness and grabs a bowel, at Emilio's urging to tear it apart (he is very sick of being blinded). She can't see through the darkness, and steps into the blood pool. She struggles out and climbs up on the wall, still squeezing the bowel, shouting to Shalkoc all the while.</p><p>Shalkoc gets hit by the Walleyes' psychic ray, but deflects it. He still gets charmed. I start towards Emilio to heal him, but as I do so, a wild magic surge surrounds me in magical darkness. I'm distracted and my spell comes out weak; the spasming walls trip me and I stumble next to the warlock. Plex falls off my shoulder squeaking. I grit my teeth and channel a Healing Word on Emilio, doing some actual healing this time, but ANOTHER wild magic surge makes me allergic to cloth. I am wearing cloth. My eyes are just streaming at my own dress, and the channelling fatigue hits hard.</p><p>Not my day.</p><p>Plex dodges the meat folds in the ground, and climbs back up on my shoulder. He casts, blindly, Ice Storm. Aviana dodges it, but the terrain is all slippery now. Shalkoc is charmed by the Walleye, but uses Stillness of Mind to remove it. And that's another surge, the next dog he sees in in fact, god. Anagrams, y'all. He is still being grappled by the Major Malleable in the acidic blood pool; as Fearghas puts it, \"gently caressed by the meatball\".</p><p>Fearghas is tripped by the spasming walls, jumps to his feet, and uses a spellgem of Dispel Magic to clear up the magical darkness around me. It's a big relief… although my dress still itches and makes my eyes water. Grappled by the malleable, Shalkoc is being drained of his spirit so hard that even his max HP would be reduced, but he uses a mythic power to resist it. Another cloud of magical darkness erupts from the Major Malleable, from the same wild magic surge I got a minute ago. Emilio is still prone but gets up at last. He is pissed off and goes into Void Form of his own accord. He stumbles into the icy area left by Plex, and fires Eldritch Blast on the Slithering Bowel. The latter wriggles free from Aviana's grapple and slithers away. Aviana smacks her talon down on it and crushes it before it can escape.</p><p>She calls out to Shalkoc, leaving one cloud of magical darkness and stepping into another one. Shalkoc calls for help, he is being grappled. She grabs the Major Malleable that is holding Shalkoc, and drags it, then jumps while holding it. \"Shalkoc, do not resist,\" she says, as Shalkoc is dragged along, through the air, and takes heavy damage from the Cursed Thunderfeet when Aviana lands. The Walleye sees Aviana get too close, and becomes very uncomfortable. It casts Darkness.</p><p>I channel my summoning spell and call a powerful form of Fade to help in the battle. Emilio describes to Plex where the enemies are as he loads up a Gravity Fissure. Plex is no longer blinded, but he can't see through magical darkness like we do. I point Plex at the monsters like a gun. Aviana, Shalkoc, and the Walleye dodge, but both Major Malleables fail. Fade runs towards one of the Major Malleables, hunting by sound, and bites it hard, then becomes invisible. Shalkoc punches the Malleable to death and chugs a potion of speed. He vibrates out of the grapple and punches the other Malleable very hard, you might say critically so, then shifts to Turtle Stance and moves back, screaming he needs help.</p><p>Now that the Dragonborn is close, I see his injuries are critical! Just then, a Slithering Bowel spits acid from behind us, blinding me and Shalkoc. Plex dodges it somehow. Fearghas dodges the spasming walls with impressive agility. He puts on his Glasses of True Seeing, and chugs a potion of Maximum Power. The Malleable shuffles towards Shalkoc, stepping over my invisible Fade. It hits Shalkoc, who shields himself with his Protective Wings.</p><p>Emilio gets to the Malleable and starts tearing it apart with his claws. I only hear concerning slashing sounds… Aviana grabs the Walleye and squeezes it, then pushes her talons into it. She is pulling it out of the wall and almost has it out, but a bit at the back is still sticking. I wobble towards Shalkoc, blind but guided by Fearghas. Plex is shouting into my ear a lot of lines to the general effect of \"let me at 'em!\" He is distracting me and I step into the pool of acidic blood… Metal crunches under my feet. I cast Heal on Shalkoc, unseasoned because I am spending way too many resources already.</p><p>Plex chugs a Potion of Heroism. None of us like where this is going. Plex grimaces like he is ready to bite. Level 13 Wizard by the way. I hope he does not bite me… Fade shreds the Bowel with her teeth and knocks it prone, but doesn't manage to kill it. Shalkoc brutally slaps the Bowel, which attempts to slither away into a hole under the acid blood. Emilio slashes it on its way, killing it.</p><p>Fearghas' magic reaches to Aviana, ripping blood from her and crystallising it into three spikes that stab the Malleable to death, and pin the corpse against a nearby wall. Aviana says \"hey the walls are helping us!\". A mouth in the wall opens up and replies \"No we're not.\". I stare at Fearghas in shock. I climb onto the fleshy island in the middle of the blood pool to get out of the acid. Something revolting bursts under my hand, and Emilio lends me a steadying… errr… claw. The celestial speaks to us; I try to answer, but Emilio snaps at it.</p><p>Now that we can see again, we can distinguish what is at the bottom of the blood pool. Low-quality clothes and chains like that of the slaves in Ukgluz, some useless items… and a lot of coins. Some of the coins are too deep to pick up without diving, but Fearghas uses Mage Hand.We estimate that there are around 9700 gold coins in there! Aviana casts Find Traps, with the same result as before; everything is a trap.</p><p>The problem is time. How much time are we willing to sacrifice to fish out gold coins? There are other items in the blood pool, stuck in the crevices so someone will have to dive down to retrieve it. There is a silk robe embroidered in gold, untouched by the acid. There is also jewelry, potentially magical. Fearghas casts Guidance on Aviana, she casts Resistance on herself, and prepares to dive to retrieve anything of value (that isn't money). She spots a gold chain with an opal set inside, and a gold locket. The harpy dives in, pushes the flaps of meat aside and retrieves all three items, taking minimal damage in the process, as she is resistant to acid.</p><p>Emilio picks up the gold chain set with the fire opal, and Aviana takes the gold locket with a painted portrait inside, as well as the silk robe with gold embroidery. Emilio is mesmerised by the fire opal. We start walking, trying and failing to find our way. The tunnel shrinks, space is getting too tight for comfort… we can either let it squeeze us into a direction, or try to resist and stand our ground. Fearghas breaks a gem of Leomund's Tiny Hut, shielding us all within a dome of force. The walls begin to crush the dome; if we had tried to resist this, we would probably have suffocated. The bubble doesn't move, and after about three minutes, the walls expand again. We move on.</p><p>We reach another area of magical darkness. Emilio and Fearghas walk in, I hesitate next to Shalkoc. Behind us, Aviana hears a trickling, then a rushing. A wall of greenish bile floods the tunnel towards us. We brace for it and withstand it, but Fearghas and Emilio are swept away, pushed into a wall, and dragged along. Fearghas manages to hold on, but Emilio is pushed farther from us, unable to find his footing. (he's failed 6 saves at this point and we are screaming)</p><p>Something tries to snatches Emilio before he can be swept into a hole but he wriggles out and falls into the hole. HE FINALLY SAVES, holding onto teeth at the edge of the maw. He pulls himself up and out of the gaping maw at the cost of extensive acid burns. Left behind, Shalkoc starts to stumble through the magical darkness. He uses Step of the Wind to catch up to Emilio, but I lose sight of him completely.</p><p>I cast Piercing the Veil and advance through the magical darkness. Fade caught up to us, she is invisible but her presence reassures me. Less so Plex' on my shoulder, but he hands me two bottles of very dark wine as thanks for carrying him. To maintain the balance of trade, I hand him a torch. I don't think it will help him see through the magic-wrought darkness, but it's symbolic, right? I'm worried about Emilio, I'm sure he is injured. I need to get to him. Fearghas went ahead of me, and caught up to him and Shalkoc. I can't be too far behind.</p><p>Plex drinks some of the same dark wine. The magic around him shifts, shapes into a spell just short of casting. An invisible Obscuroth slides just in front of us, and Plex releases his Thunderwave… triggering a MAJOR WILD MAGIC SURGE. THAT BLINDS ANYONE WITHIN 60 FEET OF PLEX. I'll need a 9th-level spell to remove that!</p><p>An unfinished flesh golem is speaking to Emilio and Fearghas, begging to be left alone because it's been tortured so much, all its scales ripped of. It has the head of a juvenile dragon, on a humanoid body. The Dragonflesh golem unleashes an Elemental breath on Emilio, knocking the life out of him. The golem cries that he is sorry, then returns to being an emotionless golem.</p><p>Aviana tears through the wall of flesh, emerging next to the others whom I was trying to catch up to! Fearghas shouted that Emilio was down, from the shouts I hear, he could be dying. Fearghas shouts to Aviana to put Emilio in the flask. Shalkoc runs up to Emilio and feeds him snot, which revives him with a lot of coughing. He weakly thanks Shalkoc, who is silenced and just gives a thumbs up. The celestial's voice congratulates Shalkoc for pouring snot down Emilio's throat while he was unconscious and dying from his wounds.</p><p>What a time to have ears.</p><p>I dash towards the noise made by my friends, Plex guiding me. How the tables turn. I call out to them and say I'm blind. Unable to cast a spell, I draw my sharp dagger and clutch it for dear life. I hear a Walleye fire a Psychic Ray, and Fearghas grumbles about Wizard bullshit. He summons a Spectral Hand and uses a spellgem of Dimension Door to drop Emilio and Shalkoc next to me, by grabbing them with the very spooky hand. Fearghas joins us, swinging his obsidian battleaxe. Level 13 Wizard by the way.</p><p>Plex offers to Fearghas to buy his Haste Potion. Fearghas retorts \"Plex, do you understand the concept of DYING?\" Aviana is getting attacked by something. Shalkoc gains inspiration as the Dragonflesh golem is proof of the existence of dragons. Plex uses Fey Step and disappears on the other side of a wall. Again. This time he is not far from us, and he casts Gravity Sinkhole. We discuss what to do with the Dragonflesh golem, and decide to put it out of its misery. I argue that I prefer to spend my most powerful spell on my friends rather than attempt to save a creature twisted beyond recognition, that has tried to kill us.</p><p>Plex shunts the Dragonflesh golem into the gaping maw. It screams in terror that it doesn't want to fall into that hole again, then sinks beneath the waves. I feel so sick… The darkness is suffocating… I can't fight it, it comes from my own eyes. Can we survive this? Will we even live to find the Sibriex? I can't break now, I am still needed. An Obscuroth wanders close to Fade, she tears it to shreds. The golem struggles in vain, shouting it doesn't want to go there again, not again. I can't shut out the screams, they sound too much like mine. The last we hear from the golem is that it doesn't want to \"receive any more mercy from that thing\". What a sickening thing to hear…</p><p>Emilio is completely unconcerned with his own survival, and enters Void Form again. I will dose this man with catfern and mavinsleaf if we ever get out of here. Abundantly. He applies Accrued Vitality and gives himself 26 temp HP, so maybe I will maybe it a slightly weaker brew. He slashes at a Bloater that is right in front of us. I get hit by a Tooth Spit from a Slithering Bowel, and dazed, but I keep my concentration on Fade. She dashes to us, but can't attack this turn.</p><p>Aviana shoves a repulsive enemy like Captain Falcon, straight into the maw in the middle of the room. Shalkoc hesitates to kill the Bloater because they explode when they die, he (rightfully so) fears he'll kill us (Emilio and me). I use a Mass Cure Wounds but it turns out to be weak sauce on everyone but me. Since I'm dazed, I can do nothing else…</p><p>Aviana gets critted and recovers a lot of resources! She brings up wanting to be bitten again. Fearghas casts Shocking Grasp on the Bloater, then slices at it with his axe, with precision entirely out of place for a Wizard! He moves away from us, past Fade, and drinks another Potion of Maximum Power. Fearghas spots a kind of flesh… workbench? in the distance. On it rests a heavy tome, and he gets this glint in his eyes…</p><p>Plex pushes the Bloater away from me, but closer to Fearghas. The monster tries to eat Emilio; he takes damage from the bite, then gets swallowed. Plex, still tiny, convincingly shouts at Emilio that he can, in fact, SEE in there! The Bowel next to Aviana tries to slither away, but she kicks it, sending it close enough to attack me, which it does. I take acid damage, and I am dazed again. This time I lose concentration and Fade dissipates in a burst of dark mist. Emilio somehow survives the Bloater's stomach acid but he is still severely injured. In clawing his way out, Emilio kills the Bloater, which explodes in a burst of acid. Our warlock emerges covered in acid, enraged.</p><p>The Bowel spits acid at me again. I can't think for the pain… We finally kill that last Bowel, and combat ends. I'm still blind, so I cling to anyone I can find. Fearghas picks up the tome; a Manual of Fiendish Flesh Golems. It is bound in many kinds of skin. He also finds a cloak woven in dragon scales, which he hands to Emilio. Shalkoc's last remaining braincell whispers to him to not run away on his own. Thank you so much, braincell.</p><p>I'm standing in place, paralysed with fear, when Fearghas walks up to me with a spell scroll and a spellgem, and removes my cloth allergy, and my blindness. I can finally see! And I see the blood in the pool in the middle of the room draining… The celestial's voice speaks to us not in our minds, but from below the pool, welcoming us.</p><p>Fearghas says out loud what we all think; we are in no condition for another fight and we absolutely need to rest. Emilio trades with Plex; one haste potion for Aviana, in exchange for Plex' last surviving chicken, which Emilio held onto. Fearghas prepares to put up the tiny hut, and we settle for a short rest next to the corpses, the acid puddles, and the empty pool of blood.</p>"
+        },
+        {
+          "name": "76 - Healing fear",
+          "section": "journal-pages",
+          "content": "<p>Aviana and Plex begin to argue, which ends as usual with Aviana grabbing Plex by the throat and squeezing, and them both disappearing. Teleportation out of here is impossible, so we assume they are still in the lair. Fearghas pulls out alchemical supplies, grumbles at our friends' disappearance, and we hear a sound coming from the north-east corridor. Fearghas says the telepathic bond ended when I bring it up, so we go look for them using our little feet, Emilio and I leaving a trail of blood from our injuries. Emilio's blood is black?!</p><p>We follow the twisting corridor to a room where we find a small Malleable that has… wings? Behind it is a large black egg. Emilio and Fearghas immediately blast the Malleable; its body melts into the ground, leaving feathers behind. The egg is warm and has a thin, slimy shell like a snake egg. Fearghas and Shalkoc say it looks nothing like a dragon egg… How do they know that? Not the time to ask. Something is moving sluggishly inside the egg. A humanoid hand seems to try to break through the shell, but is too weak to do so.</p><p>Before Fearghas can advise against this course of action, Emilio punches a hole through the egg, spilling fluid onto Emilio. Inside the egg is a gooey, disheveled… human woman. She is not happy, understandably so. She is small, blonde with green eyes, wearing black armour. Groggily, she asks where she is.</p><p>\"We're in the lair of a demon.\"</p><p>\"At the bottom of a lake.\"</p><p>\"In the Underdark.\"</p><p>5 iridescent feathers on the ground, untouched by the filth.</p><p>The blonde woman introduces herself as Kyrin. She is spooked by Shalkoc, towering over the party. She offers me a healing potion, then upon seeing Emilio, hands it to him instead. No hard feelings. He is hurt even worse than I am. She hands me a second healing potion. Emilio and me drink gratefully; a little of the tension goes out of him.</p><p>We return to the drained blood pool and Fearghas carries out the ritual for Leomund's Tiny Hut. Kyrin examines herself, checking for any unnatural growths that may have occurred while she was in the egg. Her shadow seems… strange. Doesn't move quite right, like it's lagging behind. I speak up, but Fearghas and Kyrin say I'm maybe seeing things. For a moment her shadow looked like mine… I must be imagining. Shalkoc cooks a thankfully vegetarian soup for Emilio and me.</p><p>I patch up Emilio with the bandages and herbs I have, then treat my own wounds. Shalkoc cooks a big medium rare steak for Kyrin, generously spiced with ginger. What meat is that? After handing her food to Kyrin, Shalkoc gives me a very soothing high-five with his Hand of Healing. Fearghas insistently asks Shalkoc where he got the steak from, which makes Kyrin hesitate until Shalkoc assures he bought the steak in the city. Shalkoc cooks more meat, this time some kind of chicken, as a snack for Fearghas.</p><p>The voice calls from the hole: \"Yes, pause and breathe in the tranquility, dear ones. The transition from the River to the boundless peace of Nirvana can be… intense. Rest is a balm, and I am here to offer comfort and guidance.\" Emilio shouts at it to shut up. Fearghas offers him a drink, he refuses. The dwarf insists, and pours him some dwarven ale. Kyrin enquires as to why Emilio is so angry at the voice. His voice seeps barely controlled fury as he speaks about the abysmal luck he's been having.</p><p>I offer to treat the party's remaining scrapes and hurts. They decline, but the celestial speaks in my mind, saying they are impressed with my dedication to heal, and they are eager to teach me to heal even better. I go positively green at that. Fearghas hands out potions of heroism, which we all drink as we steel ourselves.</p><p>The hole in the middle of the room is deep, with slippery walls. Fearghas suggests to cast Feather Fall, and just jump. AAAAAAAAAA. We float down into a large fleshy chamber, very humid and reeking. A big hole in the north wall leads to another chamber, presumably. We hear skittering, squelching steps. There is no sign of the Dragonflesh golem… The voice calls \"There you are, let me tend to you.\" Kyrin crouches behind a fleshy growth, all but disappearing from sight. Fearghas takes a steeling drink. I panic and use Shadowslip to disappear (and a major wild magic surge giving me a permanent 1d8 to my charisma checks!). Shalkoc uses Guardian of Nature: Primal Beast. Emilio glares.</p><p>The skittering comes closer… Hands, followed by elbows, more hands, more elbows… It straightens, a monster of arms and more arms that moves gingerly but dextrously. The monster cradles what remains of a celestial, or rather, many celestials stitched together. Bones sticking out of its fingers make dreadful claws. It asks us to come into its embrace. Emilio is enraged and threatens it. The monster responds with kindness…</p><p>We roll initiative.</p><p>The Perfected Deva takes two steps towards us, then teleports very close! It swings claws at Fearghas saying soothing things, to which Fearghas grumbles heartily. It encourages us to come closer, and sweeps across the entire area with its claws. It hits and grapples Fearghas, restraining him as it pulls him into its loving embrace. Urgh. Emilio gets hit and delivers a spicy Hellish Rebuke in reaction, but the boss saves and takes half damage. Emilio gets grappled as well. I get hit even in shadow form, breaking the spell, and grappled. Shalkoc blocks the attack with his wings. Kyrin is not noticed by the monster at all.</p><p>I resist the curse, try to escape the grapple, but fail. Shalkoc goes into Mantis Style and punches, then attempts to deliver a Stunning Strike, twice. He does damage, but both strikes fail to stun the Deva. He unleashes a Flurry of Blows, triggers Chromatic Hardening, and tries one last Stunning Strike, to no avail. He steps away, unharmed by the monster.</p><p>Emilio resists the curse like it's nothing. He casts Void Torrent, and teleports away; the acid does not seem to harm the Deva at all. He goes into Void Form and uses Accrued Vitality but it's weak sauce and he only gains 8 temp HP. Tragic. Kyrin gets cursed. The Deva tells us to not be afraid, which promptly frightens Shalkoc and me (I rolled with advantage, and thankfully, because that was a 4 and a 1…). Kyrin pulls out a SUN BLADE and swings at the monster in a sneak attack, dealing a ton of radiant damage. She follows it up with a Psychic Blade, but the attack misses. She runs to safety.</p><p>The Deva uses Helping Hand (a claw attack with free necrotic damage and spicy crit range) and crits Fearghas for a massive chunk of HP. He casts Misty Step to get the hell out, leaving me alone in the grapple. He casts Hold Monster from a spellgem.</p><p>\"Aerelia if this thing is immune to paralyse, I'm going to shank you.\" Karnack, 2025.</p><p>We don't find out because the Deva saves, and Fearghas is very upset. The Deva uses Gentle Light, spawning a cloud of magical darkness on Kyrin. The Deva uses To the Rescue, teleporting to Shalkoc and dragging me along. Pressed into its ribcage, I feel squirming underneath the skin. There is a lot of maggots in there… The Deva hits me, it's another crit. I take heavy damage, leaving me at low health with a half-baked plan.</p><p>The Deva has a legendary resistance, and I only get one shot at a healing burst. I levitate myself out of the grapple, run away 20 feet in the air, and apply a healing word on myself, healing barely anything. Shalkoc punches for all he's worth, with a lot of feeling, but does not stun the Deva, so he shifts to Turtle Stance. The Deva uses Don't be Afraid again, but we all endure the wave of fear without flinching. Emilio growls that he has seen much worse in the void, and pummels it with an Eldritch Blast. Two beams hit, and Emilio uses Grasp of Hadar to drag the Deva closer to him.</p><p>The monster unleashes another wave of fear, terrifying Shalkoc and Kyrin. It uses Empathy/Loneliness as a reaction to her failing the save, forcing us to make two other saves which she barely passes, at the cost of light psychic damage. She sidesteps out of the magical darkness and throws a Psychic Blade because she is frightened and unable to move closer.</p><p>The Deva feels lonely and teleports to Kyrin, who flips it off as a free action. \"What a gentle gesture,\" it sighs. \"Oh I've got a gesture for you all right!\" She says. Fearghas steps in cat puke IRL then casts Scorching Ray. It would deal massive damage, but the Deva uses a Legendary Resistance! Then Fearghas chucks a Spiritual Weapon at it. The Deva uses a legendary action to attack Kyrin on Fearghas' turn, she uses her Uncanny Dodge to halve the damage.</p><p>The Deva hits Kyrin again, taking half her life in one blow. She then hits me; I drop to 1 HP and the Death Ward dissipates! I stop concentrating on Levitate and float to the ground. Through the Staff of Power, I cast Wall of Force and put myself in an unbreakable box to buy time. A Healing Word on Shalkoc gives him courage to approach the enemy and punch the living daylight out of it. Emilio gets close and readies up a spell. The Deva uses a Helping Hand on Kyrin, who dodges it perfectly. Close call!</p><p>Kyrin gets an otherworldly inspiration called Karnack; she hides, applies Shadow Strike to increase her reach, then attacks with a melee Psychic Blade, and marks the enemy's soul. She books it to a safe distance. A new wave of fear rolls out from the Deva, but none of us are afraid! Fearghas commands his Spiritual Weapon to attack, then prepares a Scorching Ray.</p><p>Another wave of fear hits us, and this time it's too much for everyone but Fearghas. Shalkoc indirectly saves my life by using a Dreamfeather and allowing me to reroll, avoiding psychic damage from Empathy/Loneliness. Kyrin gets hit by it but saves, barely surviving. On its turn, the Deva goes to her. Shalkoc tries an attack of opportunity, but is hit by a wild magic surge that inflicts disadvantage on all his attack rolls, cancelling the advantage from his future sight. Kyrin gets hit by Helping Hand, and goes down. The Deva jumps back to Shalkoc's rescue and bumps into my Wall of Force. Eyes lock onto me and hands feel at the Wall of Force, looking in vain for an opening. It looks disappointed, but it waits for my barrier to fall off.</p><p>Emilio and Fearghas unleash their readied spells, Tasha's Mind Whip and Scorching Ray. The Deva rolls a critical save on the mind whip and does not use resistance… Five of Fearghas' rays hit, and the Deva uses Legendary Resistance!</p><p>Steeling myself, I drop concentration on the Wall of Force. The hands reach out to me as I am defenseless, critically injured, but I am faster. Ripping my spellwards from my wrists, clutching the Staff of Power, I channel my strongest healing spell. A torrent of positive energy rushes towards the Deva, closing all wounds but also feeding the maggots inside and making them multiply until the creature's skin tears and the disgusting things burst out. The Deva's twisted body crumples, and the ruined face looks up at me. In a last whisper, it says \"Thank you\". For a moment I am filled with serenity and thoughts of the dawn's light, just like the day I received my staff.</p><p>Maggots are swarming all over. I step around them, casting a Healing Word on myself, and start toward the unconscious Kyrin. Shalkoc makes short work of the maggots with a fire breath, popping them like corn. Combat ends at last, and I rush over to Kyrin and get her back on her feet. Fearghas harvests the maggots, while telling Shalkoc to NOT eat them or even pick them up. He tries to get materials from the Deva's corpse, but it's too corrupted to make anything out of.</p><p>Kyrin finds 15 gleaming Springseeds. I scoop them up carefully and put them in my bag of herbs, hoping to plant them on Promise soon. We consider taking another rest, but the lair begins to quake and spasm. Again a rushing sound comes towards us from above. We cannot take another wave of bile now! I can confirm that we are in a stomach, urgh. The hole up north should be a throat of sorts; we dash into it, chased by the rushing sound becoming louder behind us. I block the tunnel with a Wall of Force as soon as we are through, but if the wall is unbreakable, the sticky walls of flesh will not hold much longer. We burst out of the sticky throat into a mouth with several rows of enormous teeth, closed.</p><p>Fearghas casts Shocking Grasp to get the creature to open its mouth, and his Lich Hand to tickle the uvula. It doesn't work out, so Emilio tries with a Mage Hand, but fails miserably. Kyrin stabs the tongue with her Psychic Blade. The blade goes in to the hilt, but we see no wound. The tongue rises to crush us against the roof of the mouth, but the teeth are cracking open. A wall of water rushes in…</p><p>Fearghas and Emilio very quickly put their heads together, talking quickly about magic. They come to the conclusion that teleportation should now be possible. Fearghas says \"Get in my mouth!\" and nobody understands until he polymorphs himself into a whale and takes a deep breath, filling his mouth with air. We all hop in.</p><p>\"I am the coo of the sea!\" Fearghas, 1497.</p><p>The water is a lot murkier, polluted with blood and bile. Whaleghas spots small Aboleths in the water. He swims up, and beaches himself on a… beach, and kindly opens his mouth to let us out. He reverts to his true form spitting, saying one of us tastes awful. Emilio apologises.</p><p>We are in a cave we've never seen before. Kyrin suggests a Detect Magic spell, so I take out my wand and give it a happy little wave. Kyrin seems to see just fine, she is intently looking around the cavern as if searching for something. We discuss our options; do we return to Fearghas' mansion in Ukgluz, or teleport to Promise? We quickly brief Kyrin on our… history with the Duergar. And the Drow of House Vandree… We decide to head back to Fearghas' mansion, on foot. Fearghas pops a spellgem of Find the Path.</p><p>We are on the other side of the lake, so it isn't far, but we have to go through the water again. Not a problem, as Fearghas turns back to Whaleghas to ferry us across. On the way, Kyrin says she was employed by the Drow to investigate Ukgluz, then tried to infiltrate Lessia with the Duergar, but she messed up, and can't be seen by them now. The last thing she remembers is Matron Vandree telling her she will never disappoint her again, and the next thing she knew she woke up in a gooey egg in the lair. The whale noises stop at that, then resume, and Whaleghas sneakily slaps Shalkoc with his tongue. Whalegas spits us all out on the other side of the lake, on the side of Ukgluz. The mutated larvae here have grown even larger…</p><p>Fearghas, back to dwarf form, grumbles about \"mahr-might taste\" again, and blames Shalkoc, who is offended. We make for Ukgluz, but Kyrin stops. She fears being recognised. Anxiously, she asks us not to tell on her as she shapeshifts into a child with the look of an urchin. Although she is smaller, her shadow grows larger. Irritatedly, she stomps on it and mutters at it under her breath. Her shadow behaves, and with child-Kyrin in tow, we walk to Ukgluz. Fearghas sticks the hat on his head and reminds us that we are all pretending to be his slaves.</p><p>As we reach the alleyway where the manor is, Fearghas stops abruptly. We all collide into him, which amuses a Duergar nearby, who asks how he will punish his slaves for this, and thankfully leaves. Right in front of the manor's invisible door is one of the Duergar's statues. Apparently these are the \"demon engines\" or are powered by them. It hasn't noticed us yet.</p><p>We investigate a little, then sneak past the statue. It doesn't move and we slip into the mansion unnoticed. Fearghas officially welcomes us to the Chateau de MacAllistar. We chill and get Kyrin up to speed about why we were in the Sibriex lair. Fearghas mentions, with no ill intentions I'm sure, that we went into the lair because I insisted on it. We nearly died in there… Suddenly choked with guilt, I excuse myself to the kitchen to make tea, but Kyrin thanks me for saving her, that if we hadn't gone into the lair, she would have been warped into a monster. I try to reply, but only squeak, and hurry to the kitchen, asking Shalkoc if we can make some cookies for everyone, too.</p><p>Fearghas, Emilio, and Kyrin discuss origins, reputation, and casual racism in the dining hall. We return with tea and snacks. Fearghas contacts Aviana with a Sending, asking where she and Plex are, and whether they are both safe. Aviana replies very tensely with \"where the fuck are you\", \"what is this bullshit\", and something about her dress being all dirty, and she was done with sewers, and she was done with filthy places! And this is more than 25 words for sure.</p>"
         }
       ]
     },
@@ -7556,7 +8063,7 @@
         {
           "name": "MonsterDex",
           "section": "journal-pages",
-          "content": "<p>Note:</p><p></p><p></p><p></p><hr><h2>Name: Start Spawn Grue (minion)</h2><h2></h2><h2>Encounter Day: 26 Nonus 1467 (Dry season)</h2><h2>Known Weakness:</h2><h2>Move:</h2><p></p><p></p><h2>Description:</h2><p></p><p>Some weird stuff coming from the Void Gate that we was orded to clean. Not knowing how they taste but they look uggly which usually tasty from my experience</p><p></p><hr><h2>Name: Wardu</h2><p></p><h2></h2><h2>Encounter Day: 26 Nonus 1467 (Dry season)</h2><h2>Known Weakness:</h2><h2>Move:</h2><p></p><h2>Description:</h2><p></p><hr><h2>Name: Choker</h2><p></p><h2>Encounter Day: 26 Nonus 1467 (Dry season)</h2><h2>Known Weakness:</h2><h2>Move:</h2><p></p><h2>Description:</h2><p></p><hr><p></p><p></p><h2>Name: Otyugh</h2><p></p><p></p><h2>Encounter Day: 26 Nonus 1467 (Dry season)</h2><h2>Known Weakness:</h2><h2>Move:</h2><p></p><h2>Description:</h2><hr><p></p><p></p><p></p><h2>Name: umbral Spirit</h2><h2>Encounter Day: 2 Nonus 1467 (Dry season)</h2><h2>Known Weakness:</h2><h2>Move:</h2><p></p><h2>Description:</h2><p></p><p>Naami's Shadown Kitten, everyone said it look cute. I wonder how will it taste. Curious!</p><p></p><p></p><p></p><hr><p></p><h2>Name: Swam of Maggots</h2><p></p><h2>Encounter Day: 2 Nonus 1467 (Dry season)</h2><h2>Known Weakness:</h2><h2>Move:</h2><p></p><h2>Description:</h2><p></p><p>Look like bunch of moving rice grain. I wonder what if you fry it with egg would be called Fried Maggot with egg or Fried Egg maggot? Either way must be very tasty.</p><p></p><p>As expected, they are vulnerable to Fire</p><p></p><hr><p></p><h2>Name: Bloater</h2><p></p><p></p><h2>Encounter Day: 27 Nonus 1467 (Dry season)</h2><h2>Known Weakness:</h2><h2>Move:</h2><p></p><h2>Description:</h2><p>Vulnerable to slashing damage</p><p></p><p></p><p></p><hr><p></p><h2>Name: Major Malleable</h2><p></p><h2>Encounter Day: 27 Nonus 1497 (Dry season)</h2><h2>Known Weakness:</h2><p>Piecing Damage</p><h2>Move:</h2><p></p><h2>Description:</h2><p></p><hr><h2>Name: Slithering Bowel</h2><div></div><p></p><p></p><h2>Encounter Day: 27 Nonus 1497 (Dry season)</h2><h2>Known Weakness:</h2><h2>Move:</h2><p>Combo to shoot people that Blinded</p><h2>Description:</h2><p></p><hr><h2>Name: Dragonflesh Golem</h2><p></p><p></p><h2>Encounter Day: 27 Nonus 1497 (Dry season)</h2><h2>Known Weakness:</h2><h2>Move:</h2><p></p><h2>Description:</h2><p></p><p></p><p></p><p></p><hr><p></p><h2>Name: Fiendish Flesh Golem</h2><p></p><h2>Encounter Day: 27 Nonus 1497 (Dry season)</h2><h2>Known Weakness:</h2><h2>Move:</h2><p></p><h2>Description:</h2><p></p>"
+          "content": "<p>Note:</p><p></p><p></p><p></p><hr><h2>Name: Start Spawn Grue (minion)</h2><h2></h2><h2>Encounter Day: 26 Nonus 1467 (Dry season)</h2><h2>Known Weakness:</h2><h2>Move:</h2><p></p><p></p><h2>Description:</h2><p></p><p>Some weird stuff coming from the Void Gate that we was orded to clean. Not knowing how they taste but they look uggly which usually tasty from my experience</p><p></p><hr><h2>Name: Wardu</h2><p></p><h2></h2><h2>Encounter Day: 26 Nonus 1467 (Dry season)</h2><h2>Known Weakness:</h2><h2>Move:</h2><p></p><h2>Description:</h2><p></p><hr><h2>Name: Choker</h2><p></p><h2>Encounter Day: 26 Nonus 1467 (Dry season)</h2><h2>Known Weakness:</h2><h2>Move:</h2><p></p><h2>Description:</h2><p></p><hr><p></p><p></p><h2>Name: Otyugh</h2><p></p><p></p><h2>Encounter Day: 26 Nonus 1467 (Dry season)</h2><h2>Known Weakness:</h2><h2>Move:</h2><p></p><h2>Description:</h2><hr><p></p><p></p><p></p><h2>Name: umbral Spirit</h2><h2>Encounter Day: 2 Nonus 1467 (Dry season)</h2><h2>Known Weakness:</h2><h2>Move:</h2><p></p><h2>Description:</h2><p></p><p>Naami's Shadown Kitten, everyone said it look cute. I wonder how will it taste. Curious!</p><p></p><p></p><p></p><hr><p></p><h2>Name: Swam of Maggots</h2><p></p><h2>Encounter Day: 2 Nonus 1467 (Dry season)</h2><h2>Known Weakness:</h2><h2>Move:</h2><p></p><h2>Description:</h2><p></p><p>Look like bunch of moving rice grain. I wonder what if you fry it with egg would be called Fried Maggot with egg or Fried Egg maggot? Either way must be very tasty.</p><p></p><p>As expected, they are vulnerable to Fire</p><p></p><hr><p></p><h2>Name: Bloater</h2><p></p><p></p><h2>Encounter Day: 27 Nonus 1467 (Dry season)</h2><h2>Known Weakness:</h2><h2>Move:</h2><p></p><h2>Description:</h2><p>Vulnerable to slashing damage</p><p></p><p></p><p></p><hr><p></p><h2>Name: Major Malleable</h2><p></p><h2>Encounter Day: 27 Nonus 1497 (Dry season)</h2><h2>Known Weakness:</h2><p>Piecing Damage</p><h2>Move:</h2><p></p><h2>Description:</h2><p></p><hr><h2>Name: Slithering Bowel</h2><div></div><p></p><p></p><h2>Encounter Day: 27 Nonus 1497 (Dry season)</h2><h2>Known Weakness:</h2><h2>Move:</h2><p>Combo to shoot people that Blinded</p><h2>Description:</h2><p></p><hr><h2>Name: Dragonflesh Golem</h2><p></p><p></p><h2>Encounter Day: 27 Nonus 1497 (Dry season)</h2><h2>Known Weakness:</h2><h2>Move:</h2><p></p><h2>Description:</h2><p></p><p></p><p></p><p></p><hr><p></p><h2>Name: Fiendish Flesh Golem</h2><p></p><h2>Encounter Day: 27 Nonus 1497 (Dry season)</h2><h2>Known Weakness:</h2><h2>Move:</h2><p></p><h2>Description:</h2><hr><h2>Name: Perfected Deva</h2><p></p><h2>Encounter Day: 27 Nonus 1497 (Dry season)</h2><h2>Known Weakness:</h2><h2>Move:</h2><p></p><p>Can Teleport</p><p></p><h2>Description:</h2>"
         },
         {
           "name": "1",
