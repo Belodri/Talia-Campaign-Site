@@ -486,14 +486,6 @@
         "requirements": "Mythic Legend 1"
       },
       {
-        "name": "Hearthstone",
-        "description": "<p>The Hearthstone is a sacred item among all giantkin. These heavy, flat pieces of granite—typically 1 to 2 feet in diameter—are painstakingly carved by mighty runepriests, imbued with ancient magic to tether the bearer’s essence to a place of safety. Revered as both currency and a protective charm, Hearthstones are traded between giants with great reverence, their value lying not only in material worth but in the promise of an arduous but ultimately safe journey back home in death, for those strong enough to endure it.</p><p><strong>Shattering</strong></p><p>When a creature carrying a Hearthstone dies, the Hearthstone shatters. Upon doing so, the creature must make a [[/save con DC 18 format=long]]. On a successful save, the creature's body and any attuned items it carried at the time of its death instantly return to the location of its last extended rest (an extended rest takes 1 month). The body appears unconscious, afflicted by a deep fever, and remains in this state until the soul completes its return journey.</p><p>Unless the creature’s soul is captured at the time of the creature's death, it must travel through a cold and snow-covered woodland, eventually finding refuge in a warm cabin, symbolizing its body. The journey back to its body takes a number of weeks equal to 50 minus the result of the saving throw (minimum of 1 week). During this time, the creature cannot be revived by any means, including spells like revivify or raise dead.</p><p>Once the soul completes its journey, the creature’s fever breaks, and it awakens with 1 hit point. The Hearthstone is destroyed after use and cannot be restored or repaired.</p>",
-        "section": "physical-items",
-        "quantity": 1,
-        "combinedLabel": "Exotic Currency",
-        "attunementLabel": ""
-      },
-      {
         "name": "Potion of Growth",
         "description": "<div><p><em>The red in the potion's liquid continuously expands from a tiny bead to color the clear liquid around it and then contracts. Shaking the bottle fails to interrupt this process.</em></p><p>When you drink this potion, you gain the \"enlarge\" effect of the enlarge/reduce spell for 1d4 hours (no concentration required):</p></div><p>While enlarged, your size is increased by one category and your weight is multiplied by eight.<br>You have advantage on Strength checks and saving throws and your attacks with weapons deal an additional 1d4 damage.</p>",
         "section": "physical-items",
@@ -671,7 +663,7 @@
         "name": "Potion of Giant Size",
         "description": "<div><p><em>This potion is a pale white liquid made from the tongue of a giant clam, with a pungent aroma akin to that of rotting algae. It tastes sweet, however, when consumed.</em></p><p>When you drink this potion, your size increases by up to two categories for 24 hours. For that duration, your Strength becomes 25, if it isn't already higher, and your hit point maximum is doubled (your current hit points are doubled when you drink the potion). In addition, the reach of your melee attacks increases by 5 feet.</p><p>Everything you are carrying and wearing also increases in size for the duration. When rolling damage for weapons enlarged in this manner, roll three times the normal number of dice; for example, an enlarged longsword would deal [[/r 3d8]] slashing damage (instead of [[/r 1d8]]), or [[/r 3d10]] slashing damage (instead of [[/r 1d10]]) when used with two hands.</p></div>",
         "section": "physical-items",
-        "quantity": 1,
+        "quantity": 0,
         "combinedLabel": "Potion",
         "attunementLabel": ""
       },
@@ -724,14 +716,6 @@
         "attunementLabel": ""
       },
       {
-        "name": "Pristine White Dress from an Angel",
-        "description": "<p>Bought for 200g from a Devil in Hell, as you do.<br>This flowing garment leaves much to the imagination, as the revealing clothes are very similar looking to some familiar looking clothes.</p>",
-        "section": "physical-items",
-        "quantity": 1,
-        "combinedLabel": "Loot",
-        "attunementLabel": ""
-      },
-      {
         "name": "Null-Steel Chain (10 feet)",
         "description": "<p>A chain of heavy, blackened steel which has 10 hit points. It can be burst with a successful DC 20 Strength check. A creature restrained by these chains cannot cast spells of 5th level or lower.</p>",
         "section": "physical-items",
@@ -748,22 +732,6 @@
         "attunementLabel": "Requires Attunement"
       },
       {
-        "name": "Potion of Healing",
-        "description": "<p><em>The potion's red liquid glimmers when agitated.</em></p><p>You regain 2d4+2 hit points when you drink this potion.</p>",
-        "section": "physical-items",
-        "quantity": 2,
-        "combinedLabel": "Potion",
-        "attunementLabel": ""
-      },
-      {
-        "name": "Silk robe with gold embroidery",
-        "description": "",
-        "section": "physical-items",
-        "quantity": 1,
-        "combinedLabel": "Art Object",
-        "attunementLabel": ""
-      },
-      {
         "name": "Gold locket with a painted portrait inside",
         "description": "",
         "section": "physical-items",
@@ -772,22 +740,38 @@
         "attunementLabel": ""
       },
       {
-        "name": "Pack Tactics",
-        "description": "<p>All attacks rolls made against hostile creatures within 5ft of you have advantage.</p>",
-        "section": "feature-items",
-        "requirements": "Wolf Spirit"
+        "name": "Hearthstone",
+        "description": "<p>The Hearthstone is a sacred item among all giantkin. These heavy, flat pieces of granite—typically 1 to 2 feet in diameter—are painstakingly carved by mighty runepriests, imbued with ancient magic to tether the bearer’s essence to a place of safety. Revered as both currency and a protective charm, Hearthstones are traded between giants with great reverence, their value lying not only in material worth but in the promise of an arduous but ultimately safe journey back home in death, for those strong enough to endure it.</p><p><strong>Shattering. </strong>When a creature carrying a Hearthstone dies, the Hearthstone shatters. Upon doing so, the creature must make a [[/save con DC 18]] saving throw. On a successful save, the creature's body and any attuned items it carried at the time of its death instantly return to the location of its last extended rest. The body appears unconscious, afflicted by a deep fever, and remains in this state until the soul completes its return journey.</p><p>Unless the creature’s soul is captured at the time of the creature's death, it must travel through a cold and snow-covered woodland, eventually finding refuge in a warm cabin, symbolizing its body. The journey back to its body takes a number of weeks equal to 50 minus the result of the saving throw (minimum of 1 week). During this time, the creature cannot be revived by any means, including spells like revivify or raise dead.</p><p>Once the soul completes its journey, the creature’s fever breaks, and it awakens with 1 hit point. The Hearthstone is destroyed after use and cannot be restored or repaired.</p>",
+        "section": "physical-items",
+        "quantity": 1,
+        "combinedLabel": "Exotic Currency",
+        "attunementLabel": ""
       },
       {
-        "name": "Hamstringing",
-        "description": "<p>All critical hits against hostile creatures within 5ft of you deal an additional xd12 damage where x is half your proficiency bonus rounded up.</p>",
+        "name": "Adept Forager",
+        "description": "<p>You have advantage on Survival checks and you add your Constitution modifier to these checks.</p>",
         "section": "feature-items",
-        "requirements": "Wolf Spirit"
+        "requirements": "Elk Spirit"
       },
       {
-        "name": "Keen Senses",
-        "description": "<p>You have blindsight out to 15ft.</p>",
+        "name": "Survival Instincts",
+        "description": "<p>Your walking speed is increased by 20ft, you have a 1d6 bonus to your initiative rolls and, as long as you aren't incapacitated, you cannot be surprised.</p><p>Using Battering Ram grants you an amount of temporary hit points equal to your barbarian level.</p>",
         "section": "feature-items",
-        "requirements": "Wolf Spirit"
+        "requirements": "Elk Spirit"
+      },
+      {
+        "name": "Battering Ram",
+        "description": "<p>When you take the Attack action on your turn, you can replace one of your attacks with a special charge attack.</p><p>You move up to 50 feet in a straight line that is 5 feet wide, stopping when you hit the first creature in your path. The creature must make a Strength saving throw (DC = 8 + your Strength modifier + your Constitution modifier + your proficiency bonus). On a failed save, the creature takes 1d12 + your Strength modifier bludgeoning damage and is knocked back a distance equal to how far you charged before hitting it (to a maximum of 50 feet).</p><p>﻿If the creature is knocked back into another creature or a solid object, additional effects occur based on the distance it was knocked back:</p><ul><li><p>Less than 30 feet: The creature is &amp;Reference[distracted] until the start of its next turn.</p></li><li><p>30 to 40 feet: The creature is &amp;Reference[restrained] until the end of its next turn.</p></li><li><p>More than 40 feet: The creature is &amp;Reference[paralyzed] until the end of its next turn.</p></li></ul><p>﻿If the creature collides with another creature, both creatures suffer the same effect.</p>",
+        "section": "feature-items",
+        "requirements": "Elk Spirit"
+      },
+      {
+        "name": "Potion of Heroism",
+        "description": "<p><em>This blue potion bubbles and steams as if boiling.</em></p><p>When you drink this potion you gain 10 temporary hit points. Additionally you are under the effect of the Bless spell for 1 hour (no concentration required).</p>",
+        "section": "physical-items",
+        "quantity": 1,
+        "combinedLabel": "Potion",
+        "attunementLabel": ""
       }
     ],
     "Emilio Astray": [
@@ -808,42 +792,6 @@
         "description": "<div><p>Prerequisite: Proficiency with light armor</p><div><div><p>You have trained to master the use of medium armor and shields, gaining the following benefits:</p><ul><li>Increase your Strength or Dexterity by 1, to a maximum of 20. (chosen Dexterity)</li><li>You gain proficiency with medium armor and shields.</li></ul></div></div></div>",
         "section": "feature-items",
         "requirements": "Feat"
-      },
-      {
-        "name": "Accrued Vitality",
-        "description": "<p>You can expend 1 Essence Shard to gain [[/r 1d8]] temporary hit points. You can choose to expend one or more additional Essence Shards to increase the temporary hit points gained by [[/r 1d8]] per additional shard.</p>",
-        "section": "feature-items",
-        "requirements": "Void-Tainted 1"
-      },
-      {
-        "name": "Grasping Talons",
-        "description": "<p>You can expend 1 Essence Shard to increase the reach of your Reaping Claws by 5 feet until the end of your next turn.</p>",
-        "section": "feature-items",
-        "requirements": "Void-Tainted 1"
-      },
-      {
-        "name": "Netherwalk",
-        "description": "<p>You can expend 2 Essence Shards to increase your walking speed by 20 feet for 10 minutes.</p>",
-        "section": "feature-items",
-        "requirements": "Void-Tainted 1"
-      },
-      {
-        "name": "Essence Shards",
-        "description": "<p>If you hit a creature with the claws granted by your Void Form, you tear out a shard of its essence to feed your patron. You can never have more shards than you have Warlock levels and you lose all remaining shards when your Void Form ends.</p><p>Starting at 6th level, you immediately gain 2 shards upon entering your Void Form. This number increases to 4 at level 10, and to 6 at level 14.</p>",
-        "section": "feature-items",
-        "requirements": "Void-Tainted 1"
-      },
-      {
-        "name": "Void Form",
-        "description": "<p>You can use your bonus action to awaken the ferocity and hunger of your patron, morphing its form with yours. This transformation lasts for 10 minutes or until you choose to end it as an action. During this time you gain the following abilities:</p><ul><li><p><strong>Heightened Senses.</strong> Your senses become supernaturally keen. You have &amp;Reference[darkvision] out to a range of 60 feet and advantage on [[/check ste]], [[/check prc]], and [[/check sur]] checks.</p></li><li><p><strong>Voracious Mind.</strong> You cannot &amp;Reference[concentration]{concentrate} on spells. If you’re concentrating on a spell when you enter this form, it ends immediately.</p></li><li><p><strong>Psychic Link</strong> Your body counts as a spellcasting focus for your warlock spells.</p></li><li><p><strong>Reaping Claws.</strong> You sprout razor-sharp claws, which are natural weapons with a reach of 5 feet. You have proficiency with these weapons and can use your Charisma modifier for the attack and damage rolls made using these natural weapons. On a hit, your claws deal [[/damage 1d6 slashing]] damage.</p></li></ul><p>Starting at 10th level, you can choose to use <strong>Boon of Eldritch Hunger</strong> immediately after using this feature as part of the same bonus action.</p><p>You can use this feature twice and you regain all expended uses when you finish a short or long rest.</p>",
-        "section": "feature-items",
-        "requirements": "Void-Tainted 1"
-      },
-      {
-        "name": "Boons of Eldritch Hunger",
-        "description": "<p>You can use your bonus action to expend Essence Shards for your patron to devour in exchange for various boons. You unlock these boons as you gain Warlock levels, as seen below. Additional boons can be unlocked through killing powerful aberrations and feeding them to your patron (at your GM's discretion).</p><p>Additionally, starting at 14th level, when you activate a boon that cost 2 shards or less for the first time during your turn, you can immediately take one additional bonus action.</p><table><caption>Boons of Eldritch Hunger</caption><thead><tr><td>Warlock Level</td><td>Boons</td></tr></thead><tbody><tr><td><p>1st</p></td><td><p>@UUID[Compendium.talia-custom.customItems.Item.U4X25sThCNZi2mWy]{Accrued Vitality}, @UUID[Compendium.talia-custom.customItems.Item.gNrTL5o5ZRLpeu7R]{Grasping Talons}, @UUID[Compendium.talia-custom.customItems.Item.COlSs3Vxpnq0tSbS]{Netherwalk}</p></td></tr><tr><td><p>6th</p></td><td><p>@UUID[Compendium.talia-custom.customItems.Item.WgvL8oj2ciQzEZqf]{Bloodrazor}, @UUID[Compendium.talia-custom.customItems.Item.m7xBdHggPzf7HH9d]{Mindrazor}, @UUID[Compendium.talia-custom.customItems.Item.MxAmKvgyVFxAzAiZ]{Phase Shift}</p></td></tr><tr><td><p>10th</p></td><td><p>@UUID[Compendium.talia-custom.customItems.Item.UmA5fXip3CVaIXe0]{Eviscerate}, @UUID[Compendium.talia-custom.customItems.Item.7Di8YGf0toBUTybh]{Eldritch Energies}, @UUID[Compendium.talia-custom.customItems.Item.rjnJSohU36PwyHJB]{Nether Surge}</p></td></tr><tr><td><p>14th</p></td><td><p>@UUID[Compendium.talia-custom.customItems.Item.DA9Joq7kBH9785bA]{Rend}, @UUID[Compendium.talia-custom.customItems.Item.E5mjvRIxU8nztrmj]{Schism}, @UUID[Compendium.talia-custom.customItems.Item.jtt8meGIzyMFiRZh]{Twist of Fate}</p></td></tr></tbody></table>",
-        "section": "feature-items",
-        "requirements": "Void-Tainted 1"
       },
       {
         "name": "Agonizing Blast",
@@ -870,52 +818,10 @@
         "requirements": "Warlock 3, Pact of the Tome"
       },
       {
-        "name": "Bloodrazor",
-        "description": "<p>You can expend 3 Essence Shards to increase the critical range of attacks you make with your Reaping Claws by 2 until the end of your next turn.</p>",
-        "section": "feature-items",
-        "requirements": "Void-Tainted 6"
-      },
-      {
-        "name": "Mindrazor",
-        "description": "<p>You can expend 3 Essence Shards to add an extra [[/damage 3d8 psychic]] damage to the damage of your Reaping Claws until the end of your next turn.</p>",
-        "section": "feature-items",
-        "requirements": "Void-Tainted 6"
-      },
-      {
-        "name": "Phase Shift",
-        "description": "<p>You can expend 2 Essence Shards to teleport to an unoccupied space you can see within 30 feet.</p>",
-        "section": "feature-items",
-        "requirements": "Void-Tainted 6"
-      },
-      {
         "name": "Thirsting Claws",
         "description": "<p>You can attack twice, instead of once, when you take the Attack action with your Reaping Claws on your turn.</p><p>Additionally, attacks made with these claws count as magical for the purpose of overcoming resistance and immunity to nonmagical attacks and damage.</p>",
         "section": "feature-items",
         "requirements": "Void-Tainted 6"
-      },
-      {
-        "name": "Eviscerate",
-        "description": "<p>You can expend 3 Essence Shards to gain advantage on melee weapon attacks until the end of your next turn.</p>",
-        "section": "feature-items",
-        "requirements": "Void-Tainted 10"
-      },
-      {
-        "name": "Eldritch Energies",
-        "description": "<p>You can expend 5 Essence Shards to cast a Warlock cantrip you know that has a casting time of 1 Action.</p>",
-        "section": "feature-items",
-        "requirements": "Void-Tainted 10"
-      },
-      {
-        "name": "Nether Surge",
-        "description": "<p>You can expend 6 Essence Shards to regain 1 expended Pact Slot.</p><section><p><em>Add the regained pact slot manually.</em></p></section>",
-        "section": "feature-items",
-        "requirements": "Void-Tainted 10"
-      },
-      {
-        "name": "Ravenous Feast",
-        "description": "<p>You gain an additional Essence Shard when you land a critical hit with your claws against a creature for the first time on each turn and when you reduce a creature to 0 hit points for the first time on each turn.</p><p>Additionally, the damage die of your Reaping Claws grows to a d10.</p>",
-        "section": "feature-items",
-        "requirements": "Void-Tainted 10"
       },
       {
         "name": "Mystic Arcanum",
@@ -1290,6 +1196,78 @@
         "spellLevel": "4th Level",
         "spellRange": "30 ft",
         "spellSchool": "Necromancy"
+      },
+      {
+        "name": "Accrued Vitality",
+        "description": "<p>You can expend 1 Essence Shard to gain [[/r 1d8 + @abilities.cha.mod]] temporary hit points. You can choose to expend one or more additional Essence Shards to increase the temporary hit points gained by [[/r 1d8]] per additional shard.</p><p>Additionally, if this ability is the first bonus action you've taken during this turn, you can choose to immediately take one additional bonus action.</p>",
+        "section": "feature-items",
+        "requirements": "Void-Tainted 1"
+      },
+      {
+        "name": "Grasping Talons",
+        "description": "<p>You can expend 1 Essence Shard to increase the reach of your Reaping Claws by 5 feet for 1 minute.</p><p>dditionally, if this ability is the first bonus action you've taken during this turn, you can choose to immediately take one additional bonus action.</p>",
+        "section": "feature-items",
+        "requirements": "Void-Tainted 1"
+      },
+      {
+        "name": "Netherwalk",
+        "description": "<p>You can expend 1 Essence Shard to increase your walking speed by 20 feet for 10 minutes.</p><p>Additionally, if this ability is the first bonus action you've taken during this turn, you can choose to immediately take one additional bonus action.</p>",
+        "section": "feature-items",
+        "requirements": "Void-Tainted 1"
+      },
+      {
+        "name": "Essence Shards",
+        "description": "<p>Your strikes tear your targets' essence. When you hit a creature with an attack using your Reaping Claws, you gain one Essence Shard. If the attack is a critical hit or reduces the target to 0 hit points, you gain one additional Essence Shard. </p><p>The maximum number of Essence Shards you can hold at one time is equal to your warlock level. You lose any unspent Essence Shards when your Void Form ends.</p><p>Starting at 6th level, you immediately gain 2 Essence Shards when you activate your Void Form. When you reach 10th and 14th level in this class, this number increases to 4 and 6 respectively.</p>",
+        "section": "feature-items",
+        "requirements": "Void-Tainted 1"
+      },
+      {
+        "name": "Void Form",
+        "description": "<p>You can use your bonus action to awaken the ferocity and hunger of your patron, morphing its form with yours. This transformation lasts for 10 minutes or until you choose to end it as an action. During this time you gain the following abilities:</p><ul><li><p><strong>Heightened Senses.</strong> Your senses become supernaturally keen. You have &amp;Reference[darkvision] out to a range of 60 feet and advantage on [[/check ste]], [[/check prc]], and [[/check sur]] checks.</p></li><li><p><strong>Voracious Mind.</strong> You cannot &amp;Reference[concentration]{concentrate} on spells. If you are concentrating on a spell when you activate this form, your concentration on it ends.</p></li><li><p><strong>Psychic Link.</strong> Your body counts as a spellcasting focus for your warlock spells.</p></li><li><p><strong>Reaping Claws.</strong> You sprout razor-sharp claws, which are natural melee weapons with a reach of 5 feet. You have proficiency with these weapons and can use your Charisma modifier for the attack and damage rolls made using these natural weapons. On a hit, your claws deal [[/damage 1d6 slashing]] damage, or [[/damage 1d10 slashing]] damage once you reach 10th level in this class.</p></li></ul><p>Starting at 10th level, when you activate this feature, you can also choose to use one of your <strong>Boons of Eldritch Hunger</strong> as part of the same bonus action.</p><p>You can use this feature twice and you regain all expended uses of it when you finish a short or long rest.</p>",
+        "section": "feature-items",
+        "requirements": "Void-Tainted 1"
+      },
+      {
+        "name": "Boons of Eldritch Hunger",
+        "description": "<p>You can use your bonus action to expend Essence Shards for your patron to devour in exchange for various boons. You unlock these boons as you gain Warlock levels, as seen below. Additional boons can be unlocked through killing powerful aberrations and feeding them to your patron (at your GM's discretion).</p><table><caption>Boons of Eldritch Hunger</caption><thead><tr><td>Warlock Level</td><td>Boons</td></tr></thead><tbody><tr><td><p>1st</p></td><td><p>@UUID[Compendium.talia-custom.customItems.Item.U4X25sThCNZi2mWy]{Accrued Vitality}, @UUID[Compendium.talia-custom.customItems.Item.gNrTL5o5ZRLpeu7R]{Grasping Talons}, @UUID[Compendium.talia-custom.customItems.Item.COlSs3Vxpnq0tSbS]{Netherwalk}</p></td></tr><tr><td><p>6th</p></td><td><p>@UUID[Compendium.talia-custom.customItems.Item.WgvL8oj2ciQzEZqf]{Bloodrazor}, @UUID[Compendium.talia-custom.customItems.Item.m7xBdHggPzf7HH9d]{Mindrazor}, @UUID[Compendium.talia-custom.customItems.Item.MxAmKvgyVFxAzAiZ]{Phase Shift}</p></td></tr><tr><td><p>10th</p></td><td><p>@UUID[Compendium.talia-custom.customItems.Item.UmA5fXip3CVaIXe0]{Eviscerate}, @UUID[Compendium.talia-custom.customItems.Item.7Di8YGf0toBUTybh]{Eldritch Energies}, @UUID[Compendium.talia-custom.customItems.Item.rjnJSohU36PwyHJB]{Nether Surge}</p></td></tr><tr><td><p>14th</p></td><td><p>@UUID[Compendium.talia-custom.customItems.Item.DA9Joq7kBH9785bA]{Rend}, @UUID[Compendium.talia-custom.customItems.Item.E5mjvRIxU8nztrmj]{Schism}, @UUID[Compendium.talia-custom.customItems.Item.jtt8meGIzyMFiRZh]{Twist of Fate}</p></td></tr></tbody></table>",
+        "section": "feature-items",
+        "requirements": "Void-Tainted 1"
+      },
+      {
+        "name": "Bloodrazor",
+        "description": "<p>You can expend 3 Essence Shards to increase the critical range of attacks you make with your Reaping Claws by 2 for 1 minute.</p>",
+        "section": "feature-items",
+        "requirements": "Void-Tainted 6"
+      },
+      {
+        "name": "Mindrazor",
+        "description": "<p>You can expend 3 Essence Shards to add an extra [[/damage 3d8 psychic]] damage to the damage of your Reaping Claws for 1 minute.</p>",
+        "section": "feature-items",
+        "requirements": "Void-Tainted 6"
+      },
+      {
+        "name": "Phase Shift",
+        "description": "<p>You can expend 2 Essence Shards to teleport to an unoccupied space you can see within 30 feet.</p><p>Additionally, if this ability is the first bonus action you've taken during this turn, you can choose to immediately take one additional bonus action.</p>",
+        "section": "feature-items",
+        "requirements": "Void-Tainted 6"
+      },
+      {
+        "name": "Eviscerate",
+        "description": "<p>You can expend 4 Essence Shards to gain advantage on melee weapon attacks for 1 minute.</p>",
+        "section": "feature-items",
+        "requirements": "Void-Tainted 10"
+      },
+      {
+        "name": "Eldritch Energies",
+        "description": "<p>You can expend 5 Essence Shards to cast a Warlock cantrip you know that has a casting time of 1 Action.</p>",
+        "section": "feature-items",
+        "requirements": "Void-Tainted 10"
+      },
+      {
+        "name": "Nether Surge",
+        "description": "<p>You can expend 6 Essence Shards to regain 1 expended Pact Slot.</p><section><p><em>Add the regained pact slot manually.</em></p></section>",
+        "section": "feature-items",
+        "requirements": "Void-Tainted 10"
       },
       {
         "name": "Dreamfeather",
@@ -1823,7 +1801,7 @@
         "name": "Bloodroot",
         "description": "<p>Clings to the walls of particularly damp caverns. A blood-red vine adorned with thick, black needles, resembling smoldering embers.</p>",
         "section": "physical-items",
-        "quantity": 19,
+        "quantity": 15,
         "combinedLabel": "Ingredient (herb)",
         "attunementLabel": ""
       },
@@ -1961,7 +1939,7 @@
         "name": "Essence of Legend",
         "description": "<p>Extracted from slain creatures renowned for their legendary resistances. This ethereal substance pulses with arcane energy, embodying the essence of resilience and defiance against formidable adversaries.</p>",
         "section": "physical-items",
-        "quantity": 14,
+        "quantity": 11,
         "combinedLabel": "Ingredient (bodyPart)",
         "attunementLabel": ""
       },
@@ -1969,7 +1947,7 @@
         "name": "Necromantic Binding",
         "description": "<p>Acquired from huge-sized or larger undead creatures. This dark, ethereal essence carries an aura of death and decay, radiating an ominous energy that binds the undead to their master's will.</p>",
         "section": "physical-items",
-        "quantity": 60,
+        "quantity": 58,
         "combinedLabel": "Ingredient (bodyPart)",
         "attunementLabel": ""
       },
@@ -2286,18 +2264,10 @@
         "spellSchool": "Evocation"
       },
       {
-        "name": "Activated: Plant Growth - 3rd",
-        "description": "<table>\n        <tbody>\n            <tr>\n                <td>\n                    <p>3rd Level</p>\n                </td>\n            </tr>\n            \n        </tbody>\n    </table><div><p>This spell channels vitality into plants within a specific area. There are two possible uses for the spell, granting either immediate or long-term benefits.</p><div><p></p></div><p>If you cast this spell using 1 action, choose a point within range. All normal plants in a 100-foot radius centered on that point become thick and overgrown. A creature moving through the area must spend 4 feet of movement for every 1 foot it moves.</p><p>You can exclude one or more areas of any size within the spell's area from being affected.</p><p>If you cast this spell over 8 hours, you enrich the land. All plants in a half-mile radius centered on a point within range become enriched for 1 year. The plants yield twice the normal amount of food when harvested.</p></div>",
-        "section": "physical-items",
-        "quantity": 1,
-        "combinedLabel": "Spell Gem",
-        "attunementLabel": ""
-      },
-      {
         "name": "Mind Crystal (Subtle)",
         "description": "<div><p>This gemstone contains a crystallized bit of spellcasting magic.</p><p>When you cast a spell that has a casting time of 1 action while holding the <em>mind crystal</em>, you can modify the spell in the way described below. You can use only a single <em>mind crystal</em> to modify the spell, and you can't use a <em>mind crystal</em> and a Metamagic option on the same spell. Once you use the <em>mind crystal</em>, it shatters into nothingness.</p><div><p><span><strong>Modify Spell</strong></span></p><p>You cast the spell without any somatic or verbal components for this casting.</p></div></div>",
         "section": "physical-items",
-        "quantity": 2,
+        "quantity": 1,
         "combinedLabel": "Trinket",
         "attunementLabel": ""
       },
@@ -2591,7 +2561,7 @@
         "name": "Activated: Sending - 3rd",
         "description": "<div><p>You send a short message of twenty-five words or less to a creature with which you are familiar. The creature hears the message in its mind, recognizes you as the sender if it knows you, and can answer in a like manner immediately. The spell enables creatures with Intelligence scores of at least 1 to understand the meaning of your message.</p><p>You can send the message across any distance and even to other planes of existence, but if the target is on a different plane than you, there is a [[/r 1d20]]{5 percent} chance that the message doesn't arrive.</p></div>",
         "section": "physical-items",
-        "quantity": 4,
+        "quantity": 3,
         "combinedLabel": "Spell Gem",
         "attunementLabel": ""
       },
@@ -2697,7 +2667,7 @@
         "name": "Pure Wrong",
         "description": "<p>Extracted from large-sized or larger aberration creatures. This eerie substance exudes an unsettling aura, its shifting colors and slimy texture defying natural order.</p>",
         "section": "physical-items",
-        "quantity": 11,
+        "quantity": 10,
         "combinedLabel": "Ingredient (bodyPart)",
         "attunementLabel": ""
       },
@@ -2729,22 +2699,6 @@
         "section": "physical-items",
         "quantity": 7,
         "combinedLabel": "Ingredient (herb)",
-        "attunementLabel": ""
-      },
-      {
-        "name": "Hearthstone",
-        "description": "<p>The Hearthstone is a sacred item among all giantkin. These heavy, flat pieces of granite—typically 1 to 2 feet in diameter—are painstakingly carved by mighty runepriests, imbued with ancient magic to tether the bearer’s essence to a place of safety. Revered as both currency and a protective charm, Hearthstones are traded between giants with great reverence, their value lying not only in material worth but in the promise of an arduous but ultimately safe journey back home in death, for those strong enough to endure it.</p><p><strong>Shattering</strong></p><p>When a creature carrying a Hearthstone dies, the Hearthstone shatters. Upon doing so, the creature must make a [[/save con DC 18 format=long]]. On a successful save, the creature's body and any attuned items it carried at the time of its death instantly return to the location of its last extended rest (an extended rest takes 1 month). The body appears unconscious, afflicted by a deep fever, and remains in this state until the soul completes its return journey.</p><p>Unless the creature’s soul is captured at the time of the creature's death, it must travel through a cold and snow-covered woodland, eventually finding refuge in a warm cabin, symbolizing its body. The journey back to its body takes a number of weeks equal to 50 minus the result of the saving throw (minimum of 1 week). During this time, the creature cannot be revived by any means, including spells like revivify or raise dead.</p><p>Once the soul completes its journey, the creature’s fever breaks, and it awakens with 1 hit point. The Hearthstone is destroyed after use and cannot be restored or repaired.</p>",
-        "section": "physical-items",
-        "quantity": 1,
-        "combinedLabel": "Exotic Currency",
-        "attunementLabel": ""
-      },
-      {
-        "name": "Soul Coin",
-        "description": "<div><p><em>Soul coin</em>s are about 5 inches across and about an inch thick, minted from infernal iron. Each coin weighs one-third of a pound, and is inscribed with Infernal writing and a spell that magically binds a single soul to the coin. Because each <em>soul coin</em> has a unique soul trapped within it, each has a story. A creature might have been imprisoned as a result of defaulting on a deal, while another might be the victim of a night hag's curse.</p><div><p><span><strong>Carrying Soul Coins</strong></span></p><p>To hold a <em>soul coin</em> is to feel the soul bound within it—overcome with rage or fraught with despair.</p><p>An evil creature can carry as many <em>soul coin</em>s as it wishes (up to its maximum weight allowance). A non-evil creature can carry a number of <em>soul coin</em>s equal to or less than its Constitution modifier without penalty. A non-evil creature carrying a number of <em>soul coin</em>s greater than its Constitution modifier has disadvantage on its attack rolls, ability checks, and saving throws.</p></div><div><p><span><strong>Freeing a Soul</strong></span></p><p>Casting a spell that removes a curse on a <em>soul coin</em> frees the soul trapped within it, as does expending all of the coin's charges. The coin itself rusts from within and is destroyed once the soul is released. A freed soul travels to the realm of the god it served or the outer plane most closely tied to its alignment (DM's choice). The souls of lawful evil creatures released from <em>soul coin</em>s typically emerge from the River Styx as devils.</p><p>Freeing a soul from a <em>soul coin</em> is considered a good act, even if the soul belongs to an evil creature.</p></div><div><p><span><strong>Hellish Currency</strong></span></p><p><em>Soul coin</em>s are a currency of the Nine Hells and are highly valued by devils. The coins are used among the infernal hierarchy to barter for favours, bribe the unwilling, and reward the faithful for services rendered.</p><p><em>Soul coin</em>s are created by Mammon and his greater devils on Minauros, the third layer of the Nine Hells, in a vast chamber where the captured souls of evil mortals are bound into the coins. These coins are then distributed throughout the Nine Hells to be used for goods and services, infernal deals, dark bargains, and bribes.</p></div><p><strong>Unmake a Soul</strong></p><p>When casting a spell which requires repeated castings for it's effects to become permanent, soul coins can be expended as a material component and the souls trapped inside unmade. Each soul coin expended this way reduces the number of required castings by three.</p><p>Unmaking a soul is different to freeing it as doing so erases the soul from existence itself, it's essence lost forever. Unmaking a soul is considered an evil act.</p></div>",
-        "section": "physical-items",
-        "quantity": 35,
-        "combinedLabel": "Exotic Currency",
         "attunementLabel": ""
       },
       {
@@ -3378,14 +3332,6 @@
         "attunementLabel": ""
       },
       {
-        "name": "Activated: See Invisibility - 2nd",
-        "description": "<div><p>For the duration, you see &amp;Reference[condition=invisible] creatures and objects as if they were visible, and you can see into the Ethereal Plane. Ethereal creatures and objects appear ghostly and translucent.</p></div>",
-        "section": "physical-items",
-        "quantity": 1,
-        "combinedLabel": "Spell Gem",
-        "attunementLabel": ""
-      },
-      {
         "name": "Triggered: Greater Restoration - 9th",
         "description": "<p><strong>Trigger: </strong>Whenever I'm inflicted with any effect this spell can remove apart from cursed.</p><hr><div><p></p></div><p>You imbue a creature you touch with positive energy to undo a debilitating effect. You can reduce the target's exhaustion level by one, or end one of the following effects on the target:</p><p>One effect that &amp;Reference[condition=charmed] or &amp;Reference[condition=petrified] the target</p><p>One curse, including the target's attunement to a cursed magic item</p><p>Any reduction to one of the target's ability scores</p><p>One effect reducing the target's hit point maximum</p>",
         "section": "physical-items",
@@ -3530,23 +3476,71 @@
         "attunementLabel": ""
       },
       {
-        "name": "Potion of Heroism",
-        "description": "<p><em>This blue potion bubbles and steams as if boiling.</em></p><p>When you drink this potion you gain 10 temporary hit points. Additionally you are under the effect of the Bless spell for 1 hour (no concentration required).</p>",
+        "name": "Soul Coin",
+        "description": "<p>Soul coins are about 5 inches across and about an inch thick, minted from infernal iron. Each coin weighs one-third of a pound, and is inscribed with Infernal writing and a spell that magically binds a single soul to the coin. Because each soul coin has a unique soul trapped within it, each has a story. A creature might have been imprisoned as a result of defaulting on a deal, while another might be the victim of a night hag's curse.</p><p><strong>Carrying Soul Coins. </strong>To hold a soul coin is to feel the soul bound within it—overcome with rage or fraught with despair. An evil creature can carry as many soul coins as it wishes (up to its maximum weight allowance). A non-evil creature can carry a number of soul coins equal to or less than its Constitution modifier without penalty. A non-evil creature carrying a number of soul coins greater than its Constitution modifier has disadvantage on its attack rolls, ability checks, and saving throws.</p><p><strong>Freeing a Soul. </strong>Casting a spell that removes a curse on a soul coin frees the soul trapped within it, as does expending all of the coin's charges. The coin itself rusts from within and is destroyed once the soul is released. A freed soul travels to the realm of the god it served or the outer plane most closely tied to its alignment (DM's choice). The souls of lawful evil creatures released from soul coins typically emerge from the River Styx as devils.</p><p><strong>Hellish Currency. </strong>Soul coins are a currency of the Nine Hells and are highly valued by devils. The coins are used among the infernal hierarchy to barter for favours, bribe the unwilling, and reward the faithful for services rendered. Soul coins are created by Mammon and his greater devils on Minauros, the third layer of the Nine Hells, in a vast chamber where the captured souls of evil mortals are bound into the coins. These coins are then distributed throughout the Nine Hells to be used for goods and services, infernal deals, dark bargains, and bribes.</p><p><strong>Unmake a Soul. </strong>When casting a spell which requires repeated castings for it's effects to become permanent, soul coins can be expended as a material component and the souls trapped inside unmade. Each soul coin expended this way reduces the number of required castings by three. Unmaking a soul is different to freeing it as doing so erases the soul from existence itself, it's essence lost forever.</p>",
+        "section": "physical-items",
+        "quantity": 35,
+        "combinedLabel": "Exotic Currency",
+        "attunementLabel": ""
+      },
+      {
+        "name": "Hearthstone",
+        "description": "<p>The Hearthstone is a sacred item among all giantkin. These heavy, flat pieces of granite—typically 1 to 2 feet in diameter—are painstakingly carved by mighty runepriests, imbued with ancient magic to tether the bearer’s essence to a place of safety. Revered as both currency and a protective charm, Hearthstones are traded between giants with great reverence, their value lying not only in material worth but in the promise of an arduous but ultimately safe journey back home in death, for those strong enough to endure it.</p><p><strong>Shattering. </strong>When a creature carrying a Hearthstone dies, the Hearthstone shatters. Upon doing so, the creature must make a [[/save con DC 18]] saving throw. On a successful save, the creature's body and any attuned items it carried at the time of its death instantly return to the location of its last extended rest. The body appears unconscious, afflicted by a deep fever, and remains in this state until the soul completes its return journey.</p><p>Unless the creature’s soul is captured at the time of the creature's death, it must travel through a cold and snow-covered woodland, eventually finding refuge in a warm cabin, symbolizing its body. The journey back to its body takes a number of weeks equal to 50 minus the result of the saving throw (minimum of 1 week). During this time, the creature cannot be revived by any means, including spells like revivify or raise dead.</p><p>Once the soul completes its journey, the creature’s fever breaks, and it awakens with 1 hit point. The Hearthstone is destroyed after use and cannot be restored or repaired.</p>",
+        "section": "physical-items",
+        "quantity": 1,
+        "combinedLabel": "Exotic Currency",
+        "attunementLabel": ""
+      },
+      {
+        "name": "Pyrope",
+        "description": "<p>Pyrope, a type of garnet known for its exquisite beauty, also holds military significance. It is believed that adorning weaponry with this garnet allows it to penetrate the thickest hides or demolish the strongest doors, aided by arcane forces.</p>",
+        "section": "physical-items",
+        "quantity": 1,
+        "combinedLabel": "Gemstone",
+        "attunementLabel": ""
+      },
+      {
+        "name": "Jade",
+        "description": "<p>Its primary form is called Jadeite, after cutting, it's mainly used in ornamental sculptures and figurines. Musicians of all kinds believed that if they wore Jade, they would improve their musical prowess</p>",
+        "section": "physical-items",
+        "quantity": 2,
+        "combinedLabel": "Gemstone",
+        "attunementLabel": ""
+      },
+      {
+        "name": "Potion of Greater Healing",
+        "description": "<div><p><em>The potion's red liquid glimmers when agitated.</em></p><p>You regain 4d4 + 4 hit points when you drink this potion.</p></div>",
         "section": "physical-items",
         "quantity": 1,
         "combinedLabel": "Potion",
         "attunementLabel": ""
       },
       {
-        "name": "Triggered: Mordenkainen's Private Sanctum - 6th",
-        "description": "<p><strong>Trigger: </strong>Saying 'execute' in Dwarvish</p><hr><div><p>You make an area within range magically secure. The area is a cube that can be as small as 5 feet to as large as 100 feet on each side. The spell lasts for the duration or until you use an action to dismiss it.</p><div></div><p>When you cast the spell, you decide what sort of security the spell provides, choosing any or all of the following properties:</p><ul><li>Sound can't pass through the barrier at the edge of the warded area.</li><li>The barrier of the warded area appears dark and foggy, preventing vision (including &amp;Reference[rule=darkvision]) through it.</li><li>Sensors created by divination spells can't appear inside the protected area or pass through the barrier at its perimeter.</li><li>Creatures in the area can't be targeted by divination spells.</li><li>Nothing can teleport into or out of the warded area.</li><li>Planar travel is blocked within the warded area.</li></ul><p>Casting this spell on the same spot every day for a year makes this effect permanent.</p></div><div><div><span> <span>At Higher Levels.</span></span> <p>When you cast this spell using a spell slot of 5th level or higher, you can increase the size of the cube by 100 feet for each slot level beyond 4th. Thus you could protect a cube that can be up to 200 feet on one side by using a spell slot of 5th level.</p><div></div></div><div></div></div>",
+        "name": "Potion of Speed",
+        "description": "<div><p>When you drink this potion, you gain the effect of the Haste spell for 1 minute (no concentration required). The potion's yellow fluid is streaked with black and swirls on its own.</p></div>",
         "section": "physical-items",
         "quantity": 1,
-        "combinedLabel": "Spell Gem",
+        "combinedLabel": "Potion",
+        "attunementLabel": ""
+      },
+      {
+        "name": "Shimmerleaf",
+        "description": "<p>Found deep within dry caves, emitting a pale, ghostly glow in the darkness. Its slender, purple-green leaves shimmer faintly, casting an ethereal luminescence that illuminates the cavern's depths.</p>",
+        "section": "physical-items",
+        "quantity": 5,
+        "combinedLabel": "Ingredient (herb)",
+        "attunementLabel": ""
+      },
+      {
+        "name": "Potion of Supreme Healing",
+        "description": "<div><p><em>The potion's red liquid glimmers when agitated.</em></p><p>You regain 10d4 + 20 hit points when you drink this potion. </p></div>",
+        "section": "physical-items",
+        "quantity": 1,
+        "combinedLabel": "Potion",
         "attunementLabel": ""
       }
     ],
-    "Kyrin Niteshade": [
+    "Ilsa Stonepath": [
       {
         "name": "Shapechanger",
         "description": "<p>As an action, you can change your appearance and your voice. You determine the specifics of the changes, including your coloration, hair length, and sex. You can also adjust your height and weight, but not so much that your size changes. You can make yourself appear as a member of another race, though none of your game statistics change. You can't duplicate the appearance of a creature you've never seen, and you must adopt a form that has the same basic arrangement of limbs that you have. Your clothing and equipment aren't changed by this trait.</p><p>You stay in the new form until you use an action to revert to your true form or until you die.</p>",
@@ -3819,7 +3813,7 @@
         "name": "Potion of Greater Healing",
         "description": "<div><p><em>The potion's red liquid glimmers when agitated.</em></p><p>You regain 4d4 + 4 hit points when you drink this potion.</p></div>",
         "section": "physical-items",
-        "quantity": 4,
+        "quantity": 2,
         "combinedLabel": "Potion",
         "attunementLabel": ""
       },
@@ -4021,6 +4015,22 @@
         "section": "physical-items",
         "quantity": 1,
         "combinedLabel": "Exotic Currency",
+        "attunementLabel": ""
+      },
+      {
+        "name": "Silk robe with gold embroidery",
+        "description": "",
+        "section": "physical-items",
+        "quantity": 1,
+        "combinedLabel": "Art Object",
+        "attunementLabel": ""
+      },
+      {
+        "name": "Pristine White Dress from an Angel",
+        "description": "<p>Bought for 200g from a Devil in Hell, as you do.<br>This flowing garment leaves much to the imagination, as the revealing clothes are very similar looking to some familiar looking clothes.</p>",
+        "section": "physical-items",
+        "quantity": 1,
+        "combinedLabel": "Loot",
         "attunementLabel": ""
       }
     ],
@@ -4281,7 +4291,7 @@
         "name": "Healer's Kit",
         "description": "<p>This kit is a leather pouch containing bandages, salves, and splints. The kit has ten uses. As an action, you can expend one use of the kit to stabilize a creature that has 0 hit points, without needing to make a Wisdom (Medicine) check.</p>",
         "section": "physical-items",
-        "quantity": 1,
+        "quantity": 3,
         "combinedLabel": "Trinket",
         "attunementLabel": ""
       },
@@ -4702,14 +4712,6 @@
         "attunementLabel": ""
       },
       {
-        "name": "Dreamfeather",
-        "description": "<p>A Dreamfeather is an exceedingly rare and delicate token from the plane of Elysium. These iridescent feathers belong to the Aethergale, small and ethereal songbirds whose rainbow-tinted plumage usually vanishes when shed. However, when an Aethergale is moved by a performance of true beauty and passion—be it a bard's heartfelt song or an artist's soul-stirring creation—a feather may fall and remain intact, becoming what is known as a Dreamfeather.</p><p>Treasured and used as a currency by the Azata, the celestial beings of Elysium, Dreamfeathers are regarded as symbols artistic spirit. To find such a feather is seen as an acknowledgment of one’s creativity and emotional depth. They emit a faint glow, and their touch brings a gentle feeling of calm, as though carrying the nostalgia-filled songs of the Aethergale itself.</p><p><strong>Shared Inspiration. </strong>A creature holding a Dreamfeather can use it to transfer one of it's inspirations to another creature it can see. This consumes the magic which resides in the feather and it vanishes into nothingness. A creature which doesn't have any inspirations, cannot use this ability.</p>",
-        "section": "physical-items",
-        "quantity": 1,
-        "combinedLabel": "Exotic Currency",
-        "attunementLabel": ""
-      },
-      {
         "name": "Wellspring of Life",
         "description": "<p>You sprinkle the holy water in an unoccupied space within range and conjure a well that radiates a dim and soothing blue-green light in a 10-foot-radius sphere. Each creature that starts its turn within this light regains [[/r 4d6]] hit points.</p><p>As a bonus action on each of your turns, you can move the well up to 30 feet to an unoccupied space you can see.</p><p><strong>At Higher Levels. </strong>When you cast this spell using a spell slot of 5th level or higher, the healing is increased by [[/r 1d6]] for each slot level above 4th.</p>",
         "section": "spell-items",
@@ -4723,6 +4725,30 @@
         "section": "physical-items",
         "quantity": 15,
         "combinedLabel": "Food",
+        "attunementLabel": ""
+      },
+      {
+        "name": "Dreamfeather",
+        "description": "<p>A Dreamfeather is an exceedingly rare and delicate token from the plane of Elysium. These iridescent feathers belong to the Aethergale, small and ethereal songbirds whose rainbow-tinted plumage usually vanishes when shed. However, when an Aethergale is moved by a performance of true beauty and passion—be it a bard's heartfelt song or an artist's soul-stirring creation—a feather may fall and remain intact, becoming what is known as a Dreamfeather.</p><p>Treasured and used as a currency by the Azata, the celestial beings of Elysium, Dreamfeathers are regarded as symbols artistic spirit. To find such a feather is seen as an acknowledgment of one’s creativity and emotional depth. They emit a faint glow, and their touch brings a gentle feeling of calm, as though carrying the nostalgia-filled songs of the Aethergale itself.</p><p><strong>Shared Inspiration. </strong>A creature holding a Dreamfeather can use it to transfer one of it's inspirations to another creature it can see. This consumes the magic which resides in the feather and it vanishes into nothingness. A creature which doesn't have any inspirations, cannot use this ability.</p>",
+        "section": "physical-items",
+        "quantity": 1,
+        "combinedLabel": "Exotic Currency",
+        "attunementLabel": ""
+      },
+      {
+        "name": "Triggered: Mordenkainen's Private Sanctum - 6th",
+        "description": "<p><strong>Trigger: </strong>Saying 'execute' in Dwarvish</p><hr><div><p>You make an area within range magically secure. The area is a cube that can be as small as 5 feet to as large as 100 feet on each side. The spell lasts for the duration or until you use an action to dismiss it.</p><div></div><p>When you cast the spell, you decide what sort of security the spell provides, choosing any or all of the following properties:</p><ul><li>Sound can't pass through the barrier at the edge of the warded area.</li><li>The barrier of the warded area appears dark and foggy, preventing vision (including &amp;Reference[rule=darkvision]) through it.</li><li>Sensors created by divination spells can't appear inside the protected area or pass through the barrier at its perimeter.</li><li>Creatures in the area can't be targeted by divination spells.</li><li>Nothing can teleport into or out of the warded area.</li><li>Planar travel is blocked within the warded area.</li></ul><p>Casting this spell on the same spot every day for a year makes this effect permanent.</p></div><div><div><span> <span>At Higher Levels.</span></span> <p>When you cast this spell using a spell slot of 5th level or higher, you can increase the size of the cube by 100 feet for each slot level beyond 4th. Thus you could protect a cube that can be up to 200 feet on one side by using a spell slot of 5th level.</p><div></div></div><div></div></div>",
+        "section": "physical-items",
+        "quantity": 1,
+        "combinedLabel": "Spell Gem",
+        "attunementLabel": ""
+      },
+      {
+        "name": "Potion of Greater Healing",
+        "description": "<div><p><em>The potion's red liquid glimmers when agitated.</em></p><p>You regain 4d4 + 4 hit points when you drink this potion.</p></div>",
+        "section": "physical-items",
+        "quantity": 1,
+        "combinedLabel": "Potion",
         "attunementLabel": ""
       }
     ],
@@ -5129,7 +5155,7 @@
       },
       {
         "name": "Redcap-Hat",
-        "description": "<p>A woden amsk with fethers on it A tiki mask (that if its on my forhead counts as a hat)</p>",
+        "description": "",
         "section": "physical-items",
         "quantity": 1,
         "combinedLabel": "Hat",
@@ -5233,7 +5259,7 @@
         "name": "Hurting Stone",
         "description": "<p>When this stone hits a creature or object after being dropped or thrown, it deals 2d6 magical bludgeoning damage and loudly shouts “Ow!”.</p>",
         "section": "physical-items",
-        "quantity": 2,
+        "quantity": 1,
         "combinedLabel": "Unusual Material",
         "attunementLabel": ""
       },
@@ -5374,14 +5400,6 @@
         "attunementLabel": ""
       },
       {
-        "name": "Soul Coin",
-        "description": "<div><p><em>Soul coin</em>s are about 5 inches across and about an inch thick, minted from infernal iron. Each coin weighs one-third of a pound, and is inscribed with Infernal writing and a spell that magically binds a single soul to the coin. Because each <em>soul coin</em> has a unique soul trapped within it, each has a story. A creature might have been imprisoned as a result of defaulting on a deal, while another might be the victim of a night hag's curse.</p><div><p><span><strong>Carrying Soul Coins</strong></span></p><p>To hold a <em>soul coin</em> is to feel the soul bound within it—overcome with rage or fraught with despair.</p><p>An evil creature can carry as many <em>soul coin</em>s as it wishes (up to its maximum weight allowance). A non-evil creature can carry a number of <em>soul coin</em>s equal to or less than its Constitution modifier without penalty. A non-evil creature carrying a number of <em>soul coin</em>s greater than its Constitution modifier has disadvantage on its attack rolls, ability checks, and saving throws.</p></div><div><p><span><strong>Freeing a Soul</strong></span></p><p>Casting a spell that removes a curse on a <em>soul coin</em> frees the soul trapped within it, as does expending all of the coin's charges. The coin itself rusts from within and is destroyed once the soul is released. A freed soul travels to the realm of the god it served or the outer plane most closely tied to its alignment (DM's choice). The souls of lawful evil creatures released from <em>soul coin</em>s typically emerge from the River Styx as devils.</p><p>Freeing a soul from a <em>soul coin</em> is considered a good act, even if the soul belongs to an evil creature.</p></div><div><p><span><strong>Hellish Currency</strong></span></p><p><em>Soul coin</em>s are a currency of the Nine Hells and are highly valued by devils. The coins are used among the infernal hierarchy to barter for favours, bribe the unwilling, and reward the faithful for services rendered.</p><p><em>Soul coin</em>s are created by Mammon and his greater devils on Minauros, the third layer of the Nine Hells, in a vast chamber where the captured souls of evil mortals are bound into the coins. These coins are then distributed throughout the Nine Hells to be used for goods and services, infernal deals, dark bargains, and bribes.</p></div><p><strong>Unmake a Soul</strong></p><p>When casting a spell which requires repeated castings for it's effects to become permanent, soul coins can be expended as a material component and the souls trapped inside unmade. Each soul coin expended this way reduces the number of required castings by three.</p><p>Unmaking a soul is different to freeing it as doing so erases the soul from existence itself, it's essence lost forever. Unmaking a soul is considered an evil act.</p></div>",
-        "section": "physical-items",
-        "quantity": 1,
-        "combinedLabel": "Exotic Currency",
-        "attunementLabel": ""
-      },
-      {
         "name": "Troll Musk Concentrate",
         "description": "<p>When this flask hits a creature or object, it bursts open and covers the target in a green liquid, a potent aphrodisiac for trolls.</p><p>Upon coming into contact with a living creature, this fatty substance creates a 10ft sphere of foul odour around that creature which persists for 10 minutes.</p><p>When a creature enters the effect’s area for the first time on a turn or starts its turn there, that creature must make a Constitution saving throw against the contraption’s Save DC or become <span>Poisoned</span> until the start of their next turn.</p><p>When a troll fails a saving throw against this effect, it becomes <span>Charmed</span> instead of poisoned.</p>",
         "section": "physical-items",
@@ -5462,14 +5480,6 @@
         "spellSchool": "Transmutation"
       },
       {
-        "name": "Dreamfeather",
-        "description": "<p>A Dreamfeather is an exceedingly rare and delicate token from the plane of Elysium. These iridescent feathers belong to the Aethergale, small and ethereal songbirds whose rainbow-tinted plumage usually vanishes when shed. However, when an Aethergale is moved by a performance of true beauty and passion—be it a bard's heartfelt song or an artist's soul-stirring creation—a feather may fall and remain intact, becoming what is known as a Dreamfeather.</p><p>Treasured and used as a currency by the Azata, the celestial beings of Elysium, Dreamfeathers are regarded as symbols artistic spirit. To find such a feather is seen as an acknowledgment of one’s creativity and emotional depth. They emit a faint glow, and their touch brings a gentle feeling of calm, as though carrying the nostalgia-filled songs of the Aethergale itself.</p><p><strong>Shared Inspiration</strong></p><p>A creature holding a Dreamfeather can use it to transfer one of it's inspirations to another creature it can see. This consumes the magic which resides in the feather and it vanishes into nothingness. A creature which doesn't have any inspirations, cannot use this ability.</p>",
-        "section": "physical-items",
-        "quantity": 1,
-        "combinedLabel": "Exotic Currency",
-        "attunementLabel": ""
-      },
-      {
         "name": "Towering Pillar of Hats",
         "description": "<p><em>Only true gentlemen know that even a hat deserves a hat.</em></p><p>Each hat you have equipped grants you +1 to your Charisma score.</p>",
         "section": "feature-items",
@@ -5541,7 +5551,7 @@
         "name": "Bottle of Bagiennik Snot",
         "description": "<div><p><em>As repulsive as many might find the snot of the frog-like Bagiennik, they cannot deny it's healing abilities.</em></p><p>You regain 8d4 + 8 hit points when you drink this potion.</p></div>",
         "section": "physical-items",
-        "quantity": 2,
+        "quantity": 1,
         "combinedLabel": "Potion",
         "attunementLabel": ""
       },
@@ -5942,6 +5952,78 @@
         "quantity": 1,
         "combinedLabel": "Trinket",
         "attunementLabel": ""
+      },
+      {
+        "name": "Soul Coin",
+        "description": "<p>Soul coins are about 5 inches across and about an inch thick, minted from infernal iron. Each coin weighs one-third of a pound, and is inscribed with Infernal writing and a spell that magically binds a single soul to the coin. Because each soul coin has a unique soul trapped within it, each has a story. A creature might have been imprisoned as a result of defaulting on a deal, while another might be the victim of a night hag's curse.</p><p><strong>Carrying Soul Coins. </strong>To hold a soul coin is to feel the soul bound within it—overcome with rage or fraught with despair. An evil creature can carry as many soul coins as it wishes (up to its maximum weight allowance). A non-evil creature can carry a number of soul coins equal to or less than its Constitution modifier without penalty. A non-evil creature carrying a number of soul coins greater than its Constitution modifier has disadvantage on its attack rolls, ability checks, and saving throws.</p><p><strong>Freeing a Soul. </strong>Casting a spell that removes a curse on a soul coin frees the soul trapped within it, as does expending all of the coin's charges. The coin itself rusts from within and is destroyed once the soul is released. A freed soul travels to the realm of the god it served or the outer plane most closely tied to its alignment (DM's choice). The souls of lawful evil creatures released from soul coins typically emerge from the River Styx as devils.</p><p><strong>Hellish Currency. </strong>Soul coins are a currency of the Nine Hells and are highly valued by devils. The coins are used among the infernal hierarchy to barter for favours, bribe the unwilling, and reward the faithful for services rendered. Soul coins are created by Mammon and his greater devils on Minauros, the third layer of the Nine Hells, in a vast chamber where the captured souls of evil mortals are bound into the coins. These coins are then distributed throughout the Nine Hells to be used for goods and services, infernal deals, dark bargains, and bribes.</p><p><strong>Unmake a Soul. </strong>When casting a spell which requires repeated castings for it's effects to become permanent, soul coins can be expended as a material component and the souls trapped inside unmade. Each soul coin expended this way reduces the number of required castings by three. Unmaking a soul is different to freeing it as doing so erases the soul from existence itself, it's essence lost forever.</p>",
+        "section": "physical-items",
+        "quantity": 1,
+        "combinedLabel": "Exotic Currency",
+        "attunementLabel": ""
+      },
+      {
+        "name": "Dreamfeather",
+        "description": "<p>A Dreamfeather is an exceedingly rare and delicate token from the plane of Elysium. These iridescent feathers belong to the Aethergale, small and ethereal songbirds whose rainbow-tinted plumage usually vanishes when shed. However, when an Aethergale is moved by a performance of true beauty and passion—be it a bard's heartfelt song or an artist's soul-stirring creation—a feather may fall and remain intact, becoming what is known as a Dreamfeather.</p><p>Treasured and used as a currency by the Azata, the celestial beings of Elysium, Dreamfeathers are regarded as symbols artistic spirit. To find such a feather is seen as an acknowledgment of one’s creativity and emotional depth. They emit a faint glow, and their touch brings a gentle feeling of calm, as though carrying the nostalgia-filled songs of the Aethergale itself.</p><p><strong>Shared Inspiration. </strong>A creature holding a Dreamfeather can use it to transfer one of it's inspirations to another creature it can see. This consumes the magic which resides in the feather and it vanishes into nothingness. A creature which doesn't have any inspirations, cannot use this ability.</p>",
+        "section": "physical-items",
+        "quantity": 1,
+        "combinedLabel": "Exotic Currency",
+        "attunementLabel": ""
+      },
+      {
+        "name": "Pyrope",
+        "description": "<p>Pyrope, a type of garnet known for its exquisite beauty, also holds military significance. It is believed that adorning weaponry with this garnet allows it to penetrate the thickest hides or demolish the strongest doors, aided by arcane forces.</p>",
+        "section": "physical-items",
+        "quantity": 2,
+        "combinedLabel": "Gemstone",
+        "attunementLabel": ""
+      },
+      {
+        "name": "Jade",
+        "description": "<p>Its primary form is called Jadeite, after cutting, it's mainly used in ornamental sculptures and figurines. Musicians of all kinds believed that if they wore Jade, they would improve their musical prowess</p>",
+        "section": "physical-items",
+        "quantity": 1,
+        "combinedLabel": "Gemstone",
+        "attunementLabel": ""
+      },
+      {
+        "name": "Piece of Cloth with soot stains",
+        "description": "",
+        "section": "physical-items",
+        "quantity": 1,
+        "combinedLabel": "Junk",
+        "attunementLabel": ""
+      },
+      {
+        "name": "Door trap #1",
+        "description": "<p>Save DC: 29 | Attack Bonus: 22</p><p><span><strong><span>Mechanism</span></strong></span></p><p>A easy to set upp door trap that triggers whenever someone walks through the opening. </p>",
+        "section": "physical-items",
+        "quantity": 1,
+        "combinedLabel": "Container",
+        "attunementLabel": ""
+      },
+      {
+        "name": "Hurting Stone",
+        "description": "<p>When this stone hits a creature or object after being dropped or thrown, it deals 2d6 magical bludgeoning damage and loudly shouts “Ow!”.</p>",
+        "section": "physical-items",
+        "quantity": 1,
+        "combinedLabel": "Unusual Material",
+        "attunementLabel": ""
+      },
+      {
+        "name": "Door trap #2",
+        "description": "<p>Save DC: 23 | Attack Bonus: 16</p><p><span><strong><span>Mechanism</span></strong></span></p><p>A easy to set upp door trap that triggers whenever someone walks through the opening. </p>",
+        "section": "physical-items",
+        "quantity": 1,
+        "combinedLabel": "Container",
+        "attunementLabel": ""
+      },
+      {
+        "name": "FIsh-Bone with magical energy",
+        "description": "",
+        "section": "physical-items",
+        "quantity": 1,
+        "combinedLabel": "Junk",
+        "attunementLabel": ""
       }
     ],
     "Shalkoc Zornax": [
@@ -6303,7 +6385,7 @@
         "name": "Grilled Ribs",
         "description": "<p>Fall-off-the-bone ribs, coated in sweet and tangy homemade sauces, are a beloved favorite at most taverns, often served for events or celebrations, and eagerly enjoyed by adventurers returning triumphant from their quests or missions.</p>",
         "section": "physical-items",
-        "quantity": 2,
+        "quantity": 1,
         "combinedLabel": "Food (snack)",
         "attunementLabel": ""
       },
@@ -6405,7 +6487,7 @@
         "name": "Bread",
         "description": "<p>Bread is a staple food made from dough that has been baked. It comes in a variety of shapes, sizes, and flavors. It is often sold as a side in most taverns and inns for any of the main meals they serve.</p>",
         "section": "physical-items",
-        "quantity": 3,
+        "quantity": 1,
         "combinedLabel": "Food (snack)",
         "attunementLabel": ""
       },
@@ -6427,7 +6509,7 @@
         "name": "Dried Meat",
         "description": "<p>The process of drying meat is long and extensive. In some particular cases, for the highest quality of dried meat, it can take over a year. It is highly sought after due to its extended shelf life, and depending on the meat used, it is, quite frankly, delicious.</p>",
         "section": "physical-items",
-        "quantity": 20,
+        "quantity": 17,
         "combinedLabel": "Food (meal)",
         "attunementLabel": ""
       },
@@ -6519,7 +6601,7 @@
         "name": "Ginger",
         "description": "<p>Ginger, is widely used as a spice and folk medicine. It is provided as tea for those who have weak stomachs to combat nausea, among other things.</p>",
         "section": "physical-items",
-        "quantity": 5,
+        "quantity": 3,
         "combinedLabel": "Spice",
         "attunementLabel": ""
       },
@@ -6527,7 +6609,7 @@
         "name": "Ginko Leaves",
         "description": "",
         "section": "physical-items",
-        "quantity": 3,
+        "quantity": 1,
         "combinedLabel": "Spice",
         "attunementLabel": ""
       },
@@ -6535,7 +6617,7 @@
         "name": "Ginseng Root Powder",
         "description": "",
         "section": "physical-items",
-        "quantity": 2,
+        "quantity": 1,
         "combinedLabel": "Spice",
         "attunementLabel": ""
       },
@@ -6700,7 +6782,7 @@
         ],
         "isTemporary": true,
         "name": "Heroic Deed",
-        "remainingDays": 25
+        "remainingDays": 24
       }
     ],
     "buildings": [
@@ -7949,6 +8031,16 @@
           "name": "75",
           "section": "journal-pages",
           "content": "<h3>Suffering Builds Character, Rise from the Ashes</h3><h3><s>\"My brain is cooked, what do you want Woman?!\" - Fearghas</s></h3><p>We pass food around and eat soup with meat cookies and Plex drinks silver tears, eliciting favours from his teammates as payment for handing out the party-shared item.</p><p>We exit the tiny hut to be greeted by a new sight.<br>Behold, the walls changed and we are completely lost!</p><p>Also there's Darkness everywhere and Emilio attacks the Darkness, telling us there's danger in the bloodpool that reside further in, surrounded by monsters. A Slithering Bowel makes Naami feel queazy IRL and Fearghas and Emilio in-game are also so disgusted they become poisoned.</p><p>Horror ensues as Plex takes his turn.<br>Something drags Shalkoc into the Darkness, Aviana runs after and there's a LOT of Wild Magic surges.</p><p>\"That's definitely not a Pebble\", Naami says as we botch this batch of guts.<br>Shalkoc get's free and the team gathers up and stirr up a mess of the blood abberations.<br>Lots of loot in the digestive waters.</p><p>Pushing the flaps of meat aside, we find ordinary, but nice looking mundane items.</p><p>Sigh of regret, we leave 10'000 gold behind and move on. Shalkoc cried for the first time that day, I still wonder why.</p><p>We march on and find ourselves inside the parts of the titan stomach that has cramps and tried to crush us, but Fearghas tiny hut saves us.</p><p>Then the Pissbeam Megawave flushes Emilio away, everyone else saved.<br>He is washed ashore right next to a massive pile of meat-monsters and a rescue operation takes place,<br>Saving Private Emilio.</p><p>We dash into the room, revealing the massive Flesh Golems in construction.<br>It says it's scared and sorry, breathing it's Fire Acid on Emilio, putting him in a dire situation.</p><p>We all try to save Emilio except Plex, who blinds the entire team and offers to sell Haste in the form of Speed Potions to his friends instead of casting it.</p><p><span><em>\"Plex, do you understand the concept of dying?\"</em> - Karnack, Nonus 27th, 1497</span></p><p>The scared fleshgolem seems to be a tortured spirit and we discuss if we should spare it or put it out of it's misery-<br>Never mind.<br>Plex flushed it down the giant maw toilet, and Aviana spiked it to the bottom for good measure.</p><p>The now alive Emilio and Fearghas discuss a magical book of sorts while Shalkoc deals with the invisible enemies.</p><p>We loot a Flesh Manual and some cool Acid Immunity Robe.<br>Trading Plex life for a Haste potion and some potions trade hands when suddenly the bloodwater sucks down into the hole!</p><p>We hear the Angelic voice we have been hearing all this time and with that,<br>we stare into the Abyss.</p>"
+        },
+        {
+          "name": "76",
+          "section": "journal-pages",
+          "content": "<p>Read Naamis Notes for this</p>"
+        },
+        {
+          "name": "77",
+          "section": "journal-pages",
+          "content": "<h3>Market Saturation and Excremental Excavations</h3><p>Aviana and Plex wakes up from SEVERE fighting and manage to survive on their own.<br>They erupt from the delicate, bloodfilled backside of the Titan's now-corpse.</p><p>Now outside, they are at the bottom of the lake outside the Duregar city.<br>In the mountain of titanic <s>shit</s> dirt underneath them, they find some gemstones and Plex teleports them to the surface and Aviana swims them to land.</p><p>Arriving at the city, we enter gracefully, but alas also unlawfully, so we run for our feathered lives!<br>Fearghas enjoyed some evil roleplay with chains and whips, punishing Aviana and Plex lavishly.</p><p>It was horrible, the drooling looks upon his eyes as he screamed at us, then put us in restraints and carried us off into his private personal mansion!<br>His dark desires shone brightly in his eyes, I can't speak of it no more.</p><p>We meet with Kyrin and she assumes the visage of Aviana, instantly gaining her trust and also becoming our new Clothing Dummy.</p><p>We discuss the future plans of attack on the Drow that took the Eye of Dehaka and possible renovations on Fearghas' mansion.<br>Plex can only speak while singing and dancing to music, so we zap all five of his curses, to his protest might I add.<br>Naami has a massive Nightmare during this long rest, must've dreamt of Plex just like me, horrifying.</p><p>We drink and eat good breakfast, far away from Shalkoc since he turns all liquids currently consumed into water, and turn Plex and Aviana Tiny Sized before leaving the private mansion.</p><p>We go shopping, buying some Bloodroots, Medicine Kits and a new Mug.</p><p>Marching at full speed to the King, we arrive in spectacular fashion.<br>The King discuss slavery with Fearghas, but our Dwarven Wizard friend doesn't like Slavery, so the King tries to enslave us all.</p><p>Plex drops the concentration, They aren't Tiny sized anymore, Aviana uses Giant potion, now there's a giant Aviana, some rock'n'roll music plays and the entire party climbs onto Aviana and she jumps them all away 2000 feet or so.<br>The resulting explosion from landing made everyone fear for their lives after all so everybody jumped off.<br>Extremely rude, but understandable.<br>I am a forgiving soul after all.</p><p>Now we're hiding in a lizard cave we found, waiting for the Anti-magic tanks to stop searching for us.<br>As we wait, we find some great herbs and banter a bit, then Plex restrains himself for a day due to WIld Magic and we tie him up like a bag.</p><p>Fearghas makes a Floating Disk and everyone but the now Thick-Sized Aviana climbs down the ledge to the encampment we saw when doing the superjump.</p><p>When they get there, they park Flex in a corner, he see's a fish, licks it through his restraints, hallucinates that it grants wishes and Naami has an anxeity attack that the golden fish will kill them all.</p><p>Mystery thickens as the guards finds us again and the chase continues!<br>As we glance over to eachothers, Fearghas the Quetzalcoatlus carries the party to Aviana and cast Plane Shift.</p><p>We spend hours at the Tower in Joutenheim and Emilio figures that the book in the middle of the tower is very dangerous and he is suspicious on why we have it.</p><p>We all look at eachothers and shrug, because we have no idea and it's better to not think to hard about it.</p><p>Putting the books back in the shelves, we head out and now, the next episode begins.</p>"
         }
       ]
     },
@@ -8009,6 +8101,16 @@
           "name": "76 - Healing fear",
           "section": "journal-pages",
           "content": "<p>Aviana and Plex begin to argue, which ends as usual with Aviana grabbing Plex by the throat and squeezing, and them both disappearing. Teleportation out of here is impossible, so we assume they are still in the lair. Fearghas pulls out alchemical supplies, grumbles at our friends' disappearance, and we hear a sound coming from the north-east corridor. Fearghas says the telepathic bond ended when I bring it up, so we go look for them using our little feet, Emilio and I leaving a trail of blood from our injuries. Emilio's blood is black?!</p><p>We follow the twisting corridor to a room where we find a small Malleable that has… wings? Behind it is a large black egg. Emilio and Fearghas immediately blast the Malleable; its body melts into the ground, leaving feathers behind. The egg is warm and has a thin, slimy shell like a snake egg. Fearghas and Shalkoc say it looks nothing like a dragon egg… How do they know that? Not the time to ask. Something is moving sluggishly inside the egg. A humanoid hand seems to try to break through the shell, but is too weak to do so.</p><p>Before Fearghas can advise against this course of action, Emilio punches a hole through the egg, spilling fluid onto Emilio. Inside the egg is a gooey, disheveled… human woman. She is not happy, understandably so. She is small, blonde with green eyes, wearing black armour. Groggily, she asks where she is.</p><p>\"We're in the lair of a demon.\"</p><p>\"At the bottom of a lake.\"</p><p>\"In the Underdark.\"</p><p>5 iridescent feathers on the ground, untouched by the filth.</p><p>The blonde woman introduces herself as Kyrin. She is spooked by Shalkoc, towering over the party. She offers me a healing potion, then upon seeing Emilio, hands it to him instead. No hard feelings. He is hurt even worse than I am. She hands me a second healing potion. Emilio and me drink gratefully; a little of the tension goes out of him.</p><p>We return to the drained blood pool and Fearghas carries out the ritual for Leomund's Tiny Hut. Kyrin examines herself, checking for any unnatural growths that may have occurred while she was in the egg. Her shadow seems… strange. Doesn't move quite right, like it's lagging behind. I speak up, but Fearghas and Kyrin say I'm maybe seeing things. For a moment her shadow looked like mine… I must be imagining. Shalkoc cooks a thankfully vegetarian soup for Emilio and me.</p><p>I patch up Emilio with the bandages and herbs I have, then treat my own wounds. Shalkoc cooks a big medium rare steak for Kyrin, generously spiced with ginger. What meat is that? After handing her food to Kyrin, Shalkoc gives me a very soothing high-five with his Hand of Healing. Fearghas insistently asks Shalkoc where he got the steak from, which makes Kyrin hesitate until Shalkoc assures he bought the steak in the city. Shalkoc cooks more meat, this time some kind of chicken, as a snack for Fearghas.</p><p>The voice calls from the hole: \"Yes, pause and breathe in the tranquility, dear ones. The transition from the River to the boundless peace of Nirvana can be… intense. Rest is a balm, and I am here to offer comfort and guidance.\" Emilio shouts at it to shut up. Fearghas offers him a drink, he refuses. The dwarf insists, and pours him some dwarven ale. Kyrin enquires as to why Emilio is so angry at the voice. His voice seeps barely controlled fury as he speaks about the abysmal luck he's been having.</p><p>I offer to treat the party's remaining scrapes and hurts. They decline, but the celestial speaks in my mind, saying they are impressed with my dedication to heal, and they are eager to teach me to heal even better. I go positively green at that. Fearghas hands out potions of heroism, which we all drink as we steel ourselves.</p><p>The hole in the middle of the room is deep, with slippery walls. Fearghas suggests to cast Feather Fall, and just jump. AAAAAAAAAA. We float down into a large fleshy chamber, very humid and reeking. A big hole in the north wall leads to another chamber, presumably. We hear skittering, squelching steps. There is no sign of the Dragonflesh golem… The voice calls \"There you are, let me tend to you.\" Kyrin crouches behind a fleshy growth, all but disappearing from sight. Fearghas takes a steeling drink. I panic and use Shadowslip to disappear (and a major wild magic surge giving me a permanent 1d8 to my charisma checks!). Shalkoc uses Guardian of Nature: Primal Beast. Emilio glares.</p><p>The skittering comes closer… Hands, followed by elbows, more hands, more elbows… It straightens, a monster of arms and more arms that moves gingerly but dextrously. The monster cradles what remains of a celestial, or rather, many celestials stitched together. Bones sticking out of its fingers make dreadful claws. It asks us to come into its embrace. Emilio is enraged and threatens it. The monster responds with kindness…</p><p>We roll initiative.</p><p>The Perfected Deva takes two steps towards us, then teleports very close! It swings claws at Fearghas saying soothing things, to which Fearghas grumbles heartily. It encourages us to come closer, and sweeps across the entire area with its claws. It hits and grapples Fearghas, restraining him as it pulls him into its loving embrace. Urgh. Emilio gets hit and delivers a spicy Hellish Rebuke in reaction, but the boss saves and takes half damage. Emilio gets grappled as well. I get hit even in shadow form, breaking the spell, and grappled. Shalkoc blocks the attack with his wings. Kyrin is not noticed by the monster at all.</p><p>I resist the curse, try to escape the grapple, but fail. Shalkoc goes into Mantis Style and punches, then attempts to deliver a Stunning Strike, twice. He does damage, but both strikes fail to stun the Deva. He unleashes a Flurry of Blows, triggers Chromatic Hardening, and tries one last Stunning Strike, to no avail. He steps away, unharmed by the monster.</p><p>Emilio resists the curse like it's nothing. He casts Void Torrent, and teleports away; the acid does not seem to harm the Deva at all. He goes into Void Form and uses Accrued Vitality but it's weak sauce and he only gains 8 temp HP. Tragic. Kyrin gets cursed. The Deva tells us to not be afraid, which promptly frightens Shalkoc and me (I rolled with advantage, and thankfully, because that was a 4 and a 1…). Kyrin pulls out a SUN BLADE and swings at the monster in a sneak attack, dealing a ton of radiant damage. She follows it up with a Psychic Blade, but the attack misses. She runs to safety.</p><p>The Deva uses Helping Hand (a claw attack with free necrotic damage and spicy crit range) and crits Fearghas for a massive chunk of HP. He casts Misty Step to get the hell out, leaving me alone in the grapple. He casts Hold Monster from a spellgem.</p><p>\"Aerelia if this thing is immune to paralyse, I'm going to shank you.\" Karnack, 2025.</p><p>We don't find out because the Deva saves, and Fearghas is very upset. The Deva uses Gentle Light, spawning a cloud of magical darkness on Kyrin. The Deva uses To the Rescue, teleporting to Shalkoc and dragging me along. Pressed into its ribcage, I feel squirming underneath the skin. There is a lot of maggots in there… The Deva hits me, it's another crit. I take heavy damage, leaving me at low health with a half-baked plan.</p><p>The Deva has a legendary resistance, and I only get one shot at a healing burst. I levitate myself out of the grapple, run away 20 feet in the air, and apply a healing word on myself, healing barely anything. Shalkoc punches for all he's worth, with a lot of feeling, but does not stun the Deva, so he shifts to Turtle Stance. The Deva uses Don't be Afraid again, but we all endure the wave of fear without flinching. Emilio growls that he has seen much worse in the void, and pummels it with an Eldritch Blast. Two beams hit, and Emilio uses Grasp of Hadar to drag the Deva closer to him.</p><p>The monster unleashes another wave of fear, terrifying Shalkoc and Kyrin. It uses Empathy/Loneliness as a reaction to her failing the save, forcing us to make two other saves which she barely passes, at the cost of light psychic damage. She sidesteps out of the magical darkness and throws a Psychic Blade because she is frightened and unable to move closer.</p><p>The Deva feels lonely and teleports to Kyrin, who flips it off as a free action. \"What a gentle gesture,\" it sighs. \"Oh I've got a gesture for you all right!\" She says. Fearghas steps in cat puke IRL then casts Scorching Ray. It would deal massive damage, but the Deva uses a Legendary Resistance! Then Fearghas chucks a Spiritual Weapon at it. The Deva uses a legendary action to attack Kyrin on Fearghas' turn, she uses her Uncanny Dodge to halve the damage.</p><p>The Deva hits Kyrin again, taking half her life in one blow. She then hits me; I drop to 1 HP and the Death Ward dissipates! I stop concentrating on Levitate and float to the ground. Through the Staff of Power, I cast Wall of Force and put myself in an unbreakable box to buy time. A Healing Word on Shalkoc gives him courage to approach the enemy and punch the living daylight out of it. Emilio gets close and readies up a spell. The Deva uses a Helping Hand on Kyrin, who dodges it perfectly. Close call!</p><p>Kyrin gets an otherworldly inspiration called Karnack; she hides, applies Shadow Strike to increase her reach, then attacks with a melee Psychic Blade, and marks the enemy's soul. She books it to a safe distance. A new wave of fear rolls out from the Deva, but none of us are afraid! Fearghas commands his Spiritual Weapon to attack, then prepares a Scorching Ray.</p><p>Another wave of fear hits us, and this time it's too much for everyone but Fearghas. Shalkoc indirectly saves my life by using a Dreamfeather and allowing me to reroll, avoiding psychic damage from Empathy/Loneliness. Kyrin gets hit by it but saves, barely surviving. On its turn, the Deva goes to her. Shalkoc tries an attack of opportunity, but is hit by a wild magic surge that inflicts disadvantage on all his attack rolls, cancelling the advantage from his future sight. Kyrin gets hit by Helping Hand, and goes down. The Deva jumps back to Shalkoc's rescue and bumps into my Wall of Force. Eyes lock onto me and hands feel at the Wall of Force, looking in vain for an opening. It looks disappointed, but it waits for my barrier to fall off.</p><p>Emilio and Fearghas unleash their readied spells, Tasha's Mind Whip and Scorching Ray. The Deva rolls a critical save on the mind whip and does not use resistance… Five of Fearghas' rays hit, and the Deva uses Legendary Resistance!</p><p>Steeling myself, I drop concentration on the Wall of Force. The hands reach out to me as I am defenseless, critically injured, but I am faster. Ripping my spellwards from my wrists, clutching the Staff of Power, I channel my strongest healing spell. A torrent of positive energy rushes towards the Deva, closing all wounds but also feeding the maggots inside and making them multiply until the creature's skin tears and the disgusting things burst out. The Deva's twisted body crumples, and the ruined face looks up at me. In a last whisper, it says \"Thank you\". For a moment I am filled with serenity and thoughts of the dawn's light, just like the day I received my staff.</p><p>Maggots are swarming all over. I step around them, casting a Healing Word on myself, and start toward the unconscious Kyrin. Shalkoc makes short work of the maggots with a fire breath, popping them like corn. Combat ends at last, and I rush over to Kyrin and get her back on her feet. Fearghas harvests the maggots, while telling Shalkoc to NOT eat them or even pick them up. He tries to get materials from the Deva's corpse, but it's too corrupted to make anything out of.</p><p>Kyrin finds 15 gleaming Springseeds. I scoop them up carefully and put them in my bag of herbs, hoping to plant them on Promise soon. We consider taking another rest, but the lair begins to quake and spasm. Again a rushing sound comes towards us from above. We cannot take another wave of bile now! I can confirm that we are in a stomach, urgh. The hole up north should be a throat of sorts; we dash into it, chased by the rushing sound becoming louder behind us. I block the tunnel with a Wall of Force as soon as we are through, but if the wall is unbreakable, the sticky walls of flesh will not hold much longer. We burst out of the sticky throat into a mouth with several rows of enormous teeth, closed.</p><p>Fearghas casts Shocking Grasp to get the creature to open its mouth, and his Lich Hand to tickle the uvula. It doesn't work out, so Emilio tries with a Mage Hand, but fails miserably. Kyrin stabs the tongue with her Psychic Blade. The blade goes in to the hilt, but we see no wound. The tongue rises to crush us against the roof of the mouth, but the teeth are cracking open. A wall of water rushes in…</p><p>Fearghas and Emilio very quickly put their heads together, talking quickly about magic. They come to the conclusion that teleportation should now be possible. Fearghas says \"Get in my mouth!\" and nobody understands until he polymorphs himself into a whale and takes a deep breath, filling his mouth with air. We all hop in.</p><p>\"I am the coo of the sea!\" Fearghas, 1497.</p><p>The water is a lot murkier, polluted with blood and bile. Whaleghas spots small Aboleths in the water. He swims up, and beaches himself on a… beach, and kindly opens his mouth to let us out. He reverts to his true form spitting, saying one of us tastes awful. Emilio apologises.</p><p>We are in a cave we've never seen before. Kyrin suggests a Detect Magic spell, so I take out my wand and give it a happy little wave. Kyrin seems to see just fine, she is intently looking around the cavern as if searching for something. We discuss our options; do we return to Fearghas' mansion in Ukgluz, or teleport to Promise? We quickly brief Kyrin on our… history with the Duergar. And the Drow of House Vandree… We decide to head back to Fearghas' mansion, on foot. Fearghas pops a spellgem of Find the Path.</p><p>We are on the other side of the lake, so it isn't far, but we have to go through the water again. Not a problem, as Fearghas turns back to Whaleghas to ferry us across. On the way, Kyrin says she was employed by the Drow to investigate Ukgluz, then tried to infiltrate Lessia with the Duergar, but she messed up, and can't be seen by them now. The last thing she remembers is Matron Vandree telling her she will never disappoint her again, and the next thing she knew she woke up in a gooey egg in the lair. The whale noises stop at that, then resume, and Whaleghas sneakily slaps Shalkoc with his tongue. Whalegas spits us all out on the other side of the lake, on the side of Ukgluz. The mutated larvae here have grown even larger…</p><p>Fearghas, back to dwarf form, grumbles about \"mahr-might taste\" again, and blames Shalkoc, who is offended. We make for Ukgluz, but Kyrin stops. She fears being recognised. Anxiously, she asks us not to tell on her as she shapeshifts into a child with the look of an urchin. Although she is smaller, her shadow grows larger. Irritatedly, she stomps on it and mutters at it under her breath. Her shadow behaves, and with child-Kyrin in tow, we walk to Ukgluz. Fearghas sticks the hat on his head and reminds us that we are all pretending to be his slaves.</p><p>As we reach the alleyway where the manor is, Fearghas stops abruptly. We all collide into him, which amuses a Duergar nearby, who asks how he will punish his slaves for this, and thankfully leaves. Right in front of the manor's invisible door is one of the Duergar's statues. Apparently these are the \"demon engines\" or are powered by them. It hasn't noticed us yet.</p><p>We investigate a little, then sneak past the statue. It doesn't move and we slip into the mansion unnoticed. Fearghas officially welcomes us to the Chateau de MacAllistar. We chill and get Kyrin up to speed about why we were in the Sibriex lair. Fearghas mentions, with no ill intentions I'm sure, that we went into the lair because I insisted on it. We nearly died in there… Suddenly choked with guilt, I excuse myself to the kitchen to make tea, but Kyrin thanks me for saving her, that if we hadn't gone into the lair, she would have been warped into a monster. I try to reply, but only squeak, and hurry to the kitchen, asking Shalkoc if we can make some cookies for everyone, too.</p><p>Fearghas, Emilio, and Kyrin discuss origins, reputation, and casual racism in the dining hall. We return with tea and snacks. Fearghas contacts Aviana with a Sending, asking where she and Plex are, and whether they are both safe. Aviana replies very tensely with \"where the fuck are you\", \"what is this bullshit\", and something about her dress being all dirty, and she was done with sewers, and she was done with filthy places! And this is more than 25 words for sure.</p>"
+        },
+        {
+          "name": "76 - Healing Fear (Summary)",
+          "section": "journal-pages",
+          "content": "<p>Aviana grabs Plex' throat after 2.5 seconds of arguing and they both teleport. Good start. They can't have gone far, what with the teleport restrictions here. I ask if Fearghas can contact them telepathically, but that Discord call ended while I was forcefully offline thanks to Mind Blank.</p><p>We leave to look for our missing companions, but find instead a... Minor Malleable? With wings? Emilio and Fearghas blast it dead, we pick up 5 dreamfeathers and share them among us. There is a large black snake-like egg, with movement inside. Emilio punches it open and a petite woman comes out, a human who woke up from the worst nap ever.</p><p>We introduce ourselves and explain to her where she is. Her name is Kyrin and she has very little idea how she got here, poor soul. She gives healing potions to Emilio and me after seeing how beaten up we are, how nice! The potions that is, not the beating up part.</p><p>We return to the blood pool room and take a short rest in the bubble. There is a lot of healing to be done, Shalkoc cooks a big steak for Kyrin which prompts relentless questioning from Fearghas to ascertain the origin of the meat. Bless this dwarf. Kyrin's shadow seems odd, but I brush it off as imagination.</p><p>The celestial's voice encourages us to rest, and Emilio snaps at it. Fearghas offers him ale, for his nerves. Emilio refuses. Fearghas insists. Kyrin asks why he is so angry (Emilio, not Fearghas, understandable mistake dear reader). Emilio grumbles about his terrible luck. The celestial wants to teach me to heal better. Hard pass. I'm fine. Nuh-uh.</p><p>After some much needed R&amp;R, we jump down the maw in the middle of the room, and live thanks to Fearghas' Feather Fall spell. We end up in a large, disgusting, vaguely round cavern. No sign of the monsters we chucked into that hole last time, I'm sure that's nothing to worry about. Something is coming! Kyrin hides so well I can't see her at all. I panic and slip into my shadow. Fearghas quaffs some ale. Shalkoc casts a spell to make his muscles bigger. Emilio glares.</p><p>We're attacked? By a monster with FAR too many hands, claiming it just wants a hug. It has the celestial's voice, but the body is corrupted beyond recognition and twisted into a fiend. In spite of this, it kept its good intentions and keeps trying to help us, which turns into trying to kill us.</p><p>\"Aerelia if this thing is immune to paralyse, I'm going to shank you.\" Karnack, 2025.</p><p>It's a hard battle, the Perfected Deva always targets the lowest health character to \"help\" them, and it grapples like a son of a kobold too. It teleports, inflicts fear, and generally hits like a truck. Kyrin flips it off as a free action. I'm grappled within an inch of my life and I realise that under the creature's skin, maggots are teeming. If they could teem a bit more, we could get interesting results. Speaking from experience.</p><p>We hatch a plan. Emilio and Fearghas ready their spells to hit the Deva on my turn and force it to use its legendary resistance. I put myself in a box, that is Wall of Force, because I am at 1 HP and my Death Ward triggered. Kyrin goes down despite some sick dodges, but all is in readiness. I drop concentration on Wall of Force, take off my spellwards, and channel for all I'm worth.</p><p>I CAST HEAL AT 9TH LEVEL!</p><p>According to plan, the maggots multiply and the boss explodes! It thanks me in a last whisper just before Shalkoc grills all the maggots with a dragon breath. Do not eat the maggots. I rush to help Kyrin but it's too soon to celebrate, as another wave of bile is coming for us. We run into the only exit, a sticky tunnel that I block with a Wall of Force. This only buys us a little time, as the flood of bile is so bad, the throat-like tunnel will give out before my spell does. We exit the tunnel into a huge mouth with several rows of teeth, firmly shut.</p><p>We think on how to escape, but soon Fearghas says \"Get in my mouth!\"</p><p>Nobody knows what he is talking about. (except Emilio for meta reasons)</p><p>He polymorphs into a sperm whale.</p><p>Everybody knows what he is talking about.</p><p>Shalkoc gets slapped by a tongue, one of us tastes like Marmite, we are carried to freedom by the glorious form of Whaleghas.</p><p>\"I am the coo of the sea!\" Fearghas 1497.</p><p>After learning Kyrin is a changeling, we decide to return to the Chateau de MacAllistar in Ukgluz. We dodge a statue that was staring at the door, thankfully without consequences (right?), get in, chat over tea and cookies, and send a Message spell to Aviana, with a response that is mostly grumbling about her dress being all dirty.</p>"
+        },
+        {
+          "name": "77 - Cookies and threats",
+          "section": "journal-pages",
+          "content": "<p>While the rest of us are safe in the Chateau de MacAllistar sipping tea and eating cookies, Aviana and Plex are still in the Sibriex lair, fighting for their lives. They do a very respectable amount of ripping and tearing until it's done, and find loot equal to 1700 gold (850gp each). Their resources all but spent, they are attacked by a giant ooze that… promptly dies by melting away as it moves, flooding the entire hall in blood and bile and other disgusting things. (This is when Aviana gets Fearghas' message spell, as she was waist-high in that ichor with Plex on her shoulder.)</p><p>They get to one closed butthole and ponder how to get out. Aviana ponders tearing it a new one, literally, but decides against it and tries to pry open the existing one. It does not work out, as she is too grossed out, and attempts to use Plex as a towel to avoid touching it. Plex is at 8 HP. He has some ideas, none of them good. He settles on Prestidigitation, which triggers an irrelevant minor surge, to clean up Aviana so she doesn't use him as a towel. Plex hands Aviana a slice of cloth cut from a tent, from the time we first met Emilio.</p><p>Plex casts Pulse Wave to force the butthole open. They exit the lair into pitch-black water. Below them is a mountain of waste from the lair; some things within are shimmering. There are 3 pyropes and 3 jades, which Plex grabs with his mage hand. Because of the earlier surge that teleported Fearghas to the Plane of Water, both Aviana and Plex know where Fearghas is, and they know where his manor is. Plex casts a Dimension Door to the surface, but Aviana doesn't fit through it, not just because she is too big but also because Plex is too small (he is still tiny).</p><p>Aviana grabs Plex, who chugs snot to survive her Vice Grip. This circumvents the issue with Dimension Door, and they teleport to the surface. Plex would 100% have died without the snot. They swim ashore; they know where to go, but must be sneaky about it to not be taken for runaway slaves by the Duergar again. They are immediately spotted by two Duergar who call out to them.</p><p>Plex stands on Aviana's shoulder and says hello, which confuses the Duergar because they can't see the tiny Plex. He says he wants to get into Ukgluz to meet a friend. The Duergar demand to know what they were doing, and who owns them. Plex guesses he is owned by Mannon, who is not there at the moment. The Duergar call for reinforcments. Plex requests to be grabbed by Aviana again, and casts Vortex Warp at 4th level on himself to teleport into Ukgluz.</p><p>This of course attracts a lot of attention and soon 15 guards are running after them. Plex panics, casts Fey Step and teleports 20ft to the East. Fearghas' Plex-sense is tingling; he gets a splitting headache out of nowhere, sends a Message to Aviana, who screams in answer. Fearghas gets The Look (tm) on his face as he says Plex and Aviana are running amok in the city, and he needs to go and get them. We all go out to look for our… friends.</p><p>We soon hear a commotion three streets over, of a now-normal-size harpy running like Jack Sparrow shouting \"What did I do? Stop chasing me!\". She runs into a market stall, prompting more screaming that guides Fearghas and the rest of us towards them. Plex pockets a piece of cloth, Aviana runs into soot and her face is now black. She spots Fearghas dashing towards her with The Look (tm) on his face. Aviana is chased by 20 guards shouting to stop these runaway slaves. Plex teleports him and Aviana a short distance.</p><p>Fearghas says \"play along\" and cracks both of them on the head with his staff, shouting at them. I try to stop the violence, to no avail. Emilio nods like this is the most reasonable thing. Fearghas apologises to the Duergar and makes a good show of a repentant master. The Duergar are visibly losing brain cells, and say that they will have to report this and Fearghas is to show up at the court house by tomorrow for the report.</p><p>The Duergar insists that Fearghas puts his slaves in chains, so Aviana says she brought her own chain and pulls out a regular chain, a pair of manacles, and finally the Null-Steel chain. Fearghas chains Aviana up with the regular chain, and Plex with the Null-Steel chain, and we head back into the manor the moment the guards have their backs turned. Fearghas hesitates to unchain Plex, who is very confused about the Duergar (he has never met them directly). Fearghas explains. Plex is confused as to who Fearghas can't be the slave.</p><p>Aviana is stuck in the steel chain and calls Fearghas for help. Kyrin meets Aviana for the first time as her face is black with soot. Fearghas cleans her up with Prestidigitation, and makes the introductions with Kyrin. I hand Aviana a cookie and gain inspiration, yay!. Kyrin is happily munching away on more treats, looking like a child with chocolate smudged on her nose.</p><p>Aviana wants to open a cookie business because she thinks Kyrin is adorable. I remind her that we are now in legal trouble with the Duergar, and we are summoned to Hell within the week, not to mention we are planning an ambush on Matron Vandree. We also need to retrieve the Eye of Dahak from the Drow to help the king of Lessia before we can go back to fulfilling our contracts with Hell. Kyrin says she knows where the Drow are. Or… were. She's not sure how long she was in the egg. She describes the place where the Drow where, a place I recognise. We both grimace as we speak about Matron Vandree.</p><p>Aviana grumbles very much about how Fearghas' manor looks, and that it needs a complete makeover. We argue there are more pressing matters, i.e. resting because we are all beaten up. Fearghas gives me a triggered spellgem of Private Sanctum. To release the spell, I need to say Execute in Dwarven. Kyrin pulls out an ink-black piece of cloth and slaps it down on the floor, then climbs down into it. It's a Portable Hole! She suggests using it to sneak out of the city, which will cause issues with bags of holding, but this is something we are aware of (thankfully).</p><p>Kyrin takes the appearance of Aviana, at her urging. Aviana is star-struck and has her try on a silk robe, and a dress. Fearghas sighs and disappears into the cellar with the intention to drink himself silly. The servants bring a comfortable little pad for Emilio and put it in a corner, as if he was a grumpy little cat; surprisingly he is sitting at the table and having cookies with the rest of us. <s>Emolio</s></p><p>I use my last spell slot, and channel to heighten it from level 5 to level 8, and cast Remove Curse on Plex. He can speak again without music playing in the background, and he is again of reasonable size.</p><p>We take a long rest. I HAVE HP AGAIN.</p><p>(Now the new rest rules come into effect; the next long rest we can take is on Saturday.)</p><p>We are having breakfast the next day and discussing our plans when Matron Vandree speaks into my mind:</p><div><p>Naami. My little traitor.</p></div><div><p>Did you think your disloyalty would go unnoticed?</p></div><div><p>A little bird, fluttering through King Dimzad’s halls, sang me such a lovely song.</p></div><div><p>It spoke of a stolen sceptre, a clever little plan... and you. The bait. Squirming so prettily in the jaws of a trap meant for me.</p></div><div><p>But fret not, little one. That shall not be your fate.</p></div><div><p>No - yours will be a special one.</p></div><p>For you will soon learn what fate awaits those foolish enough to betray me - and anyone they've ever held dear.</p><p>Shaking, I repeat these words to the party. She will hurt Madr. Emilio and Kyrin comfort me, and Fearghas promises we will take care of it. Aviana suggests making Matron Vandree disappears. We say that is the idea, and nothing short of it will free Kyrin and me from her influence.</p><p>Shalkoc cooks up a feast for us, in which he eagerly takes part. Plex and Aviana give 1 pyrope and 2 jades to Fearghas. Kyrin gives me a potion of greater healing. Fearghas cooks up some potions, but the alchemy goes awry.</p><p>We have to exile Shalkoc to the other end of the manor to drink tea, ale, and potions, as all liquids still turn to lukewarm water when he is within 60 feet.</p><p>Plex turns himself and Aviana tiny so they can sneak better. Emilio scoops up Aviana and hides her in his breast pocket. I lift Plex, scold him, and gently place him in my bag with instructions to not disturb my herbs! Fearghas casts Rary's Telepathic Bond, which I am again excluded from, my mind is still blank... We leave the mansion. Fearghas is tracking mud everywhere for a week because of a surge. I offer to cast Remove Curse on him, but he advises me not to spend this many resources.</p><p>We head to the market as I need to replenish my healer's supplies. Fearghas buys me 2 healer's kits, and I sneakily hand him the money when we are out of sight. Fearghas then buys alchemical supplies. Aviana bullies him into buying her a new mug, which grants her inspiration as it is useless.</p><p>We head to the king's hall to speak to Dimzad. Kyrin, who transformed into a Duergar, so she stays outside to \"watch over the slaves\", that is the rest of us, while Fearghas goes in to speak with the king. Kyrin grumbles at this, she wanted to investigate the hall for something hidden, or someone disguised. Fearghas solves her concern by using a See Invisibility gem.</p><p>One of the seats to the king's right is empty; last time, a priest was sitting there. The king greets him by saying \"Out of your portal, are you?\". Fearghas says the Matron is aware of the ambush, and that she has a spy in Dimzad's court. He furrows his brows at this, says he suspected something as some scrying sensors were recently found, one of those at the entrance of Fearghas' portal. (I assume he means the door to the manor.) The sensors were destroyed (presumably this is why an armour was at the door?), but Dimzad says the plans have changed, and asks Fearghas what he is planning to do.</p><p>Fearghas says he assumes the Matron will come get me, and also he plans to investigate a camping location of the Drows'. Dimzad asks why he should let the Halfling (me) go. Fearghas says that I am in his employ and care. Dimzad asks why he should let either of us go, as us surface-dwellers don't know how to use Null-Steel…</p><p>Fearghas warns us telepathically, and the hall's doors begin to close! Fearghas teleports back to us with a Dimension Door cast with a Subtle Mind Crystal to escape being taken prisoner. The plan is now to run. The moment we start running, statues (demon engines) advance towards us, carrying black nets of Null-Steel.</p><p>Aviana hops out of Emilio's pocket and chugs a Potion of Giant Size. Plex drops concentration on the spell that made him tiny, and casts Adjust Density on Aviana to halve her density and increase her jump distance. She uses Legendary Vigor to further increase it. Fearghas casts Feather Fall on us so we don't straight up die.</p><p>Aviana scoops us all up and jumps 700 meters up and forward, to not bonk her head on the ceiling (close call). Kyrin and me point to the Drows' camping site as we are gliding through the air; the campsite is empty, and we float far past it. We end up about 3km from the city gates. Aviana approaches the ground and we wriggle out of her grasp to avoid being caught in the explosion from the Thunderfeet Footwraps. All of us jump and float down before she lands, but Emilio is too fancy for this and uses his Robe of Stars to disappear from this reality and reappear a short moment later.</p><p>Aviana gently floats down, triggering an explosion, but she takes the superhero landing pose. It looks very different when she isn't slamming down into the ground, but she is having a great time. Plex missed the landing a bit, and emerges from underneath a large mushroom cap somehow. Aviana stomps over to us, Fearghas asks if everyone is alive, and Emilio wants to fly again. Adrenalin junkie…</p><p>We agree to return to the campsite to look for clues. It's uncomfortably close to Ukgluz, but needs must. Emilio gives a heartfelt compliment to Fearghas on his excellent use of Dimension Door; he feels invigorated. Aviana carries Emilio up on her shoulder to repay the favour of him carrying her in his pocket earlier. He is loving the height.</p><p>We get to the campside, and from Ukgluz we see several demon engines coming in our general direction. We decide to hide nearby and wait for the searching to die down. Aviana puts us all in a potato sack and climbs up to a ledge where we hole up in a cavern that is big enough even for her in giant mode. As we arrive in the cavern, a lage lizard slithers away, deciding it isn't messing with something the size of Aviana. Kyrin scouts further into the cavern, finding only large lizard eggs. Shalkoc gets a hungry look in his eyes and sneaks off towards the eggs until we grab him by the scruff of the neck.</p><p>We sit down to keep watch; around 30 demon engines are roaming the area, and after around 3 hours they start to head back towards Ukgluz. After 6 hours, they are all gone. In the meantime, Fearghas looks for herbs and finds some Shimmerleaf, which he coaxes to grow with magic from a gem. I help him out with herbs as he starts brewing. Aviana inspires him to do his best by flexing. He brews up 1 Potion of Supreme Healing. Kyrin takes out a notepad and starts sketching the area, adding some notes. Kyrin conjures up a Mage Hand to pick a blue flower she spotted. She picks two, gives me one which I put in my hair, and presses the other into a book, which gives her inspiration!</p><p>Plex summons a Mage Hand to… fight Kyrin's Mage Hand? He only gets a moderate surge that restrains him for a day. The Mage Hand backfired and is now holding him very tight. Aviana wants to chain him up to carry him like a bag. Or tie him up with a hempen rope. Or a jungle vine, whatever he prefers. He can't struggle anyway, and is fine being carried around, but he would much prefer if Fearghas carried him around on Tenser's Floating Disk for a day. Fearghas grumbles, but Plex argues he owes him a favour. Fearghas casts Tenser's Floating Disk and Aviana places Plex on it. She spins the disk.</p><p>We climb down with Aviana's help and approach the camp; Aviana stays on the ledge as she is too noticeable, and could easily jump to us in an emergency. There isn't much here, and footprints make it clear that this place has been searched by the Duergar. Fearghas casts Detect Magic. I wave my wand to do the same. We see remains of divination magic, and high-level conjuration magic… that's traces of a Plane Shift spell!</p><p>\"Fearghas, where did you park Plex?\" Aerelia.</p><p>Plex was parked next to the remains of the campfire; staring into the ashes, he spots bones… weird bones he's never seen before, they're a little transparent with an iridescent shimmer. He picks them up with his Mage Hand. The bones used to belong to a magical creature, it still holds faint conjuration magic. Plex licks the bones, it tastes surprisingly fishy, a lot like his Fishy Magic.</p><p>Wait… I've eaten this fish before, on my travels with the Drow. At a time when we were travelling through deeper levels and food was scarce, the Matron left saying she would get food from the castle, Plane Shifted away, and returned with a barrel full of these fish. When I asked which waters she got these from, she chuckled and said \"there is no water there, they just float\".</p><p>I describe the fish I remember, and Fearghas conjures up an illusion, both of us working out an accurate image of the creature. None of us knows what this is. Shalkoc tries to eat the illusion. I mention the Drow having a place in the Shadowfell where they would stay, which makes Plex do a big frown. Kyrin gives the camp a last good look and spots an elusive little emblem of two crossed daggers. It's made of a mate metal that doesn't reflect light; I immediately recognise the crest of House Vandree. Assassins who worked for House Vandree wore this in the centre of their chest. Thin leather straps lie next to it, one of them stained with blood. I suggest a scrying spell.</p><p>We return to where Aviana was waiting, but on the way, Fearghas and me are spotted by the lookouts on the walls of Ukgluz… the gates open and 12 demon engines charge towards us! Aviana bids goodbye to the lizard mum who she was having a deep conversation with, and jumps down to help us.</p><p>Fearghas shouts \"Hop on!\" and polymorphs into a giant dinosaur bird! (Quetzalcoatlus) We get on Quetzalcoatlhus MacAllistar, Aviana wonders if her wings would look like this if she didn't have any feathers, what a sad thought. Emilio is happily sitting on the dinosaur, aura farming. We get away, land, and Fearghas drops Polymorph to cast… Plane Shift?! Where are we going?</p><p>We appear in a tower in a demiplane. Fearghas says it belonged to another wizard, who seems to have passed on and, in scientific terms, \"he called dibs\". We climb the stairs to a room which floor tiles are carved with letters and numbers, and the edges of the room are littered with bones. Fearghas warns us to not go into that room alone. We climb up to the library, a room that makes Fearghas very happy. He starts researching the fish. Another room in the library holds an empty altar and glowing runes that look similar to the ones on the Void Explorer's Spellbook that Fearghas pulled out in the Sibriex lair, which caused Emilio to lose control… Fearghas says the room is no longer trapped, and Kyrin walks in there unharmed. Fearghas, Plex, and me research the golden fish. Plex has to cast Comprehend Languages to read any of the books because he does not know how to read.</p><p>Aviana and Emilio were left behind on the floor we arrived in. Emilio is anxious, doesn't feel safe. Aviana encourages him to follow the rest of us, but she is too big to fit through the staircase, so he goes alone. Into the room with the letters. The one we should never be alone in. He climbs up the stairs, and ends up… at the bottom of the stairs, unable to leave the room. Fearghas gets a Skype notification in his head that someone intruded into the tower. He goes to get Emilio, getting him unstuck. Emilio joins us in the library… and immediately sees the purplish runes on the floor of the other room. His gauntlets react even at this distance. He asks Fearghas why he has void runes in the tower, he replies they came with the tower when he took over.</p><p>Emilio is not feeling good because of the runes, I offer help but he brushes me off roughly. Fearghas hands me the \"Note to Future Self\" they previously found in the tower. I read it with great fascination, and eventually Fearghas finds information on the fish! It's a space guppy, native to the Astral Plane. Led by Fearghas, we climb up to the Greenhouse. I am fascinated by everything, and lag behind a bit. When I join the rest of the party on the floor above, it's very overgrown and there is a giant dead plant. Fearghas mentions having to fight it.</p><p>Another floor up is a room-wide device that can enhance magic items. It's crazy messy in there, so I tease Fearghas about it. Above is the Observatory, a room where the floor looks like a star chart and most of the space is taken up by a massive telescope. Fearghas instructs me on how to use it, and I hop on the chair and look for Ildilas. It doesn't look so different from when I left it… except it waves like a mirage, only Ildilas, like something is distorting the image. The desert in the centre of the island… maybe has expanded? It's hard to tell, the image is so distorted, and I've only seen maps a few times. The coastline is the same, but the sea just off the island seems shallower, lighter in colour, like the sea floor is raised, in a pattern reminiscent of tree roots jutting from a stump. It faintly reminds me of something I read once, or heard from an elderly relative. Ley lines? I can't recall…</p><p>We try to search the Astral Plane for a castle but it's a needle in a haystack situation. That being said… we do have time. Fearghas summons an Unseen Servant to clean up the tower so he doesn't have to do it himself. Wizards… I ask Fearghas if we are safe in the tower, if the Matron can come get me here. He's pretty sure she could not, or at least it would be as tough as it's going to get for her!</p><p>We suggest spending some time in the tower to research:</p><ul><li><p>Matron Vandree, on the off chance we find anything</p></li></ul><ul><li><p>The Astral Plane and a castle with space guppies</p></li><li><p>Dragon aspects, their eyes, effects on mortal races, dragon sickness</p></li><li><p>Ley lines</p></li><li><p>Duergar religion and scepters</p></li></ul><p>I also said I wanted to examine everyone, with their permission, because we sustained severe wounds in the recent fights, and I want to make sure we're all okay before we get into another battle.</p>"
         }
       ]
     },
@@ -8138,5 +8240,5 @@
       ]
     }
   ],
-  "ingameDate": "Nonus 27, 1497"
+  "ingameDate": "Nonus 28, 1497"
 }
