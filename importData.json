@@ -120,14 +120,6 @@
         "requirements": ""
       },
       {
-        "name": "Dagger",
-        "description": "<p>A short metal blade mounted to a small hilt and crossguard. The dagger makes an effective side armament for hardened warriors or a hidden blade for assassins and thieves.</p>",
-        "section": "physical-items",
-        "quantity": 1,
-        "combinedLabel": "Simple Melee",
-        "attunementLabel": ""
-      },
-      {
         "name": "Philter of Love",
         "description": "",
         "section": "physical-items",
@@ -860,6 +852,52 @@
         "description": "<p>Your walking speed is increased by 20ft, you have a 1d6 bonus to your initiative rolls and, as long as you aren't incapacitated, you cannot be surprised.</p><p>Using Battering Ram grants you an amount of temporary hit points equal to your barbarian level.</p>",
         "section": "feature-items",
         "requirements": "Elk Spirit"
+      },
+      {
+        "name": "Unstoppable",
+        "description": "<p>As long as you're not &amp;Reference[incapacitated], your movement speed cannot be reduced and you are immune to being &amp;Reference[frightened], &amp;Reference[restrained], &amp;Reference[prone], and &amp;Reference[grappled].</p><p>Additionally, you can use Battering Ram to charge through and break solid objects, such as walls, up to 5ft thick. <br>You can also charge through and create holes in magical barriers this way if you succeed on a [[/save str format=long]] against the caster's spell save DC. If the barrier requires concentration to maintain, breaking through it immediately ends the caster's concentration on the barrier.</p>",
+        "section": "feature-items",
+        "requirements": "Elk Spirit"
+      },
+      {
+        "name": "Pyrope",
+        "description": "<p>Pyrope, a type of garnet known for its exquisite beauty, also holds military significance. It is believed that adorning weaponry with this garnet allows it to penetrate the thickest hides or demolish the strongest doors, aided by arcane forces.</p>",
+        "section": "physical-items",
+        "quantity": 1,
+        "combinedLabel": "Gemstone",
+        "attunementLabel": ""
+      },
+      {
+        "name": "Clockwork Looking Glass",
+        "description": "<p>This device is a complex marvel of brass and polished glass, a spyglass nested within a dizzying array of vanishingly small and perpetually spinning gears. Constructed by Axiomites in the Citadel of Resplendent Clockwork, the realm of Brigh, these looking glasses are used to understand the underlying mathematical and logical laws of the multiverse. Even though they are constructed to perfect precision and without any tolerances, they break as soon as anyone pears through them. The reason for this phenomenon is thought to be understood only by Brigh herself.</p><p><strong>Mechanical Truth.</strong> You can use your bonus action to peer through the looking glass into the foundational, mechanical nature of reality, shattering the looking glass in the process. For 10 minutes, you count as a contruct when determining your creature type (such as for spells like Hold Person), are immune to the &amp;Reference[frightened] and &amp;Reference[charmed] conditions, and have advantage on checks and saving throws to reveal or resist illusions.<br>During this time, you experience reality in a strange and dissociated way. You see the world not through your own eyes but as if you were floating above your own head. When someone, including yourself, speaks, the voice sounds distant and as if it didn't originate from the speaker's mouth but from somewhere far above you. Moving your body feels like controlling a puppet on a string or a pawn on a chess board. After the effect ends, you recall the experience like strangely real dream.</p>",
+        "section": "physical-items",
+        "quantity": 1,
+        "combinedLabel": "Exotic Currency",
+        "attunementLabel": ""
+      },
+      {
+        "name": "Potion of Water Breathing",
+        "description": "<p><em>Its cloudy green fluid smells of the sea and has a jellyfish-like bubble floating in it.</em></p>\n<p>You can breathe underwater for 1 hour after drinking this potion. </p>\n<p> </p>",
+        "section": "physical-items",
+        "quantity": 1,
+        "combinedLabel": "Potion",
+        "attunementLabel": ""
+      },
+      {
+        "name": "Martyr's Locket",
+        "description": "<p>A Martyr's Locket is an unassuming and unadorned gold pendant, deliberately plain and with a blank canvas inside. Blessed by the divine light of Mount Celestia, they are offered by the angelic hosts of Heaven to those seeking to perform acts of true empathy - often given freely to poor sinners looking for penance.</p><p>The belief that the truest measure of a soul is not in avoiding hardship, but in the willingness to bear the burdens of others, is a belief not just common amongst the denizens of Heaven but also shared by their mortal followers. As such, many monasteries across the realms which are dedicated to lawful good deities or principles, welcome donations of used lockets and display them in quiet galleries where each captured portrait of a moment of sacrifice serves as a silent lesson in courage and compassion for all to witness. Novitiates spend hours in silent contemplation before them, learning not only from dusty tomes, but from the faces of ordinary people captured in their single greatest moment.</p><p><strong>Moment of Martyrdom.</strong> When another creature you can see becomes affected by a curse (or an effect that can be ended or removed via the Remove Curse spell), you can activate the locket (no action required) to take the curse upon yourself instead. This ability cannot be used if the other creature isn't willing or if you are immune to any the curse's effects.</p><p>When the item is activated this way, the locket becomes a nonmagical @UUID[Compendium.talia-custom.customItems.Item.dQQKUD2XEIMNbGXl]{gold locket with a painted portrait inside} (DMG, p134), depicting you in the moment you took the curse upon yourself.</p>",
+        "section": "physical-items",
+        "quantity": 3,
+        "combinedLabel": "Exotic Currency",
+        "attunementLabel": ""
+      },
+      {
+        "name": "Silver Tears",
+        "description": "<blockquote><p>In the depths of Mestopheles' dungeons on Cania, the 8th layer of Hell, pain devils extract this silvery powder through the torture of captured celestials. Devils bound for the warfronts of Avernus take flasks and snuff boxes of the stuff to fortify themselves against exposure to the raw chaos of demons. </p></blockquote><p>When you consume this substance as an action, you have advantage on saving throws against any effect from a demonic source for 8 hours.</p>",
+        "section": "physical-items",
+        "quantity": 1,
+        "combinedLabel": "Potion",
+        "attunementLabel": ""
       }
     ],
     "Emilio Astray": [
@@ -1086,14 +1124,6 @@
         "spellSchool": "Enchantment"
       },
       {
-        "name": "Detect Thoughts",
-        "description": "<p>For the duration, you can read the thoughts of certain creatures. When you cast the spell and as your action on each turn until the spell ends, you can focus your mind on any one creature that you can see within 30 feet of you. If the creature you choose has an Intelligence of 3 or lower or doesn't speak any language, the creature is unaffected.</p><p>You initially learn the surface thoughts of the creature—what is most on its mind in that moment. As an action, you can either shift your attention to another creature's thoughts or attempt to probe deeper into the same creature's mind. If you probe deeper, the target must make a Wisdom saving throw. If it fails, you gain insight into its reasoning (if any), its emotional state, and something that looms large in its mind (such as something it worries over, loves, or hates). If it succeeds, the spell ends. Either way, the target knows that you are probing into its mind, and unless you shift your attention to another creature's thoughts, the creature can use its action on its turn to make an Intelligence check contested by your Intelligence check; if it succeeds, the spell ends.</p><p>Questions verbally directed at the target creature naturally shape the course of its thoughts, so this spell is particularly effective as part of an interrogation.</p><p>You can also use this spell to detect the presence of thinking creatures you can't see. When you cast the spell or as your action during the duration, you can search for thoughts within 30 feet of you. The spell can penetrate barriers, but 2 feet of rock, 2 inches of any metal other than lead, or a thin sheet of lead blocks you. You can't detect a creature with an Intelligence of 3 or lower or one that doesn't speak any language.</p><p>Once you detect the presence of a creature in this way, you can read its thoughts for the rest of the duration as described above, even if you can't see it, but it must still be within range.</p>",
-        "section": "spell-items",
-        "spellLevel": "2nd Level",
-        "spellRange": "30 ft",
-        "spellSchool": "Divination"
-      },
-      {
         "name": "Guidance",
         "description": "<div><p>You touch one willing creature. Once before the spell ends, the target can roll a [[/r d4]] and add the number rolled to one ability check of its choice. It has to roll the die before making the ability check. The spell then ends.</p></div>",
         "section": "spell-items",
@@ -1254,14 +1284,6 @@
         "attunementLabel": "Requires Attunement"
       },
       {
-        "name": "Wooden Chicken Statue with Knife beak",
-        "description": "",
-        "section": "physical-items",
-        "quantity": 1,
-        "combinedLabel": "Art Object",
-        "attunementLabel": ""
-      },
-      {
         "name": "Fine gold chain set with a fire opal",
         "description": "",
         "section": "physical-items",
@@ -1394,6 +1416,102 @@
         "description": "<p>You can use your bonus action to project a 20-foot-radius aura for 10 minutes, granting an iota of eldritch vision and insight to allies within.</p><p>While an allied creature is within this area, numerous eyes of random shapes and sizes appear and disappear continuously all over their body and equipment. Affected creatures can see normally in darkness, both magical and nonmagical, to a distance of 120 feet and are immune to the &amp;Reference[blinded] condition. These eyes have no physical presence and things can pass through them.</p><p>Once you use this feature, you can't use it again until you finish a long rest. While you have no uses available, you can expend 2 Essence Shards to use this feature again.</p>",
         "section": "feature-items",
         "requirements": "Void-Tainted - Boon"
+      },
+      {
+        "name": "Synaptic Static",
+        "description": "<p>You choose a point within range and cause psychic energy to explode there. Each creature in a 20-foot-radius sphere centered on that point must make an Intelligence saving throw. A creature with an Intelligence score of 2 or lower can't be affected by this spell. A target takes [[/damage 8d6 type=psychic]] damage on a failed save, or half as much damage on a successful one.</p><p>After a failed save, a target has muddled thoughts for 1 minute. During that time, it rolls a [[/r d6]] and subtracts the number rolled from all its attack rolls and ability checks, as well as its Constitution saving throws to maintain &amp;Reference[concentration]. The target can make an Intelligence saving throw at the end of each of its turns, ending the effect on itself on a success.</p>",
+        "section": "spell-items",
+        "spellLevel": "5th Level",
+        "spellRange": "120 ft",
+        "spellSchool": "Enchantment"
+      },
+      {
+        "name": "Krail's Rupture",
+        "description": "<p>You make a slicing motion with your finger, and you immediately break the grapple of the creature grappling you by magically entering their body and exiting them on the opposite side. The creature must make a Constitution saving throw, taking [[/damage 3d12 type=necrotic]] damage on a failed save or half as much damage on a successful one.</p><p>If cast in response to being swallowed, you exit the triggering creature's body, regardless of how much damage you deal to it, and fall &amp;Reference[condition=prone] in a space within 10 feet of the triggering creature.</p><p><strong>At Higher Levels. </strong>When you cast this spell using a spell slot of 3rd level or higher, the damage increases by [[/r 1d12]] for each slot level above 2nd.</p>",
+        "section": "spell-items",
+        "spellLevel": "2nd Level",
+        "spellRange": "Touch",
+        "spellSchool": "Necromancy"
+      },
+      {
+        "name": "Rend",
+        "description": "<p>You can expend 3 Essence Shards to make a single Reaping Claws attack against a creature within reach.</p>",
+        "section": "feature-items",
+        "requirements": "Void-Tainted 14"
+      },
+      {
+        "name": "Schism",
+        "description": "<p>You can expend 9 Essence Shards to cast a warlock spell you know with a casting time of 1 action. The spell is cast using a pact slot as normal.</p>",
+        "section": "feature-items",
+        "requirements": "Void-Tainted 14"
+      },
+      {
+        "name": "Twist of Fate",
+        "description": "<p>You can expend 8 Essence Shards to regain one expended use of your Void Form.</p><section><p><em>Add the regained use manually.</em></p></section>",
+        "section": "feature-items",
+        "requirements": "Void-Tainted 14"
+      },
+      {
+        "name": "Feeding Frenzy",
+        "description": "<p>As an action, you can unleash your patron’s hunger onto one creature you can see within 60 feet. The target must make a Charisma saving throw against your spell save DC. If the target is an aberration, it has disadvantage on this saving throw. On a failed save, the target takes [[/damage 10d10 psychic]] damage, or [[/damage 15d10 psychic]] damage if it's an aberration. On a successful save, the creature takes half as much damage.</p><p>The target, along with everything it's wearing or carrying, is dragged into the void and devoured by your patron if this damage leaves it with 0 hit points. A creature devoured this way leaves behind no corpse and can be restored to life only by means of a True Resurrection or a Wish spell.</p><p>If a target is devoured this way, you can use this ability again immediately as part of the same action. If your Void Form is active, you also gain one Essence Shard.</p><p>Once you use this feature, you can't use it again until you finish a long rest.</p>",
+        "section": "feature-items",
+        "requirements": "Void-Tainted 14"
+      },
+      {
+        "name": "Dodge",
+        "description": "<p>When you take the Dodge action, you focus entirely on avoiding attacks. Until the start of your next turn, any attack roll made against you has disadvantage if you can see the attacker, and you make Dexterity saving throws with advantage. You lose this benefit if you are incapacitated (as explained in the appendix) or if your speed drops to 0.</p>",
+        "section": "feature-items",
+        "requirements": ""
+      },
+      {
+        "name": "Grapple",
+        "description": "<p>When you want to grab a creature or wrestle with it, you can use the Attack action to make a special melee attack, a grapple. If you're able to make multiple attacks with the Attack action, this attack replaces one of them. The target of your grapple must be no more than one size larger than you, and it must be within your reach.</p><p>Using at least one free hand, you try to seize the target by making a grapple check, a [[/skill ath format=long]] contested by the target's [[/skill ath format=long]] or [[/skill acr format=long]] (the target chooses the ability to use). You succeed automatically if the target is incapacitated. If you succeed, you subject the target to the &amp;Reference[grappled] effect. The condition specifies the things that end it, and you can release the target whenever you like (no action required).</p>",
+        "section": "feature-items",
+        "requirements": ""
+      },
+      {
+        "name": "Jump",
+        "description": "<p>Using your bonus action, you can jump up to [[/r @talia.jumpDistance]] ft.</p>",
+        "section": "feature-items",
+        "requirements": ""
+      },
+      {
+        "name": "Shove",
+        "description": "<p>Using a bonus action, you can shove a creature to push it away from you.</p><p>The target of your shove must be no more than one size larger than you, and it must be within your reach. You make a Strength (Athletics) check contested by the target's Strength (Athletics) or Dexterity (Acrobatics) check (the target chooses the ability to use). You succeed automatically if the target is incapacitated. </p><p>If you succeed, you push the target 5 feet backwards, away from you. For each size category you are larger than the target, this distance increases by an additional 5 feet.</p>",
+        "section": "feature-items",
+        "requirements": "Common Action"
+      },
+      {
+        "name": "Martyr's Locket",
+        "description": "<p>A Martyr's Locket is an unassuming and unadorned gold pendant, deliberately plain and with a blank canvas inside. Blessed by the divine light of Mount Celestia, they are offered by the angelic hosts of Heaven to those seeking to perform acts of true empathy - often given freely to poor sinners looking for penance.</p><p>The belief that the truest measure of a soul is not in avoiding hardship, but in the willingness to bear the burdens of others, is a belief not just common amongst the denizens of Heaven but also shared by their mortal followers. As such, many monasteries across the realms which are dedicated to lawful good deities or principles, welcome donations of used lockets and display them in quiet galleries where each captured portrait of a moment of sacrifice serves as a silent lesson in courage and compassion for all to witness. Novitiates spend hours in silent contemplation before them, learning not only from dusty tomes, but from the faces of ordinary people captured in their single greatest moment.</p><p><strong>Moment of Martyrdom.</strong> When another creature you can see becomes affected by a curse (or an effect that can be ended or removed via the Remove Curse spell), you can activate the locket (no action required) to take the curse upon yourself instead. This ability cannot be used if the other creature isn't willing or if you are immune to any the curse's effects.</p><p>When the item is activated this way, the locket becomes a nonmagical @UUID[Compendium.talia-custom.customItems.Item.dQQKUD2XEIMNbGXl]{gold locket with a painted portrait inside} (DMG, p134), depicting you in the moment you took the curse upon yourself.</p>",
+        "section": "physical-items",
+        "quantity": 3,
+        "combinedLabel": "Exotic Currency",
+        "attunementLabel": ""
+      },
+      {
+        "name": "Makeshifth gasmask",
+        "description": "<p>Save DC: 17 | Attack Bonus: 10</p><p><span><strong><span>Mechanism</span></strong></span></p><p>A Mask made of a old Bowl and a string of wool, with a Breezeblossom that keeps the air clean inside</p>",
+        "section": "physical-items",
+        "quantity": 1,
+        "combinedLabel": "Container",
+        "attunementLabel": ""
+      },
+      {
+        "name": "Silver Tears",
+        "description": "<blockquote><p>In the depths of Mestopheles' dungeons on Cania, the 8th layer of Hell, pain devils extract this silvery powder through the torture of captured celestials. Devils bound for the warfronts of Avernus take flasks and snuff boxes of the stuff to fortify themselves against exposure to the raw chaos of demons. </p></blockquote><p>When you consume this substance as an action, you have advantage on saving throws against any effect from a demonic source for 8 hours.</p>",
+        "section": "physical-items",
+        "quantity": 2,
+        "combinedLabel": "Potion",
+        "attunementLabel": ""
+      },
+      {
+        "name": "Reaping Claws",
+        "description": "<p>You sprout razor-sharp claws, which are natural weapons you can use to make unarmed strikes against creatures within 5 feet of you. You have proficiency with these weapons and can use your Charisma modifier for the attack and damage rolls made using these natural weapons.</p>",
+        "section": "physical-items",
+        "quantity": 1,
+        "combinedLabel": "Natural",
+        "attunementLabel": ""
       }
     ],
     "Fearghas MacAllistar": [
@@ -1919,7 +2037,7 @@
         "name": "Bloodroot",
         "description": "<p>Clings to the walls of particularly damp caverns. A blood-red vine adorned with thick, black needles, resembling smoldering embers.</p>",
         "section": "physical-items",
-        "quantity": 11,
+        "quantity": 9,
         "combinedLabel": "Ingredient (herb)",
         "attunementLabel": ""
       },
@@ -2065,7 +2183,7 @@
         "name": "Necromantic Binding",
         "description": "<p>Acquired from huge-sized or larger undead creatures. This dark, ethereal essence carries an aura of death and decay, radiating an ominous energy that binds the undead to their master's will.</p>",
         "section": "physical-items",
-        "quantity": 56,
+        "quantity": 55,
         "combinedLabel": "Ingredient (bodyPart)",
         "attunementLabel": ""
       },
@@ -3514,14 +3632,6 @@
         "attunementLabel": ""
       },
       {
-        "name": "Potion of Water Breathing",
-        "description": "<p><em>Its cloudy green fluid smells of the sea and has a jellyfish-like bubble floating in it.</em></p>\n<p>You can breathe underwater for 1 hour after drinking this potion. </p>\n<p> </p>",
-        "section": "physical-items",
-        "quantity": 1,
-        "combinedLabel": "Potion",
-        "attunementLabel": ""
-      },
-      {
         "name": "Silver Tears",
         "description": "<blockquote><p>In the depths of Mestopheles' dungeons on Cania, the 8th layer of Hell, pain devils extract this silvery powder through the torture of captured celestials. Devils bound for the warfronts of Avernus take flasks and snuff boxes of the stuff to fortify themselves against exposure to the raw chaos of demons. </p></blockquote><p>When you consume this substance as an action, you have advantage on saving throws against any effect from a demonic source for 8 hours.</p>",
         "section": "physical-items",
@@ -3589,7 +3699,7 @@
         "name": "Potion of Speed",
         "description": "<div><p>When you drink this potion, you gain the effect of the Haste spell for 1 minute (no concentration required). The potion's yellow fluid is streaked with black and swirls on its own.</p></div>",
         "section": "physical-items",
-        "quantity": 1,
+        "quantity": 5,
         "combinedLabel": "Potion",
         "attunementLabel": ""
       },
@@ -3703,6 +3813,124 @@
         "section": "physical-items",
         "quantity": 1,
         "combinedLabel": "Potion",
+        "attunementLabel": ""
+      },
+      {
+        "name": "Tenser's Transformation",
+        "description": "<p>You endow yourself with endurance and martial prowess fueled by magic. Until the spell ends, you can't cast spells, and you gain the following benefits:</p><ul><li><p>You gain 50 temporary hit points. If any of these remain when the spell ends, they are lost.</p></li><li><p>You have advantage on attack rolls that you make with simple and martial weapons.</p></li><li><p>When you hit a target with a weapon attack, that target takes an extra [[/damage 2d12 type=force]] damage.</p></li><li><p>You have proficiency with all armor, shields, simple weapons, and martial weapons.</p></li><li><p>You have proficiency in Strength and Constitution saving throws.</p></li><li><p>You can attack twice, instead of once, when you take the attack action on your turn. You ignore this benefit if you already have a feature, like Extra Attack, that gives you extra attacks.</p></li></ul><p>Immediately after the spell ends, you must succeed on a [[/save ability=constitution dc=15]] saving throw or suffer one level of &amp;Reference[condition=exhaustion].</p>",
+        "section": "spell-items",
+        "spellLevel": "6th Level",
+        "spellRange": "Self",
+        "spellSchool": "Transmutation"
+      },
+      {
+        "name": "Flesh to Stone",
+        "description": "<p>You attempt to turn one creature that you can see within range into stone. If the target's body is made of flesh, the creature must make a Constitution saving throw. On a failed save, it is &amp;Reference[condition=restrained] as its flesh begins to harden. On a successful save, the creature isn't affected.</p><p>A creature &amp;Reference[condition=restrained] by this spell must make another Constitution saving throw at the end of each of its turns. If it successfully saves against this spell three times, the spell ends. If it fails its saves three times, it is turned to stone and subjected to the &amp;Reference[condition=petrified] condition for the duration. The successes and failures don't need to be consecutive; keep track of both until the target collects three of a kind.</p><p>If the creature is physically broken while &amp;Reference[condition=petrified], it suffers from similar deformities if it reverts to its original state.</p><p>If you maintain your &amp;Reference[concentration] on this spell for the entire possible duration, the creature is turned to stone until the effect is removed.</p>",
+        "section": "spell-items",
+        "spellLevel": "6th Level",
+        "spellRange": "60 ft",
+        "spellSchool": "Transmutation"
+      },
+      {
+        "name": "Overchannel",
+        "description": "<p>Starting at 14th level, you can increase the power of your simpler spells. When you cast a wizard spell of 1st through 5th level that deals damage, you can deal maximum damage with that spell.</p><p>The first time you do so, you suffer no adverse effect. If you use this feature again before you finish a long rest, you take <span><span>2d12</span> necrotic</span> damage for each level of the spell, immediately after you cast it. Each time you use this feature again before finishing a long rest, the damage per spell level increases by <span><span>1d12</span> necrotic</span>. This damage ignores resistance and immunity.</p>",
+        "section": "feature-items",
+        "requirements": "School of Evocation 14"
+      },
+      {
+        "name": "Clockwork Looking Glass",
+        "description": "<p>This device is a complex marvel of brass and polished glass, a spyglass nested within a dizzying array of vanishingly small and perpetually spinning gears. Constructed by Axiomites in the Citadel of Resplendent Clockwork, the realm of Brigh, these looking glasses are used to understand the underlying mathematical and logical laws of the multiverse. Even though they are constructed to perfect precision and without any tolerances, they break as soon as anyone pears through them. The reason for this phenomenon is thought to be understood only by Brigh herself.</p><p><strong>Mechanical Truth.</strong> You can use your bonus action to peer through the looking glass into the foundational, mechanical nature of reality, shattering the looking glass in the process. For 10 minutes, you count as a contruct when determining your creature type (such as for spells like Hold Person), are immune to the &amp;Reference[frightened] and &amp;Reference[charmed] conditions, and have advantage on checks and saving throws to reveal or resist illusions.<br>During this time, you experience reality in a strange and dissociated way. You see the world not through your own eyes but as if you were floating above your own head. When someone, including yourself, speaks, the voice sounds distant and as if it didn't originate from the speaker's mouth but from somewhere far above you. Moving your body feels like controlling a puppet on a string or a pawn on a chess board. After the effect ends, you recall the experience like strangely real dream.</p>",
+        "section": "physical-items",
+        "quantity": 1,
+        "combinedLabel": "Exotic Currency",
+        "attunementLabel": ""
+      },
+      {
+        "name": "Spell Scroll: Flawed Design",
+        "description": "<div><p>You identify a flaw in the design or construction of one artificial object or construct of your choice within range. The first attack roll made against the target during the duration of the spell is a critical hit. Then the spell ends.</p></div>",
+        "section": "physical-items",
+        "quantity": 1,
+        "combinedLabel": "Scroll",
+        "attunementLabel": ""
+      },
+      {
+        "name": "Spell Scroll: Fly",
+        "description": "<p>You touch a willing creature. The target gains a flying speed of 60 feet for the duration. When the spell ends, the target falls if it is still aloft, unless it can stop the fall.</p><p><strong>At Higher Levels. </strong>When you cast this spell using a spell slot of 4th level or higher, you can target one additional creature for each slot level above 3rd.</p>",
+        "section": "physical-items",
+        "quantity": 1,
+        "combinedLabel": "Scroll",
+        "attunementLabel": ""
+      },
+      {
+        "name": "Spell Scroll: Scrying",
+        "description": "<p>You can see and hear a particular creature you choose that is on the same plane of existence as you. The target must make a Wisdom saving throw, which is modified by how well you know the target and the sort of physical connection you have to it. If a target knows you're casting this spell, it can fail the saving throw voluntarily if it wants to be observed.</p><table><thead><tr><th>Knowledge of Target</th><th>Save Modifier</th></tr></thead><tbody><tr><td>Secondhand (you have heard of the target)</td><td>+5</td></tr><tr><td>Firsthand (you have met the target)</td><td>+0</td></tr><tr><td>Familiar (you know the target well)</td><td>-5</td></tr></tbody></table><table><thead><tr><th>Connection to Target</th><th>Save Modifier</th></tr></thead><tbody><tr><td>Likeness or picture</td><td>-2</td></tr><tr><td>Possession or garment</td><td>-4</td></tr><tr><td>Body part, lock of hair, bit of nail, or the like</td><td>-10</td></tr></tbody></table><p>On a successful save, the target isn't affected, and you can't use this spell against it again for 24 hours.</p><p>On a failed save, the spell creates an invisible sensor within 10 feet of the target. You can see and hear through the sensor as if you were there. The sensor moves with the target, remaining within 10 feet of it for the duration. A creature that can see &amp;Reference[condition=invisible] objects sees the sensor as a luminous orb about the size of your fist.</p><p>Instead of targeting a creature, you can choose a location you have seen before as the target of this spell. When you do, the sensor appears at that location and doesn't move.</p>",
+        "section": "physical-items",
+        "quantity": 1,
+        "combinedLabel": "Scroll",
+        "attunementLabel": ""
+      },
+      {
+        "name": "Activated: Tenser's Transformation - 6th",
+        "description": "<p>You endow yourself with endurance and martial prowess fueled by magic. Until the spell ends, you can't cast spells, and you gain the following benefits:</p><ul><li><p>You gain 50 temporary hit points. If any of these remain when the spell ends, they are lost.</p></li><li><p>You have advantage on attack rolls that you make with simple and martial weapons.</p></li><li><p>When you hit a target with a weapon attack, that target takes an extra [[/damage 2d12 type=force]] damage.</p></li><li><p>You have proficiency with all armor, shields, simple weapons, and martial weapons.</p></li><li><p>You have proficiency in Strength and Constitution saving throws.</p></li><li><p>You can attack twice, instead of once, when you take the attack action on your turn. You ignore this benefit if you already have a feature, like Extra Attack, that gives you extra attacks.</p></li></ul><p>Immediately after the spell ends, you must succeed on a [[/save ability=constitution dc=15]] saving throw or suffer one level of &amp;Reference[condition=exhaustion].</p>",
+        "section": "physical-items",
+        "quantity": 1,
+        "combinedLabel": "Spell Gem",
+        "attunementLabel": ""
+      },
+      {
+        "name": "Catapult",
+        "description": "<p>Choose one object weighing 1 to 5 pounds within range that isn't being worn or carried. The object flies in a straight line up to 90 feet in a direction you choose before falling to the ground, stopping early if it impacts against a solid surface. If the object would strike a creature, that creature must make a Dexterity saving throw. On a failed save, the object strikes the target and stops moving. When the object strikes something, the object and what it strikes each take [[/damage 3d8 type=bludgeoning]] damage.</p><p>At Higher Levels.</p><p>When you cast this spell using a spell slot of 2nd level or higher, the maximum weight of objects that you can target with this spell increases by 5 pounds, and the damage increases by [[/damage 1d8]], for each slot level above 1st.</p>",
+        "section": "spell-items",
+        "spellLevel": "1st Level",
+        "spellRange": "90 ft",
+        "spellSchool": "Transmutation"
+      },
+      {
+        "name": "Scrying",
+        "description": "<p>You can see and hear a particular creature you choose that is on the same plane of existence as you. The target must make a Wisdom saving throw, which is modified by how well you know the target and the sort of physical connection you have to it. If a target knows you're casting this spell, it can fail the saving throw voluntarily if it wants to be observed.</p><table><thead><tr><th>Knowledge of Target</th><th>Save Modifier</th></tr></thead><tbody><tr><td>Secondhand (you have heard of the target)</td><td>+5</td></tr><tr><td>Firsthand (you have met the target)</td><td>+0</td></tr><tr><td>Familiar (you know the target well)</td><td>-5</td></tr></tbody></table><table><thead><tr><th>Connection to Target</th><th>Save Modifier</th></tr></thead><tbody><tr><td>Likeness or picture</td><td>-2</td></tr><tr><td>Possession or garment</td><td>-4</td></tr><tr><td>Body part, lock of hair, bit of nail, or the like</td><td>-10</td></tr></tbody></table><p>On a successful save, the target isn't affected, and you can't use this spell against it again for 24 hours.</p><p>On a failed save, the spell creates an invisible sensor within 10 feet of the target. You can see and hear through the sensor as if you were there. The sensor moves with the target, remaining within 10 feet of it for the duration. A creature that can see &amp;Reference[condition=invisible] objects sees the sensor as a luminous orb about the size of your fist.</p><p>Instead of targeting a creature, you can choose a location you have seen before as the target of this spell. When you do, the sensor appears at that location and doesn't move.</p>",
+        "section": "spell-items",
+        "spellLevel": "5th Level",
+        "spellRange": "Self",
+        "spellSchool": "Divination"
+      },
+      {
+        "name": "Flawed Design",
+        "description": "<div><p>You identify a flaw in the design or construction of one artificial object or construct of your choice within range. The first attack roll made against the target during the duration of the spell is a critical hit. Then the spell ends.</p></div>",
+        "section": "spell-items",
+        "spellLevel": "1st Level",
+        "spellRange": "30 ft",
+        "spellSchool": "Divination"
+      },
+      {
+        "name": "Fly",
+        "description": "<p>You touch a willing creature. The target gains a flying speed of 60 feet for the duration. When the spell ends, the target falls if it is still aloft, unless it can stop the fall.</p><p><strong>At Higher Levels. </strong>When you cast this spell using a spell slot of 4th level or higher, you can target one additional creature for each slot level above 3rd.</p>",
+        "section": "spell-items",
+        "spellLevel": "3rd Level",
+        "spellRange": "Touch",
+        "spellSchool": "Transmutation"
+      },
+      {
+        "name": "Activated: Fly - 3rd",
+        "description": "<p>You touch a willing creature. The target gains a flying speed of 60 feet for the duration. When the spell ends, the target falls if it is still aloft, unless it can stop the fall.</p><p><strong>At Higher Levels. </strong>When you cast this spell using a spell slot of 4th level or higher, you can target one additional creature for each slot level above 3rd.</p>",
+        "section": "physical-items",
+        "quantity": 1,
+        "combinedLabel": "Spell Gem",
+        "attunementLabel": ""
+      },
+      {
+        "name": "Activated: Fly - 3rd",
+        "description": "<p>You touch a willing creature. The target gains a flying speed of 60 feet for the duration. When the spell ends, the target falls if it is still aloft, unless it can stop the fall.</p><p><strong>At Higher Levels. </strong>When you cast this spell using a spell slot of 4th level or higher, you can target one additional creature for each slot level above 3rd.</p>",
+        "section": "physical-items",
+        "quantity": 1,
+        "combinedLabel": "Spell Gem",
+        "attunementLabel": ""
+      },
+      {
+        "name": "Martyr's Locket",
+        "description": "<p>A Martyr's Locket is an unassuming and unadorned gold pendant, deliberately plain and with a blank canvas inside. Blessed by the divine light of Mount Celestia, they are offered by the angelic hosts of Heaven to those seeking to perform acts of true empathy - often given freely to poor sinners looking for penance.</p><p>The belief that the truest measure of a soul is not in avoiding hardship, but in the willingness to bear the burdens of others, is a belief not just common amongst the denizens of Heaven but also shared by their mortal followers. As such, many monasteries across the realms which are dedicated to lawful good deities or principles, welcome donations of used lockets and display them in quiet galleries where each captured portrait of a moment of sacrifice serves as a silent lesson in courage and compassion for all to witness. Novitiates spend hours in silent contemplation before them, learning not only from dusty tomes, but from the faces of ordinary people captured in their single greatest moment.</p><p><strong>Moment of Martyrdom.</strong> When another creature you can see becomes affected by a curse (or an effect that can be ended or removed via the Remove Curse spell), you can activate the locket (no action required) to take the curse upon yourself instead. This ability cannot be used if the other creature isn't willing or if you are immune to any the curse's effects.</p><p>When the item is activated this way, the locket becomes a nonmagical @UUID[Compendium.talia-custom.customItems.Item.dQQKUD2XEIMNbGXl]{gold locket with a painted portrait inside} (DMG, p134), depicting you in the moment you took the curse upon yourself.</p>",
+        "section": "physical-items",
+        "quantity": 2,
+        "combinedLabel": "Exotic Currency",
         "attunementLabel": ""
       }
     ],
@@ -3995,7 +4223,7 @@
         "name": "Arrow",
         "description": "<p>Standard ammunition used for bows of all varieties. These mundane arrows are made of smooth wooden shafts with goose feather fletching and hammer metal bodkins.</p>",
         "section": "physical-items",
-        "quantity": 188,
+        "quantity": 186,
         "combinedLabel": "Arrow (arrow)",
         "attunementLabel": ""
       },
@@ -4254,6 +4482,66 @@
         "quantity": 1,
         "combinedLabel": "Clothing",
         "attunementLabel": ""
+      },
+      {
+        "name": "Telekinetic Movement",
+        "description": "<p>You can move an object or a creature with your mind. As an action, you target one loose object that is Large or smaller or one willing creature, other than yourself. </p><p>If you can see the target and it is within 30 feet of you, you can move it up to 30 feet to an unoccupied space you can see. Alternatively, if it is a Tiny object, you can move it to or from your hand. Either way, you can move the target horizontally, vertically, or both. </p><p>Once you take this action, you can't do so again until you finish a short or long rest, unless you expend a Psionic Energy die to take it again.</p>",
+        "section": "feature-items",
+        "requirements": "Rogue 14 (Soulknife)"
+      },
+      {
+        "name": "Blindsense",
+        "description": "<p>Starting at 14th level, if you are able to hear, you are aware of the location of any hidden or invisible creature within 10 feet of you.</p>",
+        "section": "feature-items",
+        "requirements": "Rogue 14"
+      },
+      {
+        "name": "Dodge",
+        "description": "<p>When you take the Dodge action, you focus entirely on avoiding attacks. Until the start of your next turn, any attack roll made against you has disadvantage if you can see the attacker, and you make Dexterity saving throws with advantage. You lose this benefit if you are incapacitated (as explained in the appendix) or if your speed drops to 0.</p>",
+        "section": "feature-items",
+        "requirements": ""
+      },
+      {
+        "name": "Grapple",
+        "description": "<p>When you want to grab a creature or wrestle with it, you can use the Attack action to make a special melee attack, a grapple. If you're able to make multiple attacks with the Attack action, this attack replaces one of them. The target of your grapple must be no more than one size larger than you, and it must be within your reach.</p><p>Using at least one free hand, you try to seize the target by making a grapple check, a [[/skill ath format=long]] contested by the target's [[/skill ath format=long]] or [[/skill acr format=long]] (the target chooses the ability to use). You succeed automatically if the target is incapacitated. If you succeed, you subject the target to the &amp;Reference[grappled] effect. The condition specifies the things that end it, and you can release the target whenever you like (no action required).</p>",
+        "section": "feature-items",
+        "requirements": ""
+      },
+      {
+        "name": "Jump",
+        "description": "<p>Using your bonus action, you can jump up to [[/r @talia.jumpDistance]] ft.</p>",
+        "section": "feature-items",
+        "requirements": ""
+      },
+      {
+        "name": "Shove",
+        "description": "<p>Using a bonus action, you can shove a creature to push it away from you.</p><p>The target of your shove must be no more than one size larger than you, and it must be within your reach. You make a Strength (Athletics) check contested by the target's Strength (Athletics) or Dexterity (Acrobatics) check (the target chooses the ability to use). You succeed automatically if the target is incapacitated. </p><p>If you succeed, you push the target 5 feet backwards, away from you. For each size category you are larger than the target, this distance increases by an additional 5 feet.</p>",
+        "section": "feature-items",
+        "requirements": "Common Action"
+      },
+      {
+        "name": "Tinkertop Boltblaster 1000",
+        "description": "<p>This strange contraption of gears, wires, and lacquered wood has a handle with a metal grip and crank. Its stock bears a flamboyant maker's mark that reads: <em>\"Made by Arondriemus Hupperdook Tinkertop\"</em>. You gain a +1 bonus to attack and damage rolls made with this magic weapon.</p><p>When you land a critical hit on an attack roll made with this weapon, you can immediately make another attack with this weapon after resolving the critical hit. When you roll a 1 on an attack roll made with this weapon, you must succeed on a [[/save 20 dexterity]] saving throw or take [[/damage 2d6 piercing]] damage as some of its gears and wires spring loose.</p><p><strong>Magazine.</strong> This crossbow holds up to 10 bolts of the same time, which you can expend before needing to reload the weapon. Reloading the magazine with ammunition takes 1 minute.</p>",
+        "section": "physical-items",
+        "quantity": 1,
+        "combinedLabel": "Martial Ranged",
+        "attunementLabel": "Requires Attunement"
+      },
+      {
+        "name": "Martyr's Locket",
+        "description": "<p>A Martyr's Locket is an unassuming and unadorned gold pendant, deliberately plain and with a blank canvas inside. Blessed by the divine light of Mount Celestia, they are offered by the angelic hosts of Heaven to those seeking to perform acts of true empathy - often given freely to poor sinners looking for penance.</p><p>The belief that the truest measure of a soul is not in avoiding hardship, but in the willingness to bear the burdens of others, is a belief not just common amongst the denizens of Heaven but also shared by their mortal followers. As such, many monasteries across the realms which are dedicated to lawful good deities or principles, welcome donations of used lockets and display them in quiet galleries where each captured portrait of a moment of sacrifice serves as a silent lesson in courage and compassion for all to witness. Novitiates spend hours in silent contemplation before them, learning not only from dusty tomes, but from the faces of ordinary people captured in their single greatest moment.</p><p><strong>Moment of Martyrdom.</strong> When another creature you can see becomes affected by a curse (or an effect that can be ended or removed via the Remove Curse spell), you can activate the locket (no action required) to take the curse upon yourself instead. This ability cannot be used if the other creature isn't willing or if you are immune to any the curse's effects.</p><p>When the item is activated this way, the locket becomes a nonmagical @UUID[Compendium.talia-custom.customItems.Item.dQQKUD2XEIMNbGXl]{gold locket with a painted portrait inside} (DMG, p134), depicting you in the moment you took the curse upon yourself.</p>",
+        "section": "physical-items",
+        "quantity": 3,
+        "combinedLabel": "Exotic Currency",
+        "attunementLabel": ""
+      },
+      {
+        "name": "Silver Tears",
+        "description": "<blockquote><p>In the depths of Mestopheles' dungeons on Cania, the 8th layer of Hell, pain devils extract this silvery powder through the torture of captured celestials. Devils bound for the warfronts of Avernus take flasks and snuff boxes of the stuff to fortify themselves against exposure to the raw chaos of demons. </p></blockquote><p>When you consume this substance as an action, you have advantage on saving throws against any effect from a demonic source for 8 hours.</p>",
+        "section": "physical-items",
+        "quantity": 1,
+        "combinedLabel": "Potion",
+        "attunementLabel": ""
       }
     ],
     "Naami Jamas": [
@@ -4288,14 +4576,6 @@
         "description": "<p>An event in your past, or in the life of a parent or ancestor, left an indelible mark on you, infusing you with arcane magic. This font of magic, whatever its origin, fuels your spells.</p>\n<h5>Cantrips</h5>\n<p>At 1st level, you know four cantrips of your choice from the sorcerer spell list. You learn additional sorcerer cantrips of your choice at higher levels, as shown in the Cantrips Known column of the Sorcerer table.</p>\n<h5>Spell Slots</h5>\n<p>The Sorcerer table shows how many spell slots you have to cast your spells of 1st level and higher. To cast one of these sorcerer spells, you must expend a slot of the spell's level or higher. You regain all expended spell slots when you finish a long rest.</p>\n<p>For example, if you know the 1st-level spell burning hands and have a 1st-level and a 2nd-level spell slot available, you can cast burning hands using either slot.</p>\n<h5>Spells Known of 1st Level and Higher</h5>\n<p>You know two 1st-level spells of your choice from the sorcerer spell list.</p>\n<p>The Spells Known column of the Sorcerer table shows when you learn more sorcerer spells of your choice. Each of these spells must be of a level for which you have spell slots. For instance, when you reach 3rd level in this class, you can learn one new spell of 1st or 2nd level.</p>\n<p>Additionally, when you gain a level in this class, you can choose one of the sorcerer spells you know and replace it with another spell from the sorcerer spell list, which also must be of a level for which you have spell slots.</p>\n<h5>Spellcasting Ability</h5>\n<p>Charisma is your spellcasting ability for your sorcerer spells, since the power of your magic relies on your ability to project your will into the world. You use your Charisma whenever a spell refers to your spellcasting ability. In addition, you use your Charisma modifier when setting the saving throw DC for a sorcerer spell you cast and when making an attack roll with one.</p>\n<p><strong>Spell save DC </strong>= 8 + your proficiency bonus + your Charisma modifier</p>\n<p><strong>Spell attack modifier </strong>= your proficiency bonus + your Charisma modifier</p>\n<h5>Spellcasting Focus</h5>\n<p>You can use an arcane focus as a spellcasting focus for your sorcerer spells.</p>",
         "section": "feature-items",
         "requirements": "Sorcerer 1"
-      },
-      {
-        "name": "Chill Touch",
-        "description": "<div><p>You create a ghostly, skeletal hand in the space of a creature within range. Make a ranged spell attack against the creature to assail it with the chill of the grave. On a hit, the target takes [[/damage 1d8 type=necrotic]] damage, and it can't regain hit points until the start of your next turn. Until then, the hand clings to the target.</p><p>If you hit an undead target, it also has disadvantage on attack rolls against you until the start of your next turn.</p><p>This spell's damage increases by [[/r 1d8]] when you reach 5th level ([[/damage 2d8]]), 11th level ([[/damage 3d8]]), and 17th level ([[/damage 4d8]]).</p></div>",
-        "section": "spell-items",
-        "spellLevel": "Cantrip",
-        "spellRange": "120 ft",
-        "spellSchool": "Necromancy"
       },
       {
         "name": "Prestidigitation",
@@ -4674,46 +4954,12 @@
         "attunementLabel": ""
       },
       {
-        "name": "Metamagic: Heightened Spell",
-        "description": "<p><strong>Warded.</strong></p><p>When you expend a spell slot of 4th level or lower, you can spend 2 sorcery points to cast the spell as if you expended a spell slot of one level higher.</p><p><strong>Channeled.</strong></p><p>When you expend a spell slot of 6th level or lower, you can cast the spell as if you expended a spell slot of 3 levels higher.</p>",
-        "section": "feature-items",
-        "requirements": "Sorcerer 3"
-      },
-      {
-        "name": "Metamagic: Subtle Spell",
-        "description": "<p><strong>Warded.</strong></p><p>When you cast a spell, you can spend 1 sorcery point to cast it without any somatic or verbal components.</p><p><strong>Channeled.</strong></p><p>When you cast a spell, you can cast it without any components.</p>",
-        "section": "feature-items",
-        "requirements": "Sorcerer 3"
-      },
-      {
-        "name": "Metamagic: Twinned Spell",
-        "description": "<p><strong>Warded.</strong></p><p>When you cast a spell that targets only one creature and doesn’t have a range of self, you can spend a number of sorcery points equal to the spell’s level to target a second creature in range with the same spell (1 sorcery point if the spell is a cantrip). To be eligible, a spell must be incapable of targeting more than one creature at the spell’s current level. For example, magic missile and scorching ray aren’t eligible, but ray of frost and chromatic orb are.</p><p><strong>Channeled.</strong></p><p>When you cast a spell you can make a copy immediately after you cast it. The copy does not require any components and does not consume spell slots. You can choose new targets for the copy. Should you fail to cast the original spell, the casting of the copy also fails.</p>",
-        "section": "feature-items",
-        "requirements": "Sorcerer 3"
-      },
-      {
-        "name": "Sleep",
-        "description": "<div><p>This spell sends creatures into a magical slumber. Roll [[/r 5d8]]; the total is how many hit points of creatures this spell can affect. Creatures within 20 feet of a point you choose within range are affected in ascending order of their current hit points (ignoring &amp;Reference[condition=unconscious] creatures).</p><p>Starting with the creature that has the lowest current hit points, each creature affected by this spell falls &amp;Reference[condition=unconscious] until the spell ends, the sleeper takes damage, or someone uses an action to shake or slap the sleeper awake. Subtract each creature's hit points from the total before moving on to the creature with the next lowest hit points. A creature's hit points must be equal to or less than the remaining total for that creature to be affected.</p><p>Undead and creatures immune to being &amp;Reference[condition=charmed] aren't affected by this spell.</p></div><div><div><p><span><strong>At Higher Levels. </strong></span>When you cast this spell using a spell slot of 2nd level or higher, roll an additional [[/r 2d8]] for each slot level above 1st.</p></div></div>",
-        "section": "spell-items",
-        "spellLevel": "1st Level",
-        "spellRange": "90 ft",
-        "spellSchool": "Enchantment"
-      },
-      {
         "name": "Healing Word",
         "description": "<div><p>A creature of your choice that you can see within range regains hit points equal to [[/r 1d4]] + your spellcasting ability modifier. This spell has no effect on undead or constructs.</p></div><div><div><p><span><strong>At Higher Levels.</strong> </span>When you cast this spell using a spell slot of 2nd level or higher, the healing increases by [[/r 1d4]] for each slot level above 1st.</p></div></div>",
         "section": "spell-items",
         "spellLevel": "1st Level",
         "spellRange": "60 ft",
         "spellSchool": "Evocation"
-      },
-      {
-        "name": "Blindness/Deafness",
-        "description": "<div><p>You can blind or deafen a foe. Choose one creature that you can see within range to make a Constitution saving throw. If it fails, the target is either &amp;Reference[condition=blinded] or &amp;Reference[condition=deafened] (your choice) for the duration. At the end of each of its turns, the target can make a Constitution saving throw. On a success, the spell ends.</p></div><div><div><span> <span>At Higher Levels.</span></span> <p>When you cast this spell using a spell slot of 3rd level or higher, you can target one additional creature for each slot level above 2nd.</p></div></div>",
-        "section": "spell-items",
-        "spellLevel": "2nd Level",
-        "spellRange": "30 ft",
-        "spellSchool": "Necromancy"
       },
       {
         "name": "Lesser Restoration",
@@ -5043,6 +5289,110 @@
         "section": "physical-items",
         "quantity": 1,
         "combinedLabel": "Trinket",
+        "attunementLabel": ""
+      },
+      {
+        "name": "Sorcerous Burst",
+        "description": "<p>You cast sorcerous energy at one creature or object within range. Make a ranged attack roll against the target. On a hit, the target takes [[/damage 1d8]] damage of a type you choose: Acid, Cold, Fire, Lightning, Poison, Psychic, or Thunder.</p><p>If you roll an 8 on a [[/r d8]] for this spell, you can roll another [[/r d8]], and add it to the damage. When you cast this spell, the maximum number of these d8s you can add to the spell's damage equals your spellcasting ability modifier.</p><p>The damage increases by [[/damage 1d8]] when you reach levels 5 ([[/damage 2d8]]), 11 ([[/damage 3d8]]), and 17 ([[/damage 4d8]]).</p>",
+        "section": "spell-items",
+        "spellLevel": "Cantrip",
+        "spellRange": "120 ft",
+        "spellSchool": "Evocation"
+      },
+      {
+        "name": "Resurrection",
+        "description": "<p>You touch a dead creature that has been dead for no more than a century, that didn't die of old age, and that isn't undead. If its soul is free and willing, the target returns to life with all its hit points.</p><p>This spell neutralizes any poisons and cures normal diseases afflicting the creature when it died. It doesn't, however, remove magical diseases, curses, and the like; if such effects aren't removed prior to casting the spell, they afflict the target on its return to life.</p><p>This spell closes all mortal wounds and restores any missing body parts.</p><p>Coming back from the dead is an ordeal. The target takes a −4 penalty to all attack rolls, saving throws, and ability checks. Every time the target finishes a long rest, the penalty is reduced by 1 until it disappears.</p><p>Casting this spell to restore life to a creature that has been dead for one year or longer taxes you greatly. Until you finish a long rest, you can't cast spells again, and you have disadvantage on all attack rolls, ability checks, and saving throws.</p>",
+        "section": "spell-items",
+        "spellLevel": "7th Level",
+        "spellRange": "Touch",
+        "spellSchool": "Necromancy"
+      },
+      {
+        "name": "Revivify",
+        "description": "<div><p>You touch a creature that has died within the last minute. That creature returns to life with 1 hit point. This spell can't return to life a creature that has died of old age, nor can it restore any missing body parts.</p></div>",
+        "section": "spell-items",
+        "spellLevel": "3rd Level",
+        "spellRange": "Touch",
+        "spellSchool": "Necromancy"
+      },
+      {
+        "name": "Greater Restoration",
+        "description": "<p>You imbue a creature you touch with positive energy to undo a debilitating effect. You can reduce the target's exhaustion level by one, or end one of the following effects on the target:</p><p>One effect that &amp;Reference[condition=charmed] or &amp;Reference[condition=petrified] the target</p><p>One curse, including the target's attunement to a cursed magic item</p><p>Any reduction to one of the target's ability scores</p><p>One effect reducing the target's hit point maximum</p>",
+        "section": "spell-items",
+        "spellLevel": "5th Level",
+        "spellRange": "Touch",
+        "spellSchool": "Abjuration"
+      },
+      {
+        "name": "Metamagic: Quickened Spell",
+        "description": "<p><strong>Warded. </strong>When you cast a spell that has a casting time of 1 action, you can spend 2 sorcery points to change the casting time to 1 bonus action for this casting.</p><p><strong>Channelled. </strong>When you cast a spell that has a casting time of 1 minute or less, you can change the casting time to 1 reaction for this casting.</p>",
+        "section": "feature-items",
+        "requirements": "Sorcerer 3"
+      },
+      {
+        "name": "Metamagic: Distant Spell",
+        "description": "<p><strong>Warded. </strong>When you cast a spell that has a range of 5 feet or greater, you can spend 1 sorcery point to double the range of the spell. When you cast a spell that has a range of touch, you can spend 1 sorcery point to make the range of the spell 30 feet.</p><p><strong>Channelled. </strong>When you cast a spell, you can target any place or creature you’ve seen in the past hour, as long as you are on the same plane of existence as the target.</p>",
+        "section": "feature-items",
+        "requirements": "Sorcerer 3"
+      },
+      {
+        "name": "Metamagic: Subtle Spell",
+        "description": "<p><strong>Warded. </strong>When you cast a spell, you can spend 1 sorcery point to cast it without any somatic or verbal components.</p><p><strong>Channelled. </strong>When you cast a spell, you can cast it without any components.</p>",
+        "section": "feature-items",
+        "requirements": "Sorcerer 3"
+      },
+      {
+        "name": "Metamagic: Twinned Spell",
+        "description": "<p><strong>Warded. </strong>When you cast a spell that targets only one creature and doesn’t have a range of self, you can spend a number of sorcery points equal to the spell’s level to target a second creature in range with the same spell (1 sorcery point if the spell is a cantrip). To be eligible, a spell must be incapable of targeting more than one creature at the spell’s current level. For example, magic missile and scorching ray aren’t eligible, but ray of frost and chromatic orb are.</p><p><strong>Channelled. </strong>When you cast a spell you can make a copy immediately after you cast it. The copy does not require any components and does not consume spell slots. You can choose new targets for the copy. Should you fail to cast the original spell, the casting of the copy also fails.</p>",
+        "section": "feature-items",
+        "requirements": "Sorcerer 3"
+      },
+      {
+        "name": "Metamagic: Heightened Spell",
+        "description": "<p><strong>Warded. </strong>When you expend a spell slot of 4th level or lower, you can spend 2 sorcery points to cast the spell as if you expended a spell slot of one level higher.</p><p><strong>Channeled. </strong>When you expend a spell slot of 6th level or lower, you can cast the spell as if you expended a spell slot of 3 levels higher.</p>",
+        "section": "feature-items",
+        "requirements": "Sorcerer 3"
+      },
+      {
+        "name": "Metamagic Mastery",
+        "description": "<p>At 14th level, you gain two additional Metamagic options of your choice.  </p><p>Additionally as a bonus action, you can spend 10 Sorcery Points to replace one Metamagic option with a different one available to you.</p>",
+        "section": "feature-items",
+        "requirements": "Ildic Witch 14"
+      },
+      {
+        "name": "Focused Metamagic",
+        "description": "<p>Also at 14th level, you gain the ability to focus on one Metamagic option of your choice, reducing the reduction of your maximum hit points when channeling it to [[/r 1d10]] per Sorcery Point spent.</p><p>You can replace your focused Metamagic option with a different one when you finish a long rest.</p>",
+        "section": "feature-items",
+        "requirements": "Ildic Witch 14"
+      },
+      {
+        "name": "Shove",
+        "description": "<p>Using a bonus action, you can shove a creature to push it away from you.</p><p>The target of your shove must be no more than one size larger than you, and it must be within your reach. You make a Strength (Athletics) check contested by the target's Strength (Athletics) or Dexterity (Acrobatics) check (the target chooses the ability to use). You succeed automatically if the target is incapacitated. </p><p>If you succeed, you push the target 5 feet backwards, away from you. For each size category you are larger than the target, this distance increases by an additional 5 feet.</p>",
+        "section": "feature-items",
+        "requirements": "Common Action"
+      },
+      {
+        "name": "Dagger in Shoe",
+        "description": "<p>A short metal blade mounted to a small hilt and crossguard. The dagger makes an effective side armament for hardened warriors or a hidden blade for assassins and thieves.</p>",
+        "section": "physical-items",
+        "quantity": 1,
+        "combinedLabel": "Simple Melee",
+        "attunementLabel": ""
+      },
+      {
+        "name": "Martyr's Locket",
+        "description": "<p>A Martyr's Locket is an unassuming and unadorned gold pendant, deliberately plain and with a blank canvas inside. Blessed by the divine light of Mount Celestia, they are offered by the angelic hosts of Heaven to those seeking to perform acts of true empathy - often given freely to poor sinners looking for penance.</p><p>The belief that the truest measure of a soul is not in avoiding hardship, but in the willingness to bear the burdens of others, is a belief not just common amongst the denizens of Heaven but also shared by their mortal followers. As such, many monasteries across the realms which are dedicated to lawful good deities or principles, welcome donations of used lockets and display them in quiet galleries where each captured portrait of a moment of sacrifice serves as a silent lesson in courage and compassion for all to witness. Novitiates spend hours in silent contemplation before them, learning not only from dusty tomes, but from the faces of ordinary people captured in their single greatest moment.</p><p><strong>Moment of Martyrdom.</strong> When another creature you can see becomes affected by a curse (or an effect that can be ended or removed via the Remove Curse spell), you can activate the locket (no action required) to take the curse upon yourself instead. This ability cannot be used if the other creature isn't willing or if you are immune to any the curse's effects.</p><p>When the item is activated this way, the locket becomes a nonmagical @UUID[Compendium.talia-custom.customItems.Item.dQQKUD2XEIMNbGXl]{gold locket with a painted portrait inside} (DMG, p134), depicting you in the moment you took the curse upon yourself.</p>",
+        "section": "physical-items",
+        "quantity": 1,
+        "combinedLabel": "Exotic Currency",
+        "attunementLabel": ""
+      },
+      {
+        "name": "Silver Tears",
+        "description": "<blockquote><p>In the depths of Mestopheles' dungeons on Cania, the 8th layer of Hell, pain devils extract this silvery powder through the torture of captured celestials. Devils bound for the warfronts of Avernus take flasks and snuff boxes of the stuff to fortify themselves against exposure to the raw chaos of demons. </p></blockquote><p>When you consume this substance as an action, you have advantage on saving throws against any effect from a demonic source for 8 hours.</p>",
+        "section": "physical-items",
+        "quantity": 1,
+        "combinedLabel": "Potion",
         "attunementLabel": ""
       }
     ],
@@ -5512,14 +5862,6 @@
         "attunementLabel": ""
       },
       {
-        "name": "Coconut Shell",
-        "description": "",
-        "section": "physical-items",
-        "quantity": 2,
-        "combinedLabel": "Loot",
-        "attunementLabel": ""
-      },
-      {
         "name": "Cunning Contraptions",
         "description": "<p><span>They say a goblin can make a weapon out of anything. You take it a step further – being able to make a trap, a distraction, a siege engine, a <s>nuclear</s> bomb, or any other kind of contraption from nearly anything you come across!</span></p><p>You can use cloth, rope, unusual materials, and other <span>scavenged</span> scraps to craft ingenious traps and contraptions. <span>Crafting one takes 10 minutes, as detailed in the </span>&amp;Reference[craftingcontraptions]<span> rules.</span></p>",
         "section": "feature-items",
@@ -5574,14 +5916,6 @@
       {
         "name": "Activated: Circle of Death - 9th",
         "description": "<table>\n        <tbody>\n            <tr>\n                <td>\n                    <p>9th Level</p>\n                </td>\n            </tr>\n            \n        </tbody>\n    </table><p>A sphere of negative energy ripples out in a 60-foot radius from a point within range. Each creature in that area must make a Constitution saving throw. A target takes 8d6 necrotic damage on a failed save, or half as much damage on a successful one.</p><p><strong>Higher Levels <br></strong>When you cast this spell using a spell slot of 7th level or higher, the damage increases by 2d6 for each slot level above 6th.</p>",
-        "section": "physical-items",
-        "quantity": 1,
-        "combinedLabel": "Spell Gem",
-        "attunementLabel": ""
-      },
-      {
-        "name": "Activated: Inflict Wounds - 5th",
-        "description": "<table>\n        <tbody>\n            <tr>\n                <td>\n                    <p>5th Level</p>\n                </td>\n            </tr>\n            \n        </tbody>\n    </table><p>Make a melee spell attack against a creature you can reach. On a hit, the target takes 3d10 necrotic damage.</p><p><strong>At Higher Levels.</strong> When you cast this spell using a spell slot of 2nd level or higher, the damage increases by 1d10 for each slot level above 1st.</p>",
         "section": "physical-items",
         "quantity": 1,
         "combinedLabel": "Spell Gem",
@@ -5699,14 +6033,6 @@
         "section": "physical-items",
         "quantity": 1,
         "combinedLabel": "Loot",
-        "attunementLabel": ""
-      },
-      {
-        "name": "Breezeblossom",
-        "description": "<p>It’s petals will always be carried away by a gentle breeze, going as far to create one themselves if needed. This breeze disperses any magical cloud or fog effects.</p>",
-        "section": "physical-items",
-        "quantity": 2,
-        "combinedLabel": "Unusual Material",
         "attunementLabel": ""
       },
       {
@@ -6160,14 +6486,6 @@
         "attunementLabel": ""
       },
       {
-        "name": "Pyrope",
-        "description": "<p>Pyrope, a type of garnet known for its exquisite beauty, also holds military significance. It is believed that adorning weaponry with this garnet allows it to penetrate the thickest hides or demolish the strongest doors, aided by arcane forces.</p>",
-        "section": "physical-items",
-        "quantity": 2,
-        "combinedLabel": "Gemstone",
-        "attunementLabel": ""
-      },
-      {
         "name": "Jade",
         "description": "<p>Its primary form is called Jadeite, after cutting, it's mainly used in ornamental sculptures and figurines. Musicians of all kinds believed that if they wore Jade, they would improve their musical prowess</p>",
         "section": "physical-items",
@@ -6211,7 +6529,7 @@
         "name": "Sneezing Powder",
         "description": "<p>This light powder hangs in the air for up to one minute, filling the volume of a 10ft sphere. A creature entering or starting it’s turn in this cloud immediately uses it’s reaction to sneeze.</p>",
         "section": "physical-items",
-        "quantity": 2,
+        "quantity": 1,
         "combinedLabel": "Unusual Material",
         "attunementLabel": ""
       },
@@ -6403,7 +6721,7 @@
         "name": "Forked Metal Rod (250 gp)",
         "description": "",
         "section": "physical-items",
-        "quantity": 2,
+        "quantity": 1,
         "combinedLabel": "Loot",
         "attunementLabel": ""
       },
@@ -6413,6 +6731,116 @@
         "section": "physical-items",
         "quantity": 1,
         "combinedLabel": "Trinket",
+        "attunementLabel": ""
+      },
+      {
+        "name": "Event Horizon",
+        "description": "<p>As an action, you can magically emit a powerful field of gravitational energy that tugs at other creatures for up to 1 minute or until your &amp;Reference[concentration] ends (as if you were concentrating on a spell). For the duration, whenever a creature hostile to you starts its turn within 30 feet of you, it must make a Strength saving throw against your spell save DC. On a failed save, it takes [[/damage 2d10 force]] damage, and its speed is reduced to 0 until the start of its next turn. On a successful save, it takes half as much damage, and every foot it moves this turn costs 2 extra feet of movement.</p><p>Once you use this feature, you can't do so again until you finish a long rest or until you expend a spell slot of 3rd level or higher on it (<em>Expend spell slot to recharge manually.)</em></p>",
+        "section": "feature-items",
+        "requirements": "Wizard 14 (Graviturgy)"
+      },
+      {
+        "name": "Blink",
+        "description": "<div><p>Roll a [[/r d20]] at the end of each of your turns for the duration of the spell. On a roll of 11 or higher, you vanish from your current plane of existence and appear in the Ethereal Plane (the spell fails and the casting is wasted if you were already on that plane). At the start of your next turn, and when the spell ends if you are on the Ethereal Plane, you return to an unoccupied space of your choice that you can see within 10 feet of the space you vanished from. If no unoccupied space is available within that range, you appear in the nearest unoccupied space (chosen at random if more than one space is equally near). You can dismiss this spell as an action.</p><p>While on the Ethereal Plane, you can see and hear the plane you originated from, which is cast in shades of gray, and you can't see anything there more than 60 feet away. You can only affect and be affected by other creatures on the Ethereal Plane. Creatures that aren't there can't perceive you or interact with you, unless they have the ability to do so.</p></div>",
+        "section": "spell-items",
+        "spellLevel": "3rd Level",
+        "spellRange": "Self",
+        "spellSchool": "Transmutation"
+      },
+      {
+        "name": "Steel Wind Strike",
+        "description": "<div><p>You flourish the weapon used in the casting and then vanish to strike like the wind. Choose up to five creatures you can see within range. Make a melee spell attack against each target. On a hit, a target takes [[/damage 6d10 type=force]] damage.</p><p>You can then teleport to an unoccupied space you can see within 5 feet of one of the targets you hit or missed.</p></div>",
+        "section": "spell-items",
+        "spellLevel": "5th Level",
+        "spellRange": "30 ft",
+        "spellSchool": "Conjuration"
+      },
+      {
+        "name": "Clockwork Looking Glass",
+        "description": "<p>This device is a complex marvel of brass and polished glass, a spyglass nested within a dizzying array of vanishingly small and perpetually spinning gears. Constructed by Axiomites in the Citadel of Resplendent Clockwork, the realm of Brigh, these looking glasses are used to understand the underlying mathematical and logical laws of the multiverse. Even though they are constructed to perfect precision and without any tolerances, they break as soon as anyone pears through them. The reason for this phenomenon is thought to be understood only by Brigh herself.</p><p><strong>Mechanical Truth.</strong> You can use your bonus action to peer through the looking glass into the foundational, mechanical nature of reality, shattering the looking glass in the process. For 10 minutes, you count as a contruct when determining your creature type (such as for spells like Hold Person), are immune to the &amp;Reference[frightened] and &amp;Reference[charmed] conditions, and have advantage on checks and saving throws to reveal or resist illusions.<br>During this time, you experience reality in a strange and dissociated way. You see the world not through your own eyes but as if you were floating above your own head. When someone, including yourself, speaks, the voice sounds distant and as if it didn't originate from the speaker's mouth but from somewhere far above you. Moving your body feels like controlling a puppet on a string or a pawn on a chess board. After the effect ends, you recall the experience like strangely real dream.</p>",
+        "section": "physical-items",
+        "quantity": 1,
+        "combinedLabel": "Exotic Currency",
+        "attunementLabel": ""
+      },
+      {
+        "name": "Spell Scroll: Catapult",
+        "description": "<p>Choose one object weighing 1 to 5 pounds within range that isn't being worn or carried. The object flies in a straight line up to 90 feet in a direction you choose before falling to the ground, stopping early if it impacts against a solid surface. If the object would strike a creature, that creature must make a Dexterity saving throw. On a failed save, the object strikes the target and stops moving. When the object strikes something, the object and what it strikes each take [[/damage 3d8 type=bludgeoning]] damage.</p><p>At Higher Levels.</p><p>When you cast this spell using a spell slot of 2nd level or higher, the maximum weight of objects that you can target with this spell increases by 5 pounds, and the damage increases by [[/damage 1d8]], for each slot level above 1st.</p>",
+        "section": "physical-items",
+        "quantity": 1,
+        "combinedLabel": "Scroll",
+        "attunementLabel": ""
+      },
+      {
+        "name": "Interceptor Rocket Straps",
+        "description": "<p><em>Invented by the legendary artificer Daretti after he witnessed the rocket-powered mobility of Iron Golem Interceptors.&nbsp;Unfortunately for the goblin, he forgot to adjust the rockets' thrust before his first - and only - test flight.</em></p><p>While wearing these thigh-strapped rockets, the maximum distance you can jump is increased by 10 feet.</p><p><strong>Rocket Jump.</strong> As a reaction, which you can take when you see a creature within your jumping distance ([[/r @talia.jumpDistance]] ft.) move, you can activate the rockets to intercept the target. You take [[/damage 3d12 force]] damage and jump to the closest unoccupied space adjacent to the target. Immediately upon landing, you can take either the Grapple or the Shove action against the target as part of the same reaction.</p>",
+        "section": "physical-items",
+        "quantity": 1,
+        "combinedLabel": "Trinket",
+        "attunementLabel": "Requires Attunement"
+      },
+      {
+        "name": "Catapult",
+        "description": "<p>Choose one object weighing 1 to 5 pounds within range that isn't being worn or carried. The object flies in a straight line up to 90 feet in a direction you choose before falling to the ground, stopping early if it impacts against a solid surface. If the object would strike a creature, that creature must make a Dexterity saving throw. On a failed save, the object strikes the target and stops moving. When the object strikes something, the object and what it strikes each take [[/damage 3d8 type=bludgeoning]] damage.</p><p>At Higher Levels.</p><p>When you cast this spell using a spell slot of 2nd level or higher, the maximum weight of objects that you can target with this spell increases by 5 pounds, and the damage increases by [[/damage 1d8]], for each slot level above 1st.</p>",
+        "section": "spell-items",
+        "spellLevel": "1st Level",
+        "spellRange": "90 ft",
+        "spellSchool": "Transmutation"
+      },
+      {
+        "name": "Scrying",
+        "description": "<p>You can see and hear a particular creature you choose that is on the same plane of existence as you. The target must make a Wisdom saving throw, which is modified by how well you know the target and the sort of physical connection you have to it. If a target knows you're casting this spell, it can fail the saving throw voluntarily if it wants to be observed.</p><table><thead><tr><th>Knowledge of Target</th><th>Save Modifier</th></tr></thead><tbody><tr><td>Secondhand (you have heard of the target)</td><td>+5</td></tr><tr><td>Firsthand (you have met the target)</td><td>+0</td></tr><tr><td>Familiar (you know the target well)</td><td>-5</td></tr></tbody></table><table><thead><tr><th>Connection to Target</th><th>Save Modifier</th></tr></thead><tbody><tr><td>Likeness or picture</td><td>-2</td></tr><tr><td>Possession or garment</td><td>-4</td></tr><tr><td>Body part, lock of hair, bit of nail, or the like</td><td>-10</td></tr></tbody></table><p>On a successful save, the target isn't affected, and you can't use this spell against it again for 24 hours.</p><p>On a failed save, the spell creates an invisible sensor within 10 feet of the target. You can see and hear through the sensor as if you were there. The sensor moves with the target, remaining within 10 feet of it for the duration. A creature that can see &amp;Reference[condition=invisible] objects sees the sensor as a luminous orb about the size of your fist.</p><p>Instead of targeting a creature, you can choose a location you have seen before as the target of this spell. When you do, the sensor appears at that location and doesn't move.</p>",
+        "section": "spell-items",
+        "spellLevel": "5th Level",
+        "spellRange": "Self",
+        "spellSchool": "Divination"
+      },
+      {
+        "name": "Flawed Design",
+        "description": "<div><p>You identify a flaw in the design or construction of one artificial object or construct of your choice within range. The first attack roll made against the target during the duration of the spell is a critical hit. Then the spell ends.</p></div>",
+        "section": "spell-items",
+        "spellLevel": "1st Level",
+        "spellRange": "30 ft",
+        "spellSchool": "Divination"
+      },
+      {
+        "name": "Fly",
+        "description": "<p>You touch a willing creature. The target gains a flying speed of 60 feet for the duration. When the spell ends, the target falls if it is still aloft, unless it can stop the fall.</p><p><strong>At Higher Levels. </strong>When you cast this spell using a spell slot of 4th level or higher, you can target one additional creature for each slot level above 3rd.</p>",
+        "section": "spell-items",
+        "spellLevel": "3rd Level",
+        "spellRange": "Touch",
+        "spellSchool": "Transmutation"
+      },
+      {
+        "name": "Sneezing Powder",
+        "description": "<p>This light powder hangs in the air for up to one minute, filling the volume of a 10ft sphere. A creature entering or starting it’s turn in this cloud immediately uses it’s reaction to sneeze.</p>",
+        "section": "physical-items",
+        "quantity": 1,
+        "combinedLabel": "Unusual Material",
+        "attunementLabel": ""
+      },
+      {
+        "name": "Martyr's Locket",
+        "description": "<p>A Martyr's Locket is an unassuming and unadorned gold pendant, deliberately plain and with a blank canvas inside. Blessed by the divine light of Mount Celestia, they are offered by the angelic hosts of Heaven to those seeking to perform acts of true empathy - often given freely to poor sinners looking for penance.</p><p>The belief that the truest measure of a soul is not in avoiding hardship, but in the willingness to bear the burdens of others, is a belief not just common amongst the denizens of Heaven but also shared by their mortal followers. As such, many monasteries across the realms which are dedicated to lawful good deities or principles, welcome donations of used lockets and display them in quiet galleries where each captured portrait of a moment of sacrifice serves as a silent lesson in courage and compassion for all to witness. Novitiates spend hours in silent contemplation before them, learning not only from dusty tomes, but from the faces of ordinary people captured in their single greatest moment.</p><p><strong>Moment of Martyrdom.</strong> When another creature you can see becomes affected by a curse (or an effect that can be ended or removed via the Remove Curse spell), you can activate the locket (no action required) to take the curse upon yourself instead. This ability cannot be used if the other creature isn't willing or if you are immune to any the curse's effects.</p><p>When the item is activated this way, the locket becomes a nonmagical @UUID[Compendium.talia-custom.customItems.Item.dQQKUD2XEIMNbGXl]{gold locket with a painted portrait inside} (DMG, p134), depicting you in the moment you took the curse upon yourself.</p>",
+        "section": "physical-items",
+        "quantity": 2,
+        "combinedLabel": "Exotic Currency",
+        "attunementLabel": ""
+      },
+      {
+        "name": "Coconut Shell",
+        "description": "",
+        "section": "physical-items",
+        "quantity": 1,
+        "combinedLabel": "Loot",
+        "attunementLabel": ""
+      },
+      {
+        "name": "Wooden Chicken Statue with Knife beak",
+        "description": "",
+        "section": "physical-items",
+        "quantity": 1,
+        "combinedLabel": "Art Object",
         "attunementLabel": ""
       }
     ],
@@ -6837,7 +7265,7 @@
         "name": "Vanilla",
         "description": "",
         "section": "physical-items",
-        "quantity": 5,
+        "quantity": 3,
         "combinedLabel": "Spice",
         "attunementLabel": ""
       },
@@ -6861,14 +7289,6 @@
         "section": "physical-items",
         "quantity": 1,
         "combinedLabel": "Potion",
-        "attunementLabel": ""
-      },
-      {
-        "name": "Dried Meat",
-        "description": "<p>The process of drying meat is long and extensive. In some particular cases, for the highest quality of dried meat, it can take over a year. It is highly sought after due to its extended shelf life, and depending on the meat used, it is, quite frankly, delicious.</p>",
-        "section": "physical-items",
-        "quantity": 3,
-        "combinedLabel": "Food (meal)",
         "attunementLabel": ""
       },
       {
@@ -6959,7 +7379,7 @@
         "name": "Sassafras",
         "description": "",
         "section": "physical-items",
-        "quantity": 5,
+        "quantity": 2,
         "combinedLabel": "Spice",
         "attunementLabel": ""
       },
@@ -7077,7 +7497,7 @@
         "name": "Rations",
         "description": "<p>Rations consist of dry foods suitable for extended travel, including jerky, dried fruit, hardtack, and nuts.</p>",
         "section": "physical-items",
-        "quantity": 49,
+        "quantity": 45,
         "combinedLabel": "Food",
         "attunementLabel": ""
       },
@@ -7085,7 +7505,7 @@
         "name": "Cardamom",
         "description": "",
         "section": "physical-items",
-        "quantity": 7,
+        "quantity": 6,
         "combinedLabel": "Spice",
         "attunementLabel": ""
       },
@@ -7093,7 +7513,7 @@
         "name": "Yarrow",
         "description": "",
         "section": "physical-items",
-        "quantity": 3,
+        "quantity": 2,
         "combinedLabel": "Spice",
         "attunementLabel": ""
       },
@@ -7128,6 +7548,28 @@
         "quantity": 1,
         "combinedLabel": "Exotic Currency",
         "attunementLabel": ""
+      },
+      {
+        "name": "Diamond Soul",
+        "description": "<p>Beginning at 14th level, your mastery of ki grants you proficiency in all saving throws. Additionally, whenever you make a saving throw and fail, you can spend 1 ki point to reroll it and take the second result.</p>",
+        "section": "feature-items",
+        "requirements": "Monk 14"
+      },
+      {
+        "name": "Martyr's Locket",
+        "description": "<p>A Martyr's Locket is an unassuming and unadorned gold pendant, deliberately plain and with a blank canvas inside. Blessed by the divine light of Mount Celestia, they are offered by the angelic hosts of Heaven to those seeking to perform acts of true empathy - often given freely to poor sinners looking for penance.</p><p>The belief that the truest measure of a soul is not in avoiding hardship, but in the willingness to bear the burdens of others, is a belief not just common amongst the denizens of Heaven but also shared by their mortal followers. As such, many monasteries across the realms which are dedicated to lawful good deities or principles, welcome donations of used lockets and display them in quiet galleries where each captured portrait of a moment of sacrifice serves as a silent lesson in courage and compassion for all to witness. Novitiates spend hours in silent contemplation before them, learning not only from dusty tomes, but from the faces of ordinary people captured in their single greatest moment.</p><p><strong>Moment of Martyrdom.</strong> When another creature you can see becomes affected by a curse (or an effect that can be ended or removed via the Remove Curse spell), you can activate the locket (no action required) to take the curse upon yourself instead. This ability cannot be used if the other creature isn't willing or if you are immune to any the curse's effects.</p><p>When the item is activated this way, the locket becomes a nonmagical @UUID[Compendium.talia-custom.customItems.Item.dQQKUD2XEIMNbGXl]{gold locket with a painted portrait inside} (DMG, p134), depicting you in the moment you took the curse upon yourself.</p>",
+        "section": "physical-items",
+        "quantity": 8,
+        "combinedLabel": "Exotic Currency",
+        "attunementLabel": ""
+      },
+      {
+        "name": "Silver Tears",
+        "description": "<blockquote><p>In the depths of Mestopheles' dungeons on Cania, the 8th layer of Hell, pain devils extract this silvery powder through the torture of captured celestials. Devils bound for the warfronts of Avernus take flasks and snuff boxes of the stuff to fortify themselves against exposure to the raw chaos of demons. </p></blockquote><p>When you consume this substance as an action, you have advantage on saving throws against any effect from a demonic source for 8 hours.</p>",
+        "section": "physical-items",
+        "quantity": 2,
+        "combinedLabel": "Potion",
+        "attunementLabel": ""
       }
     ]
   },
@@ -7156,7 +7598,7 @@
         ],
         "isTemporary": true,
         "name": "Heroic Deed",
-        "remainingDays": 14
+        "remainingDays": 10
       }
     ],
     "buildings": [
@@ -8445,6 +8887,16 @@
           "name": "84",
           "section": "journal-pages",
           "content": "<p>We trek for not long when we spot an statue of sombernes, a monument to honor the fallen.</p><p><strong>Ezeriel</strong> greets us with his still-damaged armor and invites us to join the prayer ritual for an hour.<br>Emilio says heart-touching words that strikes tears into <strong>Ezerie</strong>l.</p><p><strong>Ezeriel</strong> pulls out seven or so, crystals and mourns his fallen friends, crystalizing tributes from the entire party.</p><p>One by one he places down similar crystals until a total of 7 stand beneath the statue:</p><p><span>Two of them with beautiful locks of hair, </span><em><span>(Probably Naami and Kyrin. Either that or Emilio?)</span></em><span><br>one with a single, barely visible beard hair, </span><em><span>(Most likely Fearghas or Plex.)</span></em><span><br>one with a large, black feather with blue tips, <br>one with a shimmering, black scale, <br>one containing an irregularly shaped piece of a material that seems to absorb light, <br>and finally one with a single, yellowish toe nail.</span></p><p>He proceeds to explain an ritual from <strong>Iomedae</strong> requires a combat of honor where no one will die. King of the Hill style!<br>Stay in the circle for four turns and get points for your team.</p><p>We split into two opposing ritual parties.</p><ul><li><p>Naami <strong>(Team Captain)</strong></p></li><li><p>Aviana</p></li><li><p>Fearghas</p></li><li><p>Ezeriel the Redeemed prayerman</p></li></ul><p><span>Versus</span></p><ul><li><p>Kyrin <strong>(Team captain)</strong></p></li><li><p>Plex</p></li><li><p>Shalkoc</p></li><li><p>Emilio</p></li></ul><p>First thing that happens is that <strong>Aviana</strong> turns Yellow?<br>She walks into the big circle and immediately is met by the force of <strong>Shalkoc</strong>.<br>They are locked in combat while <strong>Plex</strong> shunts <strong>Naami</strong> and <strong>Fearghas</strong> is contained in a sandcastle.<br><strong>Kyrin stabs Aviana</strong> <em>(the gall)</em> but then she, kind of falls over for some reason, teleports outside the ring and then teleports back?<br><strong>Shalkoc</strong> disappears from <strong>Plex's</strong> spell and <strong>Emilio</strong> is locked in combat with <strong>Aviana</strong>.<br>There's spells cast from both sides and <strong>Fearghas</strong> gets witness the truth of heaven, namely to kill <strong>Plex</strong> twice.<br>Quote from <strong>Plex</strong>: <em>\"Best Funeral ever!\"</em><br>There's 9th level Guiding Bolt's flying, there's people dying, a lot of bullying <strong>Shalkoc</strong> happens and eventually a tie for the teams is trying.<br>Team <strong>Naami</strong> looks to be winning thanks to <strong>Aviana's</strong> reckless use of Mythic Power, but it isn't enough to stop <strong>Plex</strong> and his Magic Missiles which sweeps the whole Team <strong>Naami</strong> outside the circle at the last moment.<br>Fearghas then decides to throw the victory for the satisfaction of finally killing Plex.<br>A choice was made that day, which might have saved the future from a dreadful Lich due to soothing of the mind, but we will never know. Instead it ends a tie and we all are satisfied with our actions.<br>(Did I forget anything?)</p><p>After that magnificient ritual we are thanked by Ezeriel and we stay a night in Heaven and enjoy our time as a long rest, buying pretty things and useful things like component materials and heeled shoes.<br>(T<s>hat Jewel chain Kyrin gave me, like oh my god, it makes my natural color appear on my feathers, but even better and I love it, Kyrin is easily my favorite person in heaven right now!)</s></p><p>We all eat dinner together as a familiar person for Naami appears, it is Lioriel, who questions her faith and choices.<br>It is revealed when Master Clementile that Naami's staff was actually Clementiles brother's staff.<br>He thanks her for giving him peace of mind because she reminds him of his failures to stop his brother and gives Naami the Angel's Grace, an red-robed chest armor of light and hope and healing and candy and puppies.</p><p>Fearghas accepted a gift of peace offering from Plex in the form of Wine, for when our dwarven friend gave out the Dwarven Coins that swaps attunements.</p><p>Shalkoc gets a pat on the head from the five angels for good behavior and off we go with the planeshift!<br>To Mechanus!</p><p>Gears, clockwork, pistons everywhere! Up down left right!<br>Every gear is a city-sized world with it's own gravity, leaving said gravity carries you weightless until you reach another cogs' gravity.</p><p>An astronautical sized dreadnought passes by, it's mere steps proning us.<br>We seek the nearby Golem we were supposed to meet and state our names, almost failing that simple task.</p><p>The Golem introduces himself and say he will lead us to the city of clockwork.<br>Walking past a giant wall of smooth bronze, upon further inspection we notice that the wall is actually a list of laws with teeny tiny letters engraved in the metal. And also a map.</p><p></p>"
+        },
+        {
+          "name": "85",
+          "section": "journal-pages",
+          "content": "<p>Me and Plex were missing, refer to Naami's notes for more info about Session 85.</p>"
+        },
+        {
+          "name": "86",
+          "section": "journal-pages",
+          "content": "<h3>High Pressure, Steam and Clean. The Trouble Trio Returns</h3><p><em>\"Have you considered a spinal nerve upgrade Fearghas?\"</em>, says <strong>Emilio</strong> casually, explaining the intricate proceedures in detail</p><p></p><p>There will be experiments.<br><strong>Kyrin</strong> asks the resident mechanical householder for information about keeping an brain <em>\"alive\"</em> long enough for… purposes. That doesn't include licking, luckily.</p><p></p><p>Aviana explains the <em>efficiency</em> of forced labor and that robots are very useful for getting work done.</p><p></p><p>Kyrin explains the <strong>Harpell</strong> wizard clan is very kinky around Mind Flayers, for some reason. Not sure why she brought that up when we need to find an <strong>Aboleth</strong>, but information is information.</p><p></p><p><strong>Kess</strong> explains she needs to follow Fearghas around if he wants to explore the vicinity, since they don't trust him, or something, I don't know, he wants to extract the brain of an alive whale for the purpose of creating a magical book of Clear Thoughts, absolutely useless in my opinion since my toughts are always Clear and Pure. <em>(Aviana's Quote)</em></p><p></p><p>At the market, we find out that for the meager price of 1618.03 Gold Pieces, the <span><span>Clockwork Looking Glass</span></span> could be ours!<br>Showing us a <strong>belt of Rockets</strong> made for <strong>Iron Golems</strong>, we make the responsible decision to strap them to Plex and see what happens.<br>Sadly, we lack the money to make the purchase and get stuck figuring the economics out.</p><p></p><p>After experiencing extreme headache, Fearghas leaves his mandatory workpost and stops the <strong>Trouble Trio</strong> from breaking more laws.<br>Shalkoc lends money to Plex with <span><em><span>20% interest</span></em></span>. 1700g<br>Emilio lends money to Aviana with negative interest, very appreciated, he's such a good friend.<br>I buy <strong>seven</strong> Vending Machines from Mechanus with the Spyglasses, well endowed investment!</p><p></p><p>We windowshop a lot of spells, they have a lot.</p><p>Everything from Catapult to Repeating Crossbows, Fearghas buys out the store with his massive wealth and <strong>girthy</strong> wallet.<br></p><p>Our attempts at planning ahead for the visit to hell, goes to hell. <span><span>(Pun intended)</span></span><br><em>\"Tank or Damage or Support?\"</em>, asks Aviana.<br><em>\"Eeeeh, we can make them go boom, so it doesn't matter.\"</em>, answeres Shalkoc.</p><p><strong>Fearghas</strong> cheats the worlds' currency system and a French sword threatens him.</p><p>The voicebox, belonging to our landlord, tells us that it's very certain the Beacon that <strong>Kyrin</strong> carries, actually hails from Ahkanefti, around 1500 years ago, a plane in Limbo.<br>Neftis included, god of magic, yada yada, his plane has been sealed for a veeeery long time, in the <strong>Redwind Sand's Temples</strong>, leading to <strong>Neftis</strong>.</p><p>We remember that one of the stories we made up way back in <strong>Joutenheim</strong> was true, with a tree's roots leading all the way to <strong>Ahkanefti</strong>, when Joutenheim was still green and flourishing with Druids and other amöbas.<br><strong>In short;</strong> <em>Redwind Sand temples and the Giant Tree in Joutenheim are the two relations to Ahkanefti we know about.</em></p><p>We prepare for some days to enter Hell, Aviana makes knifeboots for Naami and Fearghas brews potions and spellgems while Shalkoc and Plex eats cookies. I think Emilio is brooding?</p><p>Kess says goodbye to us, with her Steampunk looking Engineering outfit.<br>When we leave Axis, the Citadel of Clockwork, we look back at the greenery on the single gearworld where greenery grows.</p><p>We eat good food and then hold hands, Plex teleports us to the Abyss and we all feel an urge to murder him.<br>Fearghas mumbles and opens an Tiny Hut while Plex starts eating a shoe.<br>This aggroes the forest and a fight breaks out.<br>Emilio twitch reaction teamsmokes and Kyrin gets lost in the Abyssal Haginfested Spriggan Woods.</p><p>Kyrin is VERY angry after the Spriggans surprise attack, but Shalkoc explains that the steaming angery makes her very hot, and for some reason Kyrin starts stabbing Shalkoc instead.</p><p>Obviously we instead use Plex as an escape vehicle and he brings us to Heaven instead of Hell.<br>Can't blame him.<br>We buy forks for Plex and head back to Hell with his Planetrotting.</p><p>Fireball rain greets us, as we march for hours towards the Black Vents.<br>The crevices spewing black soot of smoke, hosting an eerie intention towards us as we traverse it.</p><p>After 60 successful Wildmagic Checks in a row, Aviana uses her chains to make a bridge for the party to cross the crevice.<br>Sadly every single one fails and spends resources.</p>"
         }
       ]
     },
@@ -8605,6 +9057,16 @@
           "name": "85 - But it doesn't have any nose-holes!",
           "section": "journal-pages",
           "content": "<p><strong>Friday, 8</strong><sup><strong>th</strong></sup><strong> of Decimus, 1497</strong></p><p><strong>04:30</strong></p><p>We are following the Guardian Golem, <strong>Warden XM-7</strong>, in a very orderly manner. On the roof to our right, something is swirling, twisting inward… then, we hear the shrieking. We spot 4 more <strong>portals</strong>, 2 straight ahead and 2 to our left. Tentacles with eyes exit the portal on the right…?! Emilio warns us, things are about to get <em>really</em> bad.</p><p>We roll <strong>initiative</strong>, with unusual results due to the realm effect. XM-7 requires assistance closing the portals, we all agree to protect him. Emilio says the big tentacly monster is a <strong>Mindwitness</strong>, and the best strategy for hunting them is… not being seen. Cool. It begins with eye rays; I resist the Fear Ray, Emilio resists the Stunning Ray, and Fearghas resists the Psychic Ray. Phew.</p><p>I cast a Twinned <strong>Death Ward</strong> on myself and XM-7. He appreciates the assistance, what a good bot. Then I use the Angel's Grace's power to cast <strong>Sanctuary</strong> on myself, and retreat to the back lines. Emilio says he's going to turn off the lights, and 1.2 second later he casts <strong>Dying of the Light</strong>. T-thanks for the heads up, but next time, a little sooner?! As mentioned, everything goes pitch black. I hear XM-7 say Target acquired, and adds details on the closest voidgate, then takes off towards it. Emilio follows the flying robot, he is the only one who can see in the darkness.</p><p>Fearghas is grumbling at Emilio that he \"cannae bloody see\". He casts <strong>Fireball</strong> blindly, protecting XM-7 from the blast. There is some mad sizzling. \"Sounds like unhappy shadow calamari\" - Kyrin. Fearghas goes off muttering about humans seeing in the dark, and how he can see through darkness but not <strong>magical</strong> darkness grrrmmmmmbl.</p><p>We hear the scuttling of tiny feet coming our way. A <em>lot</em> of tiny feet… Kyrin fires an arrow; from the thud, she hits something. She hides, but that's okay we couldn't see her anyway. Emilio says the Mindwitness is hovering <strong>right above him</strong>, which causes the aberration to spot him and attack! Emilio's magic snipes it with necrotic damage and exhaustion. This also slaps a second Mindwitness! I quietly use <strong>Piercing the Veil</strong>, and tiptoe away from the closest monster, trying to get in a good position to keep an eye on everyone.</p><p><strong>THERE ARE NO WILD MAGIC SURGES IN MECHANUS!!</strong></p><p>Fearghas wants to move in.</p><p>Emilio casts <strong>Howling Horrors</strong>, producing an ear-splitting screech and dealing some juicy psychic damage. There is a revolting sound of something rotting bursting, as one of the Mindwitnesses dies and falls from the height it was hovering at. XM-7 reaches the portal on the roof and casually <strong>closes</strong> it. He used his left arm which rotated quickly and produced a beam of bluish light that shot into the portal and shrunk it until it winked out. Yeah… I have no idea how to do that myself. But Emilio seems inspired?</p><p>Emilio senses a shuddering of pain as XM-7 fires into the portal. He thinks it's just like a caster dropping concentration on a spell. These small portals, unlike the one we saw in the Underdark, are not stabilised and held open; they're being kept open by, Emilio assumes, a creature on the other side. So some voidborn can just <strong>open portals to other planes</strong> and let bullshit through. Lovely.</p><p>Fearghas fires (hehe) a <strong>Ray of Frost</strong> on a Minion and obliterates it. He shouts there are more enemies this way. He then gets \"tentacled\". Why'd you have to use this word, I've seen enough… hens wearing ties to know where this is going. Emilio's spell slaps the minions all the way into next week as they instantly die to the necrotic energy. He guides Kyrin to the closest monster, and she shoots at it.</p><p>We hear sloppy sloshing noises as more things spill out of the portals. We need to get XM-7 to close them asap! Another sickening sound as a second Mindwitness succumbs to Emilio's magic. I follow after XM-7, looking for the closest portal, and summon <strong>Fade</strong> in the idea to have her flank enemies so Kyrin can shoot them better. Emilio casts a <strong>Blade Ward</strong> on himself, and yells to XM-7 to head north, he was a lost bot. XM-7 locates one of the portals, on the roof of the building in front of us! Fade feels her way up the stairs and hunts by sound, camping next to one of the portals. She goes invisible, hoping to bite anything that comes her way. She might let Emilio pat her head, since they both want to nibble on voidborn?</p><p>Fearghas is DONE with the darkness and puts on his <strong>Glasses of True Seeing</strong>. He goes northwest to the left of the building, looking for a portal to point XM-7 to. Kyrin moves her \"happy butt\" close to Emilio, as he is, in her words, her \"seeing dog\". He points an enemy to her, far to the east. She takes the shot, but narrowly misses.</p><p>As round 4 begins, Emilio feels the air ripple and the portals… <strong>stabilising</strong>. He warns us about this, adding he has a bad feeling about this and we need to close the portals like <em>now</em>. I dash up the stairs and spot three of the portals! I do my best to aim XM-7 to the nearest portal. Kyrin tugs Emilio's robe to wish him luck; he apologises about leaving her as he dashes up the stairs, and says he sees a lot more Mindwitnesses and minions… and a <strong>Warped</strong> <strong>Seer</strong>. Ah shit, here we go again.</p><p>Our brobot XM-7 closes the portal by the roof with his beam! Emilio recognises the entity beyond the portal as he feels its pain from this portal in front of him… and the portal behind him, too. It is <strong>one single big voidborn</strong> holding all the portals open, that is TROUBLE.</p><p>Fade leaps off the roof, taking minor fall damage despite landing on her shadowy paws. She prowls at the edge of Emilio's spell and takes the <strong>Dodge</strong> action, hoping for minions to come within attack-of-opportunity range. Fearghas looks into the western void portal… Immediately, he knows he <em>should not</em> keep looking. He only glimpses a mass of teeth, tentacles, and eyes. \"We all know the old wall of flesh!\" Karnack says happily. Eek. Fearghas shouts IMMA FIRIN' MAH SPHERRRRRE and casts <strong>Otiluke's Freezing Sphere</strong>. The voidborn freeze with a sound of tinkling glass, crystallised with frost. This draws the minions of course, who scuttle towards him.</p><p>The <strong>Seer</strong> all the way to the northeast starts blasting. Fearghas is saved by the realm effect, which causes the first two <strong>Psychic Orbs</strong> to miss. He casts <strong>Shield</strong> to block the third one. Emilio's magic casually murders 4 other minions. Kyrin says \"Come and get me!\" which confuses XM-7 for a moment, until Emilio directs him to the western portal Fearghas is standing close to. She <em>cunningly</em> dashes up to between Emilio and me. He points out the nearest enemies to her, allowing her to plant an arrow in a Mindwitness.</p><p>Round 5 starts. All eyes are on Fearghas, and believe me, there are a LOT of those. He saves against a Psychic Ray, a Fear Ray, and a Stunning Ray — barely. All the eyes <em>narrow</em>, and their owner skedaddles. The exact same thing happens a second time with another Mindwitness. Oh they're mad. I aim at the Seer with Lioriel's Staff, and blast off a <strong>Magic Missile</strong>… at 1st level. Woops… It tickles the Seer. I hear it giggle in my mind. Uuuuuuurrrrrgh.</p><p>Fearghas is hit by a <strong>Slowing Ray</strong> and a <strong>Telekinetic Ray</strong>. He is restrained and dragged towards a pit by a Mindwitness. Emilio goes into Void Form and becomes unable to concentrate on Dying of the Light. He teleports with Phase Shift, and starts blasting.</p><p>\"Are we seriously trying to figure out the air speed velocity of a dwarf?\" - Kyrin</p><p>Fearghas falls into the pit, Wile E. Coyote style. Oh no! Anyway. The Mindwitnesses are looking very smug, so Emilio assures them, and Fearghas, that the aberrations will be next. He gets blasted with eye rays for his trouble, and gets <strong>stunned</strong>. Because of this he cannot save on the Telekinetic Ray and gets restrained too, allowing the Mindwitness to drag him to the edge of the pit.</p><p>XM-7 closes the western portal. The voidborn on the other side gets angry, Emilio says… It <em>wants</em> to come here. Oh my. Fade runs up to a Mindwitness and has herself a little crunch, then a big crunch, killing the thing.</p><p>Fearghas: \"Ooooooooaaaaaahaohohohohooooo… bloody humans. <strong>Dimension Door</strong>!\"</p><p>He's fine, just grumpy. He asks XM-7 how to close the portals. The Golem starts rattling out some kind of equation. \"In Common!\" Fearghas requests, to no avail. Emilio is getting his nice bottom handed to him. That's a shame. The Seer joins in and blasts him while he is struggling. That's a lot of damage! It scuttles towards Fearghas.</p><p>Suddenly, Antagonize. The DM does not know how it got here. We struggle for a minute; it was on the Rogue's Mantle all this time. Well that was weird. Kyrin then decides to shoot \"this little shit over there\".</p><p>Round 6 starts and… <strong>no new enemies</strong> appear. That's actually somehow more frightening…</p><p>I chuck a <strong>Fireball</strong> towards the Seer, detonating it in the air to 1) catch the Mindwitness and 2) spare Fearghas. He is very proud. The dead Mindwitness crashes splashingly to the floor and the Seer is not happy with me. I recast <strong>Sanctuary</strong> on myself, just in time, as a Mindwitness is giving me the evil eyes, a lot of them. Emilio is incapacitated.</p><p>I save against a Fear Ray, but Fearghas fails against the Telekinetic Ray and chucked into the pit. Again. Fade gives the Seer the good old crunch. As a reaction, it uses <strong>Bend Space</strong> and swaps places with a Mindwitness, so Fade crunches on that. SQUISH. It's disgusting and she bites very gingerly, inflicting minor damage. She uses <strong>Shadow Blend</strong> to become a very grumpy invisible shadow cat.</p><p>Fearghas <strong>Misty Step</strong>s out of the pit, then casts <strong>Disintegrate</strong> on the Seer. It saves and takes no damage! The Seer casts <strong>Collapse Distance</strong> on Emilio, teleporting him… INTO THE PIT. Toodaloo! Fearghas casts <strong>Feather Fall</strong> on him! The Seer looks back at the portal behind him… and jumps into the pit after Emilio. What?! He falls past Emilio who is falling in slow motion. Yoink! Attack of opportunity!</p><p>Kyrin aims at the Mindwitness, right into the teeth-holes left by Fade. Oh that is a lot of damage for an arrow.</p><p>Three new portals open. Out of FIVE portals flows a single creature… The portals all close after it. A towering creature stands before us, made of tentacles and parts of beasts, too many eyes, too many fangs. The body parts are all jumbled and howling. As that <strong>Greater Star Spawn Emissary</strong> comes out of the portal, it blasts an EMP wave that incapacitates XM-7. It spews out a wave of <strong>Unearthly Bile</strong>, which only Fade manages to dodge, sort of, she still takes half damage. For each failed save, a <strong>Choker</strong> spawns… cool, cool.</p><p>Now, the <strong>Emissary</strong> takes its turn. All the bullshit before was just reaction! It decides Fearghas is the biggest threat, and one of its maws rushes towards him. Fearghas dodges, so the Emissary shoots 2 <strong>Psychic Orbs</strong> at him. It slaps an Eyeless Void on Kyrin's position, an area of magical darkness…</p><p>I keep it together, and whisper to the darkness, making shadows converge on the Emissary. I have to recast <strong>Sanctuary</strong> after that, running out of charges but it might save my life! Emilio bursts out of the pit with Void Torrent. He walks up to me, and crunches on his shards to apply <strong>Accrued Vitality</strong>. Very prudent, approved.</p><p>The Emissary uses 2 legendary actions on <strong>Warp Space</strong>, making the ground below Emilio and me a mass of teeth and maws! Aaaaaaaaaaaaaaaaaaaaaaa. Fade tries to opportunistically crunch at a Mindwitness, but remembering how slimy and disgusting they are, she hesitates and the attack misses. Don't blame ya, kitty. The Mindwitness takes a look at Fearghas, a lot of looks really… He takes a Fear Ray and is now quaking in his boots.</p><p>Fade gives the Emissary the good crunch, presumably it tastes better, then she slips into the shadows. The Emissary is immune to prone, of course… Fearghas casts another <strong>Otiluke's Freezing Sphere</strong>, ignoring all allies. The foul-tasting Mindwitness dies, and the little minions are wiped out as well. Then he summons his axe with <strong>Spiritual Weapon</strong>. And the big pile of void bullshit is resistant to <strong>Force</strong> damage, welp. Sad Warlock noises.</p><p>Kyrin does a <strong>Psychic Teleportation</strong> out of the magical darkness and drops down on the Emissary, slashing with the <strong>Sun Blade</strong>. Fade's flanking grants her <strong>Sneak Attack</strong> priviledges! She marks the soul in the bargain.</p><p>The Emissary saves on my <strong>Living Shadows</strong>, and casually walks out of the aoe… Come on. It casts <strong>Eyeless Void</strong> to slap more magical darkness on Kyrin, Fearghas, and Fade. From inside the darkness, it chucks three Psychic Orbs at Emilio, inflicting heavy damage. He's standing right next to me, so I remove my spellwards and channel Cure Wounds, heightened to 8th-level, on Emilio. The maws below our feet disappeared, phew.</p><p>The Emissary unleashes a <strong>Mind Cloud</strong>, inflicting spicy psychic damage on Fearghas, Kyrin, and Fade. Emilio speaks the command word of his cloak, and casts <strong>Blight</strong> on the big guy, but it resists <strong>necrotic</strong> damage! The Emissary burns another legendary action to attack Fade, and kills her. Fearghas casts <s>the bad touch</s> <strong>Withering Touch</strong> and tries to inflict Curse of Fragility, but the Emissary burns a legendary resistance.</p><p>\"It's a shame the Curse of Impotence doesn't make all his tentacles go limp…\" Kyrin</p><p>Fearghas chugs a <strong>Potion of Supreme Healing</strong> and shimmies around so he is perfectly flanking the Emissary. Kyrin slashes with the Sun Blade. Unsurprisingly, the Emissary is resistant to <strong>psychic</strong> damage as well. It lets out a very angry… squelch. (Karnack makes murlock noises) She slaps a <strong>Psychic Blade</strong> into it for good measure.</p><p>The Emissary uses its 4th legendary action to recharge its <strong>Unearthly Bile</strong>… and it immediately starts it turn afterwards, so it pukes out the bile. Kyrin dodges and takes zero. Emilio is immune thanks to his cloak! The Emissary is, of course, immune to acid. Hey, you never know. It then shoots Emilio with the Psychic Orbs, and all three hit! He is still standing, but barely…</p><p>I upcast <strong>Wellspring of Life</strong> to 7th-level and slap it down at my feet and Emilio's. The Emissary teleports INTO IT and attacks Emilio… Vittuperkelesaatanaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa. The Wellspring heals Emilio a little bit although I roll like concentrated essence of ASS. It's enough for Emilio, who walks up to the Emissary and starts slicing. He pops an essence shard on <strong>Accrued Vitality</strong>… and for a second his claws resist his will. Surprise quickly fades as his face takes on a look of \"Oh… it's like <em>that</em>.\" He consumes 5 essence shards for a free <strong>Eldritch Blast</strong>, and finishes off the Emissary!</p><p>Emilio's gauntlets turn pitch black, absorbing light. His shadow extends, dragging the Emissary back to where it came from, leaving not even a corpse or a drop of blood. He stands with a look of immense satisfaction on his face, then lays down with a wide happy grin on his face.</p><p>We <strong>level up</strong> to 14!! UNLIMITED POWAAAAAAAAAAAH</p><p>I question Emilio on what he did with the body. He very naturally replies \"I ate it. We hunt, we eat, we get stronger. That's how it goes, no?\" Fearghas grumbles because he wanted to harvest the body for alchemical components, presumably. The dwarf asks… \"Is this what happened to the Hag? Is that why you freaked out when Naami touched you?\" Emilio goes quiet, and nods. Then he explains it's different, because she wasn't voidborn. I sit down in shock. An entire conversation suddenly makes a LOT of sense…</p><p>XM-7 gets back up and says \"Threat can no longer be detected. Expecting report.\" And then he arrests Fearghas for \"tampering with evidence\". Fearghas protests… XM-7 has no sense of self, it seems. We very frustratingly try to explain we did nothing wrong, and we saved the place from a void incursion, but XM-7 cannot compute and repeats we violated a law. The fine for tampering with evidence… is three days of community service polishing clockwork wheels.</p><p>I ask XM-7 if he is okay. He says yes, in robot speak, and that my care is appreciated. Some more stomping occurs as robots from the <strong>forensics</strong> team show up. They ask us a lot of questions about what happened <em>exactly</em>. We spent FIVE HOURS reporting, omitting only the Emissary… At least we did it while standing in the Wellspring of Life and we get healed to full. Fearghas gets to harvest his alchemical components, but since he still broke a law, the robots insist on him doing the 36 hours community service polishing brass cogs within the next 7 days, which prompts a healthy amount of grumbling.</p><p>\"Please follow for audience with <strong>Master Artificer Kazzim-Aleph-1</strong>\" XM-7 says, and stomps away. He leads us to a workshop, from which comes an irritated (?) beeping, and then unsteady steps, like a drunk man walking with a cane. The figure which opens the door is a good bit taller than Shalkoc, cloaked in red, and wears a clockwork mask that reveals an organic, humanoid eye. Mechanical appendages poke out from under the cloak. (Imagine a steampunk tech priest, Aerelia says.) It asks with a high-pitched, squeaky voice, whether we are the mortals he was told to expect.</p><p>He is one of the Master Artificers in service of <strong>Brigh</strong>. We are… expected to enter, not welcome, and we are not to touch anything inside. He makes it clear that he'd rather spend his time with anything else than \"fleshlings\". I say that's rude. He says we just haven't been blessed with the resplendence of clockwork. We enter, sit down, and the Artificer says \"You are about to lose my interest, try to spark it.\" Sigh.</p><p>Fearghas brings up the <strong>Beacon of Doom</strong>, and Kyrin pulls it out and explains its function. She also explains wearily that we helped defend this place, but got community service for it… Kazzim-Aleph says that if we don't break any laws, we don't get punished. I say it's impossible for mortals like us to know all the laws of Mechanus… \"Have you considered replacing your body with resplendent clockwork?\" Eeeeeegh…</p><p>He picks up the Beacon of Doom and his cogs start turning real fast. He wants to study it. He will look at it in his workshop for a bit, while his apprentice entertains us. We say we need to leave with the artifact in a couple days. \"That is tragic,\" he says and scampers away with the Beacon, shouting for his apprentice <strong>Kess Al'dín</strong>. A female voice replies; Kazzim-Aleph dismissively tells her to have \"meaningless conversations\" with us.</p><p>We see a… devil's wing pop up, immediately followed by the rest of a winged Tiefling in a steampunk outfit, with the marks of goggles around her eyes. She is very curious about the artifact, so Kyrin gives a short explanation. Emilio chimes in, explaining how he pissed off <strong>Zariel</strong>. I say it's a long story, and may we please have some tea? She conjures up a flame with her finger, looking very proud of herself, then sheepishly says her master doesn't approve of that since she burnt down the library, once.</p><p>Kess says she applied for an apprenticeship, and she has been here for 6 years. She doesn't get to talk to people often, and those aren't really fulfilling conversations. I sort of challenge Kess to think about how to get <strong>Zariel</strong> to sell us back our friends' souls. She tries but quickly gets stumped, and we end up talking about people, logic, numbers, structure… and Fearghas' community service.</p><p>Kess asks why we are so pressed by time. We've got things to do, places to be… we're involved in wars, the time schedule is tight, and more voidborn are appearing. She is confused but no less curious. She shows us a piece of clockwork on her thigh… I ask her to explain. She talks about… not having time for things like <em>dying</em>. Kyrin asks about the mind, and the soul, and identity. Kess hasn't figured out how to convert the <strong>mind and soul</strong> to clockwork.</p><p>I ask Kess if her body doesn't reject the clockwork. She says of course it does, she just numbs it. She shows us a needle in her leg, dosing her with <strong>painkillers</strong>… It makes me so sad… Emilio discusses the similarities with his half-voidborn body. Kess is really intrigued, so Emilio tells her about the Void. Kess sees <strong>logic</strong> in the Void, a law in \"eat or be eaten\". She wants to go there. Emilio is trying to explain she will die… at best.</p><p>Kess is a little confused about why we are here, if we are so bad with law. We explain we need help with law. She explains to Fearghas that he is lucky; the law he broke here, <strong>Lady Brigh</strong> is very lenient with it. On other gears, he would have been killed outright. Apparently, there is a lot of \"chaos\" on this gear. Oooooooooh dear. One of Lady Brigh's teachings is chaos is necessary for innovation. Kyrin pulls out her <strong>Echo Stone</strong>, which says \"Oh, I have this echo rock\" after Kyrin said it. Kess is FASCINATED. She wants to build something similar out of clockwork, so she can record her ideas and she doesn't have to remember them!</p><p>Fearghas is eager to get done with his community service, and goes out. \"Aight, XM-7, take me to the cogs.\" Before he leaves, he casts <strong>Rary's Telepathic Bond</strong> to stay in touch with us. Kess offers us to look through the catalogue of \"things Master can craft\". The moment she mentions a \"<strong>Tome of Clear Thought</strong>\", we hear from outside the door… tap tap tap… taptaptapTAPTAPTAP<strong>TAPTAPTAPTAPTAP </strong>and Fearghas appears asking about the tome. He is told off by XM-7 because he has to go polish cogs instead of running off… There is also talk of an <strong>Ioun Stone of Mastery</strong> (increases Proficiency Bonus by 1) and a legendary +2 dagger that poisons its target, <strong>Asp's Kiss</strong>.</p><p>Specific ingredients are needed to craft these items… a petrified <strong>Pit Fiend</strong>'s eye for the stone (it must be petrified <em>before</em> it dies), a poisoned poison gland of a <strong>Yuan-Ti</strong> <strong>Anathema</strong> (they are immune to poison) for the dagger, and the still-dreaming brain of an <strong>Aboleth</strong> for the tome. For this we need to extract the brain without waking or killing the big fish. All of the brain. We hyperfocus on the brain and lack of <strong>nose-holes</strong>, and discuss theories. Kess interjects those ingredients have been on the list for a very long time and nobody has managed to provide them. Yeah, I wonder why.</p><p>We speak to Kazzim about the <strong>contract</strong> with Zariel. He suggests to have the signing of the new contract happen on neutral ground, i.e. Mechanus. Essentially we sneak the Beacon into <strong>Dis</strong>, then go to Mechanus, and <strong>blackmail</strong> Zariel to come to Mechanus and sign, or we activate the Beacon in Dis and she gets big shit from <strong>Dispater</strong>. We also need to have the person who carries the Beacon under constant live surveilance from Mechanus until they bring the Beacon back there to trade it back to Zariel. Phew, my shift key worked overtime on this paragraph.</p><p>We discuss the cost of descending to Dis through the Bronze Citadel in Avernus… Probably a very steep cost, like 5000 gold per person, one way, from Avernus into Dis. Well, back to the idea of the <strong>Black Vents</strong>. We'll also need to reveal it to Dispater so he knows to blame Zariel. A time constraint on Zariel would help us.</p><p><strong>Plan of attack</strong>:</p><p>We go to Avernus, descend into Dis through the Black Vents, set up camp in Dis with the Beacon. We send a message to Zariel telling her to <s>get thine arse</s> get her fiery bum to Mechanus or we blow up the thing and she gets mad shit from Dispater.</p><p>Kazzim suggests to have Mechanus officials contact Zariel, because they don't lie. Fearghas asks who we need to talk to for this kind of support. <strong>Control Court MH4</strong>; we can get an appointment with them through XM-7, probably. The Modrons will help us with the details, i.e. facilitate the contract. Our job is to get the Beacon to Dis for blackmailing purposes, and then take it back to Mechanus to exchange it for our friends' souls. Fearghas asks about the location of a teleportation circle in Mechanus where we can meet up.</p>"
+        },
+        {
+          "name": "85 - summary",
+          "section": "journal-pages",
+          "content": "<h1>But it doesn't have any nose holes!</h1>\n<p>We follow <strong>Warden XM-7</strong>, but as we enter a courtyard — gasp! — a void portal! Another! Yet another! <strong>Five</strong> in total! Brobot politely requests assistance to close the portals. Emilio kindly informs us that the big monster, all tentacles and eyes, is called a Mindwitness and the best strategy to hunt it is… not being seen. It blasts us with eye rays, so there goes the plan.</p>\n<p>Emilio says he's going to turn off the lights, but we're in initiative and 1.2 second later he casts <strong>Dying of the Light</strong>, plunging us all into magical darkness. Fearghas grumbles he \"cannae bloody see\" and mutters heartily about humans. We fight blindly and make an <em>enlightening</em> discovery!</p>\n<p><strong>THERE ARE NO WILD MAGIC SURGES IN MECHANUS!!</strong></p>\n<p>Fearghas wants to move in.</p>\n<p>XM-7 closes a portal by shooting it. Emilio senses something from beyond the portal, a lot like losing concentration on a spell. We theorise the portals are unstable and held open by a void mage, so we better hurry! Aerelia uses the phrase \"get tentacled\" and my mind is filled with images of female chickens wearing neckties. Is this psychic damage? Both Fearghas and me find ways to see through the darkness, but poor Kyrin needs to be guided by her seeing dog Emilio, who points her at enemies like a gun.</p>\n<p>We can't be too mad because Emilio's spell easily drops the small minions. The fight is a breeze, until he feels the portals stabilising and a <strong>Warped Seer</strong> gets through. Fearghas is hearing the trees speak Deep Speech. We point XM-7 at the portals because we have no idea how to close them ourselves. Emilio senses there is <strong>only one entity</strong> holding all those portals open. Fearghas takes a peep into a void portal, decides it's a bad idea as the old Wall of Flesh peeps back.</p>\n<p>\"IMMA FIRIN' MAH SPHERRRRRRRRE\" - Fearghas casting <strong>Otiluke's Freezing Sphere</strong></p>\n<p>I somewhat accidentally chuck a 1st-level Magic Missile at the Seer. Max damage but a d4 being a d4, it barely tickles. That thing giggles IN MY MIND. Uuuuurrrrrrgh. Fearghas is grappled and chucked into the pit, Wile E. Coyote style.</p>\n<p>\"Are we seriously trying to figure out the air speed velocity of a dwarf?\" - Kyrin</p>\n<p>I make Fearghas very proud with the simple use of <strong>Fireball</strong>. Fearghas is chucked into the pit again, may or may not have been Emilio's fault. Then Emilio is chucked into the pit, and the Seer jumps in after him. But Emilio got a <strong>Feather Fall</strong> courtesy of Fearghas, so not only does the Seer zoom past him, Emilio gets an attack of opportunity.</p>\n<p>Three new portals open to let through a generous serving of nightmare fuel, teeth and eyes and tentacles aplenty. The <strong>Greater Star Spawn Emissary</strong> blasts an EMP wave that knocks out Brobot! Then it vomits on us a lot.</p>\n<p>Magical darkness is slapped on Kyrin but she teleports out, slashing with the Sun Blade! My shadow cat gives her <strong>Sneak Attack</strong> privileges by flanking the big thing. Fearghas gives the boss the bad touch, which is <strong>Withering Touch</strong>.</p>\n<p>\"It's a shame the Curse of Impotence doesn't make all his tentacles go limp.\" - Kyrin</p>\n<p>Karnack makes excellent murloc noises. We get puked on again, and the Emissary gives Emilio a lot of side eyes because he is immune to acid. Kyrin is not immune, but she does the <em>sick dodges</em>. Emilio is next to me, getting focused and taking a beating, so I cast Wellspring of Life at our feet. The Emissary teleports INTO IT and attacks Emilio… Vittuperkelesaatanaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa. I roll on healing like concentrated essence of ASS. Emilio looks at the Emissary, looks at his claws, smirks. \"Oh… it's like <em>that</em>.\" And he finishes off the boss with an Eldritch Blast as a BONUS ACTION?!</p>\n<p>Emilio eats the boss. He is now very happy and ready to take a nap.</p>\n<p>We level up to 14!</p>\n<p>Fearghas and Emilio have words. I hug the Staff of Power for emotional support because my cat got murdered. Fearghas harvests alchemical components and gets arrested for tampering with evidence, sentenced to 3 days polishing gears.</p>\n<p>Five hours later we get to leave the crime scene. XM-7 has rebooted and he leads us to a workshop where we meet Master Artificer, <strong>Kazzim-Aleph-1</strong>. He is a very impatient person whose body seems mostly mechanical, he calls us \"fleshlings\". We show him the Beacon of Doom, he loves it and wants it for study. Fine then, just for a few days. He grabs it and disappears downstairs with it, leaving us to talk with his apprentice, <strong>Kess</strong>.</p>\n<p>A winged Tiefling, Kess is very happy to be talking to people for once. She's started to turn her body into clockwork, using lots of painkillers in the process. We talk about a lot of things, Kess wants to visit the Void, we try to explain it's not exactly good for tourism this season. Fearghas leaves to start polishing cogs. Kess mentions items her master can craft; an <strong>Ioun Stone of Mastery</strong>, the poison dagger <strong>Asp's Kiss</strong>, and a <strong>Tome of Clear Thought</strong>.</p>\n<p>The last one has Fearghas rushing back in. These items need very specific materials; a petrified <strong>Pit Fiend</strong>'s eye, a <em>poisoned</em> poison gland of a <strong>Yuan-Ti Anathema</strong>, and the still-dreaming brain of an <strong>Aboleth</strong>. We have a deep conversation about how to procure the brain. Kyrin happily suggests we extract it through the nose-holes. We do a quick research and realise… Aboleths don't have any nose-holes!</p>\n<p>We are stumped. Fearghas takes it personally.</p>\n<p>Kazzim gives very good advice about our predicament with Zariel, and with the help of Mechanus we now have a solid <strong>plan of attack</strong>!</p>\n<ol>\n<li>Sneak the Beacon into Dis.</li>\n<li>Tell Mechanus to contact Zariel.</li>\n<li>Get the Beacon back to Mechanus and exchange it to Zariel for our friends' souls!</li>\n<li>???</li>\n<li>Profit!</li>\n</ol>"
+        },
+        {
+          "name": "86 - Goblin rockets and vending machines vending vending machines",
+          "section": "journal-pages",
+          "content": "<p><strong>Friday, 8</strong><sup><strong>th</strong></sup><strong> of Decimus, 1497</strong></p><p><strong>13:10</strong></p><p>We speak with Kess about how to keep a brain alive. We have 3 days on our hands while Fearghas is polishing gears and Master Kazzim is studying the Beacon. I argue with Aviana; we should <strong>study</strong> <strong>air</strong> <strong>travel</strong> to keep Promise aloft, instead of working enslaved air elementals to death! Fearghas feels a disturbance in the Force. He wants to build a <strong>life support machine</strong> for just the brain, as Master Kazzim would be very upset if we brought the entire fish. Kess says this kind of machine would be really difficult to make, even for master artificers, and the apparatus would have to be tuned to the Aboleth specifically.</p><p>Looks like trading here is mostly done in <strong>Clockwork Looking Glasses</strong>, a currency of which 1 is equal to… 1618.03gp. How golden-ly specific. We can trade gold for them. The looking glasses are also a one-use item with really interesting effects! Truly a metaphysical experience.</p><p>We find a workshop painted in odd colours, which seems about to close. It was the workshop of the recently deceased master Artificer <strong>Daretti</strong>, a goblin who had Brigh's favour. He passed away after… testing one of his invention. It is heavily implied the goblin blew himself up all the way into the neighbouring gear by way of a rocket. Plex is impressed and needs one of those.</p><p>We discuss air travel in <strong>Hell</strong>, prompting a lot of chaos. Fearghas is getting a weird headache while polishing gears. Aviana is talking Plex into tying rockets to his legs, and suggests trading Shalkoc for the rockets, until she realises when kinda need Shalkoc for the whole poisoning thing. He casually suggests kidnapping people, which has every construct in the immediate vicinity creak as their heads ominously turn towards us. Ha ha no we were not being serious, of course. You see we were just in <strong>Heaven</strong> and we were not allowed to lie, so we thought we should tell a silly lie just to be funny.</p><p>The robots are very amused with us. Shalkoc and Plex want to open up a shop in <strong>Axis</strong>, and I cannot understand why. Aviana does the math on how much the Rocketbelt would cost in gold (3237). We could rent out a <strong>vending machine</strong>, slap it down in Promise, and use it to <strong>trade with Mechanus</strong>. Honestly, that would be fire, let's go! Turns out to get a vending machine, we need to go to a vending machine that vends vending machines. Plex is already calculating how to scam the vending machine. I fear we may be polishing gears for a while…</p><p>We can get 7 vending machines for 1 looking glass. We do some math, which ends in Shalkoc saying to Plex \"Anyway, are you taking the gold or not?\". Plex tries to negotiate, borrows money from Shalkoc for his <strong>Rocketboots</strong>, and we decide to rent the 7 vending machines and decide later what to do about all these vending machines. Aviana suggests using the anchor chain to go get some money from Promise, which according to Kess, is legal as long as we do it in the designated teleport area.</p><p>Fearghas takes a break from polishing gears to go tell us all off. Turns out Emilio has big monies! Plex buys 2 looking glasses and trades them for \"a chance to soar in the sky with a rocket strapped to his side\". In these terms. Aviana buys a looking glass and is now absolutely broke, the entirety of her monetary wealth reduced to 2 silver pieces.</p><p>We find a shop selling \"height compensation devices\", that is very thin stilts, as demonstrated by a gnome now taller than Shalkoc. He pulls out a long trumpet and says \"Welcome to my shop! I am <strong>Arondriemus Hupperdook Tinkertop</strong>.\" He also sells <s>guns</s> hand crossbows with a 10-bolt magazine; the Tinkertop Boltblaster 1000.</p><p>Another shop sells <strong>spell scrolls</strong>, so we of course lose Fearghas. He is frantically looking for potions to sell so he can buy scrolls, but there is very little interest in potions on this plane of existence, most inhabitants are machines… He sells unneeded scrolls to purchase other scrolls and copy the spells into his <strong>spellbook</strong>. Fearghas also buys the Tinkertop Boltblaster 1000 for Kyrin.</p><p>We finish shopping! Fearghas furiously polishes gears for 3 more days. Kess kindly lets us sleep in her room.</p><hr><p><strong>Monday, 11</strong><sup><strong>th</strong></sup><strong> of Decimus, 1497</strong></p><p><strong>14:45</strong></p><p><strong>Short rest</strong></p><p>We make ready to return to <strong>Avernus</strong> and scout out the <strong>Black Vents</strong>. Combat mode on. We go over the hearsay and legends we have on the area… it is not reassuring at all. Master Kazzim returns the Beacon of Doom and says it has been made with the influence of <strong>Nethys</strong>, the god of magic. He believes it comes from, or was stolen, from Nethys' realm in Limbo, <strong>Ahkanefti</strong>. However, this realm has been sealed for a very long time! 1500 years or so? He isn't sure. He also doesn't think the Beacon is that old, it seems it was made using recent technology.</p><p>He mentions temples to Nethys underneath the <strong>Redwind Sands</strong> desert, massive structures built with magic. Maybe that civilisation isn't as dead as we thought… Aviana, Shalkoc, and Fearghas talk about Plex eating memories among giant trees in <strong>Jotunheim</strong>; one of these memories related to Ahkanefti.</p><p>Kazzim asks if he could keep the Beacon for just a few more days possibly…? Plex narrows his eyes at him, supposing he'd keep the Beacon forever if we let him. Plex and Aviana mutter back and forth in <s>the butt language</s> Sylvan. We firmly tell Kazzim he cannot keep the Beacon, so he asks if we have anything else like it. Fearghas pulls out a <strong>tiki mask</strong>, which sets Kazzim's remaining eye rolling so far it comes back a different colour. Plex pulls out a coconut, I mean a <strong>smoke grenade</strong>. Fearghas tries to retrieve the artifact. Kazzim is unwilling to let go. Plex is digging through his pack, pulling out traps of his own design. Surprisingly, though maybe not so much, Kazzim likes Plex and his ingenuity. He warns him to adjust experiments to his size. Guess he sees a bit of the late Daretti in Plex… shudder.</p><p><s>Emilio gives a long stare at a strange square of some kind of stone, muttering about his </s><strong><s>Book of Shadows</s></strong><s>. The stone is his book? I am very confused. The confusion spreads as we start talking about warlocks.</s></p><p>Plex wants to trade a trinket with Kazzim. He wants some time to think it through, while Plex is just winging it.</p><p>We discuss the logistics of plane travel, and Fearghas suggests a <strong>long rest</strong> before we go down to Hell.</p><p>\"We should build a brothel.\" - Aviana</p><p>Aerelia rolls a bunch of hidden dice which makes us all plenty nervous, so we call him out on it.</p><p>Before taking a rest, Fearghas does some spellscribing and alchemy while inspired by Aviana's glorious flexing. I cast a 9th-level <strong>Remove Curse</strong> on myself to undo 2 major surges. Fearghas and Plex copy into their spellbooks: <strong>Catapult</strong>, <strong>Flawed Design</strong>, <strong>Fly</strong>, and <strong>Scrying</strong>. Aviana wants to tinker with Kyrin's shoes or my shoes, to try and hide a small blade in them. Because she loves our feet. Uh, that sounds wrong but okay.</p><p>Aviana gives me a shoe with a <strong>secret blade</strong>. I give her a cookie for it. Then Shalkoc says he still has chocolate. I happily suggest we kindly ask to borrow a kitchen somewhere, and use the chocolate… to make better cookies! We are both thrilled.</p><hr><p><strong>Tuesday, 12</strong><sup><strong>th</strong></sup><strong> of Decimus, 1497</strong></p><p><strong>15:45</strong></p><p><strong>Long rest </strong>(next long rest on Saturday, 16th Decimus)</p><p>Kyrin writes and sketches in her journal about our recent adventures.</p><p>The gear we are on, Brigh's domain, has 2 sides. She believes that order and chaos are needed for innovation, and therefore is very tolerant of planar travellers (called \"variables\"). They live on the <strong>downside</strong> of the gear, and have created imitations of natural landscapes. On the <strong>upside</strong> of the gear, dedicated to absolute order, constructs live and calculate every little thing.</p><p>There are no clouds nor rain in Axis, and the temperature is always exactly 23.1406°C. This is also oddly specific, more secrets of math. Air currents remain very localised.</p><p>I research the <strong>painkillers</strong> living creatures use here, hoping for useful substances, and I am horrified… their painkillers are so strong, they just cause necrosis and nobody cares, because they just replace the fleshy parts with clockwork. To take my mind off this horrible discovery, I go bake cookies with Shalkoc. We save them for desserts as he cooks <strong>meals</strong> for all of us. Rhubard pie for Fearghas (yes rhubard with a d, I don't think that was intentional but I love it, the rhubarb of bards), Stir-fried rice with chicken for Aviana, Eggs and sausage for me, Grilled ribs for Emilio, Meat sandwich for Plex, Fried fish for himself, and a luxurious Chai Latte for Kyrin.</p><p>Then, Plex casts his new spell <strong>Planetrotting</strong> to take us all to Avernus. It does not go well. IT DOES NOT GO WELL!! Everything smells of swamp-rot. We all get irrationally angry with Plex. Oh… oh no. We are in <strong>Muravelara</strong>. We hear a weird howling in the distance! Aviana cries, why are we in a SWAAAAAMP?! and shoves Plex. Fearghas casts <strong>Guidance</strong> on Plex, and starts the ritual casting of <strong>Leomund's Tiny Hut</strong>. This is gonna be 10 long minutes.</p><p>Kyrin, Shalkoc, Aviana, and Emilio are looking out for threats. Plex is getting started on another Planetrotting. I try to stay calm and begin ritually casting <strong>Augury</strong>, ready to interrupt it if anything threatens the two wizards. Naturally, our friends are rolling Perception checks… under the Blood Moon's Spite realm effect… Shalkoc fails the check.</p><p>Kyrin figures out a pattern to the very creepy <strong>footsteps</strong> in the mud, which always sound like they are right behind us until we turn around, and there is nothing. She pretends to turn around… ha, gotcha! One of the trees has moved… and we roll initiative.</p><p>Kyrin moves away, and shoots… something with her bow, marking the soul (it's a Spriggan). Emilio says… \"I'm so sorry, Kyrin\". And casts <strong>Dying of the Light</strong>, and immediately after he grants us <strong>Gift of Eyes</strong>. Eek… but at least we can all see! Except Kyrin, she is out of range. Oh dear. The Spriggan swipes at Kyrin, poisoning her. She can't regain any HP, and must hurt another creature. She dodges a second sweep of its claws, but the third one hits. Then it casts <strong>Insect Plague</strong> as a bonus action. EMILIO COUNTERSPELLS aaaaa you absolute treasure. As the Spriggan ends its turn, it gets slapped by <strong>Dying of the Light</strong>.</p><p>Shalkoc is angry and must punch something. I yell at him to protect the wizards, but he rushes the Spriggan and whacks it with a <strong>Leaden Fist</strong>, killing it on the spot. Emilio drops concentration. Kyrin is mad that Shalkoc stole her kill. She slashes at him with a <strong>Psychic Blade</strong>, misses on account of being blind, and gets even angrier! I cast a <strong>Healing Word</strong> on her, curing her poison, but she only tries to stab Shalkoc again! He casually dodges and walks away. SHE SHOOTS HIM. SHE SHOOTS HIM WITH THE +2 BOW.</p><p>Fearghas is entirely unbothered and finishes his spell, but does try to teach Emilio about \"measured response\". He does not see the problem in blasting a 7th-level spell on one supposed threat. Plex interrupts the eating of his shoe, pulls a bent fork out of it, and begins casting Planetrotting again. And it's another mishap. We teleport to <strong>Heaven</strong>, fortunately without any devils in sight. We are spotted by Dewey atop the wall, waving at us and telling us to come in. We go in, go through registration, Fearghas has a stern talking-to with Shalkoc, and the angels ask him about the <strong>Commandments</strong>. Shalkoc starts rattling them off, very inefficiently. E for effort, and he still gets level 5 guidance. We kindly request Huey, Dewey, and Louie again.</p><p>We have to go to the market to get Plex some <strong>forks</strong>, as Planetrotting consumes them and he is all out of forks. The whole ordeal takes a good 5 hours, and it is about 21:30 now. We catch up with Shalkoc's dedicated bodyguards. Plex is eyeing a pet turtle like he's going to steal it. In my mind I am already making the hand signs for <strong>Binding</strong> <strong>Shadows</strong>.</p><p>The good angels refuse to rip off Plex by accepting 250 gold for a fork. They do sell forks to Aviana for a reasonable price, who then sells them to Plex for 250 gold apiece. I am screaming IRL. Huey, Dewey, and Louie give us presents! In total 19 <strong>Martyr's Lockets</strong>. They allow the wearer to deliver a willing creature from a curse, by taking the curse upon themselves instead. (conditions apply) I respectfully receive one of the gold pendants and put it on.</p><p>Plex casts <strong>Planetrotting</strong>. Ah shit, here we go again. THANKFULLY, no mishap this time but we do appear 20 miles off, honestly no big deal, it's nothing next to being transported to THE ABYSS. The barren landscape and blazing heat of Avernus greets us, along with raining hellfire and stench of sulfur. In the distance, against the dark sky, rises a thick column of black smoke. We spread out to not all be blasted simultaneously by the fireballs falling from the sky. We do, of course, still get blasted by a few <strong>Fireballs</strong>, except Fearghas who knows how to walk without rhythm, and Kyrin who somehow dodges them all.</p><p>I get 2 DEX saves, pass one, fumble the other. Sigh. Plex sort of goes around the problem by casting <strong>Absorb Elements</strong>. It's a sweaty, gruelling 6-hour walk. We reach the edge of a giant crater, we can't even see the other side, and look down but there is too much smoke and soot to see anything. We do spot some holes inside the crater, all of them spewing thick black smoke. The moment the smoke blows into our faces, we all erupt in fits of coughing and crying. Plex casts a <strong>Gust of Wind</strong>, at Aviana's request, and aims it into the crater. The wind draws in air from the sides, and some of the smoke moves… weirdly. Not like smoke should. More along the lines of <strong>Smoke Mephits</strong>, but they don't seem to have noticed us.</p><p>Fearghas goes to test how unhealthy the smoke is. He passes the save, but that smoke is draining… We'll get exhausted staying in this smoke for long. We start discussing workarounds. Wind Walk… summoning an Air Elemental… Plex' Breezeblossoms… Find the Path? I could Shadowslip down. We settle on <strong>Find the Path</strong>, which points the way straight down. In the meantime I take out my cards and ritually cast <strong>Augury</strong>. I sort of expected that, but I read the result \"weal and woe\".</p><p>Plex is muttering about buying more coconuts, and he fashions a \"<strong>gas mask</strong>\" for himself. Sadly it does not count as a hat. He offers to sell another one. We decide Emilio should get it. Plex asks for his <strong>chicken</strong> back. \"Do you want the one with the bowl or the one with the coconut?\" Emilio picks the bowl, which apparently was very important to a dead man a long time ago, and pays with Plex' last Wooden chicken statue with knife beak.</p><p>Ah, the beauty. Truly a story arc ending. Threads are tied, plot points are resolved. I watch in awe.</p><p>Aviana casts <strong>Resistance</strong> on herself. Multiple times. Risking a surge every time. What could possibly go wrong.</p><p>We descend into the crater, visibility reduced to <strong>60 feet</strong>, the smoke stinging our eyes and irritating our skin. Fearghas' armour starts squeaking as the heavy smoke and ash creep into the joints, he prestidigitates it away when it gets bad. It gets hotter the lower we go; we walk down a winding tunnel and Fearghas trips on something hard. Doesn't look like a stone? It's blackened steel… a merregon's breastplate…? Farther ahead, the horn of a horned devil. Next to it, a satchel. Inside, 8 vials of <strong>Silver Tears</strong>! I really don't want any of that… but I reluctantly take one. Just to protect everyone. I hope with all my heart I won't have to use it.</p><p>About an hour in, with Aviana casting <strong>Resistance</strong> every single minute, she somehow DOES NOT GET A SINGLE SURGE. This right here is the real magic. As we continue walking we realise this place is a maze… but Fearghas' spell guides us. The tunnel opens up, and the ground is pierced by more and more shafts straight down, some wide, other very narrow.</p><p>Fearghas, Shalkoc, and myself get this feeling of <strong>being watched</strong>… and it's coming from everywhere around us except the ground beneath our feet. It even comes from the walls themselves… As we walk on, it only gets more intense. The air is also getting hotter; even for me the temperature is really uncomfortable. We… aren't supposed to be here. Something <em>really</em> doesn't want us here. The environment starts to express this; the ground crumbles right in front of our feet into a deep chasm.</p><p>Fearghas snorts his Silver Tears… but it doesn't help at all. We step into a giant <strong>cavern</strong>. A chasm yawns in front of us, crossed by a stone bridge. Find the Path points straight ahead… We start on the bridge, and a powerful gust of wind roars upward, knocking Emilio, Fearghas, and Plex 30 feet back and prone. The bridge was blasted away, and the <strong>updraft</strong> continues to blow. Aviana is squealing and holding her dress down, although no one is looking.</p><p>Aviana suggests linking us all with a chain, and jumping across. Kyrin suggests as many of us as possible get into her hole. Plex considers <strong>Adjust Density</strong>. When Kyrin brings up the Portable Hole, the two wizards frown. Getting into the hole should be fine, but exiting it probably will see us back in Avernus, as it is an extradimensional space.</p><p>Kyrin casually teleports across with <strong>Psychic Teleportation</strong>; she throws her dagger and first it goes up, then plummets as the air current switches directions and is now rushing <strong>down</strong>. That's… not how air behaves? \"It is if something is breathing in and out,\" Fearghas says. Why… why did you have to say this… the nightmare fuel… Shalkoc flies across. Aviana throws a <strong>chain</strong> across to help the rest of us cross, and holds it steady. Kyrin secures the other end of the chain to rocks. Thankfully, as Shalkoc was about to wrap the chain around a cracked rock!</p><p>Plex halves his density, takes off his shoes to better balance on the chain, and walks across. He makes it but loses his balance at the end, and Shalkoc rescues him in the nick of time. I crawl across but as I reach the exact middle of the chain, out of reach from etiher side, my sweaty hands slip and I lose my grip. I dangle by a leg, the air current pulling me down… Panicked, I meld into darkness with <strong>Shadowslip</strong> and slide across the chain, weightless. On the other side, I remain a tiny pool of darkness, as flat as possible as if hugging the ground. Shadows make no sound but this shadow is whimpering. Kyrin's shadow somehow… stretches and scoots towards mine, as if curious.</p><p>Emilio balances his way across… halfway through, the air current reverses again to <strong>upward</strong>. It throws off his balance and he is launched upwards, narrowly missing rocks that would kill him on impact. Fearghas manages a Feather Fall just in time, but he zooms 200 feet above. Shalkoc flies up after him, and the air pushes him up at superior speed. Emilio slips into <strong>Void Form</strong> and uses <strong>Phase Shift</strong> to teleport to Shalkoc. He grumbles he should have just teleported from the start. Shalkoc exclaims \"Woooo! You can fly as well!\" Thankfully our dragonborn still grabs the warlock and flies them both safely to the ground.</p><p>Right after they land, the air current shifts to downwards again. Fearghas crosses by sheer cool factor, whatever that means. We all retreat from the edge to give Aviana space to land… Fearghas goes first and grumbles… \"We are not alone.\" Emilio looks a little too happy about that. Hey we're not in Muravelara anymore you can chill out. Ahead of us, strands of smoke form into a vaguely humanoid shape, a <strong>Soot Elemental</strong>. It stares at Fearghas, who stares back, and rushes at him. Fearghas raises his hand to fire off a spell.</p><p>Everything around us vibrates and resonates as a <strong>growl</strong> comes from everywhere at once; from down below, bouncing off every stone.</p>"
         }
       ]
     },
@@ -8635,6 +9097,11 @@
           "name": "Plex adventures 2",
           "section": "journal-pages",
           "content": "<p>Plex stumbling upon a moonlit clearing where a covey of ethereal nymphs danced around an ancient, gnarled tree, their laughter echoing like the tinkling of bells. A capricious nymph named Luna took a liking to the goblin's sapphire cloak, which gleamed under the silvery moonbeams. She attempted to coax it from him, offering a dance and a whispered secret in return. However, plex had a secret of his own - a lightning quick goat  he used it to escape her grasp, leaving her bewitched and the nymphs baffled, as they searched the clearing for their vanished guest.</p>"
+        },
+        {
+          "name": "Inventory",
+          "section": "journal-pages",
+          "content": "<ul><li><p>important bowl of a dead man</p></li><li><p>1/2 Handfull of grilled maggots</p></li><li><p>Fishbone with magical Energy</p></li><li><p>10x Cow Bell</p></li><li><p>200x Stack of parchment</p></li><li><p>Angel feather from Ezeriel</p></li><li><p>ball of Wool</p></li><li><p>Coral fragment</p></li><li><p>spellbook</p></li><li><p>1x pyrope (500g)</p></li><li><p>sea urchin</p></li><li><p>2x coconut shell</p></li><li><p>jade</p></li><li><p>Forked Metal Rod</p></li><li><p>Dried meat ((<span>I hidd some food in the library in the tower (</span><span>behind the section for Elven history)</span><span>.)</span></p></li></ul>"
         }
       ]
     },
@@ -8644,7 +9111,7 @@
         {
           "name": "Spice List",
           "section": "journal-pages",
-          "content": "<table><thead><tr><th><strong>Spice</strong></th><th><strong>Uses Left</strong></th><th><strong>Effect</strong></th></tr></thead><tbody><tr><td><strong>@UUID[Compendium.talia-custom.customItems.Item.A7wJJETeerqAwLcs]{Aloe Vera}</strong></td><td>0</td><td>Reduces slashing damage by 5</td></tr><tr><td><strong>@UUID[Compendium.talia-custom.customItems.Item.TEkrX46i1wQWXniR]{Cardamom}</strong></td><td>7</td><td>Reduces poison damage by 5</td></tr><tr><td><strong>@UUID[Compendium.kctg-5e.kctg-dnd5e.Item.wfwpfrZMwhGKsQBY]{Chili Pepper}</strong></td><td>0</td><td>+10 ft bonus to walking speed</td></tr><tr><td><strong>@UUID[Compendium.talia-custom.customItems.Item.37byLEOrr7eOoDCt]{Eucalyptus}</strong></td><td>6</td><td>Reduces lightning damage by 5</td></tr><tr><td><strong>@UUID[Compendium.talia-custom.customItems.Item.O3Nj34dtznnHcQIb]{Ginger}</strong></td><td>0</td><td>+1 to Strength, Dexterity &amp; Constitution saving throws</td></tr><tr><td><strong>@UUID[Compendium.talia-custom.customItems.Item.P5RUoFFYRkJTM9XS]{Ginko Leaves}</strong></td><td>0</td><td>Gain <strong>1d4</strong> Intelligence, Wisdom, &amp; Charisma saving throw bonus</td></tr><tr><td><strong>@UUID[Compendium.talia-custom.customItems.Item.cop7hl0oiQGWjj5Z]{Ginseng Root Powder}</strong></td><td>0</td><td>Increases max HP by 30</td></tr><tr><td><strong>@UUID[Compendium.talia-custom.customItems.Item.n9ZE2yVOd7hNAF7N]{Lavender}</strong></td><td>10</td><td>Reduces psychic damage by 5</td></tr><tr><td><strong>@UUID[Compendium.talia-custom.customItems.Item.daMVQIzWsUeyKSAq]{Licorice Root}</strong></td><td>7</td><td>Reduces acid damage by 5</td></tr><tr><td><strong>@UUID[Compendium.talia-custom.customItems.Item.67xU5Km4jCmROkyh]{Mustard Seeds}</strong></td><td>0</td><td>Reduces bludgeoning damage by 5</td></tr><tr><td><strong>@UUID[Compendium.talia-custom.customItems.Item.fO7KVcC0tel0Ms1a]{Rhubarb}</strong></td><td>3</td><td>Reduces thunder damage by 5</td></tr><tr><td><strong>@UUID[Compendium.talia-custom.customItems.Item.i0S8R77W3QvYeuMX]{Saffron}</strong></td><td>0</td><td>+2 bonus to initiative</td></tr><tr><td><strong>@UUID[Compendium.talia-custom.customItems.Item.9fmDsUZ3ytdW0zP5]{Sassafras}</strong></td><td>5</td><td>Reduces fire damage by 5</td></tr><tr><td><strong>@UUID[Compendium.talia-custom.customItems.Item.E9AQZVIh7GsjV4NP]{Star Anise}</strong></td><td>0</td><td>Gain +2 bonus to AC</td></tr><tr><td><strong>@UUID[Compendium.talia-custom.customItems.Item.wFMmTzgmnXrVbvtN]{Vanilla}</strong></td><td>5</td><td>Reduces necrotic damage by 5</td></tr><tr><td><strong>@UUID[Compendium.talia-custom.customItems.Item.V5C6Optl1b8mgFLb]{Wasabi}</strong></td><td>6</td><td>Reduces cold damage by 5</td></tr><tr><td><strong>@UUID[Compendium.talia-custom.customItems.Item.QAKsZztxUBcMhGet]{Yarrow}</strong></td><td>3</td><td>Reduces piercing damage by 5</td></tr></tbody></table>"
+          "content": "<table><thead><tr><th><strong>Spice</strong></th><th><strong>Uses Left</strong></th><th><strong>Effect</strong></th></tr></thead><tbody><tr><td><strong>@UUID[Compendium.talia-custom.customItems.Item.A7wJJETeerqAwLcs]{Aloe Vera}</strong></td><td>0</td><td>Reduces slashing damage by 5</td></tr><tr><td><strong>@UUID[Compendium.talia-custom.customItems.Item.TEkrX46i1wQWXniR]{Cardamom}</strong></td><td>6</td><td>Reduces poison damage by 5</td></tr><tr><td><strong>@UUID[Compendium.kctg-5e.kctg-dnd5e.Item.wfwpfrZMwhGKsQBY]{Chili Pepper}</strong></td><td>0</td><td>+10 ft bonus to walking speed</td></tr><tr><td><strong>@UUID[Compendium.talia-custom.customItems.Item.37byLEOrr7eOoDCt]{Eucalyptus}</strong></td><td>6</td><td>Reduces lightning damage by 5</td></tr><tr><td><strong>@UUID[Compendium.talia-custom.customItems.Item.O3Nj34dtznnHcQIb]{Ginger}</strong></td><td>0</td><td>+1 to Strength, Dexterity &amp; Constitution saving throws</td></tr><tr><td><strong>@UUID[Compendium.talia-custom.customItems.Item.P5RUoFFYRkJTM9XS]{Ginko Leaves}</strong></td><td>0</td><td>Gain <strong>1d4</strong> Intelligence, Wisdom, &amp; Charisma saving throw bonus</td></tr><tr><td><strong>@UUID[Compendium.talia-custom.customItems.Item.cop7hl0oiQGWjj5Z]{Ginseng Root Powder}</strong></td><td>0</td><td>Increases max HP by 30</td></tr><tr><td><strong>@UUID[Compendium.talia-custom.customItems.Item.n9ZE2yVOd7hNAF7N]{Lavender}</strong></td><td>10</td><td>Reduces psychic damage by 5</td></tr><tr><td><strong>@UUID[Compendium.talia-custom.customItems.Item.daMVQIzWsUeyKSAq]{Licorice Root}</strong></td><td>7</td><td>Reduces acid damage by 5</td></tr><tr><td><strong>@UUID[Compendium.talia-custom.customItems.Item.67xU5Km4jCmROkyh]{Mustard Seeds}</strong></td><td>0</td><td>Reduces bludgeoning damage by 5</td></tr><tr><td><strong>@UUID[Compendium.talia-custom.customItems.Item.fO7KVcC0tel0Ms1a]{Rhubarb}</strong></td><td>3</td><td>Reduces thunder damage by 5</td></tr><tr><td><strong>@UUID[Compendium.talia-custom.customItems.Item.i0S8R77W3QvYeuMX]{Saffron}</strong></td><td>0</td><td>+2 bonus to initiative</td></tr><tr><td><strong>@UUID[Compendium.talia-custom.customItems.Item.9fmDsUZ3ytdW0zP5]{Sassafras}</strong></td><td>2</td><td>Reduces fire damage by 5</td></tr><tr><td><strong>@UUID[Compendium.talia-custom.customItems.Item.E9AQZVIh7GsjV4NP]{Star Anise}</strong></td><td>0</td><td>Gain +2 bonus to AC</td></tr><tr><td><strong>@UUID[Compendium.talia-custom.customItems.Item.wFMmTzgmnXrVbvtN]{Vanilla}</strong></td><td>3</td><td>Reduces necrotic damage by 5</td></tr><tr><td><strong>@UUID[Compendium.talia-custom.customItems.Item.V5C6Optl1b8mgFLb]{Wasabi}</strong></td><td>6</td><td>Reduces cold damage by 5</td></tr><tr><td><strong>@UUID[Compendium.talia-custom.customItems.Item.QAKsZztxUBcMhGet]{Yarrow}</strong></td><td>2</td><td>Reduces piercing damage by 5</td></tr></tbody></table>"
         },
         {
           "name": "Spider Recipe",
@@ -8739,5 +9206,5 @@
       ]
     }
   ],
-  "ingameDate": "Decimus 08, 1497"
+  "ingameDate": "Decimus 12, 1497"
 }
