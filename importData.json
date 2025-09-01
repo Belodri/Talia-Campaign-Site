@@ -123,7 +123,7 @@
         "name": "Philter of Love",
         "description": "",
         "section": "physical-items",
-        "quantity": 2,
+        "quantity": 1,
         "combinedLabel": "Potion",
         "attunementLabel": ""
       },
@@ -567,15 +567,7 @@
         "name": "Manacles",
         "description": "<p>These metal restraints can bind a Small or Medium creature. Escaping the manacles requires a successful DC 20 Dexterity check. Breaking them requires a successful DC 20 Strength check. Each set of manacles comes with one key. Without the key, a creature proficient with thieves' tools can pick the manacles' lock with a successful DC 15 Dexterity check. Manacles have 15 hit points.</p>",
         "section": "physical-items",
-        "quantity": 10,
-        "combinedLabel": "Trinket",
-        "attunementLabel": ""
-      },
-      {
-        "name": "Chain (10 feet)",
-        "description": "<p>A chain has 10 hit points. It can be burst with a successful DC 20 Strength check.</p>",
-        "section": "physical-items",
-        "quantity": 18,
+        "quantity": 2,
         "combinedLabel": "Trinket",
         "attunementLabel": ""
       },
@@ -631,7 +623,7 @@
         "name": "Activated: Mind Blank - 8th",
         "description": "<div><p>Until the spell ends, one willing creature you touch is immune to psychic damage, any effect that would sense its emotions or read its thoughts, divination spells, and the &amp;Reference[condition=charmed] condition. The spell even foils <strong>wish </strong>spells and spells or effects of similar power used to affect the target's mind or to gain information about the target.</p></div>",
         "section": "physical-items",
-        "quantity": 1,
+        "quantity": 2,
         "combinedLabel": "Spell Gem",
         "attunementLabel": ""
       },
@@ -639,7 +631,7 @@
         "name": "Potion of Giant Size",
         "description": "<div><p><em>This potion is a pale white liquid made from the tongue of a giant clam, with a pungent aroma akin to that of rotting algae. It tastes sweet, however, when consumed.</em></p><p>When you drink this potion, your size increases by up to two categories for 24 hours. For that duration, your Strength becomes 25, if it isn't already higher, and your hit point maximum is doubled (your current hit points are doubled when you drink the potion). In addition, the reach of your melee attacks increases by 5 feet.</p><p>Everything you are carrying and wearing also increases in size for the duration. When rolling damage for weapons enlarged in this manner, roll three times the normal number of dice; for example, an enlarged longsword would deal [[/r 3d8]] slashing damage (instead of [[/r 1d8]]), or [[/r 3d10]] slashing damage (instead of [[/r 1d10]]) when used with two hands.</p></div>",
         "section": "physical-items",
-        "quantity": 0,
+        "quantity": 2,
         "combinedLabel": "Potion",
         "attunementLabel": ""
       },
@@ -772,14 +764,6 @@
         "attunementLabel": ""
       },
       {
-        "name": "Angelic Feather",
-        "description": "",
-        "section": "physical-items",
-        "quantity": 1,
-        "combinedLabel": "Loot",
-        "attunementLabel": ""
-      },
-      {
         "name": "Fine Clothes",
         "description": "<p>Set of clothes designed specifically to be expensive and show it.</p>",
         "section": "physical-items",
@@ -791,7 +775,7 @@
         "name": "Abyssal Nail Polish",
         "description": "<blockquote><p>Amonst Alushinyrra's elites, the hottest trends are also the deadliest. This polish ensures you're both.</p></blockquote><p>When applied to non-magical natural weapons, such as teeth, claws, or pincers, this shimmering substance not only enhances the user's looks for 12 hours. Enchanted natural weapons deal an additional 2d6 fire damage and are treated as magical for the purpose of overcoming damage reduction.</p>",
         "section": "physical-items",
-        "quantity": 5,
+        "quantity": 17,
         "combinedLabel": "Potion",
         "attunementLabel": ""
       },
@@ -844,14 +828,6 @@
         "requirements": "Elk Spirit"
       },
       {
-        "name": "Pyrope",
-        "description": "<p>Pyrope, a type of garnet known for its exquisite beauty, also holds military significance. It is believed that adorning weaponry with this garnet allows it to penetrate the thickest hides or demolish the strongest doors, aided by arcane forces.</p>",
-        "section": "physical-items",
-        "quantity": 1,
-        "combinedLabel": "Gemstone",
-        "attunementLabel": ""
-      },
-      {
         "name": "Clockwork Looking Glass",
         "description": "<p>This device is a complex marvel of brass and polished glass, a spyglass nested within a dizzying array of vanishingly small and perpetually spinning gears. Constructed by Axiomites in the Citadel of Resplendent Clockwork, the realm of Brigh, these looking glasses are used to understand the underlying mathematical and logical laws of the multiverse. Even though they are constructed to perfect precision and without any tolerances, they break as soon as anyone pears through them. The reason for this phenomenon is thought to be understood only by Brigh herself.</p><p><strong>Mechanical Truth.</strong> You can use your bonus action to peer through the looking glass into the foundational, mechanical nature of reality, shattering the looking glass in the process. For 10 minutes, you count as a contruct when determining your creature type (such as for spells like Hold Person), are immune to the &amp;Reference[frightened] and &amp;Reference[charmed] conditions, and have advantage on checks and saving throws to reveal or resist illusions.<br>During this time, you experience reality in a strange and dissociated way. You see the world not through your own eyes but as if you were floating above your own head. When someone, including yourself, speaks, the voice sounds distant and as if it didn't originate from the speaker's mouth but from somewhere far above you. Moving your body feels like controlling a puppet on a string or a pawn on a chess board. After the effect ends, you recall the experience like strangely real dream.</p>",
         "section": "physical-items",
@@ -890,11 +866,19 @@
         "requirements": "Common Action"
       },
       {
-        "name": "Blue-White Diamond",
-        "description": "<p>The most notable gem from the Diamond variations is usually the colorless one which does have a blue-white tint. The use of diamonds is mainly in the jewelry market. Due to its brilliance, hardness, and rarity, it is the most famous of all gemstones.&nbsp;</p>",
+        "name": "Chain (10 feet)",
+        "description": "<p>A chain has 10 hit points. It can be burst with a successful DC 20 Strength check.</p>",
         "section": "physical-items",
-        "quantity": 2,
-        "combinedLabel": "Gemstone",
+        "quantity": 6,
+        "combinedLabel": "Trinket",
+        "attunementLabel": ""
+      },
+      {
+        "name": "Potion of Greater Healing",
+        "description": "<div><p><em>The potion's red liquid glimmers when agitated.</em></p><p>You regain 4d4 + 4 hit points when you drink this potion.</p></div>",
+        "section": "physical-items",
+        "quantity": 1,
+        "combinedLabel": "Potion",
         "attunementLabel": ""
       }
     ],
@@ -1504,11 +1488,11 @@
         "attunementLabel": ""
       },
       {
-        "name": "Reaping Claws",
-        "description": "<p>You sprout razor-sharp claws, which are natural weapons you can use to make unarmed strikes against creatures within 5 feet of you. You have proficiency with these weapons and can use your Charisma modifier for the attack and damage rolls made using these natural weapons.</p>",
+        "name": "Hearthkeeper's Spark",
+        "description": "<p>A lingering fragment of a fire spirit remains attached to this piece of coal, keeping it covered in harmless blue embers that are pleasantly warm to the touch. When surrounded by fire, the coal burns with a magical blue flame and the spirit within it emerges. The spirit remains until the fire goes out or is doused, at which point the spirit hides within its coal until immersed in flames once more. If removed from the fire, the spirit moves with the burning coal and remains for up to 1 minute.</p><p>While the spirit is present, it helps tend to the fire it's placed in. The spirit can maintain a fire that fills up to a 5-foot cube. A fire tended to by the spirit gains the following benefits:</p><ul><li><p>It can't be extinguished by strong winds.</p></li><li><p>It produces no smoke, unless you want it to.</p></li><li><p>It burns for twice the normal duration with the same amount of fuel.</p></li><li><p>Any food being cooked in the fire is kept at an ideal temperature.</p></li></ul><p>In addition, you have advantage on any ability check you make that uses either Cook's Utensils or Glassblower's Tools, Smith's Tools, or Tinker's Tools to heat and craft items in the fire. If you roll a 15 or higher on the [[/r d20]], the time it takes to use the tools in this way is halved.</p><p><strong>Sentience. </strong>The hearthkeeper's spark is a sentient lawful neutral item with an Intelligence of 1, a Wisdom of 6, and a Charisma of 1. It is immune to fire damage and has hearing and &amp;Reference[rule=darkvision] out to a range of 60 feet. It can't speak or read, but understands Common Primordial(Ignan).</p><p><strong>Personality. </strong>The hearthkeeper's spark is happiest in the fires of a hearth, but also enjoys maintaining campfires or heating forges. It is strict with the boundaries of its fire, preventing it from spreading uncontrollably, and is resourceful with how it manages any fuel that it's given. It enjoys assisting with tasks, such as cooking and metalworking, and snaps and pops with excited sparks when given something new to heat up.</p>",
         "section": "physical-items",
         "quantity": 1,
-        "combinedLabel": "Natural",
+        "combinedLabel": "Trinket",
         "attunementLabel": ""
       }
     ],
@@ -2173,7 +2157,7 @@
         "name": "Essence of Legend",
         "description": "<p>Extracted from slain creatures renowned for their legendary resistances. This ethereal substance pulses with arcane energy, embodying the essence of resilience and defiance against formidable adversaries.</p>",
         "section": "physical-items",
-        "quantity": 10,
+        "quantity": 9,
         "combinedLabel": "Ingredient (bodyPart)",
         "attunementLabel": ""
       },
@@ -2557,7 +2541,7 @@
         "name": "Snow Moss",
         "description": "<p>Clings to the walls of deep glacial crevasses. Its tiny, delicate leaves form a thick, velvety carpet that glistens with frost under the icy light.</p>",
         "section": "physical-items",
-        "quantity": 9,
+        "quantity": 7,
         "combinedLabel": "Ingredient (herb)",
         "attunementLabel": ""
       },
@@ -3566,14 +3550,6 @@
         "attunementLabel": ""
       },
       {
-        "name": "Activated: Mind Blank - 8th",
-        "description": "<div><p>Until the spell ends, one willing creature you touch is immune to psychic damage, any effect that would sense its emotions or read its thoughts, divination spells, and the &amp;Reference[condition=charmed] condition. The spell even foils <strong>wish </strong>spells and spells or effects of similar power used to affect the target's mind or to gain information about the target.</p></div>",
-        "section": "physical-items",
-        "quantity": 1,
-        "combinedLabel": "Spell Gem",
-        "attunementLabel": ""
-      },
-      {
         "name": "Activated: Greater Restoration - 9th",
         "description": "<p>You imbue a creature you touch with positive energy to undo a debilitating effect. You can reduce the target's exhaustion level by one, or end one of the following effects on the target:</p><p>One effect that &amp;Reference[condition=charmed] or &amp;Reference[condition=petrified] the target</p><p>One curse, including the target's attunement to a cursed magic item</p><p>Any reduction to one of the target's ability scores</p><p>One effect reducing the target's hit point maximum</p>",
         "section": "physical-items",
@@ -3657,7 +3633,7 @@
         "name": "Pyrope",
         "description": "<p>Pyrope, a type of garnet known for its exquisite beauty, also holds military significance. It is believed that adorning weaponry with this garnet allows it to penetrate the thickest hides or demolish the strongest doors, aided by arcane forces.</p>",
         "section": "physical-items",
-        "quantity": 1,
+        "quantity": 2,
         "combinedLabel": "Gemstone",
         "attunementLabel": ""
       },
@@ -3913,6 +3889,14 @@
         "section": "physical-items",
         "quantity": 2,
         "combinedLabel": "Exotic Currency",
+        "attunementLabel": ""
+      },
+      {
+        "name": "Blue-White Diamond",
+        "description": "<p>The most notable gem from the Diamond variations is usually the colorless one which does have a blue-white tint. The use of diamonds is mainly in the jewelry market. Due to its brilliance, hardness, and rarity, it is the most famous of all gemstones.&nbsp;</p>",
+        "section": "physical-items",
+        "quantity": 1,
+        "combinedLabel": "Gemstone",
         "attunementLabel": ""
       }
     ],
@@ -4402,14 +4386,6 @@
         "attunementLabel": ""
       },
       {
-        "name": "Beacon of Doom",
-        "description": "<p>This object is a perfect cube, roughly the size of a grapefruit and weighing a dense 10 pounds. Its surface is a deep, lusterless purple, crafted from an unknown material that seems to absorb light and is unnervingly cool to the touch. Each of its six faces is inscribed with a complex sigil that glows in ever shifting colors.</p><p><strong>Light the Beacon.</strong> As an action, you can speak the beacon's command word. Upon doing so, the cube instantly shatters, crumbling into a fine, iridescent dust that vanishes without a trace. For the next 666 hours, any any wards, divine edicts, or other magical effects that would normally prevent planar travel are surpressed within a 1-mile-radius sphere centered on the point where the Beacon was activated.</p><p><strong>Dispel Magic.</strong> Spells and magical effects such as dispel magic have no effect on the beacon, nor on the sphere created upon its activation.</p>",
-        "section": "physical-items",
-        "quantity": 1,
-        "combinedLabel": "Trinket",
-        "attunementLabel": ""
-      },
-      {
         "name": "Potion of Heroism",
         "description": "<p><em>This blue potion bubbles and steams as if boiling.</em></p><p>When you drink this potion you gain 10 temporary hit points. Additionally you are under the effect of the Bless spell for 1 hour (no concentration required).</p>",
         "section": "physical-items",
@@ -4539,6 +4515,30 @@
         "section": "physical-items",
         "quantity": 3,
         "combinedLabel": "Gemstone",
+        "attunementLabel": ""
+      },
+      {
+        "name": "Vanishing Velvet",
+        "description": "<p>Upon coming into contact with water, this moss turns itself and any creature it's covering mostly invisible for 10 minutes.</p><p>During combat, an affected creature rolls a 1d10 at the start of every combatant's turn, loosing it's invisibility on a 1 and regaining or maintaining it on a roll of 2 or higher.</p>",
+        "section": "physical-items",
+        "quantity": 2,
+        "combinedLabel": "Unusual Material",
+        "attunementLabel": ""
+      },
+      {
+        "name": "Chocolate",
+        "description": "<p>Chocolate comes in many shapes, sizes, and tastes. It is a staple sweet primarily made from cocoa beans, sugar, and milk. A major ingredient used in many desserts such as pudding, cakes, and candy. It can be in a solid form like a candy bar or in a liquid form like hot chocolate, to fit various needs and tastes.</p>",
+        "section": "physical-items",
+        "quantity": 1,
+        "combinedLabel": "Food (meal)",
+        "attunementLabel": ""
+      },
+      {
+        "name": "Book: Slaves and Kings",
+        "description": "<p>A book describing the steamy and forbidden romance between a rich multi-goldillionaire and the down-on-her-luck cleaner maid.</p><p>Threehundred pages of best-selling material made for fourtyfive year old women.</p>",
+        "section": "physical-items",
+        "quantity": 1,
+        "combinedLabel": "Loot",
         "attunementLabel": ""
       }
     ],
@@ -4684,27 +4684,11 @@
         "attunementLabel": ""
       },
       {
-        "name": "Torch",
-        "description": "<p>A torch burns for 1 hour, providing bright light in a 20-foot radius and dim light for an additional 20 feet. If you make a melee attack with a burning torch and hit, it deals 1 fire damage.</p>",
-        "section": "physical-items",
-        "quantity": 9,
-        "combinedLabel": "Trinket",
-        "attunementLabel": ""
-      },
-      {
         "name": "Bedroll",
         "description": "<p>Roll of cloth used by traveller to sleep in.</p>",
         "section": "physical-items",
         "quantity": 1,
         "combinedLabel": "Loot",
-        "attunementLabel": ""
-      },
-      {
-        "name": "Rations",
-        "description": "<p>Rations consist of dry foods suitable for extended travel, including jerky, dried fruit, hardtack, and nuts.</p>",
-        "section": "physical-items",
-        "quantity": 10,
-        "combinedLabel": "Food",
         "attunementLabel": ""
       },
       {
@@ -5186,14 +5170,6 @@
         "spellSchool": "Conjuration"
       },
       {
-        "name": "Springseed",
-        "description": "<p>A Springseed is a potent and exceptionally rare token of vitality hailing from the celestial Gardens of Tranquility in the plane of Nirvana. These seeds, which shed a soft and dim blue-green light, are produced infrequently by the ancient trees that flourish in that serene realm.</p><p>The celestials of Nirvana occasionally present a Springseed to mortals who have distinguished themselves through exceptionally selfless and good actions. Beyond such gifts, these seeds are highly sought after for the beautiful and unique trees they produce. While typically cultivated on good-aligned planes like the Seven Heavens and Elysium, their uniqueness is valued in many other places too. For example, a small, uncorrupted grove flourishes even in the city of Dis, on the 2nd layer of Hell, standing as a display of the reach of Dispater's influence. Consequently, their rarity and prized nature make them valuable in trade between many planes.</p><p><strong>Consumption.</strong> You can consume a Springseed as a bonus action. Ten minutes after consumption, you gain the benefits of the <strong>Heroes' Feast</strong> spell. Specifically, you are cured of all diseases and poison, become immune to poison and being frightened, and make all Wisdom saving throws with advantage. Your hit point maximum also increases by 2d10, and you gain the same number of hit points. These benefits last for 24 hours.</p><p><strong>Cultivation.</strong> If instead of being consumed, a Springseed is planted in fertile ground and watered daily for 10 days, it sprouts into a magnificent and beautiful tree. If carefully tended, this tree will bear fruit all year round, producing enough nourishing food to sustain up to ten adults. The tree is deeply connected to the positive energies of its origin and, in times of dire need for those who have cared for it, can be awakened as if by the awaken spell, transforming into a CR 9 treant (see MM) that will defend them. The tree, if not destroyed by other means, will live for approximately 500 years. Once the seed is planted, it is consumed.</p>",
-        "section": "physical-items",
-        "quantity": 15,
-        "combinedLabel": "Food",
-        "attunementLabel": ""
-      },
-      {
         "name": "Dreamfeather",
         "description": "<p>A Dreamfeather is an exceedingly rare and delicate token from the plane of Elysium. These iridescent feathers belong to the Aethergale, small and ethereal songbirds whose rainbow-tinted plumage usually vanishes when shed. However, when an Aethergale is moved by a performance of true beauty and passion—be it a bard's heartfelt song or an artist's soul-stirring creation—a feather may fall and remain intact, becoming what is known as a Dreamfeather.</p><p>Treasured and used as a currency by the Azata, the celestial beings of Elysium, Dreamfeathers are regarded as symbols artistic spirit. To find such a feather is seen as an acknowledgment of one’s creativity and emotional depth. They emit a faint glow, and their touch brings a gentle feeling of calm, as though carrying the nostalgia-filled songs of the Aethergale itself.</p><p><strong>Shared Inspiration. </strong>A creature holding a Dreamfeather can use it to transfer one of it's inspirations to another creature it can see. This consumes the magic which resides in the feather and it vanishes into nothingness. A creature which doesn't have any inspirations, cannot use this ability.</p>",
         "section": "physical-items",
@@ -5207,14 +5183,6 @@
         "section": "physical-items",
         "quantity": 1,
         "combinedLabel": "Spell Gem",
-        "attunementLabel": ""
-      },
-      {
-        "name": "Potion of Greater Healing",
-        "description": "<div><p><em>The potion's red liquid glimmers when agitated.</em></p><p>You regain 4d4 + 4 hit points when you drink this potion.</p></div>",
-        "section": "physical-items",
-        "quantity": 1,
-        "combinedLabel": "Potion",
         "attunementLabel": ""
       },
       {
@@ -5402,12 +5370,12 @@
         "attunementLabel": ""
       },
       {
-        "name": "Earthboard",
-        "description": "<p>An earthboard is a slab of granite about three inches thick, nine feet long, and two feet wide, with smooth, tapered ends. However, its mundane appearance belies its unique elemental power, which reduces its weight to 40 pounds while a creature is attuned to it.</p><p>While standing on an earthboard, you gain the following benefits:</p><ul><li><p>Your (walking) speed increases to 60 feet as the board skims across solid ground (but not liquid surfaces).</p></li><li><p>When you ramp off a surface of solid earth, you are launched a number of feet equal to 10 times the run-up distance. When you land this jump, you can choose to slam into the ground, creating a shockwave. Each creature standing on the ground within 20 feet of you must succeed on a [[/save str dc=16]] saving throw or fall &amp;Reference[condition=prone].</p></li><li><p>You have a burrowing speed of 20 feet that allows you to tunnel through earth or solid rock, leaving a 5-foot-diameter tunnel in your wake. As an action, you can increase this burrowing speed to 60 feet until the start of your next turn.</p></li><li><p>The earthboard always moves with you until you decide to dismount it (no action required).</p></li></ul><p>These benefits last until you dismount the earthboard and carry it.</p>",
+        "name": "Rations",
+        "description": "<p>Rations consist of dry foods suitable for extended travel, including jerky, dried fruit, hardtack, and nuts.</p>",
         "section": "physical-items",
-        "quantity": 1,
-        "combinedLabel": "Trinket",
-        "attunementLabel": "Requires Attunement"
+        "quantity": 5,
+        "combinedLabel": "Food",
+        "attunementLabel": ""
       }
     ],
     "Plex": [
@@ -5969,7 +5937,7 @@
       },
       {
         "name": "Mythic Power",
-        "description": "<blockquote><p>The path of the Trickster is a wild ride through a universe of infinite possibilities. Chosen by Picoperi, the Azata Lord of of chaos and mischief, the Trickster is a force of nature, shaping reality itself with a playful disregard for order. But this path is a dangerous dance with unintended consequences.</p></blockquote><p>Mythic characters can draw upon a wellspring of power to accomplish amazing deeds and cheat fate. This power is used by a number of different abilities.</p><p>Each week, you can expend an amount of mythic power equal to 2 + twice your mythic rank.</p><p>This amount is your maximum amount of mythic power. If an ability allows you to regain uses of your mythic power, you can never have more than this amount.</p>",
+        "description": "<blockquote><p>The path of the Trickster is a wild ride through a universe of infinite possibilities. Chosen of chaos and harbinger of mischief, the Trickster is a force of nature who shapes reality itself with a playful disregard for sense and order. But this path is a dangerous dance with unintended consequences.</p></blockquote><p>Mythic characters can draw upon a wellspring of power to accomplish amazing deeds and cheat fate. This power is used by a number of different abilities.</p><p>Each week, you can expend an amount of mythic power equal to 2 + twice your mythic rank.</p><p>This amount is your maximum amount of mythic power. If an ability allows you to regain uses of your mythic power, you can never have more than this amount.</p>",
         "section": "feature-items",
         "requirements": "Mythic Trickster 1"
       },
@@ -6053,15 +6021,7 @@
         "name": "Vanishing Velvet",
         "description": "<p>Upon coming into contact with water, this moss turns itself and any creature it's covering mostly invisible for 10 minutes.</p><p>During combat, an affected creature rolls a 1d10 at the start of every combatant's turn, loosing it's invisibility on a 1 and regaining or maintaining it on a roll of 2 or higher.</p>",
         "section": "physical-items",
-        "quantity": 6,
-        "combinedLabel": "Unusual Material",
-        "attunementLabel": ""
-      },
-      {
-        "name": "Prismatic Thistle",
-        "description": "<p>Sticks stubbornly to any creature it hits, making it's outline glow vibrantly, shedding bright light in a radius of 5ft.</p><p>Any attack roll against the affected creature has advantage if the attacker can see it, and the affected creature can’t benefit from being invisible.</p><p>The effect ends if the creature removes the thistle using an action, or after 10 minutes.</p>",
-        "section": "physical-items",
-        "quantity": 2,
+        "quantity": 4,
         "combinedLabel": "Unusual Material",
         "attunementLabel": ""
       },
@@ -6088,7 +6048,7 @@
         "attunementLabel": "Requires Attunement"
       },
       {
-        "name": "Important Bowl to a dead man",
+        "name": "Gas mask made from Important Bowl to a dead man",
         "description": "<p>A bowl with scratch marks on the inside</p>",
         "section": "physical-items",
         "quantity": 1,
@@ -6180,30 +6140,6 @@
         "description": "<p>When you want to grab a creature or wrestle with it, you can use the Attack action to make a special melee attack, a grapple. If you're able to make multiple attacks with the Attack action, this attack replaces one of them. The target of your grapple must be no more than one size larger than you, and it must be within your reach.</p><p>Using at least one free hand, you try to seize the target by making a grapple check, a [[/skill ath format=long]] contested by the target's [[/skill ath format=long]] or [[/skill acr format=long]] (the target chooses the ability to use). You succeed automatically if the target is incapacitated. If you succeed, you subject the target to the &amp;Reference[grappled] effect. The condition specifies the things that end it, and you can release the target whenever you like (no action required).</p>",
         "section": "feature-items",
         "requirements": ""
-      },
-      {
-        "name": "Cane of Tides",
-        "description": "<p><em>Requires attunement by a spellcaster.</em></p><p>You gain a +2 bonus to spell attack rolls and to the saving throw DCs of your spells.</p><p>The cane has 8 charges and regains 1d8 expended charges when you finish a long rest. You can use the following abilities by expending charges:</p><ul><li><p>Add damage: When you cast a spell that deals bludgeoning or cold damage, you can expend 1 or more charges to add an additional 1d8 damage of the same type for each charge you expend.</p></li><li><p>Create Water: You can expend 1 charge to cast the Create Water effect of the Create or Destroy Water spell at 1st level using a bonus action.</p></li><li><p>Maelstrom: You can expend 5 charges to cast Maelstrom at 5th level.</p></li></ul>",
-        "section": "physical-items",
-        "quantity": 1,
-        "combinedLabel": "Rod",
-        "attunementLabel": "Requires Attunement"
-      },
-      {
-        "name": "Create Water - Cane of Tides",
-        "description": "<div><p>You create up to 10 gallons of clean water within range in an open container. Alternatively, the water falls as rain in a 30-foot cube within range, extinguishing exposed flames in the area.</p></div>",
-        "section": "spell-items",
-        "spellLevel": "1st Level",
-        "spellRange": "30 ft",
-        "spellSchool": "Transmutation"
-      },
-      {
-        "name": "Maelstrom",
-        "description": "<div><p>A swirling mass of 5-foot-deep water appears in a 30-foot radius centered on a point you can see within range. The point must be on the ground or in a body of water.</p><p>Until the spell ends, that area is <span>&amp;Reference[difficult terrain]</span>, and any creature that starts its turn there must succeed on a Strength saving throw or take [[/damage 6d6 type=bludgeoning]] damage and be pulled 10 feet toward the center. On a successful save, a creature takes half as much damage and is not pulled towards the center.</p></div>",
-        "section": "spell-items",
-        "spellLevel": "5th Level",
-        "spellRange": "120 ft",
-        "spellSchool": "Evocation"
       },
       {
         "name": "Dodge",
@@ -6404,14 +6340,6 @@
         "attunementLabel": ""
       },
       {
-        "name": "Faboulus apperance!",
-        "description": "<p>Save DC: 16 | Attack Bonus: 9</p><p><span><strong><span>Mechanism</span></strong></span></p><p>A faboulus spring loaded box with prismatic Thistle inside that will activate at the slightest touch.</p>",
-        "section": "physical-items",
-        "quantity": 1,
-        "combinedLabel": "Container",
-        "attunementLabel": ""
-      },
-      {
         "name": "Medallion of Thoughts",
         "description": "<p><em>Wondrous item, (requires attunement)</em></p><p>The medallion has 3 charges. While wearing it, you can use an action and expend 1 charge to cast the Detect Thoughts&nbsp;spell (save DC 13) from it. The medallion regains 1d3 expended charges when you finish a long rest.</p>",
         "section": "physical-items",
@@ -6543,16 +6471,8 @@
         "name": "Sneezing Powder",
         "description": "<p>This light powder hangs in the air for up to one minute, filling the volume of a 10ft sphere. A creature entering or starting it’s turn in this cloud immediately uses it’s reaction to sneeze.</p>",
         "section": "physical-items",
-        "quantity": 1,
+        "quantity": 2,
         "combinedLabel": "Unusual Material",
-        "attunementLabel": ""
-      },
-      {
-        "name": "Cow Bell",
-        "description": "<p>The thingy that dingles from Cows. <br>Packed with cotton to not make uneccesesary sound<br></p>",
-        "section": "physical-items",
-        "quantity": 10,
-        "combinedLabel": "Loot",
         "attunementLabel": ""
       },
       {
@@ -6567,7 +6487,7 @@
         "name": "Silver Tears",
         "description": "<blockquote><p>In the depths of Mestopheles' dungeons on Cania, the 8th layer of Hell, pain devils extract this silvery powder through the torture of captured celestials. Devils bound for the warfronts of Avernus take flasks and snuff boxes of the stuff to fortify themselves against exposure to the raw chaos of demons. </p></blockquote><p>When you consume this substance as an action, you have advantage on saving throws against any effect from a demonic source for 8 hours.</p>",
         "section": "physical-items",
-        "quantity": 1,
+        "quantity": 17,
         "combinedLabel": "Potion",
         "attunementLabel": ""
       },
@@ -6575,7 +6495,7 @@
         "name": "Stack of parchments",
         "description": "<p>Just ordinary paper, in case i want to write a book.</p>",
         "section": "physical-items",
-        "quantity": 200,
+        "quantity": 111,
         "combinedLabel": "Junk",
         "attunementLabel": ""
       },
@@ -6601,14 +6521,6 @@
         "section": "physical-items",
         "quantity": 1,
         "combinedLabel": "Artisan's Tools",
-        "attunementLabel": ""
-      },
-      {
-        "name": "Paint Cans",
-        "description": "<p>Cans of Paint in various collours</p>",
-        "section": "physical-items",
-        "quantity": 11,
-        "combinedLabel": "Potion",
         "attunementLabel": ""
       },
       {
@@ -6706,22 +6618,6 @@
         "quantity": 1,
         "combinedLabel": "Unusual Material",
         "attunementLabel": ""
-      },
-      {
-        "name": "Phantasmal Horror",
-        "description": "<p>You select a creature you can see within range and create an illusion of its worst nightmares, which only it can see.</p><p>The target must make a Wisdom saving throw. On a failed it takes 4d10 psychic damage and is frightened. On a successful save, the spell ends. For the duration of the spell this effect repeats at the start of each of the target's turns.</p><p>If the target's CR is less than the spell level and it's not not immune to being frightened, the dies on a failed saving throw.</p><p><strong>At Higher Levels</strong> <br>When you cast this spell using a spell slot of 5th level or higher, the damage increases by 1d10 for each slot level above 4th.</p>",
-        "section": "spell-items",
-        "spellLevel": "4th Level",
-        "spellRange": "120 ft",
-        "spellSchool": "Illusion"
-      },
-      {
-        "name": "Minor Illusion",
-        "description": "<div><p>You create a sound or an image of an object within range that lasts for the duration. The illusion also ends if you dismiss it as an action or cast this spell again.</p><div><p></p></div><p>If you create a sound, its volume can range from a whisper to a scream. It can be your voice, someone else's voice, a lion's roar, a beating of drums, or any other sound you choose. The sound continues unabated throughout the duration, or you can make discrete sounds at different times before the spell ends.</p><p>If you create an image of an object—such as a chair, muddy footprints, or a small chest—it must be no larger than a 5-foot cube. The image can't create sound, light, smell, or any other sensory effect. Physical interaction with the image reveals it to be an illusion, because things can pass through it.</p><p>If a creature uses its action to examine the sound or image, the creature can determine that it is an illusion with a successful <span>[[/skill investigation dc=@attributes.spelldc format=long]]</span> against your spell save DC. If a creature discerns the illusion for what it is, the illusion becomes faint to the creature.</p></div>",
-        "section": "spell-items",
-        "spellLevel": "Cantrip",
-        "spellRange": "30 ft",
-        "spellSchool": "Illusion"
       },
       {
         "name": "Bugman’s Ale",
@@ -6826,14 +6722,6 @@
         "spellSchool": "Transmutation"
       },
       {
-        "name": "Sneezing Powder",
-        "description": "<p>This light powder hangs in the air for up to one minute, filling the volume of a 10ft sphere. A creature entering or starting it’s turn in this cloud immediately uses it’s reaction to sneeze.</p>",
-        "section": "physical-items",
-        "quantity": 1,
-        "combinedLabel": "Unusual Material",
-        "attunementLabel": ""
-      },
-      {
         "name": "Martyr's Locket",
         "description": "<p>A Martyr's Locket is an unassuming and unadorned gold pendant, deliberately plain and with a blank canvas inside. Blessed by the divine light of Mount Celestia, they are offered by the angelic hosts of Heaven to those seeking to perform acts of true empathy - often given freely to poor sinners looking for penance.</p><p>The belief that the truest measure of a soul is not in avoiding hardship, but in the willingness to bear the burdens of others, is a belief not just common amongst the denizens of Heaven but also shared by their mortal followers. As such, many monasteries across the realms which are dedicated to lawful good deities or principles, welcome donations of used lockets and display them in quiet galleries where each captured portrait of a moment of sacrifice serves as a silent lesson in courage and compassion for all to witness. Novitiates spend hours in silent contemplation before them, learning not only from dusty tomes, but from the faces of ordinary people captured in their single greatest moment.</p><p><strong>Moment of Martyrdom.</strong> When another creature you can see becomes affected by a curse (or an effect that can be ended or removed via the Remove Curse spell), you can activate the locket (no action required) to take the curse upon yourself instead. This ability cannot be used if the other creature isn't willing or if you are immune to any the curse's effects.</p><p>When the item is activated this way, the locket becomes a nonmagical @UUID[Compendium.talia-custom.customItems.Item.dQQKUD2XEIMNbGXl]{gold locket with a painted portrait inside} (DMG, p134), depicting you in the moment you took the curse upon yourself.</p>",
         "section": "physical-items",
@@ -6850,19 +6738,99 @@
         "attunementLabel": ""
       },
       {
-        "name": "Wooden Chicken Statue with Knife beak",
-        "description": "",
-        "section": "physical-items",
-        "quantity": 1,
-        "combinedLabel": "Art Object",
-        "attunementLabel": ""
-      },
-      {
         "name": "Pyrope",
         "description": "<p>Pyrope, a type of garnet known for its exquisite beauty, also holds military significance. It is believed that adorning weaponry with this garnet allows it to penetrate the thickest hides or demolish the strongest doors, aided by arcane forces.</p>",
         "section": "physical-items",
         "quantity": 2,
         "combinedLabel": "Gemstone",
+        "attunementLabel": ""
+      },
+      {
+        "name": "Mage Hand",
+        "description": "<div><p>A spectral, floating hand appears at a point you choose within range. The hand lasts for the duration or until you dismiss it as an action. The hand vanishes if it is ever more than 30 feet away from you or if you cast this spell again.</p><div></div><p>You can use your action to control the hand. You can use the hand to manipulate an object, open an unlocked door or container, stow or retrieve an item from an open container, or pour the contents out of a vial. You can move the hand up to 30 feet each time you use it.</p><p>The hand can't attack, activate magic items, or carry more than 10 pounds.</p></div>",
+        "section": "spell-items",
+        "spellLevel": "Cantrip",
+        "spellRange": "30 ft",
+        "spellSchool": "Conjuration"
+      },
+      {
+        "name": "Dimension Door",
+        "description": "<div><p>You teleport yourself from your current location to any other spot within range. You arrive at exactly the spot desired. It can be a place you can see, one you can visualize, or one you can describe by stating distance and direction, such as \"200 feet straight downward\" or \"upward to the northwest at a 45-degree angle, 300 feet.\"</p><div></div><p>You can bring along objects as long as their weight doesn't exceed what you can carry. You can also bring one willing creature of your size or smaller who is carrying gear up to its carrying capacity. The creature must be within 5 feet of you when you cast this spell.</p><p>If you would arrive in a place already occupied by an object or a creature, you and any creature traveling with you each take [[/damage 4d6 type=force]] damage, and the spell fails to teleport you.</p></div>",
+        "section": "spell-items",
+        "spellLevel": "4th Level",
+        "spellRange": "500 ft",
+        "spellSchool": "Conjuration"
+      },
+      {
+        "name": "Breezeblossom",
+        "description": "<p>It’s petals will always be carried away by a gentle breeze, going as far to create one themselves if needed. This breeze disperses any magical cloud or fog effects.</p>",
+        "section": "physical-items",
+        "quantity": 2,
+        "combinedLabel": "Unusual Material",
+        "attunementLabel": ""
+      },
+      {
+        "name": "Echoing Crystalbloom",
+        "description": "<p>When this crystalline flower shatters, it covers creatures in a 10ft sphere in it's fine dust unless they succeed on a Dexterity saving throw against the contraption's save DC.</p><p>Any creature covered by the dust involuntarily echoes it’s own speech for 10 minutes, making it much more difficult to form the verbal components of spells.</p><p>While under this effect, casting a spell with verbal components requires a bonus action and the caster's full movement in addition to the spells normal requirements.</p>",
+        "section": "physical-items",
+        "quantity": 4,
+        "combinedLabel": "Unusual Material",
+        "attunementLabel": ""
+      },
+      {
+        "name": "Devils Hat",
+        "description": "<p>Devils hat</p>",
+        "section": "physical-items",
+        "quantity": 1,
+        "combinedLabel": "Hat",
+        "attunementLabel": ""
+      },
+      {
+        "name": "Devils outfit",
+        "description": "",
+        "section": "physical-items",
+        "quantity": 1,
+        "combinedLabel": "Clothing",
+        "attunementLabel": ""
+      },
+      {
+        "name": "Paint Cans",
+        "description": "<p>Cans of Paint in various collours</p>",
+        "section": "physical-items",
+        "quantity": 5,
+        "combinedLabel": "Potion",
+        "attunementLabel": ""
+      },
+      {
+        "name": "Door trap #5",
+        "description": "<p>Save DC: 15 | Attack Bonus: 8</p><p><span><strong><span>Mechanism</span></strong></span></p><p>A uppdated verson of the trap that is slightly easier to not trigger if you know what you are doing when you try to bypass it, (you will probably fail). Othevice it will trigger when you open the door. </p>",
+        "section": "physical-items",
+        "quantity": 1,
+        "combinedLabel": "Container",
+        "attunementLabel": ""
+      },
+      {
+        "name": "Slice of tent",
+        "description": "<p>A sliced bit of a tent roughly the sise of a bedsheet</p>",
+        "section": "physical-items",
+        "quantity": 1,
+        "combinedLabel": "Junk",
+        "attunementLabel": ""
+      },
+      {
+        "name": "Hurting Stone",
+        "description": "<p>When this stone hits a creature or object after being dropped or thrown, it deals 2d6 magical bludgeoning damage and loudly shouts “Ow!”.</p>",
+        "section": "physical-items",
+        "quantity": 1,
+        "combinedLabel": "Unusual Material",
+        "attunementLabel": ""
+      },
+      {
+        "name": "Troll Musk Concentrate",
+        "description": "<p>When this flask hits a creature or object, it bursts open and covers the target in a green liquid, a potent aphrodisiac for trolls.</p><p>Upon coming into contact with a living creature, this fatty substance creates a 10ft sphere of foul odour around that creature which persists for 10 minutes.</p><p>When a creature enters the effect’s area for the first time on a turn or starts its turn there, that creature must make a Constitution saving throw against the contraption’s Save DC or become <span>Poisoned</span> until the start of their next turn.</p><p>When a troll fails a saving throw against this effect, it becomes <span>Charmed</span> instead of poisoned.</p>",
+        "section": "physical-items",
+        "quantity": 1,
+        "combinedLabel": "Unusual Material",
         "attunementLabel": ""
       }
     ],
@@ -7543,7 +7511,7 @@
         "name": "Chocolate",
         "description": "<p>Chocolate comes in many shapes, sizes, and tastes. It is a staple sweet primarily made from cocoa beans, sugar, and milk. A major ingredient used in many desserts such as pudding, cakes, and candy. It can be in a solid form like a candy bar or in a liquid form like hot chocolate, to fit various needs and tastes.</p>",
         "section": "physical-items",
-        "quantity": 500,
+        "quantity": 499,
         "combinedLabel": "Food (meal)",
         "attunementLabel": ""
       },
@@ -7592,6 +7560,126 @@
         "spellLevel": "4th Level",
         "spellRange": "Self",
         "spellSchool": "Transmutation"
+      },
+      {
+        "name": "Aloe Vera",
+        "description": "",
+        "section": "physical-items",
+        "quantity": 5,
+        "combinedLabel": "Spice",
+        "attunementLabel": ""
+      },
+      {
+        "name": "Chili Pepper",
+        "description": "<p>Harvested usually in most warm climates, it is used mainly as a spice in cuisines to add some \"warmth\" to the dish.</p>",
+        "section": "physical-items",
+        "quantity": 5,
+        "combinedLabel": "Spice (spice)",
+        "attunementLabel": ""
+      },
+      {
+        "name": "Ginger",
+        "description": "<p>Ginger, is widely used as a spice and folk medicine. It is provided as tea for those who have weak stomachs to combat nausea, among other things.</p>",
+        "section": "physical-items",
+        "quantity": 3,
+        "combinedLabel": "Spice",
+        "attunementLabel": ""
+      },
+      {
+        "name": "Ginko Leaves",
+        "description": "",
+        "section": "physical-items",
+        "quantity": 3,
+        "combinedLabel": "Spice",
+        "attunementLabel": ""
+      },
+      {
+        "name": "Lavender",
+        "description": "",
+        "section": "physical-items",
+        "quantity": 5,
+        "combinedLabel": "Spice",
+        "attunementLabel": ""
+      },
+      {
+        "name": "Eucalyptus",
+        "description": "",
+        "section": "physical-items",
+        "quantity": 4,
+        "combinedLabel": "Spice",
+        "attunementLabel": ""
+      },
+      {
+        "name": "Licorice Root",
+        "description": "",
+        "section": "physical-items",
+        "quantity": 2,
+        "combinedLabel": "Spice",
+        "attunementLabel": ""
+      },
+      {
+        "name": "Mustard Seeds",
+        "description": "",
+        "section": "physical-items",
+        "quantity": 4,
+        "combinedLabel": "Spice",
+        "attunementLabel": ""
+      },
+      {
+        "name": "Rhubarb",
+        "description": "",
+        "section": "physical-items",
+        "quantity": 6,
+        "combinedLabel": "Spice",
+        "attunementLabel": ""
+      },
+      {
+        "name": "Saffron",
+        "description": "",
+        "section": "physical-items",
+        "quantity": 7,
+        "combinedLabel": "Spice",
+        "attunementLabel": ""
+      },
+      {
+        "name": "Sassafras",
+        "description": "",
+        "section": "physical-items",
+        "quantity": 3,
+        "combinedLabel": "Spice",
+        "attunementLabel": ""
+      },
+      {
+        "name": "Star Anise",
+        "description": "",
+        "section": "physical-items",
+        "quantity": 2,
+        "combinedLabel": "Spice",
+        "attunementLabel": ""
+      },
+      {
+        "name": "Vanilla",
+        "description": "",
+        "section": "physical-items",
+        "quantity": 3,
+        "combinedLabel": "Spice",
+        "attunementLabel": ""
+      },
+      {
+        "name": "Wasabi",
+        "description": "",
+        "section": "physical-items",
+        "quantity": 2,
+        "combinedLabel": "Spice",
+        "attunementLabel": ""
+      },
+      {
+        "name": "Yarrow",
+        "description": "",
+        "section": "physical-items",
+        "quantity": 4,
+        "combinedLabel": "Spice",
+        "attunementLabel": ""
       }
     ]
   },
@@ -7620,7 +7708,7 @@
         ],
         "isTemporary": true,
         "name": "Heroic Deed",
-        "remainingDays": 10
+        "remainingDays": 9
       }
     ],
     "buildings": [
@@ -8923,7 +9011,12 @@
         {
           "name": "87",
           "section": "journal-pages",
-          "content": "<h3>Crouching Ashes, Hidden Shalkoc. Unborn Water and Poison.</h3><p>It all began with the rocks multiplying angrily with eachothers and Shalkoc attacking the Darkness.</p><p>Everyone enters battlepositions, Fearghas and Emilio triggers their WIld Magic powers, growing in size and stoicness.<br>Plex reinforces the Steelchain, enabling poor Aviana to safely traverse the dangerous ravine.<br>When she climbs up, all by her lonesome, she decides to help the party out against the nefarious pebblestones which are attacking her mighty friends.<br>She, accidently, kicks Kyrin to the side and then, accidently, kicks Plex away like a football, in an effort to help her friends.</p><p>The Ash Elementals decidedly try to murder us in a chaotic stumble-induced fiesta.</p><p>Kyrins whispers to the Ashen One's \"I am the Light in the Darkness\" and brandishes her weapon, striking true with the power of Light.</p><p>Meanwhile Plex is on the floor, Prone and Distracted, surrounded by angry elementals of Rock and Ash while coughing a fit for his life.</p><p>As we get a handle of the situation, Emilio decides to explode for some reason, nuking everything alive.<br>Mainly Plex.<br>Who promptly wakes up thanks to Pebble, chooses Violence and takes control over the situation by letting himself be grappled and flies away with the flying elemental.</p><p>Pebble is crying for some reason, but I believe in Plex's abilities.</p><p>All goes well thanks to Kyrin timely intervention and after healing up in a Wellspring of Life, Thanks Pebble, we stay too long and are chased out by the reapearing Ash.</p><p>Fearghas shoots it with Ice and it dies.</p><p>When the Foundry World finally is cleared of Goblin things, Plex falls down the edge by a failed Misty Step and costs Fearghas a spell slot to Feather Fall.</p><p>A giant mouth in the Lava-like pools of magma and molten rock is where Plex ends up, Shalkoc flies down to get the Goblin, but tragedy strikes.</p><p>Namely, we all jump down after him and the ceiling collapses behind us, locking us inside a Lavapit with an insidious presence wanting to kill us.</p><p>So we start rolling around on the floor due to windtunnels and collect gemstones we find laying about.<br>There's Diamonds everywhere, right next to the level 30 TPKing gargantuan cloud monster.<br>RUUUUUUUUUN!</p><p>(After picking up some Diamonds)</p><p>We realize the treasure down here is guarded by the Grandfather of the Balrog and we try to escape out the tunnels by different means.<br>Enter Whalegas!<br>We escape from the 60000 gold-ridden tunnel in haste and cry ourselves to sleep, well mostly Naami doing the crying, as our venture turned our pretty green for Greed.<br>I mean you Shalkoc.<br>Greedy Dragon!</p><p>Enter Fearghas McWhalegas Allistar the Stone Whale of Golden Bankruptcy, the Goblin Carrier, the Magnificient Dragon Escorter, the Magical Flight Tourguider and King over Greed.</p><p>Giru of the Black Flame is messing us up big time.<br>Fearghas eats some rocks while having Plex, Naami and Shalkoc inside him and feeding on gold coins spread around.<br>Giru is immensly dangerous and a possible wipeout of us all, but thanks to everyone doing their parts, chains and whales alike, we barely escape alive into the planedoor leading to the City of Dis.</p><p>Whalegas spits out the party to Aviana who is Holding the Door, unfortunately the Balrog Godfather grabs Plex and toss him back into the cavern.<br>Fortunately, Plex uses convincing words to explain that he is, in fact, not silenced by being silenced.<br>Makes sense.<br>So he teleports out together with Kyrin and we all escape on baloon Fearghas, the golden something.</p><p>That Giru was quite the fight.<br>Man, I'm tire…</p>"
+          "content": "<h3>Crouching Ashes, Hidden Shalkoc. Unborn Water and Poison.</h3><p>It all began with the rocks multiplying angrily with eachothers and Shalkoc attacking the Darkness.</p><p>Everyone enters battlepositions, Fearghas and Emilio triggers their <em>WIld Magic powers</em>, growing in size and stoicness.<br>Plex reinforces the Steelchain, enabling poor Aviana to safely traverse the dangerous ravine.<br>When she climbs up, all by her lonesome, she decides to help the party out against the nefarious <strong>pebblestones</strong> which are attacking her mighty friends.<br>She, accidently, <strong>kicks Kyrin</strong> to the side and then, accidently, kicks Plex away like a football, in an effort to help her friends.</p><p><strong>The Ash Elementals</strong> decidedly try to murder us in a chaotic stumble-induced fiesta.</p><p>Kyrins whispers to the Ashen One's <em>\"I am the Light in the Darkness\"</em> and brandishes her weapon, striking true with the power of Light.</p><p>Meanwhile Plex is on the floor, Prone and Distracted, surrounded by angry elementals of Rock and Ash while coughing a fit for his life.</p><p>As we get a handle of the situation, <strong>Emilio decides to explode</strong> for some reason, nuking everything alive.<br>Mainly Plex.<br>Who promptly wakes up thanks to Pebble, chooses Violence and takes control over the situation by letting himself be grappled and flies away with the flying elemental.</p><p><em>Pebble is crying for some reason, but I believe in Plex's abilities.</em></p><p>All goes well thanks to <strong>Kyrin timely intervention</strong> and after healing up in a Wellspring of Life, Thanks Pebble, we stay too long and are chased out by the reapearing Ash.</p><p>Fearghas shoots it with Ice and it dies.</p><p><s>When the Foundry World finally is cleared of Goblin things</s>, Plex falls down the edge by a failed Misty Step and costs Fearghas a spell slot to Feather Fall.</p><p>A giant mouth in the Lava-like pools of magma and molten rock is where Plex ends up, Shalkoc flies down to get the Goblin, but tragedy strikes.</p><p>Namely, we all jump down after him and the ceiling collapses behind us, locking us inside a Lavapit with an insidious presence wanting to kill us.</p><p>So we start rolling around on the floor due to windtunnels and collect gemstones we find laying about.<br>There's Diamonds everywhere, right next to the level 30 TPKing gargantuan cloud monster.<br><strong>RUUUUUUUUUN!</strong></p><p>(After picking up some Diamonds)</p><p>We realize the treasure down here is guarded by the <strong>Grandfather of the Balrog</strong> and we try to escape out the tunnels by different means.<br>Enter Whalegas!<br>We escape from the 60000 gold-ridden tunnel in haste and cry ourselves to sleep, well mostly <strong>Naami doing the crying</strong>, as our venture turned our pretty green for Greed.<br><strong>I mean you Shalkoc</strong>.<br>Greedy Dragon!</p><p>Enter <em><span>Fearghas McWhalegas Allistar the Stone Whale of Golden Bankruptcy, the Goblin Carrier, the Magnificient Dragon Escorter, the Magical Flight Tourguider and King over Greed.</span></em></p><p><strong>Giru of the Black Flame</strong> is messing us up big time.<br>Fearghas eats some rocks while having Plex, Naami and Shalkoc inside him and feeding on gold coins spread around.<br>Giru is immensly dangerous and a possible wipeout of us all, but thanks to everyone doing their parts, chains and whales alike, we barely escape alive into the planedoor leading to the <strong>City of Dis</strong>.</p><p>Whalegas spits out the party to Aviana who is Holding the Door, unfortunately the Balrog Godfather grabs Plex and toss him back into the cavern.<br>Fortunately, Plex uses convincing words to explain that he is, in fact, not silenced by being silenced.<br>Makes sense.<br>So he teleports out together with Kyrin and we all escape on balloon Fearghas, the golden something.</p><p>That Giru was quite the fight.<br>Man, I'm tired.</p><p>We fly on our saviour down to the second layer of hell, a course of safety and hope.</p>"
+        },
+        {
+          "name": "88",
+          "section": "journal-pages",
+          "content": "<h3>Hellish Dis, Whaling Dat. Acrid devils calling Fearghas fat.</h3><p>Our Whalefriend lands in an alleyway in Dis, the city of the second layer of hell.<br>We are very low on life and tired, so instead of healing ourselves, we greet the first Horned Devil we see and he tells us about how Sacharias a powerful devil now and viceroy to Tibilus.</p><p>The kind gentleman guides us to an Tavern called \"Out of Thyme\" which we do not head towards, because Fearghas knows that devil will sell us out.</p><p>Spiders emerge from Naami's bag and Plex eats them.</p><p>We spot a mighty Pit fiend arguing with a smaller Gnome a but further ahead.<br>The Fiend flies off, enraged by the Gnome's words and we learn that it is infact Jubilost, the teacher that taught Fearghas the ways of Spelljewel crafting.</p><p>He shows us his workshop, explaining that smart people belongs in hell since it's so accomodating for them.<br>There's a giant orb, a project of Jubilost Narthropple, and there's a third of a sphere that he's working on.<br>It's horrifyingly made out of Angel's Tears.</p><p>We chat a while with him and receive a pet fire elemental.</p><p>Heading to the mansion mentioned by Jubilost, we are greeted by a door.<br>This enemy of parties are obstructing us very efficiently and it take a long while of sacrifices and spit to figure out we need to kidnap roadworkers and drain their blood to open this door.</p><p>As you do.</p><p>Thanks to Kyrin, we kidnap an Imp during his workshift and knock him out, returning to the mansion.<br>Fearghas decapitates the poor taxevading worker.</p><p>To our suspense and horror, we discover a portal leading to Roc, the city of Demons in the Abyss, hidden behind the magical door.</p><p>There's signs of someone living there that has access to expensive items, there's a treasury with Nail polish and-<br>We don't have time to search everything because Fearghas get's a message from Mechanus and we planeshift there, meeting with Zariel herself and an overjudge, forcing us all to sign a contract to let us into Dis for the price of 5000 gold per person.</p><p>Plex steals schematics for an airballoon.</p><p>Then we open a portal home to Promise with Aviana's Transdimensional chain and head back, except Aviana who's slingshot through, leaving a skidmark rivaling Deathwing's Rise.</p><p>We meet with Frost giants who helped defend the island from flying frost undead dragons.</p><p>Kali explains she has been training the kids by shooting them with arrows, boy, are we going to hear about that during the parent meeting session.<br>Kali explains that Bart Steven and some other kids are promising.</p><p>And Kyrin promises to start up FAoP, the Future Assassins of Promise initiative. Currently lacking a sponsor.</p><p>We laugh a lot, traps are triggered and items are traded.<br>It was a good session!</p>"
         }
       ]
     },
@@ -9099,6 +9192,11 @@
           "name": "87 - Growth spurt, evil smoke, and many stubbed toes",
           "section": "journal-pages",
           "content": "<p><strong>Tuesday, 12</strong><sup><strong>th</strong></sup><strong> of Decimus, 1497</strong></p><p><strong>22:55</strong></p><p>We begin by rolling initiative, and Plex feels an extra angry <strong>stone</strong> appear. Shalkoc sprouts dragon wings and buggers off to the west, flying into a <strong>cloud</strong> that chokes and silences him, uh-oh. Thankfully, he is capable of punching without shit-talking or even breathing! The banter is entirely optional! He hits something in there and <strong>stuns</strong> whatever it is. He then stuns it again, for reasons, and punches ever onwards. The DM ominously appeals to our greed, and Shalkoc backs out of the choking cloud and immediately begins yapping again, it's nice to have him back! I was worried for a second there.</p><p>There is snacking and then Emilio does some <strong>Eldritch</strong> <strong>blasting</strong>. He hits with all three beams but Plex is locked out of the server by Aerelia's ISP. We all get shunted into the aether for few minutes, then Emilio gets a surge and grows to <strong>Large</strong> size! Aviana is delighted and Fearghas freaks out, half the table descends into absolute chaos, excellent.</p><p>Fearghas shoots a <strong>Fire Bolt</strong> and we find out the <strong>Living Soot</strong> is immune to fire, then he stubs his toe on an inconveniently placed tiny rock, which proceeds to get up and hurl itself at the wizard. Oh dear… It misses, and falls prone. I scout out the battlefield in shadow form and take the <strong>Dodge</strong> action. Plex uses <strong>Mold Earth</strong> to fuse the chain with the rock, then hides behind the big rock. Another rock launches itself at Emilio and hits his ankle, dealing minor damage then falling prone.</p><p>Aviana RAAAAAAAAAGES and crosses the chasm, asks Fearghas if the pebble is killing him. He says no, so she concludes the pebble is killing him and uses her <strong>Battering Ram</strong> on it, crashing into Kyrin who was hiding nearby. Woops! She charges again, straight into Plex who was also hiding, and everyone but Aviana could see him. He rolls a dirty 0 on the save and is punted into the pebble behind him. Both are distracted. Emilio talks shit at Fearghas: \"And you complain when I turn off the lights??\"</p><p>The Living Soot floats over to Aviana, does a little spin on itself and creates a poisonous tornado of <strong>Engulfing Sootstorm</strong>. Fearghas, Plex, and Emilio all fall prone and take damage. A rock flings itself at my shadow, but misses and falls prone because I have sick dodges. A light begins to shine out of nowhere! We have the sneaking suspicion a rogue just equipped a sword. Aviana wants to feed a <strong>Potion of Growth</strong> to Emilio. If he activates Void Form does he then turn into a kaiju? Hmmm…</p><p>Kyrin starts slicing at the second Soot that showed up, with limited success. Shalkoc casually punches a puff of smoke to death, and flies over to find a giant Emilio lying on the ground, the rest of us choking, and I'm not even here. Emilio gets up and disregards the need to breathe in favour of slicing at the Living Soot, but he gets ANOTHER surge and <strong>explodes</strong>, catching us all in the blast. It's a massive explosion and we all take heavy force damage! Fearghas is panicking thinking Emilio lost control of his powers and the <strong>Emissary</strong> he ate is corrupting him. I get pushed out of Shadowslip, Kyrin perfectly dodges and takes no damage, and Plex falls unconscious. His <strong>Vortex Warp</strong> contigency activates!</p><p>Fearghas stands up, reluctantly, and eats an opportunity attack by walking away, thankfully it misses. He casts <strong>Magic Missile</strong> at 1st level, hoping it will be the final straw. He gets a surge that protects him from devils, sort of. One Living Soot dies! I slap down a <strong>Wellspring of Life</strong>, then step around the big rock following Fearghas' directions. I spot Plex and yell at him to STOP DYING, casting a <strong>Healing Word</strong>. Then I hide behind the big rock as I don't have enough movement to return to the Wellspring and dip my toes in, sad times.</p><p>Plex agrees to stop dying and <strong>Fey Steps</strong> across the chasm, goes straight back to hugging the Living Soot and choking. Sigh. He bonks a puff of evil smoke with the Spriggan Staff, dealing all of 2 damage. Aviana somehow applies <strong>Death Ward</strong> on Plex. She says to Fearghas, \"Plex is in safe hands!\" and just then, the goblin is grappled and restrained by the remaining Soot, who proceeds to slap him until the ward triggers and leaves him at 1 HP. The Soot then flies away still carrying Plex. Get back here with our goblin! Shalkoc, get him!</p><p>Kyrin attempts to, I quote, \"snatch his little goblin ass back\" but Plex is already too far. She then shoots the Soot, which dies, and Plex is shot 200 feet up by the wind draft. He's still distracted from the soot and unable to take reactions, and so is Fearghas, so what even is Feather Fall? Just then the draft switches back to downwards, sucking Plex in. The winged rescuer Shalkoc flies to Plex using <strong>Step of the Wind</strong> and readies to catch the goblin on his way down. He catches Plex gently like a chicken that escaped the coop. \"I can't let you go,\" he says to Plex, \"you still owe me 7000 gold… with 20% interest.\"</p><p>Hanging over the abyss, Shalkoc and Plex argue over debt and potential <strong>goblinicide</strong>, Plex magicked himself out of Shalkoc's grasp to avoid paying up, but the Dragonborn is a good friend and catches him. We all stack up in the Wellspring and clean off the soot. The spell easily closes all our wounds! As we are healing up and I'm checking Emilio to try to figure out if his void powers are getting out of control, and he is still in <strong>Void Form</strong>… more Living Soots attack us! Yeah that's on us, lingering in a highly hostile area…</p><p>Shalkoc breathes on it, Fearghas chucks a <strong>Ray of Frost</strong> and tells us to get the hell out of here. Ironic, considering… Following his directions, we all start running north, the last location indicated by <strong>Find the Path</strong> before he dropped concentration. Kyrin shoots it, then runs and hides. I try to restrain the Soot with Binding Shadows, but it is immune. Well, worth a try. I run up to Fearghas, but the elemental follows right behind me, putting both wizards and myself in a cloud of poisonous smoke… We all pass the DEX save and take no damage!</p><p>Emilio casts <strong>Steel Wind Strike</strong> and teleports to the Soot to slice it up. Aviana tries to catch it in the Iron Flask but it resists it, good attempt. Shalkoc runs up to the Soot and punches it, gets a surge that <strong>reverses</strong> his damage and healing, misses, punches again, and heals the enemy. We are all waving at him to STOP PUNCHING but we can't speak on account of choking on soot. Shalkoc proceeds to practice social distancing, eats an attack of opportunity for his trouble, and protects himself with his wings.</p><p>Fearghas runs away and stubs his toe, again. He blasts a <strong>Ray of Frost</strong> on the Soot for FIFTY-SIX DAMAGE?! It's vulnerable to cold damage! The smoke from the elemental's body starts freezing, sadly the cloud choking us is not affected. Plex stubs his toe and casts Sapping Sting on the Soot, who saves and takes no damage. Plex teleports… but <strong>Fey Step</strong> takes him to the west and he plummets into the abyss as he is sucked in by the downward draft. Fearghas snaps a <strong>Feather Fall</strong> on him just in time.</p><p>Kyrin swoops from the shadows and slaps a critical hit on the Soot with the <strong>Sun Blade</strong>, smiting the daylight out of it. Plex is still falling to his death, albeit slowly. The down draft increases, as if something massive was taking a really deep breath. I walk up to Fearghas up to the next chasm, but I have no way of getting Plex so I hold myself ready to dodge attacks. Emilio follows suit, also using <strong>Dodge</strong>. Aviana jumps over the chasm and readies the Iron Flask… to catch Plex in it when he inevitably zooms back up.</p><p>Shalkoc slams his fist down, hitting one of the <strong>Slingrock Blocklets</strong>, the pebbles that have been stubbing our collective toes all this while. Instead of getting crushed, it gets shot 20 feet away thanks to its feature <strong>Skipping Tumble</strong>. Just kicking rocks over here. Fearghas <strong>Misty Steps</strong> across the gap and stubs his toe, prompting healthy dwarven grumbling.</p><p>Plex is plummeting towards a pool of lava, though none of us knows this. He uses his <strong>Mage Hand</strong> to loot gemstones, priorities?? Up here, the smoke and fog are getting sucked down into the chasm… Kyrin teleports across. I cast <strong>Levitate</strong> through Lioriel's staff and push myself across. Shalkoc flies down to grab Plex.</p><p>The downward draft becomes so strong, it tears off <strong>boulders</strong> bigger than me from the walls. I hurriedly drop Levitate before getting crushed to death, and follow everyone down with <strong>Feather Fall</strong>. We have no way back up but we have bigger problems right now. And we are right back in initiative order as a thunderous grumbling shakes the walls. Fearghas GLARES at Plex in an attempt at nonverbal communication, but the goblin is confused.</p><p>The ceilings are lower here so Shalkoc needs to land. We sneak through narrow passages, dodging lava pools and giant inhaling currents. Plex uses <strong>Minor Illusion</strong> to make a bunny. Fearghas jumps to grab shiny pyropes. Shalkoc smells money and… steps into the wind currents. He is immediately knocked on his bum. Plex uses Fey Step, teleports himself into the wall and is shunted out. There is a really creepy feeling to this place… like something is following right behind us, getting closer by the second.</p><p>Kyrin tries to grab a toe-stubbing rock, misses, trips and falls prone. Emilio and me fall behind… the soot seeping from the walls seems to solidify, and I make out the outline of <strong>something huge</strong> to the north-west! We need to run for our lives!! Fearghas steps back to catch a glimpse, then runs back saying it's big and we all need to book it. I've been saying the exact same thing! But he doesn't believe me because I'm always squeaking gnegnegne…</p><p>Shalkoc tries to go pick up diamonds glittering in the soot, but steps into the wind again and gets dragged backwards and knocked on his bum. Again. The déjà-vu is overwhelming… Plex places a <strong>Wall of Stone</strong> in the path of the inhale, causing the air current to bounce off and shove Fearghas. Emilio dashes behind me, using his last essence shard on <strong>Netherwalk</strong> to increase his speed.</p><p>The gargantuan creature… GLIDES RIGHT BEHIND US!! It lashes out at me and <strong>grapples</strong> me, picks me up, and flings me at Emilio. I crash into him, knocking us both prone. The monster attacks Kyrin, everyone is shouting, Aviana shoves me into the wind which pushes me next to Fearghas. Kyrin goes invisible with <strong>Psychic Veil</strong>. Fearghas pops a spellgem to inflict <strong>Slow</strong> on the monster, which does not seem bothered in the slightest.</p><p>Plex is grappled, then flung at Fearghas, causing the goblin to lose concentration on the Wall of Stone that was protecting us from the inhale. Shalkoc casts <strong>Guardian of Nature</strong>, then sneezes on the big thing. He proceeds to run off TOWARDS the Giru to pick up loot. He is shouting about money with the monster breathing down his neck… I get to my feet and quicken a 3rd-level <strong>Cure Wounds</strong> on Plex, who immediately creates an <strong>Instant Door</strong> into the wall and steps through it. Emilio is struggling to get through the air current and join us but he is cursed with ever-failing strength saves.</p><p>Shalkoc narrowly deflects an attack with his <strong>Protective Wings</strong>, but the Giru just catches him and flings him instead, over the pile of gold. He smacks against the wall and slides down into the lava. Aviana picks up a boulder and plonks it into the hole from where the wind is blowing, temporarily stopping the current… but the pressure is already building, it won't hold for long!</p><p>Fearghas <strong>Polymorphs</strong> himself into a Stone Whale. <s>execute plan whaleghas</s> He grabs me in his mouth, then similarly eats up Plex who was hiding in a closet of his own making like some green ostrich. He swims through the stone, and gobbles up Shalkoc. Inside Whaleghas, we go on an adventure as he flies all across the cavern to pick up loot. He is picked up and flung into the lava by the Giru… which breaks his concentration on Polymorph!! And uses inspiration to reroll and pass, phew. Shalkoc wants out to loot the place, but we are in lava… Kyrin suggests he goes through the blowhole, \"like a snot rocket\", but even that is too dangerous.</p><p>I sense a request for love and support for Whaleghas, so following Shalkoc's example I cast a warded heightened <strong>Cure Wounds</strong> on him, closing all his wounds. The Giru floats over to us… Whaleghas tries to communicate with Plex, who casts <strong>Tidal Wave</strong>, dousing the lava. Right after, Fearghas uses a Dreamfeather, which causes a surge… TRANSFORMING ALL LIQUIDS WITHIN 5FT INTO LUKEWARM WATER WHEN DRUNK. It only lasts a minute so quick drink up the lava!!</p><p>The Giru whacks Whaleghas until he is no longer a whale and we all land into the lava. Aviana wraps Emilio in chains to drag him through the air currents, and they dash into the cavern. Well Aviana dashes, Emilio just follows somewhat unwillingly. Kyrin is looting the place and picks up, in addition to a lot of gold, a <strong>Sheeshah of Revelations</strong>, a pipe allowing the user to have prophetic visions.</p><p>The smoke lifts, and we see diamonds glittering in the distance! Fearghas chugs a <strong>Potion of Flying</strong> and Polymorphs right back into Whaleghas, and scoops the three of us back up into the whale dimension. He Disengages, gets pushed by an air current on his way, and floats across the cavern towards the exit. I give Shalkoc a good bit of healing, and Plex halves Whaleghas' weight.</p><p>Emilio really wants a snack in the form of essence shards so he starts slicing at the Giru. Good start, but then he rolls a natural 1 and a <strong>Living Soot</strong> pops up. Aviana charges just for the sake of a little HP, dragging our poor warlock along. She then rushes into a narrow passage, still dragging a Large-size Emilio who will not fit in the tunnel… some train memes and mental images later, he gets dragged through, taking only minor damage from the sharp rocks. She shatters the chain, freeing Emilio. <s>She couldn't do this any sooner?</s></p><p>Kyrin happily picks up more diamonds. Emilio then gets flung into the lava.</p><p>\"MacWhale?\" - \"That's Whaleghas MacWhale to ya, son.\"</p><p>A diamond tumbles into Whaleghas' mouth along with some lukewarm water, and I catch it. A big slab of granite comes in…? Along with some half-chewed rocks which whack both Shalkoc and me in the face. Plex somehow triumphantly dodges all the rocks, standing on the stone slab. It's a hover board! I mean, <strong>Earthboard</strong>. Shalkoc is buried under a big slab of rock, in Whaleghas' mouth. He struggles but he is flat as a pancake with all the strength of boiled lettuce. I'm also squished under stone, but I manage to get my hands free and <strong>Levitate</strong> the rocks off of Shalkoc and me.</p><p>Emilio is getting grabbed out of the lava, and flung back into it. Plex wants to… ahem… explore Whaleghas' body?! \"What's the safe word for this campaign?\" Karnack asks. We dissuade Plex, who exits the whale instead. Emilio gets fried by lava, he is alive but barely. He burns his last pact slot on <strong>Void Torrent</strong> to get close to Whaleghas, stubs his toe, and struggles towards me. He pops a shard on Accrued Vitality, not only rolls like shit but also gets a <strong>major surge</strong> which makes a 50% chance to fill unattended containers with spiders. \"Yay snacks!\" Plex exclaims. Screw this I'm casting Remove Curse asap.</p><p>Aviana drops to 0 HP, but she is raging so <strong>Relentless Rage</strong> activates and she drops to 1 HP instead! She uses Battering Ram for temp HP and runs straight south. Coming to a hole in the ground, she sees a city far below… only a city, as far as she can see. It's <strong>Dis</strong>! She tries to shout to us to guide us, but we're too far to hear. Not sure whether to jump, she charges at the wall and leaves a dent. Good job! She drinks up a <strong>Potion of Legendary Resistance</strong> and waits for us to catch up.</p><p>Kyrin teleports closer to Aviana, unfortunately so does the <strong>Giru</strong>. Whaleghas whales to Aviana, and spits Shalkoc and me out. Hey we're right by the exit! He swims through the wall again and grabs Emilio to bring him to us. Whaleghas floats down through the hole, still carrying Emilio. Shalkoc grabs me and unfolds his wings, carrying me down to Whaleghas' back. Plex gets grabbed and flung against Kyrin. The Living Soot grapples and restrains him within the silencing cloud of choking, but Plex burns a Mythic Power on <strong>Convincing Arguments</strong>, persuading himself he is not silenced at all. He casts <strong>Thunder Step</strong> and lands on Whaleghas' back.</p><p>Only Aviana and the Giru are left in Avernus and she is at 1 HP with a little temp HP! She uses a Mythic Power on <strong>Legendary Vigor</strong>, granting her success on Relentless Rage. She shoves the Giru away, and jumps into the hole. Kyrin catches her with telekinesis to avoid the damage from her <strong>Thunderfeet</strong>. The Giru tries to chase, but cannot seem to pass through the hole!</p><p>We all enter <strong>Dis</strong> and feel the realm effect <strong>Dispater's Iron Wards</strong>, making Divination, Illusion, and Enchantment spells really difficult if not straight up impossible.</p>"
+        },
+        {
+          "name": "88 - Sightseeing and shopping in Dis",
+          "section": "journal-pages",
+          "content": "<p><strong>Tuesday, Decimus 12</strong><sup><strong>th</strong></sup><strong>, 1497</strong></p><p><strong>23:00</strong></p><p>Whaleghas flies lower, looking for a quiet spot to land but… this place is a giant anthill, without the ants, as far as I can see that is. There are <strong>devils</strong> flying around, yikes. We fly through a sickly yellow, acrid smoke that is still so much more breathable than what passes for air in the <strong>Black Vents</strong>! The urban landscape is dominated by the <strong>Iron Tower</strong> in the distance.</p><p>Emilio comes in clutch as Aviana, Shalkoc, and Plex weren't paying attention. Whaleghas is a whale. Apparently being choked by <strong>Zariel</strong> was educational? He says Dispater is extremely paranoid and the entire city is under constant surveilance. Yeah and a flying whale isn't drawing any attention… Whaleghas is offended by the voice of god calling him fat. Aviana flexes with an inspiring quote to help Whaleghas hide in the smog, and I give him a headpat for <strong>Guidance</strong>.</p><p>We land in an alley just wide enough for Whaleghas to get through; a river of molten slag flows nearby, and the heat near grills us where we stand. Most buildings are metal, and most <strong>glow</strong> as if just taken from the forge… Let's try not to touch anything shall we? Whaleghas spits out Bigmilio who is covered in slobber and grumbles \"Never again!\", to which Whaleghas replies by giving him a big lick and one of the cat ears on his starry hoodie sticks right up. I give Kyrin the very heavy <strong>Earthboard</strong> to put inside her <strong>Portable Hole</strong>. With the sound of a deflating balloon, Whaleghas reverts to Fearghas!</p><p>Of course all this attracted attention and a <strong>Horn Devil</strong> flies down to us asking to see our flying permit, and our landing permit. Kyrin smells an amount of bullshit and asks the devil where his own flying permit is. He is confused and says he doesn't need one on account of being from here. Plex says \"How do you know we're not from here?\" The devil loses brain cells. Kyrin calls him out on trying to shake us down for money. He denies, but just then Fearghas' <strong>Bag of Scolding</strong> begins to abundantly insult him.</p><p>Just our luck, the devil thinks we insulted him. We try to explain, he does not believe us. He tells an outright lie, which deeply disappoints me, where is my White Tower bullshit!! Fearghas tries to be friendly so the devil asks why we're here. Sightseeing and shopping for clothes and spices. He mentions an incident in <strong>Avernus</strong> with a <strong>spice trader</strong>… ahahah… We start talking about <strong>Zacharias</strong>, the viceroy of the viceroy of Dispater! In between Zacharias and Dispater is <strong>Titivilus</strong>, we learn.</p><p>We ask our \"friend\" if he can recommend us a good inn. He points us to a \"cozy\" establishment called <strong>Out of Thyme</strong>. Fearghas gives the devil 3 Soul Coins and he lets us be on our way. We immediately go in the opposite direction. I'm suddenly covered in <strong>spiders</strong>!! Emilio is acting far too innocent about it. We start walking down the bone-paved street as I slap creepy crawlies away and try to not let Plex or Shalkoc catch a snack off my back. Plex is looking at these spiders with far too much interest while Aviana is turning her wings red.</p><p>Plex identifies the spiders, their entire lineage, their history and even the name of their little cousins. And they're edible, he's had similar ones before. I grill Emilio until he admits having a spider-spawning surge, and I flick him on the ankle with a <strong>Remove Curse</strong> at 9th level, then I heal us all with a <strong>Wellspring of Life</strong>. Fearghas casts a Sending to notify our allies in <strong>Mechanus</strong>.</p><p>We spot a <strong>Pit Fiend</strong> intimidating a small person, a Halfling or a Gnome. The small person shakes his head impatiently and ROASTS the Pit Fiend and threatens to turn him into an imp?! <s>All quasits are now French</s>. The Pit Fiend lets out an ear-shattering roar and takes flight, chucking Fireballs into the sky.. Kyrin, Emilio, and Plex didn't slot Earplugs on their armour… The Gnome turns around whistling, but stops the moment he sees Fearghas, who recognises him as <strong>Jubilost Narthropple the jewel-crafter</strong>. Who was killed by Kali over 6 months ago!</p><p>He is… very happy in Hell. Business is booming. What brings you down here, he asks. Sightseeing. Shopping. He invites us to his workshop for a catch-up session. He says the people of Hell recognise and encourage his genius, and provide him with materials. Jubilost takes us to his jewelcutter's workshop; tools are strewn around but everything seems covered in a fine layer of white dust, and in the middle of the room is a third of a 3m in diameter <strong>crystalline sphere</strong> with a ladder to the side, being built from the bottom up.</p><p>Fearghas puts on his <strong>Glasses of True Seeing</strong>. Every 30 feet in the street is a <strong>Scrying</strong> sensor. As we sit down, a crate in the corner bursts into flame. Jubilost sighs, douses the crate, and sits back down. I ask if this is a regular occurrence. The jewel-crafter says \"oh no it's just not very happy here\". He retrieves a <strong>piece of coal</strong> from the crate. Confused, we enquire about it. The gnome lights the coal on fire and drops it into a bowl. A tiny blue flame sparks up; a shard of a spirit, he says. Jubilost asks us to take the spirit with us, and we hurriedly agree. Emilio reaches his hand out towards the flame. Fearghas frowns, but Jubilost seems genuinely sad about the spirit.</p><p>Emilio picks up the coal; <strong>Hearthkeeper's Spark</strong>, basically a pet fire! Shalkoc is excited to have the Spark help him cook. Plex feeds a spider to the Spark, making a stink in the workshop. Shalkoc feeds a piece of chocolate to the Spark. Emilio lights matches and happily feeds them to the Spark. Jubilost is not happy with our bullshit, understandably… He explains he got the Spark when his workshop burnt to the ground.</p><p>Aviana wants to do some post-workout workout and is looking for something to lift. Fearghas finally asks about the crystal elephant in the room, I mean the sphere. Jubilost is making a giant crystal ball out of <strong>angel's tears</strong>… He tried with angel's eyes, but it didn't work as well. I feel sick and look away, but everywhere I lay eyes is more of the white dust, angel's tears… Fearghas cools down Aviana with a <strong>Prestidigitation</strong> on her clothes. Shalkoc basks in the coolness. Jubilost does not want magic in his workshop, for obvious reasons.</p><p>Kyrin is snooping, she is invisible but still leaving footprints in the dust. Just then her invisibility runs out! But Jubilost had his back to her so he doesn't see her pop into existence. Plex offers to trade gems and Jubilost offers old underwear for them. Hole-y underwear, not in the heavenly sense. Jubilost reveals he owns none of his workshop as he is owned by <strong>Titivilus</strong>. We need, of course, permits for everything; owning money, trading money, being in any 30-foot area… Nobody waits for the permits, you're supposed to pay for them.</p><p>Fearghas and Jubilost have a chat, and halfway through the gnome interrupts our friend and asks someone else to talk because he is bored listening to ONLY Fearghas. We ask where we can lay low for a bit; Jubilost talks about a <strong>mansion</strong> not far from here, which has been empty for as long as he's been here. Supposedly there is no surveilance in there, and the owner isn't coming back… The manor's owner is <strong>Zacharias</strong>! Nobody knows what happened to him, and he isn't dead. Fearghas asks if it's legal to go to the mansion. Jubilost says getting caught for trespassing is a crime… aight message received.</p><p>Kyrin asks questions about gems and Jubilost begins info-dumping on her. Aerelia is choking on watermelon, what a surprising change of pace from carrots! We talk about <strong>diamonds</strong> and the cost of spells, and Kyrin is surprised to learn I can bypass material components on spells. Heheh, sorcerers can ignore certain rules. Aviana asks for EYEglasses made of diamonds. Kyrin tells her off for wasting diamonds I could use to <em>bring people back to life</em>!</p><p>Furious shouting and cursing interrupts our friendly conversation, drawing nearer as it announces the arrival of the <strong>Pit Fiend</strong>. Jubilost strongly advises us to \"get the fuck out of here\" as we are not under anyone's protection. We walk down a road lined with caverns and eventually make it to the manor. A bridge that ends in a drawbridge, pulled up, spans a river of lava. Plex pesters Fearghas to write him permits for walking, and for talking, and for his staff, and for his hats… We lose sight of Kyrin, again, and assume she is sneaking too well for any of us to spot her. Again. <s>Aviana don't step on her again</s>.</p><p>In the lava river, two statues crouch on rocks on either side of the bridge. We are super suspicious of the statues. Fearghas casts <strong>Detect Magic</strong> ritually, which is now a 1st-level spell that would consume a 6th-level spell slot, ouch. But ritual casting bypasses spell slots. Plex is now pestering Aviana for permits, who is being surprisingly patient. On either side of the drawbridge, battlements jut out of a stone wall which the manor is built into. Shalkoc picks up two pebbles and throws them at the statues, but nothing happens.</p><p>The bridge is really low over the lava, so since Kyrin can't find any traps we cross rather quickly before the heat can fry us. Kyrin teleports to the battlements, and Shalkoc flies after her. She finds the <strong>mechanism</strong> to let down the drawbridge, and in we go! We close the drawbridge again behind us. <s>Shalkoc somehow breaks the battlemap, confusing the hell out of the DM</s>. Fearghas cautions against scattering… so naturally Shalkoc gives everyone chocolate. Plex pulls out the <strong>Instant Door</strong> but it's not working on these walls! Plex finds out the hard way the walls are magical. Emilio tries to pick the lock by the mundane use of <strong>Thieves' Tools</strong>, but nope. His lockpick gets jammed in the lock…</p><p>There is a fancy, colourful design engraved in the floor… there is dried blood over it, urgh. Plex of course Fey Steps himself into a <strong>cell</strong> on the other side of the door Emilio tried to pick. PLEX GETS INSPIRATION FOR THIS. A squeaky voice speaks to him in a language he doesn't understand. Fearghas wants the door ripped off because the goblin ran off again. Plex successfully makes an <strong>Instant Door</strong> and sneaks around very poorly. \"Hello there,\" says Plex to a tiny green thing staring at him. The green thing tries to hide but its horns and ears stick out of the hay. It's a <s>croissant</s> <strong>quasit</strong>! That's… a demon. What is it doing in Hell?!</p><p>Aviana shoulders the door into next week, then goes back to writing permits for Plex. There is a small office beyond, and another locked door between Plex and us. We kindly ask Kyrin to pick the lock and it clicks open with ease. Fearghas tells off Plex and… sees the tiny demon thing, to which Plex is offering some briar as a snack. The quasit tries to bite off Plex' hand, but he withdraws it real quick. Fearghas casts <strong>Comprehend Languages</strong> to communicate with the demon… Turns out the quasit is insulting the ever-living daylights out of Fearghas and also asking how to get out of here, as an afterthought. Plex also casts Comprehend Languages, both wizards have to cast it ritually as it is Divination and the realm effect makes it troublesome.</p><p>The quasit is not forthcoming with information nor polite. At all. Then it turns invisible. Fearghas advises to <strong>leave it alone</strong> for now. We search the office and find reports from 6 months ago, most of them about punishing servants. The <strong>last page</strong> is ripped out. We find a permit that allows the bearer to carry a permit to imprison people. We're in German gun laws bureaucracy, then… We discuss Zacharias and Fearghas and Aviana describe a dashing Tiefling in a suit, wearing a top hat and doing card tricks. Plex chimes in he was dealing with demons.</p><p>On the other side of the hall, we find a forge full of weapons. Shalkoc sneakily bites his finger to drip blood onto the intricate design in the floor in the entrance hall. The engraving soaks up the blood with supernatural speed… but nothing else happens. The ledgers in the forge have 7 or 8 pages ripped out. In the coals of the forge, now cold, a page has not quite burnt up… Fearghas can just make out the name <strong>U'usholgas</strong>. He finds some <strong>cold iron</strong>, a metal used to fight demons.</p><p>I'm trying very hard to dissuade Plex from teleporting on the other side of the door. Fearghas and Kyrin go question the invisible quasit about U'usholgas, with very little results. Plex starts painting the <strong>Knock</strong> spell on the door. Fearghas pokes Plex with the cold iron, who is very uncomfortable as <strong>fey</strong> creatures also react to that metal. \"We have a demon in the prison! That was unnecessary\", Plex grumbles.</p><p>We gather around the <strong>symbol</strong> carved into the floor and talk about blood. Aviana suggests bleeding Shalkoc above the sigil in the flor and it makes me very sad. Fearghas casts Detect Magic and sees several types of magic. The door is a big slab of carved stone with no handle or hinges, clearly magical. Kyrin sneaks back into the prison to try to catch the quasit so we place our bets. The little demon turns into a bat and camps by the ceiling. Oh it is on. Kyrin uses her shadow to extend her reach and swat him down with <strong>Shadow Strike</strong>. She catches him like a terrible little pidgeon!</p><p>The quasit makes a scary grimace at Kyrin but she gives him a little squeeze right around the throat. He tries to bite, a lot, but Kyrin carries him back to the rest of us. Fearghas grumbles and pays his wager to Aviana. The wizards understand what the quasit is screeching, and it is insulting us of course <s>gorilla warfare</s>. Fearghas translates, it's not gonna work, there is so much blood out there. We still, in Fearghas' words, \"squeeze him like a lemon\". No results, none with Fearghas' blood either. Based on the quasit's rambling and our experiments, we theorise we need… <strong>devil blood</strong>.</p><p>Kyrin and me go up the stairs to the battlements. Clearly bodies have been dumped into the lava over the crenellations, and drops of dried blood remain. Aviana bonks her head on the door, with no result. Plex <strong>Fey Steps</strong>, but appears next to Aviana as he can't control the direction he goes. Fearghas grumbles he can't cast <strong>Disintegrate</strong> on a magical object. We suggest Kyrin sneaks off, abducts a random imp, and we can squeeze that over the symbol.</p><p>She finds 3 <strong>imps</strong>, one of them digging a hole and 2 others drinking beer and watching. She creates a diversion with a ball bearing and distracts one of them. She grabs an imp, stabs it nonlethally, and happily brings it back. Fearghas slices into it, and the blood isn't absorbed into the floor, it spreads in the intricate pattern. Hmmmm, we need more… Well, off with its head. Plex loots the tiny little <strong>workman's hat</strong>.</p><p>We enter into a hall dominated by a pillar. There is a swirling sound like a… <strong>portal</strong> opening…? Kyrin casually rolls a 34 on Stealth and possibly dips into the Ethereal plane. Then Fearghas, with a 35 on Arcana, figures out the portal will take exactly 7 minutes to open. Quick, loot every room!! We roll initiative like DEMIGODS, nothing under a 16 and most over 20. We're wasting all our good rolls! Shalkoc tests a bed for comfort. Plex picks up a lot of paper (permits?). Kyrin opens a chest so sneakily that it doesn't remember being opened; it's never been touched like this! She vaccuums up <strong>3000 gold</strong>.</p><p>Fearghas identifies the portal as a one-way portal to the <strong>Abyss</strong>, and doesn't think anything can come through. We're not under time pressure, so we start investigating the entire area. To the right of the portal room, we find a comfy study or office, one wall of which holds a door obviously opened with a key in the shape of a stylised wing. In the inkwell is a quill made of a <strong>harpy's feather</strong>. The inkwell contains a lot of <strong>Abyssal Nail Polish</strong>! There is another locked door. We guess it leads to a treasure vault, so Fearghas teleports to the other side with a <strong>Dimension Door</strong>. Just as he starts looting, he gets a Sending back from <strong>Mechanus</strong>, we must go back as soon as possible!</p><p>Fearghas herds us like kittens and casts <strong>Plane Shift</strong>, but Aviana does need to go grab Plex by the neck before he can cast Gravity Sinkhole and gets us into massive trouble. We hurry through the formalities of entering Axis, and make it to the room where <strong>Zariel</strong> has been summoned. She is glowering at us. Dis was hot, but the archduchess of Avernus is making the Plane of Fire seem cool now. The Modrons ask Kyrin to hand over the <strong>Beacon of Doom</strong>. Master Kazzim is also here and he is very sad to see the Beacon go. We all sign the contract devised by the denizens of Mechanus.</p><p>\"Pleasure doing business with ya,\" Fearghas says to Zariel. With this we are <strong>free</strong> from our contracts and we can <strong>buy passage</strong> into Dis from the Bronze Citadel! (for the low price of 5000 gold per person) Kyrin says to Zariel, \"Shaik sends her regards.\" Zariel is fuming so much, the nearby Modrons are starting to melt. She turns on her heels, and <strong>Plane Shifts</strong> away.</p><p>Plex exchanges trinkets with Master Kazzim; his <strong>Fabulous Appearance</strong> trap, which goes off, for a model <strong>flying balloon</strong>.</p><p>Aviana pulls out the <strong>Transdimensional Anchorchain</strong> to take us back to Promise. Plex hangs from the chain as he is helping with <strong>Adjust Density</strong>. Fearghas' Guidance makes her pass the strength check on the second try; the Material Plane is pulled towards Mechanus and we all jump through. Aviana is last, and she gets LAUNCHED through the portal at mach 7, misses the cabin, gets catapulted up the slope of her roost and soars back to the town, leaving a crater when she falls. \"Just gotta work on my landing!\"</p><p>We check on the people of Promise, and find <strong>General Ragvond</strong> of the Frost Giants still here. They set up tents in the market square, and their armour is damaged. Ragvond greets us, seeming tired. He says the town was attacked by… undead dragons?! He is very proud of defending the town and most importantly the brewery.</p><p>The island is still travelling towards <strong>Taldor</strong>, where I plan to hire people to investigate <strong>Ildilas</strong>. We learn the children of Promise apparently like <strong>Kali</strong> and <strong>Joline</strong> a lot, and the parents are complaining the two women have been teaching their kids… how to set trap, how to become poisoners, and also archery so some of the kids have returned with arrow wounds. Oops. Kyrin hugs Kali, and the Spidrow freezes, she is not a very affectionate person.</p><p>Fearghas asks about the undead dragons, and if Kali has any more information about them. She brings up the undead army in <strong>Lessia</strong>. Kali warned the Frost Giants so they were ready to face the attack. We tell her about the <strong>vending machines</strong> from Mechanus and she is confused, don't blame her. We discuss the whole \"teaching archery to children by letting them shoot one another\". It's really not as bad as it sounds. We discuss, at length, the children of Promise and their education. The <strong>Springseed</strong> trees are growing nicely, though one of the saplings has a tendency to run off, ah well, even trees can be troublesome.</p><p>We retire to the cabin and look through our loot. Fearghas pays Plex 100gp just so he shows off the papers and scrolls he grabbed from Zacharias' manor. Kyrin distributes the <strong>gold</strong> she looted. Aviana triggers one of Plex' traps, which causes a <strong>surge</strong> turning her skin grey, and another surge poisoning her. Meanwhile Plex gets a surge that cannot be removed and… he gains proficiency with <strong>painter's tools</strong>. All his practice on hags paid off.</p><p>Aviana shrieks PLEEEEEEEEEEEEEEEEEEEEEEX!! and the goblin casually replies \"I did nothing, you knew I trapped the house!\" and Emilio shrugs and says \"I did not eat the Emissary, it just fell through my portal\". Right. Then Aviana opens another door, triggering another of Plex' traps… this one had <strong>Troll musk concentrate</strong>. Now we need to clean the house, Shalkoc says. And another hurting stone shouts OW.</p>"
         }
       ]
     },
@@ -9108,7 +9206,7 @@
         {
           "name": "Plex's Notes",
           "section": "journal-pages",
-          "content": "<p>Temporary inventory:</p><p><br>I traded the fancy robe i made with Chalkoc<br><br><br><br><br>Whenever Plex notices a attack or simular (such as a charge or grapple) being made against him in melee range.<br></p><p></p><p>Im not able to enter the FrostGiants In annymore<br><br><br>The sales deal with the beer to the giants and the exclusivity part only applies \"Within the city gates\"<br><br><s>Ferghas owes me a favor for trading 2 silvertears.</s><br><br>I hide some food in the library in the tower (<span>behind the section for Elven history)</span>. <br><br><br>Brigh - the godess of Inventions</p>"
+          "content": "<p>Temporary inventory:</p><p><br>I traded the fancy robe i made with Chalkoc<br><br><br><br><br>Whenever Plex notices a attack or simular (such as a charge or grapple) being made against him in melee range.<br></p><p></p><p>Im not able to enter the FrostGiants In annymore<br><br><br>The sales deal with the beer to the giants and the exclusivity part only applies \"Within the city gates\"<br><br><s>Ferghas owes me a favor for trading 2 silvertears.</s><br><br>I hide some food in the library in the tower (<span>behind the section for Elven history)</span>. <br><br><br>Brigh - the godess of Inventions<br><br><br>Permits: </p><p><br>81 permits for every different i have on me<br><br>Visit Permit. <br>Spellcasting permit.<br>Walking permit. <br>Trading permit. <br>Running Permit<br>Freedom Permit<br>Warrant for house entry. <br>\"Get out of jail free\" Card.<br>Breaking the law Permit. <br>Everything Permit<br>Permit Permit<br>Flying Permit</p>"
         },
         {
           "name": "1",
@@ -9133,7 +9231,7 @@
         {
           "name": "Inventory",
           "section": "journal-pages",
-          "content": "<ul><li><p>important bowl of a dead man</p></li><li><p>1/2 Handfull of grilled maggots</p></li><li><p>Fishbone with magical Energy</p></li><li><p>10x Cow Bell</p></li><li><p>200x Stack of parchment</p></li><li><p>Angel feather from Ezeriel</p></li><li><p>ball of Wool</p></li><li><p>Coral fragment</p></li><li><p>spellbook</p></li><li><p>1x pyrope (500g)</p></li><li><p>sea urchin</p></li><li><p>2x coconut shell</p></li><li><p>jade</p></li><li><p>Forked Metal Rod</p></li><li><p>Dried meat ((<span>I hidd some food in the library in the tower (</span><span>behind the section for Elven history)</span><span>.)</span></p></li></ul>"
+          "content": "<p></p><ul><li><p>1/2 Handfull of grilled maggots</p></li><li><p>Fishbone with magical Energy</p></li><li><p>10x Cow Bell</p></li><li><p>111x Stack of parchment</p></li><li><p>Angel feather from Ezeriel</p></li><li><p>ball of Wool</p></li><li><p>2x Coral fragment</p></li><li><p>spellbook</p></li><li><p>2x pyrope (500g)</p></li><li><p>sea urchin</p></li><li><p>1x coconut shell</p></li><li><p>jade</p></li><li><p>Forked Metal Rod</p></li><li><p>Wooden Chicken Statue with Knife beak</p></li><li><p>Gas mask made from \"important bowl of a dead man\"</p></li><li><p>Dried meat ((<span>I hidd some food in the library in the tower (</span><span>behind the section for Elven history)</span><span>.)</span></p></li><li><p>Flying Permit (made by Ferghas)</p></li><li><p>Everything Permit (made by ferghas)</p></li><li><p>76 permits for every different i have on me except for 5 of my hats</p></li><li><p>Visit Permit. </p></li><li><p>Spellcasting permit.</p></li><li><p>Walking permit. </p></li><li><p>Trading permit. </p></li><li><p>Running Permit</p></li><li><p>Freedom Permit</p></li><li><p>Warrant for house entry. </p></li><li><p>\"Get out of jail free\" Card.</p></li><li><p>Breaking the law Permit. </p></li><li><p>Everything Permit</p></li><li><p>Permit Permit</p></li><li><p>Flying Permit</p></li><li><p>Currency Permit</p></li><li><p>Permit to have a permit to imprisson someone. </p></li><li><p>A bunch of Papers (presumably permits and or scrolls)</p></li><li><p>Model of a Airship</p></li></ul>"
         }
       ]
     },
@@ -9143,7 +9241,7 @@
         {
           "name": "Spice List",
           "section": "journal-pages",
-          "content": "<table><thead><tr><th><strong>Spice</strong></th><th><strong>Uses Left</strong></th><th><strong>Effect</strong></th></tr></thead><tbody><tr><td><strong>@UUID[Compendium.talia-custom.customItems.Item.A7wJJETeerqAwLcs]{Aloe Vera}</strong></td><td>0</td><td>Reduces slashing damage by 5</td></tr><tr><td><strong>@UUID[Compendium.talia-custom.customItems.Item.TEkrX46i1wQWXniR]{Cardamom}</strong></td><td>6</td><td>Reduces poison damage by 5</td></tr><tr><td><strong>@UUID[Compendium.kctg-5e.kctg-dnd5e.Item.wfwpfrZMwhGKsQBY]{Chili Pepper}</strong></td><td>0</td><td>+10 ft bonus to walking speed</td></tr><tr><td><strong>@UUID[Compendium.talia-custom.customItems.Item.37byLEOrr7eOoDCt]{Eucalyptus}</strong></td><td>6</td><td>Reduces lightning damage by 5</td></tr><tr><td><strong>@UUID[Compendium.talia-custom.customItems.Item.O3Nj34dtznnHcQIb]{Ginger}</strong></td><td>0</td><td>+1 to Strength, Dexterity &amp; Constitution saving throws</td></tr><tr><td><strong>@UUID[Compendium.talia-custom.customItems.Item.P5RUoFFYRkJTM9XS]{Ginko Leaves}</strong></td><td>0</td><td>Gain <strong>1d4</strong> Intelligence, Wisdom, &amp; Charisma saving throw bonus</td></tr><tr><td><strong>@UUID[Compendium.talia-custom.customItems.Item.cop7hl0oiQGWjj5Z]{Ginseng Root Powder}</strong></td><td>0</td><td>Increases max HP by 30</td></tr><tr><td><strong>@UUID[Compendium.talia-custom.customItems.Item.n9ZE2yVOd7hNAF7N]{Lavender}</strong></td><td>10</td><td>Reduces psychic damage by 5</td></tr><tr><td><strong>@UUID[Compendium.talia-custom.customItems.Item.daMVQIzWsUeyKSAq]{Licorice Root}</strong></td><td>7</td><td>Reduces acid damage by 5</td></tr><tr><td><strong>@UUID[Compendium.talia-custom.customItems.Item.67xU5Km4jCmROkyh]{Mustard Seeds}</strong></td><td>0</td><td>Reduces bludgeoning damage by 5</td></tr><tr><td><strong>@UUID[Compendium.talia-custom.customItems.Item.fO7KVcC0tel0Ms1a]{Rhubarb}</strong></td><td>3</td><td>Reduces thunder damage by 5</td></tr><tr><td><strong>@UUID[Compendium.talia-custom.customItems.Item.i0S8R77W3QvYeuMX]{Saffron}</strong></td><td>0</td><td>+2 bonus to initiative</td></tr><tr><td><strong>@UUID[Compendium.talia-custom.customItems.Item.9fmDsUZ3ytdW0zP5]{Sassafras}</strong></td><td>2</td><td>Reduces fire damage by 5</td></tr><tr><td><strong>@UUID[Compendium.talia-custom.customItems.Item.E9AQZVIh7GsjV4NP]{Star Anise}</strong></td><td>0</td><td>Gain +2 bonus to AC</td></tr><tr><td><strong>@UUID[Compendium.talia-custom.customItems.Item.wFMmTzgmnXrVbvtN]{Vanilla}</strong></td><td>3</td><td>Reduces necrotic damage by 5</td></tr><tr><td><strong>@UUID[Compendium.talia-custom.customItems.Item.V5C6Optl1b8mgFLb]{Wasabi}</strong></td><td>6</td><td>Reduces cold damage by 5</td></tr><tr><td><strong>@UUID[Compendium.talia-custom.customItems.Item.QAKsZztxUBcMhGet]{Yarrow}</strong></td><td>2</td><td>Reduces piercing damage by 5</td></tr></tbody></table>"
+          "content": "<table><thead><tr><th><strong>Spice</strong></th><th><strong>Uses Left</strong></th><th><strong>Effect</strong></th></tr></thead><tbody><tr><td><strong>@UUID[Compendium.talia-custom.customItems.Item.A7wJJETeerqAwLcs]{Aloe Vera}</strong></td><td>5</td><td>Reduces slashing damage by 5</td></tr><tr><td><strong>@UUID[Compendium.talia-custom.customItems.Item.TEkrX46i1wQWXniR]{Cardamom}</strong></td><td>6</td><td>Reduces poison damage by 5</td></tr><tr><td><strong>@UUID[Compendium.kctg-5e.kctg-dnd5e.Item.wfwpfrZMwhGKsQBY]{Chili Pepper}</strong></td><td>5</td><td>+10 ft bonus to walking speed</td></tr><tr><td><strong>@UUID[Compendium.talia-custom.customItems.Item.37byLEOrr7eOoDCt]{Eucalyptus}</strong></td><td>10</td><td>Reduces lightning damage by 5</td></tr><tr><td><strong>@UUID[Compendium.talia-custom.customItems.Item.O3Nj34dtznnHcQIb]{Ginger}</strong></td><td>3</td><td>+1 to Strength, Dexterity &amp; Constitution saving throws</td></tr><tr><td><strong>@UUID[Compendium.talia-custom.customItems.Item.P5RUoFFYRkJTM9XS]{Ginko Leaves}</strong></td><td>3</td><td>Gain <strong>1d4</strong> Intelligence, Wisdom, &amp; Charisma saving throw bonus</td></tr><tr><td><strong>@UUID[Compendium.talia-custom.customItems.Item.cop7hl0oiQGWjj5Z]{Ginseng Root Powder}</strong></td><td>0</td><td>Increases max HP by 30</td></tr><tr><td><strong>@UUID[Compendium.talia-custom.customItems.Item.n9ZE2yVOd7hNAF7N]{Lavender}</strong></td><td>15</td><td>Reduces psychic damage by 5</td></tr><tr><td><strong>@UUID[Compendium.talia-custom.customItems.Item.daMVQIzWsUeyKSAq]{Licorice Root}</strong></td><td>9</td><td>Reduces acid damage by 5</td></tr><tr><td><strong>@UUID[Compendium.talia-custom.customItems.Item.67xU5Km4jCmROkyh]{Mustard Seeds}</strong></td><td>4</td><td>Reduces bludgeoning damage by 5</td></tr><tr><td><strong>@UUID[Compendium.talia-custom.customItems.Item.fO7KVcC0tel0Ms1a]{Rhubarb}</strong></td><td>9</td><td>Reduces thunder damage by 5</td></tr><tr><td><strong>@UUID[Compendium.talia-custom.customItems.Item.i0S8R77W3QvYeuMX]{Saffron}</strong></td><td>7</td><td>+2 bonus to initiative</td></tr><tr><td><strong>@UUID[Compendium.talia-custom.customItems.Item.9fmDsUZ3ytdW0zP5]{Sassafras}</strong></td><td>5</td><td>Reduces fire damage by 5</td></tr><tr><td><strong>@UUID[Compendium.talia-custom.customItems.Item.E9AQZVIh7GsjV4NP]{Star Anise}</strong></td><td>2</td><td>Gain +2 bonus to AC</td></tr><tr><td><strong>@UUID[Compendium.talia-custom.customItems.Item.wFMmTzgmnXrVbvtN]{Vanilla}</strong></td><td>6</td><td>Reduces necrotic damage by 5</td></tr><tr><td><strong>@UUID[Compendium.talia-custom.customItems.Item.V5C6Optl1b8mgFLb]{Wasabi}</strong></td><td>8</td><td>Reduces cold damage by 5</td></tr><tr><td><strong>@UUID[Compendium.talia-custom.customItems.Item.QAKsZztxUBcMhGet]{Yarrow}</strong></td><td>6</td><td>Reduces piercing damage by 5</td></tr></tbody></table>"
         },
         {
           "name": "Spider Recipe",
@@ -9236,7 +9334,17 @@
           "content": "<h3>As told by the Dwarves</h3><p>In the days of yore after Torag had chiseled the Dwarves from solid rock in his image, our ancestors flourished under his tutelage. They built grand halls and forged weapons, armors, and trinkets, as mighty as they were beautiful, and Torag was proud of them. They mined deep, uncovering ever richer veins of ore, but eventually Torag came to them and warned them to not dig any deeper. Something profane lay below, he told them, and our ancestors were wise enough to heed our creator's augury without question.</p><p>For some foolish few however, this councel wasn't enough and in their quest to sate their own greed and curiosity, they continued ever deeper, and Torag's heart grew heavy, for he knew they'd soon find what he tried to protect them from. Our ancestors worried for their kin but when the fools returned, our ancestors wept for they realised that they were kin no more. Their skin was burnt and blackened, and their eyes shone like smoldering embers, and when Torag saw this, he came and called them Duergar, and exiled them, for they were his children no longer. The Duergar pleaded for forgiveness but Torag knew their wrong was too great and when he denied them, the Duergar denouced him and crawled down into the deepest reaches of the Underdark, their hearts forever filled with hatred and spite.</p><h3>As told by the Duergar</h3><p>In the days of yore after our Father had chiseled the Dwarves from solid rock in his image, we all flourished under his tutelage. We built grand halls and forged weapons, armors, and trinkets, as mighty as they were beautiful, and our Father was proud of us. We mined deep, uncovering ever richer veins of ore, but eventually he came to us and warned us to not dig any deeper. He told us to be afraid. \"Something profane lay below\", was all he spoke, expecting us to do his bidding with a the blind and unquestioning obedience of a child, and many lucky fools did.</p><p>Yet some of us yearned for understanding, striving like any child to one day to become as wise as our beloved Father. And so they forged on and soon found the flame our Father tried to protect us from. It burnt us, charred our skin, and we called it Azgal, the Ebon Fire. We fled in terror back to our Father and brothers, yet upon our return, we were met not with warmth and succor, but with cold contempt and scorn. Confused we pleaded for our Father's forgiveness, but he betrayed us, renounced us, denied us as his children, and called us Duergar. For this is when we finally realised that our beloved Father views us not as children to be raised but as cattle to be kept under a yoke. And our former brothers stood by and watched, their eyes first showing the very look of superiority with which they still look down on us today, for they don't mind being nothing but obedient dogs as long as they get to sit next to our creator's feet.</p>"
         }
       ]
+    },
+    {
+      "name": "Story - Within the Mist",
+      "pages": [
+        {
+          "name": "A Brewer and a Butcher",
+          "section": "journal-pages",
+          "content": "<p>The damp cold of Krasnograd was fertile soil for nightmares to grow in. Stanislav crawled into bed in his clothes while the fire glowed infuriatingly, its dying embers far from enough to provide warmth. He didn't need the feeble light. Even the cold wasn't the worst of it. But this damp, even when rain froze into snow ere it fell, the constant shroud of humidity that manifested in mist… <em>that</em> was maddening. It made the cold bite deeper, obscured sight, and generally made life miserable. Stanislav yearned to keep the fire burning through the night, but all the timber he could afford was pine. It would blaze bright and high, the resin crackling, and in minutes the fire would die down. There was plenty of pine to go around. Slow-burning oak, though, was a luxury reserved for the burghers and the aristocrats. Low folk like him slept in damp cold.</p>\n<p>Stanislav realised he was grinding his teeth. He stopped, knowing full well he would subconsciously begin again in a moment. He distracted himself by opening his mind to the darkness, within and without, and touched the fabric of magic. He brushed against the invisible strands, caressing them, savouring their presence. Responding to his will, a dark flame burst into existence just in front of his face. It produced no light, but he made it as warm as he could. The radiating heat dispelled some of the damp; Stanislav felt himself relax. The flame would endure after he drifted off, not very long, but enough for him to be fast asleep. Or so he hoped. He had used this trick in the past, and he'd woken up in the damp the minute the magic dissipated. He tried not to make it a habit, anyway. There was always danger to using magic, even a weak spell like this one. Lately, the damp had been unbearable. He lived in a shack, with more holes than solid wall. A good kick would tear the door right off its hinges. Tomorrow, this would begin to change. He would get paid; at least he hoped he would. Stanislav's thoughts began to unravel as the black flame lulled him to sleep. His final thought, heavy with spite, was that even a dreary shack was better than the house he had grown up in. He would choose being alone in the cold in a heartbeat, over spending another minute in Nikodim's house.</p>\n<hr>\n<p>Iosif's face was lost in the shadows. He was a tall man but he walked with his shoulders slumped. He slouched when he sat, too. As if a blanket of wet wool was draped over his shoulders, that no one could see. Stanislav looked away from his father's face, and down to the uneven paving stones. His shoes were worn; a bit of woollen sock poked though at the toe. The cold was bitter today, the sky uncommonly clear. Iosif's hand rested heavy on the boy's head, making his skin erupt in gooseflesh. His heart raced, the blood beat in his legs. He crouched ever so slightly, ready to take off at a dead run.</p>\n<p>\"We aren't friends, Iosif. Why would I agree to this?\" </p>\n<p>A rough voice, in front of Stanislav. He peeked at the shoes of the man facing his father. Stout stained shoes, but free of holes.</p>\n<p>\"I've heard your wife gave you a daughter,\" Iosif slurred. \"Congratulations, and all. You'll need a man to work, though.\"</p>\n<p>\"And so you bring me your boy?\" Disapproval in Nikodim's voice, he was unconvinced.</p>\n<p>\"He's no boy of mine,\" Iosif spat. \"It's because of him… because of him, Nastasya is gone. I'm alone. Take him, and give me something to drink.\"</p>\n<p>The other man sighed. \"You'll regret that once you're sober.\"</p>\n<p>\"Never!\" Iosif barked. </p>\n<p>His hand formed a claw, his nails digging into Stanislav's scalp. The boy stood very still, his heart pounding in his throat. He could run. He could bolt and never see either of those men again. And where would he go? He was only seven. Who would feed him? Where would he sleep? He did have his tricks, but…</p>\n<p>\"Fine, I'll take him,\" Nikodim said. \"I could use an extra pair of hands, especially now Yegor caught the chills. I'll give you a crate for him.\"</p>\n<p>\"Two.\"</p>\n<p>\"One and a half and you'll get no more from me.\"</p>\n<p>\"Two, or you can teach your infant daughter to stir.\"</p>\n<p>\"You'll be the death of me, man. Two crates for the boy.\"</p>\n<p>They shook hands on it, and so Stanislav was sold to the brewer for two crates of beer. He never saw his father again.</p>\n<hr>\n<p>Stanislav thrashed on his mouldy pallet, knowing in the dark depths of his heart the nightmare had only begun. He would have preferred to dream of monsters, of fangs and claws, of growls in the night. He would have given much to dream of hulking beasts stalking him for his lifeblood. Even dreams of the undead haunting this land and preying on people's minds would have been better. But he knew, as did anyone who didn't drown their wits in drink, that no wild beast of wayward spirit of Strazhland could ever be as monstrous as the land's own people.</p>\n<p>He was eight and a half, he thought. It didn't matter a lot; Yegor and Mikhail were still older than him. They were the brewer's apprentices who were learning the craft, helping Nikodim produce more drink and earn more coin to feed his wife and daughter. Stanislav was not an apprentice. The other boys were cold with him, following their master's example. They'd put sawdust in his bed, itchvine in his shirts, mud on his toothbrush. Maruska took pity on him sometimes, when she wasn't caring for baby Klara. The extra rolls of dark bread, given when nobody was looking; the thick new socks appearing in the chest at the foot of his bed; the errands he was sent on with a few coppers in hand and the hushed instruction to buy a piece of candy… they made it bearable.</p>\n<p>Stanislav had just returned from one of those, the taste of sugar still on his tongue. He carried a sack of dried hops, separated into smaller labelled bags. He hurriedly took off his shoes, his socks damp from the snow. He slipped into his hard clogs, ignoring the wet socks with all his might.</p>\n<p>\"What took you so long?\" Nikodim bellowed from the workshop.</p>\n<p>Stanislav ran over and offered the sack of hops to his master, who snatched it. He opened it and counted the bags, then glared at the boy.</p>\n<p>\"You didn't steal any, did you?\"</p>\n<p>\"No, master.\" What would he even do with those? They were dry and bitter… or so he guessed.</p>\n<p>Nikodim cuffed him over the ear. \"Don't speak so insolently and make yourself useful. Kettle three needs cleaning, mind that you give it a good scrub this time.\"</p>\n<p>Stanislav bowed his head and scurried away, clogs clacking on the tiles. He snatched a boar-bristle brush and a rough linen rag from the shelf, scooped up a handful of soap shavings from the box in a drawer, and grabbed a tin bucket. He dumped the soap flakes in, and went to the workshop pump to fill the bucket. He all but let himself hang from the heavy handle, jumping up and down to get the water flowing. Rag hanging from his belt, he threw the brush into the cold soapy water and lugged the bucket to the kettle. It had been lain on his side for cleaning, and was big enough for an adult to crawl into. Not that Nikodim ever would. Cleaning was Stanislav's work. The other boys cleaned too; there was plenty of scrubbing to do in a brewery. But the other boys also brewed, helped with recipes, and handled a variety of instruments which purpose Stanislav could only guess at. He only ever cleaned. Wooden barrels and vats, the bronze kettles, funnels and sieves, scales and pans, the long-handled spoons to stir the wort. And bottles, of course. Stanislav cleaned enough bottles to dream of them most nights.</p>\n<p>He crawled into the kettle, all the way to the bottom of it, and started scrubbing. The smell of bronze quickly mixed with the heavy, bittersweet smell of wort. His arms ached as he worked. Sweat stung his eyes. The air was immobile and stale and so, so damp. Crawling back out to rinse the brush was a treat. The taste of candy was all but forgotten now. Taking one last breath of drier, cooler air, Stanislav crawled back in. His shirt clung to his back. He wanted to be done with this so bad. His stomach growled. The work was not even half-done. If only he could speed this up. He was never fast enough for Nikodim anyway, never thorough enough. Every task had to be performed twice at least, with a cuff over the ear and a reprimand. What would it matter if he bungled it the first time? His ear burnt, blood beating in time with his frustration. He scrubbed with a vengeance, his thoughts racing. What if the opposite happened? What if he did it so well this time that even his tyrannical master could find no reason to punish him? What if…</p>\n<p>What if he used his tricks? </p>\n<p>Stanislav knew it was a bad idea, but he was just so tired. The heat in his ear made it difficult to think. His legs trembled. His arms were numb, the skin of his hands wrinkled. The smells of boiled grain, bitter hops, and metal twisted his stomach. Closing his eyes, Stanislav gave in to temptation. He reached out with his mind, touching <em>something</em> that was always here, his companion at night. His eyes went cold as if made of snow. He opened them to the dark bottom of the kettle. He saw clearly each bit of grain and froth clinging to the metal. A thrill raced through him as he used his trick. At his bidding, a patch of dirt vanished, leaving the metal shining and good as new. He would never have done so clean a job with the brush and rag! Exulting, Stanislav prepared to repeat the trick on another patch of the kettle. The job would be done in no time.</p>\n<p>A big hand grabbed him at the back of the neck and yanked him out. The fingers wrapped around his throat, making it painful to breathe. Stanislav found himself facing Nikodim, way too close. The brewer's face was red, his thick lips curled in disgust below a moustache like a giant slug. Stanislav's stomach lurched. The cold faded from his eyes, but he knew it was too late. He'd been caught.</p>\n<p>\"What did you just do?\" Nikodim asked, his voice terrifyingly quiet.</p>\n<p>\"Cleaning, master.\"</p>\n<p>\"Don't be clever with me. That was magic.\"</p>\n<p>Stanislav drew a painful breath and looked down. The brewer only tightened his grip.</p>\n<p>\"You used magic in my brewery, on my equipment.\"</p>\n<p>There was no use denying it. Stanislav nodded. If Nikodim just looked inside the kettle, he would see how clean it was! Surely that wasn't so bad? The brewer took a deep breath.</p>\n<p>\"Come along, boy.\"</p>\n<p>It was not a question; he dragged Stanislav by the neck. Through the workshop, through the shop in the front, outside the house. In silence, they crossed the street to the butcher's shop. They entered, Nikodim greeting the butcher with a gesture. No words were exchanged, and Stanislav didn't dare look up. He was dragged through the shop and into the room beyond. The smell of blood assaulted his senses. Nikodim twisted his grip, making him look up. The butcher's workshop was a small room with another door left ajar, offering a glimpse of buckets full of snow and carcasses hanging from the ceiling. Opposite the door, a long table was built into the wall, covered in scraps of meat. Above it hung a wide array of knives. The far side of the room, facing the door to the shop, was dominated by a heavy machine all gleaming dark metal. A ladder led up the back of it, to a large funnel. A gangly boy with a patch of scruff on his chin was standing at the bottom of the ladder, carrying a crate heaped with chunks of meat, streaked with white tendons and tough nerve. A small girl, maybe Stanislav's age, turned the handle on the machine. She pushed her entire body weight on it to make it swing down, then used the momentum to bring it back up. Her simple dress was dark, but the stains were nonetheless obvious. She was focused on her task and didn't look up. Maybe she was a little too focused. The older boy stepped away from the ladder, looking down.</p>\n<p>Nikodim stalked up to him and snatched a chunk of bloody meat from the crate. He dragged Stanislav up the ladder and pushed his head close to the funnel.</p>\n<p>\"Look,\" he grated. \"Look well.\"</p>\n<p>Pushing the boy's face closer, so close his nose nearly touched the iron teeth of the meat grinder, he dropped the chunk of meat into the funnel. The machine devoured it, metal gnashing against metal, crushing the meat between them. The tough flesh was squished and torn. A drop of blood splashed on Stanislav's cheek. The brewer dragged him down the ladder, past the little girl, to a metal tub the machine fed into. Coarsely ground meat dropped through the grate into the tub. Nikodim made Stanislav look across the room at the carcasses hanging among the buckets of snow.</p>\n<p>\"Does the meat in the bucket look anything like the animals?\" The brewer asked, his voice trembling with fury.</p>\n<p>\"No, master.\"</p>\n<p>\"Does it look like it was ever alive?\"</p>\n<p>\"No, master.\"</p>\n<p>Nikodim knelt in front of him, still holding his neck, face uncomfortably close.</p>\n<p>\"If you ever use that foul magic of yours in my workshop again, or in my house, or anywhere near me, I will put you in that grinder. The gods as my witness, it will be your meat through that grate, and your bones for glue. Do you understand me?\"</p>\n<p>\"Yes, master.\"</p>\n<p>\"Speak up!\"</p>\n<p>\"I understand, master.\"</p>\n<p>Nikodim released his grip then, shoving Stanislav. The boy stumbled and fell, his nose filled with the stink of blood and raw meat. He scrambled to his feet, his stomach clenched like a fist.</p>\n<p>\"You go back to the workshop now. And scrub that kettle. Properly. Any magic, and you know what happens.\"</p>\n<p>Stanislav ran.</p>\n<p>Nikodim made him scrub the kettle three times, late into the night. There was no dinner for him when he was done, not that he had wanted any. He was sick that night.</p>\n<hr>\n<p>Stanislav woke with a start, his heart pounding out of his chest. The damp chill held him like vines wrapped around his limbs. He felt at his throat, gasping. His eyes were icy as he looked around the room. In the shard of mirror on his nightstand he saw they had turned black again, eyeballs as flooded with ink. He made them bend to his will, made them return to their usual grey. In the weak light of dawn he lay on his back, breathing, cursing the nightmare. He was not a child anymore. He had escaped. His past no longer existed, so why did it still torment him? Why would it not go away?</p>\n<p>He got up stiffly and tried smoothing the wrinkles from his clothes, to no avail. Grinding his teeth, he stripped off his shirt and cracked the thin layer of ice in his washbowl. The chill did him good, and he washed away the sweat from the nightmare. He pulled on a clean shirt and scrubbed his teeth. With luck, he could afford a good breakfast before going to his new job. Not one of those gritty, dense rolls made of boiled malts. He longed for white bread made of clean wheat, a treat that smelled nothing like beer wort. Stretching, Stanislav wrestled with himself for a short while, then gave in. He embraced the dark power within and conjured up a flame in mid-air, burning the humidity from the room. He filled the cramped space with the smell of baking bread and turnip stew. He warmed his hands around his black flame. He made blue sparks dance in the room, covered the walls in fanciful symbols, made a knife appear in his hand and then vanish. He conjured up illusory candy, revelling in the power flowing through his mind. As usual, letting the magic go was an ordeal. It was not foul. It was not shameful. It was part of him.</p>\n<p>He would not be a terrified little boy. If his past would not be buried, he would burn it with his magic, until not even ashes were left. He pulled on his coat and stalked out, locking the door with a wave of his hand. The smell of pastries wafted from up the street. He counted the coins in his purse and made up his mind. He would be paid tonight. Things would change. He bought as many treats as he could eat.</p>"
+        }
+      ]
     }
   ],
-  "ingameDate": "Decimus 12, 1497"
+  "ingameDate": "Decimus 13, 1497"
 }
