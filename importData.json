@@ -550,14 +550,6 @@
         "attunementLabel": ""
       },
       {
-        "name": "Activated: Borrowed Knowledge - 2nd",
-        "description": "<div><p>You draw on knowledge from spirits of the past. Choose one skill in which you lack proficiency. For the spell's duration, you have proficiency in the chosen skill. The spell ends early if you cast it again.</p></div>",
-        "section": "physical-items",
-        "quantity": 1,
-        "combinedLabel": "Spell Gem",
-        "attunementLabel": ""
-      },
-      {
         "name": "Find Traps",
         "description": "<div><p>You sense the presence of any trap within range that is within line of sight. A trap, for the purpose of this spell, includes anything that would inflict a sudden or unexpected effect you consider harmful or undesirable, which was specifically intended as such by its creator. Thus, the spell would sense an area affected by the <strong>alarm </strong>spell, a <strong>glyph of warding </strong>or a mechanical pit trap, but it would not reveal a natural weakness in the floor, an unstable ceiling, or a hidden sinkhole.</p><p>This spell merely reveals that a trap is present. You don't learn the location of each trap, but you do learn the general nature of the danger posed by a trap you sense.</p></div>",
         "section": "spell-items",
@@ -767,7 +759,7 @@
         "name": "Martyr's Locket",
         "description": "<p>A Martyr's Locket is an unassuming and unadorned gold pendant, deliberately plain and with a blank canvas inside. Blessed by the divine light of Mount Celestia, they are offered by the angelic hosts of Heaven to those seeking to perform acts of true empathy - often given freely to poor sinners looking for penance.</p><p>The belief that the truest measure of a soul is not in avoiding hardship, but in the willingness to bear the burdens of others, is a belief not just common amongst the denizens of Heaven but also shared by their mortal followers. As such, many monasteries across the realms which are dedicated to lawful good deities or principles, welcome donations of used lockets and display them in quiet galleries where each captured portrait of a moment of sacrifice serves as a silent lesson in courage and compassion for all to witness. Novitiates spend hours in silent contemplation before them, learning not only from dusty tomes, but from the faces of ordinary people captured in their single greatest moment.</p><p><strong>Moment of Martyrdom.</strong> When another creature you can see becomes affected by a curse (or an effect that can be ended or removed via the Remove Curse spell), you can activate the locket (no action required) to take the curse upon yourself instead. This ability cannot be used if the other creature isn't willing or if you are immune to any the curse's effects.</p><p>When the item is activated this way, the locket becomes a nonmagical @UUID[Compendium.talia-custom.customItems.Item.dQQKUD2XEIMNbGXl]{gold locket with a painted portrait inside} (DMG, p134), depicting you in the moment you took the curse upon yourself.</p>",
         "section": "physical-items",
-        "quantity": 4,
+        "quantity": 8,
         "combinedLabel": "Exotic Currency",
         "attunementLabel": ""
       },
@@ -914,30 +906,6 @@
         "attunementLabel": ""
       },
       {
-        "name": "Adept Forager",
-        "description": "<p>You have advantage on Survival checks and you add your Constitution modifier to these checks.</p>",
-        "section": "feature-items",
-        "requirements": "Elk Spirit"
-      },
-      {
-        "name": "Battering Ram",
-        "description": "<p>When you take the Attack action on your turn, you can replace one of your attacks with a special charge attack.</p><p>You move up to 50 feet in a straight line that is 5 feet wide, stopping when you hit the first creature in your path. The creature must make a Strength saving throw (DC = 8 + your Strength modifier + your Constitution modifier + your proficiency bonus). On a failed save, the creature takes 1d12 + your Strength modifier bludgeoning damage and is knocked back a distance equal to how far you charged before hitting it (to a maximum of 50 feet).</p><p>﻿If the creature is knocked back into another creature or a solid object, additional effects occur based on the distance it was knocked back:</p><ul><li><p>Less than 30 feet: The creature is &amp;Reference[distracted] until the start of its next turn.</p></li><li><p>30 to 40 feet: The creature is &amp;Reference[restrained] until the end of its next turn.</p></li><li><p>More than 40 feet: The creature is &amp;Reference[paralyzed] until the end of its next turn.</p></li></ul><p>﻿If the creature collides with another creature, both creatures suffer the same effect.</p>",
-        "section": "feature-items",
-        "requirements": "Elk Spirit"
-      },
-      {
-        "name": "Survival Instincts",
-        "description": "<p>Your walking speed is increased by 20ft, you have a 1d6 bonus to your initiative rolls and, as long as you aren't incapacitated, you cannot be surprised.</p><p>Using Battering Ram grants you an amount of temporary hit points equal to your barbarian level.</p>",
-        "section": "feature-items",
-        "requirements": "Elk Spirit"
-      },
-      {
-        "name": "Unstoppable",
-        "description": "<p>As long as you're not &amp;Reference[incapacitated], your movement speed cannot be reduced and you are immune to being &amp;Reference[frightened], &amp;Reference[restrained], &amp;Reference[prone], and &amp;Reference[grappled].</p><p>Additionally, you can use Battering Ram to charge through and break solid objects, such as walls, up to 5ft thick. <br>You can also charge through and create holes in magical barriers this way if you succeed on a [[/save str format=long]] against the caster's spell save DC. If the barrier requires concentration to maintain, breaking through it immediately ends the caster's concentration on the barrier.</p>",
-        "section": "feature-items",
-        "requirements": "Elk Spirit"
-      },
-      {
         "name": "Transdimensional Anchorchain",
         "description": "<p>This 10-foot chain is forged from pure, shimmering osmium and weighs 100 pounds. One end of the chain is solid, while the other becomes increasingly ephemeral, fading into nothingness. It cannot be contained within an extradimensional space. <br>This chain is metaphysically bound to its matching <strong>Transdimensional Anchor</strong> and this connection is unbreakable and spans any distance or plane. The connection is temporarily suppressed but not broken if the chain or the anchor are in an area where interplanar travel is impossible.</p><p><strong>Moor Anchor.</strong> While holding the chain you can use an action to pull on it and attempt to drag the anchor, and with it the planar fabric it is fixed to, towards you. Make a <span>DC 30 Strength (Athletics)</span> check. On a success, you wrench open a vertical, circular portal with a 10 foot diameter in a space within your reach. The chain passes through the portal's center, physically connecting to the top of the anchor, one half of the chain on each side of the portal.<br>This raw tear in reality is unstable and closes instantly if you let go of the chain (no action required), move through the portal to the anchor's side, or fail to maintain it. To maintain your grip and hold the portal open on subsequent turns, you must succeed on a <span>DC 30 Strength (Athletics)</span> check at the start of each of your turns (no action required).</p><p><strong>Drag Anchor.</strong> While you are holding a portal open, you can attempt to drag it with you as part of your movement. Once during each of your turns before you move, you can make a <span>DC 40 Strength (Athletics)</span> check (no action required). On a success, you can move up to half your speed while moving the portal with you, or up to your speed if the check is a critical success. When you move the portal, it always remains within your reach. On a failure, the portal doesn't move.</p>",
         "section": "physical-items",
@@ -1000,6 +968,84 @@
         "spellLevel": "4th Level",
         "spellRange": "Touch",
         "spellSchool": "Abjuration"
+      },
+      {
+        "name": "Dreamfeather",
+        "description": "<p>A Dreamfeather is an exceedingly rare and delicate token from the plane of Elysium. These iridescent feathers belong to the Aethergale, small and ethereal songbirds whose rainbow-tinted plumage usually vanishes when shed. However, when an Aethergale is moved by a performance of true beauty and passion—be it a bard's heartfelt song or an artist's soul-stirring creation—a feather may fall and remain intact, becoming what is known as a Dreamfeather.</p><p>Treasured and used as a currency by the Azata, the celestial beings of Elysium, Dreamfeathers are regarded as symbols artistic spirit. To find such a feather is seen as an acknowledgment of one’s creativity and emotional depth. They emit a faint glow, and their touch brings a gentle feeling of calm, as though carrying the nostalgia-filled songs of the Aethergale itself.</p><p><strong>Shared Inspiration. </strong>A creature holding a Dreamfeather can use it to transfer one of it's inspirations to another creature it can see. This consumes the magic which resides in the feather and it vanishes into nothingness. A creature which doesn't have any inspirations, cannot use this ability.</p>",
+        "section": "physical-items",
+        "quantity": 9,
+        "combinedLabel": "Exotic Currency",
+        "attunementLabel": ""
+      },
+      {
+        "name": "Springseed",
+        "description": "<p>A Springseed is a potent and rare token of vitality hailing from the celestial Gardens of Tranquility in the plane of Nirvana. These seeds, which shed a soft and dim blue-green light, are produced infrequently by the ancient trees that flourish in that serene realm.</p><p>The celestials of Nirvana occasionally present a Springseed to mortals who have distinguished themselves through exceptionally selfless and good actions. Beyond such gifts, these seeds are highly sought after for the beautiful and unique trees they produce. While typically cultivated on good-aligned planes like the Seven Heavens and Elysium, their uniqueness is valued in many other places too. For example, a small, uncorrupted grove flourishes even in the city of Dis, on the 2nd layer of Hell, standing as a display of the reach of Dispater's influence. Consequently, their rarity and prized nature make them valuable in trade between many planes.</p><p><strong>Consumption.</strong> You can consume a Springseed over the course of 1 minute to gain the benefits of the Heroes' Feast spell for 24 hours (You are cured of all diseases and poison, become immune to poison and being frightened, and make all Wisdom saving throws with advantage. Your hit point maximum also increases by 2d10, and you gain the same number of hit points).</p><p><strong>Cultivation.</strong> If 100 Springseeds are planted in fertile ground and watered daily for 10 days, they sprout into a single magnificent and beautiful tree. If carefully tended, this tree will bear fruit all year round, producing enough nourishing food to sustain up to ten adults. This tree is deeply connected to the positive energies of its origin and can awaken when those who've been caring for it are in grave danger, transforming into a CR 9 treant (MM p289) to defend them. If not destroyed by other means, this tree will live for approximately 500 years.</p>",
+        "section": "physical-items",
+        "quantity": 16,
+        "combinedLabel": "Exotic Currency",
+        "attunementLabel": ""
+      },
+      {
+        "name": "Compelled Duel",
+        "description": "<p>Using your bonus action, you can roll an Intimidation check to challenge a single creature that can see you to a duel.</p><p>The DC against this ability is check's total.</p><p>The creature needs to make a Wisdom saving throw. On a failed save, it has to focus all of it's attention solely on you for it's next two turns.</p><p>Creatures with a Strength score that is higher than their Intelligence and Wisdom scores combined automatically fail this save.</p><p>Only one creature can be compelled to duel you at any given time.</p>",
+        "section": "feature-items",
+        "requirements": "Bear Spirit"
+      },
+      {
+        "name": "Ironfur",
+        "description": "<p>When you take damage from a melee attack, your damage resistances reflect half of the incoming damage back at the attacker instead of just preventing it.</p>",
+        "section": "feature-items",
+        "requirements": "Bear Spirit"
+      },
+      {
+        "name": "Intimidating Presence",
+        "description": "<p>You have advantage on Intimidation checks and you add your Strength modifier to Intimidation checks.</p>",
+        "section": "feature-items",
+        "requirements": "Bear Spirit"
+      },
+      {
+        "name": "Savage Taunt",
+        "description": "<p>Using your bonus action, you can roll an Intimidation check to present yourself as the biggest threat on the battlefield.</p><p>The DC against this ability is half the check's total, rounded up.</p><p>Hostile creatures within 20ft of you need to make a Wisdom saving throw. On a failed save, they have to focus all of their attention solely on you for their next two turns.</p><p>Creatures with a Strength score that is higher than their Intelligence and Wisdom scores combined automatically fail this save.</p>",
+        "section": "feature-items",
+        "requirements": "Bear Spirit"
+      },
+      {
+        "name": "Survival of the Fittest",
+        "description": "<p>Immediately after you take damage during combat, you can choose to spend one of your hit dice to heal yourself for 1d12 + your Constitution modifier.</p><p>If you're below 50% health, this healing increases to 2d12 + 2x your Constitution modifier.</p><p>If you're below 25% health, this healing increases to 4d12 + 4x your Constitution modifier.</p>",
+        "section": "feature-items",
+        "requirements": "Bear Spirit"
+      },
+      {
+        "name": "Potion of Water Breathing",
+        "description": "<p><em>Its cloudy green fluid smells of the sea and has a jellyfish-like bubble floating in it.</em></p>\n<p>You can breathe underwater for 1 hour after drinking this potion. </p>\n<p> </p>",
+        "section": "physical-items",
+        "quantity": 1,
+        "combinedLabel": "Potion",
+        "attunementLabel": ""
+      },
+      {
+        "name": "Potion of Heroism",
+        "description": "<p><em>This blue potion bubbles and steams as if boiling.</em></p><p>When you drink this potion you gain 10 temporary hit points. Additionally you are under the effect of the Bless spell for 1 hour (no concentration required).</p>",
+        "section": "physical-items",
+        "quantity": 6,
+        "combinedLabel": "Potion",
+        "attunementLabel": ""
+      },
+      {
+        "name": "Potion of Fire Resistance",
+        "description": "<p><em>The potion is a plain indescriminate color and smells slightly foul.</em></p><p>When you drink this potion, you gain resistance to Fire type damage for 1 hour.</p>",
+        "section": "physical-items",
+        "quantity": 1,
+        "combinedLabel": "Potion",
+        "attunementLabel": ""
+      },
+      {
+        "name": "Potion of Supreme Healing",
+        "description": "<div><p><em>The potion's red liquid glimmers when agitated.</em></p><p>You regain 10d4 + 20 hit points when you drink this potion. </p></div>",
+        "section": "physical-items",
+        "quantity": 1,
+        "combinedLabel": "Potion",
+        "attunementLabel": ""
       }
     ],
     "Emilio Astray": [
@@ -1587,7 +1633,7 @@
         "name": "Martyr's Locket",
         "description": "<p>A Martyr's Locket is an unassuming and unadorned gold pendant, deliberately plain and with a blank canvas inside. Blessed by the divine light of Mount Celestia, they are offered by the angelic hosts of Heaven to those seeking to perform acts of true empathy - often given freely to poor sinners looking for penance.</p><p>The belief that the truest measure of a soul is not in avoiding hardship, but in the willingness to bear the burdens of others, is a belief not just common amongst the denizens of Heaven but also shared by their mortal followers. As such, many monasteries across the realms which are dedicated to lawful good deities or principles, welcome donations of used lockets and display them in quiet galleries where each captured portrait of a moment of sacrifice serves as a silent lesson in courage and compassion for all to witness. Novitiates spend hours in silent contemplation before them, learning not only from dusty tomes, but from the faces of ordinary people captured in their single greatest moment.</p><p><strong>Moment of Martyrdom.</strong> When another creature you can see becomes affected by a curse (or an effect that can be ended or removed via the Remove Curse spell), you can activate the locket (no action required) to take the curse upon yourself instead. This ability cannot be used if the other creature isn't willing or if you are immune to any the curse's effects.</p><p>When the item is activated this way, the locket becomes a nonmagical @UUID[Compendium.talia-custom.customItems.Item.dQQKUD2XEIMNbGXl]{gold locket with a painted portrait inside} (DMG, p134), depicting you in the moment you took the curse upon yourself.</p>",
         "section": "physical-items",
-        "quantity": 3,
+        "quantity": 4,
         "combinedLabel": "Exotic Currency",
         "attunementLabel": ""
       },
@@ -1635,7 +1681,7 @@
         "name": "Potion of Heroism",
         "description": "<p><em>This blue potion bubbles and steams as if boiling.</em></p><p>When you drink this potion you gain 10 temporary hit points. Additionally you are under the effect of the Bless spell for 1 hour (no concentration required).</p>",
         "section": "physical-items",
-        "quantity": 1,
+        "quantity": 2,
         "combinedLabel": "Potion",
         "attunementLabel": ""
       },
@@ -1734,6 +1780,54 @@
         "spellLevel": "Cantrip",
         "spellRange": "60 ft",
         "spellSchool": "Enchantment"
+      },
+      {
+        "name": "Potion of Fire Resistance",
+        "description": "<p><em>The potion is a plain indescriminate color and smells slightly foul.</em></p><p>When you drink this potion, you gain resistance to Fire type damage for 1 hour.</p>",
+        "section": "physical-items",
+        "quantity": 1,
+        "combinedLabel": "Potion",
+        "attunementLabel": ""
+      },
+      {
+        "name": "Potion of Necrotic Resistance",
+        "description": "<p><em>The potion is a plain indescriminate color and smells slightly foul.</em></p><p>When you drink this potion, you gain resistance to Necrotic type damage for 1 hour.</p>",
+        "section": "physical-items",
+        "quantity": 1,
+        "combinedLabel": "Potion",
+        "attunementLabel": ""
+      },
+      {
+        "name": "Potion of Water Breathing",
+        "description": "<p><em>Its cloudy green fluid smells of the sea and has a jellyfish-like bubble floating in it.</em></p>\n<p>You can breathe underwater for 1 hour after drinking this potion. </p>\n<p> </p>",
+        "section": "physical-items",
+        "quantity": 1,
+        "combinedLabel": "Potion",
+        "attunementLabel": ""
+      },
+      {
+        "name": "Dreamfeather",
+        "description": "<p>A Dreamfeather is an exceedingly rare and delicate token from the plane of Elysium. These iridescent feathers belong to the Aethergale, small and ethereal songbirds whose rainbow-tinted plumage usually vanishes when shed. However, when an Aethergale is moved by a performance of true beauty and passion—be it a bard's heartfelt song or an artist's soul-stirring creation—a feather may fall and remain intact, becoming what is known as a Dreamfeather.</p><p>Treasured and used as a currency by the Azata, the celestial beings of Elysium, Dreamfeathers are regarded as symbols artistic spirit. To find such a feather is seen as an acknowledgment of one’s creativity and emotional depth. They emit a faint glow, and their touch brings a gentle feeling of calm, as though carrying the nostalgia-filled songs of the Aethergale itself.</p><p><strong>Shared Inspiration. </strong>A creature holding a Dreamfeather can use it to transfer one of it's inspirations to another creature it can see. This consumes the magic which resides in the feather and it vanishes into nothingness. A creature which doesn't have any inspirations, cannot use this ability.</p>",
+        "section": "physical-items",
+        "quantity": 1,
+        "combinedLabel": "Exotic Currency",
+        "attunementLabel": ""
+      },
+      {
+        "name": "Potion of Cold Resistance",
+        "description": "<p><em>The potion is a plain indescriminate color and smells slightly foul.</em></p><p>When you drink this potion, you gain resistance to Cold type damage for 1 hour.</p>",
+        "section": "physical-items",
+        "quantity": 1,
+        "combinedLabel": "Potion",
+        "attunementLabel": ""
+      },
+      {
+        "name": "Springseed",
+        "description": "<p>A Springseed is a potent and rare token of vitality hailing from the celestial Gardens of Tranquility in the plane of Nirvana. These seeds, which shed a soft and dim blue-green light, are produced infrequently by the ancient trees that flourish in that serene realm.</p><p>The celestials of Nirvana occasionally present a Springseed to mortals who have distinguished themselves through exceptionally selfless and good actions. Beyond such gifts, these seeds are highly sought after for the beautiful and unique trees they produce. While typically cultivated on good-aligned planes like the Seven Heavens and Elysium, their uniqueness is valued in many other places too. For example, a small, uncorrupted grove flourishes even in the city of Dis, on the 2nd layer of Hell, standing as a display of the reach of Dispater's influence. Consequently, their rarity and prized nature make them valuable in trade between many planes.</p><p><strong>Consumption.</strong> You can consume a Springseed over the course of 1 minute to gain the benefits of the Heroes' Feast spell for 24 hours (You are cured of all diseases and poison, become immune to poison and being frightened, and make all Wisdom saving throws with advantage. Your hit point maximum also increases by 2d10, and you gain the same number of hit points).</p><p><strong>Cultivation.</strong> If 100 Springseeds are planted in fertile ground and watered daily for 10 days, they sprout into a single magnificent and beautiful tree. If carefully tended, this tree will bear fruit all year round, producing enough nourishing food to sustain up to ten adults. This tree is deeply connected to the positive energies of its origin and can awaken when those who've been caring for it are in grave danger, transforming into a CR 9 treant (MM p289) to defend them. If not destroyed by other means, this tree will live for approximately 500 years.</p>",
+        "section": "physical-items",
+        "quantity": 1,
+        "combinedLabel": "Exotic Currency",
+        "attunementLabel": ""
       }
     ],
     "Fearghas MacAllistar": [
@@ -2060,14 +2154,6 @@
         "attunementLabel": ""
       },
       {
-        "name": "Potion of Cold Resistance",
-        "description": "<p><em>The potion is a plain indescriminate color and smells slightly foul.</em></p><p>When you drink this potion, you gain resistance to Cold type damage for 1 hour.</p>",
-        "section": "physical-items",
-        "quantity": 1,
-        "combinedLabel": "Potion",
-        "attunementLabel": ""
-      },
-      {
         "name": "Potion of Radiant Resistance",
         "description": "<p><em>The potion is a plain indescriminate color and smells slightly foul.</em></p><p>When you drink this potion, you gain resistance to Radiant type damage for 1 hour.</p>",
         "section": "physical-items",
@@ -2111,7 +2197,7 @@
         "name": "Potion of Legendary Resistance",
         "description": "<p><em>The way the potion shimmers is not unlike looking through a kaleidoscope.</em></p><p>When you drink this potion, you gain one Legendary Resistance for 8 hours. Spending it allows you to nullify the effect a single attack, spell, or ability would have on you.</p>",
         "section": "physical-items",
-        "quantity": 1,
+        "quantity": 2,
         "combinedLabel": "Potion",
         "attunementLabel": ""
       },
@@ -2211,7 +2297,7 @@
         "name": "Gills",
         "description": "<p>Obtained from aquatic beasts. These membranous structures exhibit a delicate, translucent appearance, designed for efficient underwater respiration.</p>",
         "section": "physical-items",
-        "quantity": 17,
+        "quantity": 13,
         "combinedLabel": "Ingredient (bodyPart)",
         "attunementLabel": ""
       },
@@ -2219,7 +2305,7 @@
         "name": "Plant Muscle Fibres",
         "description": "<p>Harvested from medium-sized or larger plant creatures upon their demise. These fibrous strands possess a resilient texture and a pale green hue, reminiscent of the plant creature's own tissues.</p>",
         "section": "physical-items",
-        "quantity": 64,
+        "quantity": 56,
         "combinedLabel": "Ingredient (bodyPart)",
         "attunementLabel": ""
       },
@@ -2365,7 +2451,7 @@
         "name": "Essence of Legend",
         "description": "<p>Extracted from slain creatures renowned for their legendary resistances. This ethereal substance pulses with arcane energy, embodying the essence of resilience and defiance against formidable adversaries.</p>",
         "section": "physical-items",
-        "quantity": 4,
+        "quantity": 1,
         "combinedLabel": "Ingredient (bodyPart)",
         "attunementLabel": ""
       },
@@ -3021,7 +3107,7 @@
         "name": "Pure Wrong",
         "description": "<p>Extracted from large-sized or larger aberration creatures. This eerie substance exudes an unsettling aura, its shifting colors and slimy texture defying natural order.</p>",
         "section": "physical-items",
-        "quantity": 14,
+        "quantity": 13,
         "combinedLabel": "Ingredient (bodyPart)",
         "attunementLabel": ""
       },
@@ -3046,14 +3132,6 @@
         "spellLevel": "6th Level",
         "spellRange": "150 ft",
         "spellSchool": "Evocation"
-      },
-      {
-        "name": "Black Nerium",
-        "description": "<p>Clinging to the sheer faces of rugged cliffs, Black Nerium is a hardy plant with slender and completely black leaves that taper to sharp points. Its blossoms are small and deep purple, almost black, emitting a faint, spicy aroma. The stems are tough and wiry, allowing the plant to anchor itself securely in the rocky crevices where few other plants dare to grow.</p>",
-        "section": "physical-items",
-        "quantity": 1,
-        "combinedLabel": "Ingredient (herb)",
-        "attunementLabel": ""
       },
       {
         "name": "Dodge",
@@ -3561,7 +3639,7 @@
         "name": "Blue Quartz",
         "description": "<p>Preferred by glassmiths or gaffers, to make different types of cups and vases and with help from the blacksmiths, it is used to ornate tankards. Magic wielders use this gemstone to see across the lands or through someone's deceit.</p>",
         "section": "physical-items",
-        "quantity": 3,
+        "quantity": 2,
         "combinedLabel": "Gemstone",
         "attunementLabel": ""
       },
@@ -3777,7 +3855,7 @@
         "name": "Potion of Supreme Healing",
         "description": "<div><p><em>The potion's red liquid glimmers when agitated.</em></p><p>You regain 10d4 + 20 hit points when you drink this potion. </p></div>",
         "section": "physical-items",
-        "quantity": 5,
+        "quantity": 1,
         "combinedLabel": "Potion",
         "attunementLabel": ""
       },
@@ -4007,7 +4085,7 @@
         "name": "Monstrous Blood",
         "description": "<p>Extracted from large-sized or larger monstrosity creatures upon their defeat. This viscous fluid ranges in color from deep crimson to murky black, pulsating with raw, primal energy.</p>",
         "section": "physical-items",
-        "quantity": 30,
+        "quantity": 26,
         "combinedLabel": "Ingredient (bodyPart)",
         "attunementLabel": ""
       },
@@ -4047,7 +4125,7 @@
         "name": "Soul Coin",
         "description": "<p>Soul coins are about 5 inches across and about an inch thick, minted from infernal iron. Each coin weighs one-third of a pound, and is inscribed with Infernal writing and a spell that magically binds a single soul to the coin. Because each soul coin has a unique soul trapped within it, each has a story. A creature might have been imprisoned as a result of defaulting on a deal, while another might be the victim of a night hag's curse.</p><p><strong>Carrying Soul Coins. </strong>To hold a soul coin is to feel the soul bound within it—overcome with rage or fraught with despair. An evil creature can carry as many soul coins as it wishes (up to its maximum weight allowance). A non-evil creature can carry a number of soul coins equal to or less than its Constitution modifier without penalty. A non-evil creature carrying a number of soul coins greater than its Constitution modifier has disadvantage on its attack rolls, ability checks, and saving throws.</p><p><strong>Freeing a Soul. </strong>Casting a spell that removes a curse on a soul coin frees the soul trapped within it, as does expending all of the coin's charges. The coin itself rusts from within and is destroyed once the soul is released. A freed soul travels to the realm of the god it served or the outer plane most closely tied to its alignment (DM's choice). The souls of lawful evil creatures released from soul coins typically emerge from the River Styx as devils.</p><p><strong>Hellish Currency. </strong>Soul coins are a currency of the Nine Hells and are highly valued by devils. The coins are used among the infernal hierarchy to barter for favours, bribe the unwilling, and reward the faithful for services rendered. Soul coins are created by Mammon and his greater devils on Minauros, the third layer of the Nine Hells, in a vast chamber where the captured souls of evil mortals are bound into the coins. These coins are then distributed throughout the Nine Hells to be used for goods and services, infernal deals, dark bargains, and bribes.</p><p><strong>Unmake a Soul. </strong>When casting a spell which requires repeated castings for it's effects to become permanent, soul coins can be expended as a material component and the souls trapped inside unmade. Each soul coin expended this way reduces the number of required castings by three. Unmaking a soul is different to freeing it as doing so erases the soul from existence itself, it's essence lost forever.</p>",
         "section": "physical-items",
-        "quantity": 20,
+        "quantity": 19,
         "combinedLabel": "Exotic Currency",
         "attunementLabel": ""
       },
@@ -4250,6 +4328,30 @@
         "spellLevel": "5th Level",
         "spellRange": "60 ft",
         "spellSchool": "Enchantment"
+      },
+      {
+        "name": "Springseed",
+        "description": "<p>A Springseed is a potent and rare token of vitality hailing from the celestial Gardens of Tranquility in the plane of Nirvana. These seeds, which shed a soft and dim blue-green light, are produced infrequently by the ancient trees that flourish in that serene realm.</p><p>The celestials of Nirvana occasionally present a Springseed to mortals who have distinguished themselves through exceptionally selfless and good actions. Beyond such gifts, these seeds are highly sought after for the beautiful and unique trees they produce. While typically cultivated on good-aligned planes like the Seven Heavens and Elysium, their uniqueness is valued in many other places too. For example, a small, uncorrupted grove flourishes even in the city of Dis, on the 2nd layer of Hell, standing as a display of the reach of Dispater's influence. Consequently, their rarity and prized nature make them valuable in trade between many planes.</p><p><strong>Consumption.</strong> You can consume a Springseed over the course of 1 minute to gain the benefits of the Heroes' Feast spell for 24 hours (You are cured of all diseases and poison, become immune to poison and being frightened, and make all Wisdom saving throws with advantage. Your hit point maximum also increases by 2d10, and you gain the same number of hit points).</p><p><strong>Cultivation.</strong> If 100 Springseeds are planted in fertile ground and watered daily for 10 days, they sprout into a single magnificent and beautiful tree. If carefully tended, this tree will bear fruit all year round, producing enough nourishing food to sustain up to ten adults. This tree is deeply connected to the positive energies of its origin and can awaken when those who've been caring for it are in grave danger, transforming into a CR 9 treant (MM p289) to defend them. If not destroyed by other means, this tree will live for approximately 500 years.</p>",
+        "section": "physical-items",
+        "quantity": 2,
+        "combinedLabel": "Exotic Currency",
+        "attunementLabel": ""
+      },
+      {
+        "name": "Potion of Fire Resistance",
+        "description": "<p><em>The potion is a plain indescriminate color and smells slightly foul.</em></p><p>When you drink this potion, you gain resistance to Fire type damage for 1 hour.</p>",
+        "section": "physical-items",
+        "quantity": 1,
+        "combinedLabel": "Potion",
+        "attunementLabel": ""
+      },
+      {
+        "name": "Potion of Heroism",
+        "description": "<p><em>This blue potion bubbles and steams as if boiling.</em></p><p>When you drink this potion you gain 10 temporary hit points. Additionally you are under the effect of the Bless spell for 1 hour (no concentration required).</p>",
+        "section": "physical-items",
+        "quantity": 2,
+        "combinedLabel": "Potion",
+        "attunementLabel": ""
       }
     ],
     "Kyrin Niteshade": [
@@ -5046,14 +5148,6 @@
         "attunementLabel": ""
       },
       {
-        "name": "Potion of Legendary Resistance",
-        "description": "<p><em>The way the potion shimmers is not unlike looking through a kaleidoscope.</em></p><p>When you drink this potion, you gain one Legendary Resistance for 8 hours. Spending it allows you to nullify the effect a single attack, spell, or ability would have on you.</p>",
-        "section": "physical-items",
-        "quantity": 1,
-        "combinedLabel": "Potion",
-        "attunementLabel": ""
-      },
-      {
         "name": "Dagger",
         "description": "<p>A short metal blade mounted to a small hilt and crossguard. The dagger makes an effective side armament for hardened warriors or a hidden blade for assassins and thieves.</p>",
         "section": "physical-items",
@@ -5067,6 +5161,70 @@
         "section": "physical-items",
         "quantity": 1,
         "combinedLabel": "Medium Armor",
+        "attunementLabel": ""
+      },
+      {
+        "name": "Dreamfeather",
+        "description": "<p>A Dreamfeather is an exceedingly rare and delicate token from the plane of Elysium. These iridescent feathers belong to the Aethergale, small and ethereal songbirds whose rainbow-tinted plumage usually vanishes when shed. However, when an Aethergale is moved by a performance of true beauty and passion—be it a bard's heartfelt song or an artist's soul-stirring creation—a feather may fall and remain intact, becoming what is known as a Dreamfeather.</p><p>Treasured and used as a currency by the Azata, the celestial beings of Elysium, Dreamfeathers are regarded as symbols artistic spirit. To find such a feather is seen as an acknowledgment of one’s creativity and emotional depth. They emit a faint glow, and their touch brings a gentle feeling of calm, as though carrying the nostalgia-filled songs of the Aethergale itself.</p><p><strong>Shared Inspiration. </strong>A creature holding a Dreamfeather can use it to transfer one of it's inspirations to another creature it can see. This consumes the magic which resides in the feather and it vanishes into nothingness. A creature which doesn't have any inspirations, cannot use this ability.</p>",
+        "section": "physical-items",
+        "quantity": 4,
+        "combinedLabel": "Exotic Currency",
+        "attunementLabel": ""
+      },
+      {
+        "name": "Springseed",
+        "description": "<p>A Springseed is a potent and rare token of vitality hailing from the celestial Gardens of Tranquility in the plane of Nirvana. These seeds, which shed a soft and dim blue-green light, are produced infrequently by the ancient trees that flourish in that serene realm.</p><p>The celestials of Nirvana occasionally present a Springseed to mortals who have distinguished themselves through exceptionally selfless and good actions. Beyond such gifts, these seeds are highly sought after for the beautiful and unique trees they produce. While typically cultivated on good-aligned planes like the Seven Heavens and Elysium, their uniqueness is valued in many other places too. For example, a small, uncorrupted grove flourishes even in the city of Dis, on the 2nd layer of Hell, standing as a display of the reach of Dispater's influence. Consequently, their rarity and prized nature make them valuable in trade between many planes.</p><p><strong>Consumption.</strong> You can consume a Springseed over the course of 1 minute to gain the benefits of the Heroes' Feast spell for 24 hours (You are cured of all diseases and poison, become immune to poison and being frightened, and make all Wisdom saving throws with advantage. Your hit point maximum also increases by 2d10, and you gain the same number of hit points).</p><p><strong>Cultivation.</strong> If 100 Springseeds are planted in fertile ground and watered daily for 10 days, they sprout into a single magnificent and beautiful tree. If carefully tended, this tree will bear fruit all year round, producing enough nourishing food to sustain up to ten adults. This tree is deeply connected to the positive energies of its origin and can awaken when those who've been caring for it are in grave danger, transforming into a CR 9 treant (MM p289) to defend them. If not destroyed by other means, this tree will live for approximately 500 years.</p>",
+        "section": "physical-items",
+        "quantity": 4,
+        "combinedLabel": "Exotic Currency",
+        "attunementLabel": ""
+      },
+      {
+        "name": "Potion of Legendary Resistance",
+        "description": "<p><em>The way the potion shimmers is not unlike looking through a kaleidoscope.</em></p><p>When you drink this potion, you gain one Legendary Resistance for 8 hours. Spending it allows you to nullify the effect a single attack, spell, or ability would have on you.</p>",
+        "section": "physical-items",
+        "quantity": 1,
+        "combinedLabel": "Potion",
+        "attunementLabel": ""
+      },
+      {
+        "name": "Potion of Water Breathing",
+        "description": "<p><em>Its cloudy green fluid smells of the sea and has a jellyfish-like bubble floating in it.</em></p>\n<p>You can breathe underwater for 1 hour after drinking this potion. </p>\n<p> </p>",
+        "section": "physical-items",
+        "quantity": 1,
+        "combinedLabel": "Potion",
+        "attunementLabel": ""
+      },
+      {
+        "name": "Potion of Heroism",
+        "description": "<p><em>This blue potion bubbles and steams as if boiling.</em></p><p>When you drink this potion you gain 10 temporary hit points. Additionally you are under the effect of the Bless spell for 1 hour (no concentration required).</p>",
+        "section": "physical-items",
+        "quantity": 2,
+        "combinedLabel": "Potion",
+        "attunementLabel": ""
+      },
+      {
+        "name": "Potion of Cold Resistance",
+        "description": "<p><em>The potion is a plain indescriminate color and smells slightly foul.</em></p><p>When you drink this potion, you gain resistance to Cold type damage for 1 hour.</p>",
+        "section": "physical-items",
+        "quantity": 1,
+        "combinedLabel": "Potion",
+        "attunementLabel": ""
+      },
+      {
+        "name": "Activated: Teleportation Circle - 5th",
+        "description": "<div><p>As you cast the spell, you draw a 10-foot-diameter circle on the ground inscribed with sigils that link your location to a permanent teleportation circle of your choice whose sigil sequence you know and that is on the same plane of existence as you. A shimmering portal opens within the circle you drew and remains open until the end of your next turn. Any creature that enters the portal instantly appears within 5 feet of the destination circle or in the nearest unoccupied space if that space is occupied.</p><div></div><p>Many major temples, guilds, and other important places have permanent teleportation circles inscribed somewhere within their confines. Each such circle includes a unique sigil sequence—a string of magical runes arranged in a particular pattern. When you first gain the ability to cast this spell, you learn the sigil sequences for two destinations on the Material Plane, determined by the DM. You can learn additional sigil sequences during your adventures. You can commit a new sigil sequence to memory after studying it for 1 minute.</p><p>You can create a permanent teleportation circle by casting this spell in the same location every day for one year. You need not use the circle to teleport when you cast the spell in this way.</p></div>",
+        "section": "physical-items",
+        "quantity": 1,
+        "combinedLabel": "Spell Gem",
+        "attunementLabel": ""
+      },
+      {
+        "name": "Potion of Supreme Healing",
+        "description": "<div><p><em>The potion's red liquid glimmers when agitated.</em></p><p>You regain 10d4 + 20 hit points when you drink this potion. </p></div>",
+        "section": "physical-items",
+        "quantity": 1,
+        "combinedLabel": "Potion",
         "attunementLabel": ""
       }
     ],
@@ -5709,7 +5867,7 @@
         "name": "Flask of Holy Water",
         "description": "<p>As an action, you can splash the contents of this flask onto a creature within 5 feet of you or throw it up to 20 feet, shattering it on impact. In either case, make a ranged Attack against a target creature, treating the holy water as an Improvised Weapon. If the target is a fiend or Undead, it takes 2d6 radiant damage. A Cleric or Paladin may create holy water by performing a Special ritual. The ritual takes 1 hour to perform, uses 25 gp worth of powdered silver, and requires the caster to expend a 1st-level spell slot.</p>",
         "section": "physical-items",
-        "quantity": 8,
+        "quantity": 10,
         "combinedLabel": "Potion",
         "attunementLabel": ""
       },
@@ -5967,6 +6125,54 @@
         "section": "physical-items",
         "quantity": 1,
         "combinedLabel": "Food",
+        "attunementLabel": ""
+      },
+      {
+        "name": "Dreamfeather",
+        "description": "<p>A Dreamfeather is an exceedingly rare and delicate token from the plane of Elysium. These iridescent feathers belong to the Aethergale, small and ethereal songbirds whose rainbow-tinted plumage usually vanishes when shed. However, when an Aethergale is moved by a performance of true beauty and passion—be it a bard's heartfelt song or an artist's soul-stirring creation—a feather may fall and remain intact, becoming what is known as a Dreamfeather.</p><p>Treasured and used as a currency by the Azata, the celestial beings of Elysium, Dreamfeathers are regarded as symbols artistic spirit. To find such a feather is seen as an acknowledgment of one’s creativity and emotional depth. They emit a faint glow, and their touch brings a gentle feeling of calm, as though carrying the nostalgia-filled songs of the Aethergale itself.</p><p><strong>Shared Inspiration. </strong>A creature holding a Dreamfeather can use it to transfer one of it's inspirations to another creature it can see. This consumes the magic which resides in the feather and it vanishes into nothingness. A creature which doesn't have any inspirations, cannot use this ability.</p>",
+        "section": "physical-items",
+        "quantity": 2,
+        "combinedLabel": "Exotic Currency",
+        "attunementLabel": ""
+      },
+      {
+        "name": "Potion of Heroism",
+        "description": "<p><em>This blue potion bubbles and steams as if boiling.</em></p><p>When you drink this potion you gain 10 temporary hit points. Additionally you are under the effect of the Bless spell for 1 hour (no concentration required).</p>",
+        "section": "physical-items",
+        "quantity": 3,
+        "combinedLabel": "Potion",
+        "attunementLabel": ""
+      },
+      {
+        "name": "Potion of Necrotic Resistance",
+        "description": "<p><em>The potion is a plain indescriminate color and smells slightly foul.</em></p><p>When you drink this potion, you gain resistance to Necrotic type damage for 1 hour.</p>",
+        "section": "physical-items",
+        "quantity": 1,
+        "combinedLabel": "Potion",
+        "attunementLabel": ""
+      },
+      {
+        "name": "Potion of Water Breathing",
+        "description": "<p><em>Its cloudy green fluid smells of the sea and has a jellyfish-like bubble floating in it.</em></p>\n<p>You can breathe underwater for 1 hour after drinking this potion. </p>\n<p> </p>",
+        "section": "physical-items",
+        "quantity": 1,
+        "combinedLabel": "Potion",
+        "attunementLabel": ""
+      },
+      {
+        "name": "Potion of Cold Resistance",
+        "description": "<p><em>The potion is a plain indescriminate color and smells slightly foul.</em></p><p>When you drink this potion, you gain resistance to Cold type damage for 1 hour.</p>",
+        "section": "physical-items",
+        "quantity": 1,
+        "combinedLabel": "Potion",
+        "attunementLabel": ""
+      },
+      {
+        "name": "Potion of Supreme Healing",
+        "description": "<div><p><em>The potion's red liquid glimmers when agitated.</em></p><p>You regain 10d4 + 20 hit points when you drink this potion. </p></div>",
+        "section": "physical-items",
+        "quantity": 1,
+        "combinedLabel": "Potion",
         "attunementLabel": ""
       }
     ],
@@ -6935,7 +7141,7 @@
         "name": "Soul Coin",
         "description": "<p>Soul coins are about 5 inches across and about an inch thick, minted from infernal iron. Each coin weighs one-third of a pound, and is inscribed with Infernal writing and a spell that magically binds a single soul to the coin. Because each soul coin has a unique soul trapped within it, each has a story. A creature might have been imprisoned as a result of defaulting on a deal, while another might be the victim of a night hag's curse.</p><p><strong>Carrying Soul Coins. </strong>To hold a soul coin is to feel the soul bound within it—overcome with rage or fraught with despair. An evil creature can carry as many soul coins as it wishes (up to its maximum weight allowance). A non-evil creature can carry a number of soul coins equal to or less than its Constitution modifier without penalty. A non-evil creature carrying a number of soul coins greater than its Constitution modifier has disadvantage on its attack rolls, ability checks, and saving throws.</p><p><strong>Freeing a Soul. </strong>Casting a spell that removes a curse on a soul coin frees the soul trapped within it, as does expending all of the coin's charges. The coin itself rusts from within and is destroyed once the soul is released. A freed soul travels to the realm of the god it served or the outer plane most closely tied to its alignment (DM's choice). The souls of lawful evil creatures released from soul coins typically emerge from the River Styx as devils.</p><p><strong>Hellish Currency. </strong>Soul coins are a currency of the Nine Hells and are highly valued by devils. The coins are used among the infernal hierarchy to barter for favours, bribe the unwilling, and reward the faithful for services rendered. Soul coins are created by Mammon and his greater devils on Minauros, the third layer of the Nine Hells, in a vast chamber where the captured souls of evil mortals are bound into the coins. These coins are then distributed throughout the Nine Hells to be used for goods and services, infernal deals, dark bargains, and bribes.</p><p><strong>Unmake a Soul. </strong>When casting a spell which requires repeated castings for it's effects to become permanent, soul coins can be expended as a material component and the souls trapped inside unmade. Each soul coin expended this way reduces the number of required castings by three. Unmaking a soul is different to freeing it as doing so erases the soul from existence itself, it's essence lost forever.</p>",
         "section": "physical-items",
-        "quantity": 1,
+        "quantity": 2,
         "combinedLabel": "Exotic Currency",
         "attunementLabel": ""
       },
@@ -7111,7 +7317,7 @@
         "name": "Forked Metal Rod (250 gp)",
         "description": "",
         "section": "physical-items",
-        "quantity": 0,
+        "quantity": 22,
         "combinedLabel": "Loot",
         "attunementLabel": ""
       },
@@ -7253,7 +7459,7 @@
         "name": "Potion of Fire Resistance",
         "description": "<p><em>The potion is a plain indescriminate color and smells slightly foul.</em></p><p>When you drink this potion, you gain resistance to Fire type damage for 1 hour.</p>",
         "section": "physical-items",
-        "quantity": 1,
+        "quantity": 2,
         "combinedLabel": "Potion",
         "attunementLabel": ""
       },
@@ -7269,7 +7475,7 @@
         "name": "Breezeblossom",
         "description": "<p>It’s petals will always be carried away by a gentle breeze, going as far to create one themselves if needed. This breeze disperses any magical cloud or fog effects.</p>",
         "section": "physical-items",
-        "quantity": 1,
+        "quantity": 2,
         "combinedLabel": "Unusual Material",
         "attunementLabel": ""
       },
@@ -7317,7 +7523,7 @@
         "name": "Paint Cans",
         "description": "<p>Cans of Paint in various collours</p>",
         "section": "physical-items",
-        "quantity": 14,
+        "quantity": 12,
         "combinedLabel": "Potion",
         "attunementLabel": ""
       },
@@ -7497,7 +7703,7 @@
         "name": "Bed Sheets",
         "description": "<p>Bedshhets from a small in in the mountains. they are worn but not tattered</p>",
         "section": "physical-items",
-        "quantity": 1,
+        "quantity": 0,
         "combinedLabel": "Junk",
         "attunementLabel": ""
       },
@@ -7643,6 +7849,70 @@
         "section": "physical-items",
         "quantity": 2,
         "combinedLabel": "Unusual Material",
+        "attunementLabel": ""
+      },
+      {
+        "name": "Dreamfeather",
+        "description": "<p>A Dreamfeather is an exceedingly rare and delicate token from the plane of Elysium. These iridescent feathers belong to the Aethergale, small and ethereal songbirds whose rainbow-tinted plumage usually vanishes when shed. However, when an Aethergale is moved by a performance of true beauty and passion—be it a bard's heartfelt song or an artist's soul-stirring creation—a feather may fall and remain intact, becoming what is known as a Dreamfeather.</p><p>Treasured and used as a currency by the Azata, the celestial beings of Elysium, Dreamfeathers are regarded as symbols artistic spirit. To find such a feather is seen as an acknowledgment of one’s creativity and emotional depth. They emit a faint glow, and their touch brings a gentle feeling of calm, as though carrying the nostalgia-filled songs of the Aethergale itself.</p><p><strong>Shared Inspiration. </strong>A creature holding a Dreamfeather can use it to transfer one of it's inspirations to another creature it can see. This consumes the magic which resides in the feather and it vanishes into nothingness. A creature which doesn't have any inspirations, cannot use this ability.</p>",
+        "section": "physical-items",
+        "quantity": 8,
+        "combinedLabel": "Exotic Currency",
+        "attunementLabel": ""
+      },
+      {
+        "name": "Springseed",
+        "description": "<p>A Springseed is a potent and rare token of vitality hailing from the celestial Gardens of Tranquility in the plane of Nirvana. These seeds, which shed a soft and dim blue-green light, are produced infrequently by the ancient trees that flourish in that serene realm.</p><p>The celestials of Nirvana occasionally present a Springseed to mortals who have distinguished themselves through exceptionally selfless and good actions. Beyond such gifts, these seeds are highly sought after for the beautiful and unique trees they produce. While typically cultivated on good-aligned planes like the Seven Heavens and Elysium, their uniqueness is valued in many other places too. For example, a small, uncorrupted grove flourishes even in the city of Dis, on the 2nd layer of Hell, standing as a display of the reach of Dispater's influence. Consequently, their rarity and prized nature make them valuable in trade between many planes.</p><p><strong>Consumption.</strong> You can consume a Springseed over the course of 1 minute to gain the benefits of the Heroes' Feast spell for 24 hours (You are cured of all diseases and poison, become immune to poison and being frightened, and make all Wisdom saving throws with advantage. Your hit point maximum also increases by 2d10, and you gain the same number of hit points).</p><p><strong>Cultivation.</strong> If 100 Springseeds are planted in fertile ground and watered daily for 10 days, they sprout into a single magnificent and beautiful tree. If carefully tended, this tree will bear fruit all year round, producing enough nourishing food to sustain up to ten adults. This tree is deeply connected to the positive energies of its origin and can awaken when those who've been caring for it are in grave danger, transforming into a CR 9 treant (MM p289) to defend them. If not destroyed by other means, this tree will live for approximately 500 years.</p>",
+        "section": "physical-items",
+        "quantity": 7,
+        "combinedLabel": "Exotic Currency",
+        "attunementLabel": ""
+      },
+      {
+        "name": "Sneezing Powder",
+        "description": "<p>This light powder hangs in the air for up to one minute, filling the volume of a 10ft sphere. A creature entering or starting it’s turn in this cloud immediately uses it’s reaction to sneeze.</p>",
+        "section": "physical-items",
+        "quantity": 2,
+        "combinedLabel": "Unusual Material",
+        "attunementLabel": ""
+      },
+      {
+        "name": "Troll Musk Concentrate",
+        "description": "<p>When this flask hits a creature or object, it bursts open and covers the target in a green liquid, a potent aphrodisiac for trolls.</p><p>Upon coming into contact with a living creature, this fatty substance creates a 10ft sphere of foul odour around that creature which persists for 10 minutes.</p><p>When a creature enters the effect’s area for the first time on a turn or starts its turn there, that creature must make a Constitution saving throw against the contraption’s Save DC or become <span>Poisoned</span> until the start of their next turn.</p><p>When a troll fails a saving throw against this effect, it becomes <span>Charmed</span> instead of poisoned.</p>",
+        "section": "physical-items",
+        "quantity": 2,
+        "combinedLabel": "Unusual Material",
+        "attunementLabel": ""
+      },
+      {
+        "name": "Vanishing Velvet",
+        "description": "<p>Upon coming into contact with water, this moss turns itself and any creature it's covering mostly invisible for 10 minutes.</p><p>During combat, an affected creature rolls a 1d10 at the start of every combatant's turn, loosing it's invisibility on a 1 and regaining or maintaining it on a roll of 2 or higher.</p>",
+        "section": "physical-items",
+        "quantity": 2,
+        "combinedLabel": "Unusual Material",
+        "attunementLabel": ""
+      },
+      {
+        "name": "Potion of Heroism",
+        "description": "<p><em>This blue potion bubbles and steams as if boiling.</em></p><p>When you drink this potion you gain 10 temporary hit points. Additionally you are under the effect of the Bless spell for 1 hour (no concentration required).</p>",
+        "section": "physical-items",
+        "quantity": 1,
+        "combinedLabel": "Potion",
+        "attunementLabel": ""
+      },
+      {
+        "name": "Potion of Cold Resistance",
+        "description": "<p><em>The potion is a plain indescriminate color and smells slightly foul.</em></p><p>When you drink this potion, you gain resistance to Cold type damage for 1 hour.</p>",
+        "section": "physical-items",
+        "quantity": 1,
+        "combinedLabel": "Potion",
+        "attunementLabel": ""
+      },
+      {
+        "name": "Potion of Water Breathing",
+        "description": "<p><em>Its cloudy green fluid smells of the sea and has a jellyfish-like bubble floating in it.</em></p>\n<p>You can breathe underwater for 1 hour after drinking this potion. </p>\n<p> </p>",
+        "section": "physical-items",
+        "quantity": 1,
+        "combinedLabel": "Potion",
         "attunementLabel": ""
       }
     ],
@@ -8011,7 +8281,7 @@
         "name": "Lavender",
         "description": "",
         "section": "physical-items",
-        "quantity": 10,
+        "quantity": 9,
         "combinedLabel": "Spice",
         "attunementLabel": ""
       },
@@ -8027,7 +8297,7 @@
         "name": "Licorice Root",
         "description": "",
         "section": "physical-items",
-        "quantity": 9,
+        "quantity": 8,
         "combinedLabel": "Spice",
         "attunementLabel": ""
       },
@@ -8035,7 +8305,7 @@
         "name": "Vanilla",
         "description": "",
         "section": "physical-items",
-        "quantity": 5,
+        "quantity": 2,
         "combinedLabel": "Spice",
         "attunementLabel": ""
       },
@@ -8133,7 +8403,7 @@
         "name": "Activated: Sending - 3rd",
         "description": "<div><p>You send a short message of twenty-five words or less to a creature with which you are familiar. The creature hears the message in its mind, recognizes you as the sender if it knows you, and can answer in a like manner immediately. The spell enables creatures with Intelligence scores of at least 1 to understand the meaning of your message.</p><p>You can send the message across any distance and even to other planes of existence, but if the target is on a different plane than you, there is a [[/r 1d20]]{5 percent} chance that the message doesn't arrive.</p></div>",
         "section": "physical-items",
-        "quantity": 5,
+        "quantity": 4,
         "combinedLabel": "Spell Gem",
         "attunementLabel": ""
       },
@@ -8313,16 +8583,8 @@
         "name": "Aloe Vera",
         "description": "",
         "section": "physical-items",
-        "quantity": 5,
+        "quantity": 4,
         "combinedLabel": "Spice",
-        "attunementLabel": ""
-      },
-      {
-        "name": "Chili Pepper",
-        "description": "<p>Harvested usually in most warm climates, it is used mainly as a spice in cuisines to add some \"warmth\" to the dish.</p>",
-        "section": "physical-items",
-        "quantity": 1,
-        "combinedLabel": "Spice (spice)",
         "attunementLabel": ""
       },
       {
@@ -8425,7 +8687,7 @@
         "name": "Rations",
         "description": "<p>Rations consist of dry foods suitable for extended travel, including jerky, dried fruit, hardtack, and nuts.</p>",
         "section": "physical-items",
-        "quantity": 28,
+        "quantity": 21,
         "combinedLabel": "Food",
         "attunementLabel": ""
       },
@@ -8435,6 +8697,78 @@
         "section": "physical-items",
         "quantity": 1,
         "combinedLabel": "Loot",
+        "attunementLabel": ""
+      },
+      {
+        "name": "Dreamfeather",
+        "description": "<p>A Dreamfeather is an exceedingly rare and delicate token from the plane of Elysium. These iridescent feathers belong to the Aethergale, small and ethereal songbirds whose rainbow-tinted plumage usually vanishes when shed. However, when an Aethergale is moved by a performance of true beauty and passion—be it a bard's heartfelt song or an artist's soul-stirring creation—a feather may fall and remain intact, becoming what is known as a Dreamfeather.</p><p>Treasured and used as a currency by the Azata, the celestial beings of Elysium, Dreamfeathers are regarded as symbols artistic spirit. To find such a feather is seen as an acknowledgment of one’s creativity and emotional depth. They emit a faint glow, and their touch brings a gentle feeling of calm, as though carrying the nostalgia-filled songs of the Aethergale itself.</p><p><strong>Shared Inspiration. </strong>A creature holding a Dreamfeather can use it to transfer one of it's inspirations to another creature it can see. This consumes the magic which resides in the feather and it vanishes into nothingness. A creature which doesn't have any inspirations, cannot use this ability.</p>",
+        "section": "physical-items",
+        "quantity": 2,
+        "combinedLabel": "Exotic Currency",
+        "attunementLabel": ""
+      },
+      {
+        "name": "Flask of Holy Water",
+        "description": "<p>As an action, you can splash the contents of this flask onto a creature within 5 feet of you or throw it up to 20 feet, shattering it on impact. In either case, make a ranged Attack against a target creature, treating the holy water as an Improvised Weapon. If the target is a fiend or Undead, it takes 2d6 radiant damage. A Cleric or Paladin may create holy water by performing a Special ritual. The ritual takes 1 hour to perform, uses 25 gp worth of powdered silver, and requires the caster to expend a 1st-level spell slot.</p>",
+        "section": "physical-items",
+        "quantity": 10,
+        "combinedLabel": "Potion",
+        "attunementLabel": ""
+      },
+      {
+        "name": "Potion of Fire Resistance",
+        "description": "<p><em>The potion is a plain indescriminate color and smells slightly foul.</em></p><p>When you drink this potion, you gain resistance to Fire type damage for 1 hour.</p>",
+        "section": "physical-items",
+        "quantity": 1,
+        "combinedLabel": "Potion",
+        "attunementLabel": ""
+      },
+      {
+        "name": "Potion of Heroism",
+        "description": "<p><em>This blue potion bubbles and steams as if boiling.</em></p><p>When you drink this potion you gain 10 temporary hit points. Additionally you are under the effect of the Bless spell for 1 hour (no concentration required).</p>",
+        "section": "physical-items",
+        "quantity": 3,
+        "combinedLabel": "Potion",
+        "attunementLabel": ""
+      },
+      {
+        "name": "Potion of Necrotic Resistance",
+        "description": "<p><em>The potion is a plain indescriminate color and smells slightly foul.</em></p><p>When you drink this potion, you gain resistance to Necrotic type damage for 1 hour.</p>",
+        "section": "physical-items",
+        "quantity": 1,
+        "combinedLabel": "Potion",
+        "attunementLabel": ""
+      },
+      {
+        "name": "Potion of Water Breathing",
+        "description": "<p><em>Its cloudy green fluid smells of the sea and has a jellyfish-like bubble floating in it.</em></p>\n<p>You can breathe underwater for 1 hour after drinking this potion. </p>\n<p> </p>",
+        "section": "physical-items",
+        "quantity": 1,
+        "combinedLabel": "Potion",
+        "attunementLabel": ""
+      },
+      {
+        "name": "Potion of Cold Resistance",
+        "description": "<p><em>The potion is a plain indescriminate color and smells slightly foul.</em></p><p>When you drink this potion, you gain resistance to Cold type damage for 1 hour.</p>",
+        "section": "physical-items",
+        "quantity": 1,
+        "combinedLabel": "Potion",
+        "attunementLabel": ""
+      },
+      {
+        "name": "Potion of Cold Resistance",
+        "description": "<p><em>The potion is a plain indescriminate color and smells slightly foul.</em></p><p>When you drink this potion, you gain resistance to Cold type damage for 1 hour.</p>",
+        "section": "physical-items",
+        "quantity": 1,
+        "combinedLabel": "Potion",
+        "attunementLabel": ""
+      },
+      {
+        "name": "Potion of Supreme Healing",
+        "description": "<div><p><em>The potion's red liquid glimmers when agitated.</em></p><p>You regain 10d4 + 20 hit points when you drink this potion. </p></div>",
+        "section": "physical-items",
+        "quantity": 2,
+        "combinedLabel": "Potion",
         "attunementLabel": ""
       }
     ]
@@ -9246,7 +9580,7 @@
         {
           "name": "Divinities - A Working Catalogue",
           "section": "journal-pages",
-          "content": "<p><em>Future Linzi: Turn this chaos into something pretty. Present Me: Stop overthinking! Scribble the weird altar carvings, the drunk priest's rambles, the chills down your spine. We'll make sense of it… eventually.</em></p>\n<hr>\n<h2>Nethys</h2>\n<p><em>The All-Seeing Eye</em></p>\n<h4>Overview</h4>\n<ul>\n<li><strong>Realm.</strong> Ahkanefti (Limbo)</li>\n<li><strong>Alignment</strong> True Neutral</li>\n<li><strong>Areas of Concern.</strong> Magic</li>\n<li><strong>Edicts.</strong> Seek out magical power and use it</li>\n<li><strong>Anathema.</strong> Continually pursue mundane paths over magical ones</li>\n</ul>\n<h4>Notes</h4>\n<hr>\n<h2>Rovagug</h2>\n<p><em>The Worldbreaker</em></p>\n<h4>Overview</h4>\n<ul>\n<li><strong>Realm.</strong> unknown</li>\n<li><strong>Alignment.</strong> Chaotic Evil</li>\n<li><strong>Areas of Concern.</strong> Wrath, Disaster, Destruction</li>\n<li><strong>Edicts.</strong> Destroy all things, free Rovagug from his prison</li>\n<li><strong>Anathema.</strong> Create something new, let material ties restrain you, torture a victim or otherwise delay its destruction</li>\n</ul>\n<h4>Notes</h4>\n<ul>\n<li>Legends say he's imprisoned in a place called Dead Vault.</li>\n<li>His followers believe the world is lost already and destroying it would make way for a better one to arise afterwards.</li>\n</ul>\n<hr>\n<h2>Pazuzu</h2>\n<p><em>King of the Wind Demons</em></p>\n<h4>Overview</h4>\n<ul>\n<li><strong>Realm.</strong> High M'Vania (Abyss)</li>\n<li><strong>Alignment.</strong> Chaotic Evil</li>\n<li><strong>Areas of Concern.</strong> The Sky, Temptation, Winged Creatures</li>\n<li><strong>Edicts.</strong> Tempt others to immoral acts, revel in flight, possess or magically influence others to cause calamities</li>\n<li><strong>Anathema.</strong> Deny a flying creature the ability to fly, abuse Pazuzu's name or call on Pazuzu for help</li>\n</ul>\n<h4>Notes</h4>\n<ul>\n<li>Worshipped by a variety of evil flying creatures, most notably vrock demons and harpies.</li>\n</ul>\n<hr>\n<h2>Besmara</h2>\n<p><em>The Pirate Queen</em></p>\n<h4>Overview</h4>\n<ul>\n<li><strong>Realm.</strong> On board her ship, The Seawraith (Maelstrom, through often raiding other planes)</li>\n<li><strong>Alignment.</strong> Chaotic Neutral</li>\n<li><strong>Areas of Concern.</strong> Piracy, Treasure, Storms, Sea Monsters</li>\n<li><strong>Edicts.</strong> Sail the seas, stay loyal to captain and crew, take what you want</li>\n<li><strong>Anathema.</strong> Betray shipmates, forsake piracy, settle on land</li>\n</ul>\n<h4>Notes</h4>\n<ul>\n<li>Besmara originated as a water spirit who could manipulate monstrous sea creatures, her power grew over centuries as seafarers made sacrifices in her name.</li>\n</ul>\n<hr>\n<h2>Iomedae</h2>\n<p><em>Lady of Valor</em></p>\n<h4>Overview</h4>\n<ul>\n<li><strong>Realm.</strong> Iomedae's Realm (Heaven)</li>\n<li><strong>Alignment.</strong> Lawful Good</li>\n<li><strong>Areas of Concern.</strong> Honor, Justice, Rulership, Valor</li>\n<li><strong>Edicts.</strong> Be temperate, fight for justice and honor, hold valor in your heart</li>\n<li><strong>Anathema.</strong> Abandon a companion in need, dishonor yourself, refuse a challenge from an equal</li>\n</ul>\n<h4>Notes</h4>\n<hr>\n<h2>Abadar</h2>\n<p><em>Arbiter of Scales and Streets</em></p>\n<h4>Overview</h4>\n<ul>\n<li><strong>Realm.</strong> Aktun (Mechanus)</li>\n<li><strong>Alignment.</strong> Lawful Neutral</li>\n<li><strong>Areas of Concern.</strong> Cities, Law, Merchants, Wealth</li>\n<li><strong>Edicts.</strong> Civilize frontiers, earn wealth through work and trade, obey laws</li>\n<li><strong>Anathema.</strong> Steal, undermine a law-abiding court</li>\n</ul>\n<h4>Notes</h4>\n<hr>\n<h2>Yuelral</h2>\n<p><em>The Wise</em></p>\n<h4>Overview</h4>\n<ul>\n<li><strong>Realm.</strong> Yuelral's Domain (Elysium)</li>\n<li><strong>Alignment.</strong> Neutral Good</li>\n<li><strong>Areas of Concern.</strong> Magic, Crystal, Jewelers</li>\n<li><strong>Edicts.</strong> Practice herbalism, use and enchant gems, encourage and teach magicians and jewelers, preserve elven magic and knowledge</li>\n<li><strong>Anathema.</strong> Cut a gem for aesthetic reasons, defile nature, allow the irresponsible use of magic</li>\n</ul>\n<h4>Notes</h4>\n<ul>\n<li>According to a Shessra, a spellscribe who studied under the goddess's tutelage, spellscribing is an art originally created by Yuelral and only taught to those who've lived in accordance with her principles for centuries and have earned the goddess's trust.</li>\n<li>Worshipped as the goddess of magic in the elven pantheon</li>\n</ul>\n<hr>\n<h2>Sarenrae</h2>\n<p><em>The Dawnflower, The Cleansing Light, The Healing Flame</em></p>\n<h4>Overview</h4>\n<ul>\n<li><strong>Realm.</strong> Everlight (Nirvana)</li>\n<li><strong>Alignment.</strong> Neutral Good</li>\n<li><strong>Areas of Concern.</strong> Healing, Honest redemption, The sun</li>\n<li><strong>Edicts.</strong> Destroy irredeemable evil, protect allies, provide aid to the sick and wounded, seek and allow redemption</li>\n<li><strong>Anathema.</strong> Create undead, lie, deny a repentant creature an opportunity for redemption, fail to strike down evil</li>\n</ul>\n<h4>Notes</h4>\n<ul>\n<li>Patron goddess of the city of Promise</li>\n</ul>\n<hr>\n<h2>Torag</h2>\n<p><em>Dwarffather, The Soul Forger</em></p>\n<h4>Overview</h4>\n<ul>\n<li><strong>Realm.</strong> Forgeheart (Heaven)</li>\n<li><strong>Alignment.</strong> Lawful Good</li>\n<li><strong>Areas of Concern.</strong> Forge, Protection, Dwarven crafts, Tradition</li>\n<li><strong>Edicts.</strong> Be honorable and forthright, keep your word, respect tradition and the forge, serve your people</li>\n<li><strong>Anathema.</strong> Tell lies or cheat someone, intentionally create inferior works, break tradition, show continued mercy to the enemies of your people when such enemies prove they are undeserving</li>\n</ul>\n<h4>Notes</h4>\n<hr>\n<h2>Brigh</h2>\n<p><em>The Bronze Lady, The Whisperer in Bronze</em></p>\n<h4>Overview</h4>\n<ul>\n<li><strong>Realm.</strong> Citadel of Resplendent Clockwork (Axis)</li>\n<li><strong>Alignment.</strong> Lawful Neutral</li>\n<li><strong>Areas of Concern.</strong> Clockwork, Invention, Time</li>\n<li><strong>Edicts.</strong> Craft new creations, pay attention to details, share achievements</li>\n<li><strong>Anathema.</strong> Carelessly destroy others' creations or research, enslave intelligent constructs, abuse constructs, refuse to acknowledge or learn from mistakes</li>\n</ul>\n<h4>Notes</h4>\n<hr>\n<h2>Gyronna</h2>\n<p><em>The Angry Hag, Hag Queen</em></p>\n<h4>Overview</h4>\n<ul>\n<li><strong>Realm.</strong> Muravelara (Abyss)</li>\n<li><strong>Alignment.</strong> Chaotic Evil</li>\n<li><strong>Areas of Concern.</strong> Spite, Hatred, Extortion</li>\n<li><strong>Edicts.</strong> Expose hypocrisy (real or imagined) in others, make other creatures miserable, demand bribes to spare creatures from your torments</li>\n<li><strong>Anathema.</strong> Allow others to slight you without retaliation, seek the approval of society, forgive those who have wronged you</li>\n</ul>\n<h4>Notes</h4>"
+          "content": "<p><em>Future Linzi: Turn this chaos into something pretty. Present Me: Stop overthinking! We'll make sense of it… eventually.</em></p>\n<hr>\n<h2>Nethys</h2>\n<p><em>The All-Seeing Eye</em></p>\n<h4>Overview</h4>\n<ul>\n<li><strong>Realm.</strong> Ahkanefti (Limbo)</li>\n<li><strong>Alignment</strong> True Neutral</li>\n<li><strong>Areas of Concern.</strong> Magic</li>\n<li><strong>Edicts.</strong> Seek out magical power and use it</li>\n<li><strong>Anathema.</strong> Continually pursue mundane paths over magical ones</li>\n</ul>\n<h4>Notes</h4>\n<hr>\n<h2>Rovagug</h2>\n<p><em>The Worldbreaker</em></p>\n<h4>Overview</h4>\n<ul>\n<li><strong>Realm.</strong> unknown</li>\n<li><strong>Alignment.</strong> Chaotic Evil</li>\n<li><strong>Areas of Concern.</strong> Wrath, Disaster, Destruction</li>\n<li><strong>Edicts.</strong> Destroy all things, free Rovagug from his prison</li>\n<li><strong>Anathema.</strong> Create something new, let material ties restrain you, torture a victim or otherwise delay its destruction</li>\n</ul>\n<h4>Notes</h4>\n<ul>\n<li>Legends say he's imprisoned in a place called Dead Vault.</li>\n<li>His followers believe the world is lost already and destroying it would make way for a better one to arise afterwards.</li>\n</ul>\n<hr>\n<h2>Pazuzu</h2>\n<p><em>King of the Wind Demons</em></p>\n<h4>Overview</h4>\n<ul>\n<li><strong>Realm.</strong> High M'Vania (Abyss)</li>\n<li><strong>Alignment.</strong> Chaotic Evil</li>\n<li><strong>Areas of Concern.</strong> The Sky, Temptation, Winged Creatures</li>\n<li><strong>Edicts.</strong> Tempt others to immoral acts, revel in flight, possess or magically influence others to cause calamities</li>\n<li><strong>Anathema.</strong> Deny a flying creature the ability to fly, abuse Pazuzu's name or call on Pazuzu for help</li>\n</ul>\n<h4>Notes</h4>\n<ul>\n<li>Worshipped by a variety of evil flying creatures, most notably vrock demons and harpies.</li>\n</ul>\n<hr>\n<h2>Besmara</h2>\n<p><em>The Pirate Queen</em></p>\n<h4>Overview</h4>\n<ul>\n<li><strong>Realm.</strong> On board her ship, The Seawraith (Maelstrom, through often raiding other planes)</li>\n<li><strong>Alignment.</strong> Chaotic Neutral</li>\n<li><strong>Areas of Concern.</strong> Piracy, Treasure, Storms, Sea Monsters</li>\n<li><strong>Edicts.</strong> Sail the seas, stay loyal to captain and crew, take what you want</li>\n<li><strong>Anathema.</strong> Betray shipmates, forsake piracy, settle on land</li>\n</ul>\n<h4>Notes</h4>\n<ul>\n<li>Besmara originated as a water spirit who could manipulate monstrous sea creatures, her power grew over centuries as seafarers made sacrifices in her name.</li>\n</ul>\n<hr>\n<h2>Iomedae</h2>\n<p><em>Lady of Valor</em></p>\n<h4>Overview</h4>\n<ul>\n<li><strong>Realm.</strong> Iomedae's Realm (Heaven)</li>\n<li><strong>Alignment.</strong> Lawful Good</li>\n<li><strong>Areas of Concern.</strong> Honor, Justice, Rulership, Valor</li>\n<li><strong>Edicts.</strong> Be temperate, fight for justice and honor, hold valor in your heart</li>\n<li><strong>Anathema.</strong> Abandon a companion in need, dishonor yourself, refuse a challenge from an equal</li>\n</ul>\n<h4>Notes</h4>\n<hr>\n<h2>Abadar</h2>\n<p><em>Arbiter of Scales and Streets</em></p>\n<h4>Overview</h4>\n<ul>\n<li><strong>Realm.</strong> Aktun (Mechanus)</li>\n<li><strong>Alignment.</strong> Lawful Neutral</li>\n<li><strong>Areas of Concern.</strong> Cities, Law, Merchants, Wealth</li>\n<li><strong>Edicts.</strong> Civilize frontiers, earn wealth through work and trade, obey laws</li>\n<li><strong>Anathema.</strong> Steal, undermine a law-abiding court</li>\n</ul>\n<h4>Notes</h4>\n<hr>\n<h2>Yuelral</h2>\n<p><em>The Wise</em></p>\n<h4>Overview</h4>\n<ul>\n<li><strong>Realm.</strong> Yuelral's Domain (Elysium)</li>\n<li><strong>Alignment.</strong> Neutral Good</li>\n<li><strong>Areas of Concern.</strong> Magic, Crystal, Jewelers</li>\n<li><strong>Edicts.</strong> Practice herbalism, use and enchant gems, encourage and teach magicians and jewelers, preserve elven magic and knowledge</li>\n<li><strong>Anathema.</strong> Cut a gem for aesthetic reasons, defile nature, allow the irresponsible use of magic</li>\n</ul>\n<h4>Notes</h4>\n<ul>\n<li>According to a Shessra, a spellscribe who studied under the goddess's tutelage, spellscribing is an art originally created by Yuelral and only taught to those who've lived in accordance with her principles for centuries and have earned the goddess's trust.</li>\n<li>Worshipped as the goddess of magic in the elven pantheon</li>\n</ul>\n<hr>\n<h2>Sarenrae</h2>\n<p><em>The Dawnflower, The Cleansing Light, The Healing Flame</em></p>\n<h4>Overview</h4>\n<ul>\n<li><strong>Realm.</strong> Everlight (Nirvana)</li>\n<li><strong>Alignment.</strong> Neutral Good</li>\n<li><strong>Areas of Concern.</strong> Healing, Honest redemption, The sun</li>\n<li><strong>Edicts.</strong> Destroy irredeemable evil, protect allies, provide aid to the sick and wounded, seek and allow redemption</li>\n<li><strong>Anathema.</strong> Create undead, lie, deny a repentant creature an opportunity for redemption, fail to strike down evil</li>\n</ul>\n<h4>Notes</h4>\n<ul>\n<li>Patron goddess of the city of Promise</li>\n</ul>\n<hr>\n<h2>Torag</h2>\n<p><em>Dwarffather, The Soul Forger</em></p>\n<h4>Overview</h4>\n<ul>\n<li><strong>Realm.</strong> Forgeheart (Heaven)</li>\n<li><strong>Alignment.</strong> Lawful Good</li>\n<li><strong>Areas of Concern.</strong> Forge, Protection, Dwarven crafts, Tradition</li>\n<li><strong>Edicts.</strong> Be honorable and forthright, keep your word, respect tradition and the forge, serve your people</li>\n<li><strong>Anathema.</strong> Tell lies or cheat someone, intentionally create inferior works, break tradition, show continued mercy to the enemies of your people when such enemies prove they are undeserving</li>\n</ul>\n<h4>Notes</h4>\n<hr>\n<h2>Brigh</h2>\n<p><em>The Bronze Lady, The Whisperer in Bronze</em></p>\n<h4>Overview</h4>\n<ul>\n<li><strong>Realm.</strong> Citadel of Resplendent Clockwork (Axis)</li>\n<li><strong>Alignment.</strong> Lawful Neutral</li>\n<li><strong>Areas of Concern.</strong> Clockwork, Invention, Time</li>\n<li><strong>Edicts.</strong> Craft new creations, pay attention to details, share achievements</li>\n<li><strong>Anathema.</strong> Carelessly destroy others' creations or research, enslave intelligent constructs, abuse constructs, refuse to acknowledge or learn from mistakes</li>\n</ul>\n<h4>Notes</h4>\n<hr>\n<h2>Gyronna</h2>\n<p><em>The Angry Hag, Hag Queen</em></p>\n<h4>Overview</h4>\n<ul>\n<li><strong>Realm.</strong> Muravelara (Abyss)</li>\n<li><strong>Alignment.</strong> Chaotic Evil</li>\n<li><strong>Areas of Concern.</strong> Spite, Hatred, Extortion</li>\n<li><strong>Edicts.</strong> Expose hypocrisy (real or imagined) in others, make other creatures miserable, demand bribes to spare creatures from your torments</li>\n<li><strong>Anathema.</strong> Allow others to slight you without retaliation, seek the approval of society, forgive those who have wronged you</li>\n</ul>\n<h4>Notes</h4>\n<hr>\n<h2>Shelyn</h2>\n<p><em>The Eternal Rose, Syriss, Song of the Prism</em></p>\n<ul>\n<li><strong>Realm.</strong> Blossomheart (Nirvana)</li>\n<li><strong>Alignment.</strong> Neutral Good</li>\n<li><strong>Areas of Concern.</strong> Art, Beauty, Love, Music</li>\n<li><strong>Edicts.</strong> Be peaceful, perfect an art form, lead by example, see beauty in all things</li>\n<li><strong>Anathema.</strong> Destroy art or allow its destruction, except to save a life or pursue greater art; refuse to accept surrender</li>\n</ul>\n<h4>Notes</h4>"
         },
         {
           "name": "The Birth of the Soul",
@@ -9962,6 +10296,11 @@
           "name": "106",
           "section": "journal-pages",
           "content": "<h3>From Dinosaurs to Diplomacy: Eggstealing Solves the Ancient Riddles of Gondians</h3><p>Plex guides his steadfast mount with an <strong>egg-on-a-stick</strong>, in the overgrown area.<br>He's sitting ontop of a 150ft tall dinosaur, guiding it into a village of Lizardfolks.</p><p>Turns out the stampede of <strong>Bronccosaurs'</strong> into a village was a bad idea and we grab Shalkoc, who's imprisoned in a cage, and open an Anchor Portal back to <strong>Promise</strong>.<br>Plex helps by gliding down the tail of the giant dinosaur but his magic puts him right back on top of it.<br>He miniaturize the dinosaur egg he is carrying and uses Fly to fly down to Aviana, who promptly kicks him into the Promise Portal, shoves <strong>Shalkoc</strong> into the portal as well and slingshots herself, leaving the hungry dinosaurs and Lizardmen behind us.</p><p>While back in Promise, Plex takes the credit for the massive amounts of Dinosaur Meat that got squeezed through the portal as we made our escape and so takes the blame from all villagers who's <strong>Cabbage Market</strong> stands were crushed.</p><p>Fearghas is contacted thanks to <strong>Gavin the Commoner</strong> and appears at Aviana's location, swapping place with her as she finish up moving the Anchor from the middle of the town to the outskirts instead.</p><p>Aviana joins Kyrin, Emilio and Naami. It seems Emilio is possessed by something, so Aviana feeds him and he calms down. I guess Naami helped with some magic spell too.</p><p>Fearghas swears upon his god to murder that Goblin, get's the gist of what happened, scolds the goblin, pays for the damages <em>(200g)</em> they caused and asks Aviana nicely to open a portal for him and Plex to re-join the party in <strong>Stradzland</strong>. But first they talk to Shalkoc who is bedridden and throws up a lot.<br>Turns out Plex tried to hide his face and Fearghas notices that it's not Shalkoc.<br>It's another Dragonborn named <strong>Shorec</strong>, a researcher from <strong>Izzet</strong>.</p><p>After returning to the party, we explain the situation and everyone is very understanding.<br>Plex and Shalkoc met Dinosaurs and used the eggs from these dinosaurs, tied to a stick and piloted the dinos.<br>Aviana and Plex have a stroke, explaining things. Fearghas as well.</p><p>Naami is worried about the real Shalkoc so Fearghas contacts him and explains the situation, Shalkoc tells us he is fine and being treated as royalty.<br>Probably bathing in a cooking pot, for all we know.</p><p>We learn about a 200 year war where <strong>Iron man</strong> blasted the elves and joined the dwarves.<br>It's all connected to <strong>Thorag's prophecy.</strong> Telling us to find the <strong>Hold of Iron Tear</strong>.</p><p>We discuss important matter such as <em>chocolate coins</em> @UUID[Compendium.talia-custom.customItems.Item.u0v2rg5ak28dK9NR]{Oathgold Coins} and if they are edible or not.</p><p>Regardless, we put up a Tiny Hut but it's dispelled by a Vampire named <strong>Magdalena</strong>.<br>Using the knowledge gap, Fearghas is like a sly fox that keeps information hidden from her.<br>So she casts <strong>Zone of Truth</strong> and demands he steps into it.<br>There's a lot of information exchanged but we end up deciding not to kill each others.<br>Talk about the mist from <strong>Mistborn Isles</strong>, we tell her about the information regarding the Hands of Iron Tears and something else that was important.</p><p>She seems to like Emilio?<br><em><s>(Foreshadowing)</s></em></p><p>Magdalena leaves and Plex throws himself on the ground, speaks to a mushroom and asking it questions on Fearghas' behalf. He learns that all elves are dead.<br>Fearghas tires of Plex and contacts another plane's scribe instead and asks them about if the elves brought it upon themselves. <em>\"Yes, History is written by the victors, the Gondians.\"</em></p><p>Eyes of mourning is a place <strong>Vrazzak</strong> has placed the <strong>Eye of the Superdragon</strong>.</p><p><strong>The Gondians</strong> claimed spoils of war was the sieze of lands and mountains.<br>The <strong>center of Gondian operations</strong> are near the great water sluices and it's within 2 miles of it.<br>Seems to be the elves were NOT the aggressors in the <strong>War of the non-Beard</strong>.</p><p>Did the dwarves come from the <strong>Silverpeak Mountains</strong>? Yeeeeesss.</p><p>It seems the dwarves and Gondians befriended the elves to gain their land to dig mines in, but the elves retaliated and the war started. The elves lost, badly, like <em>really</em> badly, like, they got <em>wiped out</em> AND had their lunch money stolen kind-of-badly.</p><p>We learn the phrase <em>\"Dead people's dead gods cannot forgive.\"</em> has Naami reelin' in mental agony.</p><p>Something is hidden within the hold in the <strong>Mountains of Mourning</strong> and beneath the rubble.</p><p>We discuss a while how to kill Magdalena, if we even can.<br>Deciding to hold on on that until after we try to have Fearghas and Emilio charm her the good old way.<br><s>Who knows, he might bury his sword so deep in her that the one who pulls it out will be crowned the next king of Stradzland.</s></p><p>We teleport to <strong>Solgorod </strong>to talk to <strong>Dietritch</strong> and then after that we will head to Heaven with Plex's Planetrotting.<br><em>(He misses the mark and we luckily end up in Nirvana instead)</em></p><p>\"Fearghas, don't let the dark consume thee!\"<br>\"I hate you all…\"</p><p>Plex starts making a Latex suit for Fearghas, for his birthday.</p>"
+        },
+        {
+          "name": "107",
+          "section": "journal-pages",
+          "content": "<h3>[Title WIP]</h3><p>Shalkoc enjoys his life as a VIP guest for the Yuan-Ti snake people.<br>Great bath with personal retainers feeding him and also speaking for him.<br><strong>Siztla</strong>, the main retainer, princess of the snakes, first born of the great Oatzaa, tells Shalkoc that the lowborn are not allowed to speak with him and that's why they must speak for him in his place instead.</p><p>They're grateful for Shalkoc's arrival, spelling the disaster for the world, bringing the Yuan-Ti's victory and drowning the world in poison.<br>Shalkoc says he forgot something in Heaven and needs to go get it real quick.<br>A bit confused, but the Yuan-Ti's got the right idea and tries to help their new diety.</p><p>Fearghas teleports us to Dietrich and we might be seen by Magdalena, but she might not be able to hear us. He casts Non-detection on all of us to keep prying eyes away but gets a Wild Magic surge, making him obsessed with his wine-glass for a day.</p><p>We tell him about the Grand Ducks (Duchies) and Dietrich responds that the 1200 year old vampire should have been able to remove all her obvious weaknesses. Not to mention that Anna-Katarina is about 3000 years old and even more powerful.<br>In Krovozamok, The City Magdalena lives in, we will find her and the entrance to the Hold of Iron Tear.</p><p>Dietrich further explains that you need to slay a vampire and then they will get put into a coffin of their choice, where you must slay them quickly in their regenerative state.<br>A Plex Trap should do the trick for that.</p><p>After finishing our planning, we find Plex painting food on the ground.<br>It's a summoning ritual to summon Shalkoc.<br>It works!<br>Barely.<br>He summons <strong>Shalkoc the Second</strong>, a Lizard. It's just a lizard. Salamander species from the looks of it.<br>He'll suffice as his replacement until further notice and we set off to planetrot to Heaven, using Plex's last spoon.</p><p>What could go wrong?</p><p>A Deep voice tells Shalkoc that he's a disappointment to the family and he has come too early here. <em>(Come back at a higher level?)</em><br>He gets told off by the higher being to get lost, but Shalkoc cannot leave since an invisible wall stopped him from escaping the sacred island.<br>Shalkoc promises to start a Holy War and then gets Teleported by the mind-voice-entity.</p><p>He appears back in Solgorod with us and we all meet up with him as he explains his adventures with the Religious group and their Holy War against the other races without scales.<br>Me too, Shalkoc. Me too.</p><p>Plex drawing of food seemingly interrupt the ritual, or maybe it was the sneeze, regardless we end up missing Heaven's bus-stop and we end up in Nirvana.<br>IS THAT A HARPIE?!</p><p>Aviana blasts off into the skies like a Ballistic missile (with the help of Plex) and meets up with the lovely harpie lady in the sky.<br>Apparently she can fall with style much better than me.<br>Fearghas keeps telling me she was an <strong>Avoral</strong>, the gall of that man.</p><p>She tells us about the Artist Festival that is coming soon and that we have landed in Blossom Heart.<br>The festival is tributed to <strong>Lady Shelyn</strong>, the godess of Art, beauty, love and music.</p><p>She tells us she were on the way to the super-garden for the greatest artists far and wide to work and be inspired by each others. <strong>The Gardens of the A-Dreams!</strong></p><p>Telvia Brightfeather, the Harpie Lady, decides to walk with us through the incredibly beautiful Nirvana.<br>We arrive at an Apitheater, where all artists are gathered and there's even an open invite.<br>We ask flowers nicely for materials because Aviana wants to create shoes made of flower petals.</p><p>At the theater there is a Goliath female, blind and ashen hair that tells a epic tale.<br>There's a Fairy Genasi doing a dance of flame and rows.<br>A High-Elf Bard did something too, I guess. She was such a bitch, like, please lighten up a bit.</p><p>Each participant recieves a @UUID[Compendium.talia-custom.customItems.Item.MRcb7rvBFLgQAUIX]{Dreamfeather} for signing up and most of us does.</p><p>Kyrin goes first and there's a spectacle from her display of skill. All are taken aback!<br>Shalkoc performs an amazing martial art performance, so glamorous they don't understand his arts.<br>Plex enters the battledome, shows off his painted origami skills and to world seems to love him to get points, so his craft is seemingly divine.<br>Aviana takes the stage by storm and with her rose shoe and white wings <em>(colored by the cute item she got from Kyrin, thanks Kyrin)</em> she steals the show thanks to ONLY her skill and not any goblin whimsy magic, nu uh.</p><p>Aviana takes first place due to sheer dumb luck and we receive a bunch of <span>Dreamfeathers</span> and <span>Mini-Springseeds</span>. Naami cries as she see's the Springseeds and gets a hug from a tree.</p><p>Plex asks for some color so he can re-paint the Feywild and gets a cup of paint.<br>Telvia tells us that hags sucks the comfortable shadows out of the Shadowfell, creating misery there. Plex looks worried. I think.</p><p>Fearghas buys two normal forks from me for 500 gold?! He's such a kind man, awww.<br>But then he GIVE IT TO PLEX?!<br>What is Plex going to do with a fork?</p><hr><p>We are in Heaven now somehow, Planetrotting it seems. Good, they didn't have any clothes shopping stores in Nirvana anyway.<br>The bath-house of Heaven calls to me, my destiny is to soak my weary legs.</p><p>We spend some good downtime in Heaven.</p><ul><li><p><strong>Kyrin</strong> figures out that <strong>Svetoslavu Igorevich</strong> is the ancestor to <em>[Not writing that name]</em> and they lived for 18000 years ago, around <strong>16492 BCE</strong>. The Gondians who went of to call themselves Strazi, uncovered the underway that caved in at that time. Surprised that the dwarves became distant from them. <strong>4430 BCE, Vampires came from the Argent Riverlands</strong>.</p></li><li><p><strong>Emilio</strong> duels against angels in a sport he is not used to. It looks bad at first but by sheer luck, he manages to get the upper hand and he stands above them all! <em>(At the second place pedestal)</em>. 2800 gold to Gryffindor!</p></li><li><p><strong>Fearghas</strong> researches together with Kyrin and they figure out even more about the old Strazi. The Vampires turned themselves into stone statues by replacing old statues. It was a bad idea as that's how <strong>Marcus Von Rudzeberg</strong> died, as he was staked to death. And the expectation was that the vampire was going to reform within an hour. It's a lot, that short man sure can talk. Also, I think he's reading my diary but I can't prove it.</p></li><li><p><strong>Naami</strong> research about the Snow elves, a very flesh focused race. They believed in carrying the essence of other living beings by eating them. When they died, their next of kin ate their dead bodies in honor, taking in their essence. <s>What is Divinity 2?</s> The Siege of the Last Forest in 16'872 to 16'820 were a massacre and a war of blood for the dwarves, eradicating the snow elven civilization. Their final curse was a ritual suicide to plead their gods to aid them. So four gods killed themselves to supercharge the curse and so the Mist appeared. The ocean also hates Snow elves.</p></li><li><p><strong>Aviana</strong> hangs out with <strong>Sheike</strong> and becomes good friends and Aviana also rearranges a bunch of statues that were too heavy for Sheike. She said she'd owe me one, such a nice lady, we should drink wine more often.</p></li><li><p><strong>Shalkoc</strong> poisons some Nobles with good food and perceptively earns himself the favor of nobles in the form of 600 gold.</p></li><li><p><strong>Plex</strong> researches… something. This can't bode well. He reads about Grungs and their predecessors, the Slaanar. The know about wind magic? Frogwizards! They also seem good at aging creatures forward and backwards. Slanaars are also incredibly lazy and ONLY follows the Great Plan. If something isn't part of the plan, they sleep.</p></li></ul><p>A Wild Magic surge stole Aviana's clothes and put them on the top of the roof in the main square.<br>All who watched her that day should look over their shoulder.<br>Except Naami, she's cool. <s>Don't go to school tomorrow.</s></p><p>We buy Forks for Plex, mainly Shalkoc, and prepare to enter the lair of the Vampire Lady.<br>Except Plex sneezes and we end up in the bloody <strong>Shadowfell!</strong></p><p>PLEEEEEEEEEEX!</p>"
         }
       ]
     },
@@ -10257,6 +10596,11 @@
           "name": "106 - Dinosaurs and double deception, phone calls steeped in mystery",
           "section": "journal-pages",
           "content": "<p><strong>Sunday, 6th of Duodecimus, 1497</strong></p><p><strong>0:10</strong></p><p>Meanwhile, in… where exactly? Plex finds himself in a lush, humid forest. He is riding above the trees, knocking over much of the jungle in the path of his <strong>dinosaur</strong> mount. He finds a village in a clearing, the lizard-like people gathering to attack him. Aviana follows behind and yells to Plex, she found Shalkoc! The dragonborn is imprisoned in a cage confused, and cowers as dinosaurs charge towards him! Plex is trying to shrink his dinosaur mount, leaving Aviana to save Shalkoc on her own. The harpy barrels into the cage, grabs Shalkoc under an arm and keeps dashing, chased by dozens of dinos.</p><p>Aviana yanks on the <strong>Transdimensional Anchorchain</strong>, succeeding thanks to Borrowed Luck and despite a minor surge making Plex harder to hit (just for today, to Fearghas' dismay). Plex' dinosaur shrinks to a quarter of its size but… it's still 75 feet tall and it won't fit through the portal. Plex slides down the dinosaur's neck with a 9 on Acrobatics, falls off and Fey Steps, somehow teleporting himself right back on top of the dino's head. Aviana screeches herself into a Rage (Plex-what's-taking-so-LOOOOONG?!\") and holds the portal open with the sheer force of her anger. Plex casts Fly on himself and dives to the portal.</p><p>The dinos have caught up to Aviana and she kicks a dazed Shalkoc through the portal, freeing her hand just in time to catch the foot of the dino stomping down on her… but the 300 foot tall dino is a little stronger than she is and she sinks into the ground, using her <strong>Legendary Vigor</strong> to not be crushed. Plex shouts he has to protect the egg which he stuck on the top of his stick, carrying it with the power of the Master of Chance (not realising he should not be able to carry it but that's okay). Plex is being rescued by Aviana who kicks him through the portal as well; he flies high into the air, thankfully he is still able to fly by himself.</p><p>Aviana drags the portal through the nearest dino who can't fit through it and is sliced up, dumping its flesh and innards into the marketplace of Promise. She steps through the portal, <strong>slingshotting</strong> herself through the dinosaur meat, towards the mountain, into the sky, and back down. She crashes in the middle of the split dinosaur sausage in a perfect super hero landing, not a feather out of place. Plex and the egg gently float down yapping about a feast, Shalkoc is looking a lot greener than usual, not in a good way. The marketplace is drenched in blood, Shalkoc throws up (I didn't know he could?!).</p><p>People are running away screaming, <strong>General Ragvond</strong> is slow-clapping and the Frost Giants are laughing. Aviana flexes, Shalkoc looks very ill, Plex is asking about everyone's magic items which they left behind. Plex goes to <strong>Gavel the Elder</strong>, saying he brought food. <strong>Kara Stormwind</strong> runs up to the main square with the city guard, stares flabbergasted at Aviana and Shalkoc and asks what happened. Aviana says they went on a trip and brough as a souvenir \"a sausage of magnamificient proportions\". To her credit Kara keeps it together and… agrees to the suggestion to move the anchor. The people of Promise and the Frost Giants help with the cleanup; it's not all meat but bits of stomach and guts too, probably thoroughly inedible and I pray to Sarenrae nobody tries.</p><p>Plex finds Gavel who asks if anything happened; the goblin claims he brought a very large sausage but it's fine, however he needs to contact Fearghas so he asks for a scroll in exchange for all the food he brought. Gavel has <strong>gems</strong> to contact Fearghas in times of need. Plex is offended no one is paying him for the food he brought, but people are already complaining over being drenched in blood and innards. Can't exactly blame them…</p><p>People are complaining about the blood everywhere, being nearly killed by a massive slab of dinosaur meat, one guy had his stall flattened by the giant sausage and all his cabbages are destroyed. One the goblins is quick-translating everyone's words for Plex from Common to <strong>Goblin</strong>. Plex speaks Common. He asks Gavel to send a message to Fearghas. The translator goblin pulls Plex aside to talk about the concept of an invention involving sponges.</p><p>Meanwhile in Strazhland, as Fearghas is trying to get Emilio to let go of the femur, the wizard receives Gavel's message and sighs very heavily. I know that look… what did Plex do? Fearghas responds to Gavel saying he will open a portal for the others to join us. ONE portal. They better walk through, he's not opening another one. He uses Aviana's tattoo as a beacon for <strong>Teleportation Circle</strong>. The harpy carries the anchor a safe distance from the marketplace and Fearghas finds her there, beckoning her through. Plex is at the goblin village and Shalkoc… he needs to lie down for a while.</p><p>Fearghas steps through to Promise and instructs Aviana to open the portal in half an hour. I ask her what even is going on, she asks why Emilio is gnawing on a bone and throws him a slab of dinosaur meat to check if this is really Emilio. He devours it while still gnawing on the bone, it is Emilio all right. I channel <strong>Remove Curse</strong>, Heightened to 6th level. Emilio drops the bone, not sure why he was chewing on it. Phew…</p><p>Meanwhile in the goblin village, Plex' tribe invented a means of travel much faster than airships, involving a goblin in a barrel and about <strong>9 sponges chained to the barrel</strong>. How they expect this to work is a mystery… Fearghas finds the carnage in the marketplace and his brain stutters. Gavel's face says \"I'm too old for this shit, I was never young enough for this shit\". Fearghas relates and enquires how in the world any of this happened. The portal… should not cut through creatures but clearly it did. He tries to reassure the townsfolk and evaluates the damage, compensating the merchants.</p><p>Gavel does point out that if this meat is edible… that's a lot of food. Fearghas agrees but vetoes the idea that Plex should be paid as much as a copper. As apparently speaking of the goblin makes him appear, Plex shows up and is immediately interrogated by a very tired dwarf, who finds he has to explain what a sausage is. Shalkoc went to lie down in the inn so Plex runs off to find him, Fearghas grabs him by the scruff of the neck and the goblin immediately Fey Steps away. Plex finds Shalkoc curled up in bed with a bucket next to him. The dragonborn starts talking in confusion, Plex tries to drag a blanket over his face, Fearghas stomps into the room and immediately realises…</p><p>This green dragonborn is not Shalkoc. His name is <strong>Shorec</strong> and he is very confused, apologises he has no money, asks where he is. He is an anthropologist from <strong>Izzet</strong>, a place on a small island south of the Redwind Sands and the Mountains of Madness. He was captured while sailing the Sea of Nivix and taken elsewhere, he's not sure where. He was trying to learn from the locals, but his Draconic isn't so good and somehow he was put in a cage, then the dinosaurs came stampeding, Aviana burst the cage open and rescued him then threw him through the portal. Fearghas tells him he is on a flying island and Shorec does not believe him at first (don't blame him, I didn't either, until they teleported me onto it).</p><p>Shorec concludes he hit his head and is severely hallucinating, asks to be left to rest for a while. Fearghas leaves him to recover and leads Plex towards the location where Aviana is about to open the portal and asks the goblin… <strong>where in the world is Shalkoc?!</strong> Plex claims Aviana will know. Aviana reluctantly opens the portal, she does not know where Shalkoc is, Fearghas patiently asks her what happened after they left the ball last night.</p><p>She tells a story about wrangling sponges off the marketplace, getting tangled with Shalkoc, and the sponges bouncing off the island. Apparently Aviana and Shalkoc were on sponges and fell into the water, Shalkoc was very heroic and punched the water. Fearghas loses his shit, took longer than I thought it would. Plex says he was looking for goblins, Aviana opened the portal and beckoned him through, he thinks he was on the Mistborne Isles because there were <strong>lizards</strong> there. Geographically speaking that makes 0 sense, considering what Shorec has said.</p><p>Plex found an egg and was shot at, Kyrin squeaks that's no wonder, snakes and lizards lay eggs, he stole one of their babies! She knows about reptiles, she was wrangling snakes for weeks! Plex tells about people who look like Shalkoc but had no legs. Fearghas reiterates, very impatiently, how did you lose Shalkoc? \"That is a story for another time,\" Aviana says. \"No it's not,\" Fearghas snaps. We figure out thanks to a kindly deity (the DM) that Shalkoc picked up a dinosaur egg because he assumed it would be tasty, all the dinosaurs started chasing him so he thought if he tied an egg to a stick, he could pilot the dinosaurs. He did exactly that and ran off with an egg and many dinosaurs after him.</p><p>So Shalkoc is alone in the jungle. Fearghas sends a <strong>Message</strong> to him, grumbling he's not made of spell slots. Shalkoc responds he's in the temple being served really nice food, he's alright, then he starts rambling about spices, sounding very content. We suspect the locals will try to eat him but he'll probably be fine, practically nothing can kill him. Kyrin says if they stick him in a pot of water and heat it up slowly to cook him, he will never know, he is a very special boy. (I can't see my notes I'm crying.)</p><p>We decide Shalkoc can handle himself for now and catch up Aviana and Plex on our findings in Strazhland. We return their magic items to them but they'll need to re-attune to them. Turns out <strong>Oathgold</strong> coins are meant to be consumed, as in eaten, so Emilio theorises they are chocolate coins. The rest of us are weirded out. The forest's curse has no hold on Aviana and Plex but we worry about Fearghas and generally want to be out of the swamp to find a good place to spend the night.</p><p>At Plex' request, Fearghas gives him a spellgem of Feather Fall and the goblin promises the \"perfect gift\" for him in return, but he left it in Promise. We set up camp a short distance from Belyan's village and Fearghas puts up <strong>Leomund's Tiny Hut</strong>. Aviana cooks up a late dinner as we get comfortable.</p><hr><p><strong>Sunday, 6th of Duodecimus, 1497</strong></p><p><strong>07:00</strong></p><p>We wake up to find the bubble dispelled and <strong>Magdalena</strong> standing over us urging us up to report our findings. <s>That interrupts our short rest too</s>. Fearghas tells us about the age of the ruins and the location of the bridge. She interrupts by casting <strong>Zone of Truth</strong> next to us and invites us to step in, while staying out herself. Fearghas challenges her; a partnership works both ways. She says that's between equals.</p><p>I step into the Zone of Truth, pass the save, just look at Magdalena and say nothing. My point is made. She glances at me and I sense she's taken note. Emilio gives me an approving shoulder pat. Fearghas glares at Plex and says, having failed the save, \"I do not enjoy having you around, you annoy me like few people can.\" We realise Magdalena has been spying on us, but she may not have heard our conversations. She is weirded out by Emilio sucking on bones but claims she isn't one to kinkshame. If he is a good boy, he can have more bones, she offers. Emilio declines on the bones but asks about <strong>aberrations</strong>.</p><p>Emilio rolls an Insight check with significant help from <strong>Borrowed Luck</strong> and she is very intrigued, even interested. She promises to speak later about this, then turns her attention back to Fearghas. Plex interjects about the egg he gave Fearghas, who is weirded out. Magdalena is also weirded out, what kind of egg? Fearghas clarifies it has nothing to do with the matter at hand and recounts the part about \"yon Lindwurm\". He tells about the buried bones and battles.</p><p>Fearghas leaves out the memorial in the cave and observes Magdalena's reaction, but she shows nothing. Kyrin says we haven't found that much more, and the vampire prompts her on exactly how much more, inviting her to step into the Zone of Truth first. Kyrin fails the save but she has a Bachelor's in Bullshitting and rolls a nat 20 on <strong>Deception</strong> to drag out the conversation long enough for Zone of Truth to end. She recasts the spell and I fail the save but act confident to pretend I chose to fail it. It doesn't fool her I'm sure. Emilio just sits and grins, earning another interested glance from Magdalena as her spell doesn't work on his Hidden Heart.</p><p>Kyrin passes the save, which causes Magdalena to tell her to shut up. Kyrin talks shit, Magdalena sweetly suggests to kill us all. We tell Kyrin to chill out and Magdalena presses us for more information. Fearghas uses White Tower Bullshit (tm) to withhold the part about the memorial. She asks how we plan on remaining useful, and Fearghas says we will continue the search. She enquires where we plan on going next and Plex mumbles \"<strong>the Mistborne Isles</strong>\" for reasons nobody understands but Magdalena asks why there. Plex says the thing he is searching for is there.</p><p>Fearghas desperately tries to tell Plex he was not there, Magdalena asks Plex what he found, he mumbles about lizards and the vampire immediately loses interest and turns back to Fearghas. Kyrin begins to taunt Magdalena again, I'm sure that will end well. Fearghas says in very clear terms he doesn't know about a connection to the Mistborne Isles, but asks Magdalena if they are connected to the <strong>mist</strong> in Strazhland. She says she doesn't know why either of them are here, or why they are so persistent. Hmmmmm…</p><p>I ask her \"If you don't know what Vrazzak was up to, how do you know what information is relevant to figuring that out? You can't see the completed puzzle so what makes you think we have all the pieces necessary to solve it?\" She gives me a bullshit answer that she doesn't have time to explain everything to me and will not give information for free. She's immortal by the way. At least she hasn't threatened to kill me.</p><p>We go back to \"Where do we go now?\" and… we're a bit stumped. We're allowed to sniff around Krovozamok. Magdalena likes Emilio, does not give Kyrin the time of day, and vampires away with the promise to check on us tomorrow again, likely shit early again.</p><p>Aviana cooks up breakfast for us, we take a break to eat and finish our rest properly.</p><p><strong>Short rest</strong></p><p>Fearghas puts on the <strong>Glasses of True Seeing</strong> and has a little stroll around, but finds nothing of note. We figure out Plex can cast <strong>Speak with Plants</strong> and Fearghas drags him to a tree to make conversation. Trees being pretty local, we don't learn much so Plex chats with a network of mushrooms instead. We learn bits and pieces; bones are not evenly spread under the Krasnyles but rather in clusters on every river, and under the city of Krasnograd. The great wall is weakest to the south, where it was built mostly by Gondians and not Dwarves.</p><p>From our research, we also know Strazhi historians won't know anything that will help us; their records simply don't date far back enough. Fearghas casts <strong>Contact Other Plane</strong> and gets in touch with the head scribe under the Gondian general who fought with Hargrin Irontear.</p><p>Did the Elves start the war? - Yes, but history is written by the victors. (That's the Gondians.)</p><p>Were any great spoils of war taken? - Spoils the size of the land and mountains.</p><p>Did the Gondians have a centre of operations nearby? - Yes.</p><p>Is it near the Dwarven water tower? - It is near the Dwarven sluices.</p><p>Is it within the city now known as <strong>Krovozamok</strong>? - Yes, in the area of the city.</p><p>Fearghas casts the spell again, this time targetting the spirit of a local Elven sage, a <strong>Snow Elf</strong> <s>finally the owl can stop eating the snow</s>. He burns an inspiration to reroll his nat 1 on the save against insanity, and gets a nat 20 instead. Well then!</p><p>Were the Dwarves and the Gondians the agressors in this war? - Initially they were the invaders, but not the agressors.</p><p>Did the Gondians attempt to colonise this land and the Snow Elves retaliated? - Yes, they colonised the land, initially in harmony and then the Snow Elves tried to drive them out.</p><p>Did you drive them out because they were starting to damage the land? - Yes.</p><p>Did the Dwarves attempt to colonise this area as well, and did you drive them out for similar reasons? - Yes.</p><p>Did the Dwarves move into the Mountains of Mourning from the Silverpeak Mountains? - Yes.</p><p>So… the <strong>Mountains of Mourning</strong> are not the ancestral home of the Dwarves. As the spell ends, we realise our campfire is burning blue. Huh? After some asking around and a cookie, we figure out they change colour according to my emotions… I've got mood flames! We're all unsatisfied though and Fearghas recasts the spell with a <strong>Resistance</strong> from Aviana, and that's a surge, her whispers can be heard 100 feet away but her shouts are barely audible 30 feet away. She does not realise that.</p><p>We feel pretty sure that the Snow Elves had a magic bond with the land, explaining in part why the curse is so powerful. Fearghas asks more questions:</p><p>Is there a way to reverse the curse your people put on these lands? - A dead peoples' dead gods cannot forgive.</p><p>Are there any enclaves of your people outside of Strazhland or the Mountains of Mourning? - No.</p><p>Did the Dwarves in their colonisation uncover something sacred to your people? - They didn't uncover, they knew it was sacred.</p><p>Do you mean the land by that? - Yes.</p><p>Fearghas is grumbling and casts <strong>Contact Other Plane</strong> a 3rd time to contact one of Irontear's architects.</p><p>Is there an underway in Krovozamok leading to Hargrin Irontear's hold? - There was before we collapsed it.</p><p>Did you collapse it to stop the elves from using it? - No.</p><p>Did you collapse it as part of the flooding effort? - No.</p><p>Did you collapse it to trap something within the hold? - Within the hold beneath the rubble.</p><p>Is there a Dwarven hold in Strazhland? - No.</p><p>So we know to go look <strong>below Krovozamok</strong>. The problem we have is Magdalena is watching us and we do NOT want to lead her to the hold. We start to discuss how to hide ourselves from her in her own city but that will take a lot of ressources and won't be before Wednesday. Quickly we realise if we can't hide ourselves from her, she will follow us and eventually kill us. We will have to fight her at one point. We start discussing our choices and it's not looking good, we have little to no information on vampires.</p><p>We could return to <strong>Count Dietrich</strong> and plan on going to war against Magdalena with his help. Fearghas suggests casting Mordenkainen's Private Sanctum and Sign of Sanctuary to trap her. Considering we're in Strazhland, we could also play the political game and get other dukes to attack or distract her. In any case, we are not approaching this fight without <strong>Shalkoc</strong>. We're also not approaching this until after a long rest, we gotta stall until then.</p><p>So naturally we decide to hop to Heaven to go and have a chat with Claude. Plex casts Planetrotting and… that's a mishap. We're going on an adventure! The d4 takes us to <strong>Nirvana</strong>.</p><p>Another thing we can do is make a spellgem of <strong>Teleportation Circle</strong>, give it to Kyrin, and after she sneaks into the tunnel with her <strong>Amulet of Nondection</strong>, we all cloak ourselves with magic too and teleport to her. We want to involve Dietrich in all this as he wants Magdalena's rank and can be a powerful ally.</p><p>Well in the meantime, Kyrin pulls out the <strong>Sheeshah of Revelations</strong> and we decide on the question \"Where is the entrance to the underway leading to Hargrin Irontear's hold?\". I cast <strong>Augury</strong>, lag for a bit due to a surge, and receive the omen Weal, so Kyrin starts smoking. She gets the answer: \"At the bottom of the castle, there is a small pond. You dive into the pond and at the very bottom, there is a small tunnel that goes to the side. You follow a narrow horizontal tunnel and dig through what used to be a spiral staircase. About 500m down, it will lead you to the big entry hall the Dwarves collapsed. You will know you're there when you can't dig any further, it's Dwarven-worked stone and you can't dig through that.\"</p><p>Well that sounds like Kyrin needs a <strong>Waterbreathing Potion</strong>, the <strong>Badger Hide</strong>, and the <strong>Instant Door</strong>. She also asks Fearghas for the latex suit he wore at the ball, and Plex to adjust it so it fits her. Fearghas claims he does not have it, none of us believe him. Grumbling, Fearghas casts <strong>Teleport</strong> to get us all back to Solgorod, gets a surge swapping out 2 skill proficiencies, Plex calls him fat and Fearghas loses proficiency in Perception to gain proficiency in Persuasion. Fearghas' Teleport is on point and lands us perfectly <s>in Dietrich's lap</s> in the courtyard.</p>"
+        },
+        {
+          "name": "107 - Shalkoc and Aviana are worshipped, and we do some mandatory reading",
+          "section": "journal-pages",
+          "content": "<p><strong>Sunday, 6</strong><sup><strong>th</strong></sup><strong> of Duodecimus, 1497</strong></p><p><strong>11:55</strong></p><p>Shalkoc is lying on a super comfy divan, being fed fruit and exciting, delicious exotic foods by a <strong>Yuan-Ti</strong>. They are generally treating him very well; one of them is following him everywhere and writing down everything he says. These are very snake-y Yuan-Ti with a snake body instead of legs, but they have arms. He's free to roam around but never alone; his retainer follows him everywhere and speaks to people in his stead. <s>Shalkoc has a Voice oh no</s>. He can understand these people fine, they speak Draconic with a lisp, but <strong>Siztla</strong> (his retainer) claims the low-born <s>low-hatched</s> are not worthy to speak to Shalkoc.</p><p>The Yuan-Ti are treating Shalkoc like royalty and talking about him \"uniting them\" and \"drowning the world in poison\". He is asked to roll an Intelligence check, nat 1, he isn't listening, he's just happy to be fed. At some point he does remember us and wonders where we are and uses a spellgem of <strong>Sending</strong> to contact Fearghas. He tells the snake folk he is on a mission from his god (to which they say \"obviously\") and he wants to leave and help his friends in <strong>Heaven</strong>. The Yuan-Ti are confused, why does he want to leave, everything is provided for him, and he just arrived! He is the prophesised hero who will unite them and lead them to victory as they drown the world and its lesser races in poison.</p><p>\"So this is getting interesting,\" Shalkoc says thoughtfully. He asks to be taken to the temple and Siztla leads him outside where about a hundred Yuan-Ti are dragging a huge palanquin to carry him there.</p><hr><p><strong>Meanwhile, in Solgorod</strong>.</p><p>\"Kyrin turn down the flashlight aaaaaaaaaaa.\" - Fearghas.</p><p>She turns off the <strong>Sun Blade</strong> and we find Dietrich in the courtyard practicing swordplay again, he nearly skewers Fearghas too. The wizard says \"We need to be having words, in private\" cutting off Dietrich who wants to lecture him on polite Teleportation practices.</p><p>Once we get inside the study and Dietrich casts <strong>Nondetection</strong> on us all, he gets a surge and gets himself magically bound to a glass of wine. Fearghas explains we will have to deal with Magdalena and will likely have to fight her. He tells Dietrich about <strong>Irontear's hold</strong>, its location, the powerful artifact within… and we cannot allow Magdalena to follow us. Fearghas explains the history of Strazhland to Dietrich, the joint invasion of the Gondians and Dwarves, the Elven Curse, Vrazzak's involvement, the right eye of Dahak. This takes three hours. Plex goes off to try to \"summon Shalkoc\", whatever he means by this.</p><p>Fearghas asks Dietrich about <strong>the magic of vampires</strong>; it is something they learn when they are turned. Some magic is innate, most is learnt from their master or other sources. The older they get, the more resistant to sunlight they become. Magdalena is 1200 years old, according to Dietrich this is \"not that old\"; Ana-Katarina is rumoured to be 3000 years old. Fearghas shamelessly asks Dietrich how to kill a vampire. If we fight Magdalena outside her castle, even if we win, she will return in a matter of hours; when a vampire's physical form is destroyed, they return to their resting place, that is their coffin, to re-form.</p><p>Emilio enters the chat asking what if your essence is prevented from returning to your place of rest? Dietrich says there is no way to prevent it, as it is bound. We'll have to destroy the body as it re-forms. Isn't that a lot like how a Lich continues to exist…? We need to <strong>destroy the body and the resting place simultaneously</strong>. Aviana happily suggests sending Plex to blow up Magdalena's coffin, which honestly, not a bad suggestion, provided he makes it back of course. The obvious solution is fighting Magdalena in her castle but that means dealing with the castle too. <s>We've all read Ravenloft</s>.</p><p>Dietrich advises against fighting Magdalena AND getting into the hold. He would prefer to take his time preparing to fight her, but we're mortal and we only have so much time. I very anxiously suggest faking our deaths, I can resurrect people after all… But Magdalena being a necromancer, well, the idea has its limits. Aviana flexes, Dietrich stares, Fearghas snaps his fingers to get his attention back. Meanwhile Plex painted a summoning crest to try and make Shalkoc appear, it does not work out. He instead summons a green salamander with such a familiar look in its eyes, it MUST be related to Shalkoc. The lizard is named <strong>Ser Shalkoc The Second</strong> immediately, and takes a liking to Plex.</p><p>The skin of Shalkoc II is still a little wet and he smells disturbingly of raw egg… he just hatched. He crawls underneath Plex' hats and curls up in the warmth of the goblin's head. We really need to get going and find Shalkoc the First, so Plex takes out a stash of forks and selects one to ready <strong>Planetrotting</strong>.</p><hr><p><strong>Meanwhile in ???</strong></p><p>Shalkoc and his servants arrive at a lake, the Yuan-Ti refuse to go any further because of \"unhealthy past experiences\". Shalkoc pops out his wings and flies over the lake towards the island. Flying very close to the water, he sees all the algae in there, obscuring anything that may lie below. On the island, he finds the ruins of a <strong>bridge</strong> to the mainland; it looks like the bridge was lifted up, flipped, and thrown around. A bridge made of big stone blocks… He finds himself in front of a gate and hears a croaking voice in his mind, shaking his entire being with the force of an earthquake.</p><p>\"No sollicitors expected, please turn around,\" the voice says. Shalkoc argues \"But I love temples! Can I please visit?\". \"These are holy sites, only for the mightiest servants, and your arrival is not part of the great plan just yet.\" Shalkoc asks how long he needs to wait. The voice croaks \"<strong>The great plan will lead you here</strong>. Now… get lost.\" Shalkoc stays here like a potted plant, he has experience in that too. The voice talks shit to him and requests \"Get off my lawn.\" Our dragonborn argues he can't teleport, earning more shit talk from the powerful voice.</p><p>Shalkoc is instructed to think of the last place he slept; he thinks of Dietrich's castle and is instantly <strong>transported</strong> there, finding himself pressing his face into the window. Fearghas' brain stutters, Dietrich asks about the small lizard which pokes out from underneath Plex' hats. Shalkoc walks down into the courtyard as Dietrich argues with Fearghas, did Plex' summoning ritual work? Shalkoc recounts what happened to him and we realise Plex didn't summon him. Fearghas is satisfied to know Plex didn't do shit. We do piece together that Shalkoc is a very violent <strong>Snake Jesus</strong> and maybe he shouldn't associate with these people again.</p><p>I casually talk mad shit about Plex, nearly causing him to lose concentration on the ritual. We are eventually transported not to Heaven but to <strong>Nirvana</strong>, a peaceful place bathed in the orange glow of either dawn or sunset. It's really nice here… but we can't stay. Plex awkwardly asks for a fork to recast the spell, this one was his last. Fearghas' blood pressure rises to dangerous levels and the plane itself tries to soothe him, in vain.</p><p>Aviana spots something flying up above… it looks just like her, and she looks in the mirror a lot; a harpy! I look up from fussing over Fearghas… natural 1 on Perception, that has to be a dragon. Aviana jumps with the help of Plex' <strong>Adjust Density</strong>, getting level with the other harpy and starting to introduce herself. However she is not flying and starts to fall mid-sentence. The other harpy catches her and brings her gently down to the ground next to her where we can start talking like civilised people. Almost, as Aviana is still cursed by a surge causing her shouts to be whispers and her whispers to be shouts.</p><p>Fearghas explains Aviana's new friend is not a harpy but an Avoral, a celestial which only resembles a harpy. We are welcomed to Blossomheart and asked if we are here for the Artists' Festival held tonight in honour of <strong>Lady Shelyn</strong>, the Eternal Rose, a deity of beauty and art. We are told about the Garden of the Eight Rings, a beautiful place where artists gather to inspire one another. The Avoral introduces themselves as <strong>Telvia Brightfeather</strong>, and we walk several hours to the festival.</p><p>We arrive to a beautiful amphitheatre, an open stage for artists to show their craft. There are only three other mortals here; a High Elf singing and playing a harp made from a unicorn's mane, a nearly blind female Goliath dressed in furs with white eyes telling an epic tale about her people from the <strong>Hoarfrost Weald</strong>, and a bald woman with ashen skin. Shalkoc explains to us, this is a Fire Genasi from the <strong>Kesheri</strong>, the tribes who live on the <strong>Ashur Plateau</strong>. Lava flows in patterns on her skin, making others step back from the heat.</p><p>Plex, Aviana, Kyrin, Shalkoc, and myself join to perform as well. Kyrin does sleight of hand tricks with coins, and contact juggling with a glass ball. She fools the celestials with <strong>Truesight</strong>, who are amazed she is not using magic! Shalkoc shows off his skill in martial arts and receives polite applause but the enthusiasm is not all there. Plex brings his bedsheets, dunks them in paint and folds them into the shapes of animals. He burns a <strong>Borrowed Luck</strong> because \"I can't lose to a Goliath!\". Aviana cobbles together (haha) a pair of shoes made from leaves and flowers, then shows off her chiseled body with a lot of flexing. She turns her feathers white with rainbow tips and shows off her rose-woven heeled shoes. Her excellent showmanship (plus some Borrowed Luck) puts her in first place! I get on stage and… wow that's a lot of people watching. I perform Ildic shadow-fighting, a meditative dance practiced by my people. I have little skill but a lot of heart, and I'm not competing to win after all.</p><p>Good thing that because I get last place. All of us who competed receive a <strong>Dreamfeather</strong>. Aviana as the winner receives 12 Dreamfeathers and 20 Springseeds! Plex in second place gets 6 feathers and 10 seeds, and in third place Kyrin gets 3 feathers and 5 seeds. Plex immediately realises… something's off with these seeds. Well, these are <strong>much weaker</strong> than the ones we got from the Sibriex lair… And that's flashbacks, I need a moment and go sit under a tree hugging myself. The tree hugs back soothingly.</p><p>Fearghas asks Telvia why the seeds are different from the ones we've encountered before. She is confused, she doesn't know about any springseeds that can sprout a tree all on their own. Maybe the ones we had before were blessed by Lady Shelyn herself! Y-yeah… can… can we stop talking about them… please… </p><p>We are warmly welcome to stay here but we sadly can't. Plex asks Telvia for help about the <strong>Feywild</strong> losing its colours. The Avoral suggests having a peaceful conversation with the <strong>hags</strong>, maybe they didn't know these colours are important to us? And would be happy to give them back if we explain the misunderstanding? The hags are probably just hurt and need help! There is always a way to help! Give them a hug, show them companionship is important. It has to come from the heart, show forgiveness if you feel slighted. Uh… we certainly haven't tried that.</p><p>The conversation devolves into \"Do lanterns have feelings?\" and \"Is Fearghas a good person?\". Bottom line, we need more forks. Aviana asks Telvia about where the shopping malls are, but when the Avoral replies \"What's a shopping mall?\", Aviana snaps \"We're leaving.\" Telvia mentions a <strong>Tiefling weaver</strong> who was here some time ago, who made wonderful dresses. He was from <strong>Alushinyrra</strong>. Is… isn't that in the Abyss…? Telvia welcomes us back anytime. Before we leave, Kyrin sketches a flower which sheds a blossom for her to press between the pages of her journal.</p><p>Fearghas buys 2 forks off Aviana for 500 gold and gives them to Plex. We all hold hands and he performs the ritual for <strong>Planetrotting</strong>, teleporting us to Heaven. He's off-target and we are 50 miles off but because it's Heaven… we're teleported back in front of the gates. Twice the teleportation nausea… I hand everyone some ginger cookies to help, it could have been a lot worse after all. We are taken through registration, pretty used to it now but Fearghas still gives Shalkoc a bullet point card with the questions he will be asked, and the answers he has given before and should definitely not give again.</p><p>For unrelated reasons, <strong>Huey, Dewie, and Louie</strong> show up alongside <strong>Laurel and Hardy</strong>. We catch up with them, then go to the library to speak with <strong>Claude</strong> about the play. The Quadron is packing up, collecting his belongings and some loose screws. We ask what is going on, and he says he is returning to Mechanus. He gives us a few notes about <strong>The Fall of the Gith</strong>: it hasn't been performed in a very long time, ever since the githyanki and the githzerai split apart. The play has 2 halves, the first written in the golden age of the gith and the second has two versions: one written by the githyanki about the triumph of Vlaakith, and the other written by the githzerai, same story but a very different angle. The two versions have never been performed together, and we'll have to talk to both githyanki and githzerai to find each version of the script. Both reside in the <strong>Astral Sea</strong>, on either side of it.</p><p>We decide to take one week of downtime in Heaven to do our own research, and also relax and recover from our recent trials. Fearghas is researching vampires and the killing of them in history, Kyrin is researching the history of <strong>Krovozamok</strong>, Plex is researching <strong>frog magic</strong> (the people of the temple from which Shalkoc got yeeted, DM's words not mine), and I'm researching the history of <strong>Snow Elves</strong>. Emilio is doing magical duelling, Aviana is carousing, Shalkoc is working as a chef.</p><p>Kyrin learns… Soon after the victory at the Krasnyles, Irontear was crowned High King. He built his hold of Kaznarak between the Silverpeak Mountains, the Mountains of Mourning, and Strazhland. He became good friends with the Gondian king <strong>Svetoslavu Igorevich</strong>. The Gondian king moved his capital to the newly founded city of Krovozamok. Over time, the High King slowly went insane and in <strong>16,492 BCE</strong>, Irontear called the Gondian king and his descendant to his side. The young human king returned two days later, but as he was about to exit the underway, a terrible earthquake shook the area, and the entrance to the underway caved in, burying the young king. The Gondians tried to dig, but the Dwarves did not help them; on the contrary, the Dwarves became distant. The Gondians were confused, and this was the last time the underway was used. </p><p>The Gondian humans and orcs settled in Strazhland and became their own people, the Strazhi. All knowledge of their origins as foreign invaders is long lost to time, and they believe Strazhland is their sacred, ancestral home. Krovozamok is one of the oldest Strazhi settlement and has been inhabited this entire time. When the vampires came from the Argent Riverlands in <strong>4430 BCE</strong>, Krovozamok was one of the first cities to be conquered by them. Before that, it was briefly the seat of a Strazhi king but his reign did not survive the vampire invasion.</p><p>Emilio earns big money doing magical duelling (<strong>2800gp</strong>).</p><p>Fearghas learns… A tale on how one of the first vampires of Strazhland was slain. His name was <strong>Markus von Kreuzberg</strong>; though after the conquest he called himself Markus Vasyli von Kreuzberg. He was a pureblood vampire, one of the most powerful to ever die. He ruled from Krasnograd, his sarcophagus safe in one of the castle's deepest dungeons. He was slain in a war between <strong>Velkhof</strong> and <strong>Krasnograd</strong>; at the time there were only three Grand Duchies, and the other two allied against him. The lake in northern Weiherland is a crater that was created in the battle between the Grand Dukes. Markus' body was destroyed, and Krasnograd was left practically undefended. Markus' enemies snuck into the depths of the castle, and in the crypt they destroyed two statues and turned themselves to stone in their place, using a long-lasting <strong>curse</strong>. The attack against Markus was timed to the hour to match when the two statues' curse would end and the two vampires would awaken. This is how Markus was staked and killed, as his body was reforming in the crypt. With the staking of his heart, nothing was left of him, no soul, no bit of his essence; such is the fate of a vampire.</p><p>The second tale is of a vampire called <strong>Rudolf Victor von Volkova-Kreuzberg</strong>. They had to kill him six times before they got to his resting place. The last battle took place in his sleeping chamber; once destroyed, his body reappeared in his sleeping place. He was staked through the heart, his head chopped off, garlic stuffed into his mouth, his entire body covered in salt, and then burnt to ash. How much of this was spite… is not clear. Rudolf was regarded as a weak and decadent ruler; he didn't learn to play the game of politics, and so he lost it. From the records of the fights, there is no mention of <strong>necrotic or poison</strong> damage, they are never used. Vampires don't use <strong>cold or lightning</strong> against one another, though they are capable of using them. In the first tale, one of the Grand Dukes sacrificed one of his underlings solely to cover Markus in <strong>holy water</strong> to disable his regeneration. Vampires take 1-4 hours for their body to reform in their resting place. They can drain mortals of blood to recover their magic, but can't do that in combat.</p><p>I learn… The Mountains of Mourning and the forest to their south were the ancestral home of <strong>Snow Elves</strong>, who viewed the land and beasts as treasures. They were hunters and strict carnivores and when they killed something, they viewed it as their obligation to consume it. Any something. Yes they were <strong>cannibals</strong>. It was a way to honour the essence of their foe by taking it into themselves, carrying it forwards to be inherited by who or what ate them in return. They also consumed their own dead to carry their essence forward. When one died, usually their family consumed the body, though in rare occasions, close friends would be invited as well. When the Gondians and Dwarves arrived, there was a bit of a culture shock, though some close friendships formed. A Dwarf was invited to what he thought was the burial of a lifelong Elf friend… he never spoke to a Snow Elf again.</p><p>The Snow Elves were very attuned to nature, to the point they saw themselves and nature as a whole, <strong>one endless cycle</strong>. When the invaders started exploiting the land's ressources, conflicts grew into a widespread war that started around <strong>17,000 BCE</strong>. The Snow Elves were pushed back, their culture and race perished at the Krasnyles at the <strong>Siege of the Last Forest</strong> (16,872-16,820 BCE). Nature grew sick and died, and the Snow Elves mounted one last breakthrough attempt. They were defeated, but took several Gondian kings and Dwarven High Kings with them. The Snow Elves' final curse was a plea to their gods, personnifications of nature. As the Elves died… so did their gods, which <strong>sealed the curse</strong>. The truth of this history was lost; a few small communities of Snow Elves survived in the Mountains of Mourning, but they have forgotten their own history. The Snow Elves were the ones that named the Mountains of Mourning, in their own language. The Dwarves later gave these mountains the same name, by sheer coincidence. </p><p>There was natural mist in Strazhland before the curse, and the Snow Elves would conjure mist to <strong>hide themselves</strong>. The Snow Elves never went to sea, and when some of them tried to sail with Gondians, it repeatedly did not go well, to the point no Gondian would take a Snow Elf aboard. <strong>The sea appears to hate them</strong>.</p><p>Aviana goes drinking pumpkin spice latte with <strong>General</strong> <strong>Shaik</strong>, and she now owes her a favour!</p><p>Shalkoc gains <strong>600gp</strong> cooking food for angels.</p><p>Plex learns… These mages are frogs. Actual frogs. All the reptiles in the <strong>Blood Marshes</strong> were once a united empire, the <strong>Saurian Empire</strong>, and they are all part of the same folk. The Winds see magic like currents flowing through everything. Plex is researching Beasts, like the dinosaurs he rode. The Slaan mages view the size of creatures as variables that can be changed, so they would bring small beasts with them to battle, and just make them huge with magic. This can be a spell like Enlarge/Reduce, or age (or de-age) a creature magically in addition to this.</p><p>Slaan are incredibly lazy and never do anything outside what they call \"<strong>the great plan</strong>\", a vision of how everything should be. They only do what serves the great plan. The Saurian Empire was led by the Slaan, and the frog mages isolated themselves, which caused the empire to crumble and fall apart.</p><p>Plex hops off to the Feywild and finds components for his traps.</p><hr><p><strong>Sunday, 13</strong><sup><strong>th</strong></sup><strong> of Duodecimus, 1497</strong></p><p><strong>6:00</strong></p><p><strong>Long rest</strong></p><p><strong>Next long rest on Friday, 18</strong><sup><strong>th</strong></sup><strong> Duodecimus</strong></p><p>After a week of research and various activities in Heaven, we are ready to return to Strazhland and sneak underneath Castle Krovozamok and into <strong>Vrazzak's lair</strong>. Shalkoc cooks up a hearty breakfast: lavender bread rolls for himself, chili curry for Emilio, vanilla fruit tarts for Aviana (with a hint of vanilla, no idea where the fruit came from), vanilla and chocolate cookies for me, aloe vera tarts for Fearghas, licorice eyeball cake for Plex, and vanilla soup dumplings for Kyrin. Lots of vanilla, yep it's a dungeon crawl with lots of undead!</p><p>We're discussing how to get 6 casts of <strong>Nondetection</strong> when Aviana, while thinking on her <strong>Beast Spirit Blessings</strong>, gets a surge which teleports all her clothing and equipment onto the roof of the inn we were staying at. She runs out naked, jumps on the roof, and gets her stuff while using her wings to cover herself. <s>I'm looking respectfully</s>.</p><p>Fearghas does some alchemy, we stock up on holy water and divide potions amongst us. We snack on <strong>Springseeds</strong>, check our items and powers, and Fearghas grumbles about the <strong>Ancient Chainmail of Celerity</strong>… and puts it on. Emilio and Fearghas cast Nondetection on us all, after which I use the <strong>Wand of Catnap</strong> to get Emilio his pact slots back. Plex buys more forks, and it's time to return to the Material Plane with <strong>Planetrotting</strong>. </p><p>We hold hands for one hour and Plex' nose is twitching and itching all the while, until the ritual completes and he can no longer hold a giant sneeze. The spell takes effect and we find ourselves in a dark and gloomy place, vegetation all dead… could have been Strazhland but alas, I've been here once and this is the <strong>Shadowfell</strong>. Kyrin's shadow… it's gone. Well it's not behind her at least, it seems to be sitting on a stone a couple metres away, strong and independent. She walks over to it and it's chilling, tilting its head and… staring. \"Am I your shadow here?\" she asks, and her shadow shrugs.</p><p>Fearghas is the only one who notices… the other shadows.</p>"
         }
       ]
     },
@@ -10301,7 +10645,7 @@
         {
           "name": "Spice List",
           "section": "journal-pages",
-          "content": "<table><thead><tr><th><strong>Spice</strong></th><th><strong>Uses Left</strong></th><th><strong>Effect</strong></th></tr></thead><tbody><tr><td><strong>@UUID[Compendium.talia-custom.customItems.Item.A7wJJETeerqAwLcs]{Aloe Vera}</strong></td><td>5</td><td>Reduces slashing damage by 5</td></tr><tr><td><strong>@UUID[Compendium.talia-custom.customItems.Item.TEkrX46i1wQWXniR]{Cardamom}</strong></td><td>5</td><td>Reduces poison damage by 5</td></tr><tr><td><strong>@UUID[Compendium.kctg-5e.kctg-dnd5e.Item.wfwpfrZMwhGKsQBY]{Chili Pepper}</strong></td><td>1</td><td>+10 ft bonus to walking speed</td></tr><tr><td><strong>@UUID[Compendium.talia-custom.customItems.Item.37byLEOrr7eOoDCt]{Eucalyptus}</strong></td><td>10</td><td>Reduces lightning damage by 5</td></tr><tr><td><strong>@UUID[Compendium.talia-custom.customItems.Item.O3Nj34dtznnHcQIb]{Ginger}</strong></td><td>0</td><td>+1 to Strength, Dexterity &amp; Constitution saving throws</td></tr><tr><td><strong>@UUID[Compendium.talia-custom.customItems.Item.P5RUoFFYRkJTM9XS]{Ginko Leaves}</strong></td><td>0</td><td>Gain <strong>1d4</strong> Intelligence, Wisdom, &amp; Charisma saving throw bonus</td></tr><tr><td><strong>@UUID[Compendium.talia-custom.customItems.Item.cop7hl0oiQGWjj5Z]{Ginseng Root Powder}</strong></td><td>0</td><td>Increases max HP by 30</td></tr><tr><td><strong>@UUID[Compendium.talia-custom.customItems.Item.n9ZE2yVOd7hNAF7N]{Lavender}</strong></td><td>10</td><td>Reduces psychic damage by 5</td></tr><tr><td><strong>@UUID[Compendium.talia-custom.customItems.Item.daMVQIzWsUeyKSAq]{Licorice Root}</strong></td><td>9</td><td>Reduces acid damage by 5</td></tr><tr><td><strong>@UUID[Compendium.talia-custom.customItems.Item.67xU5Km4jCmROkyh]{Mustard Seeds}</strong></td><td>4</td><td>Reduces bludgeoning damage by 5</td></tr><tr><td><strong>@UUID[Compendium.talia-custom.customItems.Item.fO7KVcC0tel0Ms1a]{Rhubarb}</strong></td><td>8</td><td>Reduces thunder damage by 5</td></tr><tr><td><strong>@UUID[Compendium.talia-custom.customItems.Item.i0S8R77W3QvYeuMX]{Saffron}</strong></td><td>0</td><td>+2 bonus to initiative</td></tr><tr><td><strong>@UUID[Compendium.talia-custom.customItems.Item.9fmDsUZ3ytdW0zP5]{Sassafras}</strong></td><td>0</td><td>Reduces fire damage by 5</td></tr><tr><td><strong>@UUID[Compendium.talia-custom.customItems.Item.E9AQZVIh7GsjV4NP]{Star Anise}</strong></td><td>0</td><td>Gain +2 bonus to AC</td></tr><tr><td><strong>@UUID[Compendium.talia-custom.customItems.Item.wFMmTzgmnXrVbvtN]{Vanilla}</strong></td><td>5</td><td>Reduces necrotic damage by 5</td></tr><tr><td><strong>@UUID[Compendium.talia-custom.customItems.Item.V5C6Optl1b8mgFLb]{Wasabi}</strong></td><td>0</td><td>Reduces cold damage by 5</td></tr><tr><td><strong>@UUID[Compendium.talia-custom.customItems.Item.QAKsZztxUBcMhGet]{Yarrow}</strong></td><td>6</td><td>Reduces piercing damage by 5</td></tr></tbody></table>"
+          "content": "<table><thead><tr><th><strong>Spice</strong></th><th><strong>Uses Left</strong></th><th><strong>Effect</strong></th></tr></thead><tbody><tr><td><strong>@UUID[Compendium.talia-custom.customItems.Item.A7wJJETeerqAwLcs]{Aloe Vera}</strong></td><td>4</td><td>Reduces slashing damage by 5</td></tr><tr><td><strong>@UUID[Compendium.talia-custom.customItems.Item.TEkrX46i1wQWXniR]{Cardamom}</strong></td><td>5</td><td>Reduces poison damage by 5</td></tr><tr><td><strong>@UUID[Compendium.kctg-5e.kctg-dnd5e.Item.wfwpfrZMwhGKsQBY]{Chili Pepper}</strong></td><td>0</td><td>+10 ft bonus to walking speed</td></tr><tr><td><strong>@UUID[Compendium.talia-custom.customItems.Item.37byLEOrr7eOoDCt]{Eucalyptus}</strong></td><td>10</td><td>Reduces lightning damage by 5</td></tr><tr><td><strong>@UUID[Compendium.talia-custom.customItems.Item.O3Nj34dtznnHcQIb]{Ginger}</strong></td><td>0</td><td>+1 to Strength, Dexterity &amp; Constitution saving throws</td></tr><tr><td><strong>@UUID[Compendium.talia-custom.customItems.Item.P5RUoFFYRkJTM9XS]{Ginko Leaves}</strong></td><td>0</td><td>Gain <strong>1d4</strong> Intelligence, Wisdom, &amp; Charisma saving throw bonus</td></tr><tr><td><strong>@UUID[Compendium.talia-custom.customItems.Item.cop7hl0oiQGWjj5Z]{Ginseng Root Powder}</strong></td><td>0</td><td>Increases max HP by 30</td></tr><tr><td><strong>@UUID[Compendium.talia-custom.customItems.Item.n9ZE2yVOd7hNAF7N]{Lavender}</strong></td><td>9</td><td>Reduces psychic damage by 5</td></tr><tr><td><strong>@UUID[Compendium.talia-custom.customItems.Item.daMVQIzWsUeyKSAq]{Licorice Root}</strong></td><td>8</td><td>Reduces acid damage by 5</td></tr><tr><td><strong>@UUID[Compendium.talia-custom.customItems.Item.67xU5Km4jCmROkyh]{Mustard Seeds}</strong></td><td>4</td><td>Reduces bludgeoning damage by 5</td></tr><tr><td><strong>@UUID[Compendium.talia-custom.customItems.Item.fO7KVcC0tel0Ms1a]{Rhubarb}</strong></td><td>8</td><td>Reduces thunder damage by 5</td></tr><tr><td><strong>@UUID[Compendium.talia-custom.customItems.Item.i0S8R77W3QvYeuMX]{Saffron}</strong></td><td>0</td><td>+2 bonus to initiative</td></tr><tr><td><strong>@UUID[Compendium.talia-custom.customItems.Item.9fmDsUZ3ytdW0zP5]{Sassafras}</strong></td><td>0</td><td>Reduces fire damage by 5</td></tr><tr><td><strong>@UUID[Compendium.talia-custom.customItems.Item.E9AQZVIh7GsjV4NP]{Star Anise}</strong></td><td>0</td><td>Gain +2 bonus to AC</td></tr><tr><td><strong>@UUID[Compendium.talia-custom.customItems.Item.wFMmTzgmnXrVbvtN]{Vanilla}</strong></td><td>3</td><td>Reduces necrotic damage by 5</td></tr><tr><td><strong>@UUID[Compendium.talia-custom.customItems.Item.V5C6Optl1b8mgFLb]{Wasabi}</strong></td><td>0</td><td>Reduces cold damage by 5</td></tr><tr><td><strong>@UUID[Compendium.talia-custom.customItems.Item.QAKsZztxUBcMhGet]{Yarrow}</strong></td><td>6</td><td>Reduces piercing damage by 5</td></tr></tbody></table>"
         },
         {
           "name": "Spider Recipe",
@@ -10311,12 +10655,12 @@
         {
           "name": "Shalkoc's Names Dicionary",
           "section": "journal-pages",
-          "content": "<h1>Mr <span>Glim Billowdwaddle</span>:</h1><p>The Spice Trade - yumyumman</p><p></p><hr><p></p><p><span>Vrazzak - Fearghas's old friend</span></p><p></p><hr><p>Kali</p><hr><p></p><p><span>Zacharias: Devil man- as described by Fearghas</span></p><p></p><hr><p></p><p><span>Warden: Kara Stormwind. We choose human instead of elf. Sadge</span></p><p></p><hr><p></p><p><span>Thamdarul who is it?</span></p><p></p><hr><p></p><p><span>Dietrich Iaroslav von Solovey-Rabenkranz: Count of the city 400 years ago.</span></p><p><span>Shalkoc almost swallowed his tongue trying to speak this name</span></p><p></p><p></p><hr><p></p><p><span>Torgrus dwarf Caption of the king guard</span></p><p></p><hr><p></p><p>Linzi the secretary <span>dwarf</span></p><p></p><hr><p></p><p><span>Barrik the dwarf that Ferghas give him 2000G</span></p><p></p><hr><p></p><p><span>Vandree</span></p><p></p><hr><p></p><p><span>Dimzad King of the mine</span></p><p></p><hr><p></p><p><span>Filrae &amp; Minae Vandree, Velkyn Arkenaii<br>Drow City: Ul'ath'tallar</span></p><p></p><p>Have no idea who this is, doesn't ring any bell, etc..</p><hr><p><span>Dulum: Fearghas's Dad</span></p><p><span>Ysolde: Fearghas's Mom</span></p><hr><p><span>General Ragvond: Huge general that we meet in throne room ircc.</span></p><p></p><hr><p></p><p><span>Verita: Immigration office of Heaven. Look very almighty and cool!</span></p><p></p><hr><p><span>Ezeriel: Angel buddy</span></p><hr><p><span>Lamashtu: Mother of monster ?</span></p><hr><p><span>Titivilus the who?</span></p><p></p><hr><p></p><p>Real - Name of the Island: <span>Nabu-Anshar</span></p><p></p><hr><p></p><p><span>Imix: Fire dragon aspect with fire giant cloak</span></p><p></p><p></p><hr><p></p><p><span>Chalkost</span></p><p></p><hr><p></p><p><span>Muravelara: the place inside Plex's Lantern</span></p><p></p><hr><p></p><p>Red Hag</p><p></p><hr><p></p><p><span>Dietrich Iaroslav von Solovey-Rabenkranz: Count of some city 400 years ago.</span></p><p></p><p></p><hr><p></p><p><span>Victor Gromov</span></p>"
+          "content": "<h1>Mr <span>Glim Billowdwaddle</span>:</h1><p>The Spice Trade - yumyumman</p><p></p><hr><p></p><p><span>Vrazzak - Fearghas's old friend</span></p><p></p><hr><p>Kali</p><hr><p></p><p><span>Zacharias: Devil man- as described by Fearghas</span></p><p></p><hr><p></p><p><span>Warden: Kara Stormwind. We choose human instead of elf. Sadge</span></p><p></p><hr><p></p><p><span>Thamdarul who is it?</span></p><p></p><hr><p></p><p><span>Dietrich Iaroslav von Solovey-Rabenkranz: Count of the city 400 years ago.</span></p><p><span>Shalkoc almost swallowed his tongue trying to speak this name</span></p><p></p><p></p><hr><p></p><p><span>Torgrus dwarf Caption of the king guard</span></p><p></p><hr><p></p><p>Linzi the secretary <span>dwarf</span></p><p></p><hr><p></p><p><span>Barrik the dwarf that Ferghas give him 2000G</span></p><p></p><hr><p></p><p><span>Vandree</span></p><p></p><hr><p></p><p><span>Dimzad King of the mine</span></p><p></p><hr><p></p><p><span>Filrae &amp; Minae Vandree, Velkyn Arkenaii<br>Drow City: Ul'ath'tallar</span></p><p></p><p>Have no idea who this is, doesn't ring any bell, etc..</p><hr><p><span>Dulum: Fearghas's Dad</span></p><p><span>Ysolde: Fearghas's Mom</span></p><hr><p><span>General Ragvond: Huge general that we meet in throne room ircc.</span></p><p></p><hr><p></p><p><span>Verita: Immigration office of Heaven. Look very almighty and cool!</span></p><p></p><hr><p><span>Ezeriel: Angel buddy</span></p><hr><p><span>Lamashtu: Mother of monster ?</span></p><hr><p><span>Titivilus the who?</span></p><p></p><hr><p></p><p>Real - Name of the Island: <span>Nabu-Anshar</span></p><p></p><hr><p></p><p><span>Imix: Fire dragon aspect with fire giant cloak</span></p><p></p><p></p><hr><p></p><p><span>Chalkost</span></p><p></p><hr><p></p><p><span>Muravelara: the place inside Plex's Lantern</span></p><p></p><hr><p></p><p>Red Hag</p><p></p><hr><p></p><p><span>Dietrich Iaroslav von Solovey-Rabenkranz: Count of some city 400 years ago.</span></p><p></p><p></p><hr><p></p><p><span>Victor Gromov</span></p><p></p><hr><p></p><p><span>Siztla: Lovely retainer to write down anything I said when I was treat like a king in a island</span></p><p></p><hr><p></p><p></p>"
         },
         {
           "name": "MonsterDex",
           "section": "journal-pages",
-          "content": "<p>Note:</p><p></p><p></p><p></p><hr><h2>Name: Start Spawn Grue (minion)</h2><h2></h2><h2>Encounter Day: 26 Nonus 1467 (Dry season)</h2><h2>Known Weakness:</h2><h2>Move:</h2><p></p><p></p><h2>Description:</h2><p></p><p>Some weird stuff coming from the Void Gate that we was orded to clean. Not knowing how they taste but they look uggly which usually tasty from my experience</p><p></p><hr><h2>Name: Wardu</h2><p></p><h2></h2><h2>Encounter Day: 26 Nonus 1467 (Dry season)</h2><h2>Known Weakness:</h2><h2>Move:</h2><p></p><h2>Description:</h2><p></p><hr><h2>Name: Choker</h2><p></p><h2>Encounter Day: 26 Nonus 1467 (Dry season)</h2><h2>Known Weakness:</h2><h2>Move:</h2><p></p><h2>Description:</h2><p></p><hr><p></p><p></p><h2>Name: Otyugh</h2><p></p><p></p><h2>Encounter Day: 26 Nonus 1467 (Dry season)</h2><h2>Known Weakness:</h2><h2>Move:</h2><p></p><h2>Description:</h2><hr><p></p><p></p><p></p><h2>Name: umbral Spirit</h2><h2>Encounter Day: 2 Nonus 1467 (Dry season)</h2><h2>Known Weakness:</h2><h2>Move:</h2><p></p><h2>Description:</h2><p></p><p>Naami's Shadown Kitten, everyone said it look cute. I wonder how will it taste. Curious!</p><p></p><p></p><p></p><hr><p></p><h2>Name: Swam of Maggots</h2><p></p><h2>Encounter Day: 2 Nonus 1467 (Dry season)</h2><h2>Known Weakness:</h2><h2>Move:</h2><p></p><h2>Description:</h2><p></p><p>Look like bunch of moving rice grain. I wonder what if you fry it with egg would be called Fried Maggot with egg or Fried Egg maggot? Either way must be very tasty.</p><p></p><p>As expected, they are vulnerable to Fire</p><p></p><hr><p></p><h2>Name: Bloater</h2><p></p><p></p><h2>Encounter Day: 27 Nonus 1467 (Dry season)</h2><h2>Known Weakness:</h2><h2>Move:</h2><p></p><h2>Description:</h2><p>Vulnerable to slashing damage</p><p></p><p></p><p></p><hr><p></p><h2>Name: Major Malleable</h2><p></p><h2>Encounter Day: 27 Nonus 1497 (Dry season)</h2><h2>Known Weakness:</h2><p>Piecing Damage</p><h2>Move:</h2><p></p><h2>Description:</h2><p></p><hr><h2>Name: Slithering Bowel</h2><div></div><p></p><p></p><h2>Encounter Day: 27 Nonus 1497 (Dry season)</h2><h2>Known Weakness:</h2><h2>Move:</h2><p>Combo to shoot people that Blinded</p><h2>Description:</h2><p></p><hr><h2>Name: Dragonflesh Golem</h2><p></p><p></p><h2>Encounter Day: 27 Nonus 1497 (Dry season)</h2><h2>Known Weakness:</h2><h2>Move:</h2><p></p><h2>Description:</h2><p></p><p></p><p></p><p></p><hr><p></p><h2>Name: Fiendish Flesh Golem</h2><p></p><h2>Encounter Day: 27 Nonus 1497 (Dry season)</h2><h2>Known Weakness:</h2><h2>Move:</h2><p></p><h2>Description:</h2><hr><h2>Name: Perfected Deva</h2><p></p><h2>Encounter Day: 27 Nonus 1497 (Dry season)</h2><h2>Known Weakness:</h2><h2>Move:</h2><p></p><p>Can Teleport</p><p></p><h2>Description:</h2><p></p><hr><p></p><h2>Name: Bone Devil</h2><p></p><p></p><h2>Encounter Day: 3 Decimus 1497 (Dry season)</h2><h2>Known Weakness:</h2><h2>Move:</h2><p></p><p>Can Teleport</p><p></p><h2>Description:</h2><p></p><hr><h2>Name: Horned Devil</h2><p></p><p></p><h2>Encounter Day: 3 Decimus 1497 (Dry season)</h2><h2>Known Weakness:</h2><h2>Move:</h2><p></p><p></p><h2>Description:</h2><p></p><hr><h2>Name: Narzugon</h2><p></p><p></p><p></p><h2>Encounter Day: 3 Decimus 1497 (Dry season)</h2><h2>Known Weakness:</h2><h2>Move:</h2><p></p><p></p><h2>Description:</h2><div><p></p></div><hr><h2>Name: Living Soot</h2><p></p><p></p><p></p><p></p><h2>Encounter Day: 12 Decimus 1497 (Raine season)</h2><h2>Known Weakness: None, seem easy to stun this homie</h2><h2>Move:</h2><p></p><p></p><h2>Description:</h2><div><p></p><hr><p></p></div><h2>Name: Slingrock Blocket</h2><p></p><p></p><p></p><h2>Encounter Day: 12 Decimus 1497 (Rainy season)</h2><h2>Known Weakness:</h2><h2>Move:</h2><p></p><p></p><h2>Description:</h2><p></p><p>They Look like small rock and throw themselve at target which is cute.</p><p></p><hr><p></p><h2>Name: Giru of the Black Flame</h2><p></p><h2>Encounter Day: 12 Decimus 1497 (Rainy season)</h2><p></p><h2>Known Weakness:</h2><p></p><p>Apperently it doesn't seem enjoy Cold Damage</p><p></p><p></p><h2>Move:</h2><p></p><p></p><h2>Description:</h2><p></p><p></p><hr><p></p><p></p><h2>Name: Slingrock Blocket</h2><p></p><p></p><p></p><h2>Encounter Day: 3 Decimus 1497 (Dry season)</h2><h2>Known Weakness:</h2><h2>Move:</h2><p></p><p></p><h2>Description:</h2><p></p><p>They Look like small rock and throw themselve at target which is cute.</p><p></p><hr><p></p><h2>Name: Magma Shark</h2><p></p><p></p><h2>Encounter Day: 15 Undecimus 1497 (Rainy season)</h2><h2>Known Weakness:</h2><p>I guess water?</p><h2>Move:</h2><p></p><p></p><h2>Description:</h2><p>Look like shark</p><p>Wondering if they already cook? How do they taste like?</p><p></p><hr><p></p><h2>Name: Cinderslag Elemental</h2><p></p><p></p><p></p><h2>Encounter Day: 15 Undecimus 1497 (Rainy season)</h2><h2>Known Weakness:</h2><p>Seem it afraid of water when Fearghas shoot it with Ray of Frost it flince when the water touching it So I assume it would afraid of water?</p><p>Ice do nothing btw</p><p></p><h2>Move:</h2><p>Can Knock you Prone or knock you away 15ft with normal attack</p><p></p><h2>Description:</h2><p></p><hr><p></p><h2>Name: Cinderslag Elemental</h2><p></p><p></p><h2>Encounter Day: 15 Undecimus 1497 (Rainy season)</h2><p></p><h2>Known Weakness:</h2><p></p><h2>Move:</h2><p></p><h2>Description:</h2><p></p><hr><p></p><h2>Name: Dragonbone Golem</h2><p></p><p></p><p></p><h2>Encounter Day: 16 Undecimus 1497 (Rainy season)</h2><p></p><h2>Known Weakness:</h2><p></p><h2>Move:</h2><p></p><h2>Description:</h2><p></p><hr><p></p><h2>Name: Frost Salamander</h2><h2>Encounter Day: 29 Undecimus 1497 (Rainy season)</h2><p></p><h2>Known Weakness:</h2><p></p><h2>Move:</h2><p></p><h2>Description:</h2><p></p><hr><p></p><h2>Name: Frost Salamander</h2><p></p><p></p><h2>Encounter Day: 29 Undecimus 1497 (Rainy season)</h2><p></p><h2>Known Weakness:</h2><p></p><h2>Move:</h2><p></p><h2>Description:</h2><p></p><hr><p></p><h2>Name: Nightwraith</h2><p></p><p></p><h2>Encounter Day: 29 Undecimus 1497 (Rainy season)</h2><p></p><h2>Known Weakness:</h2><p></p><h2>Move:</h2><p>Moonlight Dance: Require Wisdom save of 15</p><p></p><p></p><h2>Description:</h2><p></p><hr><p></p><h2>Name: Owl Bear</h2><p></p><p></p><h2>Encounter Day: 29 Undecimus 1497 (Rainy season)</h2><p></p><h2>Known Weakness:</h2><p></p><h2>Move:</h2><p>Bite: just like most animal. Thing can bite.</p><p></p><p></p><h2>Description:</h2><p>I wonder its meat taste like an owl or a bear? or mixture between the two like crocodile (chicken and fish).</p><p></p><p></p><hr><p></p><h2>Name:</h2><p></p><h2>Encounter Day: 29 Undecimus 1497 (Rainy season)</h2><p></p><h2>Known Weakness:</h2><p></p><h2>Move:</h2><p></p><p></p><p></p><h2>Description:</h2><p></p><hr><p></p><h2>Name:</h2><p></p><p></p><h2>Encounter Day: 29 Undecimus 1497 (Rainy season)</h2><p></p><h2>Known Weakness:</h2><p></p><h2>Move:</h2><p></p><p></p><p></p><h2>Description:</h2>"
+          "content": "<p>Note:</p><p></p><p></p><p></p><hr><h2>Name: Start Spawn Grue (minion)</h2><h2></h2><h2>Encounter Day: 26 Nonus 1467 (Dry season)</h2><h2>Known Weakness:</h2><h2>Move:</h2><p></p><p></p><h2>Description:</h2><p></p><p>Some weird stuff coming from the Void Gate that we was orded to clean. Not knowing how they taste but they look uggly which usually tasty from my experience</p><p></p><hr><h2>Name: Wardu</h2><p></p><h2></h2><h2>Encounter Day: 26 Nonus 1467 (Dry season)</h2><h2>Known Weakness:</h2><h2>Move:</h2><p></p><h2>Description:</h2><p></p><hr><h2>Name: Choker</h2><p></p><h2>Encounter Day: 26 Nonus 1467 (Dry season)</h2><h2>Known Weakness:</h2><h2>Move:</h2><p></p><h2>Description:</h2><p></p><hr><p></p><p></p><h2>Name: Otyugh</h2><p></p><p></p><h2>Encounter Day: 26 Nonus 1467 (Dry season)</h2><h2>Known Weakness:</h2><h2>Move:</h2><p></p><h2>Description:</h2><hr><p></p><p></p><p></p><h2>Name: umbral Spirit</h2><h2>Encounter Day: 2 Nonus 1467 (Dry season)</h2><h2>Known Weakness:</h2><h2>Move:</h2><p></p><h2>Description:</h2><p></p><p>Naami's Shadown Kitten, everyone said it look cute. I wonder how will it taste. Curious!</p><p></p><p></p><p></p><hr><p></p><h2>Name: Swam of Maggots</h2><p></p><h2>Encounter Day: 2 Nonus 1467 (Dry season)</h2><h2>Known Weakness:</h2><h2>Move:</h2><p></p><h2>Description:</h2><p></p><p>Look like bunch of moving rice grain. I wonder what if you fry it with egg would be called Fried Maggot with egg or Fried Egg maggot? Either way must be very tasty.</p><p></p><p>As expected, they are vulnerable to Fire</p><p></p><hr><p></p><h2>Name: Bloater</h2><p></p><p></p><h2>Encounter Day: 27 Nonus 1467 (Dry season)</h2><h2>Known Weakness:</h2><h2>Move:</h2><p></p><h2>Description:</h2><p>Vulnerable to slashing damage</p><p></p><p></p><p></p><hr><p></p><h2>Name: Major Malleable</h2><p></p><h2>Encounter Day: 27 Nonus 1497 (Dry season)</h2><h2>Known Weakness:</h2><p>Piecing Damage</p><h2>Move:</h2><p></p><h2>Description:</h2><p></p><hr><h2>Name: Slithering Bowel</h2><div></div><p></p><p></p><h2>Encounter Day: 27 Nonus 1497 (Dry season)</h2><h2>Known Weakness:</h2><h2>Move:</h2><p>Combo to shoot people that Blinded</p><h2>Description:</h2><p></p><hr><h2>Name: Dragonflesh Golem</h2><p></p><p></p><h2>Encounter Day: 27 Nonus 1497 (Dry season)</h2><h2>Known Weakness:</h2><h2>Move:</h2><p></p><h2>Description:</h2><p></p><p></p><p></p><p></p><hr><p></p><h2>Name: Fiendish Flesh Golem</h2><p></p><h2>Encounter Day: 27 Nonus 1497 (Dry season)</h2><h2>Known Weakness:</h2><h2>Move:</h2><p></p><h2>Description:</h2><hr><h2>Name: Perfected Deva</h2><p></p><h2>Encounter Day: 27 Nonus 1497 (Dry season)</h2><h2>Known Weakness:</h2><h2>Move:</h2><p></p><p>Can Teleport</p><p></p><h2>Description:</h2><p></p><hr><p></p><h2>Name: Bone Devil</h2><p></p><p></p><h2>Encounter Day: 3 Decimus 1497 (Dry season)</h2><h2>Known Weakness:</h2><h2>Move:</h2><p></p><p>Can Teleport</p><p></p><h2>Description:</h2><p></p><hr><h2>Name: Horned Devil</h2><p></p><p></p><h2>Encounter Day: 3 Decimus 1497 (Dry season)</h2><h2>Known Weakness:</h2><h2>Move:</h2><p></p><p></p><h2>Description:</h2><p></p><hr><h2>Name: Narzugon</h2><p></p><p></p><p></p><h2>Encounter Day: 3 Decimus 1497 (Dry season)</h2><h2>Known Weakness:</h2><h2>Move:</h2><p></p><p></p><h2>Description:</h2><div><p></p></div><hr><h2>Name: Living Soot</h2><p></p><p></p><p></p><p></p><h2>Encounter Day: 12 Decimus 1497 (Raine season)</h2><h2>Known Weakness: None, seem easy to stun this homie</h2><h2>Move:</h2><p></p><p></p><h2>Description:</h2><div><p></p><hr><p></p></div><h2>Name: Slingrock Blocket</h2><p></p><p></p><p></p><h2>Encounter Day: 12 Decimus 1497 (Rainy season)</h2><h2>Known Weakness:</h2><h2>Move:</h2><p></p><p></p><h2>Description:</h2><p></p><p>They Look like small rock and throw themselve at target which is cute.</p><p></p><hr><p></p><h2>Name: Giru of the Black Flame</h2><p></p><h2>Encounter Day: 12 Decimus 1497 (Rainy season)</h2><p></p><h2>Known Weakness:</h2><p></p><p>Apperently it doesn't seem enjoy Cold Damage</p><p></p><p></p><h2>Move:</h2><p></p><p></p><h2>Description:</h2><p></p><p></p><hr><p></p><p></p><h2>Name: Slingrock Blocket</h2><p></p><p></p><p></p><h2>Encounter Day: 3 Decimus 1497 (Dry season)</h2><h2>Known Weakness:</h2><h2>Move:</h2><p></p><p></p><h2>Description:</h2><p></p><p>They Look like small rock and throw themselve at target which is cute.</p><p></p><hr><p></p><h2>Name: Magma Shark</h2><p></p><p></p><h2>Encounter Day: 15 Undecimus 1497 (Rainy season)</h2><h2>Known Weakness:</h2><p>I guess water?</p><h2>Move:</h2><p></p><p></p><h2>Description:</h2><p>Look like shark</p><p>Wondering if they already cook? How do they taste like?</p><p></p><hr><p></p><h2>Name: Cinderslag Elemental</h2><p></p><p></p><p></p><h2>Encounter Day: 15 Undecimus 1497 (Rainy season)</h2><h2>Known Weakness:</h2><p>Seem it afraid of water when Fearghas shoot it with Ray of Frost it flince when the water touching it So I assume it would afraid of water?</p><p>Ice do nothing btw</p><p></p><h2>Move:</h2><p>Can Knock you Prone or knock you away 15ft with normal attack</p><p></p><h2>Description:</h2><p></p><hr><p></p><h2>Name: Cinderslag Elemental</h2><p></p><p></p><h2>Encounter Day: 15 Undecimus 1497 (Rainy season)</h2><p></p><h2>Known Weakness:</h2><p></p><h2>Move:</h2><p></p><h2>Description:</h2><p></p><hr><p></p><h2>Name: Dragonbone Golem</h2><p></p><p></p><p></p><h2>Encounter Day: 16 Undecimus 1497 (Rainy season)</h2><p></p><h2>Known Weakness:</h2><p></p><h2>Move:</h2><p></p><h2>Description:</h2><p></p><hr><p></p><h2>Name: Frost Salamander</h2><h2>Encounter Day: 29 Undecimus 1497 (Rainy season)</h2><p></p><h2>Known Weakness:</h2><p></p><h2>Move:</h2><p></p><h2>Description:</h2><p></p><hr><p></p><h2>Name: Frost Salamander</h2><p></p><p></p><h2>Encounter Day: 29 Undecimus 1497 (Rainy season)</h2><p></p><h2>Known Weakness:</h2><p></p><h2>Move:</h2><p></p><h2>Description:</h2><p></p><hr><p></p><h2>Name: Nightwraith</h2><p></p><p></p><h2>Encounter Day: 29 Undecimus 1497 (Rainy season)</h2><p></p><h2>Known Weakness:</h2><p></p><h2>Move:</h2><p>Moonlight Dance: Require Wisdom save of 15</p><p></p><p></p><h2>Description:</h2><p></p><hr><p></p><h2>Name: Owl Bear</h2><p></p><p></p><h2>Encounter Day: 29 Undecimus 1497 (Rainy season)</h2><p></p><h2>Known Weakness:</h2><p></p><h2>Move:</h2><p>Bite: just like most animal. Thing can bite.</p><p></p><p></p><h2>Description:</h2><p>I wonder its meat taste like an owl or a bear? or mixture between the two like crocodile (chicken and fish).</p><p></p><p></p><hr><p></p><h2>Name:</h2><p></p><h2>Encounter Day: 29 Undecimus 1497 (Rainy season)</h2><p></p><h2>Known Weakness:</h2><p></p><h2>Move:</h2><p></p><p></p><p></p><h2>Description:</h2><p></p><hr><p></p><h2>Name:</h2><p></p><p></p><h2>Encounter Day: 29 Undecimus 1497 (Rainy season)</h2><p></p><h2>Known Weakness:</h2><p></p><h2>Move:</h2><p></p><p></p><p></p><h2>Description:</h2><p></p><hr><p></p><h2>Name:</h2><p></p><p></p><h2>Encounter Day: 29 Undecimus 1497 (Rainy season)</h2><p></p><h2>Known Weakness:</h2><p></p><h2>Move:</h2><p></p><p></p><p></p><h2>Description:</h2>"
         },
         {
           "name": "1",
@@ -10481,5 +10825,5 @@
       ]
     }
   ],
-  "ingameDate": "Duodecimus 06, 1497"
+  "ingameDate": "Duodecimus 13, 1497"
 }
