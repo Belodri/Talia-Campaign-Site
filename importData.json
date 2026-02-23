@@ -317,7 +317,7 @@
         "name": "Dried Meat",
         "description": "<p>The process of drying meat is long and extensive. In some particular cases, for the highest quality of dried meat, it can take over a year. It is highly sought after due to its extended shelf life, and depending on the meat used, it is, quite frankly, delicious.</p>",
         "section": "physical-items",
-        "quantity": 1,
+        "quantity": 3,
         "combinedLabel": "Food (meal)",
         "attunementLabel": ""
       },
@@ -457,7 +457,7 @@
         "name": "Potion of Growth",
         "description": "<div><p><em>The red in the potion's liquid continuously expands from a tiny bead to color the clear liquid around it and then contracts. Shaking the bottle fails to interrupt this process.</em></p><p>When you drink this potion, you gain the \"enlarge\" effect of the enlarge/reduce spell for 1d4 hours (no concentration required):</p></div><p>While enlarged, your size is increased by one category and your weight is multiplied by eight.<br>You have advantage on Strength checks and saving throws and your attacks with weapons deal an additional 1d4 damage.</p>",
         "section": "physical-items",
-        "quantity": 1,
+        "quantity": 2,
         "combinedLabel": "Potion",
         "attunementLabel": ""
       },
@@ -805,7 +805,7 @@
         "name": "Potion of Speed",
         "description": "<div><p>When you drink this potion, you gain the effect of the Haste spell for 1 minute (no concentration required). The potion's yellow fluid is streaked with black and swirls on its own.</p></div>",
         "section": "physical-items",
-        "quantity": 3,
+        "quantity": 2,
         "combinedLabel": "Potion",
         "attunementLabel": ""
       },
@@ -933,7 +933,7 @@
         "name": "Springseed",
         "description": "<p>A Springseed is a potent and rare token of vitality hailing from the celestial Gardens of Tranquility in the plane of Nirvana. These seeds, which shed a soft and dim blue-green light, are produced infrequently by the ancient trees that flourish in that serene realm.</p><p>The celestials of Nirvana occasionally present a Springseed to mortals who have distinguished themselves through exceptionally selfless and good actions. Beyond such gifts, these seeds are highly sought after for the beautiful and unique trees they produce. While typically cultivated on good-aligned planes like the Seven Heavens and Elysium, their uniqueness is valued in many other places too. For example, a small, uncorrupted grove flourishes even in the city of Dis, on the 2nd layer of Hell, standing as a display of the reach of Dispater's influence. Consequently, their rarity and prized nature make them valuable in trade between many planes.</p><p><strong>Consumption.</strong> You can consume a Springseed over the course of 1 minute to gain the benefits of the Heroes' Feast spell for 24 hours (You are cured of all diseases and poison, become immune to poison and being frightened, and make all Wisdom saving throws with advantage. Your hit point maximum also increases by 2d10, and you gain the same number of hit points).</p><p><strong>Cultivation.</strong> If 100 Springseeds are planted in fertile ground and watered daily for 10 days, they sprout into a single magnificent and beautiful tree. If carefully tended, this tree will bear fruit all year round, producing enough nourishing food to sustain up to ten adults. This tree is deeply connected to the positive energies of its origin and can awaken when those who've been caring for it are in grave danger, transforming into a CR 9 treant (MM p289) to defend them. If not destroyed by other means, this tree will live for approximately 500 years.</p>",
         "section": "physical-items",
-        "quantity": 15,
+        "quantity": 13,
         "combinedLabel": "Exotic Currency",
         "attunementLabel": ""
       },
@@ -949,7 +949,7 @@
         "name": "Potion of Heroism",
         "description": "<p><em>This blue potion bubbles and steams as if boiling.</em></p><p>When you drink this potion you gain 10 temporary hit points. Additionally you are under the effect of the Bless spell for 1 hour (no concentration required).</p>",
         "section": "physical-items",
-        "quantity": 4,
+        "quantity": 2,
         "combinedLabel": "Potion",
         "attunementLabel": ""
       },
@@ -1675,7 +1675,7 @@
         "name": "Potion of Heroism",
         "description": "<p><em>This blue potion bubbles and steams as if boiling.</em></p><p>When you drink this potion you gain 10 temporary hit points. Additionally you are under the effect of the Bless spell for 1 hour (no concentration required).</p>",
         "section": "physical-items",
-        "quantity": 2,
+        "quantity": 3,
         "combinedLabel": "Potion",
         "attunementLabel": ""
       },
@@ -1755,7 +1755,7 @@
         "name": "Potion of Speed",
         "description": "<div><p>When you drink this potion, you gain the effect of the Haste spell for 1 minute (no concentration required). The potion's yellow fluid is streaked with black and swirls on its own.</p></div>",
         "section": "physical-items",
-        "quantity": 1,
+        "quantity": 2,
         "combinedLabel": "Potion",
         "attunementLabel": ""
       },
@@ -2318,14 +2318,6 @@
         "attunementLabel": ""
       },
       {
-        "name": "Strength through suffering (of others)",
-        "description": "<p>As long as you have this book on you and are capable of casting 4th level spells, you can cast the spells written inside as if you had them prepared. This item does not require attuning.</p><p>When casting a spell from this book every creature within 30ft that can see (or hear if the spell has a verbal component) you takes 1d4 psychic damage per level of the spell cast (including cantrips). Undead and constructs are not affected by this.</p><p></p><p><strong>It contains the following spells:</strong></p><table><tbody><tr><td><p>Cantrip</p></td><td><p>Toll the Dead</p></td></tr><tr><td><p>1st</p></td><td><p>Armor of Agathys</p></td></tr><tr><td><p>2nd</p></td><td><p>Wither and Bloom</p></td></tr><tr><td><p>3rd</p></td><td><p>Vampiric Touch</p></td></tr><tr><td><p>4th</p></td><td><p>Shadow of Moil</p></td></tr><tr><td><p>5th</p></td><td><p>Magic Mirror</p></td></tr></tbody></table>",
-        "section": "physical-items",
-        "quantity": 1,
-        "combinedLabel": "Spellbook",
-        "attunementLabel": ""
-      },
-      {
         "name": "Gills",
         "description": "<p>Obtained from aquatic beasts. These membranous structures exhibit a delicate, translucent appearance, designed for efficient underwater respiration.</p>",
         "section": "physical-items",
@@ -2392,14 +2384,6 @@
         "quantity": 28,
         "combinedLabel": "Ingredient (bodyPart)",
         "attunementLabel": ""
-      },
-      {
-        "name": "Unholy Grimoire of Blood",
-        "description": "<p>While you are attuned to this grimoire, you can cast each spell written inside as if you had them prepared. These spells can only be contained inside an Unholy Grimoire.</p><p>Many spells are written in this grimoire but with your currently limited knowledge of dark arcane arts, you are only able to decipher the following:</p><table><tbody><tr><td><p>Necromancy Cantrip</p></td><td><p>Bloody Rites</p></td></tr><tr><td><p>4th level Abjuration</p></td><td><p>Blood Barrier</p></td></tr><tr><td><p>5th level Enchantment</p></td><td><p>Traitorous Blood</p></td></tr></tbody></table>",
-        "section": "physical-items",
-        "quantity": 1,
-        "combinedLabel": "Spellbook",
-        "attunementLabel": "Requires Attunement"
       },
       {
         "name": "Teleport",
@@ -2483,7 +2467,7 @@
         "name": "Essence of Legend",
         "description": "<p>Extracted from slain creatures renowned for their legendary resistances. This ethereal substance pulses with arcane energy, embodying the essence of resilience and defiance against formidable adversaries.</p>",
         "section": "physical-items",
-        "quantity": 1,
+        "quantity": 0,
         "combinedLabel": "Ingredient (bodyPart)",
         "attunementLabel": ""
       },
@@ -2530,70 +2514,6 @@
         "attunementLabel": ""
       },
       {
-        "name": "Blood Barrier",
-        "description": "<p>Choose up to three living, willing creatures other than yourself within range. Each of them takes necrotic damage equal to twice your caster level as you drain the blood from their bodies, using it to surround yourself with a barrier. <br>This barrier grants you an amount of temporary hit points equal to twice your caster level for each chosen creature.</p>",
-        "section": "spell-items",
-        "spellLevel": "4th Level",
-        "spellRange": "30 ft",
-        "spellSchool": "Abjuration"
-      },
-      {
-        "name": "Bloody Rites",
-        "description": "<p>You rip out the life force of a living, willing creature other than yourself within range, dealing 1d6 necrotic damage to form a spike of crystallised blood.<br>With a ranged spell attack you then hurl this spike at a creature within range, dealing 4d6 piercing damage on a hit.</p><p></p><p>This spell creates more than one spike when you reach higher levels: two spikes at 5th level, three spikes at 11th level, and four spikes at 17th level. You can direct the spikes at the same target or at different ones. Make a separate attack roll for each spike.<br>The life force required for each created spike can come from the same creature each time or from different ones.</p>",
-        "section": "spell-items",
-        "spellLevel": "Cantrip",
-        "spellRange": "60 ft",
-        "spellSchool": "Necromancy"
-      },
-      {
-        "name": "Magic Mirror",
-        "description": "<div><p>A momentary bubble of iridescent energy shimmers in the air between you and the caster of the triggering spell. The spell is redirected to a creature of your choice that you can see within 60 feet. If the spell is 5th level or lower, you are no longer a target of the spell and the chosen creature is instead. If the spell is 6th level or higher, make an ability check using your spellcasting ability. The DC equals 10 + the spell's level. On a successful check, you are no longer a target of the spell and the chosen creature is instead. On a failed check, you remain the target of the triggering spell.</p><div></div></div>",
-        "section": "spell-items",
-        "spellLevel": "5th Level",
-        "spellRange": "Self",
-        "spellSchool": "Abjuration"
-      },
-      {
-        "name": "Toll the Dead",
-        "description": "<div><p>You point at one creature you can see within range, and the sound of a dolorous bell fills the air around it for a moment. The target must succeed on a Wisdom saving throw or take [[/r 1d8]] necrotic damage. If the target is missing any of its hit points, it instead takes [[/r 1d12]] necrotic damage.</p><div></div><p>The spell's damage increases by one die when you reach 5th level ([[/r 2d8]] or [[/r 2d12]]), 11th level ([[/r 3d8]] or [[/r 3d12]]), and 17th level ([[/r 4d8]] or [[/r 4d12]]).</p></div>",
-        "section": "spell-items",
-        "spellLevel": "Cantrip",
-        "spellRange": "60 ft",
-        "spellSchool": "Necromancy"
-      },
-      {
-        "name": "Armor of Agathys",
-        "description": "<div><p>A protective magical force surrounds you, manifesting as a spectral frost that covers you and your gear. You gain 5 temporary hit points. For the duration of the spell, if a creature hits you with a melee attack while you have temporary points, the creature takes 5 cold damage.</p></div><div><div><p></p><p><span><strong>At Higher Level</strong></span></p><p>When you cast this spell using a spell slot of 2nd level or higher, both the temporary hit points and the cold damage increase by 5 for each slot level above 1st.</p></div></div>",
-        "section": "spell-items",
-        "spellLevel": "1st Level",
-        "spellRange": "Self",
-        "spellSchool": "Abjuration"
-      },
-      {
-        "name": "Life from Death",
-        "description": "<div><p>You invoke both death and life upon a 10-foot-radius sphere centred on a point within range. Each creature of your choice in that area must make a Constitution saving throw, taking [[/r 2d6]] necrotic damage on a failed save, or half as much damage on a successful one. Nonmagical vegetation in that area withers.</p><p>Then up to one creature of your choice in that area can regain a number of hit points equal to half of the total number of hit points that were lost due to this spell, rounded down.</p></div><div><div><p><span><strong>At Higher Levels</strong></span></p><p>When you cast this spell using a spell slot of 3rd level or higher, the damage increases by [[/r 1d6]] for each slot above the 2nd.</p></div></div>",
-        "section": "spell-items",
-        "spellLevel": "2nd Level",
-        "spellRange": "60 ft",
-        "spellSchool": "Necromancy"
-      },
-      {
-        "name": "Vampiric Touch",
-        "description": "<div><p>The touch of your shadow-wreathed hand can siphon life force from others to heal your wounds. Make a melee spell attack against a creature within your reach. On a hit, the target takes [[/r 3d6]] necrotic damage, and you regain hit points equal to half the amount of necrotic damage dealt. Until the spell ends, you can make the attack again on each of your turns as an action.</p><div></div></div><div><div><span> <span>At Higher Levels.</span></span> <p>When you cast this spell using a spell slot of 4th level or higher, the damage increases by [[/r 1d6]] for each slot level above 3rd.</p><div></div></div><div></div></div>",
-        "section": "spell-items",
-        "spellLevel": "3rd Level",
-        "spellRange": "Self",
-        "spellSchool": "Necromancy"
-      },
-      {
-        "name": "Shadow of Moil",
-        "description": "<div><p>Flame-like shadows wreathe your body until the spell ends, causing you to become heavily obscured to others. The shadows turn dim light within 10 feet of you into darkness, and bright light in the same area to dim light.</p><div><p></p></div><p>Until the spell ends, you have resistance to radiant damage. In addition, whenever a creature within 10 feet of you hits you with an attack, the shadows lash out at that creature, dealing it [[/damage 2d8 necrotic]] damage.</p></div>",
-        "section": "spell-items",
-        "spellLevel": "4th Level",
-        "spellRange": "Self",
-        "spellSchool": "Necromancy"
-      },
-      {
         "name": "Resistance",
         "description": "<p>You touch one willing creature. For the duration of the spell, the creature adds a d4 to all saving throws.</p>",
         "section": "spell-items",
@@ -2632,14 +2552,6 @@
         "spellLevel": "Cantrip",
         "spellRange": "30 ft",
         "spellSchool": "Transmutation"
-      },
-      {
-        "name": "Toll the Dead",
-        "description": "<div><p>You point at one creature you can see within range, and the sound of a dolorous bell fills the air around it for a moment. The target must succeed on a Wisdom saving throw or take [[/r 1d8]] necrotic damage. If the target is missing any of its hit points, it instead takes [[/r 1d12]] necrotic damage.</p><div></div><p>The spell's damage increases by one die when you reach 5th level ([[/r 2d8]] or [[/r 2d12]]), 11th level ([[/r 3d8]] or [[/r 3d12]]), and 17th level ([[/r 4d8]] or [[/r 4d12]]).</p></div>",
-        "section": "spell-items",
-        "spellLevel": "Cantrip",
-        "spellRange": "60 ft",
-        "spellSchool": "Necromancy"
       },
       {
         "name": "Minor Illusion",
@@ -2974,22 +2886,6 @@
         "attunementLabel": ""
       },
       {
-        "name": "Activated: Slow - 3rd",
-        "description": "<div><p>You alter time around up to six creatures of your choice in a 40-foot cube within range. Each target must succeed on a Wisdom saving throw or be affected by this spell for the duration.</p><p>An affected target's speed is halved, it takes a −2 penalty to AC and Dexterity saving throws, and becomes &amp;Reference[distracted]. On its turn, it can use either an action or a bonus action, not both. Regardless of the creature's abilities or magic items, it can't make more than one melee or ranged attack during its turn.</p><p>If the creature attempts to cast a spell with a casting time of 1 action, roll a [[/r d20]]. On an 11 or higher, the spell doesn't take effect until the creature's next turn, and the creature must use its action on that turn to complete the spell. If it can't, the spell is wasted.</p><p>A creature affected by this spell makes another Wisdom saving throw at the end of each of its turns. On a successful save, the effect ends for it.</p></div>",
-        "section": "physical-items",
-        "quantity": 1,
-        "combinedLabel": "Spell Gem",
-        "attunementLabel": ""
-      },
-      {
-        "name": "Activated: Slow - 3rd",
-        "description": "<div><p>You alter time around up to six creatures of your choice in a 40-foot cube within range. Each target must succeed on a Wisdom saving throw or be affected by this spell for the duration.</p><p>An affected target's speed is halved, it takes a −2 penalty to AC and Dexterity saving throws, and becomes &amp;Reference[distracted]. On its turn, it can use either an action or a bonus action, not both. Regardless of the creature's abilities or magic items, it can't make more than one melee or ranged attack during its turn.</p><p>If the creature attempts to cast a spell with a casting time of 1 action, roll a [[/r d20]]. On an 11 or higher, the spell doesn't take effect until the creature's next turn, and the creature must use its action on that turn to complete the spell. If it can't, the spell is wasted.</p><p>A creature affected by this spell makes another Wisdom saving throw at the end of each of its turns. On a successful save, the effect ends for it.</p></div>",
-        "section": "physical-items",
-        "quantity": 1,
-        "combinedLabel": "Spell Gem",
-        "attunementLabel": ""
-      },
-      {
         "name": "Activated: Shield - 1st",
         "description": "<div><p>An invisible barrier of magical force appears and protects you. Until the start of your next turn, you have a +5 bonus to AC, including against the triggering attack, and you take no damage from  magic missile.</p><div></div></div>",
         "section": "physical-items",
@@ -3044,38 +2940,6 @@
         "spellLevel": "6th Level",
         "spellRange": "300 ft",
         "spellSchool": "Evocation"
-      },
-      {
-        "name": "Unholy Grimoire of Profanation",
-        "description": "<p>While you are attuned to this grimoire, you can cast each spell written inside as if you had them prepared. These spells can only be contained inside an Unholy Grimoire.</p><p>With your growing mastery of dark arcane arts, you're able to decipher the following spells:</p><ul><li><p>Gravecraft</p></li><li><p>Life Leech</p></li><li><p>Speak with Dead</p></li></ul><p>Completing the rituals to unlock the grimoire's secrets also reveal the following spells:</p><ul><li><p>Withering Touch</p></li><li><p>Soul Cage</p></li></ul>",
-        "section": "physical-items",
-        "quantity": 1,
-        "combinedLabel": "Spellbook",
-        "attunementLabel": ""
-      },
-      {
-        "name": "Gravecraft",
-        "description": "<div><p>You channel the forces of undeath to create one of the following effects within range:</p><ul><li><p>You cause a corpse of a creature you can see to randomly twitch or move. For example, you can cause the arm or tail of a corpse to wave. This movement is not enough to perform simple tasks, interact with an objects, or harm a creature in any manner.</p></li><li><p>You cause one medium or smaller corpse or piece of a corpse to briefly reanimate and move 5ft. in a direction of your choice. After the end of this movement it returns, to its inanimate state.</p></li><li><p>You mend a single dismemberment such as a hand or arm, on a corpse or skeleton that you can see in range. For example, you can reattach an arm or mend a broken bone of a corpse provided the necessary body parts are available.</p></li><li><p>You cause the eyes of a corpse to give off dim light in a 5ft. radius for up to 1 minute.</p></li><li><p>You cause any remnant flesh on a skeleton to rapidly decompose over 1 minute. This process only leaves hardened or bleached bone.</p></li><li><p>You cause spectral whispers or voices to originate from a corpse. You have no control of these whispers as they are in language that the creature spoke in life and the word or phrase spoken is a random phrase about something in that creature's life. It may be any name of a person, thing, place, or moment from any point in that creature's life.</p></li></ul><p>If you cast this spell multiple times, you can have up to three of its non-instantaneous effects active at a time, and you can dismiss such an effect as an action.</p></div>",
-        "section": "spell-items",
-        "spellLevel": "Cantrip",
-        "spellRange": "30 ft",
-        "spellSchool": "Necromancy"
-      },
-      {
-        "name": "Life Leech",
-        "description": "<div><p>You create a pair of dark tendrils that lash out from you at targets within range.</p><p>Make a ranged spell attack for each tendril. On a hit, the target takes [[/damage 1d12 type=necrotic]] damage and you, or one creature you choose within range, regains hit points equal to half the damage dealt.</p><p><span><strong>At Higher Levels. </strong></span>When you cast this spell using a spell slot of 3rd level or higher, you create one additional tendril for each slot level above 2nd.</p></div>",
-        "section": "spell-items",
-        "spellLevel": "2nd Level",
-        "spellRange": "30 ft",
-        "spellSchool": "Necromancy"
-      },
-      {
-        "name": "Speak with Dead",
-        "description": "<div><p>You grant the semblance of life and intelligence to a corpse of your choice within range, allowing it to answer the questions you pose. The corpse must still have a mouth and can't be undead. The spell fails if the corpse was the target of this spell within the last 10 days.</p><p>Until the spell ends, you can ask the corpse up to five questions. The corpse knows only what it knew in life, including the languages it knew. Answers are usually brief, cryptic, or repetitive, and the corpse is under no compulsion to offer a truthful answer if you are hostile to it or it recognizes you as an enemy. This spell doesn't return the creature's soul to its body, only its animating spirit. Thus, the corpse can't learn new information, doesn't comprehend anything that has happened since it died, and can't speculate about future events.</p></div>",
-        "section": "spell-items",
-        "spellLevel": "3rd Level",
-        "spellRange": "10 ft",
-        "spellSchool": "Necromancy"
       },
       {
         "name": "Essence Tithe",
@@ -3226,22 +3090,6 @@
         "spellLevel": "4th Level",
         "spellRange": "120 ft",
         "spellSchool": "Enchantment"
-      },
-      {
-        "name": "Withering Touch",
-        "description": "<div><p>Your hands become black claws bathed in necrotic energy. Make a melee spell attack against a creature you can reach. On a hit, the target takes [[/damage 4d8 type=necrotic]] damage and becomes cursed for the duration of the spell. While cursed in this way, the target suffers one of the following effects of your choice, or all effects if the attack is a critical hit:</p><ul><li><p><span><strong>Curse of Impotence. </strong></span>The number of attacks the target can make using the Multiattack action is reduced by 1.</p></li><li><p><span><strong>Curse of Lethargy.</strong> The target falls &amp;Reference[prone] upon becoming affected by this spell and at the start of each of its turns in combat.</span></p></li><li><p><span><strong>Curse of Fragility.</strong> </span>Choose one damage type: bludgeoning, piercing, or slashing. The target's immunity or resistance to that damage type is downgraded by one step. If the target doesn't have immunity or resistance to the chosen damage type, it is vulnerable to that damage type instead.</p></li></ul><p>A remove curse spell or similar magic ends all effects inflicted by this spell.</p><p><strong>At higher levels.</strong> When you cast this spell using a spell slot of 5th level or higher, the damage increases by 1d8 for each slot level above 4th. Additionally, if you cast this spell using a spell slot of 7th level or higher, the spell does not require concentration.</p></div>",
-        "section": "spell-items",
-        "spellLevel": "4th Level",
-        "spellRange": "Touch",
-        "spellSchool": "Necromancy"
-      },
-      {
-        "name": "Soul Cage",
-        "description": "<div><p>This spell snatches the soul of a humanoid as it dies and traps it inside the tiny cage you use for the material component. A stolen soul remains inside the cage until the spell ends or until you destroy the cage, which ends the spell. While you have a soul inside the cage, you can exploit it in any of the ways described below. You can use a trapped soul up to six times. Once you exploit a soul for the sixth time, it is released, and the spell ends. While a soul is trapped, the dead humanoid it came from can't be revived.</p><p><span><strong>Steal Life.</strong> </span>You can use a bonus action to drain vigor from the soul and regain [[/r 2d8]] hit points for each exploit you choose to expend this way.</p><p><span><strong>Query Soul.</strong> </span>You ask the soul a question (no action required) and receive a brief telepathic answer, which you can understand regardless of the language used. The soul knows only what it knew in life, but it must answer you truthfully and to the best of its ability. The answer is no more than a sentence or two and might be cryptic.</p><p><span><strong>Borrow Experience.</strong> When you make an attack roll, damage roll, ability check, or saving throw, </span>you can expend one or more exploits to add a +1 bonus to the roll for each one.</p><p><span><strong>Eyes of the Dead.</strong> </span>You can use an action to name a place the humanoid saw in life, which creates an invisible sensor somewhere in that place if it is on the plane of existence you're currently on. The sensor remains for as long as you concentrate, up to 10 minutes (as if you were concentrating on a spell). You receive visual and auditory information from the sensor as if you were in its space using your senses.</p><p>A creature that can see the sensor (such as one using See Invisibility or &amp;Reference[rule=truesight]) sees a translucent image of the tormented humanoid whose soul you caged.</p></div>",
-        "section": "spell-items",
-        "spellLevel": "6th Level",
-        "spellRange": "60 ft",
-        "spellSchool": "Necromancy"
       },
       {
         "name": "Shield +2",
@@ -3892,22 +3740,6 @@
         "attunementLabel": ""
       },
       {
-        "name": "Blight",
-        "description": "<div><p>Necromantic energy washes over a creature of your choice that you can see within range, draining moisture and vitality from it. The target must make a Constitution saving throw. The target takes [[/damage 8d8 type=necrotic]] damage on a failed save, or half as much damage on a successful one. This spell has no effect on undead or constructs.</p><div><p></p></div><p>If you target a plant creature or a magical plant, it makes the saving throw with disadvantage, and the spell deals maximum damage to it.</p><p>If you target a nonmagical plant that isn't a creature, such as a tree or shrub, it doesn't make a saving throw, it simply withers and dies.</p><p></p></div><div><div><p><span><strong>At Higher Levels</strong></span></p><p>When you cast this spell using a spell slot of 5th level or higher, the damage increases by [[/damage 1d8]] for each slot level above 4th.</p></div></div>",
-        "section": "spell-items",
-        "spellLevel": "4th Level",
-        "spellRange": "30 ft",
-        "spellSchool": "Necromancy"
-      },
-      {
-        "name": "Toll the Dead",
-        "description": "<div><p>You point at one creature you can see within range, and the sound of a dolorous bell fills the air around it for a moment. The target must succeed on a Wisdom saving throw or take [[/r 1d8]] necrotic damage. If the target is missing any of its hit points, it instead takes [[/r 1d12]] necrotic damage.</p><div></div><p>The spell's damage increases by one die when you reach 5th level ([[/r 2d8]] or [[/r 2d12]]), 11th level ([[/r 3d8]] or [[/r 3d12]]), and 17th level ([[/r 4d8]] or [[/r 4d12]]).</p></div>",
-        "section": "spell-items",
-        "spellLevel": "Cantrip",
-        "spellRange": "60 ft",
-        "spellSchool": "Necromancy"
-      },
-      {
         "name": "Sickle of Bloody Harvest",
         "description": "<p>This magic sickle bears long, deep channels running from the tip of the blade to narrow openings in the handle. You can use this sickle as a spellcasting focus.</p><p>While holding this weapon, your attacks against creatures than aren't undead or constructs are empowered and gains the following abilities:</p><p><strong>Bloodletting.</strong> You gain a +2 bonus to attack and damage rolls made with this weapon and with melee spell attacks.</p><p><strong>Bountiful Harvest.</strong> When you reduce a creature to 0 hit points with an attack made with this weapon or a melee spell attack, you can harvest its body for alchemical ingredients one additional time.</p>",
         "section": "physical-items",
@@ -3978,14 +3810,6 @@
         "attunementLabel": ""
       },
       {
-        "name": "Activated: Tenser's Transformation - 6th",
-        "description": "<p>You endow yourself with endurance and martial prowess fueled by magic. Until the spell ends, you can't cast spells, and you gain the following benefits:</p><ul><li><p>You gain 50 temporary hit points. If any of these remain when the spell ends, they are lost.</p></li><li><p>You have advantage on attack rolls that you make with simple and martial weapons.</p></li><li><p>When you hit a target with a weapon attack, that target takes an extra [[/damage 2d12 type=force]] damage.</p></li><li><p>You have proficiency with all armor, shields, simple weapons, and martial weapons.</p></li><li><p>You have proficiency in Strength and Constitution saving throws.</p></li><li><p>You can attack twice, instead of once, when you take the attack action on your turn. You ignore this benefit if you already have a feature, like Extra Attack, that gives you extra attacks.</p></li></ul><p>Immediately after the spell ends, you must succeed on a [[/save ability=constitution dc=15]] saving throw or suffer one level of &amp;Reference[condition=exhaustion].</p>",
-        "section": "physical-items",
-        "quantity": 1,
-        "combinedLabel": "Spell Gem",
-        "attunementLabel": ""
-      },
-      {
         "name": "Catapult",
         "description": "<p>Choose one object weighing 1 to 5 pounds within range that isn't being worn or carried. The object flies in a straight line up to 90 feet in a direction you choose before falling to the ground, stopping early if it impacts against a solid surface. If the object would strike a creature, that creature must make a Dexterity saving throw. On a failed save, the object strikes the target and stops moving. When the object strikes something, the object and what it strikes each take [[/damage 3d8 type=bludgeoning]] damage.</p><p>At Higher Levels.</p><p>When you cast this spell using a spell slot of 2nd level or higher, the maximum weight of objects that you can target with this spell increases by 5 pounds, and the damage increases by [[/damage 1d8]], for each slot level above 1st.</p>",
         "section": "spell-items",
@@ -4023,14 +3847,6 @@
         "section": "physical-items",
         "quantity": 1,
         "combinedLabel": "Spell Gem",
-        "attunementLabel": ""
-      },
-      {
-        "name": "Martyr's Locket",
-        "description": "<p>A Martyr's Locket is an unassuming and unadorned gold pendant, deliberately plain and with a blank canvas inside. Blessed by the divine light of Mount Celestia, they are offered by the angelic hosts of Heaven to those seeking to perform acts of true empathy - often given freely to poor sinners looking for penance.</p><p>The belief that the truest measure of a soul is not in avoiding hardship, but in the willingness to bear the burdens of others, is a belief not just common amongst the denizens of Heaven but also shared by their mortal followers. As such, many monasteries across the realms which are dedicated to lawful good deities or principles, welcome donations of used lockets and display them in quiet galleries where each captured portrait of a moment of sacrifice serves as a silent lesson in courage and compassion for all to witness. Novitiates spend hours in silent contemplation before them, learning not only from dusty tomes, but from the faces of ordinary people captured in their single greatest moment.</p><p><strong>Moment of Martyrdom.</strong> When another creature you can see becomes affected by a curse (or an effect that can be ended or removed via the Remove Curse spell), you can activate the locket (no action required) to take the curse upon yourself instead. This ability cannot be used if the other creature isn't willing or if you are immune to any the curse's effects.</p><p>When the item is activated this way, the locket becomes a nonmagical @UUID[Compendium.talia-custom.customItems.Item.dQQKUD2XEIMNbGXl]{gold locket with a painted portrait inside} (DMG, p134), depicting you in the moment you took the curse upon yourself.</p>",
-        "section": "physical-items",
-        "quantity": 1,
-        "combinedLabel": "Exotic Currency",
         "attunementLabel": ""
       },
       {
@@ -4250,78 +4066,6 @@
         "attunementLabel": ""
       },
       {
-        "name": "Blight",
-        "description": "<p>Necromantic energy washes over a creature of your choice that you can see within range, draining moisture and vitality from it. The target must make a Constitution saving throw. The target takes [[/damage 8d8 type=necrotic]] damage on a failed save, or half as much damage on a successful one. This spell has no effect on undead or constructs.</p><p>If you target a plant creature or a magical plant, it makes the saving throw with disadvantage, and the spell deals maximum damage to it.</p><p>If you target a nonmagical plant that isn't a creature, such as a tree or shrub, it doesn't make a saving throw, it simply withers and dies.</p><p><strong>At Higher Levels.</strong> When you cast this spell using a spell slot of 5th level or higher, the damage increases by [[/damage 1d8]] for each slot level above 4th.</p>",
-        "section": "spell-items",
-        "spellLevel": "4th Level",
-        "spellRange": "30 ft",
-        "spellSchool": "Necromancy"
-      },
-      {
-        "name": "Toll the Dead",
-        "description": "<div><p>You point at one creature you can see within range, and the sound of a dolorous bell fills the air around it for a moment. The target must succeed on a Wisdom saving throw or take [[/r 1d8]] necrotic damage. If the target is missing any of its hit points, it instead takes [[/r 1d12]] necrotic damage.</p><div></div><p>The spell's damage increases by one die when you reach 5th level ([[/r 2d8]] or [[/r 2d12]]), 11th level ([[/r 3d8]] or [[/r 3d12]]), and 17th level ([[/r 4d8]] or [[/r 4d12]]).</p></div>",
-        "section": "spell-items",
-        "spellLevel": "Cantrip",
-        "spellRange": "60 ft",
-        "spellSchool": "Necromancy"
-      },
-      {
-        "name": "Magic Mirror",
-        "description": "<div><p>A momentary bubble of iridescent energy shimmers in the air between you and the caster of the triggering spell. The spell is redirected to a creature of your choice that you can see within 60 feet. If the spell is 5th level or lower, you are no longer a target of the spell and the chosen creature is instead. If the spell is 6th level or higher, make an ability check using your spellcasting ability. The DC equals 10 + the spell's level. On a successful check, you are no longer a target of the spell and the chosen creature is instead. On a failed check, you remain the target of the triggering spell.</p><div></div></div>",
-        "section": "spell-items",
-        "spellLevel": "5th Level",
-        "spellRange": "Self",
-        "spellSchool": "Abjuration"
-      },
-      {
-        "name": "Toll the Dead",
-        "description": "<div><p>You point at one creature you can see within range, and the sound of a dolorous bell fills the air around it for a moment. The target must succeed on a Wisdom saving throw or take [[/r 1d8]] necrotic damage. If the target is missing any of its hit points, it instead takes [[/r 1d12]] necrotic damage.</p><div></div><p>The spell's damage increases by one die when you reach 5th level ([[/r 2d8]] or [[/r 2d12]]), 11th level ([[/r 3d8]] or [[/r 3d12]]), and 17th level ([[/r 4d8]] or [[/r 4d12]]).</p></div>",
-        "section": "spell-items",
-        "spellLevel": "Cantrip",
-        "spellRange": "60 ft",
-        "spellSchool": "Necromancy"
-      },
-      {
-        "name": "Armor of Agathys",
-        "description": "<div><p>A protective magical force surrounds you, manifesting as a spectral frost that covers you and your gear. You gain 5 temporary hit points. For the duration of the spell, if a creature hits you with a melee attack while you have temporary points, the creature takes 5 cold damage.</p></div><div><div><p></p><p><span><strong>At Higher Level</strong></span></p><p>When you cast this spell using a spell slot of 2nd level or higher, both the temporary hit points and the cold damage increase by 5 for each slot level above 1st.</p></div></div>",
-        "section": "spell-items",
-        "spellLevel": "1st Level",
-        "spellRange": "Self",
-        "spellSchool": "Abjuration"
-      },
-      {
-        "name": "Life from Death",
-        "description": "<div><p>You invoke both death and life upon a 10-foot-radius sphere centred on a point within range. Each creature of your choice in that area must make a Constitution saving throw, taking [[/r 2d6]] necrotic damage on a failed save, or half as much damage on a successful one. Nonmagical vegetation in that area withers.</p><p>Then up to one creature of your choice in that area can regain a number of hit points equal to half of the total number of hit points that were lost due to this spell, rounded down.</p></div><div><div><p><span><strong>At Higher Levels</strong></span></p><p>When you cast this spell using a spell slot of 3rd level or higher, the damage increases by [[/r 1d6]] for each slot above the 2nd.</p></div></div>",
-        "section": "spell-items",
-        "spellLevel": "2nd Level",
-        "spellRange": "60 ft",
-        "spellSchool": "Necromancy"
-      },
-      {
-        "name": "Vampiric Touch",
-        "description": "<div><p>The touch of your shadow-wreathed hand can siphon life force from others to heal your wounds. Make a melee spell attack against a creature within your reach. On a hit, the target takes [[/r 3d6]] necrotic damage, and you regain hit points equal to half the amount of necrotic damage dealt. Until the spell ends, you can make the attack again on each of your turns as an action.</p><div></div></div><div><div><span> <span>At Higher Levels.</span></span> <p>When you cast this spell using a spell slot of 4th level or higher, the damage increases by [[/r 1d6]] for each slot level above 3rd.</p><div></div></div><div></div></div>",
-        "section": "spell-items",
-        "spellLevel": "3rd Level",
-        "spellRange": "Touch",
-        "spellSchool": "Necromancy"
-      },
-      {
-        "name": "Shadow of Moil",
-        "description": "<div><p>Flame-like shadows wreathe your body until the spell ends, causing you to become heavily obscured to others. The shadows turn dim light within 10 feet of you into darkness, and bright light in the same area to dim light.</p><div><p>Until the spell ends, you have resistance to radiant damage. In addition, whenever a creature within 10 feet of you hits you with an attack, the shadows lash out at that creature, dealing it [[/damage 2d8 necrotic]] damage.</p></div></div>",
-        "section": "spell-items",
-        "spellLevel": "4th Level",
-        "spellRange": "Self",
-        "spellSchool": "Necromancy"
-      },
-      {
-        "name": "Traitorous Blood",
-        "description": "<p>You target a creature within range whose blood betrays them under your dark influence. The creature must have a Challenge Rating less than twice the level of the spell slot used to cast this spell. If the creature fails a Constitution saving throw, you seize control of its blood, twisting and manipulating it to puppet the creature’s body for the duration of the spell.</p><p>On the creature's turn, you dictate its movement and physical actions, forcing it to move and strike as you command. However, the creature's mind remains its own, fully aware of the unnatural control over its body. Because of this, you cannot compel the creature to cast spells, perform tasks that require concentration or significant mental effort, or take actions that require its willingness.</p>",
-        "section": "spell-items",
-        "spellLevel": "5th Level",
-        "spellRange": "60 ft",
-        "spellSchool": "Enchantment"
-      },
-      {
         "name": "Springseed",
         "description": "<p>A Springseed is a potent and rare token of vitality hailing from the celestial Gardens of Tranquility in the plane of Nirvana. These seeds, which shed a soft and dim blue-green light, are produced infrequently by the ancient trees that flourish in that serene realm.</p><p>The celestials of Nirvana occasionally present a Springseed to mortals who have distinguished themselves through exceptionally selfless and good actions. Beyond such gifts, these seeds are highly sought after for the beautiful and unique trees they produce. While typically cultivated on good-aligned planes like the Seven Heavens and Elysium, their uniqueness is valued in many other places too. For example, a small, uncorrupted grove flourishes even in the city of Dis, on the 2nd layer of Hell, standing as a display of the reach of Dispater's influence. Consequently, their rarity and prized nature make them valuable in trade between many planes.</p><p><strong>Consumption.</strong> You can consume a Springseed over the course of 1 minute to gain the benefits of the Heroes' Feast spell for 24 hours (You are cured of all diseases and poison, become immune to poison and being frightened, and make all Wisdom saving throws with advantage. Your hit point maximum also increases by 2d10, and you gain the same number of hit points).</p><p><strong>Cultivation.</strong> If 100 Springseeds are planted in fertile ground and watered daily for 10 days, they sprout into a single magnificent and beautiful tree. If carefully tended, this tree will bear fruit all year round, producing enough nourishing food to sustain up to ten adults. This tree is deeply connected to the positive energies of its origin and can awaken when those who've been caring for it are in grave danger, transforming into a CR 9 treant (MM p289) to defend them. If not destroyed by other means, this tree will live for approximately 500 years.</p>",
         "section": "physical-items",
@@ -4381,7 +4125,7 @@
         "name": "Pot of Necromantic Ink",
         "description": "<p>The scent of death and decay hangs around this pot of grey ink. If you spend 1 minute using the ink to draw symbols of death on a dead creature that has been dead no longer than 10 days, you can imbue the creature with the ink's magic. The creature rises 24 hours later as a skeleton or zombie (your choice), unless the creature is restored to life or its body is destroyed. You have no control over the undead creature.</p>",
         "section": "physical-items",
-        "quantity": 8,
+        "quantity": 12,
         "combinedLabel": "Trinket",
         "attunementLabel": ""
       },
@@ -4400,6 +4144,230 @@
         "quantity": 1,
         "combinedLabel": "Potion",
         "attunementLabel": ""
+      },
+      {
+        "name": "Blight",
+        "description": "<p>Necromantic energy washes over a creature of your choice that you can see within range, draining moisture and vitality from it. The target must make a Constitution saving throw. The target takes [[/damage 8d8 type=necrotic]] damage on a failed save, or half as much damage on a successful one. This spell has no effect on undead or constructs.</p><p>If you target a plant creature or a magical plant, it makes the saving throw with disadvantage, and the spell deals maximum damage to it.</p><p>If you target a nonmagical plant that isn't a creature, such as a tree or shrub, it doesn't make a saving throw, it simply withers and dies.</p><p><strong>At Higher Levels.</strong> When you cast this spell using a spell slot of 5th level or higher, the damage increases by [[/damage 1d8]] for each slot level above 4th.</p>",
+        "section": "spell-items",
+        "spellLevel": "4th Level",
+        "spellRange": "30 ft",
+        "spellSchool": "Necromancy"
+      },
+      {
+        "name": "Toll the Dead",
+        "description": "<div><p>You point at one creature you can see within range, and the sound of a dolorous bell fills the air around it for a moment. The target must succeed on a Wisdom saving throw or take [[/r 1d8]] necrotic damage. If the target is missing any of its hit points, it instead takes [[/r 1d12]] necrotic damage.</p><div></div><p>The spell's damage increases by one die when you reach 5th level ([[/r 2d8]] or [[/r 2d12]]), 11th level ([[/r 3d8]] or [[/r 3d12]]), and 17th level ([[/r 4d8]] or [[/r 4d12]]).</p></div>",
+        "section": "spell-items",
+        "spellLevel": "Cantrip",
+        "spellRange": "60 ft",
+        "spellSchool": "Necromancy"
+      },
+      {
+        "name": "Strength through suffering (of others)",
+        "description": "<p>As long as you have this book on you and are capable of casting 4th level spells, you can cast the spells written inside as if you had them prepared. This item does not require attuning.</p><p>When casting a spell from this book every creature within 30ft that can see (or hear if the spell has a verbal component) you takes 1d4 psychic damage per level of the spell cast (including cantrips). Undead and constructs are not affected by this.</p><p></p><p><strong>It contains the following spells:</strong></p><table><tbody><tr><td><p>Cantrip</p></td><td><p>Toll the Dead</p></td></tr><tr><td><p>1st</p></td><td><p>Armor of Agathys</p></td></tr><tr><td><p>2nd</p></td><td><p>Life from Death</p></td></tr><tr><td><p>3rd</p></td><td><p>Vampiric Touch</p></td></tr><tr><td><p>4th</p></td><td><p>Shadow of Moil</p></td></tr><tr><td><p>5th</p></td><td><p>Magic Mirror</p></td></tr></tbody></table>",
+        "section": "physical-items",
+        "quantity": 1,
+        "combinedLabel": "Spellbook",
+        "attunementLabel": ""
+      },
+      {
+        "name": "Toll the Dead",
+        "description": "<div><p>You point at one creature you can see within range, and the sound of a dolorous bell fills the air around it for a moment. The target must succeed on a Wisdom saving throw or take [[/r 1d8]] necrotic damage. If the target is missing any of its hit points, it instead takes [[/r 1d12]] necrotic damage.</p><div></div><p>The spell's damage increases by one die when you reach 5th level ([[/r 2d8]] or [[/r 2d12]]), 11th level ([[/r 3d8]] or [[/r 3d12]]), and 17th level ([[/r 4d8]] or [[/r 4d12]]).</p></div>",
+        "section": "spell-items",
+        "spellLevel": "Cantrip",
+        "spellRange": "60 ft",
+        "spellSchool": "Necromancy"
+      },
+      {
+        "name": "Armor of Agathys",
+        "description": "<div><p>A protective magical force surrounds you, manifesting as a spectral frost that covers you and your gear. You gain 5 temporary hit points. For the duration of the spell, if a creature hits you with a melee attack while you have temporary points, the creature takes 5 cold damage.</p></div><div><div><p></p><p><span><strong>At Higher Level</strong></span></p><p>When you cast this spell using a spell slot of 2nd level or higher, both the temporary hit points and the cold damage increase by 5 for each slot level above 1st.</p></div></div>",
+        "section": "spell-items",
+        "spellLevel": "1st Level",
+        "spellRange": "Self",
+        "spellSchool": "Abjuration"
+      },
+      {
+        "name": "Vampiric Touch",
+        "description": "<div><p>The touch of your shadow-wreathed hand can siphon life force from others to heal your wounds. Make a melee spell attack against a creature within your reach. On a hit, the target takes [[/r 3d6]] necrotic damage, and you regain hit points equal to half the amount of necrotic damage dealt. Until the spell ends, you can make the attack again on each of your turns as an action.</p><div></div></div><div><div><span> <span>At Higher Levels.</span></span> <p>When you cast this spell using a spell slot of 4th level or higher, the damage increases by [[/r 1d6]] for each slot level above 3rd.</p><div></div></div><div></div></div>",
+        "section": "spell-items",
+        "spellLevel": "3rd Level",
+        "spellRange": "Touch",
+        "spellSchool": "Necromancy"
+      },
+      {
+        "name": "Shadow of Moil",
+        "description": "<div><p>Flame-like shadows wreathe your body until the spell ends, causing you to become heavily obscured to others. The shadows turn dim light within 10 feet of you into darkness, and bright light in the same area to dim light.</p><div><p>Until the spell ends, you have resistance to radiant damage. In addition, whenever a creature within 10 feet of you hits you with an attack, the shadows lash out at that creature, dealing it [[/damage 2d8 necrotic]] damage.</p></div></div>",
+        "section": "spell-items",
+        "spellLevel": "4th Level",
+        "spellRange": "Self",
+        "spellSchool": "Necromancy"
+      },
+      {
+        "name": "Magic Mirror",
+        "description": "<div><p>A momentary bubble of iridescent energy shimmers in the air between you and the caster of the triggering spell. The spell is redirected to a creature of your choice that you can see within 60 feet. If the spell is 5th level or lower, you are no longer a target of the spell and the chosen creature is instead. If the spell is 6th level or higher, make an ability check using your spellcasting ability. The DC equals 10 + the spell's level. On a successful check, you are no longer a target of the spell and the chosen creature is instead. On a failed check, you remain the target of the triggering spell.</p><div></div></div>",
+        "section": "spell-items",
+        "spellLevel": "5th Level",
+        "spellRange": "Self",
+        "spellSchool": "Abjuration"
+      },
+      {
+        "name": "Life from Death",
+        "description": "<div><p>You invoke both death and life upon a 10-foot-radius sphere centred on a point within range. Each creature of your choice in that area must make a Constitution saving throw, taking [[/r 2d6]] necrotic damage on a failed save, or half as much damage on a successful one. Nonmagical vegetation in that area withers.</p><p>Then up to one creature of your choice in that area can regain a number of hit points equal to half of the total number of hit points that were lost due to this spell, rounded down.</p></div><div><div><p><span><strong>At Higher Levels</strong></span></p><p>When you cast this spell using a spell slot of 3rd level or higher, the damage increases by [[/r 1d6]] for each slot above the 2nd.</p></div></div>",
+        "section": "spell-items",
+        "spellLevel": "2nd Level",
+        "spellRange": "60 ft",
+        "spellSchool": "Necromancy"
+      },
+      {
+        "name": "Unholy Grimoire of Blood",
+        "description": "<p>While you are attuned to this grimoire, you can cast each spell written inside as if you knew them or had them prepared. These spells can only be contained inside an Unholy Grimoire.</p><p><strong>Spells.</strong> Without mastery of dark arcane arts, you're able to decipher the following spells: <strong>Bloody Rites </strong>(cantrip), and <strong>Blood Barrier</strong> (4th)</p><p><strong>Secrets.</strong> Completing the rituals to unlock the grimoire's secrets reveals the following spell: <strong>Traitorous Blood</strong> (5th)</p>",
+        "section": "physical-items",
+        "quantity": 1,
+        "combinedLabel": "Spellbook",
+        "attunementLabel": ""
+      },
+      {
+        "name": "Bloody Rites",
+        "description": "<p>You rip out the life force of a living, willing creature other than yourself within range, dealing 1d6 necrotic damage to form a spike of crystallised blood.<br>With a ranged spell attack you then hurl this spike at a creature within range, dealing 4d6 piercing damage on a hit.</p><p></p><p>This spell creates more than one spike when you reach higher levels: two spikes at 5th level, three spikes at 11th level, and four spikes at 17th level. You can direct the spikes at the same target or at different ones. Make a separate attack roll for each spike.<br>The life force required for each created spike can come from the same creature each time or from different ones.</p>",
+        "section": "spell-items",
+        "spellLevel": "Cantrip",
+        "spellRange": "60 ft",
+        "spellSchool": "Necromancy"
+      },
+      {
+        "name": "Blood Barrier",
+        "description": "<p>Choose up to three living, willing creatures other than yourself within range. Each of them takes necrotic damage equal to twice your caster level as you drain the blood from their bodies, using it to surround yourself with a barrier. <br>This barrier grants you an amount of temporary hit points equal to twice your caster level for each chosen creature.</p>",
+        "section": "spell-items",
+        "spellLevel": "4th Level",
+        "spellRange": "30 ft",
+        "spellSchool": "Abjuration"
+      },
+      {
+        "name": "Traitorous Blood",
+        "description": "<p>You target a creature within range whose blood betrays them under your dark influence. The creature must have a Challenge Rating less than twice the level of the spell slot used to cast this spell. If the creature fails a Constitution saving throw, you seize control of its blood, twisting and manipulating it to puppet the creature’s body for the duration of the spell.</p><p>On the creature's turn, you dictate its movement and physical actions, forcing it to move and strike as you command. However, the creature's mind remains its own, fully aware of the unnatural control over its body. Because of this, you cannot compel the creature to cast spells, perform tasks that require concentration or significant mental effort, or take actions that require its willingness.</p>",
+        "section": "spell-items",
+        "spellLevel": "5th Level",
+        "spellRange": "60 ft",
+        "spellSchool": "Enchantment"
+      },
+      {
+        "name": "Unholy Grimoire of Profanation",
+        "description": "<p>While you are attuned to this grimoire, you can cast each spell written inside as if you knew them or had them prepared. These spells can only be contained inside an Unholy Grimoire.</p><p><strong>Spells.</strong> Without mastery of dark arcane arts, you're able to decipher the following spells: <strong>Gravecraft </strong>(cantrip), <strong>Life Leech</strong> (2nd), and <strong>Speak with Dead</strong> (3rd).</p><p><strong>Secrets.</strong> Completing the rituals to unlock the grimoire's secrets reveals the following spells: <strong>Withering Touch</strong> (4th), and <strong>Soul Cage</strong> (6th).</p>",
+        "section": "physical-items",
+        "quantity": 1,
+        "combinedLabel": "Spellbook",
+        "attunementLabel": ""
+      },
+      {
+        "name": "Gravecraft",
+        "description": "<div><p>You channel the forces of undeath to create one of the following effects within range:</p><ul><li><p>You cause a corpse of a creature you can see to randomly twitch or move. For example, you can cause the arm or tail of a corpse to wave. This movement is not enough to perform simple tasks, interact with an objects, or harm a creature in any manner.</p></li><li><p>You cause one medium or smaller corpse or piece of a corpse to briefly reanimate and move 5ft. in a direction of your choice. After the end of this movement it returns, to its inanimate state.</p></li><li><p>You mend a single dismemberment such as a hand or arm, on a corpse or skeleton that you can see in range. For example, you can reattach an arm or mend a broken bone of a corpse provided the necessary body parts are available.</p></li><li><p>You cause the eyes of a corpse to give off dim light in a 5ft. radius for up to 1 minute.</p></li><li><p>You cause any remnant flesh on a skeleton to rapidly decompose over 1 minute. This process only leaves hardened or bleached bone.</p></li><li><p>You cause spectral whispers or voices to originate from a corpse. You have no control of these whispers as they are in language that the creature spoke in life and the word or phrase spoken is a random phrase about something in that creature's life. It may be any name of a person, thing, place, or moment from any point in that creature's life.</p></li></ul><p>If you cast this spell multiple times, you can have up to three of its non-instantaneous effects active at a time, and you can dismiss such an effect as an action.</p></div>",
+        "section": "spell-items",
+        "spellLevel": "Cantrip",
+        "spellRange": "30 ft",
+        "spellSchool": "Necromancy"
+      },
+      {
+        "name": "Life Leech",
+        "description": "<div><p>You create a pair of dark tendrils that lash out from you at targets within range.</p><p>Make a ranged spell attack for each tendril. On a hit, the target takes [[/damage 1d12 type=necrotic]] damage and you, or one creature you choose within range, regains hit points equal to half the damage dealt.</p><p><span><strong>At Higher Levels. </strong></span>When you cast this spell using a spell slot of 3rd level or higher, you create one additional tendril for each slot level above 2nd.</p></div>",
+        "section": "spell-items",
+        "spellLevel": "2nd Level",
+        "spellRange": "30 ft",
+        "spellSchool": "Necromancy"
+      },
+      {
+        "name": "Speak with Dead",
+        "description": "<div><p>You grant the semblance of life and intelligence to a corpse of your choice within range, allowing it to answer the questions you pose. The corpse must still have a mouth and can't be undead. The spell fails if the corpse was the target of this spell within the last 10 days.</p><p>Until the spell ends, you can ask the corpse up to five questions. The corpse knows only what it knew in life, including the languages it knew. Answers are usually brief, cryptic, or repetitive, and the corpse is under no compulsion to offer a truthful answer if you are hostile to it or it recognizes you as an enemy. This spell doesn't return the creature's soul to its body, only its animating spirit. Thus, the corpse can't learn new information, doesn't comprehend anything that has happened since it died, and can't speculate about future events.</p></div>",
+        "section": "spell-items",
+        "spellLevel": "3rd Level",
+        "spellRange": "10 ft",
+        "spellSchool": "Necromancy"
+      },
+      {
+        "name": "Withering Touch",
+        "description": "<div><p>Your hands become black claws bathed in necrotic energy. Make a melee spell attack against a creature you can reach. On a hit, the target takes [[/damage 4d8 type=necrotic]] damage and becomes cursed for the duration of the spell. While cursed in this way, the target suffers one of the following effects of your choice, or all effects if the attack is a critical hit:</p><ul><li><p><span><strong>Curse of Impotence. </strong></span>The number of attacks the target can make using the Multiattack action is reduced by 1.</p></li><li><p><span><strong>Curse of Lethargy.</strong> The target falls &amp;Reference[prone] upon becoming affected by this spell and at the start of each of its turns in combat.</span></p></li><li><p><span><strong>Curse of Fragility.</strong> </span>Choose one damage type: bludgeoning, piercing, or slashing. The target's immunity or resistance to that damage type is downgraded by one step. If the target doesn't have immunity or resistance to the chosen damage type, it is vulnerable to that damage type instead.</p></li></ul><p>A remove curse spell or similar magic ends all effects inflicted by this spell.</p><p><strong>At higher levels.</strong> When you cast this spell using a spell slot of 5th level or higher, the damage increases by 1d8 for each slot level above 4th. Additionally, if you cast this spell using a spell slot of 7th level or higher, the spell does not require concentration.</p></div>",
+        "section": "spell-items",
+        "spellLevel": "4th Level",
+        "spellRange": "Touch",
+        "spellSchool": "Necromancy"
+      },
+      {
+        "name": "Soul Cage",
+        "description": "<div><p>This spell snatches the soul of a humanoid as it dies and traps it inside the tiny cage you use for the material component. A stolen soul remains inside the cage until the spell ends or until you destroy the cage, which ends the spell. While you have a soul inside the cage, you can exploit it in any of the ways described below. You can use a trapped soul up to six times. Once you exploit a soul for the sixth time, it is released, and the spell ends. While a soul is trapped, the dead humanoid it came from can't be revived.</p><p><span><strong>Steal Life.</strong> </span>You can use a bonus action to drain vigor from the soul and regain [[/r 2d8]] hit points for each exploit you choose to expend this way.</p><p><span><strong>Query Soul.</strong> </span>You ask the soul a question (no action required) and receive a brief telepathic answer, which you can understand regardless of the language used. The soul knows only what it knew in life, but it must answer you truthfully and to the best of its ability. The answer is no more than a sentence or two and might be cryptic.</p><p><span><strong>Borrow Experience.</strong> When you make an attack roll, damage roll, ability check, or saving throw, </span>you can expend one or more exploits to add a +1 bonus to the roll for each one.</p><p><span><strong>Eyes of the Dead.</strong> </span>You can use an action to name a place the humanoid saw in life, which creates an invisible sensor somewhere in that place if it is on the plane of existence you're currently on. The sensor remains for as long as you concentrate, up to 10 minutes (as if you were concentrating on a spell). You receive visual and auditory information from the sensor as if you were in its space using your senses.</p><p>A creature that can see the sensor (such as one using See Invisibility or &amp;Reference[rule=truesight]) sees a translucent image of the tormented humanoid whose soul you caged.</p></div>",
+        "section": "spell-items",
+        "spellLevel": "6th Level",
+        "spellRange": "60 ft",
+        "spellSchool": "Necromancy"
+      },
+      {
+        "name": "Gold locket with a painted portrait inside",
+        "description": "<p>A Picture of Fearghas looking at his spellbook and wondering where he put that cantrip</p><p></p>",
+        "section": "physical-items",
+        "quantity": 1,
+        "combinedLabel": "Art Object",
+        "attunementLabel": ""
+      },
+      {
+        "name": "Golden Chalice",
+        "description": "",
+        "section": "physical-items",
+        "quantity": 1,
+        "combinedLabel": "Art Object",
+        "attunementLabel": ""
+      },
+      {
+        "name": "Spell Scroll: Cloud of Daggers",
+        "description": "<p>You fill the air with spinning daggers in a cube 5 feet on each side, centered on a point you choose within range. A creature takes [[/damage 4d4 type=slashing]] damage when it enters the spell's area for the first time on a turn or starts its turn there.</p><p><strong>At Higher Levels. </strong>When you cast this spell using a spell slot of 3rd level or higher, the damage increases by [[/damage 2d4]] for each slot level above 2nd.</p>",
+        "section": "physical-items",
+        "quantity": 1,
+        "combinedLabel": "Scroll",
+        "attunementLabel": ""
+      },
+      {
+        "name": "Unholy Grimoire of Arcane Apostacy",
+        "description": "<p>While you are attuned to this grimoire, you can cast each spell written inside as if you knew them or had them prepared. These spells can only be contained inside an Unholy Grimoire.</p><p><strong>Spells.</strong> Without mastery of dark arcane arts, you're able to decipher the following spells: <strong>Defile Healing </strong>(2nd), and <strong>Arcane Circle</strong> (4th)</p><p><strong>Secrets.</strong> Completing the rituals to unlock the grimoire's secrets reveals the following spells: <strong>Arcane Prism</strong> (2nd), <strong>Subjugate Spell</strong> (4th) and <strong>Absorption Field</strong> (6th)</p>",
+        "section": "physical-items",
+        "quantity": 1,
+        "combinedLabel": "Spellbook",
+        "attunementLabel": "Requires Attunement"
+      },
+      {
+        "name": "Arcane Prism",
+        "description": "<p>You conjure a prism of crystalline arcane energy in an unoccupied space you can see within range. The prism is a tiny object, has 15 AC, and is immune to all damage. It has 2 charges and disappears after losing its final charge.</p><p>Whenever the prism is hit by a spell attack, it loses 1 charge and refracts the attack's energies. Each creature within 10 feet of the prism with an AC lower than or equal to the rolled attack is considered hit by the attack and suffers its full effects.</p><p>As a bonus action on each of your turns, you can move the prism up to 30 feet to an unoccupied space you can see.</p><p><em><strong>At Higher Levels.</strong></em> When you cast this spell using a spell slot of 3rd level or higher, the prism's charges increase by 1 for each level above 2nd.</p>",
+        "section": "spell-items",
+        "spellLevel": "2nd Level",
+        "spellRange": "90 ft",
+        "spellSchool": "Conjuration"
+      },
+      {
+        "name": "Defile Healing",
+        "description": "<p>You attempt to reverse the positive energies of a spell so that it deals damage instead of healing. If the triggering spell is being cast using a spell slot of 1st level, the spell is defiled. Each creature that was targeted by the defiled spell isn't healed and takes necrotic damage equal to the healing it would have received, or half as much damage with a successful Constitution saving throw.</p><p>Any other effects the spell might have are unaffected.</p><p><em><strong>At Higher Levels.</strong></em> When you cast this spell using a spell slot of 3rd level or higher, it can defile a triggering spell being cast using a spell slot of a lower level than the spell slot you used.</p>",
+        "section": "spell-items",
+        "spellLevel": "2nd Level",
+        "spellRange": "60 ft",
+        "spellSchool": "Necromancy"
+      },
+      {
+        "name": "Arcane Circle",
+        "description": "<p>You draw a 10-foot-diameter circle on the ground around you, inscribing it with symbols and runes to amplify the power of your spells. As long as you're within the area, you gain the following effects:</p><ul><li><p>You can take one additional reaction per round.</p></li><li><p>Spells you cast ignore resistance to damage. In addition, when you roll damage for a spell you cast that deals damage, you can treat any 1 or 2 on a damage die as a 3.</p></li><li><p>You suffer a -5 penalty to AC, Dexterity saving throws, and Constitution saving throws made to maintain concentration.</p></li><li><p>When you cast a spell you cannot willingly exit the circle until the start of your next turn.</p></li></ul><p>As a bonus action on each of your turns while you're within 30 feet of the circle, you can teleport the circle to you, centering it on your location.</p>",
+        "section": "spell-items",
+        "spellLevel": "4th Level",
+        "spellRange": "Touch",
+        "spellSchool": "Conjuration"
+      },
+      {
+        "name": "Subjugate Spell",
+        "description": "<p>You attempt to bend the triggering spell to your will and redirect it to serve you. Make an ability check using your spellcasting ability against a DC of 13 + the spell's level. On a successful check, you choose the target or targets for the spell.</p><p>Your targets must be valid targets for the spell based on the caster's ability and the range of the spell, but using your distinctions for friendly and hostile creatures.</p>",
+        "section": "spell-items",
+        "spellLevel": "4th Level",
+        "spellRange": "60 ft",
+        "spellSchool": "Transmutation"
+      },
+      {
+        "name": "Absorption Field",
+        "description": "<p>You cloak yourself in a protective field that absorbs incoming magic and rejuvenates your spell slots. When you are the target of a spell (including spells that affect multiple targets, but not area spells such as fireball), make an ability check using your spellcasting ability. The DC equals 13 + the spell's level. On a successful check, the spell has no effect on you and is absorbed by the field. You regain a spell slot of the same level or lower as the spell that was cast against you.</p><p>Additionally, you have advantage on saving throws against spells that the field fails to absorb.</p>",
+        "section": "spell-items",
+        "spellLevel": "6th Level",
+        "spellRange": "Self",
+        "spellSchool": "Abjuration"
       }
     ],
     "Kyrin Niteshade": [
@@ -4691,7 +4659,7 @@
         "name": "Arrow",
         "description": "<p>Standard ammunition used for bows of all varieties. These mundane arrows are made of smooth wooden shafts with goose feather fletching and hammer metal bodkins.</p>",
         "section": "physical-items",
-        "quantity": 155,
+        "quantity": 154,
         "combinedLabel": "Arrow (arrow)",
         "attunementLabel": ""
       },
@@ -5167,7 +5135,7 @@
         "name": "Elixir of Clear Mind",
         "description": "<p>This cerulean blue liquid sits calmly in its flask even when jostled or shaken. When you drink this potion, you have advantage on Wisdom checks and saving throws for 1 hour. For the duration, if you fail a saving throw against an enchantment or illusion spell or similar magic effect, you can choose to succeed instead. If you do, you draw upon all the potion's remaining power, and its effects end immediately thereafter.</p>",
         "section": "physical-items",
-        "quantity": 3,
+        "quantity": 1,
         "combinedLabel": "Potion",
         "attunementLabel": ""
       },
@@ -5281,6 +5249,46 @@
         "section": "physical-items",
         "quantity": 1,
         "combinedLabel": "Wand",
+        "attunementLabel": ""
+      },
+      {
+        "name": "Silver Thurible",
+        "description": "",
+        "section": "physical-items",
+        "quantity": 1,
+        "combinedLabel": "Art Object",
+        "attunementLabel": ""
+      },
+      {
+        "name": "Treasure (250gp)",
+        "description": "",
+        "section": "physical-items",
+        "quantity": 1,
+        "combinedLabel": "Treasure",
+        "attunementLabel": ""
+      },
+      {
+        "name": "Treasure (3000gp)",
+        "description": "",
+        "section": "physical-items",
+        "quantity": 1,
+        "combinedLabel": "Treasure",
+        "attunementLabel": ""
+      },
+      {
+        "name": "Ring of Mind Shielding",
+        "description": "<p>While wearing this ring, you are immune to magic that allows other creatures to read your thoughts, determine whether you are lying, know your alignment, or know your creature type. Creatures can telepathically communicate with you only if you allow it.</p><p>You can use an action to cause the ring to become &amp;Reference[condition=invisible] until you use another action to make it visible, until you remove the ring, or until you die.</p><p>If you die while wearing the ring, your soul enters it, unless it already houses a soul. You can remain in the ring or depart for the afterlife. As long as your soul is in the ring, you can telepathically communicate with any creature wearing it. A wearer can't prevent this telepathic communication.</p>",
+        "section": "physical-items",
+        "quantity": 1,
+        "combinedLabel": "Trinket",
+        "attunementLabel": "Requires Attunement"
+      },
+      {
+        "name": "Spyglass of Summoning",
+        "description": "<p>Arcane runes encircle this polished brass spyglass. You can view creatures and objects as far as 600 feet away through the spyglass, and they are magnified to twice their size. You can magnify your view of a creature or object to up to four times its size by twisting the end of the spyglass.</p><p><em><strong>Summoning. </strong></em>While looking through the spyglass, you can use an action to teleport one Large or smaller creature or object you can see through the spyglass to an unoccupied space within 10 feet of you. An unwilling creature that succeeds on a [[/save ability=wisdom dc=13]] saving throw is unaffected. If the object is being worn or carried, the creature wearing or carrying it must succeed on the saving throw to prevent the object from being teleported. Once used, this property of the spyglass can't be used again until you finish a short or long rest.</p>",
+        "section": "physical-items",
+        "quantity": 1,
+        "combinedLabel": "Trinket",
         "attunementLabel": ""
       }
     ],
@@ -5907,7 +5915,7 @@
         "name": "Flask of Holy Water",
         "description": "<p>As an action, you can splash the contents of this flask onto a creature within 5 feet of you or throw it up to 20 feet, shattering it on impact. In either case, make a ranged Attack against a target creature, treating the holy water as an Improvised Weapon. If the target is a fiend or Undead, it takes 2d6 radiant damage. A Cleric or Paladin may create holy water by performing a Special ritual. The ritual takes 1 hour to perform, uses 25 gp worth of powdered silver, and requires the caster to expend a 1st-level spell slot.</p>",
         "section": "physical-items",
-        "quantity": 10,
+        "quantity": 12,
         "combinedLabel": "Potion",
         "attunementLabel": ""
       },
@@ -5925,38 +5933,6 @@
         "section": "physical-items",
         "quantity": 1,
         "combinedLabel": "Clothing",
-        "attunementLabel": ""
-      },
-      {
-        "name": "Angel's Grace (Dormant)",
-        "description": "<p><em>requires attunement by a spellcaster</em></p><p>This elegant robe is made from light, exquisite cloth of white and silver, adorned with golden inlays. This garment never gets dirty.</p><p><strong>Dormant.</strong> While Angel's Grace is in a dormant state, it has the following properties:</p><ul><li><p>You are under the effect of the <strong>Shield of Faith</strong> spell.</p></li><li><p>This robe has 4 charges and regains 1d4 expended charges daily at dawn.</p></li><li><p>You can expend 1 or more of the robe's charges to cast one of the following spells from it, using your spell save DC and spell attack bonus: <strong>Sanctuary</strong> (1 charge, self only), <strong>Detect Evil and Good</strong> (1 charge)</p></li></ul><p><strong>Awakened.</strong> When Angel's Grace reaches an awakened state, it gains the following properties:</p><ul><li><p>The robe has 8 charges and regains 1d6 + 2 expended charges daily at dawn.</p></li><li><p>You can cast the <strong>Blade Ward</strong> cantrip from it with a casting time of 1 bonus action instead of 1 action and without expending any charges.</p></li><li><p>You can also spend charges to cast the following spells from the robe: <strong>Beacon of the Martyr</strong> (3 charges, +1 for each level above 3rd), <strong>Aura of Purity</strong> (4 charges)</p></li></ul><p><strong>Exalted.</strong> When Angel's Grace reaches an exalted state, it gains the following properties:</p><ul><li><p>While you have at least half of your maximum hit points remaining, you can use your action and speak the robe's command word to sprout a pair of white feathered wings. While you have these wings, you have a flying speed of 60 feet. This effects lasts for as long as you remain above this hit point threshold, or until you choose to end the effect (no action required).</p></li><li><p>The robe has 12 charges and regains 1d8 + 4 expended charges daily at dawn.</p></li><li><p>You can also spend charges to cast the following spells from the robe: <strong>Dispel Evil and Good</strong> (5 charges), <strong>Crown of Radiance</strong> (6 charges)</p></li></ul><p><strong>Essence-Bound.</strong> When a creature attunes to this item, the item becomes bound to that creature's essence and remains bound this way until a different creature attunes to it. Whenever a creature attunes to this item for the first time, the item returns to its dormant state.</p><p><strong>Vestige of Virtue.</strong> This item is imbued with the following virtues. While the creature essence-bound to this item consistently acts in accordance with these virtues, the power of the item slowly grows, reaching first the Awakened state and then the Exalted state (the exact moment the item reaches the next state is at the GM's discretion).</p><ul><li><p><em><strong>Prudence.</strong></em> Tend to your own needs and well-being as diligently as you tend to others', for you cannot pour from an empty vessel.</p></li><li><p><em><strong>Discernment.</strong></em> Always temper your heart with clarity and wisdom, for even virtues become vice and tragedy when taken to excess.</p></li><li><p><em><strong>Conviction.</strong></em> Walk your path without hesitation and be the first to act when others falter, for evil thrives in the shadows of indecision.</p></li></ul>",
-        "section": "physical-items",
-        "quantity": 1,
-        "combinedLabel": "Clothing",
-        "attunementLabel": "Requires Attunement"
-      },
-      {
-        "name": "Detect Evil and Good",
-        "description": "<p>For the duration, you know if there is an aberration, celestial, elemental, fey, fiend, or undead within 30 feet of you, as well as where the creature is located. Similarly, you know if there is a place or object within 30 feet of you that has been magically consecrated or desecrated.</p><p>The spell can penetrate most barriers, but it is blocked by 1 foot of stone, 1 inch of common metal, a thin sheet of lead, or 3 feet of wood or dirt.</p>",
-        "section": "spell-items",
-        "spellLevel": "1st Level",
-        "spellRange": "Self",
-        "spellSchool": "Divination"
-      },
-      {
-        "name": "Sanctuary",
-        "description": "<p>You ward a creature within range against attack. Until the spell ends, any creature who targets the warded creature with an attack or a harmful spell must first make a Wisdom saving throw. On a failed save, the creature must choose a new target or lose the attack or spell. This spell doesn't protect the warded creature from area effects, such as the explosion of a Fireball.</p><p>If the warded creature makes an attack, casts a spell that affects an enemy, or deals damage to another creature, this spell ends.</p>",
-        "section": "spell-items",
-        "spellLevel": "1st Level",
-        "spellRange": "30 ft",
-        "spellSchool": "Abjuration"
-      },
-      {
-        "name": "Oathgold Coin",
-        "description": "<p>This brilliant, lusterous metal is sacred to the dwarves, said to be the very blood of Smednir, god of gold and gems, who was the first to forge enchanted relics. When he sought to share his love of gold and jewels with the dwarves, Torag forbade it, warning that such gifts would only sow greed and strife among them. But Smednir pleaded, swearing a solemn oath that he alone would bear the burden of greed, so that his kin might cherish wealth without being consumed by it.</p><p>Yet as the dwarves flourished, so too did their desires, and Smednir’s burden grew heavier with each passing age. In time, the weight proved too great, and inevitably, he faltered.  For this failure, Torag beheaded him, and the blood that flowed from his severed neck sunk deep into the earth, forming veins of Oathgold.</p><p>To the dwarves, Smednir’s fall is no tale of treachery, but of tragedy. His story serves as both a warning against making promises one cannot keep and a solemn reminder that no oath, once sworn, is without consequence. Even the smallest broken word carries weight, and so it is said that consuming an Oathgold Coin may absolve a minor lapse, easing the burden of guilt in the eyes of the gods.</p><p><strong>Oathbound Exchange</strong></p><p>A creature holding an Oathgold Coin can consume it as a bonus action to immediately end attunement to one magical item and immediately attune to another magical item in its possession. This new attunement does not require a short rest.</p>",
-        "section": "physical-items",
-        "quantity": 1,
-        "combinedLabel": "Trinket",
         "attunementLabel": ""
       },
       {
@@ -6259,9 +6235,81 @@
         "name": "Ethereal Candle",
         "description": "<p>While lit, this candle and the light it procuces are &amp;Reference[condition=invisible]. The candle can burn for 4 hours. Once the candle fully burns down, the item is destroyed.</p>",
         "section": "physical-items",
-        "quantity": 1,
+        "quantity": 4,
         "combinedLabel": "Trinket",
         "attunementLabel": ""
+      },
+      {
+        "name": "Springseed",
+        "description": "<p>A Springseed is a potent and rare token of vitality hailing from the celestial Gardens of Tranquility in the plane of Nirvana. These seeds, which shed a soft and dim blue-green light, are produced infrequently by the ancient trees that flourish in that serene realm.</p><p>The celestials of Nirvana occasionally present a Springseed to mortals who have distinguished themselves through exceptionally selfless and good actions. Beyond such gifts, these seeds are highly sought after for the beautiful and unique trees they produce. While typically cultivated on good-aligned planes like the Seven Heavens and Elysium, their uniqueness is valued in many other places too. For example, a small, uncorrupted grove flourishes even in the city of Dis, on the 2nd layer of Hell, standing as a display of the reach of Dispater's influence. Consequently, their rarity and prized nature make them valuable in trade between many planes.</p><p><strong>Consumption.</strong> You can consume a Springseed over the course of 1 minute to gain the benefits of the Heroes' Feast spell for 24 hours (You are cured of all diseases and poison, become immune to poison and being frightened, and make all Wisdom saving throws with advantage. Your hit point maximum also increases by 2d10, and you gain the same number of hit points).</p><p><strong>Cultivation.</strong> If 100 Springseeds are planted in fertile ground and watered daily for 10 days, they sprout into a single magnificent and beautiful tree. If carefully tended, this tree will bear fruit all year round, producing enough nourishing food to sustain up to ten adults. This tree is deeply connected to the positive energies of its origin and can awaken when those who've been caring for it are in grave danger, transforming into a CR 9 treant (MM p289) to defend them. If not destroyed by other means, this tree will live for approximately 500 years.</p>",
+        "section": "physical-items",
+        "quantity": 1,
+        "combinedLabel": "Exotic Currency",
+        "attunementLabel": ""
+      },
+      {
+        "name": "Detect Evil and Good",
+        "description": "<p>For the duration, you know if there is an aberration, celestial, elemental, fey, fiend, or undead within 30 feet of you, as well as where the creature is located. Similarly, you know if there is a place or object within 30 feet of you that has been magically consecrated or desecrated.</p><p>The spell can penetrate most barriers, but it is blocked by 1 foot of stone, 1 inch of common metal, a thin sheet of lead, or 3 feet of wood or dirt.</p>",
+        "section": "spell-items",
+        "spellLevel": "1st Level",
+        "spellRange": "Self",
+        "spellSchool": "Divination"
+      },
+      {
+        "name": "Angel's Grace (Awakened)",
+        "description": "<p><em>requires attunement by a spellcaster</em></p><p>This elegant robe is made from light, exquisite cloth of white and silver, adorned with golden inlays. This garment never gets dirty.</p><p><strong>Dormant.</strong> While Angel's Grace is in a dormant state, it has the following properties:</p><ul><li><p>You are under the effect of the <strong>Shield of Faith</strong> spell.</p></li><li><p>This robe has 4 charges and regains 1d4 expended charges daily at dawn.</p></li><li><p>You can expend 1 or more of the robe's charges to cast one of the following spells from it, using your spell save DC and spell attack bonus: <strong>Sanctuary</strong> (1 charge, self only), <strong>Detect Evil and Good</strong> (1 charge)</p></li></ul><p><strong>Awakened.</strong> When Angel's Grace reaches an awakened state, it gains the following properties:</p><ul><li><p>The robe has 8 charges and regains 1d6 + 2 expended charges daily at dawn.</p></li><li><p>You can cast the <strong>Blade Ward</strong> cantrip from it with a casting time of 1 bonus action instead of 1 action and without expending any charges.</p></li><li><p>You can also spend charges to cast the following spells from the robe: <strong>Beacon of the Martyr</strong> (3 charges, +1 for each level above 3rd), <strong>Aura of Purity</strong> (4 charges)</p></li></ul><p><strong>Exalted.</strong> When Angel's Grace reaches an exalted state, it gains the following properties:</p><ul><li><p>While you have at least half of your maximum hit points remaining, you can use your action and speak the robe's command word to sprout a pair of white feathered wings. While you have these wings, you have a flying speed of 60 feet. This effects lasts for as long as you remain above this hit point threshold, or until you choose to end the effect (no action required).</p></li><li><p>The robe has 12 charges and regains 1d8 + 4 expended charges daily at dawn.</p></li><li><p>You can also spend charges to cast the following spells from the robe: <strong>Dispel Evil and Good</strong> (5 charges), <strong>Crown of Radiance</strong> (6 charges)</p></li></ul><p><strong>Essence-Bound.</strong> When a creature attunes to this item, the item becomes bound to that creature's essence and remains bound this way until a different creature attunes to it. Whenever a creature attunes to this item for the first time, the item returns to its dormant state.</p><p><strong>Vestige of Virtue.</strong> This item is imbued with the following virtues. While the creature essence-bound to this item consistently acts in accordance with these virtues, the power of the item slowly grows, reaching first the Awakened state and then the Exalted state (the exact moment the item reaches the next state is at the GM's discretion).</p><ul><li><p><em><strong>Prudence.</strong></em> Tend to your own needs and well-being as diligently as you tend to others', for you cannot pour from an empty vessel.</p></li><li><p><em><strong>Discernment.</strong></em> Always temper your heart with clarity and wisdom, for even virtues become vice and tragedy when taken to excess.</p></li><li><p><em><strong>Conviction.</strong></em> Walk your path without hesitation and be the first to act when others falter, for evil thrives in the shadows of indecision.</p></li></ul>",
+        "section": "physical-items",
+        "quantity": 1,
+        "combinedLabel": "Clothing",
+        "attunementLabel": "Requires Attunement"
+      },
+      {
+        "name": "Detect Evil and Good",
+        "description": "<p>For the duration, you know if there is an aberration, celestial, elemental, fey, fiend, or undead within 30 feet of you, as well as where the creature is located. Similarly, you know if there is a place or object within 30 feet of you that has been magically consecrated or desecrated.</p><p>The spell can penetrate most barriers, but it is blocked by 1 foot of stone, 1 inch of common metal, a thin sheet of lead, or 3 feet of wood or dirt.</p>",
+        "section": "spell-items",
+        "spellLevel": "1st Level",
+        "spellRange": "Self",
+        "spellSchool": "Divination"
+      },
+      {
+        "name": "Sanctuary",
+        "description": "<p>You ward a creature within range against attack. Until the spell ends, any creature who targets the warded creature with an attack or a harmful spell must first make a Wisdom saving throw. On a failed save, the creature must choose a new target or lose the attack or spell. This spell doesn't protect the warded creature from area effects, such as the explosion of a Fireball.</p><p>If the warded creature makes an attack, casts a spell that affects an enemy, or deals damage to another creature, this spell ends.</p>",
+        "section": "spell-items",
+        "spellLevel": "1st Level",
+        "spellRange": "30 ft",
+        "spellSchool": "Abjuration"
+      },
+      {
+        "name": "Blade Ward",
+        "description": "<div><p>You extend your hand and trace a sigil of warding in the air. Until the end of your next turn, you have resistance against bludgeoning, piercing, and slashing damage dealt by weapon attacks.</p></div>",
+        "section": "spell-items",
+        "spellLevel": "Cantrip",
+        "spellRange": "Self",
+        "spellSchool": "Abjuration"
+      },
+      {
+        "name": "Beacon of the Martyr",
+        "description": "<p>With a hopeful cry just as you fall &amp;Reference[condition=unconscious], you rouse the spirits of your allies to action. When you cast this spell, each ally within range gains [[/healing 4d8 temp]]{4d8} temporary hit points. Additionally, each ally within range has advantage on attack rolls and their walking speed is increased by 10 feet.</p><p>If you regain hit points, the spell immediately ends.</p><p><strong>At Higher Levels.</strong> If you cast this spell using a spell slot of 4th level of higher, the temporary hit points increase by 2d8 for each spell slot above 3rd.</p>",
+        "section": "spell-items",
+        "spellLevel": "3rd Level",
+        "spellRange": "Self",
+        "spellSchool": "Enchantment"
+      },
+      {
+        "name": "Aura of Purity",
+        "description": "<p>Purifying energy radiates from you in an aura with a 30-foot radius. Until the spell ends, the aura moves with you, centered on you. Each nonhostile creature in the aura (including you) can't become diseased, has resistance to poison damage, and has advantage on saving throws against effects that cause any of the following conditions: &amp;Reference[condition=blinded], &amp;Reference[condition=charmed], &amp;Reference[condition=deafened], &amp;Reference[condition=frightened], &amp;Reference[condition=paralyzed], &amp;Reference[condition=poisoned], and &amp;Reference[condition=stunned].</p>",
+        "section": "spell-items",
+        "spellLevel": "4th Level",
+        "spellRange": "Self",
+        "spellSchool": "Abjuration"
+      },
+      {
+        "name": "Sorrowed Sunlight",
+        "description": "<p><em>requires attunement by a spellcaster</em></p><p>Only in the pale light of the moon does this simple ring reveal its true beauty and golden luster. While wearing the ring, you gain the following benefits:</p><p><em><strong>Dawnflower's Caress.</strong></em> Whenever you use a spell of 1st level or higher to restore hit points, the spell restores an additional 1d10 hit points if at least one of the target creatures has fewer than half hit points.</p><p><em><strong>Cleansing Sunlight.</strong></em> When you target a fiend or an undead with a spell of 1st level or higher that restores hit points, you can instead engulf it in searing light. The target must make a [[/save con dc=attributes.spelldc]] saving throw against your spell save DC. On a failed save, it takes radiant damage equal to the amount of hit points the spell would have restored, or half as much damage on a successful one.</p>",
+        "section": "physical-items",
+        "quantity": 1,
+        "combinedLabel": "Trinket",
+        "attunementLabel": "Requires Attunement"
       }
     ],
     "Plex": [
@@ -8034,9 +8082,17 @@
         "quantity": 1,
         "combinedLabel": "Potion",
         "attunementLabel": ""
+      },
+      {
+        "name": "Spell Scroll: Locate Object",
+        "description": "<p>Describe or name an object that is familiar to you. You sense the direction to the object's location, as long as that object is within 1,000 feet of you. If the object is in motion, you know the direction of its movement.</p><p>The spell can locate a specific object known to you, as long as you have seen it up close—within 30 feet—at least once. Alternatively, the spell can locate the nearest object of a particular kind, such as a certain kind of apparel, jewelry, furniture, tool, or weapon.</p><p>This spell can't locate an object if any thickness of lead, even a thin sheet, blocks a direct path between you and the object.</p>",
+        "section": "physical-items",
+        "quantity": 1,
+        "combinedLabel": "Scroll",
+        "attunementLabel": ""
       }
     ],
-    "Shalkoc Zornax": [
+    "Shalkoc Zornaxc": [
       {
         "name": "Green Dragon Heritage",
         "description": "<p>You can, as a bonus action, consume any kind of poison before making a poison breath to apply it's effects to all targets hit.</p><p>Any target that fails the saving throw against your breath also fails the saving throw against the poison. Any that succeeds the saving throw against your breath, also succeeds the saving throw against the poison.</p><p>For the purposes of dealing damage you treat immunity to poison as resistance instead.</p>",
@@ -8434,14 +8490,6 @@
         "description": "<div><p>Time spent mastering the culinary arts has paid off, increasing your Dexterity score by 1, to a maximum of 20, and granting you proficiency with cook's utensils if you didn't already have it.</p></div><p>If you have ingredients and cook's utensils on hand, you can prepare up to 10 meals during one hour of dedicated work or as part of a short or long rest. Each meal requires one food and, optionally, one spice.</p><p>When preparing a meal, you can choose to enhance either its restorative or preventative properties, granting it one of the following benefits:</p><ul><li><p><strong>Restorative</strong>. The creature regains a number of hit points equal to 1d8 * your proficiency bonus.</p></li><li><p><strong>Preventative</strong>. The creature gains a number of temporary hit points equal to 2d4 * your proficiency bonus.</p></li></ul><p>Meals retain these enhanced properties only while fresh, meaning they must be consumed within 30 minutes of preparation. A creature that consumes a fresh meal gains the selected benefit as well as the effect of any spice used to flavor the meal.</p><p>A creature can benefit from only one enhanced meal per rest period.</p><p>@UUID[JournalEntry.oa3Aqf451KYG3m2U.JournalEntryPage.l2POHOPcejMpEIHt]{Spice List}</p>",
         "section": "feature-items",
         "requirements": "Feat"
-      },
-      {
-        "name": "Potion of Growth",
-        "description": "<div><p><em>The red in the potion's liquid continuously expands from a tiny bead to color the clear liquid around it and then contracts. Shaking the bottle fails to interrupt this process.</em></p><p>When you drink this potion, you gain the \"enlarge\" effect of the enlarge/reduce spell for 1d4 hours (no concentration required):</p></div><p>While enlarged, your size is increased by one category and your weight is multiplied by eight.<br>You have advantage on Strength checks and saving throws and your attacks with weapons deal an additional 1d4 damage.</p>",
-        "section": "physical-items",
-        "quantity": 1,
-        "combinedLabel": "Potion",
-        "attunementLabel": ""
       },
       {
         "name": "Instinctive Greed",
@@ -8908,19 +8956,19 @@
         "spellSchool": "Transmutation"
       },
       {
-        "name": "Potion of Greater Healing",
-        "description": "<div><p><em>The potion's red liquid glimmers when agitated.</em></p><p>You regain 4d4 + 4 hit points when you drink this potion.</p></div>",
+        "name": "Potion of Supreme Healing",
+        "description": "<div><p><em>The potion's red liquid glimmers when agitated.</em></p><p>You regain 10d4 + 20 hit points when you drink this potion. </p></div>",
         "section": "physical-items",
         "quantity": 1,
         "combinedLabel": "Potion",
         "attunementLabel": ""
       },
       {
-        "name": "Potion of Supreme Healing",
-        "description": "<div><p><em>The potion's red liquid glimmers when agitated.</em></p><p>You regain 10d4 + 20 hit points when you drink this potion. </p></div>",
+        "name": "Activated: Tenser's Transformation - 6th",
+        "description": "<p>You endow yourself with endurance and martial prowess fueled by magic. Until the spell ends, you can't cast spells, and you gain the following benefits:</p><ul><li><p>You gain 50 temporary hit points. If any of these remain when the spell ends, they are lost.</p></li><li><p>You have advantage on attack rolls that you make with simple and martial weapons.</p></li><li><p>When you hit a target with a weapon attack, that target takes an extra [[/damage 2d12 type=force]] damage.</p></li><li><p>You have proficiency with all armor, shields, simple weapons, and martial weapons.</p></li><li><p>You have proficiency in Strength and Constitution saving throws.</p></li><li><p>You can attack twice, instead of once, when you take the attack action on your turn. You ignore this benefit if you already have a feature, like Extra Attack, that gives you extra attacks.</p></li></ul><p>Immediately after the spell ends, you must succeed on a [[/save ability=constitution dc=15]] saving throw or suffer one level of &amp;Reference[condition=exhaustion].</p>",
         "section": "physical-items",
         "quantity": 1,
-        "combinedLabel": "Potion",
+        "combinedLabel": "Spell Gem",
         "attunementLabel": ""
       }
     ]
@@ -9727,7 +9775,7 @@
         {
           "name": "Alchemical Ingredients And Brews",
           "section": "journal-pages",
-          "content": "<h2>Ingredients</h2><h4>Common - DC 10</h4><ul><li><p><strong>Fever Grass.</strong> Sunny Grasslands</p></li><li><p><strong>Salt Vine.</strong> Coastal rocks</p></li><li><p><strong>Plant Muscle Fibres.</strong> Plant-type creatures of at least medium size</p></li><li><p><strong>Gills.</strong> Beast-type creatures with swim speed of at least medium size</p></li></ul><h4>Uncommon - DC 15</h4><ul><li><p><strong>Black Nerium.</strong> Cliff Faces</p></li><li><p><strong>Wineberry Bark.</strong> Shaded Riverbanks</p></li><li><p><strong>Core Crystal.</strong> Construct-type creatures</p></li><li><p><strong>Monstrous Blood.</strong> Monstrosity-type creatures of at least large size</p></li></ul><h4>Rare - DC 20</h4><ul><li><p><strong>Shatterstone.</strong> Rocky surfaces high up in the mountains</p></li><li><p><strong>Water Flower.</strong> Warm thermal springs</p></li><li><p><strong>Ooze Drops.</strong> Ooze-type creatures of at least large size</p></li><li><p><strong>Giant's Nail.</strong> Giant-type creatures of at least huge size</p></li></ul><h4>Very Rare - DC 25</h4><ul><li><p><strong>Bloodroot.</strong> Damp Caverns</p></li><li><p><strong>Shimmerleaf.</strong> Dry Caves</p></li><li><p><strong>Pure Wrong.</strong> Aberration-type creatures of at least large size</p></li><li><p><strong>Necromantic Binding.</strong> Undead-type creatures of at least huge size</p></li></ul><h4>Legendary - DC 30</h4><ul><li><p><strong>Volcano Poppy.</strong> Fresh Lava</p></li><li><p><strong>Snow Moss.</strong> Glacial Crevasses</p></li><li><p><strong>Dragon Scale.</strong> Dragon-type creatures of at least huge size</p></li><li><p><strong>Essence of Legend.</strong> Any creature with legendary resistance</p></li></ul><p></p><hr><h2>Brews</h2><h4>Common - DC 10</h4><ul><li><p><strong>Potion of Healing.</strong> Fever Grass, Salt Vine, Plant Muscle Fibres</p></li><li><p><strong>Potion of Maximum Power.</strong> Fever Grass, Plant Muscle Fibres, Gills</p></li><li><p><strong>Potion of Heroism.</strong> 2x Plant Muscle Fibres, Salt Vine</p></li><li><p><strong>Potion of Advantage.</strong> 3x Salt Vine</p></li><li><p><strong>Potion of Poison.</strong> 3x Fever Grass</p></li><li><p><strong>Potion of Water Breathing.</strong> 2x Gills, Salt Vine</p></li><li><p><strong>Basic Poison.</strong> 2x Plant Muscle Fibres, Gills</p></li></ul><h4>Uncommon - DC 15</h4><ul><li><p><strong>Potion of Greater Healing.</strong> Wineberry Bark, Black Nerium, Core Crystal</p></li><li><p><strong>Potion of Resistance.</strong> 2x Black Nerium, Monstrous Blood</p></li><li><p><strong>Potion of Growth.</strong> 2x Monstrous Blood, Wineberry Bark</p></li><li><p><strong>Potion of Diminution.</strong> 2x Core Crystal, Black Nerium</p></li><li><p><strong>Oil of Slipperiness.</strong> 2x Wineberry Bark, Core Crystal</p></li><li><p><strong>Drow Poison.</strong> 3x Black Nerium</p></li><li><p><strong>Serpent Venom.</strong> 3x Monstrous Blood</p></li></ul><h4>Rare - DC 20</h4><ul><li><p><strong>Potion of Superior Healing.</strong> Shatterstone, Water Flower, Ooze Drops</p></li><li><p><strong>Potion of Gaseous Form.</strong> 2x Ooze Drops, Shatterstone</p></li><li><p><strong>Potion of Invisibility.</strong> 2x Ooze Drops, Giant's Nail</p></li><li><p><strong>Murgaxor's Elixir of Life.</strong> 2x Giant's Nail, Water Flower</p></li><li><p><strong>Malice.</strong> 2x Ooze Drops, Water Flower</p></li><li><p><strong>Wyvern Poison.</strong> 3x Shatterstone</p></li></ul><h4>Very Rare - DC 25</h4><ul><li><p><strong>Potion of Supreme Healing.</strong> Blood Root, Shimmerleaf, Pure Wrong</p></li><li><p><strong>Potion of Flying.</strong> 2x Shimmerleaf, Pure Wrong</p></li><li><p><strong>Potion of Speed.</strong> 2x Blood Root, Necromantic Binding</p></li><li><p><strong>Oil of Sharpness.</strong> 2x Shimmerleaf, Bloodroot</p></li><li><p><strong>Willowshade Oil.</strong> 2x Shimmerleaf, Necromantic Binding</p></li><li><p><strong>Torpor.</strong> 3x Necromantic Binding</p></li><li><p><strong>Purple Worm Poison.</strong> 3x Pure Wrong</p></li></ul><h4>Legendary - DC 30</h4><ul><li><p><strong>Potion of Giant Size.</strong> 2x Snow Moss, Essence of Legend</p></li><li><p><strong>Potion of Legendary Resistance.</strong> 3x Essence of Legend</p></li><li><p><strong>Potion of Time Stop.</strong> 2x Snow Moss, Volcano Poppy</p></li></ul>"
+          "content": "<h2>Ingredients</h2><h4>Common - DC 10</h4><ul><li><p><strong>Fever Grass.</strong> Sunny Grasslands</p></li><li><p><strong>Salt Vine.</strong> Coastal rocks</p></li><li><p><strong>Plant Muscle Fibres.</strong> Plant-type creatures of at least medium size</p></li><li><p><strong>Gills.</strong> Beast-type creatures with swim speed of at least medium size</p></li></ul><h4>Uncommon - DC 15</h4><ul><li><p><strong>Black Nerium.</strong> Cliff Faces</p></li><li><p><strong>Wineberry Bark.</strong> Shaded Riverbanks</p></li><li><p><strong>Core Crystal.</strong> Construct-type creatures</p></li><li><p><strong>Monstrous Blood.</strong> Monstrosity-type creatures of at least large size</p></li></ul><h4>Rare - DC 20</h4><ul><li><p><strong>Shatterstone.</strong> Rocky surfaces high up in the mountains</p></li><li><p><strong>Water Flower.</strong> Warm thermal springs</p></li><li><p><strong>Ooze Drops.</strong> Ooze-type creatures of at least large size</p></li><li><p><strong>Giant's Nail.</strong> Giant-type creatures of at least huge size</p></li></ul><h4>Very Rare - DC 25</h4><ul><li><p><strong>Bloodroot.</strong> Damp Caverns</p></li><li><p><strong>Shimmerleaf.</strong> Dry Caves</p></li><li><p><strong>Pure Wrong.</strong> Aberration-type creatures of at least large size</p></li><li><p><strong>Necromantic Binding.</strong> Undead-type creatures of at least huge size</p></li></ul><h4>Legendary - DC 30</h4><ul><li><p><strong>Volcano Poppy.</strong> Fresh Lava</p></li><li><p><strong>Snow Moss.</strong> Glacial Crevasses</p></li><li><p><strong>Dragon Scale.</strong> Dragon-type creatures of at least huge size</p></li><li><p><strong>Essence of Legend.</strong> Any creature with legendary resistance</p></li></ul><p></p><hr><h2>Brews</h2><h4>Common - DC 10</h4><ul><li><p><strong>Potion of Healing.</strong> Fever Grass, Salt Vine, Plant Muscle Fibres</p></li><li><p><strong>Potion of Maximum Power.</strong> Fever Grass, Plant Muscle Fibres, Gills</p></li><li><p><strong>Potion of Heroism.</strong> 2x Plant Muscle Fibres, Salt Vine</p></li><li><p><strong>Potion of Advantage.</strong> 3x Salt Vine</p></li><li><p><strong>Potion of Poison.</strong> 3x Fever Grass</p></li><li><p><strong>Potion of Water Breathing.</strong> 2x Gills, Salt Vine</p></li><li><p><strong>Basic Poison.</strong> 2x Plant Muscle Fibres, Gills</p></li></ul><h4>Uncommon - DC 15</h4><ul><li><p><strong>Potion of Greater Healing.</strong> Wineberry Bark, Black Nerium, Core Crystal</p></li><li><p><strong>Potion of Resistance.</strong> 2x Black Nerium, Monstrous Blood</p></li><li><p><strong>Potion of Growth.</strong> 2x Monstrous Blood, Wineberry Bark</p></li><li><p><strong>Potion of Diminution.</strong> 2x Core Crystal, Black Nerium</p></li><li><p><strong>Oil of Slipperiness.</strong> 2x Wineberry Bark, Core Crystal</p></li><li><p><strong>Drow Poison.</strong> 3x Black Nerium</p></li><li><p><strong>Serpent Venom.</strong> 3x Monstrous Blood</p></li></ul><h4>Rare - DC 20</h4><ul><li><p><strong>Potion of Superior Healing.</strong> Shatterstone, Water Flower, Ooze Drops</p></li><li><p><strong>Potion of Gaseous Form.</strong> 2x Ooze Drops, Shatterstone</p></li><li><p><strong>Potion of Invisibility.</strong> 2x Ooze Drops, Giant's Nail</p></li><li><p><strong>Murgaxor's Elixir of Life.</strong> 2x Giant's Nail, Water Flower</p></li><li><p><strong>Malice.</strong> 2x Ooze Drops, Water Flower</p></li><li><p><strong>Wyvern Poison.</strong> 3x Shatterstone</p></li><li><p><strong>Elixir of Clear Mind:</strong> 2x Shatterstone, Water Flower</p></li><li><p><strong>Potion of Minor Agility: </strong>3x Water Flower</p></li><li><p><strong>Potion of Minor Endurance:</strong> 3x Ooze Drops</p></li><li><p><strong>Potion of Minor Brawn: </strong>3x Giant's Nail</p></li></ul><h4>Very Rare - DC 25</h4><ul><li><p><strong>Potion of Supreme Healing.</strong> Blood Root, Shimmerleaf, Pure Wrong</p></li><li><p><strong>Potion of Flying.</strong> 2x Shimmerleaf, Pure Wrong</p></li><li><p><strong>Potion of Speed.</strong> 2x Blood Root, Necromantic Binding</p></li><li><p><strong>Oil of Sharpness.</strong> 2x Shimmerleaf, Bloodroot</p></li><li><p><strong>Willowshade Oil.</strong> 2x Shimmerleaf, Necromantic Binding</p></li><li><p><strong>Torpor.</strong> 3x Necromantic Binding</p></li><li><p><strong>Purple Worm Poison.</strong> 3x Pure Wrong</p></li></ul><h4>Legendary - DC 30</h4><ul><li><p><strong>Potion of Giant Size.</strong> 2x Snow Moss, Essence of Legend</p></li><li><p><strong>Potion of Legendary Resistance.</strong> 3x Essence of Legend</p></li><li><p><strong>Potion of Time Stop.</strong> 2x Snow Moss, Volcano Poppy</p></li></ul>"
         },
         {
           "name": "Divinities - A Working Catalogue",
@@ -10477,7 +10525,12 @@
         {
           "name": "112",
           "section": "journal-pages",
-          "content": "<h3>Cave Dwelling Adventure in Khaz Narak, the Lair of the Sane Goblin.</h3><p>Emilio tries to contact his patron to get more information about the aberration we are considering unchaining. He gets left on \"read\". Plex suggest he could try to summon Emilio's patron instead if she won't pick up the phone. No one thought it was a good idea so we move on.</p><p>Fearghas ego is bruised, according to the women in the party. Something about him being greedy. He proclaims that he is not greedy, he is rich.</p><p>Someone else who is rich, is the massive eye-tentacle-blob-void-monster in chains, in front of us. Naami cries as we try to aid the void monster, she keeps talking about the walls stomach's are growling.<br>Plex talks to the big eye-blob and he's acting very normal. He begins biting the chains. Then he bites one of the eyes and goes mad, speaking nonsense.</p><p>Emilio makes contact. He witness space and glyphs he never seen before. He witness the end itself, how he will be consumed. His loneliness engulfed.<br>Mercy devoid, weakness on steroid.<br>All is lost. Even his patron is gone-<br>and he snapped and ate the void blob monster. Probably was because of the steroid mention.</p><p>We backtrack a bit to remind Plex of what rooms we passed through and in the Dragon Bone graveyard Fearghas checks around for magic and finds a lot of conjuration magic.<br>Plex takes off his hat to wipe his eyebrow.<br>The world breaks momentarily.<br>It seems Fearghas can control the bones, but we elect to ignore the massive bones and marsh on to the hidden room.</p><p>There is a small altar in the candle-lit room.<br>The candles are lit.<br>A small statue of a deity made by broken hats or something.<br>We offer up some gold and chocolate but the goddess smites us for some reason.</p><p>There's a door that leads to a crypt, big stones and broken urns, tombs…<br>Tombs? In a Lich lair?<br>Ah yes.<br>The Ghouls emerge and attacks us! Bwakh!</p><hr><p>Taking the initiative, <strong>Kyrin the Small</strong>, goes and murders the dead corpses before they finish their reanimation.<br>Flying heads float around, seemingly resistant to fire.<br>They all try to eat Plex, but Fearghas and Naami sets them on fire.</p><hr><p>A beautiful landscape of green meets us.<br>Sadly, it's the green of snot and the ichor in this room is disgusting. Naami and Shalkoc both know it's former living Haggus, much to everyone's surprise.</p><p>A mass grave greets us, with a lot of the bones having their marrows sucked out. Nothing omnious or foreshadowing here.<br>The massive blobs of Ooze drop down on us and it's very surprising!<br>Shalkoc and Kyrin does punchy and stabby, while Emilio rips and tears.<br>It's super effective!</p><hr><p>The blobs almost gave us STDs with their tentacles going into us, but Naami is well versed in the arts of the flesh and heals us before it turns ugly.<br>Plex and Fearghas goes panting as we enter the next room with a bunch of scrolls inside it.<br>I wonder why, it's just paper and books. I think the giant bed with the snuggly and multi-layered water cushioning and lilac-based silk &amp; velvet fusion sheets, are much more interesting.</p><p>They rummage around the bedroom, ignoring the bed and focusing on the creepy candle that goes invisible, broth made of humanoids and that weird creepy crawling hand.</p><p>OOooh, Healing potions and oil everywhere.</p><p>My brain tells me there's a corridor here which was mentioned from one of the earlier corpses.<br>Fearghas has an absolute crash out over them and NEEDS to know more about them.<br>Ah, seems it was explosive runes that deletes people that move over the runes.</p><p>Later, we find a room with screaming people, hurts my head.<br>We rush past it.<br>There's a room with two statues and a broken one,<br>One is a Dancer with text saying: <em>Give thy youth and be shown the way.</em><br>The second is a Man with text saying: <em>Give thy health and be swallowed by darkness.</em></p><p>Weal and Woe tells us the Man is the safer option.<br>Emilio sets himself on fire, it's very hardcore.<br>The fire is engulfed by darkness and reveals a hidden passage for us to tread.</p><p>The altar in the hidden room behind the darkness is strewn about with the bones of a long gone, probably a female orc, person.<br>Her skull begins to speak.</p><p>She talks to us, telling us about her life as an Oracle that was well versed in curing curses.<br><strong>Ka'tesa Redtale</strong>, the Oracle Skull, offers to heal us for helping her find rest finally.</p><p>We heal ourselves and take a very short rest, drinking some beer, I mean healing potions.<br>The potions are wonderful and we discuss normal topics in this horrifyingly evil environment.<br>Like setting goblins on fire and marriage.</p><p>We have a great time, morale is high.</p>"
+          "content": "<h3>Cave Dwelling Adventure in Khaz Narak, the Lair of the Sane Goblin.</h3><p>Emilio tries to contact his patron to get more information about the aberration we are considering unchaining. He gets left on \"read\". Plex suggest he could try to summon Emilio's patron instead if she won't pick up the phone. No one thought it was a good idea so we move on.</p><p>Fearghas ego is bruised, according to the women in the party. Something about him being greedy. He proclaims that he is not greedy, he is rich.</p><p>Someone else who is rich, is the massive eye-tentacle-blob-void-monster in chains, in front of us. Naami cries as we try to aid the void monster, she keeps talking about the walls stomach's are growling.<br>Plex talks to the big eye-blob and he's acting very normal. He begins biting the chains. Then he bites one of the eyes and goes mad, speaking nonsense.</p><p>Emilio makes contact. He witness space and glyphs he never seen before. He witness the end itself, how he will be consumed. His loneliness engulfed.<br>Mercy devoid, weakness on steroid.<br>All is lost. Even his patron is gone-<br>and he snapped and ate the void blob monster. Probably was because of the steroid mention.</p><p>We backtrack a bit to remind Plex of what rooms we passed through and in the Dragon Bone graveyard Fearghas checks around for magic and finds a lot of conjuration magic.<br>Plex takes off his hat to wipe his eyebrow.<br>The world breaks momentarily.<br>It seems Fearghas can control the bones, but we elect to ignore the massive bones and marsh on to the hidden room.</p><p>There is a small altar in the candle-lit room.<br>The candles are lit.<br>A small statue of a deity made by broken hats or something.<br>We offer up some gold and chocolate but the goddess smites us for some reason.</p><p>There's a door that leads to a crypt, big stones and broken urns, tombs…<br>Tombs? In a Lich lair?<br>Ah yes.<br>The Ghouls emerge and attacks us! Bwakh!</p><hr><p>Taking the initiative, <strong>Kyrin the Small</strong>, goes and murders the dead corpses before they finish their reanimation.<br>Flying heads float around, seemingly resistant to fire.<br>They all try to eat Plex, but Fearghas and Naami sets them on fire.</p><hr><p>A beautiful landscape of green meets us.<br>Sadly, it's the green of snot and the ichor in this room is disgusting. Naami and Shalkoc both know it's former living Haggus, much to everyone's surprise.</p><p>A mass grave greets us, with a lot of the bones having their marrows sucked out. Nothing omnious or foreshadowing here.<br>The massive blobs of Ooze drop down on us and it's very surprising!<br>Shalkoc and Kyrin does punchy and stabby, while Emilio rips and tears.<br>It's super effective!</p><hr><p>The blobs almost gave us STDs with their tentacles going into us, but Naami is well versed in the arts of the flesh and heals us before it turns ugly.<br>Plex and Fearghas goes panting as we enter the next room with a bunch of scrolls inside it.<br>I wonder why, it's just paper and books. I think the giant bed with the snuggly and multi-layered water cushioning and lilac-based silk &amp; velvet fusion sheets, are much more interesting.</p><p>They rummage around the bedroom, ignoring the bed and focusing on the creepy candle that goes invisible, broth made of humanoids and that weird creepy crawling hand.</p><p>OOooh, Healing potions and oil everywhere.</p><p>My brain tells me there's a corridor here which was mentioned from one of the earlier corpses.<br>Fearghas has an absolute crash out over them and NEEDS to know more about them.<br>Ah, seems it was explosive runes that deletes people that move over the runes.</p><p>Later, we find a room with screaming people, hurts my head.<br>We rush past it.<br>There's a room with two statues and a broken one,<br>One is a Dancer with text saying: <em>Give thy youth and be shown the way.</em><br>The second is a Man with text saying: <em>Give thy health and be swallowed by darkness.</em></p><p>Weal and Woe tells us the Man is the safer option.<br>Emilio sets himself on fire, very hardcore.<br>The fire is engulfed by darkness and reveals a hidden passage for us to tread.</p><p>The altar in the hidden room behind the darkness is strewn about with the bones of a long gone, probably a female orc, person.<br>Her skull begins to speak.</p><p>She talks to us, telling us about her life as an Oracle that was well versed in curing curses.<br><strong>Ka'tesa Redtale</strong>, the Oracle Skull, offers to heal us for helping her find rest finally.</p><p>We heal ourselves and take a very short rest, drinking some beer, I mean healing potions.<br>The potions are wonderful and we discuss normal topics in this horrifyingly evil environment.<br>Like setting goblins on fire… <br>And marriage.</p><p>We have a great time, morale is high, we're all still young.<br>Trying to figure out how the next door is sprung.</p><p>And that's where we left our heroes.</p>"
+        },
+        {
+          "name": "113",
+          "section": "journal-pages",
+          "content": "<h3>The beginning of a new Journey, Morale an Eagle, Winter's Rise</h3><p>Kyrin tells us about the importance of the Dancer Statue and the dangers it entails.<br>Plex volunteers to touch the statue, which he promtly only do to gain the favor of Kyrin.<br>He transform into Old Plex, a master of the arcane arts, as he ages 6 years. Probably half his life span.<br>Or so they tell me.<br>I think he looks <strong>EXACTLY</strong> the same.</p><p>Luckily, an unrelated door swung up and we find an room of callous torture.<br>Oh, ink of the Necromatic kind, Fearghas is happy.<br>Naami is our lookout watch, she'll guard us with great success. (Nat 3)<br>She has Plex helping her, so I believe everything will be alright! (Also Nat 3)<br>The goblin is complaining about his back more often now. Not very cool.</p><p>Shalkoc and Fearghas clumsily finds some organs in a jar, greenhorn tries to eat it, goldbeard stops the dragonman, we all expect fresh liver in our foods at some point in the near future, etc, etc.</p><p>Clang, Clang, Clang.<br>Fearghas armor keeps hammering my eardrums so I can't hear the ghosts that are emerging from the tombs.<br>Wait a minute!</p><hr><p>The ghost floats straight through us and gives our Dragonboy the \"Bad Touch\", severely damaging him. They REALLY want Shalkoc.<br>Luckily he's VERY resilient and nothing can break him easily. (Three Nat 1's in a row.)<br>Plex tries to help, teleports into a wall, accidently casts Doom.<br>Fearghas create snails out of ghosts.<br>Kyrin… stabs the ghosts.<br>Emilio eats a ghost?<br>Am I a ghost??</p><hr><p>There's a tomb with some empty graves and we search around a bit, nothing to be found of interest in the time we have since Emilio calls out that there's something huge approaching us from the southern door!<br>Like a…<br>cave troll!?<br>No, it's a Boneclaw!</p><hr><p>With Spiders swarming in as entourage, Fearghas takes the initative and casts Za Warudo.<br>Shalkoc runs in alone. <em>\"This is a bad return of investment.\"</em>, he quips as he's grabbed by the giant Boneclaw.<br>We all run in Leeroy style and saved him in a blaze of glory.</p><hr><p>The spider's bodies makes for great hiding spots.<br>We recuperate for a short while and pour some drinks.</p><p>There's a door infront of us.<br>Aviana, Kyrin and Shalkoc go in together hand in hand and we trigger a dangerous trap! Lightningbolts!<br>Luckily, no one got hurt, except for Fearghas behind us.<br>But the ruckus attracted more ghosts that attacks us, very scary looking, raining our strength. Mean.</p><p>My Find Trap spell works for the first time and since Plex is missing, I don't detect any traps. Could they be correlated?</p><p>Kyrin finds a tomb and looks respectfully into it.<br>It's VERY heavy. I blame the ghost from before.<br>We all take turn to do the olympic passage yet all fails.<br>I might have been holding back to let the others shine, but all that shone was how heavy that coffin-lid was and now I'd die of embarassment if they find out I held back. Good thing no one reads my journal.</p><p>Plex finds a Glyph of Warding that summons a Bone Dragon, he picks it up, to protest of everyone sane.<br>Much to his objections, The Deathgod from before seems to have some lasting beef with Fearghas and smites him when he enters the treasure room and tries to inspect the three pedestals.</p><p>AND MONEY! SO MUCH GOLD!<br>Shalkoc is swimming in it.<br>Plex is eating it.<br>And there's still leftovers!<br>Kyrin carries it all in her hole. Very spacious, that one.</p><p>Feargas drools over a paper mentioning <span>Lead, Iron, Tin, Silver, Gold, Antimony, Arsenic, Bismuth, Magnesium, Phosphorus, Salt, Mercury, Sulfur.</span></p><p>Weird.<br>There's a wall with a bunch of symbols.<br>Probably not related.</p><p>Naami tells us something important and to write it down.<br><span>Wisdom - Silver<br>Perfection - Gold<br>Eternity - Magnesium<br>Light - Phosphorus<br>Transforms - Bismuth<br>Death &amp; Rebirth - Arsenic<br>Freedom - Antimony<br>Complete - Tin<br>Nature - Lead<br></span><span>Air (Life), Earth (Movement), Fire (Emotion), Water (Intuition)</span></p><p>As soon the doors opens to Emilio's Hellfire, very hardcore, Fearghas rushes inside and locks it behind him. All the scrolls are now HIS!<br>Plex teleports inside and steals the most important scroll, much to Fearghas' anger.<br>There's three keys in here, Brass Gold and Arsenik, same as the treasures in the treasure room, which we immediately go to fetch.</p><p>Gaining the last of the runepages manuscript, we enter the big room, do some alchemy, set the giant Phoenix in the ceiling on fire, it explodes in a nuclear reaction manner and look at that!<br>An Egg of Mind Whispering tries to tell us something, luckily I am well dressed and don't have to think about what to wear today, so that'll show that Egg what's what.</p><p>Old Plex looks tired, Kyrin makes a grimace, Shalkoc looks… happy? Naami cries, so she made the save,  and Emilio farms aura.</p><p>The egg seemingly is a living being, so we decide to keep it alive.<br>Plex makes the egg smaller.<br>Fearghas causes a cave-in by grabbing another evil book.<br>Cave-in? Hmm.</p><p>And that's where we left off our heroes.</p>"
         }
       ]
     },
@@ -10808,6 +10861,11 @@
           "name": "112 - A wailing well, memories, and a friend",
           "section": "journal-pages",
           "content": "<p><strong>Monday, 14</strong><sup><strong>th</strong></sup><strong> of Duodecimus, 1497</strong></p><p><strong>05:50</strong></p><p>Emilio tries to reach out to <s>the girl of his dreams</s> his patron <strong>Aurora</strong> for advice on whether to eat the gribbly thing. But the Void is very far from here and all he can pick up from her is cold silence. <s>She's leaving him on read</s>. \"No Plex you cannot summon my patron here,\" the warlock snaps. Plex claims he once summoned Shalkoc, and the tiny lizard under his hat Ser Shalkoc II nods happily.</p><p>There is no air in the room with the Void thing so we have to dip in and out in between undoing chains. I stay back. Plex still insists the <strong>Void dragon</strong> is his friend and since the thing in front of us has not promised to be friends, it would be madness to free it. Neither Kyrin nor Emilio are listening to the goblin. Aviana walks closer with the glowing rock, taking off her sunglasses and exclaiming \"What the hell is that?!\". Good morning. She wants to \"grab a few eyes from it, it can spare a couple?\" The thing blinks at her in confusion.</p><p>I give Plex a cookie as he's peckish and I don't want to see him gnaw on ears again. He enjoys his cookie thoroughly but I hear a growling… <strong>Perception check</strong>, and with my surge giving me a d4 penalty to Wisdom checks, my natural 1 becomes a dirty zero! The walls are growling! I retreat into the corner shaking with traumatic flashbacks, absentmindedly handing another cookie to Shalkoc because he asked nicely.</p><p>Shalkoc wants to cook the creature, of course. Fearghas and Kyrin are trying to talk him out of it, we end up discussing whether the Void is worse than the Abyss. Emilio asks \"If I eat you, will it kill me?\" The creature replies \"No\". We try to ask the creature whether it will harm us, and decide we can't leave it here anyway, as <strong>Vrazzak</strong> will just chain it again and drain its power. We're all hearing some kind of noise, becoming clearer as many whispers, but we can't make any of them out.</p><p>Plex casts <strong>Comprehend Languages</strong> and has to roll an Intelligence save. The thing is promising him knowledge, deeper understanding of reality, and power for him to wield. It's communicating in ideas rather than words. \"Ah, Afrikaans,\" says Domi. The creature promises to be Plex' mentor and teacher, a body of knowledge for him to consume. Plex considers the semantics of it while I sarcastically ask what could POSSIBLY go wrong. \"At least let Shalkoc cook it first,\" Domi argues. Plex makes the argument, sometimes you cook off all the flavour and the food is better raw. \"Knowledge is better consumed raw,\" the creature whispers. Plex is very tempted and starts trying to break chains, unsuccessfully. The creature is helping by whispering instructions to him.</p><p>Plex tries to bite the creature, rolls a one, we are all confused about how he missed that. The creature rolls an eye closer to Plex to help him with the next bite. In a fit of fear I cast <strong>Binding Shadows</strong> and restrain him, but he wriggles out of it with <strong>Borrowed Luck</strong>. I ask him not to bite it but am ignored, Plex chomps on one of the eyes and pops it. Shalkoc is drooling in the background. Plex is frantically burning ressources to succeed on his CON save, but still ends up stunned and begins babbling incoherently. Fearghas grabs him and drags him backwards. I try to keep him from biting his own tongue.</p><p>Emilio's hands twitch and he exclaims \"NOW you wanna talk huh?!\" Fearghas grumbles \"Typical women\". Emilio <strong>Guidances</strong> himself and tilts his head, listening. Alongside the ever-present hunger, he gets a warning from his patron; consuming this thing will make him more powerful, but it will allow him to <strong>twist reality</strong> in a way that reality outside the Void has never been twisted. The consequences are entirely unpredictable… \"You can survive either through sheer force, or through smarts. It's time you started learning the latter,\" Aurora sends to Emilio. Oof.</p><p>The creature promises to Emilio \"something that can <strong>save him</strong>\". It's trying to project an image into his mind, but two chains remain and it can't get its message across. Emilio asks Fearghas whether he should undo another chain, leaving the creature still restrained but able to communicate better. Aviana ties up the babbling goblin with her own <strong>null-steel chain</strong>. Plex is rambling about \"library meat\".</p><p>Emilio undoes another chain, and gets a vision of his <strong>village</strong>, corrupted by the Void. He sees Lessia, similarly corrupted, the main gate a giant maw opening and closing. He sees Promise, the underside of the island a giant eye staring at the world, the people grown into the ground like trees. He sees himself entering a mausoleum in a desert; inside are glyphs he has never seen before, and they glow in his presence. He sees himself from a distance, and his hands wither away and fall off, the gauntlets shrivelling and turning to dust. His connection with <strong>Aurora</strong> is severed. The entity promises this will happen if Emilio doesn't consume it.</p><p>Emilio is furious, unwilling to give up his power. \"You want me to eat you that bad? Okay! I'll do it!\" The creature replies \"It's the only way to save yourself.\" The warlock goes into a rage and starts tearing into the creature with his gauntlets. Kyrin and Fearghas are next to him and have to roll <strong>Intelligence saves</strong>. They turn away in time, keeping their wits. Emilio's gauntlets twist and turn with hundreds of maws shifting inside themselves, devouring everything without leaving as much as a drop of blood. It takes a while, the sounds getting farther away as Emilio descends into the hole to consume the creature's body.</p><p>When the sounds finally stop, he is lying at the bottom of the hole 200 feet down. He gains a new power: <strong>Arcane Anomaly</strong>. Fearghas and Kyrin check on him and he's fine, just climbs back up. We gather back in the chess room, then move into the big hall with the alchemical symbol and the unholy grimoire trapped in crystal. We discuss where to go next and list our options. I vote for backtracking to make sure nothing is crawling up on us through the traps we've already cleared. We get a majority for \"going back\" and return to the room full of dragon bones, as Fearghas has an inkling he has missed something.</p><p><s>Plex is directionally challenged</s>. Fearghas casts <strong>Detect Magic</strong> as a ritual and finds mainly conjuration and necromancy, faint traces of other magics. He assumes the bones can animate and attack us, as the same thing has already happened several times. He could dispel the magic… or he could twist it a little. Plex wants to collect the bones to make harmless skeleton pets and requests help from \"Abbiana\". She glares and her talons long for the goblin's throat, so he hurriedly corrects himself. They agree on the topic that bones could make a nice hat, while Fearghas is thinking really deeply about how to make the Lich's magic serve him instead. He could do it, but he needs to learn the spell <strong>Glyph of Warding</strong> first.</p><p><s>Plex takes off his hats and Foundry breaks</s>.</p><p>Fearghas draws out a glyph for us, and warns us about it; if we see one, that's a magical trap. Aviana and Plex still want to steal some bones, Fearghas and me tell them that's a terrible idea.</p><p>We return to the entrance, and take the west corridor this time. We come to a small altar room with lit candles and incense burning in a bowl. There is a statue with a <strong>jackal head</strong> and a bowl for offerings, containing 30 gold pieces. Shalkoc takes them all, and puts one single gold piece in exchange. I implore him to reconsider and try to not anger a higher power. I give 10 gold as an offering. Fearghas places 20 gold in the bowl. Emilio and Kyrin put in 5 gold each. Aviana would like to sacrifice Plex to the god of death but instead gives a bar of chocolate. Plex walks in and places a <strong>Springseed</strong> in the bowl. Are… are you sure you want to do this?</p><p>I feel weaker when I step away from the altar… was my offering insufficient? I get a <strong>Divine Displeasure</strong> debuff, inflicting disadvantage on CON saves. Feels like a curse… Oh dear. Kyrin, Shalkoc, and Aviana get the same debuff, the others get nothing. The Springseed Plex offered shrivels and turns to dust. The gold and chocolate remain, however. Aviana takes back her chocolate.</p><p>Kyrin and me burn our <strong>Potions of Legendary Resistance</strong> to remove the curse. Shalkoc has a natural Legendary Resistance but chooses not to use it. There is a small door to the west, leading to a crypt. Fearghas, Emilio, and myself walk into a small room containing bones and sarcophagi. From the inscriptions, these were friends of the clan who built this place. The graves have been disturbed at some point, but are shut at the moment. Something with… claws…? has scraped on the sarcophagi to open them. Not Plex.</p><p>We push open the graves to investigate… and roll initiative. It's Ghouls again, Plex' less-than-favourite snack. Kyrin pulls out the <strong>Shard of True Ice</strong> and starts giving the Ghouls the stabbings. She deletes one and chucks a Psychic Blade at another one. Emilio gets to blasting and… rolls a natural 1, and a 2, and then a 6. Still kills the Ghoul as he only misses them on a nat 1 but that's his luck today.</p><p>Karnack does a wonderful job voicing the Ghouls. I send a Fire Burst on a Ghoul but just fail to kill it, oh well, I am a healer after all. There's <strong>Parasitic Geists</strong> as well and Fearghas sends a Fire Bolt on them, they are resistant to fire but it dies anyway. He uses his Ring of Unbridled Power to cast Shocking Grasp on a Ghoul and fries it to death. Plex sees a sarcophagus start to move and casts Adjust Density on the lid to make it twice as heavy in a \"no, you don't\" move. He then Disengages and skitters away. Aviana pins a Ghoul against the wall <s>and it starts breathing heavily</s>. She slaps it and it stays dead this time. She closes the door to buy us time, and casts <strong>Resistance</strong> on herself.</p><p>One ghostly boy flies to me and Kyrin with a debuff. Another ghost tries to nibble at Fearghas but only nibbles on the wall because… reasons. Plex is slapped and uses a Telekinetic Reprisal, rolls a strength save on his own ability, then rolls a CON save on the Ghoul's paralysis. He passes, pops his <strong>Gravity Well</strong>, and does a Crushing Impact on the Ghoul for not looking respectfully.</p><p>Kyrin whacks the Geist with the <strong>Sun Blade</strong>, dissipating it. She steps behind Emilio and throws another Psychic Blade at the last Geist. Crit! 55 psychic damage with 17 from Aviana's <strong>Hamstringing</strong>. The ghost dies with one hit, and the dagger goes right through it and then through Aviana's head, dealing no damage. <s>There isn't a lot that can be hurt in that beautiful bird skull</s>. Emilio continues blasting happily, rolls another nat 1 and deals minimal damage. Look Emilio… this is how it's done. I incinerate the Ghoul with another <strong>Sorcerous Burst</strong>. Fearghas does a Shocking Grasp and uses his ring to get an extra Fire Bolt to burn another undead to a perfect crisp.</p><p>There is only one Ghoul left and Plex is keeping the sarcophagus lid on it. He drops concentration and hits the Ghoul with a Shocking Grasp. He doesn't quite kill it, so Aviana bonks the Ghoul on the head, ending the encounter. We quickly search the crypt, but find nothing except bones that had the marrow sucked out. We decide to go south and find a new door we have not yet conquered. We find ourselves in a room that absolutely reeks of rust and ichor. The walls are covered in a <strong>yellowish sticky substance</strong>. There is a completely collapsed staircase to the south, and stairs to the west are leading up.</p><p>Fearghas and me examine the yellowish goop. It smells like bile… Shalkoc joins in and he knows his shit, both of us roll a nat 20 on Nature. Fearghas is so surprised he loses his train of thought entirely. The goop is <strong>digestive fluids</strong> from various creatures, not all humanoid; Dwarves, Elves, Humans, Orcs… everything. All mixed in one… Shalkoc recognises it from having eaten it before; in his travels he once came upon a mass grave dug after a battle. He felt hungry and would not have dug, but the bodies came out of the ground in one massive pile. Didn't grill well, but it was edible, okay meal. U-urgh…</p><p>It's all over the walls and floor, probably very acidic, definitely full of diseases, I'm stepping in it, ew ew ew… so I kindly request Aviana for uppies. She agrees to carry me, thank gods I have a strong stomach. Plex collects some of the goop into a bottle by scraping it with <strong>Jim's Lance of Compensation</strong>. It's a precision instrument…</p><p>Emilio is sniffing around… the stench is fresh, the digestive fluids are not. The smell is coming from the hallway to the east. We ready ourselves for a fight, and go east. We enter a mass grave; a narrow walkway, and to either side piles of bones and flesh, some of it… pretty recent. Shalkoc takes one look and determines from the smell and amount of maggots that some of this \"meat\" is 3-4 months old. A lot of the bones also had the marrow sucked out.</p><p>I hop off Aviana's back, a bit too worried I might throw up on her wings and she would be very mad at me. Shalkoc smells something slightly less rotten. I try to look anywhere that isn't rotting flesh and bone and look up… slime is oozing down, no, dropping down. Two large fleshy things drop down on us; <strong>Pustulent Shamblers</strong>… Shalkoc punches one, repeatedly, avoiding the fire damage. Seems to be immune to acid, resistant to bludgeoning and fire, but it's damaged by cold. Shalkoc uses <strong>Chromatic Hardening</strong>.</p><p>\"My turn! I draw… and look at this, it's a Rage.\" - Aviana.</p><p>Aviana grabs me very tightly and drags me out of the fleshy mass I was sinking into. O-ow… I cast <strong>Revelation Through Battle</strong> and shout out resistances and immunities! But I'm grappled by Aviana and can't perform somatic components… Fine, I'll whack them with the <strong>Staff of Power</strong>! It's really difficult to hit when the Harpy is moving around while holding me, stay still aaaaaaaaaaaaaaaa! Welp, missed. Kyrin stabs with the Shard of True Ice, wow that's a lot of dice.</p><p>The fleshy blob crawls closer… and attacks us all! And that's a crit with the pseudopod. I… I don't feel so good… Plex is looking greener than usual, and not in a good way. We've both been infected with <strong>Bonerot</strong>! Emilio goes into Void Form and starts slashing and critting with his claws, Aviana gives him some extra d12. Fearghas casts Shocking Grasp twice, and crits the second time. He gets some d12 from Aviana as well, then moves away. Plex casts <s>Doom</s> <strong>Event Horizon</strong> and pushes one Shambler away with Gravity Well.</p><p>\"PLEX YOU MESSED EVERYTHING UP!\" - Aviana</p><p>The Harpy gets slapped by tentacles, screeching at the Goblin. Shalkoc is very enthusiastic but struggling to roll dice. He thoroughly tenderises the fleshy blob and kills it! Aviana drops me right into the still-quivering corpse and gets to work on the second Shambler, with extreme prejudice. I pop a ginger chew and use one dose of <strong>Keoghtom's Ointment</strong> to cure the Bonerot. Kyrin tenderises and deep-freezes the other blob, killing it. Phew…</p><p>I go to Plex and give him another dose of the Ointment to cure the disease. Fearghas harvests <strong>Ooze Drops</strong>… delicious. Plex… dives into the bones to look for valuables. He finds gold teeth. I patch up the worst of my wounds, and we proceed to the room east of the mass graves. It's full of cages containing dead animals and people, smells like old sweat. A corridor leads north, and a door leads east. We're feeling east and find ourselves in a small room containing a toppled cauldron, smelling strongly of acid and <s>farts</s> sulphur. Shelves contain preserved organs and scrolls in bad condition, most of them moth-eaten. It's an alchemy lab. We find a note with four <strong>alchemical symbols</strong>, and another note with three alchemical symbols.</p><p>We learn the symbols for Air, Earth, Fire, and Water, as well as Mercury, Salt, and Sulphur. We also find some <strong>Broth of Needful Fortitude</strong> and I have to explain to Kyrin… it's people. It's made of people. Don't eat it. There are 2… servings. Plex grabs one and Aviana the other. Why are you like this. We open the door to the east and find an oddly comfortable room; a bed, a chest, and a table. It's dusty and hasn't been used in a good few years, the wood is not rotten and the bed still structurally sound. A room made for a living person, clearly…</p><p>Kyrin picks the lock on the chest and pulls out a <strong>Wand of Secrets</strong> along with 2 Jades and 1 Onyx. Fearghas takes the gems for future spellscribing. Aviana gets on the bed to snuggle with the blanket, it snuggles back, thankfully it's not a Mimic. A door to the north leads to a small study, which has the side effect of immediately Special Summoning both wizards to the field in Attack mode. Books on necromancy and undead… far below Fearghas' knowledge. There are three pots of ink and… an unlit, greyish white candle. It's the first unlit candle we've seen here but it looks like a normal candle.</p><p>We find out Plex had been unusually reasonable because of Void corruption inducing madness in him. Now he's back to his chaotic ways.</p><p>The ink is… <strong>Necromantic Ink</strong>! It can make zombies, but it can't control them. Fearghas immediately swipes them to prevent Plex from making zombies. He then casts Detect Magic as a ritual on the candle and sees illusion magic, would you look at that… \"The illusion it's that it's actually lit!\" - Kyrin. The DM says cryptically, \"Remember that.\" I am remembering that now. Plex lights the candle… and it vanishes. Plex grabs it; it's an <strong>Ethereal Candle</strong>. The Goblin gives it to me, as I can use it to stealthily detect lies with my <strong>Candle's Insight</strong> spell. Requires a bit of setting up, though.</p><p>We find a spell scroll: <strong>Creeping Crawling Claw</strong>. It… it grants sentience to a severed hand. Plex picks up the scroll… oh dear. Emilio looks around and finds a hidden compartment under the desk. It contains 100 gold and an <strong>Elixir of Clear Mind</strong>. <s>Emilio and me briefly share a braincell</s>. We go through the door to the north and find another door to the north, and stairs going up. We enter the room and find the well-preserved, headless, handless corpse of an ogre. Both its hands have been replaced by cleavers. The stitches are… \"amateur work,\" Fearghas and me say at the same time, but for different reasons. There is a healer's kit on the table, some blood on it, no matter. Yoink.</p><p>There is a door to the west, leading to a necromancer's workshop. T-the smell… In the room is a potion cabinet and two corpses, there are partly mummified but the process was interrupted so they are decaying. They've been here for at least a year, though. Aviana and Plex grab healing potions from the cabinet. Fearghas' keen eyes spot a well-hidden vial… a <strong>Potion of Time Stop</strong>! There is some more Necromantic Ink, and a vial of <strong>Willowshade Oil</strong>. Plex grabs 2 pots of the ink, and Fearghas steps in to buy them off him for 200 gold.</p><p>Aviana is bored and goes to open the door to the west. It reveals a short corridor, and some of the floor tiles have <strong>alchemical symbols</strong> drawn on them. Fearghas knows these symbols: Goblin/Explosion (they are interchangeable), Medusa (or some kind of petrifying poison), and Disintegration. Stepping on either of these will not leave a corpse… but we can see them pretty clearly in the light from Aviana's gem. Emilio recognises those as amateur glyphs of warding; a proper <strong>Glyph of Warding</strong> would be practically invisible. So a necromancer in the early stages of their craft lived here, for a time…</p><p>We easily dodge the traps and return to the room north of the mass graves. Plex teleports randomly, does not die, good job Plex! We return to the family crypts where we fought the Ghouls, and go north through a narrow corridor. We find ourselves in a square room littered with skulls. A heartbreaking wailing comes from below, giving us a splitting headache. It comes from a well in the middle of the room, the bottom of it filled with <strong>green mist</strong> that reminds us of the Nightwraiths in <strong>Belovodye</strong>. There is one door to the north, and one to the west.</p><p>We decide on west and slam the door shut behind us, silencing the wail. Three statues decorate this room; one angel statue deliberately smashed to pieces, one statue of an elven dancer that still stands, and one statue of a muscular man with a pensive expression, also untouched. The pedestals are engraved with inscriptions.</p><p><strong>Dancer</strong>: Give thy youth, and be shown the way.</p><p><strong>Pensive man</strong>: Give thy health, and be swallowed by darkness.</p><p>The symbol on the floor is the same as the one in the big room with the crystal. I cast <strong>Augury</strong> to consult the omens on \"giving my health to be swallowed by darkness, as written on the statue of the man\". Fearghas casts Detect Magic, Aviana casts Find Traps by doing push-ups, Plex casts Tenser's Floating Disk, Kyrin uses the <strong>Wand of Secrets</strong>. The wand points at north and south! Aviana detects no traps so they have to be secret doors.</p><p>I receive the omen <strong>Weal</strong>. Fearghas detects necromancy and illusion on both statues. He takes a look at the stonework… they're not as old as the oldest part of the hold. Definitely Dwarven-made but they seem unfinished or less polished. The angel statue is much older, and was made by a more accomplished, expert hand. He puts on the <strong>Glasses of True Seeing</strong>, but nothing pops up. Kyrin uses the <strong>Sheeshah of Revelations</strong> to ask \"What will happen when we use the statues?\"</p><p>For the man, it says \"In darkness, you will find memories and a friend.\" For the dancer, it says cryptically that by giving your youth, you'll find a safer route but it is not the only way. Plex really wants to find a friend so he hurries to the man statue, but then does not want to give his health, so Emilio volunteers, as he can see perfectly in darkness anyway.</p><p>\"Do you want me to stab you?\" - Kyrin</p><p>Emilio sets himself on fire with <strong>Hellfire</strong>. He is swallowed by magical darkness and yells a door opened. I use Piercing the Veil and follow him, guiding the others. We find a primitive grave, no more than a pile of bones strewn carelessly about. These are a female Orc's bones about 18 000 years old. Walking through these halls, I've picked up on burial rites. This… really isn't it, and the skeleton is incomplete. The bones were disturbed, but they're not broken so it was probably not a violent death.</p><p>Fearghas casts <strong>Fabricate</strong> to turn the stone bench into a sarcophagus with the inscription \"To them unknown but not forgotten.\" Kyrin and me respectfully gather the bones and place them inside. As I place the skull inside and we close the sarcophagus, a clattering comes from inside. A voice says \"Waiwaiwaiwaiwait! Oh so many people. Help. I haven't been social lately. My name is <strong>Ka'tesa Redtale</strong>.\" We start chatting with the skeleton. She explored these caves from below, from the Underdark. At the time, they were beautiful natural caves. The Dwarves picked up her bones and shoved them aside as they built Khaz Narak.</p><p>The skeleton says some of us are hurt, but she is not talking about our bodies. \"You carry burdens upon your souls, some of you carry heavy curses. I have some experience with curses. People called me an oracle. I can help you…\" She can cast <strong>Greater Restoration</strong> at 6th level, 4 times. Shalkoc can speak again (we had to cast Speak with Animals all this while to make sense of his bleating) and regains some of his strength, I'm a little wiser again, and Aviana is no longer in the bad graces of a death god. With this Ka'tesa bids her farewells and asks us to seal her crypt properly so no rats come to gnaw on her bones. We seal the sarcophagus, and the magical darkness is dispelled.</p><p>We return to the room with the three statues, and take a moment to heal up. I patch up what injuries I can, we drink healing potions, we're not healed all the way but doing much better.</p>"
+        },
+        {
+          "name": "113 - Shalkoc's incredible dice curse and Plex the Ancient",
+          "section": "journal-pages",
+          "content": "<p><strong>Monday, 14</strong><sup><strong>th</strong></sup><strong> of Duodecimus, 1497</strong></p><p><strong>10:10</strong></p><p>Plex suggests sacrificing a child to the <strong>Dancer</strong> statue. I argue it doesn't work semantically, unless he can sacrifice himself as a child. We call Fearghas old, he grumbles he is only 135. Shalkoc is casually racist, sending Fearghas into further grumbles. In a mansion somewhere, a chisel is carving choice words into stone.</p><p>Fearghas goes up to the Dancer statue and takes her hand. He feels slightly awkward, and nothing more happens. We consider the occurrences of \"giving your youth\" in <strong>Elven or Dwarven lore</strong>. Fearghas rolls for History, poorly. Kyrin rolls for History, as she comes from one of the greatest cities in the world… and it's a natural 20, which immediately breaks the DM. Plex is confused about his own abilities.</p><p>Kyrin remembers a story about High Elven society: the older an elf gets, the more respected they become. Young elves aren't paid much attention to, aren't listened to a lot. They have to <strong>earn their place</strong> in society by living past 500 years, and most don't like to remember their younger centuries when society was dismissing them as children.</p><p>Considering race lifespan, Plex is the oldest of us. Not so much in number of years but in how old he is for his race; Plex is an old goblin. We push him to try touching the statue, he is reluctant but eventually agrees. He reaches up on his tippy-toes and touches the statue. It's cold and the cold seeps into him, draining the warmth from his hand. He has to roll a <strong>CON save</strong>, burns a Borrowed Luck, rolls a 1 on it. I encourage him from a safe distance, if anything bad happens to him I can probably undo it…? He's not rolling well and is freaking out about re-rolling, but decides to keep the initial result.</p><p>We see Plex' shoulders slump, his eyes get a milky shite sheen to them, his hands on his staff begin to shake… he ages 6 years. I go to check on him, he grumbles his back hurts. I… might be able to fix this with a Greater Restoration but… not now. Kyrin feels bad for pushing Plex into this. Fearghas wasn't affected by the statue and he assumes it's because he is wearing gauntlets, while Plex touched the statue with his bare hand.</p><p>A door opens to the side, and we go through a short corridor into a room furnished with tables and instruments for embalming people. There are four jars bearing animal heads; a <strong>crocodile</strong>, a <strong>cat</strong>, a <strong>bird</strong>, and a <strong>bear</strong>. Aviana and Emilio start casting ritual spells while Fearghas, Shalkoc, and Kyrin search the room. Plex and me are keeping watch. <s>Shalkoc is sniffing for gold</s>. Aviana finds no traps and Emilio finds faint traces of necromancy magic everywhere, and a bit of abjuration on the jars. Some illusion on the table… he gets close to check and pulls his hand away! There are 3 <strong>Ethereal candles</strong>, invisible and burning. He calls me over and I put them out to stow them away in my bag.</p><p>Kyrin spots 4 pots of <strong>Necromantic Ink</strong> and points them out to Fearghas. I roll Perception to stand watch but Aviana distracts me. Plex? What do your goblin eyes see? \"Not much these days,\" he says as he rolls a 3 on Perception just like me. Yep we're all gonna die. Plex is only wearing 1 hat and not getting bonuses.</p><p>Emilio warns Fearghas and Shalkoc of the abjuration magic on the jars, so Fearghas tries to talk Shalkoc out of opening them, but the Dragonborn smells food inside. With his incredibly keen food-sniffing abilities, he identifies organs inside the jars… <strong>brain</strong> (bear jar), <strong>liver</strong> (bird jar), <strong>lungs</strong> (cat jar), and <strong>intestines</strong> (crocodile jar). Uh-oh… Plex is tired of his hats and wants new ones, Aviana offers to make him some with <s>skin</s> leather. Fearghas identifies the magic on the jars; it merely preserves the organs inside so they are in the same condition they were in when they were placed into the jar. Fearghas looks around for a fifth jar containing a heart, but finds none. He advises not to destroy the jars, for now.</p><p>\"Have I mentioned how much my back hurts?\" Plex says. I search my herb pouch for remedies against joint pain and Shalkoc gives the goblin a massage. It's not in his interest that the goblin dies just yet, he loaned him money… To the north of the embalming room is a a bathroom for washing bodies. A door leads east so we open it and look into a small room with four richly decorated <strong>sarcophagi</strong>. They're not Dwarven, the style of decorations doesn't match. Cool air rushes towards us, almost clean air unlike the stale air in the rest of the lair. It's not fresh but… bone-chilling.</p><p>Turns out, a Dwarf in plate armour isn't too stealthy and Fearghas opens the door loudly. The lids on the sarcophagi start to shake but don't lift; instead, ghosts pass through them. We roll initiative and by god my rolls are shit tonight, that's not worrying at all. I'm not nervous, you are. A <strong>Wraith</strong> rises from the grave and ghosts through Fearghas and Kyrin, stopping right next to me. A-aaaaah! It's so cold… <s>Domi is making very spooky sounds, not helping</s>.</p><p>The Wraith hits Shalkoc and then crits him, because of Aviana. The DM is rolling like crazy and Shalkoc is hit by <strong>Life Drain</strong> and rolls TWO NATURAL ONES on the CON saves. What in the fuck. A Plague Spirit appears! Another Wraith makes a beeline for Shalkoc, ignoring the rest of us. Aviana gives Shalkoc Resistance and tells him to believe in himself as does an Inspiring Flex. Plex immediately pops a Fey Step and somehow does not end up inside a wall. But he runs past everyone and triggers an opportunity attack from a Wraith and also fails the save on Life Drain. Then he casually makes a black hole with <strong>Event Horizon</strong>, as Plex does.</p><p>Fearghas pops a spellgem and casts Slow, and takes a Steeling Drink. Kyrin pulls out the <strong>Sun Blade</strong> and annihilates the Wraith next to Aviana and stabs the one that's uncomfortably close to me with a Psychic Blade. Shalkoc gets to punching right above my head and ends the Wraith that was… hehe… chilling there. Shalkoc does a drive-by punch on the Plague Spirit and activates Chromatic Hardening, but as he moves away he gets whacked. Shalkoc blocks with his wings and retreats unharmed.</p><p>Emilio gets to blasting, as he does. He inflicts heavy damage on the Plague Spirit. I shout out \"Fearghas, duck!\" and throw a Fire Burst at the Plague Spirit. The Dwarf is confused and replies \"There are no ducks in here, only a Plague Spirit?\" A dead Plague Spirit. Peak healing. This is what we call prevention. Then I use the <strong>Heart of Winter</strong> to heal up my friends, mostly Shalkoc who's looking sad, but Plex is out of range, get your goblin bum closer.</p><p>Aviana sees two sad Wraiths ahead and jumps to them with a boom! Then starts slapping them with her wings. Plex casts <strong>Sapping Sting</strong>, but it's not very effective. Fearghas casts Sacred Flame and the Wraith is looking thin. Another one! And the ghost dissipates. Kyrin steps to the last Wraith with the Sun Blade and slices! It's not enough, so Shalkoc gets in to finish the job. Combat is over so I tell everyone to get in for a group hug as the Heart of Winter sends out another pulse of soothing mist.</p><p>There are four doors to this room; we come from the one to the west, and there is one to the north, one in an alcove to the east, and one to the south. Emilio stands watch and warns us an enemy is approaching from the south! We take positions around the door and prepare for combat. The door opens and a big <strong>Boneclaw</strong> stomps in to attack Shalkoc! He blocks with his wings, so the big guy swipes at Kyrin instead but she dodges out of the way. Boneclaw moves to Plex, triggering an attack of opportunity from Shalkoc. He crits and Aviana helps, but Plex and Fearghas take damage from Boneclaw's Shadow Jump as he teleports away.</p><p><strong>Giant Trapdoor Spiders</strong>! One scuttles to Shalkoc and bites him, thankfully he takes no damage from poison so it's just the nibble. Fearghas pops another spellgem of Slow but of course the Boneclaw succeeds on the save. He takes another Steeling Drink! I'm getting worried about Fearghas, he needs to be drinking less alcohol and more water… Shalkoc punches two spiders to death and then runs into the room alone. The Boneclaw is not too comfortable about it and whacks him, then grabs him. Shalkoc isn't happy and goes to <strong>Turtle Style</strong>.</p><p>\"That's not really a good investment.\" - Shalkoc, completely relaxed in a life-or-death situation and evaluating his potential profits.</p><p>Aviana goes and squashes another spider and is apalled to get spider-juices on her leg, so she goes to wipe it on the Boneclaw and crits! She casts <strong>Resistance</strong> on her \"good green friend Shalkoc II, because Shalkoc I has been demoted now.\" The tiny lizard under Plex' hat is dancing in elation, he has been promoted to Shalkoc The First. Plex casts <strong>Vortex Warp</strong> and gets a surge that makes him permanently forget a cantrip! He really is getting old… Fearghas steps in with a <strong>Martyr's Locket</strong> to forget one of his three Toll the Dead. Plex does gravity bullshit and Fey Steps away, but not before yanking the Boneclaw right in front of Emilio.</p><p>Kyrin is just on the other side of the Boneclaw and starts slicing with extreme prejudice and some trash talking. She opens up the undead from the neck down with the Sun Blade! And silence returns. Thank the gods Emilio heard them in time! Fearghas steps away to heal himself with Ray of Frost, then removes the max health penalty from Shalkoc with a <strong>Greater Restoration</strong>. Shalkoc uses Hand of Healing and patches himself up a bit, then repeats the operation on Plex. He then rolls on his Dragonhide Belt… and as Fearghas predicted, he rolls a 1 on the d8 and slumps sadly into a corner cradling a Potion of Greater Healing.</p><p>Fearghas gives Shalkoc a spellgem to cheer him up; it's <strong>Tenser's Transformation</strong>! I'll be needing some popcorn when Shalkoc uses this one… I patch up Plex' wounds, can't do much for Shalkoc though, he needs rest and I can't fix that with herbs exactly. Aviana gives me a Springseed as a snack and I happily eat it but roll absolute garbage on the HP because I was standing too close to Shalkoc and his dice curse is radiating out. Then I eat another very strange snack: an Oathgold Coin. It's… really weird, eating metal. It works, surprisingly rich flavour, reminds me of caramel? I unattune from the depleted Heart of Winter and attach my Elemental Shard of Air to my spellwards.</p><p>We go south into a chapel choked with spiderwebs. It's dedicated to a goddess… but I have no idea which one. Fearghas mutters she's worshipped in the <strong>Green Sea</strong> and northern parts of Taldor, probably. We find 2 dusty bottles of <strong>Holy Water</strong>, which I grab as a spell component. Kyrin finds a Silver Thurible and Fearghas finds a Golden Chalice. Plex complains his old eyes aren't what they used to be.</p><p>The door to the east opens up on the crystal room. The door to the north is not only very sturdy and locked… it's made of blackened steel. Oh no… It's not just <strong>null-steel</strong>, but also <strong>adamantine</strong>. <s>Fearghas says it will be worth a lot and advises we chuck it into the Portable Hole and leave</s>. Plex tries the <strong>Instant Door</strong>, but it doesn't work. We assume the wall is too thick. Kyrin could try picking the lock, but if she fails she might jam it really bad, so we decide to try another path first.</p><p>We go back to the web-choked chapel and open the door in the east wall. It reveals a corridor littered with bones and Aviana confidently goes in <s>before the DM is done describing</s>. The Harpy immediately steps on a pressure plate and gets blasted by a bolt of <strong>lightning</strong>. Kyrin jumps out of the way, Shalkoc performs the sick dodges, and Aviana protects herself with her wings. Fearghas in his heavy armour gets blasted and fried, Aviana takes light damage. Fearghas yells at Aviana and calls her a \"bird-brained brute\".</p><p>Emilio casts <strong>Gift of Alacrity</strong> on himself. Fearghas heals himself with Ray of Frost. Kyrin looks for traps, with Fearghas' Guidance. Plex goes to take a leak in a corner, he is an old man and his bladder does betray him… then he searches the room alongside Shalkoc. I cast <strong>Augury</strong> with the question \"Is it a good idea to teleport alone into the room with the black door?\" <strong>Woe</strong>. I expected that, but any argument to stop Aviana to kick Plex into danger…</p><p>Kyrin finds another pressure plate, let's maybe NOT step on that one? As we are investigating our surroundings, a wail approaches from the south. We're getting attacked again! Fearghas and Emilio ready up spells, and the moment a <strong>Plague Spirit</strong> drifts in they both get to blasting. The Spirit goes to crit Aviana, she heals up and recovers all her Rages but her Strength is drained by 5! She retaliates with Reckless Attacks and kills it. The wailing continues… Aviana goes into a Rage. Plex readies up Magnify Gravity. Shalkoc was casually 30 feet up on a wall, oddly fascinated by the stonework. <s>Please don't try to eat the stone</s>.</p><p>Shalkoc jumps down and goes to the door; another Plague Spirit appears and Plex casts his spell, casting Shalkoc in the area (predictably). Shalkoc fails the save, takes damage and has his speed halved. Shalkoc is hit with the Strength Drain and pops his <strong>Legendary Resistance</strong>. Kyrin closes the door and hides. I see the Spirit threatening Shalkoc and I blast it with a Fire Burst! It's not enough to kill it but it was a pretty good roll. Fearghas hits it twice with Sacred Flame and deletes it, ending the encounter.</p><p>Kyrin sees that we've got this and busies herself with untrapping the trap. She succeeds, and we have a long discussion on whether to cleanse Shalkoc and Aviana's strength drain. Aviana insists she is fine, but I do cast Greater Restoration on Shalkoc. Then I demand the Harpy casts <strong>Death Ward</strong> on me. I'm not afraid of dying… but I don't want to leave my friends alone in a scary place. I feel the spell take hold on me, a chill down my spine with a spark of comfort, a touch of reassurance.</p><p>Then there is more than just the spell. Gentle power and a sense of relief and warmth, as if I've picked the right path. Pride as from a smile out of a teacher or a parent. The guiding hand of a friend and mentor… and light, hope, confidence. I feel steadfast and at peace. I need my friends, but they also need me. My <strong>Angel's Grace</strong> has awakened!</p><p>We proceed down the east corridor, avoiding the traps Kyrin pointed out. The corridor splits in a T-shape, north is a door and south is a room with more sarcophagi. Kyrin sees something glittering through a tiny slit… We struggle a long time to open the sarcophagus, but eventually loot jewellery, a ritual axe, and a <strong>small brass key</strong>.</p><p>We got back north and try the key on the black door. I opens! Beyond is a room full of treasure, piles of ancient coins… and a <strong>Glyph of Warding</strong>. Fearghas… knows how to use this particular one for himself, and it would summon a bone dragon! I… urgh… the black door is giving me the creeps… I reluctantly hurry past it and into the treasure room. Fearghas casually rolls a 30 on History and… hmmmm. There's dragons on a lot of these coins.</p><p>Three glass cabinets contain a ring, another ring, and a spyglass. One of the rings looks completely plain and unremarkable. The ring in the middle cabinet… has half a stylised brain on it?! The spyglass is made of brass with arcane runes on it. Fearghas finds a spell scroll for <strong>Cloud of Daggers</strong>! He casts Detect Magic as part of checking the room for traps and… he pissed off a deity and gets blasted with 45 radiant damage. Keeps concentration like a boss, beard smoking and only slightly grumbling. Both rings and the spyglass are magical, how surprising. The plain ring has evocation magic, the one in the middle has abjuration and some illusion, and the spyglass has a lot of conjuration.</p><p>All three cabinets glow very strongly with abjuration and necromancy. There are very small keyholes on the cabinets, and we can safely assume picking a lock could trigger the spells cast on it. Fearghas thinks on it, trying to identify the spells while Plex muses on \"eating the crocodile intestans\". Fearghas assumes the spells on the cabinets would be draining vitality in a big area, not unlike a <strong>Circle of Death</strong> spell.</p><p>Kyrin unfolds the Portable Hole; we can't go into it because of the wards against planar travel, but we can shovel objects in. We vaccuum up <strong>9800 gold</strong> pieces! We find another object… a logbook written in Vrazzak's hand listing <strong>materials</strong> he acquired: lead, iron, tin, silver, gold, antimony, arsenic, bismuth, magnesium, phosphorus, salt, mercury, sulphur. We return to the archive and put our heads together on the riddle and alchemical symbols we found.</p><p>With Fearghas' knowledge of alchemy, a cast of Augury, and <strong>Contact Other Plane</strong>, we figure out the riddle. Fearghas melts and mixes the necessary materials, and pours the brew into the vault hole. It unlocks the door! We don't see any traps so we walk in and Plex teleports in, right on top of a spell scroll of <strong>Locate Object</strong> <s>the irony</s>. Emilio and Aviana keep an eye out for any dangers as we search the room.</p><p>Fearghas finds recipes for the <strong>Elixir of Clear Mind</strong>, Potion of <strong>Minor Agility, Endurance, and Brawn</strong>. The potions set respectfully DEX, CON, or STR to 19 for an hour. We also find 3 small keys that look a lot like they would open, at a guess, three glass cabinets. One is gold, one is brass, and the last is arsenic. We return to the three cabinets and use the gold key on the one containing the plain gold ring. It's a ring called <strong>Sorrowed Sunlight</strong>! Its powers remind me strongly of Sarenrae… I take the ring and plan to attune to it as soon as I can.</p><p>The second item is a <strong>Ring of Mind Shielding</strong>! Uh… there might be a soul inside it, we should probably check that, but Kyrin grabs it for the time being. The last item is a <strong>Spyglass of Summoning</strong>, it can yoink a creature over as much as 600 feet… this might be something for Aviana. The Spyglass doesn't require attunement anyway so we can easily give it to whoever needs it at the time.</p><p>We return to the crystal room, urged on by Kyrin who worries about time. Fearghas casts another <strong>Contact Other Plane</strong> to confirm the symbols of other alchemical element. We have a pretty long list now… Silver (Wisdom), Gold (Perfection), Magnesium (Eternity), Phosphorus (Light), Lead (Nature), Bismuth (Transformation), Arsenic (Death and Rebirth), Antimony (Freedom), Tin (Completion), Mercury (Mind), Salt (Body/Purification), Sulphur (Soul/Expansion/Heat). Air (Life), Earth (Movement), Fire (Emotion), Water (Intuition). Phew… The crystal holding the unholy grimoire rests on a symbol that symbolises the <strong>Philosopher's Stone</strong>.</p><p>We wipe the dust off of the pedestal with the symbol for Air, blowing some wind on it with Prestidigitation. Fearghas goes to the pedestal for Arsenic and places some arsenic on it, twice. <strong>Life, Death, Rebirth</strong>. The candles go out and smoke rises from the pedestal in the middle. Up on the ceiling, the chest of the dead phoenix begins to glow, becoming brighter until it fills the entire room! It gets blazing hot… we have to get out of here! We run to the closest door, one of the two to the south, and slam it shut.</p><p>We hear a shriek, roaring fire, and Aviana holding the door closed feels the heat through the stone door. She has to push hard against the door to keep it shut but the pressure builds… until we hear a cry, reminescent of Aviana's shriek when she rages. It's so loud, it shakes the walls. Then the heat vanishes and perfect silence falls. We open the door and see the stone of the walls and floor have melted. The <strong>phoenix</strong> on the ceiling is gone, and right next to the crystal in the centre of the room is an egg. It's bigger than me…</p><p>As Fearghas comes close, the protection runes on his scythe begin to glow. The rest of us have to roll a CHA save?! I burn an inspiration to reroll mine while Emilio is chilling with a 30. Aviana flutters her <strong>Royal Commander's Cloak</strong>, to the DM's dismay.</p><p>Plex thinks to himself… he is the shaman of his tribe. He's done a lot for them, gave them a home and safety from the curse. But is it enough? What about the other people of Promise? Wherever he goes, he leaves chaos behind, disturbs the life of people who haven't wronged him… he feels deep guilt about it, and decides he ought to make amends, set things right. He thinks of the people in <strong>Deadlight</strong> whom he terrified, and accidentally killed. With what time he has left in his life… he needs to make things right.</p><p>Kyrin is haunted by similar thoughts; she's a very competent thief and suddenly it doesn't feel right. It never felt right. She's been rationalising it all the while, but all she's ever stolen, it… it was wrong. Shalkoc remembers the moment in the <strong>Black Vents</strong> when he saved Plex from certain death, and instead of being grateful for the opportunity to save a dear friend's life, he only threatened him about how much he owes him. Anyone owing Shalkoc anything… is wrong. He has a good life. He doesn't need more. He has good food and friends, he wants to share his talents. He doesn't need gold or treasure for any of that. His definition of value was wrong this entire time! What really matters is helping people… the gold in his hoard is a waste, so many people are starving… He takes the <strong>Draconic Amulet of Greed</strong> and just takes it off, the curse having no power over him.</p><p>I feel… so guilty about my <strong>family</strong>. I've abandoned them. They raised me, taught me all I know. Dad made my spellwards and I haven't spoken to him in years. I made excuses to justify not going back, not being there for them. Not just my parents, the people of <strong>Ildilas</strong>… they need me. I owe them everything. And then there are the others I abandoned; Osten, Magnus, Daman… where are they? My heart turns to stone from the guilt… Before I know it, I've fallen to my knees sobbing.</p><p>Emilio thinks back on his village, on what he could have done differently. He realises he's not doing enough to protect the world, and not just that, he is endangering it just by being here. How is <strong>Lyrielle</strong> doing? He feels the warmth of her embrace on the <strong>Robe of Stars</strong>… and he knows how Lady Vandree is, and Lyrielle stole the cloak, he needs to go help her now! And then he snaps out of it. What the hell? What's going on?!</p><p>Both Aviana and Fearghas have a similar experience; crushing guilt, and a need to do more, to be kinder… they almost get lost in these thoughts before they can come to their senses. Fearghas snaps out of it when he realises he's thinking the <strong>goblins</strong> maybe just really need a bit of education! He pictures himself in a classroom teaching a bunch of goblins doing goblin things. Oh no… Aviana already saved her tribe, but she's away all the time… and besides, that's just half of who she is. She doesn't know her <strong>biological parents</strong>, how they're doing. What could she do for them? And then she just stops thinking, as she does.</p><p>Fearghas and Emilio realise where this is coming from; the right eye of <strong>Dahak</strong>, hidden inside the egg. Fearghas spices up <strong>Elixirs of Clear Mind</strong> for Shalkoc and Plex while Aviana wraps Kyrin and me in the Royal Commander's Cloak… like very spicy maki rolls. Kyrin is livid at having her mind messed with. I feel angry too… angry at the weakness that came over me, at the lack of trust in the people I love. My parents and my friends can care for themselves. What kind of hubris would it be, to think I could solve anything if I just did more? How far would it go, until I die trying to help people who can help themselves? I feel shaky from the overwhelming guilt, weak from crying my heart out… but I'm not alone.</p><p>We realise we've resisted or recovered from the eye's influence, but not for long. <strong>24 hours</strong> at most. Fearghas, however, is protected by the runes on his scythe. But even their powerful magic will not last forever. The egg/eye is huge and so heavy it can only be carried by Aviana, or several of us together.</p><p>Fearghas deeply desires the book inside the crystal and is willing to risk it all for it. The <strong>Unholy Grimoire of Arcane Apostacy</strong>… we discuss semantics and symbolics, trying to find a way to open the crystal. \"apostacy\" means renouncing faith. Fearghas goes to activate the symbols for sulphur, bismuth, and arsenic. He feels something is missing, assumes he needs a fourth element. He goes with mercury… and the crystal splits open into dozens of shards that float around Fearghas. The rest of us have to step back, leaving the wizard alone with the book in front of him.</p><p>Fearghas reaches out… and takes the tome.</p>"
         }
       ]
     },
@@ -10842,7 +10900,7 @@
         {
           "name": "Inventory",
           "section": "journal-pages",
-          "content": "<p></p><ul><li><p>1/2 Handfull of grilled maggots</p></li><li><p>Fishbone with magical Energy</p></li><li><p>10x Cow Bell</p></li><li><p>111x Stack of parchment</p></li><li><p>Angel feather from Ezeriel</p></li><li><p>ball of Wool</p></li><li><p>2x Coral fragment</p></li><li><p>spellbook</p></li><li><p>2x pyrope (500g)</p></li><li><p>sea urchin</p></li><li><p>1x coconut shell</p></li><li><p>jade</p></li><li><p>Forked Metal Rod</p></li><li><p>Wooden Chicken Statue with Knife beak</p></li><li><p>Gas mask made from \"important bowl of a dead man\"</p></li><li><p>Dried meat ((<span>I hidd some food in the library in the tower (</span><span>behind the section for Elven history)</span><span>.)</span></p></li><li><p>Flying Permit (made by Ferghas)</p></li><li><p>Everything Permit (made by ferghas)</p></li><li><p>76 permits for every different i have on me except for 5 of my hats</p></li><li><p>Visit Permit.</p></li><li><p>Spellcasting permit.</p></li><li><p>Walking permit.</p></li><li><p>Trading permit.</p></li><li><p>Running Permit</p></li><li><p>Freedom Permit</p></li><li><p>Warrant for house entry.</p></li><li><p>\"Get out of jail free\" Card.</p></li><li><p>Breaking the law Permit.</p></li><li><p>Everything Permit</p></li><li><p>Permit Permit</p></li><li><p>Flying Permit</p></li><li><p>Currency Permit</p></li><li><p>Permit to have a permit to imprisson someone.</p></li><li><p>A bunch of Papers (presumably permits and or scrolls)</p></li><li><p>Model of a Airship (In Promise)</p></li><li><p>5 Flying hedgehog</p></li><li><p>Pogo stick (worth 250g)</p></li></ul>"
+          "content": "<p></p><ul><li><p>1/2 Handfull of grilled maggots</p></li><li><p>Fishbone with magical Energy</p></li><li><p>10x Cow Bell</p></li><li><p>111x Stack of parchment</p></li><li><p>Angel feather from Ezeriel</p></li><li><p>ball of Wool</p></li><li><p>2x Coral fragment</p></li><li><p>spellbook</p></li><li><p>2x pyrope (500g)</p></li><li><p>sea urchin</p></li><li><p>1x coconut shell</p></li><li><p>jade</p></li><li><p>Forked Metal Rod</p></li><li><p>Wooden Chicken Statue with Knife beak</p></li><li><p>Gas mask made from \"important bowl of a dead man\"</p></li><li><p>Dried meat ((<span>I hidd some food in the library in the tower (</span><span>behind the section for Elven history)</span><span>.)</span></p></li><li><p>Flying Permit (made by Ferghas)</p></li><li><p>Everything Permit (made by ferghas)</p></li><li><p>76 permits for every different i have on me except for 5 of my hats</p></li><li><p>Visit Permit.</p></li><li><p>Spellcasting permit.</p></li><li><p>Walking permit.</p></li><li><p>Trading permit.</p></li><li><p>Running Permit</p></li><li><p>Freedom Permit</p></li><li><p>Warrant for house entry.</p></li><li><p>\"Get out of jail free\" Card.</p></li><li><p>Breaking the law Permit.</p></li><li><p>Everything Permit</p></li><li><p>Permit Permit</p></li><li><p>Flying Permit</p></li><li><p>Currency Permit</p></li><li><p>Permit to have a permit to imprisson someone.</p></li><li><p>A bunch of Papers (presumably permits and or scrolls)</p></li><li><p>Model of a Airship (In Promise)</p></li><li><p>5 Flying hedgehog</p></li><li><p>Pogo stick (worth 250g)</p></li><li><p>4 magical Jars to store food forever. <s>Crocoodile intestans</s>, Bird brain, Somethig something and Something something.</p></li></ul>"
         }
       ]
     },
