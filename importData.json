@@ -1112,6 +1112,14 @@
         "description": "<p>Immediately after you take damage during combat, you can choose to spend one of your hit dice to heal yourself for 1d12 + your Constitution modifier.</p><p>If you're below 50% health, this healing increases to 2d12 + 2x your Constitution modifier.</p><p>If you're below 25% health, this healing increases to 4d12 + 4x your Constitution modifier.</p>",
         "section": "feature-items",
         "requirements": "Bear Spirit"
+      },
+      {
+        "name": "Activated: Fly - 3rd",
+        "description": "<p>You touch a willing creature. The target gains a flying speed of 60 feet for the duration. When the spell ends, the target falls if it is still aloft, unless it can stop the fall.</p><p><strong>At Higher Levels. </strong>When you cast this spell using a spell slot of 4th level or higher, you can target one additional creature for each slot level above 3rd.</p>",
+        "section": "physical-items",
+        "quantity": 3,
+        "combinedLabel": "Spell Gem",
+        "attunementLabel": ""
       }
     ],
     "Emilio Astray": [
@@ -1954,6 +1962,22 @@
         "description": "<p>You can sense the blood of living creatures near you that aren't constructs, elementals, oozes, plants, or undead. You can pinpoint the exact locations of such creatures within 30 feet of you, even if they are hiding, invisible, behind a wall, or otherwise obstructed by terrain. Additionally you can always tell whether one or more such creatures are present within 90 feet of you.</p>",
         "section": "feature-items",
         "requirements": "Warlock 2"
+      },
+      {
+        "name": "Lightning Blade",
+        "description": "<p>You brandish the weapon used in the spell's casting and make a melee attack with it against one creature within the weapon's reach. On a hit, the target suffers the weapon attack's normal effects, and you cause an arc of lightning to leap from the target to a another creature of your choice that you can see within 5 feet of it. A creature struck by the arc takes [[/damage 1d6 lightning]] damage.</p><p>This spell's damage increases when you reach certain levels. At 5th level, the melee attack deals an extra 1d8 lightning damage to the target on a hit and the number of arcs increases to two. All arcs can strike the same creature. The extra damage and the number of arcs increase to 2d8 and 3 arcs at 11th level, and to 3d8 and 4 arcs at 17th level.</p>",
+        "section": "spell-items",
+        "spellLevel": "Cantrip",
+        "spellRange": "Self",
+        "spellSchool": "Evocation"
+      },
+      {
+        "name": "Activated: Shield - 1st",
+        "description": "<div><p>An invisible barrier of magical force appears and protects you. Until the start of your next turn, you have a +5 bonus to AC, including against the triggering attack, and you take no damage from  magic missile.</p><div></div></div>",
+        "section": "physical-items",
+        "quantity": 1,
+        "combinedLabel": "Spell Gem",
+        "attunementLabel": ""
       }
     ],
     "Fearghas MacAllistar": [
@@ -2688,14 +2712,6 @@
         "attunementLabel": ""
       },
       {
-        "name": "Ancient Chainmail of Celerity",
-        "description": "<p><em>Requires attunement by an arcane spellcaster</em></p><p>While you're wearing this +2 ancient chainmail and are attuned to it, you're under the effect of Celerity.</p><p><strong>Ancient Armor</strong></p><blockquote><p>Arcane Spell Fail chance: 35%<br>Armor Check Penalty: -5</p></blockquote><p><span>&amp;Reference[ancientarmor]</span></p><p><strong>Celerity</strong></p><p>Your speed is doubled and you have a +1 bonus to AC and Dexterity saving throws.</p><p>You gain an additional action each turn. This action can only be used to take the Dash, Disengage, Hide, or Use an Object action, or cast a spell with a casting time of one action.</p><p>While under the effect of Celerity, if you were to become affected by the Haste spell, you instead become lethargic for one turn.<br></p>",
-        "section": "physical-items",
-        "quantity": 1,
-        "combinedLabel": "Medium Armor",
-        "attunementLabel": "Requires Attunement"
-      },
-      {
         "name": "Activated: Inflict Wounds - 5th",
         "description": "<table>\n        <tbody>\n            <tr>\n                <td>\n                    <p>5th Level</p>\n                </td>\n            </tr>\n            \n        </tbody>\n    </table><p>Make a melee spell attack against a creature you can reach. On a hit, the target takes 3d10 necrotic damage.</p><p><strong>At Higher Levels.</strong> When you cast this spell using a spell slot of 2nd level or higher, the damage increases by 1d10 for each slot level above 1st.</p>",
         "section": "physical-items",
@@ -3044,14 +3060,6 @@
         "quantity": 1,
         "combinedLabel": "Container",
         "attunementLabel": ""
-      },
-      {
-        "name": "Plate Armor of the Litr Rune",
-        "description": "<div><p>The ornate decorations and runes of this +2 plate armor are covered in the scratches of many battles. A character who examines the runes and succeeds on a [[/skill his dc=20]] check recognizes it as a litr (\"color\" in Giant) rune that confers great power.</p><p>The armor has 10 charges, and it regains [[/r 1d4]] expanded charges when you finish a long rest. Its properties are as follows:</p><ul><li><p><strong>Focus of the Litr Rune.</strong> You can use the armor as a spellcasting focus for your spells. Any visible effects created by a spell cast through this armor shimmer in many different colors.</p></li><li><p><strong>Flash of the Litr Rune.</strong> If a creature scores a critical hit against you, you can expend 1 charge as a free action to emit a flash of bright light. All creatures within 60 feet of you that can see you must make a [[/save con dc=20 format=long]] or be &amp;Reference[blinded]. Any creature blinded by this effect can repeat the saving throw at the end of each of their turns to end the effect.</p></li><li><p><span><strong>Ward of the Litr Rune.</strong> As an action you can expend 8 charges to activate the Ward of the Litr Rune for 1 minute. While the ward is active, a barrier of translucent panels of many-colored light forms around you, making you resistant to 4 different types of damage and vulnerable to one other. The types of damage you're resistant and vulnerable to are determined randomly when you first receive the effect and at the start of each round in combat.</span></p></li><li><p><strong>Gift of the Litr Rune.</strong> A master blacksmith can transfer the armor's magic to another nonmagical plate armor by etching the exact decorations and runes that adorn this armor into the other. The transfer takes 8 hours of uninterrupted work that requires the two items to be within 5 feet of each other. At the end, this this armor is destroyed and the chosen item gains all properties of this armor.</p></li></ul><p>The wearer has disadvantage on Dexterity (Stealth) checks.</p><p>If the wearer has a Strength score lower than 15, their speed is reduced by 10 feet.</p></div>",
-        "section": "physical-items",
-        "quantity": 1,
-        "combinedLabel": "Heavy Armor",
-        "attunementLabel": "Requires Attunement"
       },
       {
         "name": "Pyrope",
@@ -3594,14 +3602,6 @@
         "attunementLabel": ""
       },
       {
-        "name": "Blue Quartz",
-        "description": "<p>Preferred by glassmiths or gaffers, to make different types of cups and vases and with help from the blacksmiths, it is used to ornate tankards. Magic wielders use this gemstone to see across the lands or through someone's deceit.</p>",
-        "section": "physical-items",
-        "quantity": 0,
-        "combinedLabel": "Gemstone",
-        "attunementLabel": ""
-      },
-      {
         "name": "Activated: Anticipate Arcana - 3rd",
         "description": "<div><p>Your foresight gives you an instant to ready your defenses against a magical attack. When you cast this spell, you have advantage on saving throws against spells and other magical effects until the start of your next turn.</p></div>",
         "section": "physical-items",
@@ -3757,7 +3757,7 @@
         "name": "Pyrope",
         "description": "<p>Pyrope, a type of garnet known for its exquisite beauty, also holds military significance. It is believed that adorning weaponry with this garnet allows it to penetrate the thickest hides or demolish the strongest doors, aided by arcane forces.</p>",
         "section": "physical-items",
-        "quantity": 3,
+        "quantity": 1,
         "combinedLabel": "Gemstone",
         "attunementLabel": ""
       },
@@ -3888,18 +3888,10 @@
         "spellSchool": "Transmutation"
       },
       {
-        "name": "Activated: Fly - 3rd",
-        "description": "<p>You touch a willing creature. The target gains a flying speed of 60 feet for the duration. When the spell ends, the target falls if it is still aloft, unless it can stop the fall.</p><p><strong>At Higher Levels. </strong>When you cast this spell using a spell slot of 4th level or higher, you can target one additional creature for each slot level above 3rd.</p>",
-        "section": "physical-items",
-        "quantity": 1,
-        "combinedLabel": "Spell Gem",
-        "attunementLabel": ""
-      },
-      {
         "name": "Blue-White Diamond",
         "description": "<p>The most notable gem from the Diamond variations is usually the colorless one which does have a blue-white tint. The use of diamonds is mainly in the jewelry market. Due to its brilliance, hardness, and rarity, it is the most famous of all gemstones.&nbsp;</p>",
         "section": "physical-items",
-        "quantity": 4,
+        "quantity": 2,
         "combinedLabel": "Gemstone",
         "attunementLabel": ""
       },
@@ -3995,7 +3987,7 @@
         "name": "Blue Quartz",
         "description": "<p>Preferred by glassmiths or gaffers, to make different types of cups and vases and with help from the blacksmiths, it is used to ornate tankards. Magic wielders use this gemstone to see across the lands or through someone's deceit.</p>",
         "section": "physical-items",
-        "quantity": 3,
+        "quantity": 0,
         "combinedLabel": "Gemstone",
         "attunementLabel": ""
       },
@@ -4037,14 +4029,6 @@
         "section": "physical-items",
         "quantity": 1,
         "combinedLabel": "Martial Melee",
-        "attunementLabel": ""
-      },
-      {
-        "name": "Activated: Feather Fall - 1st",
-        "description": "<div><p>Choose up to five falling creatures within range. A falling creature's rate of descent slows to 60 feet per round until the spell ends. If the creature lands before the spell ends, it takes no falling damage and can land on its feet, and the spell ends for that creature.</p><div></div></div>",
-        "section": "physical-items",
-        "quantity": 1,
-        "combinedLabel": "Spell Gem",
         "attunementLabel": ""
       },
       {
@@ -4112,26 +4096,10 @@
         "attunementLabel": ""
       },
       {
-        "name": "Spell Scroll: True Seeing",
-        "description": "<div><p>This spell gives the willing creature you touch the ability to see things as they actually are. For the duration, the creature has &amp;Reference[rule=truesight], notices secret doors hidden by magic, and can see into the Ethereal Plane, all out to a range of 120 feet.</p></div>",
-        "section": "physical-items",
-        "quantity": 1,
-        "combinedLabel": "Scroll",
-        "attunementLabel": ""
-      },
-      {
-        "name": "Spell Scroll: Locate Object",
-        "description": "<p>Describe or name an object that is familiar to you. You sense the direction to the object's location, as long as that object is within 1,000 feet of you. If the object is in motion, you know the direction of its movement.</p><p>The spell can locate a specific object known to you, as long as you have seen it up close—within 30 feet—at least once. Alternatively, the spell can locate the nearest object of a particular kind, such as a certain kind of apparel, jewelry, furniture, tool, or weapon.</p><p>This spell can't locate an object if any thickness of lead, even a thin sheet, blocks a direct path between you and the object.</p>",
-        "section": "physical-items",
-        "quantity": 1,
-        "combinedLabel": "Scroll",
-        "attunementLabel": ""
-      },
-      {
         "name": "Onyx",
         "description": "<p>If you wear this stone unenchanted, Lady Luck is bound to frown upon you. An important intaglio stone, used as part of jewelry to seal official documents</p>",
         "section": "physical-items",
-        "quantity": 1,
+        "quantity": 20,
         "combinedLabel": "Gemstone",
         "attunementLabel": ""
       },
@@ -4328,14 +4296,6 @@
         "attunementLabel": ""
       },
       {
-        "name": "Spell Scroll: Cloud of Daggers",
-        "description": "<p>You fill the air with spinning daggers in a cube 5 feet on each side, centered on a point you choose within range. A creature takes [[/damage 4d4 type=slashing]] damage when it enters the spell's area for the first time on a turn or starts its turn there.</p><p><strong>At Higher Levels. </strong>When you cast this spell using a spell slot of 3rd level or higher, the damage increases by [[/damage 2d4]] for each slot level above 2nd.</p>",
-        "section": "physical-items",
-        "quantity": 1,
-        "combinedLabel": "Scroll",
-        "attunementLabel": ""
-      },
-      {
         "name": "Unholy Grimoire of Arcane Apostacy",
         "description": "<p>While you are attuned to this grimoire, you can cast each spell written inside as if you knew them or had them prepared. These spells can only be contained inside an Unholy Grimoire.</p><p><strong>Spells.</strong> Without mastery of dark arcane arts, you're able to decipher the following spells: <strong>Defile Healing </strong>(2nd), and <strong>Arcane Circle</strong> (4th)</p><p><strong>Secrets.</strong> Completing the rituals to unlock the grimoire's secrets reveals the following spells: <strong>Arcane Prism</strong> (2nd), <strong>Subjugate Spell</strong> (4th) and <strong>Absorption Field</strong> (6th)</p>",
         "section": "physical-items",
@@ -4406,6 +4366,222 @@
         "quantity": 1,
         "combinedLabel": "Potion",
         "attunementLabel": ""
+      },
+      {
+        "name": "True Seeing",
+        "description": "<div><p>This spell gives the willing creature you touch the ability to see things as they actually are. For the duration, the creature has &amp;Reference[rule=truesight], notices secret doors hidden by magic, and can see into the Ethereal Plane, all out to a range of 120 feet.</p></div>",
+        "section": "spell-items",
+        "spellLevel": "6th Level",
+        "spellRange": "Touch",
+        "spellSchool": "Divination"
+      },
+      {
+        "name": "Cloud of Daggers",
+        "description": "<p>You fill the air with spinning daggers in a cube 5 feet on each side, centered on a point you choose within range. A creature takes [[/damage 4d4 type=slashing]] damage when it enters the spell's area for the first time on a turn or starts its turn there.</p><p><strong>At Higher Levels. </strong>When you cast this spell using a spell slot of 3rd level or higher, the damage increases by [[/damage 2d4]] for each slot level above 2nd.</p>",
+        "section": "spell-items",
+        "spellLevel": "2nd Level",
+        "spellRange": "60 ft",
+        "spellSchool": "Conjuration"
+      },
+      {
+        "name": "Locate Object",
+        "description": "<p>Describe or name an object that is familiar to you. You sense the direction to the object's location, as long as that object is within 1,000 feet of you. If the object is in motion, you know the direction of its movement.</p><p>The spell can locate a specific object known to you, as long as you have seen it up close—within 30 feet—at least once. Alternatively, the spell can locate the nearest object of a particular kind, such as a certain kind of apparel, jewelry, furniture, tool, or weapon.</p><p>This spell can't locate an object if any thickness of lead, even a thin sheet, blocks a direct path between you and the object.</p>",
+        "section": "spell-items",
+        "spellLevel": "2nd Level",
+        "spellRange": "Self",
+        "spellSchool": "Divination"
+      },
+      {
+        "name": "Lightning Blade",
+        "description": "<p>You brandish the weapon used in the spell's casting and make a melee attack with it against one creature within the weapon's reach. On a hit, the target suffers the weapon attack's normal effects, and you cause an arc of lightning to leap from the target to a another creature of your choice that you can see within 5 feet of it. A creature struck by the arc takes [[/damage 1d6 lightning]] damage.</p><p>This spell's damage increases when you reach certain levels. At 5th level, the melee attack deals an extra 1d8 lightning damage to the target on a hit and the number of arcs increases to two. All arcs can strike the same creature. The extra damage and the number of arcs increase to 2d8 and 3 arcs at 11th level, and to 3d8 and 4 arcs at 17th level.</p>",
+        "section": "spell-items",
+        "spellLevel": "Cantrip",
+        "spellRange": "Self",
+        "spellSchool": "Evocation"
+      },
+      {
+        "name": "Accursed Blade",
+        "description": "<p>You brandish the weapon used in the spell's casting and make a melee attack with it against one creature within the weapon's reach. On a hit, the target suffers the weapon attack's normal effects, and subtracts [[/r 1d4]] from the next saving throw it makes against a spell you cast before the end of your next turn.</p><p>This spell's damage increases when you reach certain levels. At 5th level, the melee attack deals an extra [[/damage 1d6 necrotic]] damage to the target on a hit, which increases to 2d6 at 11th level and to 3d6 at 17th level.</p>",
+        "section": "spell-items",
+        "spellLevel": "Cantrip",
+        "spellRange": "Self",
+        "spellSchool": "Necromancy"
+      },
+      {
+        "name": "Shifting Blade",
+        "description": "<p>You brandish the weapon used in the spell's casting and make a melee attack with it against one creature within the weapon's reach. On a hit, the target suffers the weapon attack's normal effects and is moved 5 feet in a direction of your choice. This movement doesn't provoke opportunity attacks, and if the direction is blocked, the target doesn't move.</p><p>This spell's effects amplify when you reach certain levels. At 5th level, the distance the target is moved increases to 10 feet, which increases to 15 feet at 11th level, and to 20 feet at 17th level.</p>",
+        "section": "spell-items",
+        "spellLevel": "Cantrip",
+        "spellRange": "Self",
+        "spellSchool": "Conjuration"
+      },
+      {
+        "name": "Activated: Counterspell - 3rd",
+        "description": "<div><p>You attempt to interrupt a creature in the process of casting a spell. If the creature is casting a spell of 3rd level or lower, its spell fails and has no effect. If it is casting a spell of 4th level or higher, make an ability check using your spellcasting ability. The DC equals 10 + the spell's level. On a success, the creature's spell fails and has no effect.</p><div></div></div><div><div><span> <span>At Higher Levels.</span></span> <p>When you cast this spell using a spell slot of 4th level or higher, the interrupted spell has no effect if its level is less than or equal to the level of the spell slot you used.</p><div></div></div><div></div></div>",
+        "section": "physical-items",
+        "quantity": 1,
+        "combinedLabel": "Spell Gem",
+        "attunementLabel": ""
+      },
+      {
+        "name": "Activated: Counterspell - 3rd",
+        "description": "<div><p>You attempt to interrupt a creature in the process of casting a spell. If the creature is casting a spell of 3rd level or lower, its spell fails and has no effect. If it is casting a spell of 4th level or higher, make an ability check using your spellcasting ability. The DC equals 10 + the spell's level. On a success, the creature's spell fails and has no effect.</p><div></div></div><div><div><span> <span>At Higher Levels.</span></span> <p>When you cast this spell using a spell slot of 4th level or higher, the interrupted spell has no effect if its level is less than or equal to the level of the spell slot you used.</p><div></div></div><div></div></div>",
+        "section": "physical-items",
+        "quantity": 1,
+        "combinedLabel": "Spell Gem",
+        "attunementLabel": ""
+      },
+      {
+        "name": "Activated: Dispel Magic - 3rd",
+        "description": "<div><p>Choose one creature, object, or magical effect within range. Any spell of 3rd level or lower on the target ends. For each spell of 4th level or higher on the target, make an ability check using your spellcasting ability. The DC equals 10 + the spell's level. On a successful check, the spell ends.</p><div></div></div><div><div><span> <span>At Higher Levels.</span></span> <p>When you cast this spell using a spell slot of 4th level or higher, you automatically end the effects of a spell on the target if the spell's level is equal to or less than the level of the spell slot you used.</p><div></div></div><div></div></div>",
+        "section": "physical-items",
+        "quantity": 1,
+        "combinedLabel": "Spell Gem",
+        "attunementLabel": ""
+      },
+      {
+        "name": "Activated: Doom of Stacked Stones - 6th",
+        "description": "<div><p>You and up to three creatures of your choice within range must succeed on a Constitution saving throw when the spell is cast and again at the start of each of your turns while the spell is in effect. A creature whose saving throw fails is &amp;Reference[condition=restrained]. If one of the three targeted creatures fails this saving throw, as many as two other creatures (per initial target), each within 30 feet of the initial target, must make the same save. A &amp;Reference[condition=restrained] creature must continue to make saving throws at the start of each of their turns, ending the effect on themselves on a success, or their condition worsens on a failure, as follows:</p><table><thead><tr><th>Number of Turns Affected</th><th>Condition</th></tr></thead><tbody><tr><td>1 (spell is cast)</td><td>&amp;Reference[restrained]</td></tr><tr><td>2</td><td>&amp;Reference[incapacitated]</td></tr><tr><td>3</td><td>&amp;Reference[stunned]</td></tr><tr><td>4</td><td>&amp;Reference[paralyzed]</td></tr><tr><td>5</td><td>&amp;Reference[petrified] (turned to stone)</td></tr></tbody></table></div><p>If you maintain your concentration on this spell for the entire possible duration, each creature still petrified of CR of less than or equal to 1.5 times the spell's level is turned to stone until the effect is removed.</p>",
+        "section": "physical-items",
+        "quantity": 1,
+        "combinedLabel": "Spell Gem",
+        "attunementLabel": ""
+      },
+      {
+        "name": "Activated: Globe of Invulnerability - 6th",
+        "description": "<div><p>An immobile, faintly shimmering barrier springs into existence in a 10-foot radius around you and remains for the duration.</p><div></div><p>Any spell of 5th level or lower cast from outside the barrier can't affect creatures or objects within it, even if the spell is cast using a higher level spell slot. Such a spell can target creatures and objects within the barrier, but the spell has no effect on them. Similarly, the area within the barrier is excluded from the areas affected by such spells.</p></div><div><div><span> <span>At Higher Levels.</span></span> <p>When you cast this spell using a spell slot of 7th level or higher, the barrier blocks spells of one level higher for each slot level above 6th.</p><div></div></div><div></div></div>",
+        "section": "physical-items",
+        "quantity": 1,
+        "combinedLabel": "Spell Gem",
+        "attunementLabel": ""
+      },
+      {
+        "name": "Activated: Feather Fall - 1st",
+        "description": "<div><p>Choose up to five falling creatures within range. A falling creature's rate of descent slows to 60 feet per round until the spell ends. If the creature lands before the spell ends, it takes no falling damage and can land on its feet, and the spell ends for that creature.</p><div></div></div>",
+        "section": "physical-items",
+        "quantity": 1,
+        "combinedLabel": "Spell Gem",
+        "attunementLabel": ""
+      },
+      {
+        "name": "Activated: Locate Object - 2nd",
+        "description": "<p>Describe or name an object that is familiar to you. You sense the direction to the object's location, as long as that object is within 1,000 feet of you. If the object is in motion, you know the direction of its movement.</p><p>The spell can locate a specific object known to you, as long as you have seen it up close—within 30 feet—at least once. Alternatively, the spell can locate the nearest object of a particular kind, such as a certain kind of apparel, jewelry, furniture, tool, or weapon.</p><p>This spell can't locate an object if any thickness of lead, even a thin sheet, blocks a direct path between you and the object.</p>",
+        "section": "physical-items",
+        "quantity": 1,
+        "combinedLabel": "Spell Gem",
+        "attunementLabel": ""
+      },
+      {
+        "name": "Activated: Sending - 3rd",
+        "description": "<div><p>You send a short message of twenty-five words or less to a creature with which you are familiar. The creature hears the message in its mind, recognizes you as the sender if it knows you, and can answer in a like manner immediately. The spell enables creatures with Intelligence scores of at least 1 to understand the meaning of your message.</p><p>You can send the message across any distance and even to other planes of existence, but if the target is on a different plane than you, there is a [[/r 1d20]]{5 percent} chance that the message doesn't arrive.</p></div>",
+        "section": "physical-items",
+        "quantity": 1,
+        "combinedLabel": "Spell Gem",
+        "attunementLabel": ""
+      },
+      {
+        "name": "Activated: Sending - 3rd",
+        "description": "<div><p>You send a short message of twenty-five words or less to a creature with which you are familiar. The creature hears the message in its mind, recognizes you as the sender if it knows you, and can answer in a like manner immediately. The spell enables creatures with Intelligence scores of at least 1 to understand the meaning of your message.</p><p>You can send the message across any distance and even to other planes of existence, but if the target is on a different plane than you, there is a [[/r 1d20]]{5 percent} chance that the message doesn't arrive.</p></div>",
+        "section": "physical-items",
+        "quantity": 1,
+        "combinedLabel": "Spell Gem",
+        "attunementLabel": ""
+      },
+      {
+        "name": "Activated: Dimension Door - 4th",
+        "description": "<div><p>You teleport yourself from your current location to any other spot within range. You arrive at exactly the spot desired. It can be a place you can see, one you can visualize, or one you can describe by stating distance and direction, such as \"200 feet straight downward\" or \"upward to the northwest at a 45-degree angle, 300 feet.\"</p><div></div><p>You can bring along objects as long as their weight doesn't exceed what you can carry. You can also bring one willing creature of your size or smaller who is carrying gear up to its carrying capacity. The creature must be within 5 feet of you when you cast this spell.</p><p>If you would arrive in a place already occupied by an object or a creature, you and any creature traveling with you each take [[/damage 4d6 type=force]] damage, and the spell fails to teleport you.</p></div>",
+        "section": "physical-items",
+        "quantity": 1,
+        "combinedLabel": "Spell Gem",
+        "attunementLabel": ""
+      },
+      {
+        "name": "Activated: Polymorph - 4th",
+        "description": "<div><p>This spell transforms a creature that you can see within range into a new form. An unwilling creature must make a Wisdom saving throw to avoid the effect. The spell has no effect on a shapechanger or a creature with 0 hit points.</p><p>The transformation lasts for the duration, or until the target drops to 0 hit points or dies. The new form can be <span>any beast</span> whose challenge rating is equal to or less than the target's (or the target's level, if it doesn't have a challenge rating). The target's game statistics, including mental ability scores, are replaced by the statistics of the chosen beast. It retains its alignment and personality.</p><p>The target assumes the hit points of its new form. When it reverts to its normal form, the creature returns to the number of hit points it had before it transformed. If it reverts as a result of dropping to 0 hit points, any excess damage carries over to its normal form. As long as the excess damage doesn't reduce the creature's normal form to 0 hit points, it isn't knocked unconscious.</p><p>The creature is limited in the actions it can perform by the nature of its new form, and it can't speak, cast spells, or take any other action that requires hands or speech.</p><p>The target's gear melds into the new form. The creature can't activate, use, wield, or otherwise benefit from any of its equipment.</p></div>",
+        "section": "physical-items",
+        "quantity": 1,
+        "combinedLabel": "Spell Gem",
+        "attunementLabel": ""
+      },
+      {
+        "name": "Activated: Feather Fall - 1st",
+        "description": "<div><p>Choose up to five falling creatures within range. A falling creature's rate of descent slows to 60 feet per round until the spell ends. If the creature lands before the spell ends, it takes no falling damage and can land on its feet, and the spell ends for that creature.</p><div></div></div>",
+        "section": "physical-items",
+        "quantity": 1,
+        "combinedLabel": "Spell Gem",
+        "attunementLabel": ""
+      },
+      {
+        "name": "Activated: Feather Fall - 1st",
+        "description": "<div><p>Choose up to five falling creatures within range. A falling creature's rate of descent slows to 60 feet per round until the spell ends. If the creature lands before the spell ends, it takes no falling damage and can land on its feet, and the spell ends for that creature.</p><div></div></div>",
+        "section": "physical-items",
+        "quantity": 1,
+        "combinedLabel": "Spell Gem",
+        "attunementLabel": ""
+      },
+      {
+        "name": "Activated: Instant Siege Weapon - 4th",
+        "description": "<p>With this spell, you instantly transform raw materials into a siege engine of Large size or smaller (the GM has information on this topic). The raw materials for the spell don't need to be the actual components a siege weapon is normally built from; they just need to be manufactured goods made of the appropriate substances (typically including some form of finished wood and a few bits of worked metal) and have a gold piece value of no less than the weapon's hit points.</p><p>For example, a mangonel has 100 hit points. This spell will fashion any collection of raw materials worth at least 100 gp into a mangonel. Those materials might be lumber and fittings salvaged from a small house, or 100 gp worth of finished goods such as three wagons or two heavy crossbows. The spell also creates enough ammunition for ten shots, if the siege engine uses ammunition.</p><p><strong>At Higher Levels. </strong>When you cast this spell using a spell slot of 6th level, a Huge siege engine can be made; at 8th level, a Gargantuan siege engine can be made. In addition, for each slot level above 4th, the spell creates another ten shots' worth of ammunition.</p>",
+        "section": "physical-items",
+        "quantity": 1,
+        "combinedLabel": "Spell Gem",
+        "attunementLabel": ""
+      },
+      {
+        "name": "Activated: Fly - 3rd",
+        "description": "<p>You touch a willing creature. The target gains a flying speed of 60 feet for the duration. When the spell ends, the target falls if it is still aloft, unless it can stop the fall.</p><p><strong>At Higher Levels. </strong>When you cast this spell using a spell slot of 4th level or higher, you can target one additional creature for each slot level above 3rd.</p>",
+        "section": "physical-items",
+        "quantity": 1,
+        "combinedLabel": "Spell Gem",
+        "attunementLabel": ""
+      },
+      {
+        "name": "+2 Plate Armor",
+        "description": "<div><p>Plate consists of shaped, interlocking metal plates to cover the entire body. A suit of plate includes gauntlets, heavy leather boots, a visored helmet, and thick layers of padding underneath the armor. Buckles and straps distribute the weight over the body.</p></div>",
+        "section": "physical-items",
+        "quantity": 1,
+        "combinedLabel": "Heavy Armor",
+        "attunementLabel": ""
+      },
+      {
+        "name": "Arcane Prism",
+        "description": "<p>You conjure a prism of crystalline arcane energy in an unoccupied space you can see within range. The prism is a tiny object, has 15 AC, and is immune to all damage. It has 2 charges and disappears after losing its final charge.</p><p>Whenever the prism is hit by a spell attack, it loses 1 charge and refracts the attack's energies. Each creature within 10 feet of the prism with an AC lower than or equal to the rolled attack is considered hit by the attack and suffers its full effects.</p><p>As a bonus action on each of your turns, you can move the prism up to 30 feet to an unoccupied space you can see.</p><p><em><strong>At Higher Levels.</strong></em> When you cast this spell using a spell slot of 3rd level or higher, the prism's charges increase by 1 for each level above 2nd.</p>",
+        "section": "spell-items",
+        "spellLevel": "2nd Level",
+        "spellRange": "90 ft",
+        "spellSchool": "Conjuration"
+      },
+      {
+        "name": "Defile Healing",
+        "description": "<p>You attempt to reverse the positive energies of a spell so that it deals damage instead of healing. If the triggering spell is being cast using a spell slot of 1st level, the spell is defiled. Each creature that was targeted by the defiled spell isn't healed and takes necrotic damage equal to the healing it would have received, or half as much damage with a successful Constitution saving throw.</p><p>Any other effects the spell might have are unaffected.</p><p><em><strong>At Higher Levels.</strong></em> When you cast this spell using a spell slot of 3rd level or higher, it can defile a triggering spell being cast using a spell slot of a lower level than the spell slot you used.</p>",
+        "section": "spell-items",
+        "spellLevel": "2nd Level",
+        "spellRange": "60 ft",
+        "spellSchool": "Necromancy"
+      },
+      {
+        "name": "Arcane Circle",
+        "description": "<p>You draw a 10-foot-diameter circle on the ground around you, inscribing it with symbols and runes to amplify the power of your spells. As long as you're within the area, you gain the following effects:</p><ul><li><p>You can take one additional reaction per round.</p></li><li><p>Spells you cast ignore resistance to damage. In addition, when you roll damage for a spell you cast that deals damage, you can treat any 1 or 2 on a damage die as a 3.</p></li><li><p>You suffer a -5 penalty to AC, Dexterity saving throws, and Constitution saving throws made to maintain concentration.</p></li><li><p>When you cast a spell you cannot willingly exit the circle until the start of your next turn.</p></li></ul><p>As a bonus action on each of your turns while you're within 30 feet of the circle, you can teleport the circle to you, centering it on your location.</p>",
+        "section": "spell-items",
+        "spellLevel": "4th Level",
+        "spellRange": "Touch",
+        "spellSchool": "Conjuration"
+      },
+      {
+        "name": "Subjugate Spell",
+        "description": "<p>You attempt to bend the triggering spell to your will and redirect it to serve you. Make an ability check using your spellcasting ability against a DC of 13 + the spell's level. On a successful check, you choose the target or targets for the spell.</p><p>Your targets must be valid targets for the spell based on the caster's ability and the range of the spell, but using your distinctions for friendly and hostile creatures.</p>",
+        "section": "spell-items",
+        "spellLevel": "4th Level",
+        "spellRange": "60 ft",
+        "spellSchool": "Transmutation"
+      },
+      {
+        "name": "Absorption Field",
+        "description": "<p>You cloak yourself in a protective field that absorbs incoming magic and rejuvenates your spell slots. When you are the target of a spell (including spells that affect multiple targets, but not area spells such as fireball), make an ability check using your spellcasting ability. The DC equals 13 + the spell's level. On a successful check, the spell has no effect on you and is absorbed by the field. You regain a spell slot of the same level or lower as the spell that was cast against you.</p><p>Additionally, you have advantage on saving throws against spells that the field fails to absorb.</p>",
+        "section": "spell-items",
+        "spellLevel": "6th Level",
+        "spellRange": "Self",
+        "spellSchool": "Abjuration"
       }
     ],
     "Ilsa Stonepath": [
@@ -5326,6 +5502,14 @@
         "description": "<p>By 15th level, you have acquired greater mental strength. You gain proficiency in Wisdom saving throws.</p>",
         "section": "feature-items",
         "requirements": "Rogue 15"
+      },
+      {
+        "name": "Prescient Blade",
+        "description": "<p>You brandish the weapon used in the spell's casting and make a melee attack with it against one creature within the weapon's reach. On a hit, the target suffers the weapon attack's normal effects, and you gain advantage on your next attack roll you make against the target before the end of your next turn.</p><p>This spell's damage increases when you reach certain levels. At 5th level, the melee attack deals an extra [[/damage 1d6 force]] damage to the target on a hit, which increases to 2d6 at 11th level, and to 3d6 at 17th level.</p>",
+        "section": "spell-items",
+        "spellLevel": "Cantrip",
+        "spellRange": "Self",
+        "spellSchool": "Divination"
       }
     ],
     "Naami Jamas": [
@@ -6322,6 +6506,30 @@
         "quantity": 2,
         "combinedLabel": "Food",
         "attunementLabel": ""
+      },
+      {
+        "name": "Parrying Blade",
+        "description": "<p>You brandish the weapon used in the spell's casting and make a melee attack with it against one creature within the weapon's reach. On a hit, the target suffers the weapon attack's normal effects, and suffers a 1d4 penalty to melee attack rolls against you until the start of your next turn.</p><p>This spell's effects amplify when you reach certain levels. At 5th level, the penalty to melee attack rolls increases to 1d6, which increases to 1d8 at 11th level, and to 1d10 at 17th level.</p>",
+        "section": "spell-items",
+        "spellLevel": "Cantrip",
+        "spellRange": "Self",
+        "spellSchool": "Abjuration"
+      },
+      {
+        "name": "Accursed Blade",
+        "description": "<p>You brandish the weapon used in the spell's casting and make a melee attack with it against one creature within the weapon's reach. On a hit, the target suffers the weapon attack's normal effects, and subtracts [[/r 1d4]] from the next saving throw it makes against a spell you cast before the end of your next turn.</p><p>This spell's damage increases when you reach certain levels. At 5th level, the melee attack deals an extra [[/damage 1d6 necrotic]] damage to the target on a hit, which increases to 2d6 at 11th level and to 3d6 at 17th level.</p>",
+        "section": "spell-items",
+        "spellLevel": "Cantrip",
+        "spellRange": "Self",
+        "spellSchool": "Necromancy"
+      },
+      {
+        "name": "Activated: Find Familiar - 1st",
+        "description": "<div><p>You gain the service of a familiar, a spirit that takes an animal form you choose: bat, cat, crab, frog (toad), hawk, lizard, octopus, owl, poisonous snake, fish ( quipper), rat, raven, sea horse, spider, or weasel. Appearing in an unoccupied space within range, the familiar has the statistics of the chosen form, though it is a celestial, fey, or fiend (your choice) instead of a beast.</p><div><p></p></div><p>Your familiar acts independently of you, but it always obeys your commands. In combat, it rolls its own initiative and acts on its own turn. A familiar can't attack, but it can take other actions as normal.</p><p>When the familiar drops to 0 hit points, it disappears, leaving behind no physical form. It reappears after you cast this spell again. As an action, you can temporarily dismiss the familiar to a pocket dimension. Alternatively, you can dismiss it forever. As an action while it is temporarily dismissed, you can cause it to reappear in any unoccupied space within 30 feet of you. Whenever the familiar drops to 0 hit points or disappears into the pocket dimension, it leaves behind in its space anything it was wearing or carrying.</p><p>While your familiar is within 100 feet of you, you can communicate with it telepathically. Additionally, as an action, you can see through your familiar's eyes and hear what it hears until the start of your next turn, gaining the benefits of any special senses that the familiar has. During this time, you are <span>deaf</span> and <span>blind</span> with regard to your own senses.</p><p>You can't have more than one familiar at a time. If you cast this spell while you already have a familiar, you instead cause it to adopt a new form. Choose one of the forms from the above list. Your familiar transforms into the chosen creature.</p><p>Finally, when you cast a spell with a range of touch, your familiar can deliver the spell as if it had cast the spell. Your familiar must be within 100 feet of you, and it must use its reaction to deliver the spell when you cast it. If the spell requires an attack roll, you use your attack modifier for the roll.</p></div>",
+        "section": "physical-items",
+        "quantity": 2,
+        "combinedLabel": "Spell Gem",
+        "attunementLabel": ""
       }
     ],
     "Plex": [
@@ -6663,7 +6871,7 @@
       },
       {
         "name": "Vox Speaker",
-        "description": "<p><em>This small, ornate horn is made of polished brass and inlaid with intricate arcane symbols. The Vox Speaker fits comfortably in the palm of your hand and is adorned with a velvet grip, ensuring a firm hold.</em></p><p>Once per day, you can speak up to 10 words into the Vox Speaker. As long as it's held in your hand, the item will then loudly repeat those words for the next 10 minutes. The repeated message can be heard clearly up to 300 feet away, making it an ideal tool for public announcements, rallying troops, or creating distractions.<br></p>",
+        "description": "<p><em>This small, ornate horn is made of polished brass and inlaid with intricate arcane symbols. The Vox Speaker fits comfortably in the palm of your hand and is adorned with a velvet grip, ensuring a firm hold.</em></p><p>Once per day, you can speak up to 10 words into the Vox Speaker. As long as it's held in your hand, the item will then loudly repeat those words for the next 10 minutes. The repeated message can be heard clearly up to 300 feet away, making it an ideal tool for public announcements, rallying troops, or creating distractions. <br><br><br>\"Hello, anyone home!?\"<br></p>",
         "section": "physical-items",
         "quantity": 1,
         "combinedLabel": "Trinket",
@@ -8016,22 +8224,6 @@
         "attunementLabel": ""
       },
       {
-        "name": "Spell Scroll: Creeping Crawling Claw",
-        "description": "<p>Choose the hand of a creature that has been severed from its body for longer than 24 hours and grant it sentience. For the duration of the spell, the Crawling Claw (MM pg.44) is under your control and can be commanded using your bonus action. The claw can only understand simple commands.</p><p>The claw is under your control for 1 hour, after which it stops obeying you. To reassert control for another hour or to assert control over an existing crawling claw, you may cast this spell again.</p><p>If the claw is still alive when the spell ends, it will attempt seek to reunite itself with its rightful owner. If its original owner is dead, the claw will wander off purposelessly.</p>",
-        "section": "physical-items",
-        "quantity": 1,
-        "combinedLabel": "Scroll",
-        "attunementLabel": ""
-      },
-      {
-        "name": "Spell Scroll: Locate Object",
-        "description": "<p>Describe or name an object that is familiar to you. You sense the direction to the object's location, as long as that object is within 1,000 feet of you. If the object is in motion, you know the direction of its movement.</p><p>The spell can locate a specific object known to you, as long as you have seen it up close—within 30 feet—at least once. Alternatively, the spell can locate the nearest object of a particular kind, such as a certain kind of apparel, jewelry, furniture, tool, or weapon.</p><p>This spell can't locate an object if any thickness of lead, even a thin sheet, blocks a direct path between you and the object.</p>",
-        "section": "physical-items",
-        "quantity": 1,
-        "combinedLabel": "Scroll",
-        "attunementLabel": ""
-      },
-      {
         "name": "Dark Star",
         "description": "<p>This spell creates a sphere centered on a point you choose within range. The sphere can have a radius of up to 40 feet. The area within this sphere is filled with magical darkness and crushing gravitational force.</p><p>For the duration, the spell's area is <span>difficult terrain</span>. A creature with <span>Darkvision</span> can't see through the magical darkness, and nonmagical light can't illuminate it. No sound can be created within or pass through the area. Any creature or object entirely inside the sphere is immune to thunder damage, and creatures are <span>Deafened</span> while entirely inside it. Casting a spell that includes a verbal component is impossible there.</p><p>Any creature that enters the spell's area for the first time on a turn or starts its turn there must make a Constitution saving throw. The creature takes <span><span>8d10</span> force</span> damage on a failed save, or half as much damage on a successful one. A creature reduced to 0 hit points by this damage is disintegrated. A disintegrated creature and everything it is wearing and carrying, except magic items, are reduced to a pile of fine gray dust.</p>",
         "section": "spell-items",
@@ -8093,6 +8285,46 @@
         "section": "physical-items",
         "quantity": 1,
         "combinedLabel": "Junk",
+        "attunementLabel": ""
+      },
+      {
+        "name": "Activated: Counterspell - 3rd",
+        "description": "<div><p>You attempt to interrupt a creature in the process of casting a spell. If the creature is casting a spell of 3rd level or lower, its spell fails and has no effect. If it is casting a spell of 4th level or higher, make an ability check using your spellcasting ability. The DC equals 10 + the spell's level. On a success, the creature's spell fails and has no effect.</p><div></div></div><div><div><span> <span>At Higher Levels.</span></span> <p>When you cast this spell using a spell slot of 4th level or higher, the interrupted spell has no effect if its level is less than or equal to the level of the spell slot you used.</p><div></div></div><div></div></div>",
+        "section": "physical-items",
+        "quantity": 2,
+        "combinedLabel": "Spell Gem",
+        "attunementLabel": ""
+      },
+      {
+        "name": "Creeping Crawling Claw",
+        "description": "<p>Choose the hand of a creature that has been severed from its body for longer than 24 hours and grant it sentience. For the duration of the spell, the Crawling Claw (MM pg.44) is under your control and can be commanded using your bonus action. The claw can only understand simple commands.</p><p>The claw is under your control for 1 hour, after which it stops obeying you. To reassert control for another hour or to assert control over an existing crawling claw, you may cast this spell again.</p><p>If the claw is still alive when the spell ends, it will attempt seek to reunite itself with its rightful owner. If its original owner is dead, the claw will wander off purposelessly.</p>",
+        "section": "spell-items",
+        "spellLevel": "1st Level",
+        "spellRange": "Touch",
+        "spellSchool": "Necromancy"
+      },
+      {
+        "name": "Locate Object",
+        "description": "<p>Describe or name an object that is familiar to you. You sense the direction to the object's location, as long as that object is within 1,000 feet of you. If the object is in motion, you know the direction of its movement.</p><p>The spell can locate a specific object known to you, as long as you have seen it up close—within 30 feet—at least once. Alternatively, the spell can locate the nearest object of a particular kind, such as a certain kind of apparel, jewelry, furniture, tool, or weapon.</p><p>This spell can't locate an object if any thickness of lead, even a thin sheet, blocks a direct path between you and the object.</p>",
+        "section": "spell-items",
+        "spellLevel": "2nd Level",
+        "spellRange": "Self",
+        "spellSchool": "Divination"
+      },
+      {
+        "name": "Everlasting Jar with a fresh hand",
+        "description": "<p>A Magic jar that seem to keep things inside fresh indefinitely. <br>Very handy to keep things fresh for a long time. <br><br>The jar is currently housing one severed Left hand, still in very good condition, apart from some bruises from being stuffed into the jar. <br></p>",
+        "section": "physical-items",
+        "quantity": 4,
+        "combinedLabel": "Loot",
+        "attunementLabel": ""
+      },
+      {
+        "name": "Potion of Supreme Healing",
+        "description": "<div><p><em>The potion's red liquid glimmers when agitated.</em></p><p>You regain 10d4 + 20 hit points when you drink this potion. </p></div>",
+        "section": "physical-items",
+        "quantity": 2,
+        "combinedLabel": "Potion",
         "attunementLabel": ""
       }
     ],
@@ -8583,7 +8815,7 @@
         "name": "Activated: Shield - 1st",
         "description": "<div><p>An invisible barrier of magical force appears and protects you. Until the start of your next turn, you have a +5 bonus to AC, including against the triggering attack, and you take no damage from  magic missile.</p><div></div></div>",
         "section": "physical-items",
-        "quantity": 1,
+        "quantity": 2,
         "combinedLabel": "Spell Gem",
         "attunementLabel": ""
       },
@@ -10556,6 +10788,16 @@
           "name": "116",
           "section": "journal-pages",
           "content": "<h3>Brave Warriors aren't always High, Shalkoc the chef cooks some thigh.</h3><p>We discuss spell gems and what Shikarr told us our options were.<br>His sister Ghira, the Wood elves, the High elves or the <s>Slaad</s> Slann.</p><p>Plex talks to Shalkoc the Second, the tiny lizard in his hats. It's very distracting because it's making a ruckus to get Plex to understand something.<br>SHalkoc translates and Naami and Aviana listens in on the tiny lizard speaking.</p><p>Fearghas creates spellgems of appropriate sizes and Emilio explains sandbathing Chinchillas to Kaar.</p><p>Shalkoc sends a Sending message to the Zlan contact, <strong>Lord Xliqunqi. The Master Baiter.</strong></p><p>Fearghas yaps about how Plex is surely doing something very bad, but since he can't prove it, we pay them no heed. We do find Plex burying bodies in the backyard but it's not related.</p><p>The next day everyone feels refreshed, we brew some coffee, but Shalkoc shrank down in size so now we have too much. Naami falls down a pit trap that she built with Plex, a bit clumsy but coffee makes her happy again.<br>Shalkoc speaks to the new bodies Plex procured before burying them.<br><em>\"Why did you die?\"</em> - Genius questions there Shalkoc. The corpse is from <strong>Lutitia</strong> he finds out.</p><p>Ivernia is hungry so Shalkoc feeds the body to her, but she nibbles on Aviana instead. Must be hungry for some protein and not calcium.<br>Shalkoc really have outdone himself with the food he made today, the fruit tart was finally edible and the Yarrow on top was just perfect!</p><p>Fearghas grows tired and teleport us all to <strong>Lessia</strong> <em>(not Moria)</em> and tells us about his old flame, <strong>Broomhilda.</strong><br>Kyring turns into the worlds' smallest dwarf to blend in and starts sneaking in. Our mission to reginap the ruling monarch, begins now.</p><p>Kyrin turns into <strong>Ilsa Stonepath, the Brave.</strong></p><p>Ilsa sneaks into the kings halls, approaching the guards and telling them sweet little lies.<br>They don't believe her lies.<br>Ilsa is now in prison.<br>She breaks free from the manacles and prisonbars, sneakily turning invisible and possibly aggroing the entire castle guard. Possibly.</p><p>She skips around, vaults and parkours her way out of the castle, but not before spotting the black dwarf, probably evil but not because of her color, whispering evil words into the ears of the king.<br>Ilsa uses psychic whispers to warn the king before exiting the premises with grace.</p><p>Plex screams, making a distraction. Genius!<br>Wait, I think he just screamed on random.<br>\"What is your plan?\" - Fearghas<br>\"To make a loud sound.\" - Plex</p><p><em>Plex enters the Battledome</em>.<br>He proclaims he is here to kidnap the King.<br>This makes all guards turn from chasing Ilsa to chasing Plex instead, so he makes a door and wafts the seafood we ate earlier, towards the guards with a Gust of Wind.<br>That doesn't work as they shoot with crossbows.<br>The goblin summons a wall of Thorns to shield his heart.<br>Then he starts up <strong>JET ENGINES?!</strong> <em>(500+ Speed)</em><br>Luring the guards away, Plex runs back to the party with incredible speed, setting fire to the atmosphere!<br>With a Deja Vu, he flashfires the entire party, which Aviana absorbs for the entire party in a very heroic gesture with her magnificient feathers. They are pretty as well.</p><p>The party gets through, the guards are fearful and we see the King's Hall in it's glory.<br>The Wormtongue sits next to the king and an sea of commoners stands between the King and our burning goblin. (Plex is still on fire)</p><p>For now, our anger towards Plex is dimmed from the awe of the amount of guards pointing their halberds towards us.</p><p><em>And that's where we left the party.</em></p>"
+        },
+        {
+          "name": "117",
+          "section": "journal-pages",
+          "content": "<h3>Burning Goblins, Shalkoc's luster. The King turned into a Crab, took all we can muster.</h3><p>Big fight with Dwarves, tiny people but makes good ale. It seems their King isn't prone to come with us, but his guards prove to be not good enough to keep us from Reginapping him.</p><p>I think Plex was dying, luckily he survived. I think?</p><p>King Crab? Very dangerous creature.</p><p>Talk about leather suits had me interested in making new ones.<br>Need a dress up doll, gotta talk to Stormwind about that.</p>"
+        },
+        {
+          "name": "118",
+          "section": "journal-pages",
+          "content": "<h3>Big Gates, Fighting duels and Hunts. The return of the King, much to our researchers' grunts.</h3><p>We leave <strong>Dietrich the Rich Diet</strong> and turn into clouds <em>(Cloudwalk)</em>.<br>With my honed senses of wintery environments, we arrive perfectly safely at the <strong>Dwarven Monastery</strong> of Fearghas origins.</p><p>It's empty. Except for the bodies in the basement.<br>And the <s>ale</s> holy water.</p><p>We <s>force</s>, I mean, convince Shalkoc to talk to the dwarven corpses about what happened here.<br><em>\"What happened was foretold.\"</em><br>Who killed them?<br><em>\"I don't know.\"</em><br>What did you see before you died?<br><em>\"My vision.\"</em></p><p>These dwarves sure like riddles.<br>But we manage to lure out information that the assailant was a <strong>hooded figure with glowing eyes</strong>.</p><p>Turns out it must have been <strong>Vrazzak</strong> searching for who stole his stupid egg and came to the Monastery to get answers.<br>But these heroic dwarves didn't tell on us so we honor them by burying them instead of feeding their bodies to Plex and Shalkoc.</p><p>Then we carry a bunch of books that Fearghas wants into his fancy Demiplane, but his ability to confuse us with big words makes everyone silently do the task wrong on purpose. <em>Don't tell him</em>.</p><p>There's books now in the <strong>Portable Hole, Bag of Holding and Fearghas' Demiplane.</strong><br>We drink in the honor of the fallen friends in the Monastery as we return to Promise in heroic fashion!</p><hr><p>Plex researches something with his lizard and is VERY lucky. He paints history. He then decides to go to heaven, but is stopped by… heaven. Tells him to come back later after the extended rest.</p><p><strong>Ilsa</strong> <em>(Kyrin)</em> researches as well, she finds out some mysteries. Then she goes to the <strong>Vampire boy</strong> together with Fearghas and they study the Blade, while everyone else wasting their time.</p><p>Emilio challenges the <strong>biggest</strong> giant he can find to a magical duel, it looked good at first but the giant cast <strong>Fist</strong> and it was super effective. Emilio decides to power-level and not give up, challenging everything else with a pulse to build experience to have his re-match with the Giant.</p><p>Naami prays at a holy sanctuary and does service for the temple. Then she joins Fearghas and Ilsa with the <em>Bloodbag-borrower</em> to learn stabby techniques.</p><p>Shalkoc took <strong>Avernia</strong> out for some hunting and found a <strong>magnificient beast of prey</strong>, he chased it for a week. Sadly he let it go so no prize horns to show off but a mighty tale to tell. And a somewhat hungry Avernia.</p><p>Fearghas sits on the porche, looking over the water with the sunrise in his beard.<br><em>His steak, finally juicy.<br>His lobster, finally buttery.</em><br>He gains two inspirations and a permanent increase to Intellect <em>(Wild Magic).</em> Then a seagull attacks him. And he starts to smell like manure.<br><strong>Wild Magic gives.<br>Wild Magic takes.</strong></p><p>Aviana studies Goblin speech and learns the language, then she gets into dwarven craft brewing. <strong>Octoberfest</strong>, what is that? Nice outfit they have here.<br>Naami helps with cleaning ale and is now crying about something again, wanting help in <strong>Solgorod</strong>? Welp, guess it's Vampire time!</p><hr><p>Naami gets help to get to Solgorod but forgets to get the <strong>Comprehend Languages</strong> spell at home so Aviana throws her back to Promise for a quickie, Fearghas whips up a gem for her and off she goes back to Solgorod.</p><p>She learns from the Elvish book that <strong>blue dragons</strong> fits well into the sea-elf hating, hoarding behaviour that has been haunting her home island of <strong>Ildilas</strong> for so long. She looks horrified so we return home for some tea and honey.</p><p>Fearghas returns the King to where he came from. The King is returned to his senses but that is suspicious to the dwarves. With a bitter-sweet smile, Fearghas leaves his King and returns home.</p><p>What's that? We have arrived?! Where?<br>We finally arrive after a month, in:<br><span><strong><span>TALDOR</span></strong></span></p>"
         }
       ]
     },
@@ -10911,6 +11153,16 @@
           "name": "117 - Kingnapping, and the muffin triangle scheme",
           "section": "journal-pages",
           "content": "<p><strong>Wednesday, 16</strong><sup><strong>th</strong></sup><strong> of Duodecimus, 1497</strong></p><p><strong>14:30</strong></p><p>We rush into the king's hall! Oh no… Plex is here. <strong>A Series of Unfortunate Events</strong> is about to happen! We are surprising them so we roll initiative with advantage. A shout comes up behind us; \"They're trying to kidnap the king!\" All the guards turn to us, grabbing their weapons. They are heavily armoured, with halberds, shields, and heavy crossbows. They form a wall in front of <strong>King Gandogar</strong>. The commoners are standing there like deer in the lantern light, while others are panicking.</p><p>The DM kindly reminds us that commoners have 4 HP.</p><p>Plex is still on fire and will deal fire damage to anything he runs past.</p><p>I see no way this could go poorly, let's go!</p><p>The <strong>Duergar advisor</strong> prepares to cast a spell, as the holy symbol on her shield begins to glow. Aviana says it's a flame, so probably <strong>Azgal</strong>. The DM rolls initiative for everyone present, giving CPR to Foundry after a couple dozen d20s fill all available space.</p><p>A guard duplicates, and the one standing near him dies. Plex explains it all; instead of dying, the guard turns into his colleague. Another one duplicates! And yet another! One dies, he was tired and leaning on his halberd, but as he is surprised, he falls and cuts himself on his halberd. Another one dies from a heart attack seeing his colleague fall on his halberd and chopping his own hand off.</p><p>Kyrin is invisible and dashes forward. One of the duplicated dwarves stabs his counterpart in the back as he runs into the middle of the room. The identical dwarf pulls out a crossbow and shoots him. Someone shoots at Aviana and misses. Another duplicate crits his counterpart. This is not confusing at all…</p><p>Aviana gets two bolts shot towards her and uses the <strong>Grateful Fey's Charm</strong> to gain resistance, dramatically fluttering her wings as she says NAH. One of the bolts still embeds itself into her bicep, falling off at a slight flex. Shalkoc tries to punch a guard, but only hits the armour. Huh?! He punches again and deals damage this time. Gotosleep gotosleep! He shifts to <strong>Turtle Style</strong> with a big shout to draw attention to him. Fearghas reminds Plex that he will set fire to anything, or anyone nearby. He dashes up to a guard far away from us all, gaining Haste from the <strong>Swiftstrider's Boots</strong>. He runs into the wall of guards at incredible speed with fire at his heels and ends up on the opposite side of the hall saying \"… 'elp\".</p><p>Emilio considers doing a war crime, but decides on Eldritch Blast instead. Only one hits while the others ricochet on armour. Aviana strides down the hall and uses the <strong>Painter's Plume</strong> to turn her wings glittering and golden, shouting \"Look at me, I'm the most beautiful creature in this room!\" She turns back to me with a thumbs up and a grin, just before unleashing her <strong>Rage</strong>. N-no pressure.</p><p>Fearghas motions me over, he has a plan. I move to him, holding Lioriel's staff and getting ready to cast <strong>Wall of Force</strong>. The guards are attacking Plex and he reacts with a Shield, but it won't be enough against all these guards… One of the guards crits Aviana and… \"that ability was a mistake. I'm not rolling 50 saving throws against Frightened,\" the DM grumbles. We discuss remaking <strong>Unflinching</strong>, but all the commoners are frightened nonetheless, Aviana's beauty is simply too much for them. The dwarf who crit her is not having a good day.</p><p>The commoners are running to the king, where all the guards are. Yeah… we came in through the door and are kind of blocking the way out. Fearghas casts <strong>Dimension Door</strong>, taking me with him to the other end of the hall. I release Wall of Force and the Duergar lady attempts to Counterspell it! Fearghas says \"nah\" and Counterspells the Counterspell, triggering a surge that poisons him. Just twisted his back on the way, he's a little green in the face. He drinks a Potion of Heroism \"just in case\".</p><p>The king is surprised to see Fearghas but he's an accomplished warrior and is already attacking with his axe and shouting \"<strong>Drazah</strong>, get rid of this magic!\" The Duergar says \"I will try, my king\" and casts Sanctuary on him, which the Wall of Force can't stop. Drazah casts Dominate Person on Fearghas; he rolls high and Aerelia rolls a <strong>Borrowed Luck</strong>, but it's a 3 and Fearghas saves. We all exhale in relief… Drazah says \"Drink the potion I gave you, the green one. With it you'll be able to escape.\"</p><p>Shalkoc is getting hit in the face with a halberd, and parries with his wings. Plex asks \"Why are we splitting up?\" which causes some groaning as he ran away on his own. He gets shot with a crossbow and goes down. Plex sees everything go dark… and sees as in a dream, a dark room with an enormous statue, that of the three-headed god of death we saw in Khaz Narak. He sees the <strong>Springseed</strong> he offered up to the god as it shrivels up and turns to dust. The dust scatters and wafts up into his nostrils… He needs to sneeze. He really needs to sneeze. Plex wakes up as he suddenly sneezes himself back to consciousness, beaten up but alive.</p><p>King Gandogar swings an axe engraved with glowing runes! Fearghas' eyes go wide as Karnack crashes out, it's a <strong>Vorpal Battleaxe</strong>. He grabs a potion and drinks it, going invisible. The similarly invisible Kyrin appears behind Drazah and casually stabs her for 85 damage. Eight guards immediately turn to her and attack her, as they can't reach Fearghas and me in the Wall of Force.</p><p>\"I can teleport out.\" - Kyrin (famous last words)</p><p>She's down and bleeding out with already 1 failed death save. Shalkoc rushes towards her with Step of the Wind, eating all the attacks of opportunity on the way because the DM is rolling way too high. Shalkoc pops a <strong>Shield</strong> gem he was saving for a rainy day, then sweeps Kyrin up from the floor as he climbs up on the throne. Five more attacks of opportunity… even carrying the unconscious rogue, he dodges them all with ease. Her eyes open just a second and she gives him a weak grin, two thumbs up, and passes out again.</p><p>\"I think my plan is better than yours.\" Plex, bleeding on the floor.</p><p>The goblin gets to his feet and recasts <strong>Ashardalon's Stride</strong>, running away and damaging 3 guards in the process, then boxes himself in with Wall of Stone, barely conscious with his feet smouldering. Emilio moves up, considering his options. He casts <strong>Synaptic Static</strong> and psychic energy explodes in the middle of the honour guard, hitting Drazah as well. Only one guard saves and the other ones have mad brain lag. Emilio has sick dodges, and we manage to convince him to NOT make smores out of the guards with <strong>Hellish Rebuke</strong>.</p><p>Aviana jumps and does not kill anyone! She moves to the middle of the wall and shouts in sheer rage \"How DARE you pay more attention to the goblin?!\" Seizing the <strong>anchorchain</strong>, she rips open the portal. I turn to Shalkoc, holding Kyrin in his arms. \"I will not let you die. We're all going home together,\" I say even as I weave a spell to heal them both. Twinned Heal and they're feeling a lot better already.</p><p>People are finally paying attention to Aviana and a guard attacks her, dealing minor damage. He tries to knock her prone, but her Stable Footing prevents it. The commoners continue to run to the walls. Fearghas readies to pop his spellgem of <strong>Polymorph</strong> to cast it on King Gandogar when he appears. Drazah promises to take care of our spellcasting, and casts Silence. Nice try, but I'm already concentrating on Wall of Force. The Duergar drinks a potion, and also turns invisible.</p><p>The guards shoot at Shalkoc! He is dodging and \"pulling mad kung fun bullshit\"; all seven guards miss, with 2 fumbles?! Let's hope it lasts! Emilio is getting company… five attacks hit him, but he pops a <strong>Shield</strong> gem, blocking three of those. He still takes 2 halberds to the face, and passes both DEX saves. Emilio: \"They can kiss my ass.\" The DM: \"You have to go down for that… they're dwarves.\"</p><p>\"Fearghas? Watch your head.\" - \"Yarr.\"</p><p>Fearghas is whacked with the Vorpal Battleaxe, which ends the king's invisibility. Fearghas immediately casts <strong>Polymorph</strong> and Gandogar's shield lights up. Not good enough! The king of Lessia is Polymorphed into a little <s>crab</s> turtle. He… still tries to hit me, rolls a crit to get past my Sanctuary… and I easily sidestep the aggressive little pincers.</p><p>Kyrin hops out of Shalkoc's arms, teleports to the portal, and steps through. \"Put the tea on!\" I yell to her just before she crosses to <strong>Promise</strong>. Shalkoc unfolds his wings, takes off, and divebombs through the portal. Kyrin got a muffin and a mug of hot chocolate in a couple of seconds from a stall placed right by the portal. Promise's version of popcorn, really. Snacks to watch Aviana get slingshot across half the island. The stall is held by a goblin named <strong>Avax</strong>.</p><p>Fearghas gestures at me to grab the king. Plex casts <strong>Vortex Warp</strong> and grabs Emilio. \"Emilio, do you resist?\" Wiesel replies with \"Mmfffmmmoneminute\" as he was caught mid-snack. The warlock decides not to resist and he is pushed into the portal. Plex runs out after him, still severely injured. He uses telekinesis to grab one of the guards and push him into the portal. He crosses to Promise, looking mighty confused. The goblin is right behind him. Kyrin greets them with a muffin and explains we're not gonna hurt the king, we're trying to fix him.</p><p>Emilio sees the guard appear and grumbles \"Seriously, Plex?\" He is speechless, realises he can't intimidate the dwarf, and casts <strong>Dissonant Whispers</strong> to force him to run away, and right back through the portal and into Lessia. Aviana holds open the portal, and I very gently pick up the king, who tries to slip away and attack me. I'm so sorry Your Majesty, it really is for your own good! I place him in Fearghas' bag, and motion towards the portal, getting ready to drop the Wall of Force.</p><p>Aviana is getting attacked and critted, she heals up nearly to full. Fearghas casts <strong>Dimension Door</strong> and teleports us into the portal, after which Aviana steps through and gets herself slingshot on her usual path, greatly amusing the people of Promise and making an excellent business for the muffin goblin. Plex sponsors the goblin. Fearghas grumblingly pays for his muffin. I giggle as I hand the goblin the outrageous price he demands for the snacks (<strong>5gp</strong>).</p><p>I patch up the worst of Plex' wounds, but unless I start burning spells, it's better if he just takes it easy for a while, especially at his venerable age. Shalkoc is trying to get into business with the goblin, who is explaining <strong>pyramid schemes</strong>. Shalkoc does not realise the goblins are stealing the muffins from some poor granny and scamming the hell out of everyone. Our monk only sees the numbers go up. Kyrin murders half the table by shouting IT'S A ZIGGURAT SCHEME and Shalkoc confidently calls it a triangle scheme.</p><p>Aviana does a perfect three-point landing, not a feather out of place, and listens in for two and a half minutes before interjecting \"Plex, if any of the goblins scams me, and I find out, I promise to you… this is not a threat it's a promise; I will rip out their tongues.\" Then she buys a muffin and eats it daintily while pushing up her glasses, which she is not attuned to.</p><p>Fearghas takes the Crab King to the Locus where <strong>Dahak's right eye</strong> is. I decide not to follow when I remember I don't have Fearghas' protection runes and the eye's influence will corrupt me. As I make my way to the cabin, a little bunny hops to me and offers me some flowers. H-huh? It's a wild animal acting unnaturally kind… I guess the eye corrupted him as well. I try to shoo him back into the forest but he sticks around. Looks like I'm a princess now, let's see if the little guy is still around after the corruption fades.</p><p>We gather at the cabin with the king still polymorphed. The spell will fade in about an hour, we have time for some food. It's past noon and Emilio is looking ravenous, we've had dessert but no real meal so I direct Aviana to the chopping of vegetables, Shalkoc to the roasting, Emilio to grilling some meat, Kyrin to making drinks, and Plex to spreading out blankets outside. We have ourselves a winter picnic, it's cold but the food is warm and spicy. We sit with the Crab King, feed him bits and pieces, and have a good time while Fearghas counts down to the spell's end. Aviana pats Fearghas on the shoulder, gives him a thumbs up and says… \"Don't die,\" casting <strong>Death Ward</strong> on him.</p><p>Then King Gandogar reverts to his dwarven form dazed and confused, takes a step… sideways. Then he realises what's happened to him and his beard bristles with rage. Two people attempt a Scottish accent, performance check, the DM fails and Kyrin succeeds. She is still in her dwarven form and she attempts to soothe the king, alongside Fearghas. It does not go well, and Fearghas casts <strong>Hold Person</strong> but Gandogar saves with a nat 20. I try <strong>Hold Monster</strong> but he also saves and begins chasing Fearghas with his axe. Fearghas tries another Hold Person, Gandogar critically saves AGAIN.</p><p>Emilio tries intimidation, rolls shit. That's a curse right here, our boy has +10 to intimidation and never rolls above a 5. Kyrin tries <strong>Entangle</strong> and a Tanglefoot Arrow, but he wriggles free, insulting Fearghas the whole time. Just as Aviana pulls out the Giant Size Potion… the third Hold Person sticks, and the king falls on his face. We take his weapons and armour and Aviana gleefully puts the <strong>Adamantine Manacles</strong> on him.</p><p>Fearghas places the king on <strong>Tenser's Floating Disk</strong> and takes him up the hill to the Locus. Fearghas is protected by his scythe and Aviana follows… and we summon a nat 20 into existence on her CHA save. We see no change in the king near the eye… maybe it takes longer. Fearghas starts asking questions; why was a Duergar in Lessia? Gandogar says Drazah is a <strong>refugee</strong> and has been invaluable in the fight against Ukgluz. We recognised the holy symbol on her shield, it was <strong>Azgal</strong>'s for sure.</p><p>Fearghas casts <strong>Mordenkainen's Private Sanctum</strong>, then tries to explain the situation of the eyes of Dahak and their corrupting influence. The king calls him a religious nutjob who is using cultist bullshit to justify his crimes. Fearghas points out to Gandogar, he was not always like this. And he started the war with Ukgluz. Predictably, this does not go particularly well. Fearghas asks what benefits there were to starting a war with Ukgluz. Gandogar says Lessia was overcrowded and they needed to expand down, needed more room for people, more resources. Since the refugees from <strong>Karak Elgraz</strong> (after the hold was flattened by Dahak) came to Lessia, there was not enough of anything. </p><p>Gandogar justifies Ukgluz would have noticed Lessia's peaceful expansion and attacked, so he decided to strike first and drop the ceiling on them. \"And they're Duergar, have you seen their crimes?!\" Fearghas says he has spent a lot of time in Ukgluz, which does nothing to appease the king, but likely nothing will appease him just now. The two dwarves grumble at each other, expertly, about the morals of stripping people naked. Fearing it may take some time for the right eye to reverse the corruption on Gandogar, Fearghas gets comfortable.</p><p>We have until 1st Secundus before the phoenix egg hatches, now that it's cooled down. We are forced to wait for the king's madness to be cured, and no terribly urgent quests… it's time for an extended rest! Though before we get to it, we should speak to Count Dietrich…</p><p>At first, Gandogar yells at Fearghas a lot, but as time progresses he mellows out. He is still grumpy, out of principle. He remains mad at having his armour taken, and argues he is a <strong>prisoner of war</strong> (even if he eventually realises we're not trying to sacrifice him). Fearghas does give him clothes to wear, and eventually removes the chains. As he is getting better, Fearghas gives him his armour back, which has the not-so-surprising effect of making him much less grumpy. <s>Dwarves and their armour</s>.</p><p>Fearghas casts Sending to let <strong>Prince Snorri</strong> know about Gandogar's whereabouts. He gets a lot of hostility from the prince, don't blame him really, we just kingnapped his dad. We task <strong>Kali</strong> with watching over the king while staying out of range of the eye. When we explain about the eye's influence, Kali comments \"That makes sense, my spiders have been acting up. One of them started trying to help a fly that got caught in its net.\" Poor thing.</p><p>During downtime, I check on Plex and he reveals his vision of the god of death, and how he sneezed himself back from the doors of death. I'm not entirely convinced he isn't going a bit off the rails in his old age… At Kyrin's asking, I cast <strong>Augury</strong> to receive an omen on visiting Count Dietrich. Weal! We should be fine.</p><p>Fearghas contacts <strong>Count Dietrich</strong> with another Sending spell, asking when is a good time for us to come by. He gives us a time later in the night, so we can prepare. Kyrin suggests putting a sleep potion into the king's soup, so Aviana suggests we put a love potion in the king's soup. Plex drinks one of the king's healing potions.</p><hr><p><strong>Wednesday, 16</strong><sup><strong>th</strong></sup><strong> of Duodecimus, 1497</strong></p><p><strong>22:30</strong></p><p>Fearghas casts <strong>Teleport</strong> and we arrive in the Count's castle. We are led to Dietrich's study and he greets us with an expression that reminds us of a child who knows something he shouldn't, and is trying in vain to hide it.</p><p>We immediately begin to talk shit about <strong>Magdalena</strong>. She is very busy right now, looking for us he assumes. The pond by her castle went dry and I giggle as I remember how we drained it to power the steam engines, and Aviana was shot into the underground pond by the Underway station. Dietrich mentions he first met Magdalena by that very pond… the irony is not lost on him. I say it's maybe an omen, and explain about them, signs from fate in everyday things. He's not convinced but I don't blame him… Ildic traditions.</p><p>Dietrich mentions the three children Kyrin rescued from the ball in Krasnograd; <strong>Sofia, Aleks, and Mila</strong>. They are safe in Solgorod, and becoming friends with <strong>Ilya</strong>. Dietrich erased their memories of the body chute… Kyrin does not give him shit for it, which surprises him. She says people should not be forced to remember traumatic events. I argue some things must be remembered, no matter the cost. Maybe not for children, though… I sense the Count's interest in my reply, and hope it is only fleeting.</p><p>\"If you don't want your memories, I know a couple of people who be willing to buy them,\" Plex casually says. Huuuuh? The Count asks if he is talking about amusement parks, where you go to make memories. Plex says he is talking about people in the <strong>Feywild</strong>, and maybe he should sell his memories before dementia kicks in. Count Dietrich mentions casually Odilia keeps pestering him about Shalkoc. \"Oh, is she requiring my services?\" Shalkoc asks. \"I think she is <em>needing</em> your services,\" the Count says and winks.</p><p><strong>Odilia Nadinya von Sokolov-Vargstein</strong>? The lady Shalkoc tried to hit on at the ball…? Shalkoc wants to go see her, claiming we can make a lot of money. I don't know if that's a good idea… Count Dietrich mentions something that may interest Kyrin: a private masked ball in Taldor Augusta hosted by \"one of Ana-Katerina's favourite <strong>vintners</strong>\". A vampire called <strong>Lucius Maro</strong>… he is said to be one of the finest. The masked ball is on Sunday, 9th Secundus.</p><p>Kyrin enquires about what kind of crowd will attend that ball in Taldor Augusta. Not many aristocrats of Strazhland probably, they don't have much reason to leave. Count Dietrich is not invited. Kyrin has a mind to crash this party, so she asks about Lucius. He is a man who builds connections, and has different talents from the nobility of Strazhland. Likely some of the highborn and powerful of Taldor will attend the ball… maybe even the <strong>emperor</strong> or those close to him. Lucius excels at disguising himself and hiding his nature, not necessarily by changing his appearance. Changing his mannerisms, using a bit of illusion to make the teeth less pointy, that tends to do it.</p><p>Kyrin and Dietrich discuss <strong>Taldor Augusta</strong>; he hasn't been there in 300 years and does not like it much there, too much hassle, too many people… too much sunlight. Dietrich has no personal stakes in Lucius' ball, but he'd like to hear about it from us. The hot tea, as they call it. We return to the topic of Magdalena, imagining her looking for the water in her pond.</p><p>At Dietrich's asking, Kyrin explains the history of <strong>Krovozamok</strong>, how it was built by the humans and orcs of Gond and the dwarves of the Silver Peaks mountains. We tell him about the genocide of snow elves, which surprises Dietrich; he'd never heard of snow elves. As we talk, Kyrin idly pulls out the <strong>Dragon Compass</strong>; it points east-south-east. Dietrich comments on the pretty compass, asks where Kyrin got it. \"From a friend of mine,\" she says. \"Though we became friends after I took the compass from him, and he let me keep it.\" He remarks on the compass being broken as it does not point north. She says it points to things she's interested in, and interested in avoiding. This intrigues Dietrich, but Kyrin does not elaborate.</p><p>The conversation shifts to the <strong>Grand Duke of Nachtmark</strong> and the two white dragons he slew. He's having them taxidermied and nailed to his castle… Kyrin and me flinch, and she says \"See Shalkoc, that's why we leave Ivernia at home.\" He agrees, and Dietrich enquires about Ivernia. We mention Shalkoc is raising her. Well, then we're probably not interested in the bounties Albrecht is offering on dragon lairs. We grumble that we hope one day, the Grand Duke will find a dragon too strong for him and meet his doom.</p><p>Kyrin asks about the <strong>Mistborne Isles</strong>. Dietrich knows little about them, but what he does know is that there's been recent interest in them. He mentions the <strong>Crimson Circle</strong>, but he doesn't think they are Strazhi nobility. He talks about <strong>Count Walter</strong>, a man with ambition… and the lady in the white mask whom he called \"mistress\". That is very unlike Walter. If the Crimson Circle is looking for resources, seeking out Lucius in Taldor Augusta would certainly be beneficial for them.</p><p>With this in mind… Dietrich does have personal interest in Lucius' ball. He asks if we want to join him in his fencing practice. Oooooh we're interested, but Fearghas can't really leave Promise until the king is cured. We suggest Dietrich visits us in Promise instead, but he is concerned about the \"dining situation\". Plex says we have really good muffins. Kyrin says nobody will miss a couple grasslanders (people from the <strong>Green Sea</strong>). Dietrich disgustedly says those are worse than goblins… at least goblins can speak properly.</p><p>Shalkoc offers his blood. Dietrich studies his neck, and Shalkoc says \"Why are you focused on the neck? You can use my arm instead!\" Dietrich is worried he'll break his teeth on Shalkoc's scales, he appreciates the offer though. He says Odilia would be delighted to receive such an offer from Shalkoc. Dietrich is a busy man, and the weather in Strazhland is comfortable for him, so he asks what other arguments we can entice him with. We get sidetracked talking about the goblins and their altar to the sky god <strong>Apollox</strong>.</p><p>Dietrich would be interested in studying Fearghas' <strong>unholy grimoires</strong>, but he needs to think about it. We also need to think about what to do during our extended rest, and which of the Blade cantrips we want to learn from Dietrich.</p><p>We realise the calendar is fucked, the year ends on a Wednesday and the next year begins on a Monday. Big sigh from the DM. He fixes it relatively quickly, and we fall into more tangents talking about time, ADHD, and quantum physics. Normal evening with the crew, really.</p><p>Either way, see you next week!</p>"
+        },
+        {
+          "name": "117 - summary",
+          "section": "journal-pages",
+          "content": "<h2>Kingnapping, and the muffin triangle scheme</h2>\n<p>We run into the king's hall with Plex, so naturally 3 guards duplicate and 2 die. The Duergar advisor is readying a spell, from the holy symbol on her shield we imagine she's a cleric or paladin of <strong>Azgal</strong>. The DM has to give CPR to Foundry after too many initiative rolls.</p>\n<p>Duplicated guards shoot each other in the back, helping us out somewhat. Shalkoc and Aviana are drawing the guards' attention while the still-burning Plex and the invisible Kyrin dash towards the king. The goblin slams into the wall of guards protecting Gandogar and says \"… 'elp\".</p>\n<p>Aviana lets everyone know she is the most beautiful creature in the room, turning her wings golden and glittering even as she <strong>Rages</strong>. It doesn't work as well as intended and she is offended as people are paying more attention to the goblin.</p>\n<p>Fearghas teleports me right next to the king and I cast <strong>Wall of Force</strong> to separate us from the halberds and crossbow bolts until Aviana can open the portal to Promise. Gandogar shouts to his advisor Drazah, she casts <strong>Sanctuary</strong> on him and tells him to drink potions.</p>\n<p>Plex asks why we're splitting up and Fearghas' own rage fills the space in the Wall of Force. The goblin is shot, falls unconscious, has a vision, and sneezes himself awake. That's not usually how any of this works…</p>\n<p>Karnack has a reasonable crashout as Fearghas is whacked by the king's <strong>Vorpal Battleaxe</strong>. Kyrin appears behind Advisor Drazah like a small shadow of death and casually stabs the Duergar for 85 damage. \"I can teleport out,\" she says. Famous last words. Eight guards turn to her and shoot her. She barely has time to fall down before Shalkoc appears like a green prince charming, sweeps her into his arms, and climbs up on the throne.</p>\n<p>\"I think my plan is better than yours.\" - Plex, bleeding on the floor at 1 HP.</p>\n<p>He sets his feet on fire again, then boxes himself in a <strong>Wall of Stone</strong> and waits for the signal, which comes soon after in the form of the harpy's offended screech as she rips open the portal. We convince Emilio to not roast the guards in their armour so he gives them mad brain lag instead. I heal Shalkoc and Kyrin just before Drazah puts a <strong>Silence</strong> field over us.</p>\n<p>Shalkoc is pulling mad kung fu bullshit dodging bolts while Emilio is trash talking the guards and aura farming. Fearghas pops a spellgem to <strong>Polymorph</strong> the King of Lessia into a crab, who lunges for me and saves on my Sanctuary, but still misses with those angry little pincers.</p>\n<p>Kyrin jumps out of Shalkoc's arms and teleports to the portal. I yell to her to put on the tea as she crosses to Promise. Shalkoc pops out his wings and divebombs after her. Plex rescues Emilio as he is snacking IRL, and he decides not to resist. Plex also pushes one of the guards into the portal but he runs back out soon after, looking frightened.</p>\n<p>I gently pick up the Crab King, silently apologising all the while, and slip him into Fearghas' bag. We Dimension Door to the portal and Aviana follows her, getting slingshot across half the island as usual. The people of Promise watch her flight with great interest, snacking on muffins and sipping hot chocolate bought at outrageous prices from <strong>Avax the goblin</strong>, who explains his business strategy to a highly interested Shalkoc.</p>\n<p>Aviana lands perfectly and joins us as Kyrin exclaims IT'S A ZIGGURAT SCHEME and the harpy casually says \"Plex, if any of the goblins scams me, and I find out, I promise to you… this is not a threat it's a promise; I will rip out their tongues.\" Then she happily buys a muffin.</p>\n<p>We have a picnic with the Crab King and feed him bits and pieces. When he reverts to his dwarven form, he is very angry and we have a moment of running around trying to restrain him, but he is surprisingly slippery for a heavily armoured dwarf. We eventually manage a Hold Person, take away his weapons and armour, and Fearghas drags him to the <strong>Locus</strong>.</p>\n<p>They have a tense conversation about the war with Ukgluz and Drazah. Many insults are flung at Fearghas and he keeps a cool head while most of our ears are ringing. We task <strong>Kali</strong> with keeping an eye (haha) on Gandogar while staying out of range of the right eye of Dahak. Then we follow up on <strong>Count Dietrich</strong>'s invitation and Fearghas contacts him asking when we should arrive in Solgorod.</p>\n<p>Later that evening, Fearghas teleports us to Dietrich's castle <del>with the help of the latex suit</del>. We immediately begin to talk shit about <strong>Magdalena</strong> as she is trying to figure out where the water in her pond has disappeared to. Then the Count returns to a serious topic as he tells us about a masked ball in Taldor Augusta, hosted by one Lucius Maro. It's on 9th Secundus and we find more reasons to go as we discuss the <strong>Crimson Circle</strong>, the vampire cultists we heard about in Krasnograd.</p>\n<p>Dietrich offers to teach us some of his <strong>Blade cantrips</strong>. We're hyped but can't be away from Promise and King Gandogar, so Dietrich offers to visit us in Promise instead, in exchange for studying Fearghas' unholy grimoires. Not all of us are too happy about inviting a vampire lord in our midst… but… shiny new spells?!</p>"
+        },
+        {
+          "name": "118 - Boss battles, the Frost Giants and the seagull",
+          "section": "journal-pages",
+          "content": "<p><strong>Thursday, 17</strong><sup><strong>th</strong></sup><strong> of Duodecimus, 1497</strong></p><p><strong>01:00</strong></p><p>Count Dietrich agrees to visit us in Promise in a week's time, but he has some business to tend to first. We decide to go check on the dwarven monastery (<strong>Grey Rock Abbey</strong>) before returning home. Fearghas decides it is too risky to cast Teleport as he is not familiar enough with the place, so he casts Wind Walk so we may fly there. It's pretty cold here in Strazhland so naturally we start talking about ice cream and slushies, with the help of Kyrin's <strong>Psychic Whispers</strong>. <s>Emilio is strangely knowledgeable about frozen treats</s>.</p><p>We get to the monastery around three in the morning and it's completely dark, windy, cold, and snowy. Aviana is flying in the front and leads us to the monastery without getting lost, despite being as good as blind. \"Trust me, go with the gut,\" she says. The monastery is dark, the braziers we saw last time are not lit. We land in front of the closed gate… it's quiet. Plex takes out the <strong>Vox Speaker</strong> and takes a deep breath… it is out of charges. Muttering, the goblin pulls out the <strong>Instant Door</strong> and un-walls one of the walls. We step through into a storage room filled with barrels of ale.</p><p>We enter the inner courtyard; the door to the main hall is ajar. The snow in the courtyard is untouched, no one has crossed it in a few days. \"Kind of what I expected… Stay frosty,\" Fearghas grumbles. M-my teeth are chattering. Plex casts <strong>Tenser's Floating Disk</strong> so we small people can float above the snow. We enter the hall, the snow has blown inside. The priests are all lying on the floor dead. I check their bodies but find no injuries. There are weapons lying about but the bodies are neatly lined up and there is no sign of struggle, about 30 dwarves.</p><p>Fearghas casts <strong>Detect Magic</strong> and picks up conjuration, enchantment, and necromancy. There is no sign of poison either. Fearghas quizzes Aviana on what is a person and she does surprisingly well, earning some treats. Emilio is offended when Fearghas talks shit about elves, as his adoptive mother is half-Elf half-Drow. We theorise Vrazzak happened to the dwarves, but to be sure, Emilio walks to the hearth and performs the ritual for <strong>Ashen Memories</strong>.</p><p>He sees dinner prepared, the table laid out, and the door opens to admit the prior. Behind him are a Dwarf in heavy armour, a green Dragonborn, a Harpy, a Goblin with many hats, a Halfling, a human-looking child… and himself. Yeah, thanks fire, we were here. Fearghas motions to Shalkoc to take out the bone wand and cast Speak with Dead. He casts the spell on <strong>Prior Beondal Bronzeheart</strong>.</p><ol><li><p>Why are you laying like that? - I don't know.</p></li><li><p>What is the last vision you saw before you died? - The vision Torag gave me before Fearghas' arrival.</p></li><li><p>How did you die? - Heart froze.</p></li><li><p>Did someone break your heart? - No.</p></li><li><p>Was that the last question? - Yes.</p></li></ol><p>… welp. He casts the spell again on another corpse.</p><ol><li><p>What happened before you died? - A foretold end arrived. It wanted to know why it came. We didn't tell it.</p></li><li><p>What did the end look like? - A hooded figure in robes with glowing eyes.</p></li><li><p>How was the end foretold? - At the smithy and at the gate, in the flames and on the runes of a black scythe.</p></li><li><p>What answer did you withhold from the robed figure? - We swore to Torag that when the harbinger arrived, we would never speak his name again.</p></li></ol><p>We piece things together… the monks knew they would die, and refused to sell Fearghas out to <strong>Vrazzak</strong>. Well, we have 30 bodies to bury, but Plex is hungry. Fearghas sharply tells him off, and I ask Shalkoc to give the goblin a snack before we look for the catacombs. They go deep, this monastery has been here a long time. There are 30 alcoves already dug out and labelled with names… one of them is Beondal Bronzeheart.</p><p>Fearghas tells us that when a Dwarf joins a monastery, they remain for life. Part of their initiation is to carve their alcove in the catacombs, as a sign of committment. While I'm reverently helping Fearghas place the bodies in their alcoves, and praying for their souls… Shalkoc and Plex go to the kitchen and look for food. Plex opens a cupboard and the smell nearly makes him sick, whatever was in there clearly was not edible anymore. There is a lot of dried meat and pickled food.</p><p>Proper Dwarven burial rites take several weeks, Fearghas tells me. We don't have this time, but I pray for them all the same. Kyrin finds the crystal flowers she gave Prior Beondal, and places them in the alcove with his body. Vrazzak probably took their souls… Kyrin grumbles the monks earned their rest, and Torag should be able to retrieve their souls and guide them to <strong>Forgeheart</strong>. I gently remind her of the many stories of gods interfering in mortal affairs, and the devastating consequences of their interventions.</p><p>After burying the monks, Fearghas goes to their archive and casts <strong>Demiplane</strong>. We help him store the monks' records into his magic broom closet. He directs us, giving instructions… we roll Intelligence checks to see how receptive we are. Natural 1. WE ALL ROLL LIKE ASS. This prompts an INT save for Fearghas who grumbles he is surrounded by idiots. <s>Herding cats</s>. The books are heavy and we have to roll a Constitution check… We continue rolling like absolute ass except for Kyrin who is tirelessly carrying the books and places them down, she is confidently wrong and Fearghas is about to tear out his beard in frustration. In her defense… she still cannot read because of a surge.</p><p>When the Demiplane spell runs out, we store the remaining books in the <strong>Bag of Scolding</strong> and the <strong>Portable Hole</strong>. Ah… there is a dead body in there. And an unholy amount of bullshit Kyrin forgot to take out. Plex builds a scarecrow with a natural 20 to guard the kitchen before we leave. I swear it's moving when I'm not looking… Fearghas smells something delicious and goes to the kitchen; it is excellently ripened Dwarven cheese. Was that what forced a CON save on Plex?! Dwarves do have resistance to poison…</p><p>Last time we were here, Prior Beondal asked us to <strong>have a drink with them</strong> upon our return. We open a cask and drink in there honour. We spent a long time here and it's now 16:30. Day drinking! We pour one out for the monks, and ask Aviana to open the portal so we can go home. The Harpy grumbles, why is it always her, if any of us started lifting we could do it too! Emilio suggests a training routine. Aviana rolls with advantage… nat 1. Twice. HOW.</p><p>She tries again and gets a surge: for a week, when she recounts the party's adventures, illusions will appear to illustrate her tale, but they always exaggerate her personal contribution. She gets the portal open and we return home.</p><hr><p>It's time to take an <strong>extended rest</strong> and get all these mythic powers back!</p><p><strong>Week 1</strong></p><p>Kyrin goes to speak to <strong>Kali</strong> about Taldor Augusta to prepare for the masked ball held by Lucius. This counts as Research and she spends 600 gold for bonuses. She learns one piece of lore about <strong>Lucius</strong>, which we will receive later.</p><p>Emilio goes for magical duelling and learns the Frost Giants are fond of this, they take him along to Jotunheim where he faces a really strong opponent… and gets his ass beat.</p><p>Aviana is carousing.</p><p>Fearghas is copying spellscrolls into his book: <strong>True Seeing</strong>, <strong>Locate Object</strong>, and <strong>Cloud of Daggers</strong>.</p><p>I go to Gavel and assist him in religious service to Sarenrae, earning a favour.</p><p>Plex spends a fortune in fancy ink… he can't read, but it needs to look good, and the lizard is a bit unruly. But he takes the tiny lizard and dunks him into the ink, then asks him to write some history. It's… it's Research… Plex rolled high and Tiny Shalkoc paints him a picture of the <strong>Slann</strong>; leaders, architects, and diviners of the Saurian Empire… or what remains of it. They are extremely powerful in magic but very withdrawn and cryptic, they haven't interacted with the world since the empire fell. They busy themselves with divining for the Great Plan. Tiny Shalkoc paints a bulbous toad-like creature sitting on a throne that is moving around. The Slann mages don't move. \"They have magical mobility scooters,\" says Aerelia. Fearghas feels a disturbance in the Force… goblin shenanigans, he can feel it. These goblins are up to something.</p><p>The other mages of the Saurian Empire have distanced themselves from the Slann and have come to revere them. The Slann haven't been seen for millenia but still use telepathy sometimes and one of their greater skills is <strong>transmutation of living beings</strong>. Dinosaurs and lizardmen hatch from the same eggs, and the Slann determine which form they take, and how big they get. This is why there are no dinosaurs anywhere else; the Slann make them out of lizardfolk eggs. The Slann mages are also exceptional diviners.</p><p>Shalkoc plies his trade as a chef and earns 600 gold.</p><p><strong>Week 2</strong></p><p>Count Dietrich arrives in Promise and begins to teach us cantrips. Emilio and Fearghas learn Lightning Blade, and I learn Parrying Blade.</p><p>Plex goes carousing and make 2 allies! He introduces <strong>Shorec</strong> to the goblins (he is fascinated and wishes to live with them for a while). To integrate into goblin society, Shorec gets into the habit of wearing several hats, a popular trend which has caused several goblins to find their calling as hatters. Plex also goes drinking with <strong>Nailix</strong> the goat wrangler, who is particularly popular with the kids due to his… personality. As the goblins' responsibilities have increased, they elected a diplomatic leader (Plex being their spiritual leader). That's Nailix. Shorec is looking for an appropriately-sized goat to learn goat-wrangling from Nailix. But Shorec has spent most of his life in a library… well now it's time to catch a goat. \"Good luck,\" Plex says. \"Thank you! That's the kind of encouragement my… parents… never gave me…\" Shorec replies.</p><p>Shalkoc goes <s>fishing</s> hunting with <strong>Ivernia</strong>. Takes them a while to find a good spot, and he is not a gambling addict but he spends 2 inspirations to reroll and rolls much worse. Ah, the greed… <strong>Azag approves</strong>, though.</p><p>Emilio returns to Jotunheim. REMATCH! He intimidates the shit out of his opponent. Emboldened, he fights like a Void dragon and earns <strong>3000 gold</strong>.</p><p><strong>Week 3</strong></p><p>Fearghas and me learn <strong>Accursed Blade</strong>. Dietrich is very surprised to see me asking to learn a necromancy cantrip… I argue I do work necromancy spells for good ends, unlike Fearghas who works them for good and evil ends. I've used necromancy to save Plex' life before! The Count smiles and says everyone must take a first step on the path to necromancy. Not helping, Count. He merely chuckles.</p><p>Plex is browsing the markets looking for magic items. He buys an <strong>Amulet of Buoyancy</strong> and a pair of <strong>Boots of Striding and Springing</strong>. <s>Looks like the boy isn't very buoyant</s>. The seller is a goblin with a very, very long fishing line. He's had these items for a while… he fished them from people below the island. \"Huh. I'm sure nobody is missing them,\" Plex says.</p><p>Fearghas gets 2 inspirations back-to-back from eating cheese and learning cantrips. T-this has never happened before?! It's the ta'veren bullshit! Plex' Borrowed Luck!</p><p>Shalkoc goes back to <strong>cooking</strong> for highborn people and fails miserably. <s>Same procedure as last year, Miss Sophie?</s> He is invited to an event to cook for nobles… and poison one of them. As he serves the food, he steals a big coin pouch as everyone is distracted by the exciting art of raw cucumber sliced in neat halves.</p><p>Kyrin learns <strong>Prescient Blade</strong>, after a lot of effort as it's a bit more difficult for someone who doesn't use magic on the regular. I give her cookies to celebrate her determination.</p><p>Emilio returns to Jotunheim and faces the miniboss. He defends himself but gets beaten up, narrowly avoiding one level of exhaustion.</p><p>Aviana learns the art of brewing booze, and finalises her mastery of the <strong>goblin</strong> language.</p><p><strong>Week 4</strong></p><p>I spend the week researching unnatural weather phenomenons <s>with the DM stressing me out</s>. What we saw over Ildilas is not a weather phenomenon… it's not natural, well in a way it is? Dietrich mentions reading an Elven script that mentions a storm similar to the one I'm describing. He has the book in his castle in Solgorod. He says I'm welcome there any time, but I can't teleport… Count Dietrich offers to take me there, and I run to Aviana to pester her so she comes with me, and then takes us back to Promise with the <strong>anchorchain</strong>.</p><p>Fearghas is inscribing <strong>spellgems</strong> and gets a surge giving him a permanent d4 bonus to his intelligence checks, and therefore loses all rights to complain about the wild magic system, forever.</p><p>Plex is drawing new spells into his book.</p><p>While spellscribing, Fearghas gets a major surge and finds himself teleported up into the air, right next to a seagull that had been trying to shite on him and is very angry at repeatedly missing. Huh?! The enraged bird lunges for him but he dodges out of the way and casts <strong>Feather Fall</strong>. The seagull makes another attempt and successfully shits on Fearghas, hitting the visor of his helmet. He retaliates with a Fire Bolt and the seagull drops to the ground perfectly roasted.</p><p>Shalkoc goes on another hunt with Ivernia. He definitelty does not have a gambling addiction as he re-rolls… and still rolls poorly, earning Ivernia's contempt. He casts <strong>Speak with Animals</strong> and she goes \"Isn't the point of hunting… having something to eat afterwards?\"</p><p>Fearghas gets a surge triggering a d4 additional surges. TWICE. A corpse appears in his bed that night and many other effects trigger, mostly beneficial or at least short-lived. He turns invisible which makes it look like Aviana is talking to herself as she requests half his spellbook in gems. Fearghas walks away unseen as the Harpy continues listing spells. He gets another surge causing him to track manure wherever he goes for a MONTH. He is not dealing with it and requests a <strong>Remove Curse</strong>. Needs to be 9th-level… I burn my life force away so Fearghas' boots may remain clean, then go take a nap.</p><p>Fearghas woke up next to two corpses; a lady who was killed by potent poison, and a Tiefling who was beaten to death. He cast <strong>Gentle Repose</strong> on them both, tucked them away, and spoke no word of them to the rest of us.</p><hr><p><strong>Thursday, 15</strong><sup><strong>th</strong></sup><strong> of Primus, 1498</strong></p><p><strong>18:40</strong></p><p><strong>Extended rest</strong></p><p>Foundry aggressively vomits dice at us and we recover hundreds of charges on our magic items!</p><p>After making slow progress due to stormy weather, the island of Promise arrives in <strong>Taldor Augusta</strong>! It's still cold… but nowhere near as bad as in Strazhland. It's rainy, but I'm not getting buried in snow. Count Dietrich offers to teleport me and Aviana to Solgorod. The Harpy is getting excited to buy clothing. I tell her I just want to read a book and it won't take terribly long. \"You know what you need to read? You need to read more push-ups,\" Aviana tells me, and flexes.</p><p>Count Dietrich teleports us to Solgorod and I go read the book he pointed me to. It's more of a compilation of ancient Elven knowledge and… I… can't read Elvish. Thankfully, I remembered to ask Fearghas to inscribe <strong>Comprehend Languages</strong> into a spellgem! I quickly find the right section in the book… it's under Ley magic! Conjuring storms by using <strong>Ley Lines</strong> is a technique the <strong>Sea Elves</strong> have mastered, but that knowledge has been lost when they disappeared. The Elves originally learned this technique from blue dragons who used it to protect their hoards.</p><p>The Sea Elves originated from the other side of the continent, in the region which has now sunk. What remains of it is the Obsidian Coast, a little bit of Quadira, and a bit of the Sable Coast. The home to the Sea Elves used to be part of the mainland, but now only the highest peaks of a mountain range sticks out of the ocean… the biggest peak is now called <strong>Ildilas</strong>. This mountain range was also the territory of a blue dragon flight.</p><p>Dietrich enquires about my research. I explain the situation to him; a <strong>dragon</strong> has cut off an island from the rest of the world. He is highly interested in that magic and asks me to report to him with any discoveries we make. I can't promise him anything but we will investigate… I need to.</p><p>I don't want to stay in Solgorod any longer than necessary as I feel uneasy around Dietrich, so I ask Aviana to open the portal, handing her a cookie as I cast <strong>Guidance</strong> on her. But Aviana is a big girl and it takes 4 cookies until she can take us home. Just as we leave Solgorod, I look back to Dietrich and see a familiar look of concentration on his face, typical when someone receives a Sending. Dietrich looks surprised, and responds out loud \"And… hold on, what happened to <strong>Magdalena</strong>?\"</p><p>But this is when the portal closes behind us and we join the others on Promise. We discuss who to send into Taldor Augusta to warn of our arrival; <strong>Kali</strong> has good contacts there so Fearghas asks her to go and speak to the \"right people\". The <strong>criminals</strong> of Taldor Augusta are now eager to meet us… We place the island close to the city, but not so close that it would cause panic. We have airships now so we can easily come and go.</p><p>Shalkoc tells us about the stormy weather we crossed, the last of it was really rough on the <strong>air elementals</strong> keeping the island aloft… they are not doing well. Which means they're probably dying really fast. Fearghas estimates we have <strong>4 weeks</strong> before the island starts falling.</p><p><strong>King Gandogar</strong> is cured from his madness and is questioning everything that happened before last month. For a while he couldn't tell truth from lie. The acolyte <strong>Drazah</strong> did come to Lessia claiming to be a fugitive, and she significantly helped the war effort, sharing information that led to victories on the battlefield. She had proven herself trustworthy… but she might not be, and Gandogar has no way of telling. She might be sent by the Duergar, and the victories could have been orchestrated to make her seem trustworthy.</p><p>King Gandogar worries that upon his return to Lessia, his acting differently will cause backlash. Most of Lessia considers Fearghas an enemy and it's likely the Dwarves will view their king's return with suspicion… or hostility. It will take time until Gandogar can calm things down in Lessia, and change the policies regarding <strong>Ukgluz</strong> and Fearghas. Fearghas offers him spellgems of <strong>Sending</strong>, and Gandogar refuses them, saying there is no safe magic. He will not budge on this. <s>He is completely oblivious to the fact his armour, shield, and axe are magical and can trigger surges…</s></p><p>Fearghas offers to teach the people of Lessia about magic, as the Duergar have no qualms about using magic and this puts Lessia at a severe disadvantage in the war. The Spellguard Shield and the Vorpal Battleaxe are returned to King Gandogar <s>despite Plex' protests</s>. Fearghas also told Gandogar of <strong>Khaz Narak</strong> and the history of Strazhland, the involvement and origins of the Dwarven race, the fate of the Snow Elves and the curse spoken in their final moments.</p><p>I receive an apology from the King of Lessia… for trying to pincer me. It was rather inappropriate. It's a struggle to keep a straight face as I thank him and assure him no harm was done. King Gandogar has a lot to think about… and asks for evidence on Khaz Narak and the history of Strazhland. We have schematics of lost technology we used to repair the train in the <strong>Underway</strong>! Fearghas entrusts the schematics to Gandogar before teleporting him back to Lessia. Aviana comes along to take Fearghas back with the anchorchain.</p><p>When Fearghas and Aviana come back in the evening, we decide to wait until the next day before going to Taldor Augusta. Fearghas retreats to his room to perform the <strong>Rite of Profane Power</strong>. While he is grumbling over his books (I imagine), I request Shalkoc cook something spicy.</p><p>The <strong>griffon egg</strong> Kyrin grabbed from the Green Sea has hatched! Many of the goblin children tried to ride the baby griffon with relatively good results, only one child died so far. Goblin mortality being pretty high due to sheer stupidity, it's not so bad. The lizard egg Plex grabbed from the jungle is still an egg, it's probably too cold. It's already a huge egg so it will hatch into a dinosaur once it gets more warmth.</p><p>We're about 2 hours away from Taldor Augusta by goblin airship. Plex wants to fly there but let's wait for the morning. Kali warned us that the city is overcrowded, and generally hostile to magic… but the emperor has mages.</p><p>We dine on spicy food as Fearghas grumbles, tomorrow we go into the big city!</p>"
         }
       ]
     },
@@ -10945,7 +11197,7 @@
         {
           "name": "Inventory",
           "section": "journal-pages",
-          "content": "<p></p><ul><li><p>Dried meat ((<span>I hidd some food in the library in the tower (</span><span>behind the section for Elven history)</span><span>.)</span></p></li><li><p>Pogo stick (worth 250g)</p></li><li><p>4 magical Jars to store food forever. <s>Crocoodile intestans</s>, Bird brain, Somethig something and Something something.</p></li></ul>"
+          "content": "<p></p><ul><li><p>Dried meat ((<span>I hidd some food in the library in the tower (</span><span>behind the section for Elven history)</span><span>.)</span></p></li><li><p>Pogo stick (worth 250g)</p></li><li><p>4 magical Jars to store food forever. ( moved to real inventory, body parts are dumped) <s>Crocoodile intestans</s>, <s>Bird brain, Somethig something and Something something.</s></p></li></ul>"
         }
       ]
     },
@@ -11135,5 +11387,5 @@
       ]
     }
   ],
-  "ingameDate": "Duodecimus 17, 1497"
+  "ingameDate": "Primus 15, 1498"
 }
