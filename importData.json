@@ -867,10 +867,10 @@
       },
       {
         "name": "Big bag of Gold",
-        "description": "<p>A shiny treasure of gold and coins!</p>",
+        "description": "<p><span>A shiny treasure of gold and coins!</span></p>",
         "section": "physical-items",
         "quantity": 1,
-        "combinedLabel": "Trinket",
+        "combinedLabel": "Treasure",
         "attunementLabel": ""
       }
     ],
@@ -1182,46 +1182,6 @@
         "attunementLabel": ""
       },
       {
-        "name": "Silver Locket",
-        "description": "<p>As a bonus action you can spend one charge to designate two creatures you can see and choose one damage type. </p><p>Until the start of your next turn any resistances, immunities or vulnerabilities to the damage type you chose are swapped between the two designated creatures. If at least one of the creatures has no resistance, immunity or vulnerability to the chosen damage type, this effect fails and no charge is spent.</p><p>At the beginning of your turn you can choose to spend another charge as a free action to extend the duration of this effect by one turn.</p><p>During this effect the inside of the locket portrays a drawn image of the two designated creatures.</p>",
-        "section": "physical-items",
-        "quantity": 1,
-        "combinedLabel": "Trinket",
-        "attunementLabel": "Requires Attunement"
-      },
-      {
-        "name": "Map of Deadlight Island",
-        "description": "",
-        "section": "physical-items",
-        "quantity": 1,
-        "combinedLabel": "Adventuring Gear",
-        "attunementLabel": ""
-      },
-      {
-        "name": "Potion of Radiant Resistance",
-        "description": "<p><em>The potion is a plain indescriminate color and smells slightly foul.</em></p><p>When you drink this potion, you gain resistance to Radiant type damage for 1 hour.</p>",
-        "section": "physical-items",
-        "quantity": 1,
-        "combinedLabel": "Potion",
-        "attunementLabel": ""
-      },
-      {
-        "name": "Potion of Maximum Power",
-        "description": "<p><em>This glowing purple liquid smells of sugar and plum, but it has a muddy taste.</em></p><p>The first time you cast a damage-dealing spell of 4th level or lower within 1 minute after drinking the potion, instead of rolling dice to determine the damage dealt, you instead use the highest number possible for each die.</p>",
-        "section": "physical-items",
-        "quantity": 6,
-        "combinedLabel": "Potion",
-        "attunementLabel": ""
-      },
-      {
-        "name": "Potion of Gaseous Form",
-        "description": "<p><em>This potion's container seems to hold fog that moves and pours like water.</em></p><p>When you drink this potion, you gain the effect of the gaseous form spell for 1 hour (no concentration required) or until you end the effect as a bonus action.</p>",
-        "section": "physical-items",
-        "quantity": 2,
-        "combinedLabel": "Potion",
-        "attunementLabel": ""
-      },
-      {
         "name": "High Priest's Obsidian Battleaxe",
         "description": "<p>This battleaxe made from obsidian is much sturdier than the material would suggest.</p><p>It's magical nature allows you to use your spellcasting modifier for attack and damage rolls.<br>Additionally, while you're holding this battleaxe, you can use it as a spellcasting focus and you gain a +1 bonus to spell attack rolls and to the saving throw DCs of your spells.</p><p>As a bonus action you can use this weapon to cast Spiritual Weapon at 6th level without expending a spell slot. When cast this way, the spiritual weapon looks like a spectral copy of this battleaxe. Once this property of the weapon is used, it can't be used again until the next dawn.</p>",
         "section": "physical-items",
@@ -1258,14 +1218,6 @@
         "spellLevel": "1st Level",
         "spellRange": "90 ft",
         "spellSchool": "Conjuration"
-      },
-      {
-        "name": "Wooden Pipe for smoking",
-        "description": "<p>A Indian like Pipe for smoking</p>",
-        "section": "physical-items",
-        "quantity": 1,
-        "combinedLabel": "Loot",
-        "attunementLabel": ""
       },
       {
         "name": "Bigby's Hand",
@@ -1306,58 +1258,10 @@
         "requirements": ""
       },
       {
-        "name": "Black Pearl",
-        "description": "<p>Called the Black Pearl only as a descriptor factor, for it is known that it's possible to dye the pearl to achieve this specific dark color. In some religions, it is believed that if these pearls are found, they show the deity's favor or disfavor based on circumstance</p>",
-        "section": "physical-items",
-        "quantity": 2,
-        "combinedLabel": "Gemstone",
-        "attunementLabel": ""
-      },
-      {
-        "name": "Onyx",
-        "description": "<p>If you wear this stone unenchanted, Lady Luck is bound to frown upon you. An important intaglio stone, used as part of jewelry to seal official documents</p>",
-        "section": "physical-items",
-        "quantity": 0,
-        "combinedLabel": "Gemstone",
-        "attunementLabel": ""
-      },
-      {
-        "name": "Gills",
-        "description": "<p>Obtained from aquatic beasts. These membranous structures exhibit a delicate, translucent appearance, designed for efficient underwater respiration.</p>",
-        "section": "physical-items",
-        "quantity": 12,
-        "combinedLabel": "Ingredient (bodyPart)",
-        "attunementLabel": ""
-      },
-      {
-        "name": "Plant Muscle Fibres",
-        "description": "<p>Harvested from medium-sized or larger plant creatures upon their demise. These fibrous strands possess a resilient texture and a pale green hue, reminiscent of the plant creature's own tissues.</p>",
-        "section": "physical-items",
-        "quantity": 55,
-        "combinedLabel": "Ingredient (bodyPart)",
-        "attunementLabel": ""
-      },
-      {
-        "name": "Ooze Drops",
-        "description": "<p>Collected from large-sized or larger ooze creatures. These translucent, gelatinous orbs exude a faint iridescence, containing potent enzymes and acids capable of dissolving various materials.</p>",
-        "section": "physical-items",
-        "quantity": 12,
-        "combinedLabel": "Ingredient (bodyPart)",
-        "attunementLabel": ""
-      },
-      {
         "name": "Alchemical Extraction",
         "description": "<p>With your specialized alchemist's tools in hand, you have the capability to extract rare materials from the remains of defeated creatures, investing 10 minutes per extraction.</p><h2>Harvesting Ingredients</h2><p>When you encounter specific herbs or the recently deceased bodies of certain types of creatures, you can use your alchemist's tools to harvest their alchemical ingredients. Doing so takes 10 minutes for each body or patch of herbs.<br>Each individual body or patch of herbs typically contains a potential yield of [[/r 2d4]] ingredients in usable condition.</p><p>To harvest the ingredients, make an Alchemy check against the material DC of the substance you are attempting to gather. The ingredient DC for each substance depends on its rarity, as shown on the Ingredient Rarity Table.</p><p>If you succeed on the check, you harvest the full amount of ingredients. On a failed check, you may still be able to recover some of the ingredients. Roll a [[/r d4] and consult the Ingredient Recovery table to determine the outcome.</p><h3>Ingredient Rarity Table</h3><table><tbody><tr><td><p><strong>Rarity</strong></p></td><td><p><strong>DC</strong></p></td><td><p><strong>Commercial Availability</strong></p></td></tr><tr><td><p>Common</p></td><td><p>10</p></td><td><p>General traders frequently have these ingredients in their inventory.</p></td></tr><tr><td><p>Uncommon</p></td><td><p>15</p></td><td><p>You can find these ingredients at shops specializing in alchemical goods</p></td></tr><tr><td><p>Rare</p></td><td><p>20</p></td><td><p>Shops in larger cities that deal in rare alchemical goods are your best bet for finding these ingredients.</p></td></tr><tr><td><p>Very Rare</p></td><td><p>25</p></td><td><p>Highly specialized alchemical merchants in major cities may stock these, often sourcing them through hired adventurers.</p></td></tr><tr><td><p>Legendary</p></td><td><p>30</p></td><td><p>Only the most skilled adventurers can procure these ingredients, as they are almost never sold by traders.</p></td></tr></tbody></table><p></p><h3>Ingredient Recovery Table</h3><table><tbody><tr><td><p><strong>d4 Roll</strong></p></td><td><p><strong>Harvesting Outcome</strong></p></td></tr><tr><td><p>1</p></td><td><p>You are unable to recover any ingredients.</p></td></tr><tr><td><p>2</p></td><td><p>Half of the yield is lost, rounded down.</p></td></tr><tr><td><p>3</p></td><td><p>A quarter of the yield is lost, rounded down.</p></td></tr><tr><td><p>4</p></td><td><p>You manage to recover the entire yield.</p></td></tr></tbody></table>",
         "section": "feature-items",
         "requirements": ""
-      },
-      {
-        "name": "Dragon Scale",
-        "description": "<p>Only very old and completely undamaged scales of huge dragons are fit for use in alchemy, making them incredibly rare. These iridescent scales gleam with vibrant colors, boasting remarkable resilience and magical properties.</p>",
-        "section": "physical-items",
-        "quantity": 6,
-        "combinedLabel": "Ingredient (bodyPart)",
-        "attunementLabel": ""
       },
       {
         "name": "Empowered Evocation",
@@ -1382,14 +1286,6 @@
         "spellSchool": "Evocation"
       },
       {
-        "name": "Core Crystal",
-        "description": "<p>Encased in the core of every permanent construct, this crystal pulses with a rhythmic, crimson luminescence. Its jagged edges and vibrant glow give it an almost organic appearance, as if it were a living heart beating within a metallic shell.</p>",
-        "section": "physical-items",
-        "quantity": 28,
-        "combinedLabel": "Ingredient (bodyPart)",
-        "attunementLabel": ""
-      },
-      {
         "name": "Teleport",
         "description": "<div><p>This spell instantly transports you and up to eight willing creatures of your choice that you can see within range, or a single object that you can see within range, to a destination you select. If you target an object, it must be able to fit entirely inside a 10-foot cube, and it can't be held or carried by an unwilling creature.</p><div></div><p>The destination you choose must be known to you, and it must be on the same plane of existence as you. Your familiarity with the destination determines whether you arrive there successfully. The DM rolls [[/r d100]] and consults the table.</p><table><caption>Teleportation</caption><thead><tr><th>Familiarity</th><th>Mishap</th><th>Similar Area</th><th>Off Target</th><th>On Target</th></tr></thead><tbody><tr><td>Permanent circle</td><td>—</td><td>—</td><td>—</td><td>01–100</td></tr><tr><td>Associated object</td><td>—</td><td>—</td><td>—</td><td>01–100</td></tr><tr><td>Very familiar</td><td>01–05</td><td>06–13</td><td>14–24</td><td>25–100</td></tr><tr><td>Seen casually</td><td>01–33</td><td>34–43</td><td>44–53</td><td>54–100</td></tr><tr><td>Viewed once</td><td>01–43</td><td>44–53</td><td>54–73</td><td>74–100</td></tr><tr><td>Description</td><td>01–43</td><td>44–53</td><td>54–73</td><td>74–100</td></tr><tr><td>False destination</td><td>01–50</td><td>51–100</td><td>—</td><td>—</td></tr></tbody></table><div><span> <span>Familiarity.</span></span> <p>\"Permanent circle\" means a permanent teleportation circle whose sigil sequence you know. \"Associated object\" means that you possess an object taken from the desired destination within the last six months, such as a book from a wizard's library, bed linen from a royal suite, or a chunk of marble from a lich's secret tomb.</p><div></div></div><p>\"Very familiar\" is a place you have been very often, a place you have carefully studied, or a place you can see when you cast the spell. \"Seen casually\" is someplace you have seen more than once but with which you aren't very familiar. \"Viewed once\" is a place you have seen once, possibly using magic. \"Description\" is a place whose location and appearance you know through someone else's description, perhaps from a map.</p><p>\"False destination\" is a place that doesn't exist. Perhaps you tried to scry an enemy's sanctum but instead viewed an illusion, or you are attempting to teleport to a familiar location that no longer exists.</p><div><span> <span>On Target.</span></span> <p>You and your group (or the target object) appear where you want to.</p><div></div></div><div><span> <span>Off Target.</span></span> <p>You and your group (or the target object) appear a random distance away from the destination in a random direction. Distance off target is [[/r 1d10 * 1d10]]{1d10 × 1d10} percent of the distance that was to be traveled. For example, if you tried to travel 120 miles, landed off target, and rolled a 5 and 3 on the two [[/r d10]]s, then you would be off target by 15 percent, or 18 miles. The DM determines the direction off target randomly by rolling a [[/r d8]] and designating 1 as north, 2 as northeast, 3 as east, and so on around the points of the compass. If you were teleporting to a coastal city and wound up 18 miles out at sea, you could be in trouble.</p><div></div></div><div><span> <span>Similar Area.</span></span> <p>You and your group (or the target object) wind up in a different area that's visually or thematically similar to the target area. If you are heading for your home laboratory, for example, you might wind up in another wizard's laboratory or in an alchemical supply shop that has many of the same tools and implements as your laboratory. Generally, you appear in the closest similar place, but since the spell has no range limit, you could conceivably wind up anywhere on the plane.</p><div></div></div><div><span> <span>Mishap.</span></span> <p>The spell's unpredictable magic results in a difficult journey. Each teleporting creature (or the target object) takes [[/damage 3d10 type=force]] damage, and the DM rerolls on the table to see where you wind up (multiple mishaps can occur, dealing damage each time).</p><div></div></div></div>",
         "section": "spell-items",
@@ -1410,14 +1306,6 @@
         "description": "<p>Combining arcane knowledge with practiced skill, you can brew potent potions and deadly poisons. Given an hour of uninterrupted time, your alchemist's tools can synthesize ingredients into powerful concoctions.</p><h2>Brewing</h2><p>To brew a potion or poison, you must be proficient with the use of alchemist's tools and you need to know the potion's recipe. The process of brewing takes one hour of uninterrupted work.</p><p>Combine three alchemical ingredients of the same rarity and make an Alchemy check against the material DC of the ingredients.</p><p>If successful, you create one potion or poison. If your check's total is 5 or more higher than the DC, you create an additional potion or poison for every increment of 5 it exceeds the DC (e.g., a DC of 10 with a roll of 20 results in 3 potions or poisons).</p><p>If you fail the check, you must make an Alchemy check for each ingredient against its material DC. Failing any of these checks ruins the corresponding ingredient.</p>",
         "section": "feature-items",
         "requirements": ""
-      },
-      {
-        "name": "Spell Scroll: Gentle Repose",
-        "description": "<p>You touch a corpse or other remains. For the duration, the target is protected from decay and can't become undead.</p><p>The spell also effectively extends the time limit on raising the target from the dead, since days spent under the influence of this spell don't count against the time limit of spells such as raise dead.</p>",
-        "section": "physical-items",
-        "quantity": 3,
-        "combinedLabel": "Scroll",
-        "attunementLabel": ""
       },
       {
         "name": "Inflict Wounds",
@@ -1468,22 +1356,6 @@
         "attunementLabel": "Requires Attunement"
       },
       {
-        "name": "Essence of Legend",
-        "description": "<p>Extracted from slain creatures renowned for their legendary resistances. This ethereal substance pulses with arcane energy, embodying the essence of resilience and defiance against formidable adversaries.</p>",
-        "section": "physical-items",
-        "quantity": 0,
-        "combinedLabel": "Ingredient (bodyPart)",
-        "attunementLabel": ""
-      },
-      {
-        "name": "Necromantic Binding",
-        "description": "<p>Acquired from huge-sized or larger undead creatures. This dark, ethereal essence carries an aura of death and decay, radiating an ominous energy that binds the undead to their master's will.</p>",
-        "section": "physical-items",
-        "quantity": 51,
-        "combinedLabel": "Ingredient (bodyPart)",
-        "attunementLabel": ""
-      },
-      {
         "name": "Tankard of Plenty",
         "description": "<div><p>This golden stein is decorated with dancing dwarves and grain patterns. Speaking the command word (\"Illefarn\") while grasping the handle fills the tankard with three pints of rich dwarven ale. This power can be used up to three times per day.</p></div>",
         "section": "physical-items",
@@ -1508,14 +1380,6 @@
         "description": "<p>As a bonus action, you can expend 1 Mythic Power to conjure a ghostly, spectral hand for 6 hours.</p><p>For the duration, you can use it to deliver melee spell attacks and cast other spells with a range of 5 feet or less, targeting creatures up to 300 feet away.</p><p>Additionally, melee spell attacks made through the hand deal an additional [[/damage 2d6 cold]] damage on hit.</p>",
         "section": "feature-items",
         "requirements": "Mythic Lich 1"
-      },
-      {
-        "name": "Star Ruby",
-        "description": "<p>Or simply known as Rose Quartz, is a pink gemstone mainly used in jewelry. The large slabs can be cut into multiple shapes from hearts, for holidays and anniversaries to huge round shapes, for wizards' crystal balls. </p>",
-        "section": "physical-items",
-        "quantity": 0,
-        "combinedLabel": "Gemstone",
-        "attunementLabel": ""
       },
       {
         "name": "Resistance",
@@ -1598,27 +1462,11 @@
         "spellSchool": "Abjuration"
       },
       {
-        "name": "Blue-White Diamond",
-        "description": "<p>The most notable gem from the Diamond variations is usually the colorless one which does have a blue-white tint. The use of diamonds is mainly in the jewelry market. Due to its brilliance, hardness, and rarity, it is the most famous of all gemstones.&nbsp;</p>",
-        "section": "physical-items",
-        "quantity": 0,
-        "combinedLabel": "Gemstone",
-        "attunementLabel": ""
-      },
-      {
         "name": "Activated: Inflict Wounds - 5th",
         "description": "<table>\n        <tbody>\n            <tr>\n                <td>\n                    <p>5th Level</p>\n                </td>\n            </tr>\n            \n        </tbody>\n    </table><p>Make a melee spell attack against a creature you can reach. On a hit, the target takes 3d10 necrotic damage.</p><p><strong>At Higher Levels.</strong> When you cast this spell using a spell slot of 2nd level or higher, the damage increases by 1d10 for each slot level above 1st.</p>",
         "section": "physical-items",
         "quantity": 1,
         "combinedLabel": "Spell Gem",
-        "attunementLabel": ""
-      },
-      {
-        "name": "Murgaxor's Elixir of Life",
-        "description": "<p>Whoever drinks this concoction gains advantage on death saving throws for 24 hours.</p>",
-        "section": "physical-items",
-        "quantity": 1,
-        "combinedLabel": "Potion",
         "attunementLabel": ""
       },
       {
@@ -1652,36 +1500,12 @@
         "spellSchool": "Abjuration"
       },
       {
-        "name": "Emerald",
-        "description": "<p>Translucent Emeralds are cut and polished in gem cuts for jewelry. Mainly provided as gifts for royalty or nobility. In the past, it was associated with health, fertility, and growth and used to adorn magical items that improved the healing arts.</p>\n<p>&nbsp;</p>",
-        "section": "physical-items",
-        "quantity": 0,
-        "combinedLabel": "Gemstone",
-        "attunementLabel": ""
-      },
-      {
-        "name": "Blue Quartz",
-        "description": "<p>Preferred by glassmiths or gaffers, to make different types of cups and vases and with help from the blacksmiths, it is used to ornate tankards. Magic wielders use this gemstone to see across the lands or through someone's deceit.</p>",
-        "section": "physical-items",
-        "quantity": 1,
-        "combinedLabel": "Gemstone",
-        "attunementLabel": ""
-      },
-      {
         "name": "Sunbeam",
         "description": "<div><p>A beam of brilliant light flashes out from your hand in a 5-foot-wide, 60-foot-long line. Each creature in the line must make a Constitution saving throw. On a failed save, a creature takes [[/damage 6d8 type=radiant]] damage and is &amp;Reference[condition=blinded] until your next turn. On a successful save, it takes half as much damage and isn't &amp;Reference[condition=blinded] by this spell. Undead and oozes have disadvantage on this saving throw.</p><div></div><p>You can create a new line of radiance as your action on any turn until the spell ends.</p><p>For the duration, a mote of brilliant radiance shines in your hand. It sheds bright light in a 30-foot radius and dim light for an additional 30 feet. This light is sunlight.</p></div>",
         "section": "spell-items",
         "spellLevel": "6th Level",
         "spellRange": "None",
         "spellSchool": "Evocation"
-      },
-      {
-        "name": "Mind Crystal (Subtle)",
-        "description": "<div><p>This gemstone contains a crystallized bit of spellcasting magic.</p><p>When you cast a spell that has a casting time of 1 action while holding the <em>mind crystal</em>, you can modify the spell in the way described below. You can use only a single <em>mind crystal</em> to modify the spell, and you can't use a <em>mind crystal</em> and a Metamagic option on the same spell. Once you use the <em>mind crystal</em>, it shatters into nothingness.</p><div><p><span><strong>Modify Spell</strong></span></p><p>You cast the spell without any somatic or verbal components for this casting.</p></div></div>",
-        "section": "physical-items",
-        "quantity": 1,
-        "combinedLabel": "Trinket",
-        "attunementLabel": ""
       },
       {
         "name": "Rary's Telepathic Bond",
@@ -1692,35 +1516,11 @@
         "spellSchool": "Divination"
       },
       {
-        "name": "Jade",
-        "description": "<p>Its primary form is called Jadeite, after cutting, it's mainly used in ornamental sculptures and figurines. Musicians of all kinds believed that if they wore Jade, they would improve their musical prowess</p>",
-        "section": "physical-items",
-        "quantity": 0,
-        "combinedLabel": "Gemstone",
-        "attunementLabel": ""
-      },
-      {
         "name": "Flame-Runed Alchemist's Supplies",
         "description": "<p><em>Only the fire giants of Muspelheim know how to scribe runes capable of enhancing one's craftsmanship.</em></p><p>When you make a tool check using this tool, you can choose to consume one charge to add a d4 to the roll. The tool regains all spent charges when you take a long rest.</p>",
         "section": "physical-items",
         "quantity": 1,
         "combinedLabel": "Artisan's Tools",
-        "attunementLabel": ""
-      },
-      {
-        "name": "Fever Grass",
-        "description": "<p><span>Thrives abundantly in sunny grasslands. Slender stems bear needle-like leaves and golden-hued flowers. Possesses a fragrant aroma believed to hold medicinal properties.</span></p>",
-        "section": "physical-items",
-        "quantity": 8,
-        "combinedLabel": "Ingredient (herb)",
-        "attunementLabel": ""
-      },
-      {
-        "name": "Spell Scroll: Globe of Invulnerability",
-        "description": "<div><p>An immobile, faintly shimmering barrier springs into existence in a 10-foot radius around you and remains for the duration.</p><div></div><p>Any spell of 5th level or lower cast from outside the barrier can't affect creatures or objects within it, even if the spell is cast using a higher level spell slot. Such a spell can target creatures and objects within the barrier, but the spell has no effect on them. Similarly, the area within the barrier is excluded from the areas affected by such spells.</p></div><div><div><span> <span>At Higher Levels.</span></span> <p>When you cast this spell using a spell slot of 7th level or higher, the barrier blocks spells of one level higher for each slot level above 6th.</p><div></div></div><div></div></div>",
-        "section": "physical-items",
-        "quantity": 1,
-        "combinedLabel": "Scroll",
         "attunementLabel": ""
       },
       {
@@ -1730,14 +1530,6 @@
         "spellLevel": "6th Level",
         "spellRange": "None",
         "spellSchool": "Abjuration"
-      },
-      {
-        "name": "Snow Moss",
-        "description": "<p>Clings to the walls of deep glacial crevasses. Its tiny, delicate leaves form a thick, velvety carpet that glistens with frost under the icy light.</p>",
-        "section": "physical-items",
-        "quantity": 3,
-        "combinedLabel": "Ingredient (herb)",
-        "attunementLabel": ""
       },
       {
         "name": "Voidborn Explorer's Spellbook",
@@ -1826,14 +1618,6 @@
         "spellSchool": "Transmutation"
       },
       {
-        "name": "Spell Scroll: Guidance",
-        "description": "<div><p>You touch one willing creature. Once before the spell ends, the target can roll a [[/r d4]] and add the number rolled to one ability check of its choice. It has to roll the die before making the ability check. The spell then ends.</p></div>",
-        "section": "physical-items",
-        "quantity": 1,
-        "combinedLabel": "Scroll",
-        "attunementLabel": ""
-      },
-      {
         "name": "Ioun Stone, Language Knowledge",
         "description": "<div><p>An <i>Ioun stone</i> is named after Ioun, a god of knowledge and prophecy revered on some worlds. Many types of <i>Ioun stone</i> exist, each type a distinct combination of shape and color.</p><p>When you use an action to toss one of these stones into the air, the stone orbits your head at a distance of [[/r 1d3]] feet and confers a benefit to you. Thereafter, another creature must use an action to grasp or net the stone to separate it from you, either by making a successful attack roll against AC 24 or a successful DC 24 Dexterity (&amp;Reference[skill=Acrobatics]) check. You can use an action to seize and stow the stone, ending its effect.</p><p>A stone has AC 24, 10 hit points, and resistance to all damage. It is considered to be an object that is being worn while it orbits your head.</p><p>You are fluent in one additional language while this pulsating bit of red jeweled crystal orbits your head. The DM chooses the language bestowed by the stone.</p></div>",
         "section": "physical-items",
@@ -1848,22 +1632,6 @@
         "spellLevel": "Cantrip",
         "spellRange": "Touch",
         "spellSchool": "Divination"
-      },
-      {
-        "name": "Necklace of Fireballs",
-        "description": "<div><p>This necklace has 9 beads hanging from it. You can use an action to detach a bead and throw it up to 60 feet away. When it reaches the end of its trajectory, the bead detonates as a 3rd-level <span>fireball</span> spell (save DC 15).</p><p>You can hurl multiple beads, or even the whole necklace, as one action. When you do so, increase the level of the fireball by 1 for each bead beyond the first.</p></div>",
-        "section": "physical-items",
-        "quantity": 1,
-        "combinedLabel": "Trinket",
-        "attunementLabel": ""
-      },
-      {
-        "name": "Fireball",
-        "description": "<div><p>A bright streak flashes from your pointing finger to a point you choose within range and then blossoms with a low roar into an explosion of flame. Each creature in a 20-foot-radius sphere centered on that point must make a Dexterity saving throw. A target takes 8d6 fire damage on a failed save, or half as much damage on a successful one.</p><div></div><p>The fire spreads around corners. It ignites flammable objects in the area that aren't being worn or carried.</p></div><div><div><span> <span>At Higher Levels.</span></span> <p>When you cast this spell using a spell slot of 4th level or higher, the damage increases by 1d6 for each slot level above 3rd.</p><div></div></div><div></div></div>",
-        "section": "spell-items",
-        "spellLevel": "3rd Level",
-        "spellRange": "150 ft",
-        "spellSchool": "Evocation"
       },
       {
         "name": "Ioun Stone, Sandstone",
@@ -1895,14 +1663,6 @@
         "section": "physical-items",
         "quantity": 1,
         "combinedLabel": "Spell Gem",
-        "attunementLabel": ""
-      },
-      {
-        "name": "Potion of Time Stop",
-        "description": "<p><em>The liquid contained in this potion never seems to move.</em></p><p>When you drink this potion, gain the effects of the Time Stop spell for 1d4 + 1 turns.</p><p><strong>Time Stop</strong></p><p>You briefly stop the flow of time for everyone but yourself. No time passes for other creatures, while you take 1d4 + 1 turns in a row, during which you can use actions and move as normal.</p><p>This spell ends if one of the actions you use during this period, or any effects that you create during this period, affects a creature other than you or an object being worn or carried by someone other than you. In addition, the spell ends if you move to a place more than 1,000 feet from the location where you cast it.</p>",
-        "section": "physical-items",
-        "quantity": 1,
-        "combinedLabel": "Potion",
         "attunementLabel": ""
       },
       {
@@ -1956,50 +1716,10 @@
         "attunementLabel": ""
       },
       {
-        "name": "Pyrope",
-        "description": "<p>Pyrope, a type of garnet known for its exquisite beauty, also holds military significance. It is believed that adorning weaponry with this garnet allows it to penetrate the thickest hides or demolish the strongest doors, aided by arcane forces.</p>",
-        "section": "physical-items",
-        "quantity": 0,
-        "combinedLabel": "Gemstone",
-        "attunementLabel": ""
-      },
-      {
-        "name": "Oil of Immovability",
-        "description": "<div><p>A vial of this usually contains 4 doses. As an action, a dose can be applied to the hinges of a door or chest lid, the gears of a machine, the axel of a wagon, or to the moving parts of another object. For the next 8 hours, those moving parts are locked in place. It requires a [[/check str dc=25 format=long]] to move the parts, but that usually causes the object to break first, unless it is a very sturdy object.</p></div>",
-        "section": "physical-items",
-        "quantity": 1,
-        "combinedLabel": "Potion",
-        "attunementLabel": ""
-      },
-      {
-        "name": "Potion of Mind Restoration",
-        "description": "<div><p>This potion cures any type of insanity or confusion, restores memories that have been altered or removed with the <i>modify memory</i> or similar spell, ends the charmed condition, and reverses the effects of the <i>feeblemind</i> spell. This potion is a clear purple that sparkles when you shake it.</p></div>",
-        "section": "physical-items",
-        "quantity": 1,
-        "combinedLabel": "Potion",
-        "attunementLabel": ""
-      },
-      {
-        "name": "Pure Wrong",
-        "description": "<p>Extracted from large-sized or larger aberration creatures. This eerie substance exudes an unsettling aura, its shifting colors and slimy texture defying natural order.</p>",
-        "section": "physical-items",
-        "quantity": 13,
-        "combinedLabel": "Ingredient (bodyPart)",
-        "attunementLabel": ""
-      },
-      {
         "name": "Grapple",
         "description": "<p>When you want to grab a creature or wrestle with it, you can use the Attack action to make a special melee attack, a grapple. If you're able to make multiple attacks with the Attack action, this attack replaces one of them. The target of your grapple must be no more than one size larger than you, and it must be within your reach.</p><p>Using at least one free hand, you try to seize the target by making a grapple check, a [[/skill ath format=long]] contested by the target's [[/skill ath format=long]] or [[/skill acr format=long]] (the target chooses the ability to use). You succeed automatically if the target is incapacitated. If you succeed, you subject the target to the &amp;Reference[grappled] effect. The condition specifies the things that end it, and you can release the target whenever you like (no action required).</p>",
         "section": "feature-items",
         "requirements": ""
-      },
-      {
-        "name": "Spell Scroll: Chain Lightning",
-        "description": "<div><p>You release a surge of static energy that fills the air, crackling as it seeks its path. Choose a target you can see within range, and make a ranged spell attack. If the attack hits, the static energy arcs towards the closest creature within 30 feet of the previous target that hasn’t been struck by this casting of Chain Lightning. You make a new ranged spell attack for each new target. This process repeats up to three times, plus one additional time for each critical hit you score, or until there are no valid targets, or until you choose to end the chain.</p><p>Once the path is fully traced, all hit creatures are struck in a flash of destructive force, each taking [[/damage 10d8 type=lightning]] damage simultaneously. If the initial attack roll was a critical hit, each creature struck by the lightning takes critical damage from this casting of Chain Lightning.</p><p><strong>At Higher Levels.</strong></p><p>When you cast this spell using a spell slot of 7th level or higher, the spell's damage increases by [[/damage 2d8 type=lightning]] and it's critical hit range increases by 1 for each spell slot level above 6th.</p></div>",
-        "section": "physical-items",
-        "quantity": 1,
-        "combinedLabel": "Scroll",
-        "attunementLabel": ""
       },
       {
         "name": "Chain Lightning",
@@ -2030,14 +1750,6 @@
         "spellLevel": "5th Level",
         "spellRange": "90 ft",
         "spellSchool": "Enchantment"
-      },
-      {
-        "name": "Spell Scroll: Greater Invisibility",
-        "description": "<div><p>You or a creature you touch becomes &amp;Reference[condition=invisible] until the spell ends. Anything the target is wearing or carrying is &amp;Reference[condition=invisible] as long as it is on the target's person.</p></div>",
-        "section": "physical-items",
-        "quantity": 1,
-        "combinedLabel": "Scroll",
-        "attunementLabel": ""
       },
       {
         "name": "Grease",
@@ -2088,164 +1800,12 @@
         "spellSchool": "Divination"
       },
       {
-        "name": "Spell Scroll: Anticipate Arcana",
-        "description": "<div><p>Your foresight gives you an instant to ready your defenses against a magical attack. When you cast this spell, you have advantage on saving throws against spells and other magical effects until the start of your next turn.</p></div>",
-        "section": "physical-items",
-        "quantity": 1,
-        "combinedLabel": "Scroll",
-        "attunementLabel": ""
-      },
-      {
         "name": "Remove Curse",
         "description": "<div><p>At your touch, all curses affecting one creature or object end. If the object is a cursed magic item, its curse remains, but the spell breaks its owner's attunement to the object so it can be removed or discarded.</p></div>",
         "section": "spell-items",
         "spellLevel": "3rd Level",
         "spellRange": "Touch",
         "spellSchool": "Abjuration"
-      },
-      {
-        "name": "Spell Scroll: Mental Prison",
-        "description": "<div><p>You attempt to bind a creature within an illusory cell that only it perceives. One creature you can see within range must make an Intelligence saving throw. The target succeeds automatically if it is immune to being &amp;Reference[condition=charmed].</p><p>On a successful save, the target takes [[/damage 5d10 type=psychic]] damage, and the spell ends. On a failed save, the target takes [[/damage 5d10 type=psychic]] damage, and you make the area immediately around the target's space appear dangerous to it in some way. You might cause the target to perceive itself as being surrounded by fire, floating razors, or hideous maws filled with dripping teeth. Whatever form the illusion takes, the target is &amp;Reference[blinded] and &amp;Reference[deafened] to anything beyond it and is &amp;Reference[restrained] for the spell's duration. If the target is moved out of the illusion, makes a melee attack through it, or reaches any part of its body through it, the target takes [[/damage 10d10 type=psychic]] damage, and the spell ends.</p></div>",
-        "section": "physical-items",
-        "quantity": 1,
-        "combinedLabel": "Scroll",
-        "attunementLabel": ""
-      },
-      {
-        "name": "Spell Scroll: Cone of Cold",
-        "description": "<div><p>A blast of cold air erupts from your hands. Each creature in a 60-foot cone must make a Constitution saving throw. A creature takes [[/damage 8d8 type=cold]] damage on a failed save, or half as much damage on a successful one.</p><div></div><p>A creature killed by this spell becomes a frozen statue until it thaws.</p></div><div><div><span> <span>At Higher Levels.</span></span> <p>When you cast this spell using a spell slot of 6th level or higher, the damage increases by [[/damage 1d8]] for each slot level above 5th.</p><div></div></div><div></div></div>",
-        "section": "physical-items",
-        "quantity": 1,
-        "combinedLabel": "Scroll",
-        "attunementLabel": ""
-      },
-      {
-        "name": "Spell Scroll: Contact Other Plane",
-        "description": "<div><p>You mentally contact a demigod, the spirit of a long-dead sage, or some other mysterious entity from another plane. Contacting this extraplanar intelligence can strain or even break your mind. When you cast this spell, make a [[/save ability=intelligence dc=15]] saving throw. On a failure, you take [[/damage 6d6 type=psychic]] damage and are insane until you finish a long rest. While insane, you can't take actions, can't understand what other creatures say, can't read, and speak only in gibberish. A Greater Restoration spell cast on you ends this effect.</p><p>On a successful save, you can ask the entity up to five questions. You must ask your questions before the spell ends. The DM answers each question with one word, such as \"yes,\" \"no,\" \"maybe,\" \"never,\" \"irrelevant,\" or \"unclear\" (if the entity doesn't know the answer to the question). If a one-word answer would be misleading, the DM might instead offer a short phrase as an answer.</p></div>",
-        "section": "physical-items",
-        "quantity": 1,
-        "combinedLabel": "Scroll",
-        "attunementLabel": ""
-      },
-      {
-        "name": "Spell Scroll: Otiluke's Resilient Sphere",
-        "description": "<div><p>A sphere of shimmering force encloses a creature or object of Large size or smaller within range. An unwilling creature must make a Dexterity saving throw. On a failed save, the creature is enclosed for the duration.</p><p>Nothing—not physical objects, energy, or other spell effects—can pass through the barrier, in or out, though a creature in the sphere can breathe there. The sphere is immune to all damage, and a creature or object inside can't be damaged by attacks or effects originating from outside, nor can a creature inside the sphere damage anything outside it.</p><p>The sphere is weightless and just large enough to contain the creature or object inside. An enclosed creature can use its action to push against the sphere's walls and thus roll the sphere at up to half the creature's speed. Similarly, the globe can be picked up and moved by other creatures.</p><p>A disintegrate<span> </span>spell targeting the globe destroys it without harming anything inside it.</p></div>",
-        "section": "physical-items",
-        "quantity": 1,
-        "combinedLabel": "Scroll",
-        "attunementLabel": ""
-      },
-      {
-        "name": "Spell Scroll: Tongues",
-        "description": "<div><p>This spell grants the creature you touch the ability to understand any spoken language it hears. Moreover, when the target speaks, any creature that knows at least one language and can hear the target understands what it says.</p></div>",
-        "section": "physical-items",
-        "quantity": 1,
-        "combinedLabel": "Scroll",
-        "attunementLabel": ""
-      },
-      {
-        "name": "Spell Scroll: Revivify",
-        "description": "<div><p>You touch a creature that has died within the last minute. That creature returns to life with 1 hit point. This spell can't return to life a creature that has died of old age, nor can it restore any missing body parts.</p></div>",
-        "section": "physical-items",
-        "quantity": 1,
-        "combinedLabel": "Scroll",
-        "attunementLabel": ""
-      },
-      {
-        "name": "Spell Scroll: Major Image",
-        "description": "<div><p>You create the image of an object, a creature, or some other visible phenomenon that is no larger than a 20-foot cube. The image appears at a spot that you can see within range and lasts for the duration. It seems completely real, including sounds, smells, and temperature appropriate to the thing depicted. You can't create sufficient heat or cold to cause damage, a sound loud enough to deal thunder damage or deafen a creature, or a smell that might sicken a creature (like a troglodyte's stench).</p><p>As long as you are within range of the illusion, you can use your action to cause the image to move to any other spot within range. As the image changes location, you can alter its appearance so that its movements appear natural for the image. For example, if you create an image of a creature and move it, you can alter the image so that it appears to be walking. Similarly, you can cause the illusion to make different sounds at different times, even making it carry on a conversation, for example.</p><p>Physical interaction with the image reveals it to be an illusion, because things can pass through it. A creature that uses its action to examine the image can determine that it is an illusion with a successful [[/skill inv]] check against your spell save DC. If a creature discerns the illusion for what it is, the creature can see through the image, and its other sensory qualities become faint to the creature.</p></div><div><div><p><span><strong>At Higher Levels</strong></span></p><p>When you cast this spell using a spell slot of 6th level or higher, the spell lasts until dispelled, without requiring your concentration.</p></div></div>",
-        "section": "physical-items",
-        "quantity": 1,
-        "combinedLabel": "Scroll",
-        "attunementLabel": ""
-      },
-      {
-        "name": "Spell Scroll: Darkness",
-        "description": "<div><p>Magical darkness spreads from a point you choose within range to fill a 15-foot-radius sphere for the duration. The darkness spreads around corners. A creature with <span>Darkvision</span> can't see through this darkness, and nonmagical light can't illuminate it.</p><p>If the point you choose is on an object you are holding or one that isn't being worn or carried, the darkness emanates from the object and moves with it. Completely covering the source of the darkness with an opaque object, such as a bowl or a helm, blocks the darkness.</p><p>If any of this spell's area overlaps with an area of light created by a spell of 2nd level or lower, the spell that created the light is dispelled.</p></div>",
-        "section": "physical-items",
-        "quantity": 1,
-        "combinedLabel": "Scroll",
-        "attunementLabel": ""
-      },
-      {
-        "name": "Spell Scroll: Detect Thoughts",
-        "description": "<p>For the duration, you can read the thoughts of certain creatures. When you cast the spell and as your action on each turn until the spell ends, you can focus your mind on any one creature that you can see within 30 feet of you. If the creature you choose has an Intelligence of 3 or lower or doesn't speak any language, the creature is unaffected.</p><p>You initially learn the surface thoughts of the creature—what is most on its mind in that moment. As an action, you can either shift your attention to another creature's thoughts or attempt to probe deeper into the same creature's mind. If you probe deeper, the target must make a Wisdom saving throw. If it fails, you gain insight into its reasoning (if any), its emotional state, and something that looms large in its mind (such as something it worries over, loves, or hates). If it succeeds, the spell ends. Either way, the target knows that you are probing into its mind, and unless you shift your attention to another creature's thoughts, the creature can use its action on its turn to make an Intelligence check contested by your Intelligence check; if it succeeds, the spell ends.</p><p>Questions verbally directed at the target creature naturally shape the course of its thoughts, so this spell is particularly effective as part of an interrogation.</p><p>You can also use this spell to detect the presence of thinking creatures you can't see. When you cast the spell or as your action during the duration, you can search for thoughts within 30 feet of you. The spell can penetrate barriers, but 2 feet of rock, 2 inches of any metal other than lead, or a thin sheet of lead blocks you. You can't detect a creature with an Intelligence of 3 or lower or one that doesn't speak any language.</p><p>Once you detect the presence of a creature in this way, you can read its thoughts for the rest of the duration as described above, even if you can't see it, but it must still be within range.</p>",
-        "section": "physical-items",
-        "quantity": 1,
-        "combinedLabel": "Scroll",
-        "attunementLabel": ""
-      },
-      {
-        "name": "Spell Scroll: Immovable Object",
-        "description": "<div><p>You touch an object that weighs no more than 10 pounds and cause it to become magically fixed in place. You and the creatures you designate when you cast this spell can move the object normally. You can also set a password that, when spoken within 5 feet of the object, suppresses this spell for 1 minute.</p><div><p></p></div><p>If the object is fixed in the air, it can hold up to 4,000 pounds of weight. More weight causes the object to fall. Otherwise, a creature can use an action to make a Strength check against your spell save DC. On a success, the creature can move the object up to 10 feet.</p></div><div><div><p><span><strong>At Higher Levels</strong></span></p><p>If you cast this spell using a spell slot of 4th or 5th level, the DC to move the object increases by 5, it can carry up to 8,000 pounds of weight, and the duration increases to 24 hours. If you cast this spell using a spell slot of 6th level or higher, the DC to move the object increases by 10, it can carry up to 20,000 pounds of weight, and the effect is permanent until dispelled.</p><div><p></p></div></div><div><p></p></div></div>",
-        "section": "physical-items",
-        "quantity": 1,
-        "combinedLabel": "Scroll",
-        "attunementLabel": ""
-      },
-      {
-        "name": "Spell Scroll: Knock",
-        "description": "<div><p>Choose an object that you can see within range. The object can be a door, a box, a chest, a set of manacles, a padlock, or another object that contains a mundane or magical means that prevents access.</p><p>A target that is held shut by a mundane lock or that is stuck or barred becomes unlocked, unstuck, or unbarred. If the object has multiple locks, only one of them is unlocked.</p><p>If you choose a target that is held shut with Arcane Lock, that spell is suppressed for 10 minutes, during which time the target can be opened and shut normally.</p><p>When you cast the spell, a loud knock, audible from as far away as 300 feet, emanates from the target object.</p></div>",
-        "section": "physical-items",
-        "quantity": 1,
-        "combinedLabel": "Scroll",
-        "attunementLabel": ""
-      },
-      {
-        "name": "Spell Scroll: Spiritual Weapon",
-        "description": "<div><p>You create a floating, spectral weapon that lasts for the duration or until you cast this spell again. When you cast the spell, you can make a melee spell attack against a creature within range. On a hit, the target takes force damage equal to [[/r 1d8]] + your spellcasting ability modifier.</p><p>For as long as the spectral weapon is summoned you can, as a bonus action on your turn, repeat the attack against a creature within range.</p><p>The weapon can take whatever form you choose. Clerics of deities who are associated with a particular weapon (as St. Cuthbert is known for his mace and Thor for his hammer) make this spell's effect resemble that weapon.</p></div><div><div><p><span><strong>At Higher Levels</strong></span></p><p>When you cast this spell using a spell slot of 3rd level or higher, the damage increases by [[/r 1d8]] for every two slot levels above 2nd.</p><div><p></p></div></div><div><p></p></div></div>",
-        "section": "physical-items",
-        "quantity": 1,
-        "combinedLabel": "Scroll",
-        "attunementLabel": ""
-      },
-      {
-        "name": "Spell Scroll: See Invisibility",
-        "description": "<div><p>For the duration, you see &amp;Reference[condition=invisible] creatures and objects as if they were visible, and you can see into the Ethereal Plane. Ethereal creatures and objects appear ghostly and translucent.</p></div>",
-        "section": "physical-items",
-        "quantity": 1,
-        "combinedLabel": "Scroll",
-        "attunementLabel": ""
-      },
-      {
-        "name": "Spell Scroll: Silence",
-        "description": "<div><p>For the duration, no sound can be created within or pass through a 20-foot-radius sphere centered on a point you choose within range. Any creature or object entirely inside the sphere is immune to thunder damage, and creatures are <span>Deafened</span> while entirely inside it. Casting a spell that includes a verbal component is impossible there.</p></div>",
-        "section": "physical-items",
-        "quantity": 1,
-        "combinedLabel": "Scroll",
-        "attunementLabel": ""
-      },
-      {
-        "name": "Spell Scroll: Aganazzar's Scorcher",
-        "description": "<div><p>A line of roaring flame 30 feet long and 5 feet wide emanates from you in a direction you choose. Each creature in the line must make a Dexterity saving throw. A creature takes [[/damage 3d8 type=fire]] damage on a failed save, or half as much damage on a successful one.</p></div><div><div><span> <span>At Higher Levels.</span></span> <p>When you cast this spell using a spell slot of 3rd level or higher, the damage increases by [[/damage 1d8]] for each slot level above 2nd.</p></div></div>",
-        "section": "physical-items",
-        "quantity": 1,
-        "combinedLabel": "Scroll",
-        "attunementLabel": ""
-      },
-      {
-        "name": "Spell Scroll: Hellish Rebuke",
-        "description": "<div><p>You point your finger, and the creature that damaged you is momentarily surrounded by hellish flames. The creature must make a Dexterity saving throw. It takes <span>2d10</span> fire damage on a failed save, or half as much damage on a successful one.</p><div></div></div><div><div><span> <span>At Higher Levels.</span></span> <p>When you cast this spell using a spell slot of 2nd level or higher, the damage increases by <span>1d10</span> for each slot level above 1st.</p><div></div></div><div></div></div>",
-        "section": "physical-items",
-        "quantity": 1,
-        "combinedLabel": "Scroll",
-        "attunementLabel": ""
-      },
-      {
-        "name": "Spell Scroll: Silent Image",
-        "description": "<div><p>You create the image of an object, a creature, or some other visible phenomenon that is no larger than a 15-foot cube. The image appears at a spot within range and lasts for the duration. The image is purely visual; it isn't accompanied by sound, smell, or other sensory effects.</p><p>You can use your action to cause the image to move to any spot within range. As the image changes location, you can alter its appearance so that its movements appear natural for the image. For example, if you create an image of a creature and move it, you can alter the image so that it appears to be walking.</p><p>Physical interaction with the image reveals it to be an illusion, because things can pass through it. A creature that uses its action to examine the image can determine that it is an illusion with a successful [[/skill inv]] check against your spell save DC. If a creature discerns the illusion for what it is, the creature can see through the image.</p></div>",
-        "section": "physical-items",
-        "quantity": 1,
-        "combinedLabel": "Scroll",
-        "attunementLabel": ""
-      },
-      {
-        "name": "Spell Scroll: Longstrider",
-        "description": "<div><p>You touch a creature. The target's speed increases by 10 feet until the spell ends.</p></div><div><div><span> <span>At Higher Levels.</span></span> <p>When you cast this spell using a spell slot of 2nd level or higher, you can target one additional creature for each slot level above 1st.</p></div></div>",
-        "section": "physical-items",
-        "quantity": 1,
-        "combinedLabel": "Scroll",
-        "attunementLabel": ""
       },
       {
         "name": "Mordenkainen's Magnificent Mansion",
@@ -2448,30 +2008,6 @@
         "spellSchool": "Illusion"
       },
       {
-        "name": "Spell Scroll: Command",
-        "description": "<div><p>You speak a one-word command to a creature you can see within range. The target must succeed on a Wisdom saving throw or follow the command on its next turn. The spell has no effect if the target is undead, if it doesn't understand your language, or if your command is directly harmful to it.</p><p>Some typical commands and their effects follow. You might issue a command other than one described here. If you do so, the DM determines how the target behaves. If the target can't follow your command, the spell ends.</p><div><span> <span>Approach.</span></span> <p>The target moves toward you by the shortest and most direct route, ending its turn if it moves within 5 feet of you.</p></div><div><span> <span>Drop.</span></span> <p>The target drops whatever it is holding and then ends its turn.</p></div><div><span> <span>Flee.</span></span> <p>The target spends its turn moving away from you by the fastest available means.</p></div><div><span> <span>Grovel.</span></span> <p>The target falls &amp;Reference[condition=prone] and then ends its turn.</p></div><div><span> <span>Halt.</span></span> <p>The target doesn't move and takes no actions. A flying creature stays aloft, provided that it is able to do so. If it must move to stay aloft, it flies the minimum distance needed to remain in the air.</p></div></div><div><div><span> <span>At Higher Levels.</span></span> <p>When you cast this spell using a spell slot of 2nd level or higher, you can affect one additional creature for each slot level above 1st. The creatures must be within 30 feet of each other when you target them.</p></div></div>",
-        "section": "physical-items",
-        "quantity": 1,
-        "combinedLabel": "Scroll",
-        "attunementLabel": ""
-      },
-      {
-        "name": "Spell Scroll: Death Ward",
-        "description": "<p>You touch a creature and grant it a measure of protection from death.</p><p>The first time the target would drop to 0 hit points as a result of taking damage, the target instead drops to 1 hit point, and the spell ends.</p><p>If the spell is still in effect when the target is subjected to an effect that would kill it instantaneously without dealing damage, that effect is instead negated against the target, and the spell ends.</p>",
-        "section": "physical-items",
-        "quantity": 1,
-        "combinedLabel": "Scroll",
-        "attunementLabel": ""
-      },
-      {
-        "name": "Spell Scroll: Unseen Servant",
-        "description": "<div><p>This spell creates an invisible, mindless, shapeless, Medium force that performs simple tasks at your command until the spell ends. The servant springs into existence in an unoccupied space on the ground within range. It has AC 10, 1 hit point, and a Strength of 2, and it can't attack. If it drops to 0 hit points, the spell ends.</p><p>Once on each of your turns as a bonus action, you can mentally command the servant to move up to 15 feet and interact with an object. The servant can perform simple tasks that a human servant could do, such as fetching things, cleaning, mending, folding clothes, lighting fires, serving food, and pouring wine. Once you give the command, the servant performs the task to the best of its ability until it completes the task, then waits for your next command.</p><p>If you command the servant to perform a task that would move it more than 60 feet away from you, the spell ends.</p></div>",
-        "section": "physical-items",
-        "quantity": 1,
-        "combinedLabel": "Scroll",
-        "attunementLabel": ""
-      },
-      {
         "name": "Unseen Servant",
         "description": "<div><p>This spell creates an invisible, mindless, shapeless, Medium force that performs simple tasks at your command until the spell ends. The servant springs into existence in an unoccupied space on the ground within range. It has AC 10, 1 hit point, and a Strength of 2, and it can't attack. If it drops to 0 hit points, the spell ends.</p><p>Once on each of your turns as a bonus action, you can mentally command the servant to move up to 15 feet and interact with an object. The servant can perform simple tasks that a human servant could do, such as fetching things, cleaning, mending, folding clothes, lighting fires, serving food, and pouring wine. Once you give the command, the servant performs the task to the best of its ability until it completes the task, then waits for your next command.</p><p>If you command the servant to perform a task that would move it more than 60 feet away from you, the spell ends.</p></div>",
         "section": "spell-items",
@@ -2486,14 +2022,6 @@
         "spellLevel": "1st Level",
         "spellRange": "30 ft",
         "spellSchool": "Conjuration"
-      },
-      {
-        "name": "Spell Scroll: Tenser's Floating Disk",
-        "description": "<div><p>This spell creates a circular, horizontal plane of force, 3 feet in diameter and 1 inch thick, that floats 3 feet above the ground in an unoccupied space of your choice that you can see within range. The disk remains for the duration, and can hold up to 500 pounds. If more weight is placed on it, the spell ends, and everything on the disk falls to the ground.</p><div></div><p>The disk is immobile while you are within 20 feet of it. If you move more than 20 feet away from it, the disk follows you so that it remains within 20 feet of you. It can move across uneven terrain, up or down stairs, slopes and the like, but it can't cross an elevation change of 10 feet or more. For example, the disk can't move across a 10-foot-deep pit, nor could it leave such a pit if it was created at the bottom.</p><p>If you move more than 100 feet from the disk (typically because it can't move around an obstacle to follow you), the spell ends.</p></div>",
-        "section": "physical-items",
-        "quantity": 1,
-        "combinedLabel": "Scroll",
-        "attunementLabel": ""
       },
       {
         "name": "Activated: Anticipate Arcana - 3rd",
@@ -2544,14 +2072,6 @@
         "spellSchool": "Transmutation"
       },
       {
-        "name": "Small Bronze Hammer",
-        "description": "<p>You are certain that this hammer wasn't here when you entered…</p>",
-        "section": "physical-items",
-        "quantity": 1,
-        "combinedLabel": "Treasure",
-        "attunementLabel": ""
-      },
-      {
         "name": "Activated: Deadly Sting - 8th",
         "description": "<div><p>You animate the thorn used as the material component of this spell, directing it to strike a creature in range. Make a melee spell attack against a creature you can see within range.</p></div><p>On a hit, the target takes [[/damage 1d4 type=piercing]] damage plus [[/damage 4d10 type=poison]] damage, and a creature must make a successful Constitution saving throw or become vulnerable to poison damage for the duration of the spell. Until the spell ends, you can make the attack again on each of your turns as an action.</p>",
         "section": "physical-items",
@@ -2600,59 +2120,11 @@
         "spellSchool": "Evocation"
       },
       {
-        "name": "Water Flower",
-        "description": "<p>Flourishes in warm thermal springs. Its broad, floating leaves are star-shaped and create a dense canopy over the water's surface. The petals are translucent, allowing sunlight to filter through.</p>",
-        "section": "physical-items",
-        "quantity": 1,
-        "combinedLabel": "Ingredient (herb)",
-        "attunementLabel": ""
-      },
-      {
-        "name": "Silver Tears",
-        "description": "<blockquote><p>In the depths of Mestopheles' dungeons on Cania, the 8th layer of Hell, pain devils extract this silvery powder through the torture of captured celestials. Devils bound for the warfronts of Avernus take flasks and snuff boxes of the stuff to fortify themselves against exposure to the raw chaos of demons. </p></blockquote><p>When you consume this substance as an action, you have advantage on saving throws against any effect from a demonic source for 8 hours.</p>",
-        "section": "physical-items",
-        "quantity": 1,
-        "combinedLabel": "Potion",
-        "attunementLabel": ""
-      },
-      {
-        "name": "Manual of Fiendish Flesh Golems",
-        "description": "<div><p>This tome contains information and incantations necessary to make a particular type of golem. To decipher and use the manual, you must be a spellcaster with at least two 5th-level spell slots. A creature that can't use a manual of golems and attempts to read it takes [[/damage 6d6 type=psychic]] damage.</p><p>To create a @UUID[Compendium.talia-custom.talia-actors.Actor.w3BwRqXWe2cDS6fr]{Fiendish Flesh Golem}, you must spend 60 days, working without interruption with the manual at hand and resting no more than 8 hours per day. You must also pay 50,000 gp to purchase supplies. Once you finish creating the golem, the book is consumed in eldritch flames. The golem becomes animate when the ashes of the manual are sprinkled on it. It is under your control, and it understands and obeys your spoken commands.</p></div>",
-        "section": "physical-items",
-        "quantity": 1,
-        "combinedLabel": "Trinket",
-        "attunementLabel": ""
-      },
-      {
-        "name": "Soul Coin",
-        "description": "<p>Soul coins are about 5 inches across and about an inch thick, minted from infernal iron. Each coin weighs one-third of a pound, and is inscribed with Infernal writing and a spell that magically binds a single soul to the coin. Because each soul coin has a unique soul trapped within it, each has a story. A creature might have been imprisoned as a result of defaulting on a deal, while another might be the victim of a night hag's curse.</p><p><strong>Carrying Soul Coins. </strong>To hold a soul coin is to feel the soul bound within it—overcome with rage or fraught with despair. An evil creature can carry as many soul coins as it wishes (up to its maximum weight allowance). A non-evil creature can carry a number of soul coins equal to or less than its Constitution modifier without penalty. A non-evil creature carrying a number of soul coins greater than its Constitution modifier has disadvantage on its attack rolls, ability checks, and saving throws.</p><p><strong>Freeing a Soul. </strong>Casting a spell that removes a curse on a soul coin frees the soul trapped within it, as does expending all of the coin's charges. The coin itself rusts from within and is destroyed once the soul is released. A freed soul travels to the realm of the god it served or the outer plane most closely tied to its alignment (DM's choice). The souls of lawful evil creatures released from soul coins typically emerge from the River Styx as devils.</p><p><strong>Hellish Currency. </strong>Soul coins are a currency of the Nine Hells and are highly valued by devils. The coins are used among the infernal hierarchy to barter for favours, bribe the unwilling, and reward the faithful for services rendered. Soul coins are created by Mammon and his greater devils on Minauros, the third layer of the Nine Hells, in a vast chamber where the captured souls of evil mortals are bound into the coins. These coins are then distributed throughout the Nine Hells to be used for goods and services, infernal deals, dark bargains, and bribes.</p><p><strong>Unmake a Soul. </strong>When casting a spell which requires repeated castings for it's effects to become permanent, soul coins can be expended as a material component and the souls trapped inside unmade. Each soul coin expended this way reduces the number of required castings by three. Unmaking a soul is different to freeing it as doing so erases the soul from existence itself, it's essence lost forever.</p>",
-        "section": "physical-items",
-        "quantity": 9,
-        "combinedLabel": "Exotic Currency",
-        "attunementLabel": ""
-      },
-      {
         "name": "Hearthstone",
         "description": "<p>The Hearthstone is a sacred item among all giantkin. These heavy, flat pieces of granite—typically 1 to 2 feet in diameter—are painstakingly carved by mighty runepriests, imbued with ancient magic to tether the bearer’s essence to a place of safety. Revered as both currency and a protective charm, Hearthstones are traded between giants with great reverence, their value lying not only in material worth but in the promise of an arduous but ultimately safe journey back home in death, for those strong enough to endure it.</p><p><strong>Shattering. </strong>When a creature carrying a Hearthstone dies, the Hearthstone shatters. Upon doing so, the creature must make a [[/save con DC 18]] saving throw. On a successful save, the creature's body and any attuned items it carried at the time of its death instantly return to the location of its last extended rest. The body appears unconscious, afflicted by a deep fever, and remains in this state until the soul completes its return journey.</p><p>Unless the creature’s soul is captured at the time of the creature's death, it must travel through a cold and snow-covered woodland, eventually finding refuge in a warm cabin, symbolizing its body. The journey back to its body takes a number of weeks equal to 50 minus the result of the saving throw (minimum of 1 week). During this time, the creature cannot be revived by any means, including spells like revivify or raise dead.</p><p>Once the soul completes its journey, the creature’s fever breaks, and it awakens with 1 hit point. The Hearthstone is destroyed after use and cannot be restored or repaired.</p>",
         "section": "physical-items",
         "quantity": 1,
         "combinedLabel": "Exotic Currency",
-        "attunementLabel": ""
-      },
-      {
-        "name": "Pyrope",
-        "description": "<p>Pyrope, a type of garnet known for its exquisite beauty, also holds military significance. It is believed that adorning weaponry with this garnet allows it to penetrate the thickest hides or demolish the strongest doors, aided by arcane forces.</p>",
-        "section": "physical-items",
-        "quantity": 1,
-        "combinedLabel": "Gemstone",
-        "attunementLabel": ""
-      },
-      {
-        "name": "Jade",
-        "description": "<p>Its primary form is called Jadeite, after cutting, it's mainly used in ornamental sculptures and figurines. Musicians of all kinds believed that if they wore Jade, they would improve their musical prowess</p>",
-        "section": "physical-items",
-        "quantity": 8,
-        "combinedLabel": "Gemstone",
         "attunementLabel": ""
       },
       {
@@ -2680,22 +2152,6 @@
         "attunementLabel": ""
       },
       {
-        "name": "Bugman’s Ale",
-        "description": "<blockquote><p>This special brew was originally created by the legendary dwarven brewmaster Joseph Bugman, and he shared its recipe only with his most trusted apprentices.</p></blockquote><p>When you drink this ale, you need to make a DC 30 Constitution saving throw. On a failed save, you become immune to the &amp;Reference[Frightened] condition for 8 hours.</p>",
-        "section": "physical-items",
-        "quantity": 2,
-        "combinedLabel": "Food",
-        "attunementLabel": ""
-      },
-      {
-        "name": "Wine of the Winter Court",
-        "description": "<div><p>This wine, so dark red in color it is nearly black, pours from its bottle in a syrupy flow. When you drink it, you taste notes of sour apple, bitter ash, and jealousy, and your thoughts are occupied with vivid memories of heartbreak and loss.</p><p>When you drink this wine, you have disadvantage on Charisma ability checks for 1 hour, but you are immune to being &amp;Reference[condition=charmed] and can add your proficiency bonus to Wisdom saving throws for the duration. If you already add your proficiency bonus to Wisdom saving throws, your bonus is instead doubled for the duration.</p></div>",
-        "section": "physical-items",
-        "quantity": 1,
-        "combinedLabel": "Potion",
-        "attunementLabel": ""
-      },
-      {
         "name": "Tenser's Transformation",
         "description": "<p>You endow yourself with endurance and martial prowess fueled by magic. Until the spell ends, you can't cast spells, and you gain the following benefits:</p><ul><li><p>You gain 50 temporary hit points. If any of these remain when the spell ends, they are lost.</p></li><li><p>You have advantage on attack rolls that you make with simple and martial weapons.</p></li><li><p>When you hit a target with a weapon attack, that target takes an extra [[/damage 2d12 type=force]] damage.</p></li><li><p>You have proficiency with all armor, shields, simple weapons, and martial weapons.</p></li><li><p>You have proficiency in Strength and Constitution saving throws.</p></li><li><p>You can attack twice, instead of once, when you take the attack action on your turn. You ignore this benefit if you already have a feature, like Extra Attack, that gives you extra attacks.</p></li></ul><p>Immediately after the spell ends, you must succeed on a [[/save ability=constitution dc=15]] saving throw or suffer one level of &amp;Reference[condition=exhaustion].</p>",
         "section": "spell-items",
@@ -2716,30 +2172,6 @@
         "description": "<p>Starting at 14th level, you can increase the power of your simpler spells. When you cast a wizard spell of 1st through 5th level that deals damage, you can deal maximum damage with that spell.</p><p>The first time you do so, you suffer no adverse effect. If you use this feature again before you finish a long rest, you take <span><span>2d12</span> necrotic</span> damage for each level of the spell, immediately after you cast it. Each time you use this feature again before finishing a long rest, the damage per spell level increases by <span><span>1d12</span> necrotic</span>. This damage ignores resistance and immunity.</p>",
         "section": "feature-items",
         "requirements": "School of Evocation 14"
-      },
-      {
-        "name": "Spell Scroll: Flawed Design",
-        "description": "<div><p>You identify a flaw in the design or construction of one artificial object or construct of your choice within range. The first attack roll made against the target during the duration of the spell is a critical hit. Then the spell ends.</p></div>",
-        "section": "physical-items",
-        "quantity": 1,
-        "combinedLabel": "Scroll",
-        "attunementLabel": ""
-      },
-      {
-        "name": "Spell Scroll: Fly",
-        "description": "<p>You touch a willing creature. The target gains a flying speed of 60 feet for the duration. When the spell ends, the target falls if it is still aloft, unless it can stop the fall.</p><p><strong>At Higher Levels. </strong>When you cast this spell using a spell slot of 4th level or higher, you can target one additional creature for each slot level above 3rd.</p>",
-        "section": "physical-items",
-        "quantity": 1,
-        "combinedLabel": "Scroll",
-        "attunementLabel": ""
-      },
-      {
-        "name": "Spell Scroll: Scrying",
-        "description": "<p>You can see and hear a particular creature you choose that is on the same plane of existence as you. The target must make a Wisdom saving throw, which is modified by how well you know the target and the sort of physical connection you have to it. If a target knows you're casting this spell, it can fail the saving throw voluntarily if it wants to be observed.</p><table><thead><tr><th>Knowledge of Target</th><th>Save Modifier</th></tr></thead><tbody><tr><td>Secondhand (you have heard of the target)</td><td>+5</td></tr><tr><td>Firsthand (you have met the target)</td><td>+0</td></tr><tr><td>Familiar (you know the target well)</td><td>-5</td></tr></tbody></table><table><thead><tr><th>Connection to Target</th><th>Save Modifier</th></tr></thead><tbody><tr><td>Likeness or picture</td><td>-2</td></tr><tr><td>Possession or garment</td><td>-4</td></tr><tr><td>Body part, lock of hair, bit of nail, or the like</td><td>-10</td></tr></tbody></table><p>On a successful save, the target isn't affected, and you can't use this spell against it again for 24 hours.</p><p>On a failed save, the spell creates an invisible sensor within 10 feet of the target. You can see and hear through the sensor as if you were there. The sensor moves with the target, remaining within 10 feet of it for the duration. A creature that can see &amp;Reference[condition=invisible] objects sees the sensor as a luminous orb about the size of your fist.</p><p>Instead of targeting a creature, you can choose a location you have seen before as the target of this spell. When you do, the sensor appears at that location and doesn't move.</p>",
-        "section": "physical-items",
-        "quantity": 1,
-        "combinedLabel": "Scroll",
-        "attunementLabel": ""
       },
       {
         "name": "Catapult",
@@ -2774,30 +2206,6 @@
         "spellSchool": "Transmutation"
       },
       {
-        "name": "Blue-White Diamond",
-        "description": "<p>The most notable gem from the Diamond variations is usually the colorless one which does have a blue-white tint. The use of diamonds is mainly in the jewelry market. Due to its brilliance, hardness, and rarity, it is the most famous of all gemstones.&nbsp;</p>",
-        "section": "physical-items",
-        "quantity": 1,
-        "combinedLabel": "Gemstone",
-        "attunementLabel": ""
-      },
-      {
-        "name": "Spell Scroll: Freedom of the Winds",
-        "description": "<p>Wind wraps around your body, tugging at your hair and clothing as your feet lift off the ground. You gain a flying speed of 60 feet. Additionally, you have advantage on ability checks to avoid being &amp;Reference[condition=grappled], and on saving throws against being &amp;Reference[condition=restrained] or &amp;Reference[condition=paralyzed].</p><p>When you are targeted by a spell or attack while this spell is in effect, you can use a reaction to teleport up to 60 feet to an unoccupied space you can see. If this movement takes you out of range of the triggering spell or attack, you are unaffected by it. This spell then ends when you reappear.</p>",
-        "section": "physical-items",
-        "quantity": 1,
-        "combinedLabel": "Scroll",
-        "attunementLabel": ""
-      },
-      {
-        "name": "Spell Scroll: Planar Ally",
-        "description": "<p>You beseech an otherworldly entity for aid. The being must be known to you: a god, a primordial, a demon prince, or some other being of cosmic power. That entity sends a celestial, an elemental, or a fiend loyal to it to aid you, making the creature appear in an unoccupied space within range. If you know a specific creature's name, you can speak that name when you cast this spell to request that creature, though you might get a different creature anyway (DM's choice).</p><p>When the creature appears, it is under no compulsion to behave in any particular way. You can ask the creature to perform a service in exchange for payment, but it isn't obliged to do so. The requested task could range from simple (fly us across the chasm, or help us fight a battle) to complex (spy on our enemies, or protect us during our foray into the dungeon). You must be able to communicate with the creature to bargain for its services.</p><p>Payment can take a variety of forms. A celestial might require a sizable donation of gold or magic items to an allied temple, while a fiend might demand a living sacrifice or a gift of treasure. Some creatures might exchange their service for a quest undertaken by you.</p><p>As a rule of thumb, a task that can be measured in minutes requires a payment worth 100 gp per minute. A task measured in hours requires 1,000 gp per hour. And a task measured in days (up to 10 days) requires 10,000 gp per day. The DM can adjust these payments based on the circumstances under which you cast the spell. If the task is aligned with the creature's ethos, the payment might be halved or even waived. Nonhazardous tasks typically require only half the suggested payment, while especially dangerous tasks might require a greater gift. Creatures rarely accept tasks that seem suicidal.</p><p>After the creature completes the task, or when the agreed-upon duration of service expires, the creature returns to its home plane after reporting back to you, if appropriate to the task and if possible. If you are unable to agree on a price for the creature's service, the creature immediately returns to its home plane.</p><p>A creature enlisted to join your group counts as a member of it, receiving a full share of experience points awarded.</p>",
-        "section": "physical-items",
-        "quantity": 1,
-        "combinedLabel": "Scroll",
-        "attunementLabel": ""
-      },
-      {
         "name": "Freedom of the Winds",
         "description": "<p>Wind wraps around your body, tugging at your hair and clothing as your feet lift off the ground. You gain a flying speed of 60 feet. Additionally, you have advantage on ability checks to avoid being &amp;Reference[condition=grappled], and on saving throws against being &amp;Reference[condition=restrained] or &amp;Reference[condition=paralyzed].</p><p>When you are targeted by a spell or attack while this spell is in effect, you can use a reaction to teleport up to 60 feet to an unoccupied space you can see. If this movement takes you out of range of the triggering spell or attack, you are unaffected by it. This spell then ends when you reappear.</p>",
         "section": "spell-items",
@@ -2812,22 +2220,6 @@
         "spellLevel": "6th Level",
         "spellRange": "60 ft",
         "spellSchool": "Conjuration"
-      },
-      {
-        "name": "Monstrous Blood",
-        "description": "<p>Extracted from large-sized or larger monstrosity creatures upon their defeat. This viscous fluid ranges in color from deep crimson to murky black, pulsating with raw, primal energy.</p>",
-        "section": "physical-items",
-        "quantity": 26,
-        "combinedLabel": "Ingredient (bodyPart)",
-        "attunementLabel": ""
-      },
-      {
-        "name": "Potion of Psychic Resistance",
-        "description": "<p><em>The potion is a plain indescriminate color and smells slightly foul.</em></p><p>When you drink this potion, you gain resistance to Psychic type damage for 1 hour.</p>",
-        "section": "physical-items",
-        "quantity": 1,
-        "combinedLabel": "Potion",
-        "attunementLabel": ""
       },
       {
         "name": "Decanter of Endless Water",
@@ -2846,43 +2238,11 @@
         "spellSchool": "Evocation"
       },
       {
-        "name": "Waterskin",
-        "description": "<p>A leather hide sewn into an enclosed skin which can contain up to 4 pints of liquid. It weighs 5 pounds when full; a pint of water is approximately 1 pound.</p>",
-        "section": "physical-items",
-        "quantity": 1,
-        "combinedLabel": "Food",
-        "attunementLabel": ""
-      },
-      {
-        "name": "Soul Coin",
-        "description": "<p>Soul coins are about 5 inches across and about an inch thick, minted from infernal iron. Each coin weighs one-third of a pound, and is inscribed with Infernal writing and a spell that magically binds a single soul to the coin. Because each soul coin has a unique soul trapped within it, each has a story. A creature might have been imprisoned as a result of defaulting on a deal, while another might be the victim of a night hag's curse.</p><p><strong>Carrying Soul Coins. </strong>To hold a soul coin is to feel the soul bound within it—overcome with rage or fraught with despair. An evil creature can carry as many soul coins as it wishes (up to its maximum weight allowance). A non-evil creature can carry a number of soul coins equal to or less than its Constitution modifier without penalty. A non-evil creature carrying a number of soul coins greater than its Constitution modifier has disadvantage on its attack rolls, ability checks, and saving throws.</p><p><strong>Freeing a Soul. </strong>Casting a spell that removes a curse on a soul coin frees the soul trapped within it, as does expending all of the coin's charges. The coin itself rusts from within and is destroyed once the soul is released. A freed soul travels to the realm of the god it served or the outer plane most closely tied to its alignment (DM's choice). The souls of lawful evil creatures released from soul coins typically emerge from the River Styx as devils.</p><p><strong>Hellish Currency. </strong>Soul coins are a currency of the Nine Hells and are highly valued by devils. The coins are used among the infernal hierarchy to barter for favours, bribe the unwilling, and reward the faithful for services rendered. Soul coins are created by Mammon and his greater devils on Minauros, the third layer of the Nine Hells, in a vast chamber where the captured souls of evil mortals are bound into the coins. These coins are then distributed throughout the Nine Hells to be used for goods and services, infernal deals, dark bargains, and bribes.</p><p><strong>Unmake a Soul. </strong>When casting a spell which requires repeated castings for it's effects to become permanent, soul coins can be expended as a material component and the souls trapped inside unmade. Each soul coin expended this way reduces the number of required castings by three. Unmaking a soul is different to freeing it as doing so erases the soul from existence itself, it's essence lost forever.</p>",
-        "section": "physical-items",
-        "quantity": 19,
-        "combinedLabel": "Exotic Currency",
-        "attunementLabel": ""
-      },
-      {
         "name": "Guardian Scale of Necromancy",
         "description": "<p>A creature can only have one Guardian Scale equipped at any given time.</p><p>While you have this scale equipped, you can cast @UUID[Compendium.talia-custom.customItems.Item.7qXGj7vNVMvB4eLt]{Blight} (1/day) and @UUID[Compendium.talia-custom.customItems.Item.RNG6ZTqax6UHOAwR]{Toll the Dead}.</p><p>The ancient magic of this scale alters these spells. They require no concentration or components, can be cast while raging and have a flat spell save DC of [[12 + @prof]] and a flat spell attack bonus of [[4+@prof]].</p><p>Additionally, the cantrip this item grants has a casting time of 1 bonus action.</p>",
         "section": "physical-items",
         "quantity": 1,
         "combinedLabel": "Trinket",
-        "attunementLabel": ""
-      },
-      {
-        "name": "Blue Quartz",
-        "description": "<p>Preferred by glassmiths or gaffers, to make different types of cups and vases and with help from the blacksmiths, it is used to ornate tankards. Magic wielders use this gemstone to see across the lands or through someone's deceit.</p>",
-        "section": "physical-items",
-        "quantity": 0,
-        "combinedLabel": "Gemstone",
-        "attunementLabel": ""
-      },
-      {
-        "name": "Black Sapphire",
-        "description": "<p>Mainly called Star Sapphire, when cut into shape, the reflection of the gem forms into a distinct, six-rayed star. Its magical proprieties have been almost forgotten these days, but it is assumed that its magic involves the passage of time and the ability to control it.</p>",
-        "section": "physical-items",
-        "quantity": 0,
-        "combinedLabel": "Gemstone",
         "attunementLabel": ""
       },
       {
@@ -2902,27 +2262,11 @@
         "attunementLabel": ""
       },
       {
-        "name": "Lost Page of Iggwilv",
-        "description": "<p>This page of blank parchment has been ripped from the Demonomicon of Iggwilv, an expansive treatise documenting the Abyss's infinite layers and inhabitants, and the most thorough and blasphemous tome of demonology in the multiverse.</p><p><strong>Containment.</strong> While the page is blank and you're holding it, you can use an action to target a demon you can see that is trapped within a magic circle. The demon must make a [[/save cha 20]] saving throw with disadvantage. On a failure, the demon is trapped within the page, which fills with writing detailing the demon's widely known name, its depravities, and other information (determined by the DM). On a successful save, the demon is unaffected and this action can't be used again until the next dawn.</p><p><strong>Possession.</strong> A trapped demon can attempt to possess you or any other humanoid creature that studied the page's script since the demon was contained. The demon's target must be asleep or otherwise unconscious, and must be on the same plane of existence as the page. The target must make a [[/save cha 20]] saving throw. On a failure, the demon is freed from the page, which turns blank again, and possesses the target. The demon controls the possessed creature like a puppet and can release it as an action, in which case the demon appears in the closest unoccupied space. On a successful save, the demon can't use this feature again for 7 days.</p>",
-        "section": "physical-items",
-        "quantity": 1,
-        "combinedLabel": "Scroll",
-        "attunementLabel": ""
-      },
-      {
         "name": "Blackened Steel Scythe",
         "description": "<p>A crescent blade is mounted on the end of a tall metal shaft. This polearm provies the ability to attack with deadly efficiency from greater range than typical melee weapons.</p>",
         "section": "physical-items",
         "quantity": 1,
         "combinedLabel": "Martial Melee",
-        "attunementLabel": ""
-      },
-      {
-        "name": "Spell Scroll: Catapult",
-        "description": "<p>Choose one object weighing 1 to 5 pounds within range that isn't being worn or carried. The object flies in a straight line up to 90 feet in a direction you choose before falling to the ground, stopping early if it impacts against a solid surface. If the object would strike a creature, that creature must make a Dexterity saving throw. On a failed save, the object strikes the target and stops moving. When the object strikes something, the object and what it strikes each take [[/damage 3d8 type=bludgeoning]] damage.</p><p>At Higher Levels.</p><p>When you cast this spell using a spell slot of 2nd level or higher, the maximum weight of objects that you can target with this spell increases by 5 pounds, and the damage increases by [[/damage 1d8]], for each slot level above 1st.</p>",
-        "section": "physical-items",
-        "quantity": 1,
-        "combinedLabel": "Scroll",
         "attunementLabel": ""
       },
       {
@@ -2963,54 +2307,6 @@
         "section": "physical-items",
         "quantity": 1,
         "combinedLabel": "Exotic Currency",
-        "attunementLabel": ""
-      },
-      {
-        "name": "Potion of Fire Resistance",
-        "description": "<p><em>The potion is a plain indescriminate color and smells slightly foul.</em></p><p>When you drink this potion, you gain resistance to Fire type damage for 1 hour.</p>",
-        "section": "physical-items",
-        "quantity": 1,
-        "combinedLabel": "Potion",
-        "attunementLabel": ""
-      },
-      {
-        "name": "Gold locket with a painted portrait inside",
-        "description": "<p>Fearghas surrounded by hungry hungry ghouls, swirling water around his knees as he is unable to move in the underway steam station.</p>",
-        "section": "physical-items",
-        "quantity": 1,
-        "combinedLabel": "Art Object",
-        "attunementLabel": ""
-      },
-      {
-        "name": "Onyx",
-        "description": "<p>If you wear this stone unenchanted, Lady Luck is bound to frown upon you. An important intaglio stone, used as part of jewelry to seal official documents</p>",
-        "section": "physical-items",
-        "quantity": 20,
-        "combinedLabel": "Gemstone",
-        "attunementLabel": ""
-      },
-      {
-        "name": "Pot of Necromantic Ink",
-        "description": "<p>The scent of death and decay hangs around this pot of grey ink. If you spend 1 minute using the ink to draw symbols of death on a dead creature that has been dead no longer than 10 days, you can imbue the creature with the ink's magic. The creature rises 24 hours later as a skeleton or zombie (your choice), unless the creature is restored to life or its body is destroyed. You have no control over the undead creature.</p>",
-        "section": "physical-items",
-        "quantity": 12,
-        "combinedLabel": "Trinket",
-        "attunementLabel": ""
-      },
-      {
-        "name": "Potion of Time Stop",
-        "description": "<p><em>The liquid contained in this potion never seems to move.</em></p><p>When you drink this potion, gain the effects of the Time Stop spell for 1d4 + 1 turns.</p><p><strong>Time Stop</strong></p><p>You briefly stop the flow of time for everyone but yourself. No time passes for other creatures, while you take 1d4 + 1 turns in a row, during which you can use actions and move as normal.</p><p>This spell ends if one of the actions you use during this period, or any effects that you create during this period, affects a creature other than you or an object being worn or carried by someone other than you. In addition, the spell ends if you move to a place more than 1,000 feet from the location where you cast it.</p>",
-        "section": "physical-items",
-        "quantity": 1,
-        "combinedLabel": "Potion",
-        "attunementLabel": ""
-      },
-      {
-        "name": "Willowshade Oil",
-        "description": "<div><p>A dark blue oil can be extracted from the rare fruit of the willowshade plant.</p><p>A creature can use a bonus action to apply the oil to another creature that has been &amp;Reference[condition=petrified] for less than 1 minute, causing the &amp;Reference[condition=petrified] condition on that creature to end immediately.</p></div>",
-        "section": "physical-items",
-        "quantity": 1,
-        "combinedLabel": "Potion",
         "attunementLabel": ""
       },
       {
@@ -3166,22 +2462,6 @@
         "spellSchool": "Necromancy"
       },
       {
-        "name": "Gold locket with a painted portrait inside",
-        "description": "<p>A Picture of Fearghas looking at his spellbook and wondering where he put that cantrip</p><p></p>",
-        "section": "physical-items",
-        "quantity": 1,
-        "combinedLabel": "Art Object",
-        "attunementLabel": ""
-      },
-      {
-        "name": "Golden Chalice",
-        "description": "",
-        "section": "physical-items",
-        "quantity": 1,
-        "combinedLabel": "Art Object",
-        "attunementLabel": ""
-      },
-      {
         "name": "Unholy Grimoire of Arcane Apostacy",
         "description": "<p>While you are attuned to this grimoire, you can cast each spell written inside as if you knew them or had them prepared. These spells can only be contained inside an Unholy Grimoire.</p><p><strong>Spells.</strong> Without mastery of dark arcane arts, you're able to decipher the following spells: <strong>Defile Healing </strong>(2nd), and <strong>Arcane Circle</strong> (4th)</p><p><strong>Secrets.</strong> Completing the rituals to unlock the grimoire's secrets reveals the following spells: <strong>Arcane Prism</strong> (2nd), <strong>Subjugate Spell</strong> (4th) and <strong>Absorption Field</strong> (6th)</p>",
         "section": "physical-items",
@@ -3243,14 +2523,6 @@
         "section": "physical-items",
         "quantity": 1,
         "combinedLabel": "Spell Gem",
-        "attunementLabel": ""
-      },
-      {
-        "name": "Potion of Minor Endurance",
-        "description": "<div><p>When you drink this potion, your Constitution score increases to 19 for 1 hour. This potion is blue, with golden streaks that constantly swirl around inside.</p></div>",
-        "section": "physical-items",
-        "quantity": 1,
-        "combinedLabel": "Potion",
         "attunementLabel": ""
       },
       {
@@ -3468,192 +2740,22 @@
         "spellLevel": "6th Level",
         "spellRange": "Self",
         "spellSchool": "Abjuration"
-      }
-    ],
-    "Morthos": [
-      {
-        "name": "Hellish Resistance",
-        "description": "<p>You have resistance to fire damage.</p>",
-        "section": "feature-items",
-        "requirements": "Tiefling"
       },
       {
-        "name": "Infernal Legacy",
-        "description": "<p>You know the @UUID[Compendium.dnd5e.spells.Item.MUO1uYN7JR1hm4dR]{Thaumaturgy} cantrip.</p>\n<p>When you reach 3rd level, you can cast the @UUID[Compendium.dnd5e.spells.Item.22dPoeXfaaAv4K3h]{Hellish Rebuke} spell as a 2nd-level spell once with this trait and regain the ability to do so when you finish a long rest.</p>\n<p>When you reach 5th level, you can cast the @UUID[Compendium.dnd5e.spells.Item.S7VbUetIfVT7B6Eq]{Darkness} spell once with this trait and regain the ability to do so when you finish a long rest. Charisma is your spellcasting ability for these spells.</p>",
-        "section": "feature-items",
-        "requirements": "Tiefling"
-      },
-      {
-        "name": "Thaumaturgy",
-        "description": "<p>You create one of the following magical effects within range:</p>\n<ul>\n<li>Your voice booms up to three times as loud as normal for 1 minute.</li>\n<li>You cause flames to flicker, brighten, dim, or change color for 1 minute.</li>\n<li>You cause harmless tremors in the ground for 1 minute.</li>\n<li>You create a sound that originates from a point of your choice within range.</li>\n<li>You cause an unlocked door or window to fly open or slam shut.</li>\n<li>You alter the appearance of your eyes for 1 minute.</li>\n</ul>\n<p>If you cast this spell multiple times, you can have up to three of its 1-minute effects active at a time, and you can dismiss such an effect as an action.</p>",
-        "section": "spell-items",
-        "spellLevel": "Cantrip",
-        "spellRange": "30 ft",
-        "spellSchool": "Transmutation"
-      },
-      {
-        "name": "Spellcasting",
-        "description": "<p>An event in your past, or in the life of a parent or ancestor, left an indelible mark on you, infusing you with arcane magic. This font of magic, whatever its origin, fuels your spells.</p>\n<h5>Cantrips</h5>\n<p>At 1st level, you know four cantrips of your choice from the sorcerer spell list. You learn additional sorcerer cantrips of your choice at higher levels, as shown in the Cantrips Known column of the Sorcerer table.</p>\n<h5>Spell Slots</h5>\n<p>The Sorcerer table shows how many spell slots you have to cast your spells of 1st level and higher. To cast one of these sorcerer spells, you must expend a slot of the spell's level or higher. You regain all expended spell slots when you finish a long rest.</p>\n<p>For example, if you know the 1st-level spell burning hands and have a 1st-level and a 2nd-level spell slot available, you can cast burning hands using either slot.</p>\n<h5>Spells Known of 1st Level and Higher</h5>\n<p>You know two 1st-level spells of your choice from the sorcerer spell list.</p>\n<p>The Spells Known column of the Sorcerer table shows when you learn more sorcerer spells of your choice. Each of these spells must be of a level for which you have spell slots. For instance, when you reach 3rd level in this class, you can learn one new spell of 1st or 2nd level.</p>\n<p>Additionally, when you gain a level in this class, you can choose one of the sorcerer spells you know and replace it with another spell from the sorcerer spell list, which also must be of a level for which you have spell slots.</p>\n<h5>Spellcasting Ability</h5>\n<p>Charisma is your spellcasting ability for your sorcerer spells, since the power of your magic relies on your ability to project your will into the world. You use your Charisma whenever a spell refers to your spellcasting ability. In addition, you use your Charisma modifier when setting the saving throw DC for a sorcerer spell you cast and when making an attack roll with one.</p>\n<p><strong>Spell save DC </strong>= 8 + your proficiency bonus + your Charisma modifier</p>\n<p><strong>Spell attack modifier </strong>= your proficiency bonus + your Charisma modifier</p>\n<h5>Spellcasting Focus</h5>\n<p>You can use an arcane focus as a spellcasting focus for your sorcerer spells.</p>",
-        "section": "feature-items",
-        "requirements": "Sorcerer 1"
-      },
-      {
-        "name": "Sorcerous Origins",
-        "description": "<p>Choose a sorcerous origin, which describes the source of your innate magical power, such as Draconic Bloodline.</p><p>Your choice grants you features when you choose it at 1st level and again at 6th, 14th, and 18th level.</p>",
-        "section": "feature-items",
-        "requirements": "Sorcerer 1"
-      },
-      {
-        "name": "Dragon Ancestor",
-        "description": "<p>At 1st level, you choose one type of dragon as your ancestor. The damage type associated with each dragon is used by features you gain later.</p><table><thead><tr><td><strong>Dragon</strong></td><td><strong>Damage Type</strong></td></tr></thead><tbody><tr><td>Black</td><td>Acid</td></tr><tr><td>Blue</td><td>Lightning</td></tr><tr><td>Brass</td><td>Fire</td></tr><tr><td>Bronze</td><td>Lightning</td></tr><tr><td>Copper</td><td>Acid</td></tr><tr><td>Gold</td><td>Fire</td></tr><tr><td>Green</td><td>Poison</td></tr><tr><td>Red</td><td>Fire</td></tr><tr><td>Silver</td><td>Cold</td></tr><tr><td>White</td><td>Cold</td></tr></tbody></table><p>You can speak, read, and write Draconic. Additionally, whenever you make a Charisma check when interacting with dragons, your proficiency bonus is doubled if it applies to the check.</p>",
-        "section": "feature-items",
-        "requirements": "Draconic Bloodline 1"
-      },
-      {
-        "name": "Draconic Resilience",
-        "description": "<p>As magic flows through your body, it causes physical traits of your dragon ancestors to emerge. At 1st level, your hit point maximum increases by 1 and increases by 1 again whenever you gain a level in this class.</p><p>Additionally, parts of your skin are covered by a thin sheen of dragon-like scales. When you aren't wearing armor, your AC equals 13 + your Dexterity modifier.</p>",
-        "section": "feature-items",
-        "requirements": "Draconic Bloodline 1"
-      },
-      {
-        "name": "Unholy Grimoire of Arcane Apostacy",
-        "description": "<p>While you are attuned to this grimoire, you can cast each spell written inside as if you knew them or had them prepared. These spells can only be contained inside an Unholy Grimoire.</p><p><strong>Spells.</strong> Without mastery of dark arcane arts, you're able to decipher the following spells: <strong>Defile Healing </strong>(2nd), and <strong>Arcane Circle</strong> (4th)</p><p><strong>Secrets.</strong> Completing the rituals to unlock the grimoire's secrets reveals the following spells: <strong>Arcane Prism</strong> (2nd), <strong>Subjugate Spell</strong> (3rd) and <strong>Absorption Field</strong> (6th)</p>",
+        "name": "Silver Locket",
+        "description": "<p>As a bonus action you can spend one charge to designate two creatures you can see and choose one damage type. </p><p>Until the start of your next turn any resistances, immunities or vulnerabilities to the damage type you chose are swapped between the two designated creatures. If at least one of the creatures has no resistance, immunity or vulnerability to the chosen damage type, this effect fails and no charge is spent.</p><p>At the beginning of your turn you can choose to spend another charge as a free action to extend the duration of this effect by one turn.</p><p>During this effect the inside of the locket portrays a drawn image of the two designated creatures.</p>",
         "section": "physical-items",
         "quantity": 1,
-        "combinedLabel": "Spellbook",
+        "combinedLabel": "Trinket",
         "attunementLabel": "Requires Attunement"
       },
       {
-        "name": "Arcane Prism",
-        "description": "<p>You conjure a prism of crystalline arcane energy in an unoccupied space you can see within range. The prism is a tiny object, has 15 AC, and is immune to all damage. It has 2 charges and disappears after losing its final charge.</p><p>Whenever the prism is hit by a spell attack, it loses 1 charge and refracts the attack's energies. Each creature within 10 feet of the prism with an AC lower than or equal to the rolled attack is considered hit by the attack and suffers its full effects.</p><p>As a bonus action on each of your turns, you can move the prism up to 30 feet to an unoccupied space you can see.</p><p><em><strong>At Higher Levels.</strong></em> When you cast this spell using a spell slot of 3rd level or higher, the prism's charges increase by 1 for each level above 2nd.</p>",
-        "section": "spell-items",
-        "spellLevel": "2nd Level",
-        "spellRange": "90 ft",
-        "spellSchool": "Conjuration"
-      },
-      {
-        "name": "Defile Healing",
-        "description": "<p>You attempt to reverse the positive energies of a spell so that it deals damage instead of healing. If the triggering spell is being cast using a spell slot of 1st level, the spell is defiled. Each creature that was targeted by the defiled spell isn't healed and takes necrotic damage equal to the healing it would have received, or half as much damage with a successful Constitution saving throw.</p><p>Any other effects the spell might have are unaffected.</p><p><em><strong>At Higher Levels.</strong></em> When you cast this spell using a spell slot of 3rd level or higher, it can defile a triggering spell being cast using a spell slot of a lower level than the spell slot you used.</p>",
-        "section": "spell-items",
-        "spellLevel": "2nd Level",
-        "spellRange": "60 ft",
-        "spellSchool": "Necromancy"
-      },
-      {
-        "name": "Springseed",
-        "description": "<p>A Springseed is a potent and rare token of vitality hailing from the celestial Gardens of Tranquility in the plane of Nirvana. These seeds, which shed a soft and dim blue-green light, are produced infrequently by the ancient trees that flourish in that serene realm.</p><p>The celestials of Nirvana occasionally present a Springseed to mortals who have distinguished themselves through exceptionally selfless and good actions. Beyond such gifts, these seeds are highly sought after for the beautiful and unique trees they produce. While typically cultivated on good-aligned planes like the Seven Heavens and Elysium, their uniqueness is valued in many other places too. For example, a small, uncorrupted grove flourishes even in the city of Dis, on the 2nd layer of Hell, standing as a display of the reach of Dispater's influence. Consequently, their rarity and prized nature make them valuable in trade between many planes.</p><p><strong>Consumption.</strong> You can consume a Springseed over the course of 1 minute to gain the benefits of the Heroes' Feast spell for 24 hours (You are cured of all diseases and poison, become immune to poison and being frightened, and make all Wisdom saving throws with advantage. Your hit point maximum also increases by 2d10, and you gain the same number of hit points).</p><p><strong>Cultivation.</strong> If 100 Springseeds are planted in fertile ground and watered daily for 10 days, they sprout into a single magnificent and beautiful tree. If carefully tended, this tree will bear fruit all year round, producing enough nourishing food to sustain up to ten adults. This tree is deeply connected to the positive energies of its origin and can awaken when those who've been caring for it are in grave danger, transforming into a CR 9 treant (MM p289) to defend them. If not destroyed by other means, this tree will live for approximately 500 years.</p>",
+        "name": "Bloodstone",
+        "description": "<p>A dark-colored gemstone with small speckles of red or brown spots, on occasion these can also look similar to stripes or veins. It's mainly used as a seal stone for stone flooring or used in ornate small carvings or figures, and other proprieties include its use as a medicinal agent. If placed on an open wound it helps the blood coagulate faster.</p>",
         "section": "physical-items",
-        "quantity": 4,
-        "combinedLabel": "Exotic Currency",
+        "quantity": 13,
+        "combinedLabel": "Gemstone",
         "attunementLabel": ""
-      },
-      {
-        "name": "Blood Barrier",
-        "description": "<p>Choose up to three living, willing creatures other than yourself within range. Each of them takes necrotic damage equal to twice your caster level as you drain the blood from their bodies, using it to surround yourself with a barrier. <br>This barrier grants you an amount of temporary hit points equal to twice your caster level for each chosen creature.</p>",
-        "section": "spell-items",
-        "spellLevel": "4th Level",
-        "spellRange": "30 ft",
-        "spellSchool": "Abjuration"
-      },
-      {
-        "name": "Font of Magic",
-        "description": "<p>At 2nd level, you tap into a deep wellspring of magic within yourself. This wellspring is represented by sorcery points, which allow you to create a variety of magical effects.</p><h5>Sorcery Points</h5><p>You have 2 sorcery points, and you gain more as you reach higher levels. Your sorcerer level equals the number of sorcery points you have, so a 4th level sorcerer has 4 sorcery points, a 16th level sorcerer has 16. You can never have more sorcery points than your level dictates.&nbsp; You regain all spent sorcery points when you finish a long rest.</p><h5>Flexible Casting</h5><p>You can use your sorcery points to gain additional spell slots, or sacrifice spell slots to gain additional sorcery points. You learn other ways to use your sorcery points as you reach higher levels.</p><p><em><strong>Creating Spell Slots</strong>.</em>You can transform unexpended sorcery points into one spell slot as a bonus action on your turn. The Creating Spell Slots table shows the cost of creating a spell slot of a given level. You can create spell slots no higher in level than 5th.</p><p>Any spell slot you create with this feature vanishes when you finish a long rest.</p><table><caption>Creating Spell Slots</caption><thead><tr><td><strong>Spell Slot Level</strong></td><td><strong>Sorcery Point Cost</strong></td></tr></thead><tbody><tr><td>1st</td><td>2</td></tr><tr><td>2nd</td><td>3</td></tr><tr><td>3rd</td><td>5</td></tr><tr><td>4th</td><td>6</td></tr><tr><td>5th</td><td>7</td></tr></tbody></table><p><em><strong>Converting a Spell Slot to Sorcery Points</strong>. </em>As a bonus action on your turn, you can expend one spell slot and gain a number of sorcery points equal to the slot's level.</p><section><p><strong>Foundry Note</strong></p><p>Use this to track all the various uses of sorcery points for the sorcerer.</p></section>",
-        "section": "feature-items",
-        "requirements": "Sorcerer 2"
-      },
-      {
-        "name": "Hellish Rebuke",
-        "description": "<p>When you are damaged by a creature within 60 feet of you that you can see, you point your finger, and the creature that damaged you is momentarily surrounded by hellish flames. The creature must make a Dexterity saving throw. It takes 2d10 fire damage on a failed save, or half as much damage on a successful one.</p><p><strong>At Higher Levels.</strong> When you cast this spell using a spell slot of 2nd level or higher, the damage increases by 1d10 for each slot level above 1st.</p>",
-        "section": "spell-items",
-        "spellLevel": "1st Level",
-        "spellRange": "60 ft",
-        "spellSchool": "Evocation"
-      },
-      {
-        "name": "Metamagic",
-        "description": "<p>At 3rd level, you gain the ability to twist your spells to suit your needs. You gain two of the following Metamagic options of your choice. You gain another one at 10th and 17th level.&nbsp;You can use only one Metamagic option on a spell when you cast it, unless otherwise noted.</p><p>@UUID[Compendium.dnd5e.classfeatures.Item.zElYrOcCFFMhB6Xl]{Careful Spell}</p><p>@UUID[Compendium.dnd5e.classfeatures.Item.DZpAa3LzMNBexbmX]{Distant Spell}</p><p>@UUID[Compendium.dnd5e.classfeatures.Item.IWpe0Y9uAStHGiH1]{Empowered Spell}</p><p>@UUID[Compendium.dnd5e.classfeatures.Item.tQxlKyAx9sgPrbgj]{Extended Spell}</p><p>@UUID[Compendium.dnd5e.classfeatures.Item.tNG2qi9zhmXEkecA]{Heightened Spell}</p><p>@UUID[Compendium.dnd5e.classfeatures.Item.nViGf6bZ6DQAJhkw]{Quickened Spell}</p><p>@UUID[Compendium.dnd5e.classfeatures.Item.fXa0DMhoVLtbBu9l]{Subtle Spell}</p><p>@UUID[Compendium.dnd5e.classfeatures.Item.Qb391hakCfmH4w8p]{Twinned Spell}</p>",
-        "section": "feature-items",
-        "requirements": "Sorcerer 3"
-      },
-      {
-        "name": "Heightened Spell",
-        "description": "<p>When you cast a spell that forces a creature to make a saving throw to resist its effects, you can spend 3 sorcery points to give one target of the spell disadvantage on its first saving throw made against the spell.</p>",
-        "section": "feature-items",
-        "requirements": "Sorcerer 3"
-      },
-      {
-        "name": "Subtle Spell",
-        "description": "<p>When you cast a spell, you can spend 1 sorcery point to cast it without any somatic or verbal components.</p>",
-        "section": "feature-items",
-        "requirements": "Sorcerer 3"
-      },
-      {
-        "name": "Darkness",
-        "description": "<p>Magical darkness spreads from a point you choose within range to fill a 15-foot-radius sphere for the duration. The darkness spreads around corners. A creature with darkvision can't see through this darkness, and nonmagical light can't illuminate it.</p><p>If the point you choose is on an object you are holding or one that isn't being worn or carried, the darkness emanates from the object and moves with it. Completely covering the source of the darkness with an opaque object, such as a bowl or a helm, blocks the darkness.</p><p>If any of this spell's area overlaps with an area of light created by a spell of 2nd level or lower, the spell that created the light is dispelled.</p>",
-        "section": "spell-items",
-        "spellLevel": "2nd Level",
-        "spellRange": "60 ft",
-        "spellSchool": "Evocation"
-      },
-      {
-        "name": "Elemental Affinity",
-        "description": "<p>Starting at 6th level, when you cast a spell that deals damage of the type associated with your draconic ancestry, you can add your Charisma modifier to one damage roll of that spell. At the same time, you can spend 1 sorcery point to gain resistance to that damage type for 1 hour.</p>",
-        "section": "feature-items",
-        "requirements": "Draconic Bloodline 6"
-      },
-      {
-        "name": "Quickened Spell",
-        "description": "<p>When you cast a spell that has a casting time of 1 action, you can spend 2 sorcery points to change the casting time to 1 bonus action for this casting.</p>",
-        "section": "feature-items",
-        "requirements": "Sorcerer 3"
-      },
-      {
-        "name": "Dragon Wings",
-        "description": "<p>At 14th level, you gain the ability to sprout a pair of dragon wings from your back, gaining a flying speed equal to your current speed. You can create these wings as a bonus action on your turn. They last until you dismiss them as a bonus action on your turn.</p><p>You can't manifest your wings while wearing armor unless the armor is made to accommodate them, and clothing not made to accommodate your wings might be destroyed when you manifest them.</p>",
-        "section": "feature-items",
-        "requirements": "Draconic Bloodline 14"
-      },
-      {
-        "name": "Essence Burn",
-        "description": "<p>When you finish a long rest, you can expend 1 Mythic Power to perform a 1-hour-long ritual burn your own vitality to bolster your arcane might. Until the end of your next long rest, you gain the following effects:</p><ul><li><p>You have one additional spell slot for each spell level for which you have spell slots.</p></li><li><p>When you gain temporary hit points from any source, you gain twice as many temporary hit points.</p></li><li><p>Your hit point maximum is reduced to 10 x your Mythic Rank. Any effects that increase or reduce your hit point maximum apply as normal.</p></li></ul>",
-        "section": "feature-items",
-        "requirements": "Mythic Lich 3"
-      },
-      {
-        "name": "Arcane Athanasia",
-        "description": "<p>When you drop to 0 hit points and don't die outright, you can expend a number of spell slots with a combined level of 5 or more to tether your soul to your body. ( Current cost = [[lookup @item.flags.talia-custom.combinedSlotCost]] ).</p><p>Until the end of your next turn or until you regain at least 1 hit point, you gain the following benefits:</p><ul><li><p>Your creature type counts as undead.</p></li><li><p>You cannot fall unconscious.</p></li><li><p>You do not make death saving throws at the start of your turns or suffer death saving throw failures when you take damage.</p></li><li><p>You can cast spells using a spell slot of a level qual to or lower than your Mythic Rank without expending the spell slot.</p></li><li><p>You have a bonus to you spell attack rolls and spell save DC equal to your Mythic Rank.</p></li></ul><p>If you have 0 hit points when this effect ends, you must use the feature again, expending spell slots as normal. If you cannot, you die immediately.</p><p>Each time you use this feature, the combined level of spell slots you must expend increases by 5. When you finish a long rest, this cost resets to 5.</p>",
-        "section": "feature-items",
-        "requirements": "Mythic Lich 3"
-      },
-      {
-        "name": "Crown of Mercy",
-        "description": "<p>A soothing radiance emenates from you in an aura, bolstering the vitality of you and nearby allies. For the duration, you and allied creatures regain twice as many hit points when regaining hit points from any source, and have advantage on Constitution and Death saving throws while within this aura.</p><p>Additionally, when you cast this spell, you and each allied creature within 20 feet of you gains the benefits of the @UUID[Compendium.talia-custom.customItems.Item.VYHyzt6WXpvtojku]{Death Ward} spell for the duration of this spell.</p>",
-        "section": "spell-items",
-        "spellLevel": "8th Level",
-        "spellRange": "Self",
-        "spellSchool": "Enchantment"
-      },
-      {
-        "name": "Devil's Sight",
-        "description": "<p>You can see normally in darkness, both magical and nonmagical, to a distance of 120 feet.</p>",
-        "section": "feature-items",
-        "requirements": "Warlock 2"
-      },
-      {
-        "name": "Dark Star",
-        "description": "<p>This spell creates a sphere centered on a point you choose within range. The sphere can have a radius of up to 40 feet. The area within this sphere is filled with magical darkness and crushing gravitational force.</p><p>For the duration, the spell's area is <span>difficult terrain</span>. A creature with <span>Darkvision</span> can't see through the magical darkness, and nonmagical light can't illuminate it. No sound can be created within or pass through the area. Any creature or object entirely inside the sphere is immune to thunder damage, and creatures are <span>Deafened</span> while entirely inside it. Casting a spell that includes a verbal component is impossible there.</p><p>Any creature that enters the spell's area for the first time on a turn or starts its turn there must make a Constitution saving throw. The creature takes <span><span>8d10</span> force</span> damage on a failed save, or half as much damage on a successful one. A creature reduced to 0 hit points by this damage is disintegrated. A disintegrated creature and everything it is wearing and carrying, except magic items, are reduced to a pile of fine gray dust.</p>",
-        "section": "spell-items",
-        "spellLevel": "8th Level",
-        "spellRange": "150 ft",
-        "spellSchool": "Conjuration"
-      },
-      {
-        "name": "Nystul's Magic Aura",
-        "description": "<p>You place an illusion on a creature or an object you touch so that divination spells reveal false information about it. The target can be a willing creature or an object that isn't being carried or worn by another creature.</p><p>When you cast the spell, choose one or both of the following effects. The effect lasts for the duration. If you cast this spell on the same creature or object every day for 30 days, placing the same effect on it each time, the illusion lasts until it is dispelled.</p><p><em><strong>False Aura.</strong></em><strong> </strong>You change the way the target appears to spells and magical effects, such as Detect Magic, that detect magical auras. You can make a nonmagical object appear magical, a magical object appear nonmagical, or change the object's magical aura so that it appears to belong to a specific school of magic that you choose. When you use this effect on an object, you can make the false magic apparent to any creature that handles the item.</p><p><em><strong>Mask.</strong></em><strong> </strong>You change the way the target appears to spells and magical effects that detect creature types or alignment, such as a paladin's Divine Sense or the trigger of a Symbol spell. You choose a creature type and alignment and other spells and magical effects treat the target as if it were a creature of that type or of that alignment.</p>",
-        "section": "spell-items",
-        "spellLevel": "2nd Level",
-        "spellRange": "Touch",
-        "spellSchool": "Illusion"
       }
     ],
     "Miri Flick": [
@@ -3945,7 +3047,7 @@
         "name": "Arrow",
         "description": "<p>Standard ammunition used for bows of all varieties. These mundane arrows are made of smooth wooden shafts with goose feather fletching and hammer metal bodkins.</p>",
         "section": "physical-items",
-        "quantity": 151,
+        "quantity": 150,
         "combinedLabel": "Arrow (arrow)",
         "attunementLabel": ""
       },
@@ -4589,6 +3691,14 @@
         "section": "physical-items",
         "quantity": 1,
         "combinedLabel": "Loot",
+        "attunementLabel": ""
+      },
+      {
+        "name": "Treasure (1000gp)",
+        "description": "",
+        "section": "physical-items",
+        "quantity": 5,
+        "combinedLabel": "Treasure",
         "attunementLabel": ""
       }
     ],
@@ -5951,7 +5061,7 @@
       },
       {
         "name": "Vox Speaker",
-        "description": "<p><em>This small, ornate horn is made of polished brass and inlaid with intricate arcane symbols. The Vox Speaker fits comfortably in the palm of your hand and is adorned with a velvet grip, ensuring a firm hold.</em></p><p>Once per day, you can speak up to 10 words into the Vox Speaker. As long as it's held in your hand, the item will then loudly repeat those words for the next 10 minutes. The repeated message can be heard clearly up to 300 feet away, making it an ideal tool for public announcements, rallying troops, or creating distractions. <br><br><br>\"Hello, anyone home!?\"<br></p>",
+        "description": "<p><em>This small, ornate horn is made of polished brass and inlaid with intricate arcane symbols. The Vox Speaker fits comfortably in the palm of your hand and is adorned with a velvet grip, ensuring a firm hold.</em></p><p>Once per day, you can speak up to 10 words into the Vox Speaker. As long as it's held in your hand, the item will then loudly repeat those words for the next 10 minutes. The repeated message can be heard clearly up to 300 feet away, making it an ideal tool for public announcements, rallying troops, or creating distractions. <br><br><br>\"This way, do not get distracted, walk this Way ,Follow my voice\"<br></p>",
         "section": "physical-items",
         "quantity": 1,
         "combinedLabel": "Trinket",
@@ -6582,26 +5692,10 @@
         "attunementLabel": ""
       },
       {
-        "name": "Wandering Wart",
-        "description": "<p>When this mushroom bursts open, it covers any creature in a 5ft radius in it's spores for one minute.</p><p>A creature covered in these spores teleports 5ft laterally in a random direction at the beginning of it's turn. A single creature can be affected by multiple instances of this effect, each adding 5ft to the teleportation distance.</p>",
-        "section": "physical-items",
-        "quantity": 1,
-        "combinedLabel": "Unusual Material",
-        "attunementLabel": ""
-      },
-      {
         "name": "Hurting Stone",
         "description": "<p>When this stone hits a creature or object after being dropped or thrown, it deals 2d6 magical bludgeoning damage and loudly shouts “Ow!”.</p>",
         "section": "physical-items",
         "quantity": 2,
-        "combinedLabel": "Unusual Material",
-        "attunementLabel": ""
-      },
-      {
-        "name": "Straightstep Briar",
-        "description": "<p>One fruit of this plant contains enough oil to cover a 10ft square for 10 turns.</p><p>A creature touching this oil needs to succeed on a Strength saving throw against the contraption's save DC. On a fail, the creature needs to begin it's next 3 turns by moving it's full movement in a straight line in a direction of it's choice.</p>",
-        "section": "physical-items",
-        "quantity": 1,
         "combinedLabel": "Unusual Material",
         "attunementLabel": ""
       },
@@ -6708,14 +5802,6 @@
         "spellLevel": "2nd Level",
         "spellRange": "Self",
         "spellSchool": "Divination"
-      },
-      {
-        "name": "Troll Musk Concentrate",
-        "description": "<p>When this flask hits a creature or object, it bursts open and covers the target in a green liquid, a potent aphrodisiac for trolls.</p><p>Upon coming into contact with a living creature, this fatty substance creates a 10ft sphere of foul odour around that creature which persists for 10 minutes.</p><p>When a creature enters the effect’s area for the first time on a turn or starts its turn there, that creature must make a Constitution saving throw against the contraption’s Save DC or become <span>Poisoned</span> until the start of their next turn.</p><p>When a troll fails a saving throw against this effect, it becomes <span>Charmed</span> instead of poisoned.</p>",
-        "section": "physical-items",
-        "quantity": 1,
-        "combinedLabel": "Unusual Material",
-        "attunementLabel": ""
       },
       {
         "name": "Bugman’s Ale",
@@ -6926,14 +6012,6 @@
         "description": "<p>You have a pool of three special d20 known as Luck dice.</p><p>Whenever a creature you can see within 120 feet makes a d20 test, you can choose to roll one Luck dice and either add or subtract the result from the roll (no action required). You can make this choice after the d20 is rolled but before the outcome is determined. A roll cannot be modified by more than one Luck die.</p><p>When you do, hand that Luck die to the DM, who can then use it the same way. After the DM uses this die, they return it back to you. The same three dice are passed back and forth, and there are always exactly three Luck dice in circulation.</p>",
         "section": "feature-items",
         "requirements": "Mythic Trickster 3"
-      },
-      {
-        "name": "Granade of No Cower",
-        "description": "<p>Save DC: 16 | Attack Bonus: 9</p><p><span><strong><span>Mechanism</span></strong></span></p><p>A carefully tied together coconut witch will easily break apart when thrown or exposed to a hard impakt.</p>",
-        "section": "physical-items",
-        "quantity": 1,
-        "combinedLabel": "Container",
-        "attunementLabel": ""
       },
       {
         "name": "Wandering Wart",
@@ -7425,10 +6503,10 @@
       },
       {
         "name": "Big bag of Gold",
-        "description": "<p>A shiny treasure of gold and coins!</p>",
+        "description": "<p><span>A shiny treasure of gold and coins!</span></p>",
         "section": "physical-items",
         "quantity": 1,
-        "combinedLabel": "Trinket",
+        "combinedLabel": "Treasure",
         "attunementLabel": ""
       }
     ],
@@ -8318,19 +7396,19 @@
         "attunementLabel": ""
       },
       {
-        "name": "Big bag of Gold",
-        "description": "<p>A shiny treasure of gold and coins!</p>",
-        "section": "physical-items",
-        "quantity": 2,
-        "combinedLabel": "Trinket",
-        "attunementLabel": ""
-      },
-      {
         "name": "Potion of Water Breathing",
         "description": "<p><em>Its cloudy green fluid smells of the sea and has a jellyfish-like bubble floating in it.</em></p>\n<p>You can breathe underwater for 1 hour after drinking this potion. </p>\n<p> </p>",
         "section": "physical-items",
         "quantity": 1,
         "combinedLabel": "Potion",
+        "attunementLabel": ""
+      },
+      {
+        "name": "Big bag of Gold",
+        "description": "<p><span>A shiny treasure of gold and coins!</span></p>",
+        "section": "physical-items",
+        "quantity": 2,
+        "combinedLabel": "Treasure",
         "attunementLabel": ""
       }
     ]
@@ -10320,6 +9398,16 @@
           "name": "121 - Shalkoc's vibrations, a hole in ice, popsicle fish",
           "section": "journal-pages",
           "content": "<p><strong>Friday, 16</strong><sup><strong>th</strong></sup><strong> of Primus, 1498</strong></p><p><strong>22:30</strong></p><p>Evening rolls around, but the sun remains bright in the sky. The heat is still too much for some of us (steam is rising around Ragvond despite Plex' tailoring work). New people arrive on the beach and… wow they look rich. Ragvond asks when we are getting to the raiding, and Plex is digging a hole to bury all the bodies.</p><p>We speak with <strong>Lux</strong>, who brings up joining the pirates again. The Iron Gnashers, not the Barnacle Pirates. Those are clowns, C-tier pirates. W-wow the C-word? That's harsh for someone her age to say… Jill appears trying to sell us anti-clown measures as Fearghas mutters to me \"that's not what the C-word is, you're so pure.\" <s>Half the party can't spell</s>.</p><p>Shalkoc's grilling is attracting a lot of attention as he has stopped eating most of his wares. He's making big money! (27 gil / 270 gold). Jill steps away, leaving Shalkoc in charge for a bit. A <strong>red-skinned Tiefling</strong> comes to Shalkoc and asks if he is the owner. The Tiefling looks out of place, and it seems she wants to buy the stall. Shalkoc confidently says he is the owner. \"Are you using magic to make the food smell and taste so good?\" No, Shalkoc says, just the usual. The Tiefling offers him magic to make better food, but he likes the usual way. He is still curious though and asks about the magic.</p><p>The Tiefling clarifies: she is not making him an offer. Has he heard about the <strong>magic auction</strong>? Shalkoc has not. She says magic is prohibited in Taldor Augusta and if he wants to make some big money, he should go find \"the private beach party\" and make sure to not be late on the payments. There is a <strong>50% tax</strong> on all income here! Shalkoc did not know… I don't like the look he is getting in his eyes as he asks for details.</p><p>Shops need to pay \"<strong>a safety fee</strong>\" in order to be protected. (In the meantime, Fearghas and Kyrin are teaching me how to swim, Ragvond claims they are doing it wrong, this is not how you sink, and Plex waves his <strong>Adjust Density</strong> in disagreement.) Kyrin looks over to Shalkoc and recognises the Tiefling as a link between the underworld of Taldor, and its nobility. She might be doing government work, not just racketeering. \"So that's why Jill ran off,\" Kyrin mutters. She's heard the title \"Countess\" for the Tiefling… <strong>Countess Mirella</strong>.</p><p>Kyrin walks in as Shalkoc is trying to talk his way out of paying taxes. Mirella has not heard of Kyrin and decides none of this is worth her time. She advises Shalkoc to come to the private beach, and walks away. Kyrin spots a little note on her and goes to grab it with a 31 on Sleight of Hand. Rogues, man… She even swaps it out for a note that reads \"Thanks!\". Kyrin obtains a ledger full of names of pirates and their crews; next to each pirate crew is a name of a company or an aristocrat! At the bottom is an important name: <strong>Lady Elara Valerius</strong>, Treasurer of Taldor Augusta and the Azure Grotto.</p><p>At this point, all of us magic users realise… the sun should have set by now. And why is it so warm? \"Because it's a beach,\" Plex says slowly as if talking to an idiot. \"It fits the vibe!\" That's not how beaches work… Fearghas confirms, it's a <strong>Control Weather</strong> spell. Ragvond mutters about Dwarves mistaking goats for their wives, but he is a giant so half the beach hears his muttering. Fearghas grumbles it is in no way true and Loki is playing a joke on the Frost Giants. Ragvond assures to Fearghas there is nothing to be ashamed of. I have to get out of the water because I'm wheezing and even knee-deep water is a real hazard right now.</p><p>Ragvond is a natural storyteller with a booming voice and as he speaks about Dwarves and their <strong>goats</strong>… people listen in and start to believe the tall tale. The other Dwarves in the crowd are grumbling and scribbling in grudge books. Fearghas rubs his temples, and throws me back into the water to continue the swimming lessons. Ragvond returns to helping Plex digging a pit, and it's getting really wide now.</p><p>Emilio and Kyrin discuss a large item which the Barnacle Bandits were dragging around when we arrived. Emilio thinks the big <strong>sundial</strong> the pirates were dragging is connected to the weather. Fearghas examines the note Kyrin stole and there is a glamour over it! Underneath is a shitty ledger of coin paid to one <strong>Lord Julian Vane</strong>. Nobles are paying for allowances to use magic! Emilio and Kyrin spot a wide track in the sand, of the sundial being dragged into the sea.</p><p>Jill returns and praises Shalkoc for his food, then sneakily asks if anyone came by. \"You weren't setting me up to pay your taxes?\" Shalkoc asks. Jill denies vehemently and offers a potion to… <strong>speak with water</strong>. Shalkoc argues he can speak with animals, and Jill asks what animal is made of water? \"Jellyfish,\" Emilio mutters. Jill picks up on it and argues Shalkoc's ability to speak with animals doesn't cover jellyfish, so he needs her potion. Kyrin warns Jill about Countess Mirella, but Jill doesn't take it seriously. <s>What could go wrong</s>?</p><p>The air seems to change, and clouds begin to appear. The heat lessens somewhat, and the wind picks up, though the sun is still shining. Armed people are coming this way, inspecting stalls. Shalkoc is grilling a cow-sized chicken and we all appear for snacks <s>before Plex starts eating ears again</s>. The sand begins to blow into our faces and Shalkoc puts up a parasol.</p><p>Jill tells us about the raid-like <strong>treasure hunt</strong>. She holds up a flyer from the <strong>Golden Shell</strong> mentioning two treasures: one at the bottom of the sea, and one inland. We decide to go on a treasure hunt while Plex is making adjustments to Ragvond's outfit. \"Just clench your cheeks while I cut, okay?\" the goblin says. Ragvond talks about the ice worms the Frost Giants keep as pets. I… I don't want to think about that so much… </p><p>I ask, purely hypothetically, what if Fearghas were to cast Darkness on Ragvond's man-kini? To hide… things. This attracts the attention of… <strong>Baroness Vespera Nightshade</strong>, who asks me if I can produce darkness to hide the sun. J-just wait for the night? She says there is no night here. Woah, that's weird. Ragvond suggests leaving the island, but she shrugs it off. Baroness Vespera claims the treasure hunt is a sham and she knows where the REAL money is at. Ragvond is delighted and asks her to point the way to the monastery for raiding. I have to explain what he means.</p><p>Vespera says the island is haunted by sinister beings of the <strong>Void</strong> and she named her group the V.O.I.D out of respect for them. She speaks about EVIL VIPERS on the island <s>and hits on Plex</s>. The treasure hunt organisers will provide magic items that keep them safe from the island's dangers… but it will also make it impossible for them to find the treasure.</p><p>We return to the luxurious gold and white shop, <strong>The Golden Shell</strong>, to sign up for the treasure hunt because Plex wants the item of safety. We are given compasses; they're small rocks with a Light cantrip cast on them. Fearghas picks up a compass and immediately gets whacked by Plex' staff; the goblin is checking if the compass really makes Fearghas safe. There is grumbling on both sides, as Plex realises the compass does nothing to protect Fearghas, and Fearghas was whacked with a staff. The store clerk clarifies it does not work like this… but wards you against certain dangers.</p><p>We take the stone and proceed to the starting area as we talk Ragvond and also Shalkoc out of raiding the store. Fearghas gives the stone to the first person who passes by, who drops it in their drink. The sun does go down, Plex and Ragvond are talking about painting the shop to raid it. We start looking for clues on the treasure hunt!</p><p>Emilio and me are talking snacks and are way too distracted. Fearghas is telling off Ragvond and threatening to put him in the time-out realm, that is send him back to <strong>Jotunheim</strong>. Shalkoc's keen eyes find a path that leads off the beach and further inland. It looks like it's going east, probably to another beach. We follow it while I argue with Emilio about raspberries. There's a smog slowly rising… Ragvond catches up with paint on his hands, which immediately gets Fearghas asking if he painted \"Monastery\" on the gift shop. Emilio and Kyrin are lifted up by Ragvond and see, painted on white letters on the side of the shop, \"No Raiding\" in Giant.</p><p>Emilio also spots a small fleet on the water, all flying white flags. Kyrin sees several black flags… Jolly Rogers! There are several pirate ships floating in a cove. There is a mound of earth and sand, and Plex starts to dig with <strong>Mold Earth</strong>. He gets a major surge adding a d8 to his DEX checks, permanently. He finds a small canoe buried in the sand, and within, a scroll and a coin. Ragvond claims the <strong>Coin of the Downtrodden</strong> contains a spirit, just like a Hearthstone. Fearghas is not convinced. We do feel a presence from the coin.</p><p>Emilio finds himself drawn to the water… <s>He does not recognise the bodies in the water, nope</s>. He sees nothing in the water but corals… and looks into the water. With his face. Splash. We examine the scroll, <strong>The Sovereign Sanctuary</strong>. It mentions that the Azure Grotto is not technically part of Taldor Augusta, and therefore not subjected to the same laws. The rich and the powerful find refuge here to escape the law (typical).</p><p>We try to piece clues together, but I get distracted and go back to talking snacks with Emilio. Fearghas and Ragvond conclude that this is not part of the treasure hunt… Emilio is hearing voices in the water and dunks his head back in. Underwater, he hears a roar… He comes back up and the sound disappears. He looks upset and mutters to himself, so Ragvond and me dunk our heads in as well. There is bubbling… and a metallic sound. <strong>Coins</strong>?! I look to Ragvond excitedly, forget we are underwater, and blow a lot of bubbles trying to talk… welp. He looks to me with disappointment.</p><p>Plex offers to make Ragvond smaller but he is not too happy about the prospect. He takes Emilio and Kyrin on his shoulders and pushes the canoe with everyone else in it (which Plex made heavier with <strong>Adjust Density</strong>). Emilio is taken aback as the water rises… like something will eat him if he gets into the water! The moment he touches the water, he snaps out of it; it's just water. Ragvond walks down into the sea, surrounded by bioluminescent corals. The sunlight above begins to fade.</p><p>Lux came with us and she is afraid of the water… despite being half-merfolk and able to breathe underwater. We go down enough for the Subnautica OST to start playing. Emilio is hearing <strong>voices</strong> like a conversation… \"You should not be here.\" Plex and me feel a long <strong>tendril of magic</strong> drifting in the clear water. We get the sense of being watched. To the west, we see a pillar like a barnacle-covered portway. Inside of it are many bubbles… Kyrin is tense, on her guard. Shalkoc hears something in <strong>Draconic</strong>! \"The Nexus…\" He points to the west where he heard it, and hears another voice screaming \"No!\"</p><p>Lightning comes from the west! Kyrin shoots herself towards Lux and protects her, and the rest of us take half damage. A fat electric eel appears! Emilio immediately slaps a <strong>Hellish Rebuke</strong> on the eel, but fire damage underwater is not very effective. A voice echoes around us… \"Turn back…\" The lightning wraps around Shalkoc and he feels like a <s>sammich</s> sandwich… he is paralysed. Behind Ragvond, a big shark floats up… and as we roll initiative, through <strong>A Series of Unfortunate Events</strong>, it dies. Plex loses concentration on Adjust Density and the canoe drifts up, whacking the shark in the head. The shark gets stuck inside the canoe as it floats upwards and surfaces. I can feel Shalkoc's hunger for shark fin soup…</p><p>Another shark swims up to Ragvond and begins to bite. Emilio immediately sees something tainted on the shark. It chomps on Ragvond's arm and it hurts a lot more than it should?! The Dragon Eel is surrounded by a <strong>lightning aura</strong>… that's really bad! Lux will die if we can't protect her! Plex is wriggling and uses his <strong>Mindblasting Cap</strong> to hit the Dragon Eel. Natural 1 on the save. It's blasted with such force it's stunned.</p><p>A shark swims up behind me, going for Lux! I get in the way and take the attack instead of Lux. It's a critical hit… Ragvond reaches out for me but he is too far. The shark swims away from me and I bonk it with the Staff of Power. Emilio chucks a Void grenade with <strong>Abhorrent Apparition</strong>, but to get the shark in the area, he has to hit Fearghas, who of course fails the save. Both enemies save, of course. Emilio goes into Void Form <s>to fight Foundry</s> and immediately uses <strong>Eldritch Energies</strong> to cast Lightning Blade through a claw attack. The arcs of lightning bounce to Ragvond as he is the only one in range…</p><p>The Eel shakes off the stun and speaks <s>Parseltongue</s> Draconic: \"Begone from this temple…\" Shalkoc is still stunned and not having a good time. He tries to point places and shrugs, dancing a peace sign to the sharks… it seems to work?! I drink my <strong>Potion of Water Breathing</strong>; I need to speak as I grab the Staff of Power and cast <strong>Wall of Force</strong>, encasing Lux in a cube to protect her. Fearghas drinks a potion as well, and casts <strong>Otiluke's Freezing Sphere</strong>, the frost healing most of his wounds. He scuplts the spell to leave just enough space among ice crystals for Kyrin to torpedo through and juicily stabs the big fish with the <strong>Shard of True Ice</strong> before swimming away.</p><p>Ragvond turns around and smacks the sharks in the face. Shalkoc vibrates to keep the sharks' attention even as Ragvond murders one, and shoves another one away. Kyrin gives another stabby on the Eel, it's a critical hit and the thing is hissing, looking gravely wounded. Ragvond saw Kyrin stab with a toothpick and is looking at his greataxe with a questioning sadness. She bumps into Plex and he takes big damage from the lightning aura, the goblin is not looking well. Plex still doesn't have water breathing and uses <strong>Event Horizon</strong> then his telekinesis to shove a shark away and crush its insides, killing it.</p><p>Emilio finally understands the voices… it's something from the <strong>Void</strong>! The real Void, not those posers on the beach. He locks the duck in and slashes at the nearest shark with his claws, landing a critical hit and adding a Lightning Blade. Plex starts speaking in tongues as the Eel thrashes and breaks free of Fearghas' spell. It swims down into an opening in the rock, attempting to flee.</p><p>Shalkoc drinks a Potion of Water Breathing then hears again in Draconic \"No! Don't let it get away!\" He tries to respond and asks questions. The Eel snaps around and says \"Don't you know that the lid has been stolen? And if no one can put it back, then more of this infestation will spread! I was trying to help you against these sharks, but you so rudely attacked me…\" Shalkoc narrows his eyes… nope, he can't trust a single word from this Eel, after it turned him into a lightning sandwich!</p><p>\"Heed my warning, green boy. Once these waters are released, no one will survive. You see, those small dogs (sharks) have been tained by what lies beneath the water surface,\" the Eel says to Shalkoc. He responds with threats of cooking the Eel, then follows up on those threats by swimming up to it and punching the daylights out of it. A shark teleports to Plex and goes to take a bite! But Ragvond heroically extends a leg and takes the attack for him with <strong>Interception</strong>.</p><p>I'm still holding the Wall of Force around Lux, but everyone's been injured… I cast <strong>Mass Cure Wounds</strong> on everyone else, then cast <strong>Sanctuary</strong> to protect myself as well. Fearghas repositions with a Misty Step, then with an Overchannel he casts <strong>Cone of Cold</strong>! 69 damage! Nice! The sharks all fail the save. Fearghas is feeling generous and excludes Plex from the spell. The ice blows into Ragvond's beard to give him this exquisite Jotunheim look, he is one happy bunny.</p><p>The Eel is also hit and freezes to death. Only one shark survives, for now. It attempts to teleport away, but Ragvond's axe cleaves through the water and chops the shark into neat sashimi. Shalkoc is visibly drooling… underwater. It was a very short fight so people without water breathing are managing to hold their breath still. Ragvond gestures towards the hole with a look of hope. Eel monastery? Eel monastery. We swim towards the hole, except for Plex who <strong>Fey Steps</strong>.</p><p>It's a bit too tight for Ragvond so he makes the hole bigger instead, with his fists. He pierces a hole, and enough water drains out to create a pocket of air. The water turns greenish from the luminescence of small glowing mushrooms inside the tunnel. Further into the tunnel, we can almost smell <strong>metal</strong> ahead. The smell quickly turns into a rancid smell of rot. Shalkoc is in front and find a cleaved corpse… hey he saw this guy on the beach, he bought snacks and didn't pay!</p><p>Kyrin asks Shalkoc if he was talking with the giant eel and he explains the fish was trying to warn him, in Draconic. Kyrin pulls out the <strong>Dragon Compass</strong> and it points north north-west. But the needle moves as we walk, so… a dragon is close! But not so close that Emilio can sense it with Blood Sense. Ragvond takes a moment to put on his armour which he held clenched between his cheeks.</p><p>We hear voices! They echo and grow louder, hissing in Common \"Shut up!\" Fearghas walks up to the corpse, it is that of <strong>Captain Barnaby</strong>. But there is a thread of arcane energy sewing his body back together… He looks mighty dead, but there is a bit of <strong>necromancy</strong> at play here. Ragvond asks \"Do you want to be sure he's dead?\" and as Fearghas nods, he slashes with the greataxe. The blade scrapes the low ceiling and crushes the corpse's bones. Small glowing threads begin to stitch it back together… it's not alive, just reassembling.</p><p>Ragvond holds the two halves of the corpse apart, and feels a slight pull trying to get them back together again. Fearghas casts <strong>Gravecraft</strong> to decompose the corpse, leaving only bones. The stitches were attached to the bones. I cast <strong>Detect Evil and Good</strong> as Ragvond lights a torch. I sense undead energy coming from the corpse, and when any of us speaks, the skull twitches… Plex hears snivelling up ahead and says \"I hear the sound of a slave! Uh… I hear someone.\"</p><p>Fearghas is interested in the magic on Captain Barnaby's body and asks Kyrin to chuck it into the Portable Hole. I heal everyone up with a <strong>Wellspring of Life</strong> and we proceed. Fearghas calls out \"Oh, hello!\" and a voice shouts in fear. It's one of the VOID members who duplicated… he's covered in blood. I slowly approach him and treat his wounds without using magic, trying to reassure him. He is panicked as Plex and Shalkoc are stealing all his money.</p><p>Fearghas asks the man what he is doing down here. He explains he fought his <strong>clone</strong>, and he just wanted to look cool, and he finally killed his evil twin and then he fell into the water and the current dragged him down into the hole. He saw a hole in the water and it gave him very bad vibes. He's terrified, so I tell him to follow us and we'll get him out of here. The others are NOT helping and I stand over the frightened man to protect him.</p><p>Emilio moves up close to the man and feels a presence nearby… something older. Kyrin's Dragon Compass is pointing in the same direction… a big dragon is very close! The scared man gives us a note reading: \"The <strong>sundial</strong> has been moved. Whoever has moved it does not know what they have done! It needs to be found and put back. Otherwise… despair will come to Taldor Augusta.\" It also mentions the sundial can control the weather, but it's missing parts as whoever stole it also dissassembled it. \"Repair the sundial and plug the hole.\" The note also mentions \"<strong>the Nexus</strong>\". Fearghas mentions he sensed a strong magical presence underneath the island.</p><p>The voices we had been hearing finally make sense; they are talking about <strong>marrying Plex</strong>, <strong>shaking Shalkoc down</strong>, and then three more voices we can't understand. There is an emanation in the air like a thick syrup… I know this feeling well! A train of cutscenes is approaching! </p>"
+        },
+        {
+          "name": "121 - summary",
+          "section": "journal-pages",
+          "content": "<h2>Shalkoc's vibrations, a hole in ice, popsicle fish</h2><p>It's evening in the <strong>Azure Cove</strong> but still sunny and way too hot for Ragvond, who wants to go raiding so Plex begins to dig a hole to bury bodies. We speak with <strong>Lux</strong> about pirates and I realise half the party is even worse at spelling than I am, also the Barnacle Pirates are clowns.</p><p>Shalkoc continues to grill and makes monies. <strong>Jill from Jill's Gil</strong> steps away in a hurry and we realise it's because a tax collector arrived in the form of a red Tiefling. Kyrin knows her, this is <strong>Countess Mirella</strong>. Shalkoc is talking his way out of paying a 50% income tax and Kyrin rolls a 31 to steal a note the Countess had on her. It's a ledger of pirate crews... and names of aristocrats! We learn the name of <strong>Lady Elara Valerius</strong>, Treasurer of Taldor Augusta and the Azure Grotto.</p><p>Plex argues the weather is warm because this is a beach and that's how beaches work, it fits the vibe. Fearghas grumbles it's a <strong>Control Weather</strong> spell. Ragvond spreads rumours about Dwarves and goats, which causes many chisels to get to work inscribing brand new grudges. Good job Ragvond, you're famous!</p><p>I am taught to swim. It does not go well.</p><p>Emilio thinks the <strong>Sundial</strong> the pirates were dragging into the sea can control the weather. The note Kyrin stole had a glamour over it and reveals another ledger of nobles paying to use magic, and one <strong>Lord Julian Vane</strong>.</p><p>Jill returns, no she was not trying to set Shalkoc up to pay her taxes, that is ridiculous. Does the green gentleman want a <strong>Potion of Speak with Water</strong>? Jellyfish are more water than animal, it'll work on that. Shalkoc is not convinced and begins to grill a giant chicken.</p><p>Plex is trimming Ragvond's man-kini again so I suggest a Darkness spell, to hide... things. This summons a rich lady, <strong>Baroness Vespera Nightshade</strong>, the leader of the V.O.I.D. She says The Golden Shell's treasure hunt is a sham, so naturally we decide to go on it. We buy a compass, that is a stone, to protect us from evil vipers. Plex tests the compass' protection by whacking Fearghas with his staff, and we confirm it does not protect him for shit, so Fearghas drops it.</p><p>Ragvond really wants to raid The Golden Shell so Fearghas threatens to send him into the time-out realm (back to <strong>Jotunheim</strong>). Ragvond sneakily paints \"No Raiding\" on the shop and we follow a path leading to another beach. We spot pirate ships hiding in a cove, then dig for treasure. We find a spooky coin and a scroll of political importance, then Emilio splashes into the water. Instead of fishing up the warlock, Ragvond and me go dunk our heads in as well.</p><p>We think there is treasure in the water, so we get on a boat and Plex sinks it. Lux came with us but she can breathe underwater so she will be perfectly safe, right? We get attacked by a giant electric eel causing lightning damage so Lux will definitely die on her turn. I put her in the bubble of safety, that is <strong>Wall of Force</strong>, and we fight Void-tainted sharks rising from the depths. One of them bonks its head on our boat and dies, and Shalkoc's hunger for shark fin soup radiates into the water.</p><p>Emilio throws a Void grenade and frightens Fearghas, working as intended. Shalkoc is hearing voices and starts to vibrate to tell the sharks he is a friend. Fearghas casts <strong>Otiluke's Freezing Sphere</strong> and leaves a Kyrin-sized hole in the ice for her to do the big stabbing. Ragvond is cleaving sharks and having an existential crisis as he sees Kyrin inflict similar damage with a toothpick.</p><p>The giant eel starts to flee, then talks shit to Shalkoc but he doesn't trust it and punches it to death. Fearghas freezes the remaining sharks with <strong>Cone of Cold</strong> and Ragvond slices them into sashimi. The Void corruption makes them inedible for anyone but Emilio but Shalkoc still drools.</p><p>We swim down into the Eel Monastery and Ragvond punches a hole into the wall so he can fit. The water drains away and we can all breathe! We walk down the tunnel and Kyrin's <strong>Dragon Compass</strong> detects a big lizard close by. We find the corpse of Captain Barnaby, both halves of him, and some suspicious necromancy on it. Fearghas is interested and keeps his bones for further study.</p><p>We find a V.O.I.D member huddling in an alcove, covered in blood and terrified. He killed his clone, lets Plex and Shalkoc loot his money, and begs us to get him out of here. I will protect you, poser-man. He gives us a note mentioning the Sundial, plugging a hole, and \"<strong>the Nexus</strong>\".</p><p>The voices we've been hearing all this time finally make sense! They are talking about <strong>marrying Plex</strong> and <strong>shaking Shalkoc down</strong>. We sense a train of cutscenes approaching and decide to save it for next time.</p>"
+        },
+        {
+          "name": "122 - I receive the glorious form of Whaami",
+          "section": "journal-pages",
+          "content": "<p><strong>Saturday, 17</strong><sup><strong>th</strong></sup><strong> of Primus, 1498</strong></p><p><strong>02:00</strong></p><p>The VOID member stranded in the cave is muttering to himself about generally regretting his life choices, so Kyrin and me ask for clarification. He introduces himself as Gregorianus Appius Mercantor, so I ask if we can call him <strong>Greg</strong>. Greg is an art student in Taldor Augusta, and joined a club at the academy for literature, philosophy, and theatre. The club is called <strong>Vagabonds Of Illuminating Darkness</strong>… hmmmmmm… He loved it, loved having friends, not being bullied by his brothers, and going on expensive trips with his parents' money…</p><p>Then a non-student member joined and he was fishy… but Greg is SO above judging other people's lives but some would call him slimy, maybe. A man called <strong>Abysseus</strong>, with interesting and controversial philosophical takes, especially on authority. He introduced the club to a lot of obscure books. Then the club came here, and there were pirates, and Greg was scared he'd be taken into custody and his parents would have to bail him out! The embarrassment! The shame!</p><p>But Abysseus spoke to the people like you speak to women. Real people with real weapons! He wanted an artifact fetched and the club was floored by his inspiring, unorthodox approach. They spent a day at the beach and there was way too little shade (Ragvond sweatily agrees). Abysseus took them to a <strong>cave</strong>, strange location for philosophical talks. And there was a pile of gold, and the pirates needed to be paid for fetching the artifact.</p><p>Abysseus spoke a language Greg didn't understand, and everyone's eyes seem to melt. He proclaimed the <strong>Age of Deep Water</strong> was coming and everyone was destined to gaze into the abyss. Then he started talking about sacrifices… real, not figurative. Greg was scared and ran, and Abysseus shouted \"Cowards will never see the dark again!\".</p><p>\"The future lies slumbering in the dark depths below,\" is one of the sentences Abysseus would say. Greg is very admirative of his style, and Emilio exudes a similar vibe. I lean to the warlock and whisper \"That means you're edgy as duck and he's into it.\" He responds \"I don't swing that way!\" I try to reassure Greg and tell him to stay close to us, we will protect him. He tries to hide behind me despite being twice my height.</p><p>Fearghas is eager to get going and urges us to move. A gruff, slightly drunk voice cuts through our wizard's grumbling as it demands more money. Ragvond squeezes through the tunnels; Plex finds <strong>glowing mushrooms</strong> and proceeds to bite into one to check if they are edible. His skin turns flurorescent and the goblin now glows in the dark. \"Looks very tasty!\" Shalkoc chimes in and makes a beeline for the fungi.</p><p>Ahead, torchlight flickers… a guy in a very obvious pirate hat is facing away from us, holding a torch as he speaks to other people holding sabers. He is trying to shake down the other people in exchange for an artifact. A meek voice responds \"Just don't hurt us\" and a much more confident voice snarls \"Let them have it, let them choke on it. We won't need these worldly possessions when the tide comes and sweeps us all away… The slumbering trench splits wide… Can you hear the water churning? The Age of Deep Water will be upon us soon, so soon.\"</p><p>The pirate captain steps away and we can see the man with the confident voice. Greg looks at him with reverence and whispers \"Doesn't he have a way with words? So inspiring…\" So this is Abysseus. He spots the glowing goblin and says \"It seems the coward has brought company!\" Plex casually says hello and is rewarded by another inspired speech about <s>your sponge's extended warranty</s> \"our lord and saviour\".</p><p>Abysseus appears human but he is masked. He wears a cloak but is bare-chested, and his upper body is covered in spiralling tattoos. It appears he hired the pirates to get the Sundial, but the pirates are now going back on the deal and demanding more money. Plex says we are here for a treasure hunt but for now we are trying to get Greg out of here.</p><p>\"This one looks like a believer,\" Abysseus murmurs, pointing at Emilio. The warlocks says he's not the water kind of guy but Abysseus insists he \"carries the aura of someone who has looked into the abyss before.\" Plex and me argue we've been to the <strong>Abyss</strong> with a big a, but this guy probably means it with a little a, like deep underwater. Which we've also been to. Abysseus continues babbling about something sleeping in the depths, bringing salvation to those who embrace it.</p><p>The pirates are casually packing up the money as Abysseus is yapping about the artifact shaping the waves. The pirates casually leave with their money and our two green boys follow trying to gauge how much money we are talking about. It's… close to 10.000 gold! Half the party is distracted by sheer greed but Fearghas is more concerned about what the fanatical Abysseus would do with the immense power of the <strong>Sundial</strong> so he readies up a Scorching Ray.</p><p>The pirates are terrified of the glowing goblin with four hats who is trying to advertise business opportunities. Abysseus senses our desire for violence and pulls out a knife to slit his own throat. He keels over with a grin on his face. The VOID member behind him whispers \"Is that what he gave us the daggers for…? I thought he was being figurative.\"</p><p>As Abysseus' blood spills across the floor, a rumble echoes in the caverns… \"That wasn't me, I swear,\" says Ragvond. A wind rises… and <strong>water rises</strong> as well, very quickly. I pull out my deflated floatie and frantically begin puffing air into it. Ragvond picks me up to give me more time. Plex is still focused on gold and confusing the pirates, but the rest of us see a shark fin in the water. It's… scraping the ceiling… The <strong>Dragon Compass</strong> is spinning as if it's pointing to something directly above, or directly below.</p><p>We swap Dungeon Masters and Domi has a bit of a squeak as Aerelia lets him run combat.</p><p>Kyrin raises her shortbow and the pirate captain whips out a wand shouting PROTEGO and Kyrin shoots him in the head and he dies. The wand has a little tag… \"<strong>Wand of Protection by Jill</strong>\". We roll initiative and Greg duplicates… again. The original panics and screams and the double is too stunned to move. A massive, corrupted and decayed shark appears! Also other sharks, smaller but also Void-tainted.</p><p>Plex casts <strong>Blink</strong> but remains in this plane. Greg 2 tries to stab Greg but Ragvond uses Interception: \"Be careful with that toothpick… you might hurt someone.\" A shark swims up to Fearghas… and dies. One of the pirates talks shit to Kyrin (\"You small-chested woman!!\") and grabs a chest before running away. Kyrin can't use the <strong>Rogue's Mantle</strong> in the bright light shed by Plex' mushroom glow, so she has to do a bit of a run before teleporting and stabbing the pirate in the back. The chest drops to the ground, spilling coins into the rising water.</p><p>Fearghas casts <strong>Otiluke's Freezing Sphere</strong> and Ragvond begs to be hit by it, so the wizard grumblingly agrees. He then casts <strong>Spiritual Weapon</strong> and throws his axe at the Void-tainted Megalodon, but it glances off some of the red ooze in its side. The Megalodon is trapped in the ice and struggles to break free and bite Shalkoc's bum, but fails. Another shork teleports and bites Ragvond. The Megalodon teleports as well and tries to bite Fearghas, but it flops on the ice.</p><p>The Megalodon radiates a foul aura… Lux is sitting on Ragvond's shoulder and grabs her head in pain. Emilio goes into <strong>Void Form</strong> and takes a lot of damage from the Armlet, so anyway he starts blasting. All rays hit, so he does it again because he can. Once more all three hit and one crits?! Shalkoc goes to loot money and tries to lift one of the chests… keyword tries, it is too heavy for his spaghetti arms and he talks one of the pirates into helping him carry it. Both fail to lift the chest of coins. A shark lunges towards another VOID member and murders him by biting his head off.</p><p>Shalkoc and the pirate move towards the other exit, the pirate dragging Shalkoc because he is the stronger one of the two. A shark does a tail flip and attacks Kyrin! She dodges effortlessly. I reach for Lux and give her a <strong>Cure Wounds</strong> spell, easing her pain but she is frightened. Big shark, small shark… doesn't matter to Ragvond, he knows how to make sashimi. He murders a small one then gives Fearghas a <strong>Battle Command</strong>: Exploit its weaknesses! Go smack it with your axe! For the secoind time in his life Fearghas swings the Obsidian Battleaxe and hits, splattering strange red ooze on his chainmail swimsuit.</p><p>Ragvond sighs at Fearghas' technique, \"I need to show you some moves.\" Action Surge. Ragvond's Greataxe plants into the Megalodon and there is a big blood splatter, it's not doing so well. The water rises and swirls! Fearghas and Plex are swept back, but Plex Fey Steps next to one of the VOID members, scaring the shit out of him. Plex casts <strong>Microscopic Proportions</strong> and makes the Megalodon into a Minilodon.</p><p>Greg is also swept away and ends up next to Fearghas, babbling in terror. Fearghas wades back towards us and summons his <strong>Spectral Hand</strong> to cast <strong>Withering Touch</strong> on the Minilodon. It has the unexpected effect to spawn a handful of gemstones near him. There is a sloshing sound in the distance… Fearghas, Plex, and Emilio realise more sharks are coming! The Minilodon is attracting them.</p><p>The Minilodon glares at Emilio and uses <strong>Gaze of the Void</strong>, blasting a cone of Void energy. I push Lux to the side and take the attack in her place, passing the WIS save to reduce damage. Plex does not save and is forced to attack me. He chucks a \"Granade of no cower\" and we are covered in Wandering Wart spores… Ragvond and me save against the Straighstep Briar but Lux fails and falls off Ragvond's shoulder and into the churning water.</p><p>Kyrin appears with the <strong>Sun Blade</strong> and slashes the Minilodon! After which Plex loses concentration and it becomes a Megalodon again and charges towards Emilio and Plex, maw gaping as if to swallow them whole. Emilio is hit by the Psychic Maelstrom and blasts a <strong>Hellish Rebuke</strong> on the Megalodon, then slashes it with his claws. Fearghas made it vulnerable to slashing damage and Emilio's claws take one of the shark's eyes. With the Essence Shards he got, he attacks once more! The Megalodon is barely holding on but it tries to devour Emilio. The warlock dodges the snapping jaws and Shalkoc steps up to punch, but misses.</p><p>A small shark swims up and gives Ragvond the old chomp. Kyrin gets the same treatment. I find myself teleported on top of Ragvond's head, lose my footing and tumble down into his beard. Hanging on for dear life, I attempt a Sacred Flame on the Megalodon but it's not enough to kill it. Ragvond commands Emilio to attack the Megalodon; Plex helps with <strong>Violent Attraction</strong> and the warlock shoots into the massive shark then slices his way out in a torrent of red.</p><p>There is still one small shork hanging from Ragvond's arm; he whacks away the corpse of the Megalodon and Plex jumps through the Emilio-shaped hole in the carcass as it flies past him. He tries to shake off the shark on his arm but the cave is dark and he doesn't have darkvision.</p><p>More water rushes into the cave with great force and most of us are swept away. I grab onto Ragvond's beard again and he protests. Sorry! Shalkoc is in the wild river and getting thrown from one wall to the next. Ragvond pulls his head out of the wall he face-planted into; Plex Fey Steps and Greg is swept past him screaming. Plex casts <strong>Thunder Step</strong> to try to get to the treasure, spots a shark, goes \"peace\".</p><p>Kyrin dashes towards Fearghas just as he turns towards me and shouts arcane words, casting Polymorph on me! I become a glorious <strong>Stone Whale</strong>. Emilio wades towards the shark hanging from Ragvond's bicep and slices it, it's still alive but barely. Shalkoc bounces from the wall towards the shark and attempts to make it into shark soup, but it's still a bit too solid and tries to eat Emilio instead. Ragvond puts out the same arm as he uses Interception.</p><p>We hear a distant scream as a pirate is washed away along with a treasure chest. Plex is getting attacked as he is away from everyone, but he uses <strong>Not Canon</strong> and the shark actually does not notice him and starts to eat the corpse of the pirate Kyrin shot.</p><p>I'm a whale. </p><p>I swim south and open my mouth wide to grab Lux and Greg, very careful to not hurt them, though Greg is traumatised beyond measure probably. Ragvond grabs the <strong>Sundial</strong> while I position myself perfectly to catch everyone into my mouth. I reach out a friendly fin towards Ragvond to guide him, and swim towards the exit.</p><p>As we are being swept out, we hear a voice… \"Don't you hear the churning? The slumbering trench splits wide open!\" It's word for word Abysseus' speech… and we hear our own voices responding, echoing his. From the glowing mushrooms, more voices echo! Plex <strong>Fey Steps</strong> out of my mouth an into a wall, taking damage. I patiently open my mouth for him to get back to the safety of a giant whale's tongue, but he Fey Steps again and is pushed by the current. He finds the clone of Greg, grabs him, and both of them enter my whale mouth.</p><p>Plex identifies the glowing mushrooms as <strong>repeating mushrooms</strong>; as long as they are not picked, they will continue to echo noises from the past. We exit the cave, Ragvond power-walking behind me holding the Sundial. I surface and open my mouth for everyone to walk out, and Fearghas drops concentration on Polymorph. I revert to being a Halfling and fall into the water with a tiny splash. I grumble as I climb onto the shore, and take a moment to heal everyone up with a Wellspring of Life. Emilio uses <strong>Twist of Fate</strong> before Void Form fades… and gets a surge turning all his gold pieces into silver pieces. He gets much poorer and one of the VOID members looks at him sadly and says \"You too, huh?\"</p><p>We return to the beach in dire need of a drink, Ragvond sweating and grumbling. The wind picks up and clouds gather; the bigger waves delight surfers. Further up the beach, a chill wind blows… Greg addresses Ragvond and claims he put in a good word with <strong>Baronness Vespera Nightshade</strong> for him, and she set up a cold area for him. Ragvond drops everything he carries, picks up Greg and asks WHERE. He takes off at a run and people have to leap out of his way to avoid being crushed. He tramples Shalkoc's grill, a parasol shed, a palm tree, and trips into the big hole Plex was digging in the sand. He lands face first in the pit. A Halfling comes towards him grumbling about blocking the sun, and Ragvond swats him away. The man flies into the sea.</p><p>Kyrin and Shalkoc are fighting over treasure chests; she wins with stealth and reliable talent. Lux thanks me for saving her so much, saying I made her feel brave. I give her a pat on the head and reach for a cookie, but they got wet and are disgusting… I'll need to bake some more.</p><p>Ragvond arrives in a place full of magically-sustained frost and ice cubes. There are ice sculptures and a little wall of snow. Baronness Vespera is here laughing. There is a pool filled with iced water, and Ragvond does a dive bomb into it. Plex <strong>Fey Steps</strong> off Ragvond's back just in time to avoid being dunked in. Ragvond sizzles as he sinks into the freezing water, finally relaxing.</p><p>A man in a white admiral suit appears and shakes hands with Roshi Fundoshi. There is a small shack… <strong>Jill's Gil - Ever-Frost Souvenirs</strong>. The admiral calls out Jill on a false tax report and she claims she doesn't sell items but POTENTIAL and therefore made no money. Jill was caught red-handed selling a levitating towel to a gnome… besides the towel was enchanted to only levitate when the wind is blowing strongly, but only for 3 seconds at a time. She argues the transaction was a gift exchange and absolutely not a scam, the gnome didn't read the manual.</p><p>The admiral mutters to Jill to <strong>pay the tax</strong>… in gold, not buttons. She promises to throw in some free mustache wax for him. As soon as he is out of sight, Jill mutters \"Alright, we gotta go,\" and starts packing.</p><p>CHAD THUNDERHOOF APPEARS! <strong>Surf's up</strong>! Everyone starts dancing! Jill puts up a sign for a flash sale, everything must go. She tries to sell us an anti-mosquito device… it's a box making ribbit sounds, clearly a trapped frog. A bottle of DIY salt! It's sea water. Stinking Cloud bombs! It's just rotten eggs… A \"divorcer\"? It makes people who love you… hate you instead. \"Plex? Might be a great time for a <strong>Silence</strong> spell,\" Kyrin groans.</p><p>Jill tells us about the Sundial and I claim we haven't seen it, so she tries to sell me more bullshit. Kyrin is about to start stabbing so we move over to The Golden Shell store to maybe claim the reward for finishing the treasure hunt. We are offered VIP passes for the beach which also allow us to use magic in the Azure Grotto and a good amount of money. We also get the good will of the admiral. Ragvond wants to go talk to him so I grab a snack and enjoy the show.</p><p>Ragvond wants to take the Sundial home, but the admiral (<strong>Grand Overseer Malakor Thorne</strong>) says this isn't a negociation and it will remain on the island. Ragvond says he speaks for Utgard-Loki and the Overseer assumes he's an ambassador, so they start negociating private parking for the Frost Giant longships. The Overseer hands spell scrolls of <strong>Control Weather</strong> to Fearghas and Plex so they can copy it to their spellbooks. We all earn <strong>4000 gold</strong> for our help finding and returning the Sundial.</p><p>We find <strong>Rosie Happiness and Fear</strong>! They're splashing in the water and having fun. Later as the sun begins to set, we find them again sleeping in the shade of a palm tree. Plex sneaks up on them, but even asleep, Fear is exuding such aura it forces a CHA save on Plex. He fails and can't approach him, too much aura. Plex is really angry at them both and casts <strong>Nystul's Magic Aura</strong> on Fear to turn him into a Troll… then throws Troll Musk Concentrate on Rosie.</p><p>Our beach adventure comes to an end, and we brush off the sand and change back to our usual gear. We meet <strong>Rosie and Fear</strong> on the way out, who say they realised they should stop chasing after the wonderful green man… as they are into each other. They liked watching us go about our adventures and invite us to their house at some point.</p><p>Emilio rolls <strong>Intimidation</strong> against Fear and they both roll over 20. Fearghas gets a baguette, places it between them, and from their sheer presence it slices into perfect halves. Ah… so much edge.</p><p>Ragvond is peacefully sitting in the ice pool and asking Shalkoc and Plex when they want to come along to raid nearby areas, like the <strong>Green Sea</strong> or <strong>Quadira</strong>. Since he got permission to dock longships here, and any Frost Giant port includes a portal to <strong>Jotunheim</strong>, they'll be able to raid from here! \"Sounds great! Just don't take too long because… I'm getting older,\" Plex the Ancient says. Ragvond advises him to cool down a bit more, that will help.</p><p>Rosie asks us if we can travel to other planes. Fearghas says we can, so she invites us to their domain in… <strong>Elysium</strong>?! She strikes a beautiful pose, and I find myself imitating her cheerfulness. Fear strikes a pose a well, and Fearghas' baguette gets sliced the other way, ready for sandwiches!</p><p>Aviana lands with a bang! She puts down a boulder, on which a bunch of kids were sitting. She says she <strong>bought the children from pirates</strong> and beat up the pirates. \"Is there anything left of the pirates?\" I ask. \"Their spirits?\" Aviana says. \"Real estate,\" Ragvond says. He remains on the island to set up the Frost Giant port, now that he has a way to withstand the heat!</p><p>We get on a ship back to Taldor Augusta… and the trip back feels like it takes soooooo much longer? Well there is a lot of wind in our face. And so much convenient plot-onium in the way, too.</p>"
         }
       ]
     },
