@@ -8918,7 +8918,8 @@
         "description": "<p>You imbue a creature you touch with pigment so that its skin, and anything it wears or carries, slowly shifts hues to match its surroundings For the duration, the target can take the Hide action as a bonus action on each of its turns, even when only lightly obscured</p><p>If the target did not move during its last turn, creatures have disadvantage on any Wisdom (&amp;Reference[skill=Perception]) checks made to see the target. Creatures who do not rely on sight, such as those with tremorsense, are immune to this effect.</p><p><em><strong>At Higher Levels.</strong></em></p><p>When you cast this spell using a spell slot of 2nd level or higher, you can target one additional creature for each slot level above 1st.</p>",
         "section": "spell-items",
         "spellLevel": "1st Level",
-        "spellRange": "Touch"
+        "spellRange": "Touch",
+        "spellSchool": "Illusion"
       },
       {
         "name": "Invisibility",
