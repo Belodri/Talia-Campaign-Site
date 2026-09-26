@@ -49,6 +49,9 @@ function FragmentFn(props: { children?: Child[] }): DocumentFragment {
 
 function appendChildren(parent: Node, children: Child[]): void {
     for (const child of children) {
+        // JSX convention holds that boolean/null/undefined don't render.
+        if (child === null || child === undefined || typeof(child) === "boolean") continue;
+
         if(typeof child === "string") parent.appendChild(document.createTextNode(child));
         else if (Array.isArray(child)) appendChildren(parent, child);
         else if (child instanceof Node) parent.appendChild(child);
