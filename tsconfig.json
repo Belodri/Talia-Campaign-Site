@@ -1,0 +1,19 @@
+{
+    "compilerOptions": {
+        "module": "esnext",
+        "target": "esnext",
+        "moduleResolution":"bundler",
+        "strict": true,
+        "noImplicitOverride": true,
+        "esModuleInterop": true,
+        "allowImportingTsExtensions": true,
+        "lib": ["ESNext", "DOM", "DOM.Iterable"],
+        "noEmit": true,
+        "isolatedModules": true,
+        "types": ["vite/client"],
+        "jsx": "react",
+        "jsxFactory": "h",
+        "jsxFragmentFactory": "Fragment"
+    },
+    "include": ["src/**/*", "types/**/*", "*.mts"]
+}
