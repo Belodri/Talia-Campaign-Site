@@ -25,7 +25,7 @@ function HFn<K extends keyof HTMLElementTagNameMap>(
             continue;
         }
 
-        if (key === "className") {
+        if (key === "className" || key === "class") {
             el.className = String(value);
         }
         else if (value === true) {
