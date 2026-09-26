@@ -2,7 +2,7 @@ export { Props, ComponentFn, Child };
 
 type Props = Record<string, unknown> | null;
 type ComponentFn<K extends keyof HTMLElementTagNameMap> = (props: Props) => HTMLElementTagNameMap[K];
-type Child = string | Node | HTMLElementTagNameMap[keyof HTMLElementTagNameMap];
+type Child = string | Node | HTMLElementTagNameMap[keyof HTMLElementTagNameMap] | boolean | null | undefined | Child[];
 
 declare function FragmentFn(props: { children?: Child[] }): DocumentFragment;
 
@@ -17,14 +17,20 @@ declare global {
 
     namespace JSX {
         interface IntrinsicElements {
-            div: { class?: string, id?: string };
+            div: { class?: string, id?: string, "data-toggle-id"?: string };
             span: { class?: string, id?: string };
+            menu: { class?: string, id?: string };
+            button: { class?: string, id?: string, "data-target-id"?: string };
+            header: { class?: string, id?: string };
+            nav: {};
+            body: {};
+            main: {};
             section: { class?: string, id?: string };
             h1: { class?: string, id?: string };
-            h2: { class?: string, id?: string };
+            h2: { class?: string, id?: string, "data-toggle-id"?: string };
             p: { class?: string, id?: string };
             ul: { class?: string, id?: string };
-            li: { class?: string, id?: string };
+            li: { class?: string, id?: string, tabIndex?: number };
         }
     }
 }
