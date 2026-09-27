@@ -4,6 +4,7 @@ import { Body } from "./templates/Body";
 
 export function renderApp(data: JsonSchema.Schema): string {
     const dom = new JSDOM("<!doctype html><html></html>");
-    (globalThis as unknown as { document: Document }).document = dom.window.document;
+    globalThis.document = dom.window.document;
+    globalThis.Node = dom.window.Node;
     return Body({ data }).outerHTML;
 }

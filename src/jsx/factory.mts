@@ -55,6 +55,6 @@ function appendChildren(parent: Node, children: Child[]): void {
         if(typeof child === "string") parent.appendChild(document.createTextNode(child));
         else if (Array.isArray(child)) appendChildren(parent, child);
         else if (child instanceof Node) parent.appendChild(child);
-        else throw new Error(`Unknown child of type '${typeof child}'.`);
+        else parent.appendChild(document.createTextNode(String(child)));
     }
 }
