@@ -20,7 +20,7 @@ declare global {
             div: { class?: string, id?: string, "data-toggle-id"?: string };
             span: { class?: string, id?: string };
             menu: { class?: string, id?: string };
-            button: { class?: string, id?: string, "data-target-id"?: string };
+            button: { class?: string, id?: string, "data-toggle-id"?: string };
             header: { class?: string, id?: string };
             nav: {};
             body: {};
