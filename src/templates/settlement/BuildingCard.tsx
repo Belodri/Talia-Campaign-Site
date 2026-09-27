@@ -25,8 +25,8 @@ export function BuildingCard({ data }: { data: JsonSchema.SettlementBuildingData
                 <div class="description">
                     <Raw html={data.flavorText} />
                 </div>
-                {isEmpty(mutatorLabels) && <TitledList title="Grants" itemContents={mutatorLabels} />}
-                {isEmpty(requiresLabels) && <TitledList title="Requirements" itemContents={requiresLabels} />}
+                {!isEmpty(mutatorLabels) && <TitledList title="Grants" itemContents={mutatorLabels} />}
+                {!isEmpty(requiresLabels) && <TitledList title="Requirements" itemContents={requiresLabels} />}
             </>)}
         />
     );
