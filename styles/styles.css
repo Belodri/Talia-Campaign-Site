@@ -284,3 +284,17 @@ span.section-header:hover {
     flex: 1 1 20%;
     text-align: right;
 }
+
+/* Five items: 40% for the first, 15% for the rest */
+.collapsible-header span:nth-child(1):nth-last-child(5) {
+    flex: 1 1 40%;
+    text-align: left;
+}
+.collapsible-header span:nth-child(2):nth-last-child(4),
+.collapsible-header span:nth-child(4):nth-last-child(2) {
+    flex: 1 1 15%;
+}
+.collapsible-header span:nth-child(5):nth-last-child(1) {
+    flex: 1 1 15%;
+    text-align: right;
+}
