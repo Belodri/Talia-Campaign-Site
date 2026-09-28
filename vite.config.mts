@@ -2,7 +2,6 @@ import { defineConfig, ViteDevServer, type Plugin } from 'vite'
 import path from 'node:path'
 import json from "./assets/importData.json" with { type: "json" }
 import { pathToFileURL } from 'node:url'
-import { tmpdir } from 'node:os'
 import { mkdir, unlink, writeFile } from 'node:fs/promises'
 
 const JSX_OPTS = {
@@ -56,7 +55,7 @@ function compileTimeRenderPlugin() : Plugin {
         await writeFile(tmpFile, chunk.code);
         try {
             const mod = await import(pathToFileURL(tmpFile).href);
-            return mod.renderApp(data);
+            return mod.renderApp(data, Temporal.Now.instant());
         } finally {
             await unlink(tmpFile);
         }

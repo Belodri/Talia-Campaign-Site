@@ -25,6 +25,8 @@ declare global {
             nav: {};
             body: {};
             main: {};
+            footer: {};
+            time: { id?: string, datetime: string };
             section: { class?: string, id?: string };
             h1: { class?: string, id?: string };
             h2: { class?: string, id?: string, "data-toggle-id"?: string };

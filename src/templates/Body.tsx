@@ -4,10 +4,16 @@ import { JournalsTab } from "./journals/JournalsTab"
 import { SettlementTab } from "./settlement/SettlementTab"
 
 interface BodyProps {
-    data: JsonSchema.Schema
+    data: JsonSchema.Schema,
+    lastUpdated: Temporal.Instant
 }
 
-export function Body({ data }: BodyProps): HTMLBodyElement {
+export function Body({ data, lastUpdated }: BodyProps): HTMLBodyElement {
+    // Default value if client-side js isn't executed.
+    const defaultLastUpdateStr = lastUpdated
+        .toZonedDateTimeISO("UTC")
+        .toLocaleString("en-GB", { hour12: false, year: "numeric", month: "long", day: "numeric", timeZoneName: "short" });
+
     return (
         <body>
             <header>
@@ -40,6 +46,10 @@ export function Body({ data }: BodyProps): HTMLBodyElement {
                 {!isEmpty(data.settlement) && <SettlementTab data={data.settlement!} />}
                 <JournalsTab data={data.journals} />
             </main>
+
+            <footer>
+                <p>Last updated: <time datetime={lastUpdated.toString()}>{defaultLastUpdateStr}</time></p>
+            </footer>
         </body>
     )
 }
