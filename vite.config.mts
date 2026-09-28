@@ -81,6 +81,7 @@ export default defineConfig(() => {
     const useMockData = process.argv.includes("--useMockData");
 
     return {
+        base: "./",
         oxc: { jsx: JSX_OPTS },
         plugins: [ compileTimeRenderPlugin(useMockData, new Date()) ]
     }
