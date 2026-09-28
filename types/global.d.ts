@@ -32,6 +32,7 @@ declare global {
             section: { class?: string, id?: string };
             h1: { class?: string, id?: string };
             h2: { class?: string, id?: string, "data-toggle-id"?: string };
+            h3: { class?: string };
             p: { class?: string, id?: string };
             ul: { class?: string, id?: string };
             li: { class?: string, id?: string, tabIndex?: number };
