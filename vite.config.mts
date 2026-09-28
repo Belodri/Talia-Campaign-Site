@@ -1,6 +1,7 @@
 import { defineConfig, ViteDevServer, type Plugin } from 'vite'
 import path from 'node:path'
-import json from "./assets/importData.json" with { type: "json" }
+import dataJson from "./assets/importData.json" with { type: "json" }
+import mockDataJson from "./assets/mockData.json" with { type: "json" }
 import { pathToFileURL } from 'node:url'
 import { mkdir, unlink, writeFile } from 'node:fs/promises'
 
@@ -10,11 +11,11 @@ const JSX_OPTS = {
     pragmaFrag: "Fragment"
 }
 
-function compileTimeRenderPlugin() : Plugin {
+function compileTimeRenderPlugin(useMockData: boolean) : Plugin {
     let devServer: ViteDevServer | undefined;
 
     async function renderHtml(): Promise<string> {
-        const data: JsonSchema.Schema = json;
+        const data: JsonSchema.Schema = useMockData ? mockDataJson : dataJson;
 
         if(devServer) {
             const mod = await devServer.ssrLoadModule("/src/render.mts");
@@ -61,8 +62,6 @@ function compileTimeRenderPlugin() : Plugin {
         }
     }
 
-    
-
     return {
         name: "compile-time-render-plugin",
         async transformIndexHtml(html) {
@@ -70,15 +69,19 @@ function compileTimeRenderPlugin() : Plugin {
         },
         configureServer(server) {
             devServer = server;
-            server.watcher.add("./assets/importData.json");
+            server.watcher.add(useMockData ? "./assets/mockData.json" : "./assets/importData.json");
             server.watcher.on("change", (file) => {
-                if(file.endsWith("importData.json")) server.ws.send({ type: "full-reload" });
+                if(file.endsWith(useMockData ? "mockData.json" : "importData.json")) server.ws.send({ type: "full-reload" });
             });
         }
     }
 }
 
-export default defineConfig({
-    oxc: { jsx: JSX_OPTS },
-    plugins: [ compileTimeRenderPlugin() ]
+export default defineConfig(() => {
+    const useMockData = process.argv.includes("--useMockData");
+
+    return {
+        oxc: { jsx: JSX_OPTS },
+        plugins: [ compileTimeRenderPlugin(useMockData) ]
+    }
 });
