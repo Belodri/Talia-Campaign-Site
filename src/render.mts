@@ -2,9 +2,9 @@ import "./jsx/factory.mts"; // Must be the first import to set 'h' and 'Fragment
 import { JSDOM } from "jsdom";
 import { Body } from "./templates/Body";
 
-export function renderApp(data: JsonSchema.Schema, lastUpdated: Temporal.Instant): string {
+export function renderApp(data: JsonSchema.Schema, lastUpdatedDate: Date): string {
     const dom = new JSDOM("<!doctype html><html></html>");
     globalThis.document = dom.window.document;
     globalThis.Node = dom.window.Node;
-    return Body({ data, lastUpdated }).outerHTML;
+    return Body({ data, lastUpdatedDate }).outerHTML;
 }

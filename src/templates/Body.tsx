@@ -5,13 +5,12 @@ import { SettlementTab } from "./settlement/SettlementTab"
 
 interface BodyProps {
     data: JsonSchema.Schema,
-    lastUpdated: Temporal.Instant
+    lastUpdatedDate: Date
 }
 
-export function Body({ data, lastUpdated }: BodyProps): HTMLBodyElement {
+export function Body({ data, lastUpdatedDate }: BodyProps): HTMLBodyElement {
     // Default value if client-side js isn't executed.
-    const defaultLastUpdateStr = lastUpdated
-        .toZonedDateTimeISO("UTC")
+    const defaultLastUpdateStr = new Date()
         .toLocaleString("en-GB", { hour12: false, year: "numeric", month: "long", day: "numeric", timeZoneName: "short" });
 
     return (
@@ -48,7 +47,7 @@ export function Body({ data, lastUpdated }: BodyProps): HTMLBodyElement {
             </main>
 
             <footer>
-                <p>Last updated: <time datetime={lastUpdated.toString()}>{defaultLastUpdateStr}</time></p>
+                <p>Last updated: <time datetime={lastUpdatedDate.toISOString()}>{defaultLastUpdateStr}</time></p>
             </footer>
         </body>
     )

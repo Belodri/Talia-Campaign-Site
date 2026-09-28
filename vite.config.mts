@@ -55,7 +55,7 @@ function compileTimeRenderPlugin() : Plugin {
         await writeFile(tmpFile, chunk.code);
         try {
             const mod = await import(pathToFileURL(tmpFile).href);
-            return mod.renderApp(data, Temporal.Now.instant());
+            return mod.renderApp(data, new Date());
         } finally {
             await unlink(tmpFile);
         }
