@@ -11,7 +11,7 @@ const JSX_OPTS = {
     pragmaFrag: "Fragment"
 }
 
-function compileTimeRenderPlugin(useMockData: boolean) : Plugin {
+function compileTimeRenderPlugin(useMockData: boolean, lastUpdatedDate: Date) : Plugin {
     let devServer: ViteDevServer | undefined;
 
     async function renderHtml(): Promise<string> {
@@ -19,7 +19,7 @@ function compileTimeRenderPlugin(useMockData: boolean) : Plugin {
 
         if(devServer) {
             const mod = await devServer.ssrLoadModule("/src/render.mts");
-            return mod.renderApp(data);
+            return mod.renderApp(data, lastUpdatedDate);
         }
 
         const { build } = await import("vite");
@@ -56,7 +56,7 @@ function compileTimeRenderPlugin(useMockData: boolean) : Plugin {
         await writeFile(tmpFile, chunk.code);
         try {
             const mod = await import(pathToFileURL(tmpFile).href);
-            return mod.renderApp(data, new Date());
+            return mod.renderApp(data, lastUpdatedDate);
         } finally {
             await unlink(tmpFile);
         }
@@ -82,6 +82,6 @@ export default defineConfig(() => {
 
     return {
         oxc: { jsx: JSX_OPTS },
-        plugins: [ compileTimeRenderPlugin(useMockData) ]
+        plugins: [ compileTimeRenderPlugin(useMockData, new Date()) ]
     }
 });
