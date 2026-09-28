@@ -11,15 +11,15 @@ export function EffectCard({ data }: { data: JsonSchema.SettlementEffectData; })
         <Card
             cssClass="building-card"
             title={data.name}
-            headerDetails={(<>
-                    {data.remainingDays > 0 && data.remainingDays < 365
-                        && <span>ends in {data.remainingDays} days</span>}
+            headerInfos={(<>
+                {data.remainingDays > 0 && data.remainingDays < 365
+                    && <span>ends in {data.remainingDays} days</span>}
             </>)}
             content={(<>
                 <div class="description">
                     <Raw html={data.flavorText} />
                 </div>
-                {isEmpty(mutatorLabels) && <TitledList title="Grants" itemContents={mutatorLabels} />}
+                {!isEmpty(mutatorLabels) && <TitledList title="Grants" itemContents={mutatorLabels} />}
             </>)} 
         />
     );
