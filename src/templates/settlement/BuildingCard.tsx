@@ -17,8 +17,8 @@ export function BuildingCard({ data }: { data: JsonSchema.SettlementBuildingData
         <Card
             cssClass="building-card"
             title={data.name}
-            headerDetails={(<>
-                {data.constructionDate && <span>Built {data.constructionDate}</span>}
+            headerInfos={(<>
+                {!isEmpty(data.constructionDate) && <span>Built {data.constructionDate}</span>}
                 <span>{data.scale}</span>
             </>)}
             content={(<>
