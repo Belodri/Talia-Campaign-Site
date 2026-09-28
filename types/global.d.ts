@@ -22,6 +22,8 @@ declare global {
             menu: { class?: string, id?: string };
             button: { class?: string, id?: string, "data-toggle-id"?: string };
             header: { class?: string, id?: string };
+            details: { class?: string, id?: string };
+            summary: { class?: string };
             nav: {};
             body: {};
             main: {};
