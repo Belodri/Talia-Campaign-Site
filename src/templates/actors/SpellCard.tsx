@@ -10,7 +10,7 @@ export function SpellCard({ data }: SpellCardProps): HTMLElement {
         <Card
             cssClass="spell-card"
             title={data.name}
-            headerDetails={(
+            headerInfos={(
                 <>
                     <span>{data.spellLevel}</span>
                     <span>{data.spellSchool}</span>

@@ -10,7 +10,7 @@ export function FeatureCard({ data }: FeatureCardProps): HTMLElement {
         <Card
             cssClass="feature-card"
             title={data.name}
-            headerDetails={(
+            headerInfos={(
                 <>
                     <span>{data.requirements}</span>
                 </>
