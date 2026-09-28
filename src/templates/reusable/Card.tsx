@@ -1,24 +1,22 @@
-import { randomId } from "../../utils/utils.mjs";
+import { isEmpty } from "../../utils/utils.mts"
 
 interface CardProps {
     cssClass?: string,
     title: string,
-    headerDetails?: HTMLElement | DocumentFragment,
+    headerInfos?: HTMLElement | DocumentFragment,
     content: HTMLElement | DocumentFragment
 }
 
-export function Card({cssClass, title, headerDetails, content}: CardProps): HTMLDivElement {
-    const id = randomId();
-
+export function Card({cssClass, title, headerInfos, content}: CardProps): HTMLDivElement {
     return (
-        <div class={"card" + cssClass?.length ? ` ${cssClass}` : ""}>
-            <div class="header card-header" data-toggle-id={id}>
-                <h2 class="title card-title">{title}</h2>
-                {headerDetails !== null && <div class="details card-details">{headerDetails}</div>}
-            </div>
-            <div class="content card-content" id={id}>
+        <details class={"card" + cssClass?.length ? ` ${cssClass}` : ""}>
+            <summary>
+                <h3 class="title card-title">{title}</h3>
+                {!isEmpty(headerInfos) && <span class="card-info">{headerInfos}</span>}
+            </summary>
+            <div class="content card-content">
                 {content}
             </div>
-        </div>
+        </details>
     )
 }
