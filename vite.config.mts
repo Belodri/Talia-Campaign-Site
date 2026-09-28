@@ -44,9 +44,9 @@ function compileTimeRenderPlugin(useMockData: boolean, lastUpdatedDate: Date) : 
         });
 
         
-        // @ts-expect-error
-        const output = Array.isArray(result) ? result[0].output : result.output;
-        // @ts-expect-error
+        const built = Array.isArray(result) ? result[0] : result;
+        if (!('output' in built)) throw new Error('render.mts library build returned a watcher instead of output');
+        const output = built.output;
         const chunk = output.find((o) => o.type === 'chunk' && o.isEntry)
         if (!chunk || chunk.type !== 'chunk') throw new Error('render.mts library build produced no entry chunk');
 
