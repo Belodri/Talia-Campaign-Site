@@ -47,7 +47,7 @@ export function Body({ data, lastUpdatedDate }: BodyProps): HTMLBodyElement {
             </main>
 
             <footer>
-                <p>Last updated: <time datetime={lastUpdatedDate.toISOString()}>{defaultLastUpdateStr}</time></p>
+                <p>Last updated: <time id="last-updated-date" datetime={lastUpdatedDate.toISOString()}>{defaultLastUpdateStr}</time></p>
             </footer>
         </body>
     )
