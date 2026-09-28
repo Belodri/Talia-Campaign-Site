@@ -10,12 +10,11 @@ export function ItemCard({ data }: ItemCardProps): HTMLElement {
         <Card
             cssClass="item-card"
             title={data.name}
-            headerDetails={(
+            headerInfos={(
                 <>
-                    {data.typeLabel && <span>{data.typeLabel}</span>}
-                    <span>{data.quantity}</span>
-                    <span>{data.inStorage ? "In Storage" : "Carried"}</span>
-                    <span>{data.requiresAttunement ? "Requires Attunement" : ""}</span>
+                    <span>{data.typeLabel}</span>
+                    <span>{data.quantity} {data.inStorage ? "(storage)" : "(backpack)"}</span>
+                    {data.requiresAttunement && <span>Requires Attunement</span>}
                 </>
             )}
             content={(
