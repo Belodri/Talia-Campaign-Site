@@ -17,13 +17,13 @@ declare global {
 
     namespace JSX {
         interface IntrinsicElements {
-            div: { class?: string, id?: string, "data-toggle-id"?: string };
+            div: { class?: string, id?: string };
             span: { class?: string, id?: string };
             menu: { class?: string, id?: string };
-            button: { class?: string, id?: string, "data-toggle-id"?: string };
             header: { class?: string, id?: string };
             details: { class?: string, id?: string };
-            summary: { class?: string };
+            summary: { class?: string, id?: string };
+            a: { href: string };
             nav: {};
             body: {};
             main: {};
@@ -31,11 +31,11 @@ declare global {
             time: { id?: string, datetime: string };
             section: { class?: string, id?: string };
             h1: { class?: string, id?: string };
-            h2: { class?: string, id?: string, "data-toggle-id"?: string };
+            h2: { class?: string, id?: string };
             h3: { class?: string };
             p: { class?: string, id?: string };
             ul: { class?: string, id?: string };
-            li: { class?: string, id?: string, tabIndex?: number };
+            li: { class?: string, id?: string };
         }
     }
 }
