@@ -1,6 +1,23 @@
-
 export function randomId(): string {
     return Date.now().toString(36) + Math.random().toString(36).substring(2);
+}
+
+
+export function createId(str: string | string[]): string {
+    return (Array.isArray(str) ? str : [str])
+        .map(slugify)
+        .join("--");
+}
+
+
+export function slugify(str: string): string {
+    return str
+        .toLowerCase()
+        .trim()
+        .normalize("NFD")
+        .replace(/[^a-z0-9\s-]/g, '')   // Remove non-alphanumeric characters except spaces and hyphens
+        .replace(/[\s-]+/g, '-')        // Replace spaces and multiple hyphens with a single hyphen
+        .replace(/^[-]+|[-]+$/g, '');   // Trim leading or trailing hyphens
 }
 
 
