@@ -1,3 +1,4 @@
+import { compareAsc } from "../../utils/compare.mts";
 import { Section } from "../reusable/Section"
 import { Tab } from "../reusable/Tab"
 import { BuildingCard } from "./BuildingCard"
@@ -9,6 +10,12 @@ interface SettlementTabProps {
 }
 
 export function SettlementTab({data, id}: SettlementTabProps): HTMLDivElement {
+    const buildings = data.buildings.toSorted((a, b) => compareAsc(a.name, b.name));
+    
+    const currentEffects = data.currentEffects.toSorted((a, b) => 
+        compareAsc(a.remainingDays, b.remainingDays)
+        || compareAsc(a.name, b.name));
+
     return (
         <Tab
             cssClass="settlement-tab"
@@ -26,14 +33,14 @@ export function SettlementTab({data, id}: SettlementTabProps): HTMLDivElement {
                     cssClass="buildings-section"
                     title="Buildings"
                     content={(<>
-                        {data.buildings.map(b => <BuildingCard data={b} />)}
+                        {buildings.map(b => <BuildingCard data={b} />)}
                     </>)} 
                 />
                 <Section
                     cssClass="effects-section"
                     title={`Current Effects (${data.currentEffects.length})`}
                     content={(<>
-                        {data.currentEffects.map(e => <EffectCard data={e} />)}
+                        {currentEffects.map(e => <EffectCard data={e} />)}
                     </>)}
                 />
             </>)}

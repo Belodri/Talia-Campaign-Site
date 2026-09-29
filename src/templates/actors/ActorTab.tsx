@@ -1,3 +1,4 @@
+import { compareAsc, trueFirst } from "../../utils/compare.mts"
 import { Section } from "../reusable/Section"
 import { Tab } from "../reusable/Tab"
 import { FeatureCard } from "./FeatureCard"
@@ -10,6 +11,20 @@ interface ActorTabProps {
 }
 
 export function ActorTab({ data, id }: ActorTabProps): HTMLDivElement {
+    const features = data.features.toSorted((a, b) => 
+        compareAsc(a.requirements, b.requirements)
+        || compareAsc(a.name, b.name));
+    
+    const items = data.physicalItems.toSorted((a, b) => 
+        trueFirst(a.requiresAttunement, b.requiresAttunement)
+        || compareAsc(a.typeLabel, b.typeLabel) 
+        || compareAsc(a.name, b.name));
+
+    const spells = data.spells.toSorted((a, b) => 
+        compareAsc(a.spellLevel, b.spellLevel)
+        || compareAsc(a.spellSchool, b.spellSchool)
+        || compareAsc(a.name, b.name));
+
     return(
         <Tab
             id={id}
@@ -19,19 +34,19 @@ export function ActorTab({ data, id }: ActorTabProps): HTMLDivElement {
                 <Section
                     title="Features"
                     content={(<>
-                        {data.features.map(f => (<FeatureCard data={f}/>))}
+                        {features.map(f => (<FeatureCard data={f}/>))}
                     </>)}
                 />
                 <Section
                     title="Items"
                     content={(<>
-                        {data.physicalItems.map(i => (<ItemCard data={i}/>))}
+                        {items.map(i => (<ItemCard data={i}/>))}
                     </>)}
                 />
                 <Section
                     title="Spells"
                     content={(<>
-                        {data.spells.map(s => (<SpellCard data={s}/>))}
+                        {spells.map(s => (<SpellCard data={s}/>))}
                     </>)}
                 />
             </>)}

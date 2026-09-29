@@ -1,3 +1,4 @@
+import { compareAsc } from "../utils/compare.mts";
 import { createId, isEmpty } from "../utils/utils.mts"
 import { ActorTab } from "./actors/ActorTab"
 import { JournalsTab } from "./journals/JournalsTab"
@@ -13,6 +14,8 @@ export function Body({ data, lastUpdatedDate }: BodyProps): HTMLBodyElement {
     const defaultLastUpdateStr = new Date()
         .toLocaleString("en-GB", { hour12: false, year: "numeric", month: "long", day: "numeric", timeZoneName: "short" });
 
+    const actors = data.actors.toSorted((a, b) => compareAsc(a.name, b.name));
+
     return (
         <body>
             <header>
@@ -22,7 +25,7 @@ export function Body({ data, lastUpdatedDate }: BodyProps): HTMLBodyElement {
                             <details class="dropdown">
                                 <summary>Characters</summary>
                                 <ul>
-                                    {data.actors.map(a => (
+                                    {actors.map(a => (
                                         <li>
                                             <a href={`#${createId(a.name)}`}>{a.name}</a>
                                         </li>
@@ -44,7 +47,7 @@ export function Body({ data, lastUpdatedDate }: BodyProps): HTMLBodyElement {
             </header>
 
             <main>
-                {data.actors.map(a => (<ActorTab data={a} id={createId(a.name)} />))}
+                {actors.map(a => (<ActorTab data={a} id={createId(a.name)} />))}
                 {!isEmpty(data.settlement) && <SettlementTab data={data.settlement!} id={createId(data.settlement!.name)} />}
                 <JournalsTab data={data.journals} id={createId("journals")} />
             </main>

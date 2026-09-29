@@ -1,3 +1,4 @@
+import { compareAsc } from "../../utils/compare.mts";
 import { createId } from "../../utils/utils.mts";
 import { Section } from "../reusable/Section";
 import { Tab } from "../reusable/Tab";
@@ -9,12 +10,14 @@ interface JournalsTabProps {
 }
 
 export function JournalsTab({data, id}: JournalsTabProps): HTMLDivElement {
+    const journals = data.toSorted((a, b) => compareAsc(a.name, b.name));
+
     return (
         <Tab
             cssClass="journals-tab"
             id={id}
             content={(<>
-                {data.map(j => (<>
+                {journals.map(j => (<>
                     <Section
                         navId={createId([id, j.name])}
                         cssClass="journal-section"
