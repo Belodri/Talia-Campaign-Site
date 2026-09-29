@@ -1,11 +1,11 @@
-import { isEmpty } from "../utils/utils.mts"
+import { createId, isEmpty } from "../utils/utils.mts"
 import { ActorTab } from "./actors/ActorTab"
 import { JournalsTab } from "./journals/JournalsTab"
 import { SettlementTab } from "./settlement/SettlementTab"
 
 interface BodyProps {
-    data: JsonSchema.Schema,
-    lastUpdatedDate: Date
+    data: JsonSchema.Schema;
+    lastUpdatedDate: Date;
 }
 
 export function Body({ data, lastUpdatedDate }: BodyProps): HTMLBodyElement {
@@ -18,22 +18,25 @@ export function Body({ data, lastUpdatedDate }: BodyProps): HTMLBodyElement {
             <header>
                 <nav>
                     <menu>
-                        <li class="menu-entry dropdown-hover" tabIndex={0}>
-                            <button class="menu-button dropdown-button">Characters</button> 
-                            <ul class="dropdown-menu">
-                                {data.actors.map(a => (
-                                    <li>
-                                        <button class="menu-button action-button" data-toggle-id={a.name}>{a.name}</button>
-                                    </li>))}
-                            </ul>
+                        <li>
+                            <details class="dropdown">
+                                <summary>Characters</summary>
+                                <ul>
+                                    {data.actors.map(a => (
+                                        <li>
+                                            <a href={`#${createId(a.name)}`}>{a.name}</a>
+                                        </li>
+                                    ))}
+                                </ul>
+                            </details>
                         </li>
                         {!isEmpty(data.settlement) && 
-                            <li class="menu-entry" tabIndex={1}>
-                                <button class="menu-button action-button" data-toggle-id={data.settlement!.name}>{data.settlement!.name}</button>
+                            <li>
+                                <a href={`#${createId(data.settlement!.name)}`}>{data.settlement!.name}</a>
                             </li>
                         }
-                        <li class="menu-entry" tabIndex={2}>
-                            <button class="menu-button action-button" data-toggle-id="Journals">Journals</button>
+                        <li>
+                            <a href={`#${createId("journals")}`}>Journals</a>
                         </li>
                     </menu>
                 </nav>
@@ -41,9 +44,9 @@ export function Body({ data, lastUpdatedDate }: BodyProps): HTMLBodyElement {
             </header>
 
             <main>
-                {data.actors.map(a => (<ActorTab data={a} />))}
-                {!isEmpty(data.settlement) && <SettlementTab data={data.settlement!} />}
-                <JournalsTab data={data.journals} />
+                {data.actors.map(a => (<ActorTab data={a} id={createId(a.name)} />))}
+                {!isEmpty(data.settlement) && <SettlementTab data={data.settlement!} id={createId(data.settlement!.name)} />}
+                <JournalsTab data={data.journals} id={createId("journals")} />
             </main>
 
             <footer>
