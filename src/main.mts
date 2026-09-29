@@ -1,5 +1,6 @@
 document.addEventListener("DOMContentLoaded", ev => {
    localizeLastUpdatedText();
+   registerDropdownMenuListeners();
 });
 
 function localizeLastUpdatedText() {
@@ -21,4 +22,26 @@ function localizeLastUpdatedText() {
         day: "numeric",
         weekday: "long"
     });
+}
+
+
+function registerDropdownMenuListeners() {
+    for (const dropdown of document.querySelectorAll<HTMLDetailsElement>("details.dropdown")) {
+        dropdown.addEventListener("focusout", ev => {
+            if (!dropdown.contains(ev.relatedTarget as Node | null)) dropdown.open = false;
+        });
+        
+        dropdown.addEventListener("click", ev => {
+            if ((ev.target as Element).closest("a")) dropdown.open = false;
+        });
+
+        dropdown.addEventListener("pointerenter", ev => {
+            // Touch taps fire pointerenter too, and the click that follows would toggle it straight back closed.
+            if (ev.pointerType === "mouse") dropdown.open = true;
+        });
+
+        dropdown.addEventListener("pointerleave", ev => {
+            if (ev.pointerType === "mouse") dropdown.open = false;
+        });
+    }
 }
