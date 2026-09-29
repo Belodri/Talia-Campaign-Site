@@ -30,16 +30,20 @@ type Emptyable<T> = T extends Function ? never : T extends Symbol ? never : T
 /**
  * Determines whether `item` is "empty", per these rules:
  *
- *  - boolean            -> never empty
- *  - null | undefined   -> always empty
- *  - string             -> empty if trimmed length === 0
- *  - number             -> empty if 0 or NaN
- *  - bigint             -> empty if 0n
- *  - Date               -> never empty
+ *  - boolean           -> never empty
+ *  - null | undefined  -> always empty
+ *  - string            -> empty if trimmed length === 0
+ *  - number            -> empty if 0 or NaN
+ *  - bigint            -> empty if 0n
+ *  - Date              -> never empty
  *  - array / Map / Set / other iterables
- *                       -> empty if it has no items, or every item is itself empty (checked recursively)
- *  - plain object       -> empty if it has no keys, or every value is itself empty (checked recursively)
- *  - function | symbol  -> never empty (excluded from T at compile time)
+ *                      -> empty if it has no items, or every item is itself empty (checked recursively)
+ *  - plain object      -> empty if it has no keys, or every value is itself empty (checked recursively)
+ *  - function | symbol -> never empty (excluded from T at compile time)
+ *  - DOM Node          -> 
+ *      - DocumentFragment  -> empty if it has no children, or every child is empty;  
+ *      - Text node         -> empty if blank; 
+ *      - Other             -> never empty
  */
 export function isEmpty<T>(item: Emptyable<T>): boolean {
   return checkEmpty(item);
@@ -82,6 +86,14 @@ function checkEmpty(item: unknown): boolean {
     if (item instanceof Set) {
         if (item.size === 0) return true;
         return item.values().every(checkEmpty)
+    }
+
+    if(item instanceof Node) {
+        switch(item.nodeType) {
+            case Node.DOCUMENT_FRAGMENT_NODE: return Array.from(item.childNodes).every(checkEmpty);
+            case Node.TEXT_NODE: return checkEmpty(item.textContent);
+            default: return false;
+        }
     }
 
     if (Array.isArray(item)) {
