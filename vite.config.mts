@@ -7,8 +7,9 @@ import { mkdir, writeFile } from "node:fs/promises"
 
 const RENDER_SOURCE_PATH = "/src/render.mts" as const;
 const RENDER_FUNC_NAME = "renderBody" as const;
-const REAL_DATA_PATH = "./assets/importData.json" as const;
-const MOCK_DATA_PATH = "./assets/mockData.json" as const;
+const SRC_DIR_REL = "./src" as const;
+const REAL_DATA_PATH_REL = "./assets/importData.json" as const;
+const MOCK_DATA_PATH_REL = "./assets/mockData.json" as const;
 
 
 interface Context extends RenderBodyArgs { 
@@ -24,7 +25,7 @@ export default defineConfig(() => {
     // Catch type errors of imported parsed json immediately.
     const context: Context = {
         data: useMockData ? MOCK_DATA : REAL_DATA,
-        dataPath: useMockData ? MOCK_DATA_PATH : REAL_DATA_PATH,
+        dataPath: useMockData ? MOCK_DATA_PATH_REL : REAL_DATA_PATH_REL,
         lastUpdatedDate: new Date()
     };
 
@@ -39,6 +40,7 @@ export default defineConfig(() => {
 function compileTimeRenderPlugin(ctx: Context) : Plugin {
     let devServer: ViteDevServer | undefined;
     const dataPathFileName = path.basename(ctx.dataPath);
+    const srcDir = path.resolve(SRC_DIR_REL);
 
     return {
         name: "compile-time-render-plugin",
@@ -49,6 +51,13 @@ function compileTimeRenderPlugin(ctx: Context) : Plugin {
                 : await buildRenderFuncFromSource();
 
             return html.replace("<!-- APP CONTENT -->", renderFunc(ctx));
+        },
+        hotUpdate({ file, server }) {
+            // Templates are only loaded in the ssr environment, whose hot channel doesn't reach the browser,
+            // so the "(ssr) page reload" it triggers never arrives there and must be forwarded to the client.
+            // (`modules` is empty for ssrLoadModule'd files, so filter by location instead.)
+            if(this.environment.name === "ssr" && isInDirectory(srcDir, file))
+                server.environments.client.hot.send({ type: "full-reload" });            
         },
         configureServer(server) {
             devServer = server;
@@ -115,4 +124,10 @@ async function buildRenderFuncFromSource(): Promise<RenderBodyFunc> {
         throw new Error(`Failed to resolve render function '${RENDER_FUNC_NAME}' from module '${RENDER_SOURCE_PATH}'.`);
 
     return func;
+}
+
+
+function isInDirectory(dir: string, file: string): boolean {
+    const rel = path.relative(dir, file);
+    return !!rel && !rel.startsWith("..") && !path.isAbsolute(rel);
 }
