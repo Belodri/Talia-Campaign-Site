@@ -1,300 +1,328 @@
 :root {
-    --bg-primpary: #1b1b1b;
+    --bg-primary: #1b1b1b;
     --bg-secondary: #313131;
-    --contrast-primary: #162f44;
     --bg-header: #15191d;
     --bg-section: #262626;
+    --bg-page: #101418;
+    --contrast-primary: #162f44;
     --accent-primary: #474f55;
+    --border: rgba(104, 104, 104, 0.8);
+    --text: whitesmoke;
+    --text-muted: #9a9a9a;
+
+    --header-height: 52px;
+    --footer-height: 2.5em;
+    --journal-page-width: 840px;
 }
 
-.hidden {
-    display: none !important;
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+html {
+    /* Keep anchor targets clear of the sticky header. */
+    scroll-padding-top: calc(var(--header-height) + 0.5rem);
 }
 
 body {
-    font-family: Arial, sans-serif;
-    color: whitesmoke;
-    
-    background-color: var(--bg-primpary);
-    box-sizing: border-box;
     margin: 0;
+    padding-bottom: var(--footer-height);
+    font-family: Arial, sans-serif;
+    color: var(--text);
+    background-color: var(--bg-primary);
 }
 
-.header-container {
-    position: sticky;
-    top: -1px;
-    z-index: 700;
-    background-color: var(--bg-header);
-    padding-left: 1%;
-    padding-right: 1%;
+a {
+    color: inherit;
 }
+
+/* ---------- Header & navigation ---------- */
 
 header {
-    min-height: 52px;
+    position: sticky;
+    top: 0;
+    z-index: 700;
     display: flex;
     flex-flow: row nowrap;
-    gap: 1rem;
     align-items: center;
+    gap: 1rem;
+    min-height: var(--header-height);
+    padding-inline: 1%;
+    background-color: var(--bg-header);
 }
 
-header ul {
+nav {
+    margin-right: auto;
+}
+
+nav menu {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    margin: 0;
+    padding: 0;
     list-style: none;
+}
+
+nav menu > li {
+    position: relative;
+}
+
+nav summary,
+nav a {
+    display: block;
+    padding: 1vh 2vw;
+    font-size: larger;
+    font-weight: bold;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+nav summary:hover,
+nav a:hover {
+    background-color: var(--contrast-primary);
+}
+
+nav .dropdown ul {
+    position: absolute;
+    z-index: 1;
+    min-width: 100%;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    background-color: var(--bg-secondary);
+}
+
+nav .dropdown a {
+    white-space: nowrap;
 }
 
 #ingame-date-display {
     font-size: large;
 }
 
-nav {
-    box-sizing: border-box;
-    margin-right: auto;
-    width: max-content;
-}
+/* ---------- Tabs ---------- */
+/* Only one tab is visible at a time: the one that is targeted, or contains the
+   target, or - when nothing is targeted - the first. */
 
-ul.main-menu {
-    align-items: center;
-    display: flex;
-    flex-flow: row nowrap;
-    justify-content: space-around;
-    margin: 0 auto 0 0;
-    padding: 0;
-}
-
-.menu-button {
-    background: none;
-    padding: 1vh 2vw;
-    border: none;
-    cursor: pointer;
-    font-size: larger;
-    font-weight: bold;
-    color: inherit;
-}
-
-.menu-button:hover {
-    background-color: var(--contrast-primary);
-}
-
-ul.dropdown-menu {
+.tab {
     display: none;
-    position: absolute;
-    min-width: 160px;
-    z-index: 1;
-    background-color: var(--bg-secondary);
-    padding: 0;
-
-    button {
-        width: 100%;
-        text-align: left;
-    }
+    padding-inline: 1vw;
 }
 
-.dropdown-hover.active .dropdown-menu {
+.tab:target,
+.tab:has(:target),
+main:not(:has(:target)) > .tab:first-child {
     display: block;
 }
 
-footer {
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-    z-index: 1000;
-    font-size: 0.9em;
-    color: #6f6f6f;
-    padding: .5em 1em;
-    background-color: var(--bg-section);
-    
-    p {
-        margin: 0;
-    }
+/* ---------- Collapsible content ---------- */
+/* Anchors can point at a <summary> inside a closed <details>; CSS can't set the
+   `open` attribute, so force the content to render while it contains the target. */
+
+details:has(:target)::details-content {
+    content-visibility: visible;
+    height: auto;
 }
 
-#char-name-title {
-    font-size: x-large;
-    font-weight: bolder;
-    text-align: center;
-    display: inline-block;
-    min-width: 100%;
+summary {
+    cursor: pointer;
+}
+
+section > details > summary::-webkit-details-marker {
+    display: none;
+}
+
+.section-title,
+.card-title,
+.actor-name-title {
+    margin: 0;
+}
+
+.actor-name-title {
     padding-top: 0.5em;
+    font-size: x-large;
+    text-align: center;
 }
 
-.content-display {
-    padding: 0 1vw;
-}
+/* ---------- Sections ---------- */
 
-.section-wrapper {
-    position: sticky;
+section {
     margin: 1rem 0;
     background-color: var(--bg-section);
     border: 2px solid black;
 }
 
-span.section-header {
-    font-size: larger;
-    font-weight: bold;
-    text-align: center;
-    display: inline-block;
-    min-width: 100%;
+section > details > summary {
+    list-style: none;
     padding: 0.6em 0;
-    cursor: pointer;
+    text-align: center;
 }
 
-span.section-header:hover {
+section > details > summary:hover {
     background-color: var(--contrast-primary);
 }
 
-
-.collapsible-item {
-    margin-bottom: 0.5rem;
-    background-color: var(--bg-primary);
-    pointer-events: auto;
-    
-    .collapsible-content {
-        display: flex;
-        flex-direction: column;
-        
-        .description-container {
-            padding: 0 1em;
-        }
-        
-        .mechanics-container {
-            display: flex;
-            flex-direction: column;
-            margin-left: 2em;
-            
-            ul {
-                margin: 0;
-            }
-            
-            li {
-                font-size: 1em;
-            }
-        }
-    }
+.section-title {
+    font-size: larger;
 }
 
-.building-item .description-container {
+.section-content {
+    padding: 0.5rem;
+}
+
+/* ---------- Cards ---------- */
+
+.card {
+    margin-bottom: 0.5rem;
+    background-color: var(--bg-primary);
+}
+
+.card > summary {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    padding: 0.5em 1em;
+    background-color: var(--bg-header);
+}
+
+.card > summary:hover {
+    background-color: var(--contrast-primary);
+}
+
+/* The summary is split in half: title on the left, infos on the right. */
+.card-title {
+    flex: 1 1 50%;
+    font-size: large;
+    text-align: left;
+}
+
+.card-info {
+    display: flex;
+    flex: 1 1 50%;
+    flex-flow: row nowrap;
+    gap: 1em;
+    color: var(--text-muted);
+}
+
+.card-info > span {
+    flex: 1 1 0;
+    text-align: center;
+}
+
+/* One info: right-aligned. Several: first left, last right, the rest centred. */
+.card-info > span:last-child {
+    text-align: right;
+}
+
+.card-info > span:first-child:not(:last-child) {
+    text-align: left;
+}
+
+.card-content {
+    display: flex;
+    flex-direction: column;
+    padding: 0 1em;
+}
+
+.description {
+    padding-block: 0.25em;
+}
+
+.description > :first-child {
+    margin-top: 0.5em;
+}
+
+.building-card .description {
     font-style: italic;
-    font-family: sans;
     font-size: 1.1em;
 }
 
-#settlement-attributes {
+.titled-list {
+    margin-left: 1em;
+    padding-bottom: 0.5em;
+}
+
+.list-title {
+    font-weight: bold;
+}
+
+.titled-list ul {
+    margin: 0;
+}
+
+/* ---------- Settlement ---------- */
+
+.settlement-attributes {
     display: flex;
     flex-flow: row wrap;
     justify-content: space-evenly;
     gap: 1em;
-    
-    .attribute-container {
-        display: flex;
-        flex-wrap: wrap;
-        flex-direction: column;
-        align-items: center; 
-        
-        span {
-            font-weight: bolder;
-        }
-
-        .attr-header {
-            margin-top: 0.5em;
-        }
-
-        .attr-label {
-            text-transform: capitalize;
-            margin-bottom: 0.5em;
-        }
-    }
+    margin-top: 1rem;
 }
 
-.journal-display .content {
+.attribute-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-weight: bolder;
+}
+
+.attr-value {
+    margin-top: 0.5em;
+}
+
+.attr-label {
+    margin-bottom: 0.5em;
+    text-transform: capitalize;
+}
+
+/* ---------- Journals ---------- */
+
+.journals-tab .section-content {
     display: flex;
     flex-flow: column nowrap;
 }
 
-.journal-display .content .journal-page .collapsible-header {
+.page-card > summary {
     padding-inline: 0;
+    background-color: transparent;
 }
 
-.journal-display .content .journal-page .collapsible-header-title {
-    margin-inline: calc(max(0vw, 50vw - 420px));
+.page-card > summary:hover {
+    background-color: var(--contrast-primary);
+}
+
+.page-card .card-title {
+    margin-inline: max(0px, calc(50vw - var(--journal-page-width) / 2));
     padding-inline: 0.3em;
-    border-bottom: 1px groove rgba(104, 104, 104, 0.8); 
+    border-bottom: 1px groove var(--border);
 }
 
-.collapsible-item.journal-page .description-container {
-    margin-inline: calc(max(0vw, 50vw - 420px));
-    max-width: 840px;
+.page-card .card-content {
+    width: 100%;
+    max-width: var(--journal-page-width);
+    margin: 0.5rem auto 0;
     padding-inline: 1.5em;
-    margin-top: 0.5rem;
-    background-color: #101418;
+    background-color: var(--bg-page);
 }
 
-/* Collapsible Header Shenanigans */
+/* ---------- Footer ---------- */
 
-.collapsible-header {
-    cursor: pointer;
-    background-color: var(--bg-header);
-    display: flex;
+footer {
+    position: fixed;
+    bottom: 0;
+    z-index: 1000;
+    width: 100%;
+    min-height: var(--footer-height);
     padding: 0.5em 1em;
+    font-size: 0.9em;
+    color: #6f6f6f;
+    background-color: var(--bg-section);
 }
 
-.collapsible-header span {
-    font-size: large;
-    font-weight: bold;
-    text-align: center;
-}
-
-/* One item: Full width */
-.collapsible-header span:only-child {
-    flex: 1 1 100%;
-    text-align: left;
-}
-
-/* Two items: 50% each */
-.collapsible-header span:nth-child(1):nth-last-child(2) {
-    flex: 1 1 50%;
-    text-align: left;
-}
-.collapsible-header span:nth-child(2):nth-last-child(1) {
-    flex: 1 1 50%;
-    text-align: right;
-}
-
-/* Three items: 40% for the first, 30% for the rest */
-.collapsible-header span:nth-child(1):nth-last-child(3) {
-    flex: 1 1 33%;
-    text-align: left;
-}
-.collapsible-header span:nth-child(2):nth-last-child(2) {
-    flex: 1 1 33%;
-}
-.collapsible-header span:nth-child(3):nth-last-child(1) {
-    flex: 1 1 33%;
-    text-align: right;
-}
-
-/* Four items: 40% for the first, 20% for the rest */
-.collapsible-header span:nth-child(1):nth-last-child(4) {
-    flex: 1 1 40%;
-    text-align: left;
-}
-.collapsible-header span:nth-child(2):nth-last-child(3),
-.collapsible-header span:nth-child(3):nth-last-child(2) {
-    flex: 1 1 20%;
-}
-.collapsible-header span:nth-child(4):nth-last-child(1) {
-    flex: 1 1 20%;
-    text-align: right;
-}
-
-/* Five items: 40% for the first, 15% for the rest */
-.collapsible-header span:nth-child(1):nth-last-child(5) {
-    flex: 1 1 40%;
-    text-align: left;
-}
-.collapsible-header span:nth-child(2):nth-last-child(4),
-.collapsible-header span:nth-child(4):nth-last-child(2) {
-    flex: 1 1 15%;
-}
-.collapsible-header span:nth-child(5):nth-last-child(1) {
-    flex: 1 1 15%;
-    text-align: right;
+footer p {
+    margin: 0;
 }
