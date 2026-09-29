@@ -3,15 +3,16 @@ import { Tab } from "../reusable/Tab"
 import { BuildingCard } from "./BuildingCard"
 import { EffectCard } from "./EffectCard"
 
-interface SettlementProps {
-    data: JsonSchema.SettlementData
+interface SettlementTabProps {
+    data: JsonSchema.SettlementData;
+    id: string;
 }
 
-export function SettlementTab({data}: SettlementProps): HTMLDivElement {
+export function SettlementTab({data, id}: SettlementTabProps): HTMLDivElement {
     return (
         <Tab
             cssClass="settlement-tab"
-            id={data.name}
+            id={id}
             content={(<>
                 <div class="settlement-attributes">
                     <AttributeContainer label="Authority" value={data.attributes.authority.toString()}/>

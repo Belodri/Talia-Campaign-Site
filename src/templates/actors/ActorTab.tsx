@@ -5,13 +5,14 @@ import { ItemCard } from "./ItemCard"
 import { SpellCard } from "./SpellCard"
 
 interface ActorTabProps {
-    data: JsonSchema.ActorData
+    data: JsonSchema.ActorData;
+    id: string;
 }
 
-export function ActorTab({ data }: ActorTabProps): HTMLDivElement {
+export function ActorTab({ data, id }: ActorTabProps): HTMLDivElement {
     return(
         <Tab
-            id={data.name}
+            id={id}
             cssClass="actor-tab"
             content={(<>
                 <h1 class="actor-name-title">{data.name}</h1>
