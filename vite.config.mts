@@ -1,88 +1,118 @@
-import { defineConfig, ViteDevServer, type Plugin } from 'vite'
-import path from 'node:path'
-import dataJson from "./assets/importData.json" with { type: "json" }
-import mockDataJson from "./assets/mockData.json" with { type: "json" }
-import { pathToFileURL } from 'node:url'
-import { mkdir, unlink, writeFile } from 'node:fs/promises'
+import { defineConfig, type ViteDevServer, type Plugin, type OxcOptions } from "vite"
+import path from "node:path"
+import REAL_DATA from "./assets/importData.json" with { type: "json" }
+import MOCK_DATA from "./assets/mockData.json" with { type: "json" }
+import { pathToFileURL } from "node:url"
+import { mkdir, writeFile } from "node:fs/promises"
 
-const JSX_OPTS = {
-    runtime: "classic" as const,
-    pragma: "h",
-    pragmaFrag: "Fragment"
+const RENDER_SOURCE_PATH = "/src/render.mts" as const;
+const RENDER_FUNC_NAME = "renderBody" as const;
+const REAL_DATA_PATH = "./assets/importData.json" as const;
+const MOCK_DATA_PATH = "./assets/mockData.json" as const;
+
+
+interface Context extends RenderBodyArgs { 
+    dataPath: string; 
 }
 
-function compileTimeRenderPlugin(useMockData: boolean, lastUpdatedDate: Date) : Plugin {
-    let devServer: ViteDevServer | undefined;
+const JSX_OPTS: NonNullable<OxcOptions["jsx"]> = { runtime: "classic", pragma: "h", pragmaFrag: "Fragment" } as const;
 
-    async function renderHtml(): Promise<string> {
-        const data: JsonSchema.Schema = useMockData ? mockDataJson : dataJson;
 
-        if(devServer) {
-            const mod = await devServer.ssrLoadModule("/src/render.mts");
-            return mod.renderApp(data, lastUpdatedDate);
-        }
+export default defineConfig(() => {
+    const useMockData = process.argv.includes("--useMockData");
 
-        const { build } = await import("vite");
-        const result = await build({
-            configFile: false,
-            logLevel: "silent",
-            oxc: { jsx: JSX_OPTS },
-            build: {
-                write: false,
-                lib: {
-                    entry: path.resolve(import.meta.dirname, "src/render.mts"),
-                    formats: ["es"],
-                    fileName: "render.mjs"
-                },
-                rolldownOptions: {
-                    external: (id) => !id.startsWith(".") && !path.isAbsolute(id),
-                    treeshake: {
-                        moduleSideEffects: true,
-                    }
-                }
-            }
-        });
+    // Catch type errors of imported parsed json immediately.
+    const context: Context = {
+        data: useMockData ? MOCK_DATA : REAL_DATA,
+        dataPath: useMockData ? MOCK_DATA_PATH : REAL_DATA_PATH,
+        lastUpdatedDate: new Date()
+    };
 
-        
-        const built = Array.isArray(result) ? result[0] : result;
-        if (!('output' in built)) throw new Error('render.mts library build returned a watcher instead of output');
-        const output = built.output;
-        const chunk = output.find((o) => o.type === 'chunk' && o.isEntry)
-        if (!chunk || chunk.type !== 'chunk') throw new Error('render.mts library build produced no entry chunk');
-
-        const tmpDir = path.join(process.cwd(), "node_modules", ".tmp");
-        await mkdir(tmpDir, {recursive: true});
-        const tmpFile = path.join(tmpDir, `render-${Date.now()}.mjs`);
-        await writeFile(tmpFile, chunk.code);
-        try {
-            const mod = await import(pathToFileURL(tmpFile).href);
-            return mod.renderApp(data, lastUpdatedDate);
-        } finally {
-            await unlink(tmpFile);
-        }
+    return {
+        base: "./",
+        oxc: { jsx: JSX_OPTS },
+        plugins: [ compileTimeRenderPlugin(context) ],
     }
+});
+
+
+function compileTimeRenderPlugin(ctx: Context) : Plugin {
+    let devServer: ViteDevServer | undefined;
+    const dataPathFileName = path.basename(ctx.dataPath);
 
     return {
         name: "compile-time-render-plugin",
         async transformIndexHtml(html) {
-            return html.replace("<!-- APP CONTENT -->", await renderHtml());
+
+            const renderFunc = devServer 
+                ? await getDevServerRenderFunc(devServer)
+                : await buildRenderFuncFromSource();
+
+            return html.replace("<!-- APP CONTENT -->", renderFunc(ctx));
         },
         configureServer(server) {
             devServer = server;
-            server.watcher.add(useMockData ? "./assets/mockData.json" : "./assets/importData.json");
-            server.watcher.on("change", (file) => {
-                if(file.endsWith(useMockData ? "mockData.json" : "importData.json")) server.ws.send({ type: "full-reload" });
+
+            // Full reload on change in json data.
+            server.watcher.add(ctx.dataPath);
+            server.watcher.on("change", (changedFilePath) => {
+                if(changedFilePath === dataPathFileName) server.ws.send({ type: "full-reload" });
             });
         }
     }
 }
 
-export default defineConfig(() => {
-    const useMockData = process.argv.includes("--useMockData");
 
-    return {
-        base: "./",
+async function getDevServerRenderFunc(server: ViteDevServer): Promise<RenderBodyFunc> {
+    const module = await server.ssrLoadModule(RENDER_SOURCE_PATH);
+    const func = module?.[RENDER_FUNC_NAME];
+
+    if(typeof func !== "function")
+        throw new Error(`Failed to resolve render function '${RENDER_FUNC_NAME}' from module '${RENDER_SOURCE_PATH}'.`);
+
+    return func;
+}
+
+
+async function buildRenderFuncFromSource(): Promise<RenderBodyFunc> {
+    const { build } = await import("vite");
+    const buildResult = await build({
+        configFile: false,
+        logLevel: "silent",
         oxc: { jsx: JSX_OPTS },
-        plugins: [ compileTimeRenderPlugin(useMockData, new Date()) ]
-    }
-});
+        build: {
+            write: false,
+            lib: {
+                entry: path.resolve(path.join(import.meta.dirname, RENDER_SOURCE_PATH)),
+                formats: ["es"],
+                fileName: "render.mjs"
+            },
+            rolldownOptions: {
+                external: (id) => !id.startsWith(".") && !path.isAbsolute(id),
+                treeshake: {
+                    moduleSideEffects: true,
+                }
+            }
+        }
+    });
+
+    const outputOrWatcher = Array.isArray(buildResult) ? buildResult[0] : buildResult;
+    if (!("output" in outputOrWatcher)) throw new Error(`${RENDER_SOURCE_PATH} library build returned a watcher instead of output`);
+
+    const chunk = outputOrWatcher.output.find((o) => o.type === "chunk" && o.isEntry);
+    if (!chunk || chunk.type !== "chunk") throw new Error(`${RENDER_SOURCE_PATH} library build produced no entry chunk.`);
+
+    const tmpDir = path.join(process.cwd(), "node_modules", ".tmp");
+    await mkdir(tmpDir, {recursive: true});
+
+    const tmpFile = path.join(tmpDir, "render.mjs");    // Tmp file is overwritten on every build.
+    await writeFile(tmpFile, chunk.code);
+
+    const module = await import(`${pathToFileURL(tmpFile).href}?t=${Date.now()}`);
+    const func = module?.[RENDER_FUNC_NAME];
+
+    if(typeof func !== "function")
+        throw new Error(`Failed to resolve render function '${RENDER_FUNC_NAME}' from module '${RENDER_SOURCE_PATH}'.`);
+
+    return func;
+}
