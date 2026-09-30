@@ -23,8 +23,14 @@ export default defineConfig(() => {
     const useMockData = process.argv.includes("--useMockData");
 
     // Catch type errors of imported parsed json immediately.
+    // Assertion is required over plain assignment since otherwise literal unions,
+    // would be rejected since TS widens them in JSON module import.
+    // Assertion still catches structurally incompatible data.
+    const _mockData = MOCK_DATA as JsonSchema.Schema;
+    const _realData = REAL_DATA as JsonSchema.Schema;
+
     const context: Context = {
-        data: useMockData ? MOCK_DATA : REAL_DATA,
+        data: useMockData ? _mockData : _realData,
         dataPath: useMockData ? MOCK_DATA_PATH_REL : REAL_DATA_PATH_REL,
         lastUpdatedDate: new Date()
     };
