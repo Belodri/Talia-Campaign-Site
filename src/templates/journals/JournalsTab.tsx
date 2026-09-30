@@ -10,7 +10,8 @@ interface JournalsTabProps {
 }
 
 export function JournalsTab({data, id}: JournalsTabProps): HTMLDivElement {
-    const journals = data.toSorted((a, b) => compareAsc(a.name, b.name));
+    const journals = data.toSorted((a, b) => compareAsc(a.name, b.name))
+        .filter(j => j.pages.length);
 
     return (
         <Tab
