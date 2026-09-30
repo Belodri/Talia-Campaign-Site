@@ -344,8 +344,7 @@ section {
 
     .card-content {
         max-width: var(--journal-card-width);
-        margin: max(0px, calc(50vw - var(--journal-card-width) / 2));
-        margin-top: 0.5em;
+        margin: 0.5em max(0px, calc(50vw - var(--journal-card-width) / 2));
         background-color: var(--bg-page);
     }
 }
