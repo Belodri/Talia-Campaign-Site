@@ -20,8 +20,10 @@ export function ActorTab({ data, id }: ActorTabProps): HTMLDivElement {
         || compareAsc(a.typeLabel, b.typeLabel) 
         || compareAsc(a.name, b.name));
 
+    const getAdjustedSpellLevel = (lvl: string) => lvl.toLowerCase() === "cantrip" ? "0" : lvl;
+
     const spells = data.spells.toSorted((a, b) => 
-        compareAsc(a.spellLevel, b.spellLevel)
+        compareAsc(getAdjustedSpellLevel(a.spellLevel), getAdjustedSpellLevel(b.spellLevel))
         || compareAsc(a.spellSchool, b.spellSchool)
         || compareAsc(a.name, b.name));
 
