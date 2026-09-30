@@ -1,9 +1,9 @@
 export function formatMutators(mutators: JsonSchema.SettlementMutator): string[] {
-    const attrLabel = formatAttributeLabels(mutators.modifiers.attributes);
+    const attrLabel = formatAttributeLabels(mutators.attributes);
 
     return [
         attrLabel,
-        formatLabel("Capacity", mutators.modifiers.capacity),
+        formatLabel("Capacity", mutators.capacity),
         mutators.other
     ].filter(i => i?.length && typeof i === "string") as string[];
 }
