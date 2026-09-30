@@ -1,4 +1,3 @@
-import { Raw } from "../../jsx/raw.mts";
 import { isEmpty } from "../../utils/utils.mts";
 import { Card } from "../reusable/Card";
 import { formatMutators, formatAttributeLabels } from "./formatters.mts";
@@ -13,20 +12,26 @@ export function BuildingCard({ data }: { data: JsonSchema.SettlementBuildingData
         data.requirements.unlocks.join(", ").trim()
     ].filter(l => typeof l === "string" && (l as string).length);
 
+    const isBuilt = !isEmpty(data.constructionDate);
+
     return (
         <Card
             cssClass="building-card"
             title={data.name}
             headerInfos={(<>
-                {!isEmpty(data.constructionDate) && <span>Built {data.constructionDate}</span>}
-                <span>{data.scale}</span>
+                {isBuilt
+                    ? <span><s>{data.scale}c</s></span>
+                    : <span>{data.scale}c</span>}
             </>)}
             content={(<>
                 <div class="description">
-                    <Raw html={data.flavorText} />
+                    <p class="quote">{data.flavorText}</p>
+                    {isBuilt && <span class="quote">Completed construction on {data.constructionDate}.</span>}
                 </div>
-                {!isEmpty(mutatorLabels) && <TitledList title="Grants" itemContents={mutatorLabels} />}
-                {!isEmpty(requiresLabels) && <TitledList title="Requirements" itemContents={requiresLabels} />}
+                <div class="stats">
+                    {!isEmpty(mutatorLabels) && <TitledList title="Grants" itemContents={mutatorLabels} />}
+                    {!isEmpty(requiresLabels) && <TitledList title="Requires" itemContents={requiresLabels} />}
+                </div>
             </>)}
         />
     );

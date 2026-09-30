@@ -12,9 +12,14 @@ export function ItemCard({ data }: ItemCardProps): HTMLElement {
             title={data.name}
             headerInfos={(
                 <>
-                    <span>{data.typeLabel}</span>
-                    <span>{data.quantity} {data.inStorage ? "(storage)" : "(backpack)"}</span>
-                    {data.requiresAttunement && <span>Requires Attunement</span>}
+                    <span>
+                        <span class="label">{data.typeLabel}</span>
+                        {data.requiresAttunement && <span class="parenthetical"> (requires attunement)</span>}
+                    </span>
+                    <span>
+                        <span class="label">{data.quantity}</span>
+                        {data.inStorage && <span class="parenthetical"> (in Storage)</span>}
+                    </span>
                 </>
             )}
             content={(

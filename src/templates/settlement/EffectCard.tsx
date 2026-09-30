@@ -13,13 +13,17 @@ export function EffectCard({ data }: { data: JsonSchema.SettlementEffectData; })
             title={data.name}
             headerInfos={(<>
                 {data.remainingDays > 0 && data.remainingDays < 365
-                    && <span>ends in {data.remainingDays} days</span>}
+                    && <span>{data.remainingDays} days remaining</span>}
             </>)}
             content={(<>
                 <div class="description">
-                    <Raw html={data.flavorText} />
+                    <p>
+                        <Raw html={data.flavorText} />
+                    </p>
                 </div>
-                {!isEmpty(mutatorLabels) && <TitledList title="Grants" itemContents={mutatorLabels} />}
+                <div class="stats">
+                    {!isEmpty(mutatorLabels) && <TitledList title="Grants" itemContents={mutatorLabels} />}
+                </div>
             </>)} 
         />
     );
