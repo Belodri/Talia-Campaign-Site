@@ -15,7 +15,7 @@ export function ActorTab({ data, id }: ActorTabProps): HTMLDivElement {
         compareAsc(a.requirements, b.requirements)
         || compareAsc(a.name, b.name));
     
-    const items = data.physicalItems.toSorted((a, b) => 
+    const items = data.items.toSorted((a, b) => 
         trueFirst(a.requiresAttunement, b.requiresAttunement)
         || compareAsc(a.typeLabel, b.typeLabel) 
         || compareAsc(a.name, b.name));
