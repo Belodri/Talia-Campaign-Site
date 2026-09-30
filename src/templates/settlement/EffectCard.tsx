@@ -1,4 +1,3 @@
-import { Raw } from "../../jsx/raw.mts";
 import { isEmpty } from "../../utils/utils.mts";
 import { Card } from "../reusable/Card";
 import { formatMutators } from "./formatters.mts";
@@ -17,9 +16,7 @@ export function EffectCard({ data }: { data: JsonSchema.SettlementEffectData; })
             </>)}
             content={(<>
                 <div class="description">
-                    <p>
-                        <Raw html={data.flavorText} />
-                    </p>
+                    <p class="quote">{data.flavorText}</p>
                 </div>
                 <div class="stats">
                     {!isEmpty(mutatorLabels) && <TitledList title="Grants" itemContents={mutatorLabels} />}
