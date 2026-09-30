@@ -1,4 +1,5 @@
 import { Raw } from "../../jsx/raw.mts";
+import { isEmpty } from "../../utils/utils.mts";
 import { Card } from "../reusable/Card";
 
 interface ItemCardProps {
@@ -17,8 +18,8 @@ export function ItemCard({ data }: ItemCardProps): HTMLElement {
                         {data.requiresAttunement && <span class="parenthetical"> (requires attunement)</span>}
                     </span>
                     <span>
-                        <span class="label">{data.quantity}</span>
-                        {data.inStorage && <span class="parenthetical"> (in Storage)</span>}
+                        <span class="label">{data.carried}</span>
+                        {!isEmpty(data.stored) && <span class="parenthetical"> (+{data.stored} in storage)</span>}
                     </span>
                 </>
             )}
