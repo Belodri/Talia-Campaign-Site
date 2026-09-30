@@ -23,7 +23,9 @@ export function JournalsTab({data, id}: JournalsTabProps): HTMLDivElement {
                         cssClass="journal-section"
                         title={j.name}
                         content={(<>
-                            {j.pages.map(p => (
+                            {j.pages
+                                .toSorted((a, b) => compareAsc(a.index, b.index))
+                                .map(p => (
                                 <PageCard
                                     data={p}
                                     navId={createId([id, j.name, p.name])} />
