@@ -123,12 +123,12 @@
         {
           "name": "Final Breath",
           "description": "<p>While raging, as long as you're grappling a creature, all attack rolls against you have advantage.</p><p>Additionally while raging, if a creature has been grappled by you for 2 of their continuous turns you can, as a free action at the start of your turn, rip them apart dealing damage equal to 10 unarmed attacks.</p>",
-          "requirements": ""
+          "requirements": "Background"
         },
         {
           "name": "Flexing",
           "description": "<p>Aviana flexes.</p>",
-          "requirements": ""
+          "requirements": "Feat"
         },
         {
           "name": "Spirit of the Tiger",
@@ -138,7 +138,7 @@
         {
           "name": "Inspiring Flex",
           "description": "<blockquote><p>Aviana flexes. It is very effective.</p></blockquote><p>As an action you flex your muscles while looking directly into the eyes of one creature that can see you.That creature gains one Inspiration die, a d6.</p><p>Once within the next 10 minutes, the creature can roll the die and add the number rolled to one ability check, attack roll, damage roll, or saving throw it makes. The creature cannot choose to use the Inspiration die after the roll has been made.Once the Inspiration die is rolled, it is lost. A creature can only have 1 Flexing Inspiration die at any time.</p><p>You can use this ability a number of times equal to the sum of your Strength and Constitution modifiers.You regain any expended uses when you finish a long rest.</p>",
-          "requirements": ""
+          "requirements": "Feat"
         },
         {
           "name": "Spirit of the Wolf",
@@ -158,7 +158,7 @@
         {
           "name": "Grapple",
           "description": "<p>When you want to grab a creature or wrestle with it, you can use the Attack action to make a special melee attack, a grapple. If you're able to make multiple attacks with the Attack action, this attack replaces one of them. The target of your grapple must be no more than one size larger than you, and it must be within your reach.</p><p>Using at least one free hand, you try to seize the target by making a grapple check, a <span>Strength (Athletics) check</span> contested by the target's <span>Strength (Athletics) check</span> or <span>Dexterity (Acrobatics) check</span> (the target chooses the ability to use). You succeed automatically if the target is incapacitated. If you succeed, you subject the target to the <span>Grappled</span> effect. The condition specifies the things that end it, and you can release the target whenever you like (no action required).</p>",
-          "requirements": ""
+          "requirements": "Common Action"
         },
         {
           "name": "Reckless Attack",
@@ -173,7 +173,7 @@
         {
           "name": "Jump",
           "description": "<p>Using your bonus action, you can jump up to @talia.jumpDistance ft.</p>",
-          "requirements": ""
+          "requirements": "Common Action"
         },
         {
           "name": "Relentless Rage",
@@ -223,7 +223,7 @@
         {
           "name": "Dodge",
           "description": "<p>When you take the Dodge action, you focus entirely on avoiding attacks. Until the start of your next turn, any attack roll made against you has disadvantage if you can see the attacker, and you make Dexterity saving throws with advantage. You lose this benefit if you are incapacitated (as explained in the appendix) or if your speed drops to 0.</p>",
-          "requirements": ""
+          "requirements": "Common Action"
         },
         {
           "name": "Stone's Endurance",
@@ -273,7 +273,7 @@
         {
           "name": "Surge Check",
           "description": "",
-          "requirements": ""
+          "requirements": "Common Action"
         }
       ],
       "items": [
@@ -1658,17 +1658,17 @@
         {
           "name": "Dodge",
           "description": "<p>When you take the Dodge action, you focus entirely on avoiding attacks. Until the start of your next turn, any attack roll made against you has disadvantage if you can see the attacker, and you make Dexterity saving throws with advantage. You lose this benefit if you are incapacitated (as explained in the appendix) or if your speed drops to 0.</p>",
-          "requirements": ""
+          "requirements": "Common Action"
         },
         {
           "name": "Grapple",
           "description": "<p>When you want to grab a creature or wrestle with it, you can use the Attack action to make a special melee attack, a grapple. If you're able to make multiple attacks with the Attack action, this attack replaces one of them. The target of your grapple must be no more than one size larger than you, and it must be within your reach.</p><p>Using at least one free hand, you try to seize the target by making a grapple check, a <span>Strength (Athletics) check</span> contested by the target's <span>Strength (Athletics) check</span> or <span>Dexterity (Acrobatics) check</span> (the target chooses the ability to use). You succeed automatically if the target is incapacitated. If you succeed, you subject the target to the <span>Grappled</span> effect. The condition specifies the things that end it, and you can release the target whenever you like (no action required).</p>",
-          "requirements": ""
+          "requirements": "Common Action"
         },
         {
           "name": "Jump",
           "description": "<p>Using your bonus action, you can jump up to @talia.jumpDistance ft.</p>",
-          "requirements": ""
+          "requirements": "Common Action"
         },
         {
           "name": "Shove",
@@ -1688,7 +1688,7 @@
         {
           "name": "Surge Check",
           "description": "",
-          "requirements": ""
+          "requirements": "Common Action"
         }
       ],
       "items": [
@@ -3259,12 +3259,12 @@
         {
           "name": "Spellscribing",
           "description": "<p>Scribe spells into gemstones.</p>",
-          "requirements": ""
+          "requirements": "Crafting"
         },
         {
           "name": "Alchemical Extraction",
           "description": "<p>With your specialized alchemist's tools in hand, you have the capability to extract rare materials from the remains of defeated creatures, investing 10 minutes per extraction.</p><h2>Harvesting Ingredients</h2><p>When you encounter specific herbs or the recently deceased bodies of certain types of creatures, you can use your alchemist's tools to harvest their alchemical ingredients. Doing so takes 10 minutes for each body or patch of herbs.<br>Each individual body or patch of herbs typically contains a potential yield of 2d4 ingredients in usable condition.</p><p>To harvest the ingredients, make an Alchemy check (an Intelligence check using your alchemist's tools) against the material DC of the substance you are attempting to gather. The ingredient DC for each substance depends on its rarity, as shown on the Ingredient Rarity Table.</p><p>If you succeed on the check, you harvest the full amount of ingredients. On a failed check, you may still be able to recover some of the ingredients. Roll a d4 and consult the Ingredient Recovery table to determine the outcome.</p><h3>Ingredient Rarity Table</h3><table><tbody><tr><td><p><strong>Rarity</strong></p></td><td><p><strong>DC</strong></p></td><td><p><strong>Commercial Availability</strong></p></td></tr><tr><td><p>Common</p></td><td><p>10</p></td><td><p>General traders frequently have these ingredients in their inventory.</p></td></tr><tr><td><p>Uncommon</p></td><td><p>15</p></td><td><p>You can find these ingredients at shops specializing in alchemical goods</p></td></tr><tr><td><p>Rare</p></td><td><p>20</p></td><td><p>Shops in larger cities that deal in rare alchemical goods are your best bet for finding these ingredients.</p></td></tr><tr><td><p>Very Rare</p></td><td><p>25</p></td><td><p>Highly specialized alchemical merchants in major cities may stock these, often sourcing them through hired adventurers.</p></td></tr><tr><td><p>Legendary</p></td><td><p>30</p></td><td><p>Only the most skilled adventurers can procure these ingredients, as they are almost never sold by traders.</p></td></tr></tbody></table><p></p><h3>Ingredient Recovery Table</h3><table><tbody><tr><td><p><strong>d4 Roll</strong></p></td><td><p><strong>Harvesting Outcome</strong></p></td></tr><tr><td><p>1</p></td><td><p>You are unable to recover any ingredients.</p></td></tr><tr><td><p>2</p></td><td><p>Half of the yield is lost, rounded down.</p></td></tr><tr><td><p>3</p></td><td><p>A quarter of the yield is lost, rounded down.</p></td></tr><tr><td><p>4</p></td><td><p>You manage to recover the entire yield.</p></td></tr></tbody></table>",
-          "requirements": ""
+          "requirements": "Crafting"
         },
         {
           "name": "Empowered Evocation",
@@ -3274,7 +3274,7 @@
         {
           "name": "Alchemical Synthesis",
           "description": "<p>Combining arcane knowledge with practiced skill, you can brew potent potions and deadly poisons. Given an hour of uninterrupted time, your alchemist's tools can synthesize ingredients into powerful concoctions.</p><h2>Brewing</h2><p>To brew a potion or poison, you must be proficient with the use of alchemist's tools and you need to know the potion's recipe. The process of brewing takes one hour of uninterrupted work.</p><p>Combine three alchemical ingredients of the same rarity and make an Alchemy check against the material DC of the ingredients.</p><p>If successful, you create one potion or poison. If your check's total is 5 or more higher than the DC, you create an additional potion or poison for every increment of 5 it exceeds the DC (e.g., a DC of 10 with a roll of 20 results in 3 potions or poisons).</p><p>If you fail the check, you must make an Alchemy check for each ingredient against its material DC. Failing any of these checks ruins the corresponding ingredient.</p>",
-          "requirements": ""
+          "requirements": "Crafting"
         },
         {
           "name": "Mythic Power",
@@ -3314,17 +3314,17 @@
         {
           "name": "Jump",
           "description": "<p>Using your bonus action, you can jump up to @talia.jumpDistance ft.</p>",
-          "requirements": ""
+          "requirements": "Common Action"
         },
         {
           "name": "Grapple",
           "description": "<p>When you want to grab a creature or wrestle with it, you can use the Attack action to make a special melee attack, a grapple. If you're able to make multiple attacks with the Attack action, this attack replaces one of them. The target of your grapple must be no more than one size larger than you, and it must be within your reach.</p><p>Using at least one free hand, you try to seize the target by making a grapple check, a <span>Strength (Athletics) check</span> contested by the target's <span>Strength (Athletics) check</span> or <span>Dexterity (Acrobatics) check</span> (the target chooses the ability to use). You succeed automatically if the target is incapacitated. If you succeed, you subject the target to the <span>Grappled</span> effect. The condition specifies the things that end it, and you can release the target whenever you like (no action required).</p>",
-          "requirements": ""
+          "requirements": "Common Action"
         },
         {
           "name": "Dodge",
           "description": "<p>When you take the Dodge action, you focus entirely on avoiding attacks. Until the start of your next turn, any attack roll made against you has disadvantage if you can see the attacker, and you make Dexterity saving throws with advantage. You lose this benefit if you are incapacitated (as explained in the appendix) or if your speed drops to 0.</p>",
-          "requirements": ""
+          "requirements": "Common Action"
         },
         {
           "name": "Overchannel",
@@ -3334,7 +3334,12 @@
         {
           "name": "Surge Check",
           "description": "",
-          "requirements": ""
+          "requirements": "Common Action"
+        },
+        {
+          "name": "Shove",
+          "description": "<p>Using a bonus action, you can shove a creature to push it away from you.</p><p>The target of your shove must be no more than one size larger than you, and it must be within your reach. You make a Strength (Athletics) check contested by the target's Strength (Athletics) or Dexterity (Acrobatics) check (the target chooses the ability to use). You succeed automatically if the target is incapacitated. </p><p>If you succeed, you push the target 5 feet backwards, away from you. For each size category you are larger than the target, this distance increases by an additional 5 feet.</p>",
+          "requirements": "Common Action"
         }
       ],
       "items": [
@@ -4726,17 +4731,17 @@
         {
           "name": "Dodge",
           "description": "<p>When you take the Dodge action, you focus entirely on avoiding attacks. Until the start of your next turn, any attack roll made against you has disadvantage if you can see the attacker, and you make Dexterity saving throws with advantage. You lose this benefit if you are incapacitated (as explained in the appendix) or if your speed drops to 0.</p>",
-          "requirements": ""
+          "requirements": "Common Action"
         },
         {
           "name": "Grapple",
           "description": "<p>When you want to grab a creature or wrestle with it, you can use the Attack action to make a special melee attack, a grapple. If you're able to make multiple attacks with the Attack action, this attack replaces one of them. The target of your grapple must be no more than one size larger than you, and it must be within your reach.</p><p>Using at least one free hand, you try to seize the target by making a grapple check, a <span>Strength (Athletics) check</span> contested by the target's <span>Strength (Athletics) check</span> or <span>Dexterity (Acrobatics) check</span> (the target chooses the ability to use). You succeed automatically if the target is incapacitated. If you succeed, you subject the target to the <span>Grappled</span> effect. The condition specifies the things that end it, and you can release the target whenever you like (no action required).</p>",
-          "requirements": ""
+          "requirements": "Common Action"
         },
         {
           "name": "Jump",
           "description": "<p>Using your bonus action, you can jump up to @talia.jumpDistance ft.</p>",
-          "requirements": ""
+          "requirements": "Common Action"
         },
         {
           "name": "Shove",
@@ -4751,7 +4756,7 @@
         {
           "name": "Surge Check",
           "description": "",
-          "requirements": ""
+          "requirements": "Common Action"
         }
       ],
       "items": [
@@ -5946,17 +5951,17 @@
         {
           "name": "Dodge",
           "description": "<p>When you take the Dodge action, you focus entirely on avoiding attacks. Until the start of your next turn, any attack roll made against you has disadvantage if you can see the attacker, and you make Dexterity saving throws with advantage. You lose this benefit if you are incapacitated (as explained in the appendix) or if your speed drops to 0.</p>",
-          "requirements": ""
+          "requirements": "Common Action"
         },
         {
           "name": "Grapple",
           "description": "<p>When you want to grab a creature or wrestle with it, you can use the Attack action to make a special melee attack, a grapple. If you're able to make multiple attacks with the Attack action, this attack replaces one of them. The target of your grapple must be no more than one size larger than you, and it must be within your reach.</p><p>Using at least one free hand, you try to seize the target by making a grapple check, a <span>Strength (Athletics) check</span> contested by the target's <span>Strength (Athletics) check</span> or <span>Dexterity (Acrobatics) check</span> (the target chooses the ability to use). You succeed automatically if the target is incapacitated. If you succeed, you subject the target to the <span>Grappled</span> effect. The condition specifies the things that end it, and you can release the target whenever you like (no action required).</p>",
-          "requirements": ""
+          "requirements": "Common Action"
         },
         {
           "name": "Jump",
           "description": "<p>Using your bonus action, you can jump up to @talia.jumpDistance ft.</p>",
-          "requirements": ""
+          "requirements": "Common Action"
         },
         {
           "name": "Metamagic: Quickened Spell",
@@ -6001,7 +6006,7 @@
         {
           "name": "Surge Check",
           "description": "",
-          "requirements": ""
+          "requirements": "Common Action"
         }
       ],
       "items": [
@@ -7239,7 +7244,7 @@
         {
           "name": "Cunning Contraptions",
           "description": "<p><span>They say a goblin can make a weapon out of anything. You take it a step further – being able to make a trap, a distraction, a siege engine, a <s>nuclear</s> bomb, or any other kind of contraption from nearly anything you come across!</span></p><p><strong>Crafting. </strong>Combining one or more materials with a mechanism results in a contraption. The materials define what a contraption does while the mechanism defines how it works. You can use up to 7 different items to craft your contraption. It takes at least 10 minutes to craft a single contraption. <br>When you craft a contraption, roll a skill check using Weaver's Tools with a -1 penalty for each material used to determine the contraption's save DC and attack bonus.</p><p><strong>Trap Save DC</strong> = Tool check total + 3<br><strong>Trap Attack Bonus</strong> = Tool check total - 4</p><p><strong>Trigger Mechanism.</strong> A trigger mechanism is essentially a description of how your contraption operates. Mechanisms can be created using items at your disposal, especially the components listed with your weaver’s tools. You can combine these components in any way you see fit. Weaver’s tool components are considered infinite. Other parts can be found, bought, gathered, or looted as needed.</p><p><span><strong>Using a Contraption.</strong> </span>The time required to set up a contraption depends on its design and complexity, as determined by the DM. In combat, the minimum time to set up any contraption is one action. Contraptions that are set up beforehand don't take any actions to activate if their trigger conditions are met. When a contraption requires a creature to make a saving throw, it can choose to fail the saving throw. All materials used to craft a contraption are destroyed upon it's activation. Before activation, these items can still be salvaged.</p><p><strong>Materials.</strong> Unusual materials are primarily found in the Feywild but can also come from other planes, including the Material Plane. During downtime, between sessions, or whenever the opportunity arises, you can venture out to gather these materials. Roll on the Unusual Materials table to determine which materials you find and in what quantities.<br>In addition to unusual materials, nonmagical items categorized as Loot, Consumable, or Weapon can also be used as materials.</p>",
-          "requirements": ""
+          "requirements": "Crafting"
         },
         {
           "name": "Violent Attraction",
@@ -7269,7 +7274,7 @@
         {
           "name": "Versatility through Unpredictability",
           "description": "<div><div><div><p>As a bonus action, you can attempt to swap a prepared spell with an unprepared spell. Choose a prepared spell, then roll a d20.</p><p>On a roll of 10 or lower, you must replace the chosen prepared spell with an unprepared spell of a lower spell level.<br>On a roll of 11 or higher, you must replace the chosen prepared spell with an unprepared spell of a higher spell level.</p><p>If the result would force you to choose an unprepared spell of a higher level than your highest available spell slot, the swap fails and the chosen prepared spell remains unchanged. The same applies if the roll would force you to swap a 1st-level spell for a spell of a lower level.</p></div></div></div>",
-          "requirements": ""
+          "requirements": "Blessing?"
         },
         {
           "name": "Convincing Arguments",
@@ -7284,17 +7289,17 @@
         {
           "name": "Jump",
           "description": "<p>Using your bonus action, you can jump up to @talia.jumpDistance ft.</p>",
-          "requirements": ""
+          "requirements": "Common Action"
         },
         {
           "name": "Grapple",
           "description": "<p>When you want to grab a creature or wrestle with it, you can use the Attack action to make a special melee attack, a grapple. If you're able to make multiple attacks with the Attack action, this attack replaces one of them. The target of your grapple must be no more than one size larger than you, and it must be within your reach.</p><p>Using at least one free hand, you try to seize the target by making a grapple check, a <span>Strength (Athletics) check</span> contested by the target's <span>Strength (Athletics) check</span> or <span>Dexterity (Acrobatics) check</span> (the target chooses the ability to use). You succeed automatically if the target is incapacitated. If you succeed, you subject the target to the <span>Grappled</span> effect. The condition specifies the things that end it, and you can release the target whenever you like (no action required).</p>",
-          "requirements": ""
+          "requirements": "Common Action"
         },
         {
           "name": "Dodge",
           "description": "<p>When you take the Dodge action, you focus entirely on avoiding attacks. Until the start of your next turn, any attack roll made against you has disadvantage if you can see the attacker, and you make Dexterity saving throws with advantage. You lose this benefit if you are incapacitated (as explained in the appendix) or if your speed drops to 0.</p>",
-          "requirements": ""
+          "requirements": "Common Action"
         },
         {
           "name": "Event Horizon",
@@ -7314,7 +7319,12 @@
         {
           "name": "Surge Check",
           "description": "",
-          "requirements": ""
+          "requirements": "Common Action"
+        },
+        {
+          "name": "Shove",
+          "description": "<p>Using a bonus action, you can shove a creature to push it away from you.</p><p>The target of your shove must be no more than one size larger than you, and it must be within your reach. You make a Strength (Athletics) check contested by the target's Strength (Athletics) or Dexterity (Acrobatics) check (the target chooses the ability to use). You succeed automatically if the target is incapacitated. </p><p>If you succeed, you push the target 5 feet backwards, away from you. For each size category you are larger than the target, this distance increases by an additional 5 feet.</p>",
+          "requirements": "Common Action"
         }
       ],
       "items": [
@@ -8466,7 +8476,7 @@
         {
           "name": "Chromatic Hardening",
           "description": "<p>At the end of your turn, if you've dealt damage of at least 4 different chromatic damage types (acid, cold, fire, lightning, or poison) during your turn, you gain temporary hit points equal to your level.</p>",
-          "requirements": ""
+          "requirements": "Dragonborn"
         },
         {
           "name": "Breath of the Dragon",
@@ -8546,17 +8556,17 @@
         {
           "name": "Jump",
           "description": "<p>Using your bonus action, you can jump up to @talia.jumpDistance ft.</p>",
-          "requirements": ""
+          "requirements": "Common Action"
         },
         {
           "name": "Grapple",
           "description": "<p>When you want to grab a creature or wrestle with it, you can use the Attack action to make a special melee attack, a grapple. If you're able to make multiple attacks with the Attack action, this attack replaces one of them. The target of your grapple must be no more than one size larger than you, and it must be within your reach.</p><p>Using at least one free hand, you try to seize the target by making a grapple check, a <span>Strength (Athletics) check</span> contested by the target's <span>Strength (Athletics) check</span> or <span>Dexterity (Acrobatics) check</span> (the target chooses the ability to use). You succeed automatically if the target is incapacitated. If you succeed, you subject the target to the <span>Grappled</span> effect. The condition specifies the things that end it, and you can release the target whenever you like (no action required).</p>",
-          "requirements": ""
+          "requirements": "Common Action"
         },
         {
           "name": "Dodge",
           "description": "<p>When you take the Dodge action, you focus entirely on avoiding attacks. Until the start of your next turn, any attack roll made against you has disadvantage if you can see the attacker, and you make Dexterity saving throws with advantage. You lose this benefit if you are incapacitated (as explained in the appendix) or if your speed drops to 0.</p>",
-          "requirements": ""
+          "requirements": "Common Action"
         },
         {
           "name": "Stunning Strike",
@@ -8581,7 +8591,7 @@
         {
           "name": "Surge Check",
           "description": "",
-          "requirements": ""
+          "requirements": "Common Action"
         },
         {
           "name": "Draconic Form",
@@ -8589,23 +8599,28 @@
           "requirements": "Mythic Dragon 3"
         },
         {
+          "name": "Innate Spellcasting",
+          "description": "<p>You can innately cast certain spells, which are determined by your draconic color. Each spell can be cast once per long rest and requires no material components. While you are in your lair, you can cast these spells without limit. Your spellcasting ability for these spells is Constitution.</p><p><em><strong>Green Dragon Spells. </strong></em>Chameleon Skin, Suggestion, Invisibility, Plant Growth, False Vision, Insect Plague, Modify Memory, Mass Suggestion</p>",
+          "requirements": "Mythic Dragon 3"
+        },
+        {
+          "name": "Shove",
+          "description": "<p>Using a bonus action, you can shove a creature to push it away from you.</p><p>The target of your shove must be no more than one size larger than you, and it must be within your reach. You make a Strength (Athletics) check contested by the target's Strength (Athletics) or Dexterity (Acrobatics) check (the target chooses the ability to use). You succeed automatically if the target is incapacitated. </p><p>If you succeed, you push the target 5 feet backwards, away from you. For each size category you are larger than the target, this distance increases by an additional 5 feet.</p>",
+          "requirements": "Common Action"
+        },
+        {
           "name": "Poison Breath (Recharge 5-6)",
           "description": "<p><span>When you take the Attack action on your turn, you can replace one of the attacks with an exhalation of </span>poisonous gas in a 30-foot cone. Each creature in that area must make a <span>Constitution</span> saving throw (DC = 8 + your Constitution modifier + your proficiency bonus), taking <span><span>12d6</span> poison</span> damage on a failed save, or half as much damage on a successful one.</p>",
-          "requirements": ""
+          "requirements": "Mythic Dragon 3"
         },
         {
           "name": "Flyby",
           "description": "<p>You don't provoke opportunity attacks when you fly out of an enemy's reach.</p>",
-          "requirements": ""
+          "requirements": "Mythic Dragon 3"
         },
         {
           "name": "Amphibious",
           "description": "<div><p>You can breathe air and water.</p></div>",
-          "requirements": ""
-        },
-        {
-          "name": "Innate Spellcasting",
-          "description": "<p>You can innately cast certain spells, which are determined by your draconic color. Each spell can be cast once per long rest and requires no material components. While you are in your lair, you can cast these spells without limit. Your spellcasting ability for these spells is Constitution.</p><p><em><strong>Green Dragon Spells. </strong></em>Chameleon Skin, Suggestion, Invisibility, Plant Growth, False Vision, Insect Plague, Modify Memory, Mass Suggestion</p>",
           "requirements": "Mythic Dragon 3"
         }
       ],
