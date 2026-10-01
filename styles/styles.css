@@ -278,6 +278,15 @@ section {
     text-align: center;
 }
 
+.item-card .card-info {
+    & > span:last-child {
+        max-width: 120px;
+
+        svg {
+            vertical-align: middle;
+        }
+    }
+}
 
 /* ---------- Settlement ---------- */
 
