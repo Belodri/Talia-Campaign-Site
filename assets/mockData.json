@@ -1,0 +1,491 @@
+{
+  "actors": [
+    {
+      "name": "Aviana Winterwing",
+      "currency": {
+        "pp": 1408,
+        "gp": 4295,
+        "sp": 0,
+        "cp": 0
+      },
+      "spells": [
+        {
+          "name": "Speak with Animals (Spirit Warrior)",
+          "description": "<div><p>You gain the ability to comprehend and verbally communicate with beasts for the duration. The knowledge and awareness of many beasts is limited by their intelligence, but at minimum, beasts can give you information about nearby locations and monsters, including whatever they can perceive or have perceived within the past day. You might be able to persuade a beast to perform a small favor for you, at the DM's discretion.</p><div></div></div>",
+          "spellLevel": "1st Level",
+          "range": "Self",
+          "spellSchool": "Divination"
+        },
+        {
+          "name": "Beast Sense (Spirit Warrior)",
+          "description": "<div><p>You touch a willing beast. For the duration of the spell, you can use your action to see through the beast's eyes and hear what it hears, and continue to do so until you use your action to return to your normal senses. While perceiving through the beast's senses, you gain the benefits of any special senses possessed by that creature, though you are <span>Blinded</span> and <span>Deafened</span> to your own surroundings.</p><div></div></div>",
+          "spellLevel": "2nd Level",
+          "range": "Touch",
+          "spellSchool": "Divination"
+        },
+        {
+          "name": "Mending (Spellwrought Tattoo)",
+          "description": "<div><p>This spell repairs a single break or tear in an object you touch, such as broken chain link, two halves of a broken key, a torn cloak, or a leaking wineskin. As long as the break or tear is no larger than 1 foot in any dimension, you mend it, leaving no trace of the former damage.</p><div></div><p>This spell can physically repair a magic item or construct, but the spell can't restore magic to such an object.</p></div>",
+          "spellLevel": "Cantrip",
+          "range": "Touch",
+          "spellSchool": "Transmutation"
+        },
+        {
+          "name": "Darkness",
+          "description": "<div><p>Magical darkness spreads from a point you choose within range to fill a 15-foot-radius sphere for the duration. The darkness spreads around corners. A creature with <span>Darkvision</span> can't see through this darkness, and nonmagical light can't illuminate it.</p><p>If the point you choose is on an object you are holding or one that isn't being worn or carried, the darkness emanates from the object and moves with it. Completely covering the source of the darkness with an opaque object, such as a bowl or a helm, blocks the darkness.</p><p>If any of this spell's area overlaps with an area of light created by a spell of 2nd level or lower, the spell that created the light is dispelled.</p></div>",
+          "spellLevel": "2nd Level",
+          "range": "60 ft",
+          "spellSchool": "Evocation"
+        },
+        {
+          "name": "Find Traps",
+          "description": "<div><p>You sense the presence of any trap within range that is within line of sight. A trap, for the purpose of this spell, includes anything that would inflict a sudden or unexpected effect you consider harmful or undesirable, which was specifically intended as such by its creator. Thus, the spell would sense an area affected by the <strong>alarm </strong>spell, a <strong>glyph of warding </strong>or a mechanical pit trap, but it would not reveal a natural weakness in the floor, an unstable ceiling, or a hidden sinkhole.</p><p>This spell merely reveals that a trap is present. You don't learn the location of each trap, but you do learn the general nature of the danger posed by a trap you sense.</p></div>",
+          "spellLevel": "2nd Level",
+          "range": "120 ft",
+          "spellSchool": "Divination"
+        },
+        {
+          "name": "Resistance",
+          "description": "<p>You touch one willing creature. For the duration of the spell, the creature adds a d4 to all saving throws.</p>",
+          "spellLevel": "Cantrip",
+          "range": "Touch",
+          "spellSchool": "Abjuration"
+        },
+        {
+          "name": "Death Ward",
+          "description": "<p>You touch a creature and grant it a measure of protection from death.</p><p>The first time the target would drop to 0 hit points as a result of taking damage, the target instead drops to 1 hit point, and the spell ends.</p><p>If the spell is still in effect when the target is subjected to an effect that would kill it instantaneously without dealing damage, that effect is instead negated against the target, and the spell ends.</p>",
+          "spellLevel": "4th Level",
+          "range": "Touch",
+          "spellSchool": "Abjuration"
+        }
+      ],
+      "features": [
+        {
+          "name": "Powerful Build",
+          "description": "<p>You count as one size larger when determining your carrying capacity and the weight you can push, drag, or lift.</p>",
+          "requirements": "Goliath Harpy"
+        },
+        {
+          "name": "Unarmored Defense (Barbarian)",
+          "description": "<div><p>While you are not wearing any armor, your Armor Class equals 10 + your Dexterity modifier + your Constitution modifier. You can use a shield and still gain this benefit.</p><div></div></div>",
+          "requirements": "Barbarian 1"
+        },
+        {
+          "name": "Danger Sense",
+          "description": "<div><p>At 2nd level, you gain an uncanny sense of when things nearby aren't as they should be, giving you an edge when you dodge away from danger. You have advantage on Dexterity saving throws against effects that you can see, such as traps and spells. To gain this benefit, you can't be <span><span>Blinded</span>, <span>Deafened</span>, or <span>Incapacitated</span>.</span></p></div>",
+          "requirements": "Barbarian 2"
+        },
+        {
+          "name": "Extra Attack",
+          "description": "<div><p>Beginning at 5th level, you can attack twice, instead of once, whenever you take the Attack action on your turn.</p></div>",
+          "requirements": "Barbarian 5"
+        },
+        {
+          "name": "Fast Movement",
+          "description": "<div><p>Starting at 5th level, your speed increases by 10 feet while you aren't wearing heavy armor.</p><div></div></div>",
+          "requirements": "Barbarian 5"
+        },
+        {
+          "name": "Feral Instinct",
+          "description": "<div><p>By 7th level, your instincts are so honed that you have advantage on initiative rolls.</p><div><p></p></div><p>Additionally, if you are <span>surprised</span> at the beginning of combat and aren't <span>Incapacitated</span>, you can act normally on your first turn, but only if you enter your rage before doing anything else on that turn.</p></div>",
+          "requirements": "Barbarian 7"
+        },
+        {
+          "name": "Eagle's Dash",
+          "description": "<p>While you're raging and aren't wearing heavy armor, other creatures have disadvantage on opportunity attack rolls against you, and you can use the Dash action as a bonus action on your turn.</p>",
+          "requirements": "Barbarian 3 (Spirit Warrior)"
+        },
+        {
+          "name": "Spirit Seeker",
+          "description": "<div><p>Yours is a path that seeks attunement with the natural world, giving you a kinship with beasts. At 3rd level when you adopt this path, you gain the ability to cast the Beast Sense and Speak with Animals spells, but only as rituals, as described in chapter 10.</p></div>",
+          "requirements": "Barbarian 3 (Spirit Warrior)"
+        },
+        {
+          "name": "Athletic",
+          "description": "<p>- When jumping, you jump an extra 5ft.</p><p>- Increase one ability score of your choice by 1, to a maximum of 20. (STR)</p><p>- You gain proficiency in one skill of your choice. (Persuasion)</p><p>- Choose one skill in which you have proficiency. You gain expertise with that skill, which means your proficiency bonus is doubled for any ability check you make with it. The skill you choose must be one that isn't already benefiting from a feature, such as Expertise, that doubles your proficiency bonus. (Athletics)</p>",
+          "requirements": "Feat"
+        },
+        {
+          "name": "Tattoo of the Mountain",
+          "description": "<p>Whenever you deal damage to a grappled creature, you are bound together until the start of your next turn and any movement of one will also affect the other.</p><p>As long as you're bound together, you cannot choose to release the grapple.</p><p>While grappling a creature, it cannot cast spells with somatic components.</p><p>Due to the magical nature of this curse, dealing damage to a grappled creature can cause wild magic surges to occur.</p>",
+          "requirements": "Background"
+        },
+        {
+          "name": "Eyes of an Eagle",
+          "description": "<p>You gain the eyesight of an eagle.</p><p>You can see up to 2 miles away with no difficulty, able to discern even fine details as though looking at something no more than 100 feet away from you.</p>",
+          "requirements": "Blessing"
+        },
+        {
+          "name": "Stable Frenzy",
+          "description": "<p>Your melee attacks that deal non-magical slashing, piercing, or crushing damage are enhanced:</p><ul><li><p>Slashing: You reduce the target's physical saving throws by 1 until the end of it's next turn.</p></li><li><p>Piercing: You repeatedly reroll each damage dice that lands on a 1.</p></li><li><p>Crushing: You reduce the target's mental saving throws by 1 until the end of it's next turn.</p></li></ul><p>Additionally, while raging you gain the <strong>Stable Footing</strong> condition.</p><h5>Stable Footing</h5><p>You can't be knocked prone or moved along the ground against your will by non-magical means.</p>",
+          "requirements": "Feat"
+        },
+        {
+          "name": "Final Breath",
+          "description": "<p>While raging, as long as you're grappling a creature, all attack rolls against you have advantage.</p><p>Additionally while raging, if a creature has been grappled by you for 2 of their continuous turns you can, as a free action at the start of your turn, rip them apart dealing damage equal to 10 unarmed attacks.</p>",
+          "requirements": ""
+        },
+        {
+          "name": "Flexing",
+          "description": "<p>Aviana flexes.</p>",
+          "requirements": ""
+        },
+        {
+          "name": "Spirit of the Tiger",
+          "description": "<p>When you activate this blessing you gain the following benefits:</p><h2><strong>Ambush Predator</strong></h2><p><em>Level 6 Feature</em></p><p>You gain advantage on Stealth checks.</p><h2><strong>Scent of Blood</strong></h2><p><em>Level 6 Feature</em></p><p>If you are hiding when you take the jump action, you can activate Rage as a free action while you're mid-air.</p><h2><strong>Pouncing Strikes</strong></h2><p><em>Level 6 Feature</em></p><p>You make a single attack with your natural weapons against up to 4 different creatures within range. This ability can only be used right after landing from a jump.</p><h2><strong>Solitary Hunter</strong></h2><p><em>Level 10 Feature</em></p><p>When both you and your target are isolated and you deal damage to it, double all of your damage dice. A creature is isolated if no ally is within it's line of sight.</p><h2><strong>Rip and Tear</strong></h2><p><em>Level 14 Feature</em></p><p>Whenever you roll maximum damage on any damage die, roll that die again and add the result to the total. Repeat this as many times as needed. (All damage dice explode recursively.)</p>",
+          "requirements": "Spirit Warrior"
+        },
+        {
+          "name": "Inspiring Flex",
+          "description": "<blockquote><p>Aviana flexes. It is very effective.</p></blockquote><p>As an action you flex your muscles while looking directly into the eyes of one creature that can see you.That creature gains one Inspiration die, a d6.</p><p>Once within the next 10 minutes, the creature can roll the die and add the number rolled to one ability check, attack roll, damage roll, or saving throw it makes. The creature cannot choose to use the Inspiration die after the roll has been made.Once the Inspiration die is rolled, it is lost. A creature can only have 1 Flexing Inspiration die at any time.</p><p>You can use this ability a number of times equal to the sum of your Strength and Constitution modifiers.You regain any expended uses when you finish a long rest.</p>",
+          "requirements": ""
+        },
+        {
+          "name": "Spirit of the Wolf",
+          "description": "<p>When you activate this blessing you gain the following benefits:</p><h2><strong>Keen Senses</strong></h2><p><em>Level 6 Feature</em></p><p>You have blindsight out to 15ft.</p><h2><strong>Pack Tactics</strong></h2><p><em>Level 6 Feature</em></p><p>All attacks rolls made against hostile creatures within 5ft of you have advantage.</p><h2><strong>Hamstringing</strong></h2><p><em>Level 10 Feature</em></p><p>Critical hits against hostile creatures within 5ft of you deal an additional xd12 damage where x is half your proficiency bonus rounded up.</p><h2><strong>Coordinated Hunt</strong></h2><p><em>Level 14 Feature</em></p><p>When a creature that is threatened by both you and at least one of your allies makes an attack, you can use your reaction to let one of your allies make a single melee attack against the threatened creature.</p>",
+          "requirements": "Spirit Warrior"
+        },
+        {
+          "name": "Mythic Power",
+          "description": "<blockquote><p>One doesn't need to be a mythic creature, an otherworldly being, or a deity's chosen to become a hero. This path may be grueling and full of temptation, but the mortal who treads it fully earns the right to call themselves a true Legend.</p></blockquote><p>Mythic characters can draw upon a wellspring of power to accomplish amazing deeds and cheat fate. This power is used by a number of different abilities.</p><p>You can expend an amount of mythic power equal to 2 + twice your mythic rank, and you regain all expended mythic power when you finish an extended rest.</p><p>This amount is your maximum amount of mythic power. If an ability allows you to regain uses of your mythic power, you can never have more than this amount.</p>",
+          "requirements": "Mythic Legend 1"
+        },
+        {
+          "name": "Titanous Strength",
+          "description": "<p>Your Strength and Constitution scores, as well as your maximum for those scores, increase by 2 for each Mythic Rank you have.</p>",
+          "requirements": "Mythic Legend 1"
+        }
+      ],
+      "items": [
+        {
+          "name": "Lethal Limbs",
+          "description": "<p>When you attack while you are unarmed, you can roll a d4 in place of the normal damage of your unarmed strike. This die changes as you gain levels.</p><p>Your unarmed damage type is non-magical bludgeoning, slashing or piercing damage, depending on the features of your limbs and the way you attack.</p>",
+          "carried": 1,
+          "stored": 0,
+          "typeLabel": "Natural",
+          "category": "weapon",
+          "requiresAttunement": false
+        },
+        {
+          "name": "Common Clothes",
+          "description": "<p>Clothes worn by most commoners.</p>",
+          "carried": 1,
+          "stored": 0,
+          "typeLabel": "Clothing",
+          "category": "equipment",
+          "requiresAttunement": false
+        },
+        {
+          "name": "Rod of Unwilling Retribution",
+          "description": "<p>Up to three times per day when another entity you can see within 60 feet damages you, the Rod activates and zaps the creature nearest to you who must make a Dexterity saving throw (DC = 10 + your character level) <span>DC 10 Dexterity saving throw</span>, taking 2d10 lightning damage on a failed save or half as much on a successful one. You can choose to take the damage as well, in which case no charge is consumed.<br></p>",
+          "carried": 1,
+          "stored": 0,
+          "typeLabel": "Trinket",
+          "category": "equipment",
+          "requiresAttunement": true
+        },
+        {
+          "name": "Philter of Love",
+          "description": "",
+          "carried": 1,
+          "stored": 1,
+          "typeLabel": "Potion",
+          "category": "consumable",
+          "requiresAttunement": false
+        },
+        {
+          "name": "Adamantine Manacles",
+          "description": "<p>These metal restraints can bind a Small or Medium creature. Escaping the manacles requires a successful DC 30 Dexterity check. Breaking them requires a successful DC 30 Strength check. Each set of manacles comes with one key. Without the key, a creature proficient with thieves' tools can pick the manacles' lock with a successful DC 25 Dexterity check. Manacles have 50 hit points.</p>",
+          "carried": 1,
+          "stored": 0,
+          "typeLabel": "Trinket",
+          "category": "consumable",
+          "requiresAttunement": false
+        },
+        {
+          "name": "Cursed Thunderfeet Footwraps",
+          "description": "<p>When you jump, you cause a shockwave upon landing dealing 1d20 thunder damage to anyone, including yourself, in a 5ft radius.</p><p>If your size is larger than medium, add 1d20 thunder damage for each size category above medium.</p><p><strong>Curse</strong></p><p>Equipping this item curses you to become unwilling to part with it. Only when you become targeted by the Remove Curse spell or similar magic can you choose to unequip it. This item does not require attunement.</p>",
+          "carried": 1,
+          "stored": 0,
+          "typeLabel": "Clothing",
+          "category": "equipment",
+          "requiresAttunement": false
+        },
+        {
+          "name": "Strionic Resonator",
+          "description": "<p>During combat, as long as it's not your turn, triggered abilities from features and non-consumable items are copied. If the triggered ability consumes resources, the copy does not.</p>",
+          "carried": 1,
+          "stored": 0,
+          "typeLabel": "Trinket",
+          "category": "equipment",
+          "requiresAttunement": true
+        },
+        {
+          "name": "Spelleater's Charm",
+          "description": "<p>Whenever you're hit by a spell attack while raging, you can spend a rage to shield yourself, nullifying the damage you'd take from that hit.</p><p>If you don't shield yourself, the charm causes the spell to also deal it's damage not only to you but also to every creature within 5ft of you.</p><p>Any non-damaging effects the spell attack causes are not influenced by this item.</p>",
+          "carried": 1,
+          "stored": 0,
+          "typeLabel": "Trinket",
+          "category": "equipment",
+          "requiresAttunement": true
+        },
+        {
+          "name": "Royal Commander's Cloak",
+          "description": "<p>As a reaction, which you take when you become affected by a condition or mind-altering effect, you can expend one rage to end that condition or effect on yourself. Additionally on your turn, you can expend one rage end such an effect on an ally within 5 feet of you (no action required).</p><p>You can also make the cloak billow dramatically.</p>",
+          "carried": 1,
+          "stored": 0,
+          "typeLabel": "Clothing",
+          "category": "equipment",
+          "requiresAttunement": true
+        },
+        {
+          "name": "Grateful Fey's Charm",
+          "description": "<p>Wearing this charm grants you resistance to one type of damage while and making you vulnerable to another. Using your reaction, you can change one or both.</p><p>Additionally, taking damage of a type you're vulnerable to from a hostile creature during combat lets you make one additional attack when you use the attack action on your following turn. This effect stacks.</p>",
+          "carried": 1,
+          "stored": 0,
+          "typeLabel": "Trinket",
+          "category": "equipment",
+          "requiresAttunement": true
+        }
+      ]
+    }
+  ],
+  "sharedStorage": {
+    "currency": {
+      "pp": 0,
+      "gp": 325,
+      "sp": 0,
+      "cp": 0
+    },
+    "items": [
+      {
+        "name": "Aztec Draconic Club",
+        "description": "<p>A stout knob of wood forms a simple, but effective, cudgel. These weapons are used to bludgeon foes, bruising flesh and breaking bones.</p>",
+        "carried": 0,
+        "stored": 1,
+        "typeLabel": "Simple Melee",
+        "category": "weapon",
+        "requiresAttunement": false
+      },
+      {
+        "name": "Aztec Draconic Handaxe",
+        "description": "<p>This one-handed axe is light and balanced for throwing while remaining useful in hand combat.</p>",
+        "carried": 0,
+        "stored": 1,
+        "typeLabel": "Simple Melee",
+        "category": "weapon",
+        "requiresAttunement": false
+      },
+      {
+        "name": "Aztec Draconic Shield",
+        "description": "<p>A shield is made from wood or metal and is carried in one hand. Wielding a shield increases your Armor Class by 2. You can benefit from only one shield at a time.</p>",
+        "carried": 0,
+        "stored": 3,
+        "typeLabel": "Shield",
+        "category": "equipment",
+        "requiresAttunement": false
+      }
+    ]
+  },
+  "settlement": {
+    "name": "Promise",
+    "attributes": {
+      "authority": 4,
+      "economy": 5,
+      "community": 1,
+      "progress": 10,
+      "intrigue": 8
+    },
+    "capacity": {
+      "max": 5,
+      "available": 0
+    },
+    "currentEffects": [
+      {
+        "name": "Stonemason's Festival",
+        "flavorText": "Abadar watches over the settlement, ensuring that all construction efforts are swift and successful.",
+        "remainingDays": 21,
+        "effects": {
+          "attributes": {
+            "authority": 0,
+            "economy": 0,
+            "community": 0,
+            "progress": 0,
+            "intrigue": 0
+          },
+          "capacity": 1,
+          "other": ""
+        }
+      }
+    ],
+    "buildings": [
+      {
+        "name": "Homeless Shelter",
+        "flavorText": "A humble sanctuary for the destitute, where kindness outweighs profit, though not without resentment from those who see generosity as wasteful.",
+        "scale": 1,
+        "constructionDate": null,
+        "effects": {
+          "attributes": {
+            "authority": 0,
+            "economy": -3,
+            "community": 5,
+            "progress": 0,
+            "intrigue": 0
+          },
+          "capacity": 0,
+          "other": ""
+        },
+        "requirements": {
+          "attributes": {
+            "authority": 0,
+            "economy": 0,
+            "community": 0,
+            "progress": 0,
+            "intrigue": 0
+          },
+          "buildings": [],
+          "unlocks": []
+        }
+      },
+      {
+        "name": "Courthouse",
+        "flavorText": "Fair trials, strict rulings—this is where disputes are settled and criminals face judgment. It keeps the city in order, even if it stifles progress.",
+        "scale": 2,
+        "constructionDate": "Primus 16, 1498",
+        "effects": {
+          "attributes": {
+            "authority": 6,
+            "economy": 0,
+            "community": 0,
+            "progress": -2,
+            "intrigue": -1
+          },
+          "capacity": 0,
+          "other": ""
+        },
+        "requirements": {
+          "attributes": {
+            "authority": 0,
+            "economy": 0,
+            "community": 0,
+            "progress": 0,
+            "intrigue": 0
+          },
+          "buildings": [
+            "Jail"
+          ],
+          "unlocks": []
+        }
+      },
+      {
+        "name": "City Walls",
+        "flavorText": "A city well-defended is a city that endures. The walls ensure safety, though merchants grumble at the restricted flow of goods.",
+        "scale": 3,
+        "constructionDate": null,
+        "effects": {
+          "attributes": {
+            "authority": 6,
+            "economy": -3,
+            "community": 0,
+            "progress": 0,
+            "intrigue": 0
+          },
+          "capacity": 0,
+          "other": "The city's authority is doubled for defense against sieges."
+        },
+        "requirements": {
+          "attributes": {
+            "authority": 0,
+            "economy": 0,
+            "community": 0,
+            "progress": 0,
+            "intrigue": 0
+          },
+          "buildings": [],
+          "unlocks": []
+        }
+      },
+      {
+        "name": "Stocks",
+        "flavorText": "A relic of old justice—crude, effective, and a stark reminder of the consequences of breaking the law.",
+        "scale": 1,
+        "constructionDate": null,
+        "effects": {
+          "attributes": {
+            "authority": 4,
+            "economy": 0,
+            "community": 0,
+            "progress": -3,
+            "intrigue": 0
+          },
+          "capacity": 0,
+          "other": ""
+        },
+        "requirements": {
+          "attributes": {
+            "authority": 0,
+            "economy": 0,
+            "community": 0,
+            "progress": 0,
+            "intrigue": 0
+          },
+          "buildings": [],
+          "unlocks": []
+        }
+      },
+      {
+        "name": "Alchemist's Laboratory",
+        "flavorText": "A modest workshop of bubbling flasks and pungent fumes, the alchemist's laboratory is a sanctuary for discovery, where one mind's quiet pursuit of knowledge might yield wonders.",
+        "scale": 1,
+        "constructionDate": null,
+        "effects": {
+          "attributes": {
+            "authority": 0,
+            "economy": 0,
+            "community": 0,
+            "progress": 1,
+            "intrigue": 0
+          },
+          "capacity": 0,
+          "other": "Downtime Activity: Training (Alchemist's Tools); +1 bonus to skill checks using Alchemist's Tools while in the laboratory;"
+        },
+        "requirements": {
+          "attributes": {
+            "authority": 0,
+            "economy": 0,
+            "community": 0,
+            "progress": 4,
+            "intrigue": 0
+          },
+          "buildings": [
+            "Glasshouse"
+          ],
+          "unlocks": []
+        }
+      }
+    ]
+  },
+  "journals": [
+        {
+      "name": "Notes - Aviana",
+      "pages": [
+        {
+          "name": "134",
+          "index": 127,
+          "htmlContent": "<h3>The Emperor Speaks, Fearghas listens. Emilio waning the lost light upon the shores of the moon.</h3><p>Kyrin return to the party after 5 hours of make-up session, she is visually gorgeous as the moon. Plex mentions he does want to search around for his lost lamp but Aviana seemingly already have found it. He seems distressed but we ignore it and tie the goblin instead with anti-magical chains and drag him with us to the imperial palace so we can sleep in peace. A few arguments of who gets to sleep where and some <strong>VERY</strong> insulting words from <em>that</em> Fearghas <em>(He knows what he said)</em>, and we all go to sleep.</p><p>During the morning we have breakfast, Naami asks the wizards on why they are carrying to many corpses around. Kyrin finds it normal, Shalkoc is eating food and not listening, Emilio is still sleeping upstairs. Naami seems very distressed over the dark arts that Fearghas uses on a daily basis. She is worried he might turn into a… monster? Pfft. Wait 'til she learns what a harpy is usually known as. Not to talk about Plex. But too be fair, I understand her worries.</p><p>Emilio comes down the stairwell, looking paler than the moon's glow. He despairs over his girlfriend having a negative impact on his relationship with his matron. Patron? Mommy, he's having issues with his mommy. He needs a good steak and some workout hours, should help that broken heart.</p><p>Discussions turn to if we shall find <strong>elves or Slaan</strong> to help with the <strong>egg of Hadar</strong>. We think it is important but shelve important discussions for later because Kyrin drew some weirdly affectionate drawings using Plex's Artificial Irisbending crayons. We therefore hide the Bearded Ladies magazine and enter the imperial palace to meet the Emperor.</p><p>As we enter the halls of royalty, we get treated with a side-eye from some stuck up <s>knife-ears</s> elven nobles. The Emperor seems to understand our plight and asks us… uh, questions? Firstly, he has made a new law and it says to shoot down all airships. Shalkoc casually calls the emperor a <em>cheapskate</em> and <span>luckily</span> the emperor is a chill dude who finds it funny. He still wants us to do the false-flag-operation to dress our airship as Kaideran and crash it into Taldor to give a reason for war.</p><p>It seems big explosives are needed for this fairy contract of Shalkoc's to be fulfilled. Fearghas summons an <s>Italian</s> <strong>Terran speaking Earth Elemental</strong>. There's gold shifting hands and greasing new opportunities to open up. Shalkoc gains some news about <strong>Lucius Maro</strong> from his personal servant, pays her extra even. Plex returns to Promise with Shalkoc to paint the Zeppelin. Mamma miá.</p><p>We decide to kidnap Shalkoc's employer and memory-change her and replace the nobility with Kyrin. Plex and Shalkoc shall drive the helium-flammable-giant-balloon while the rest of us believe in their ability to perform. Emilio started to be more cold since his patron demoted him, he keeps talking about war profiteering and that he doesn't mind the darkness.</p><p>Plex and Shalkoc steers the explosive airship, SOMEHOW PERFECTLY and lands it neatly. All that after panicing and Death Warding and all that. The Yellow and Black colored corpses on the airship lies still as Shalkoc carries Plex in a speed of light. Or sound. Or rather, a very fast bird. The explosion engulfs the green boys. They're gone… into the water! They get fished up by guards, Plex bites one and is cuffed and muffed.</p><p>Lady Galla loves the show from the witness stand. Kyrin roofies her with a poison and swaps place with the Lady by throwing her out the window to Aviana and Fearghas who teleports away. Leaving Kyrin alone in torment with Monseur Fedora Lucien.</p>"
+        },
+        {
+          "name": "136",
+          "index": 128,
+          "htmlContent": "<h3>Feast of the Sharks, our Dragon's Balls almost eaten. Fireball still never beaten.</h3><p>We meet a seller in promise. They sell cookies. Turns out it's Naami's cookies. Emilio vibrates in anxeity from the knowledge his two GF's are about to meet. Allegedly.</p><p>Fearghas polymorphs into Whalegas and we all fly down from Promise to the location where Emilio met the siren once. We find the Fine Gold Chain set with a Fire Opal. It bodes ill, the evidence points towards the Void Dragon GF. Emilio sends out an sending to find his water gf but gets a response of terror. Something about an old temple? There's an old corpse of an Deep Scion that was slain by the sirens before. Shalkoc fingers the corpse and asks where the temple is located. Turns out it didn't give much info.</p><p>Plex casts some spells, looks like Scrying, then he shows what he can see and suffocates himself. Emilio gets angry at the goblin wizard, currently drowning himself. <em>(Wild surge to breathe underwater but not air.)</em></p><p>Water… temple… this must be the work of Sea Elves. Shalkoc waterboards Plex while the wizard casts <strong>Locate Siren inside Water Temple.</strong> It works! Fearghas turns into whale once more and swims down with the party.</p><p>It's beautiful down here, in the pitch black darkness there is a light of dawn being broadcasted through the ocean. Our submarine describes the layout of not-Nylotha with obelix pillars and ginormous tentacles in the distance. Ah, seems the Whalegas polymorph is up, need to put the notebook away for now. Bunch of temple related stuff outside. And Brain corals?</p><p>Fish-sticks attacks Shalkoc so Aviana shifts into Goddess-Form and turns the sharks into their destiny as seafood. Emilio converses with the Eye-door and Plex open up a gravitational rift, rupturing space. The sharks still attack Shalkoc with the crying Naami dragon rider on top.</p><p>Fearghas activates LEYLINES?! But it seems his magic went into Stack Overflow and his fire heals instead of damage? <em>(Wild magic. Again.)</em> Luckily, Naami saves the day with a Marty Locket.</p><p>But what's this? Shalkoc's wounds might burn deep yet his poison breath consumes the sharks one by one. He is amazing! He is beautiful! He is dying!? A giant Megalodon chews the smaller dragon and… Shalkoc says he is fine? Naami says he is not fine, so I guess dragonboy is in trouble.</p><p><em>\"I cast Mass Cure Wounds as 5th level! I will trust Shalkoc wholeheartedly to survive!\" </em>- Naami</p><p>Aviana attempts to groundslam the Megalodon but since Naami will pop like a balloon from that, Emilio saves the day by finishing off the giant void-megalodon.</p><p>Shalkoc is still dying by <strong>PUNCHING</strong> instead of HEALING so Plex helps our Monk by using Blink.</p><p>Fearghas' loses it and electrocutes everyone.</p><p>Naami cries and heals the sharks.</p><p>Emilio sit's on the ledge and snacks on a cookie while EBing leisurely. I throw him one of the sharks so he can have some fun too.</p><p>Someone useful finally does something as Kyrin gives the Brain-pillar's a good amount of stabbings and Brain Freeze. A fireball later and the Brainstalks are dealt with. Emilio eats the giant shark in a pool of blood and viscera.</p><p>Now, the door with the menacing eye awaits.</p><p></p><p>PS. <em>\"I have no control over Aviana's jumping ability anymore and I can't influence that. This is not a bug.\"</em> - The DM.</p>"
+        },
+        {
+          "name": "137",
+          "index": 129,
+          "htmlContent": "<h3>Watery Love, Empty Dreams. Help me Step-Human, Consider the Infinite Void. Emilio's End.</h3><p>Emilio attacks the big Gate Guardian with 2000 attack points. It traps his mind in an hallucinatory madness for 2 minutes as he pops the eye-bubble in the door. He see's his GF getting mad and eaten by maggots, very sad sight indeed. Aviana tries to help Emilio open the door but Naami's squeaks stops us as she prefers to keep us alive.</p><p>His madness reveals to us the way forward, namely taking a short rest with Catnap. But Fearghas argues that venturing into danger unprepared is much more fun, so we decide to do just that. Naami panics and sends in an Arcane Eye to glean any intel she can acquire.</p><p>She witnesses darkness and madness.<br>She witnesses the multilimbed monstrosities of scholar's.<br>She witnesses an orchestra of Gruul's crawling and… chanting?<br>She witnesses the end.</p><p>A ritual is taking place, it's horrifying decadence corrupting the beautiful temple halls which once shone in opulence. Ah, such a waste. Naami tells us about tentacles inside as well. And dark, shadowy, hooded, pale man. She creeps closer. His malformed body sending chills down Naami's spine. Like the Voidsharks times a thousand. Or cockroaches in your bed. The Drow called it a <strong>\"Fleshshaper\"</strong>.</p><p>We proceed to eat every buffing item we have and, as Fearghas said it, <em>\"Aviana… lift this boulder out of the way\"</em>. Plex opens the smaller door, after it's blown off the hinges, promtply closing the doorframe behind him as the Gate falls in.</p><p>Behold, the room is a ritual chamber, with horrifying <strong>Starspawns</strong> and disgusting tentacle people. Also a Siblex-look-a-like, no relations to the original. They seem to be sacrificing Emilios water GF and he's having none of it, turning off the lights and screaming to the heavens. Naami is very brave. Kyrin acts first and teleports in and Nothing Personal the first slime-man giant we see.</p><p>With the light's out, Aviana turns Shalkoc into a Sharirar Poison-Type Pokémon and Plex fails to blink away. The disgusting water abberations uses the chaos to re-position as the Grue dies like flies. Sharirar can't use Poison Breath because <strong>Aradeya</strong> <em>(The Siren GF)</em> could die as she is unconcsious. <em>Dai Pinchi!</em></p><p>Plex switcheroo's the Siren with the Crabman and shifts the momentum by putting a crab in Aviana's cleavage and phase-shifting out. Fearghas snaps at Emilio to drop the darkness that is killing all the minions because the dwarf wants to murder some of them as well. Shalkoc get's jumped by a couple crit-happy enemies and Fearghas explains that the dragon is not part of the cool-guy squad. So we're fine. Hmm, not sure I like the sound of that. Aviana goomba-stomps a wormmage but it uses it's own boss as a meat-shield <em>(probably cause for complaints in the next HR meeting)</em> and Shalkoc survives thanks for Kyrins' medical expertise.</p><p>But what's this? A tremor. A shadow. Light in Emilios' eyes light up and shines it's dark glow from whence we came. It's a passion born from a place without any. The warmth in the cold. It is…</p><p><span><strong>Aurora.</strong></span></p><p>She lashes out, crashing down from the ceiling, using her strongest breath towards the unconscious Siren GF. Naami and Fearghas protects the maiden who is afflicted by madness. This is bad. Even Plex is scared.<br>Emilio stands before his Colossal Sized Megawaifu and pleads for her to return to her senses. She responds with a glimmer of sanity that dissipates like mist into the night as she Cone of Colds the Siren Girl. Aurora is truly lost.</p><p>Fearghas decides it time to get the fuck outta dodge and tells Plex to do something.<br>Plex in return… stances up with a perfect <strong>Steelwind Strike</strong>, aimed at Emilio?!<br><span><strong><span>The Hissatstu Goburinu Vaccum-Kiri-Blade</span></strong></span> cleanly cuts the reality infront of Emilio, pulling him into the Teleportation Circle, saving the Warlock from this Matron's anger. Aviana sends Kyrin and Shalkoc back to Promise with the Anchorchain but the Wormmage comes along! It sows chaos for a small turn before it's executed by the Kyrin/Shalkoc combination attack. <em>\"Welcome to Promise.\"</em></p><p></p><p></p><p>Aviana stays behind for one turn to allow her friends to escape but…?<br>What happened inside the fallen water temple between Aviana and Aurora when left behind is that <s>Aviana </s><em><s>grabbed-</s></em><br></p><p></p><p><em><s>[</s></em><span><em><s>M̷̢̬̗̜̘̤̬͎͈͎̝̹̳̳̘̙̟̼̩̂̈́̒͋̆̈́̍̋̄͐̆͊͒͗̏͗͘͜͝͝E̸̛̥̜͍̮̩̯͕͗̀́͌̎͂̄̔̀̈́̇͋̊͂̈̄͛͐̈́͑̌̋͊̈́̏̑̃̕S̸̡̛͓̭̬̝̣̮͎̰̬͓̬̃̏̎̏͒̈́͋Ṡ̴̢̧̯͔̩̲̂̒͊̂͒̿̔͛̈́̚͠͠͝Ȁ̸̛̛͖̘̮̱̃̅̽̈́̈͂͛̅͂͊̌́͆͐̓͆̽̅̊͗̔͘͘̕͘̚͜͝͝ͅͅG̴̨̪̯̤̠̺̯̗̗̜͇̞̱̗̹̹̰̬̙̝͔̠̣̮̟̟̩͔̅̌͋̀̾͑̋̆̅́͒̊͌̉́͂͠E̵̝̥̼̯̳͑̔̅́͛͐͛̿͗͐̈́͗͋͂̎̊̇͌͒͐̀͘͝͝͠͝͝ ̷̢̢̟̹̻̞̻̻̲̰̬̟̲̼̞͓̟̭̱̗̝̣̮̖́̊͛̑͒̅̏̊͛Ŕ̷̢̛͓͈̲̣̱̞͙̤̮̺̙͉̖̗͓̰̠͎̫̞͙̝̹͉̒͒̓̏̑̇̀͗̓̆̇̅̋̇̏̓̆̓̎͗͊͒̈́̒̄͂̃̚͜ͅĚ̸̢̡̡̡̢̛̦̲̰̲̤̞̦̤͎̬̙̮̲͕̙̺͍͍͖̾̽̇̀͑̈́̑́̓̄̈̎̐́̒̒̏̎́̉̽̌̾̄̌͒̿͘͝ͅͅD̴̢̛̳͕̪̼̮̞̲̘̭͇͓̱̭̞͍͚͍̫̹͕͉̾̈́̋̈́́̍͂͑̍́͒̎̏̀̉̅̍͋̈́̒͆́̑̎̓̔͜Ȃ̶̡̧̡̰͈̤̦̻̱̰̞̱͎͓͖̖̭̠̋̀̆͂͗̑̇͊̏͌̈́́̚Ç̷̡̭̜͕̗̙͉̳͂̌͆̇̌͆Ţ̵͉̼͓̰̠̝͕̺͓̬̤͚̘͙͕͙͐̒͜ͅE̸̢̧̧̛̗̝̮̬̙̠͚̤͎̦͎͚̳̩̠̰̟̦̗̩̟̤͛̍̓̎͒͗̈́͊̓͋̐̈̾͘̚͘̚͘ͅD̵̡̡̳̬͓̤̘̥̼̮̯͚̰̱͌̂̔̊̀̌̉̔̈́͊̋͊̈́͌͘͜͝͝ͅ ̷͇͎͑̀̔͂̄̾̇͌̑͑̄̈́̊̿̎̊͛̀̄̈̾̾̀͌̇͘͠͠͝ Information Stored. Ç̷̟͔̳͈͙̪̗̯̻̙̲̪͍̩̮͎̲͓̱̰̼͇̬̰͇̪̪͓̺̎́̃̈́̂̑͛̀͒̽̊͋͐̓̒̓̄̑̈́̈̾͊̂͌̕̚͘͠͝ͅÖ̸̞̱̼̙́̈́̔̓͌͊̅̔͒̊̕͜͠Ņ̷̛̪̣̗̖̠̜̅̋͆͐̒̈͒̓͒̍͐̑̂̽̌̐̔̇͆͌̄̇̕͠S̴̫̫̟̗̭̻͕̞͓͈̥̠͉̬͍̺͔̱̗̞̹̝̫̫̄̈́͒̀́̚͘̚U̵̧̨͚͙̬͖̤̤̼̼͕͉̲̙̬̼̗͋̾̉̑̿̏̿̔̀̊̂̈́̀͘͜͜͠͝M̸̯̖̖̼͓̫̟͖̺̥̗̥͙̮̲̯̬̠͌͐̈̎̃̿́̾̿͒̐̾̎̂͛͊͒͂̕͝P̴̳͙̤̞̐̽̈́̀̿̈́̿̋͊̑̂͑͌̅̊̒̎͐̓͒̓̽͗͛́̆̕͝͠͝͝ͅṮ̸̡̧̭̼͎͎͇̙͙̟̹̳̘̲͇̝͚͉̯̥̗̿̉́͛̄͊̈̒̍͋͒̈́̂̽̇̐͐̒̔̎̚͘̚͝I̶̧̛̛͖̯͙̟͙̦͎̹͂̍̒̽̐̈́̆̕̚͠͝͠͝Ơ̵͚͎͈̱̮̼̻̹̠̰̗̺̬̩̠̪̾͗̏̓̄̿̿̍̔̇̐̀͜͜Ṋ̶̨̛́̑͋͊̂̾̾̀̇̕͘ͅ ̵̢̡̡̛̦̳̦̞͕̹͓̻̝̖̹͈̤̞̦͙̲̗͕͇̞̱̻͇͍̹̊̓̈͛̈́̀̑̑̽͛̃͂̍̕͜͠P̵̨̝̣͇͇͖̻͔͖̣̲̣̹͙̠͍̭̎͗̾́͜Ļ̸͎̱̰͍̰̳̐͗́̐̾̀̽́̈́̕A̶̡̢̢̢̨̝͎̼̫͍͕̮͍͕̭͖̣̗̥͙͈͎͔̦̝͐̓͂ͅͅͅN̵̮͖̯̙̬͖̦̜̠̱̂͑͂͌͛͆̃͊͋̂̊̊̅́̀̚ͅŅ̸̠̙̰̤̟̟̻̺̳͓̹̘̗͚̣͇͚͔̟͉̬̰͚̺̭̔͆̇̈́̆̂͆̊͒̇̇̈́͑̋͌͆̑̆̌̑͊͋́̉͋̔͊͑̚͘͜͜͝Ę̸̡̧̛̭̺̖̙̭̩̣̪͇̹̙͖̺̼̫̞̠̰͎̪̣̱̲̒̍̋̂͛̅̾̽͐̄͗̑͒͌̉̅͆̓͆͆̃̉͑̚͘͜͜͝͝͝ͅḐ̸̢̹͓̜̬̬̦̪͈͈̦̪̣̳̰̖̤̳̰̭̭͙̱̳̗̬̠͇͎̹̀̋͊̔̅͂͗͛̄̒̂̎̾͂̄̓̈́͊̐̊̒͌̑̓͛]</s></em></span></p><p>\"B̴̥̳̞̜̔̏́̀͂r̸̡̘̰̪̯̤͇̟̝͇͙͈͙͔̀̐̉̉̂̓̿̈́̀́̎̃̇̉͆̓̌̓̔̅̍̊͐͌̌̐̋͊͑͘͝i̴̡͖̼̫͙͔̫͓̥͍̻̠̱͎̰̲̰̺̹̙͙̍̀̀͗͌͜͝n̴̮͓̙͍̣͙̂ḡ̵̡̢̥͇̹͈̪̟͈͕̩̠͖͋̈́̅̐͑͌̎͌̽̌́̏̽͋̅̃͗̐́͛̈́̏́̚͘͝ͅ ̸̛̻̬̠̳͇̫̥̰̙̙͖̜̳͈̫̳̪̦̼͍͎͉̫̲̒̈́̒̈̄̈́͋̀̓̈́͒̂̈̃̀͑̐̄͗͗͊̚̚͝͝͝͠ͅĭ̷̧̯̠̪̼̼̯̳̬̫̆̆̅͗̌́͆͛͋́͋͊̌͊̉̀̅̓̇͛̓̎̌̆̆͑͘̚͜͝ͅt̶̛̛̛̻̭̝̗̼̞͚̱̰̫̏̂̀́̀̑͆̅̎̃͊̏̈̈́̅̀̽̈̐̐̃̀̈́̄̏̕̚͘ͅ,̸̡̧͔̩̣̲̮̲͉͇̘͕̠̰͋͒̈̔̀<strong> ̶̛̛͇̺̘̫̘̳̝̜̣̲͚̮̮̲̺̖̗͎̥̝̙͑̔͛̉͒̈́̎̋̂̇̀͌̽̀̀̐͑͒͗̉̈́̒̎̕̕͘͜͜͝b̸̧̧̛̲̭̬͍̖̮͍̤͎̼̙̦̲̤̓̈́̑͗̈́̏̾͝ͅi̶̢̨̧̨̧̛͖̣̳͕͈̣̬̫̯̺̜̰̥̮̗͍̱͓͖̾̌̊̅̀́̉̂̓̓̓̈́́͊̉̔̈́͊͋́̓̒̆̑̍͘͘͠ͅţ̴̨̨̧͉͚̝̣͇͖̝̦̺̘̣̦͍̙̱̘͉̥̺̜̦͓͂̊͛͆͊̈́̈́̊̇̇̈́̎͜͜͠͝͝c̸͍̬̱̞͔̲̣͕̱̥̼̣̫̼̟͙͔͚̅͊̀̓̀͊̋̋̓̋͐̉͒͑͐̄̿̕͝ͅh̶̬͕̋̑͗͊̈́̈́́̍̓̔̃̆̂̄͊̔̿̃̍͆̈͘̚͜͠͝͠.\"</strong></p>"
+        }
+      ]
+    }
+  ],
+  "ingameDate": "Primus 25, 1498"
+}

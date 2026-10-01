@@ -1,0 +1,379 @@
+:root {
+    --bg-primary: #1b1b1b;
+    --bg-secondary: #313131;
+    --bg-header: #15191d;
+    --bg-section: #262626;
+    --bg-page: #101418;
+    --contrast-primary: #162f44;
+    --accent-primary: #474f55;
+    --border: rgba(104, 104, 104, 0.8);
+    --text: whitesmoke;
+    --text-muted: #9a9a9a;
+
+    --header-height: 52px;
+    --footer-height: 2.5em;
+    --card-width: 1000px;
+    --journal-card-width: 840px;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+html {
+    /* Keep anchor targets clear of the sticky header. */
+    scroll-padding-top: calc(var(--header-height) + 1rem);
+}
+
+body {
+    margin: 0;
+    padding-bottom: var(--footer-height);
+    font-family: Arial, sans-serif;
+    color: var(--text);
+    background-color: var(--bg-primary);
+}
+
+a {
+    color: inherit;
+}
+
+/* ---------- Stylings ---------- */
+
+.quote {
+    font-style: italic;
+    font-family: serif;
+}
+
+.parenthetical {
+    font-size: 0.95em;
+}
+
+
+/* ---------- Header & navigation ---------- */
+
+header {
+    position: sticky;
+    top: 0;
+    z-index: 700;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    gap: 1rem;
+    min-height: var(--header-height);
+    padding-inline: 1%;
+    background-color: var(--bg-header);
+    margin-bottom: 1rem;
+
+    #ingame-date-display {
+        font-size: large;
+    }
+}
+
+nav {
+    margin-right: auto;
+
+    menu {
+        display: flex;
+        flex-flow: row nowrap;
+        align-items: center;
+        margin: 0;
+        padding: 0;
+        list-style: none;
+
+        > li {
+            position: relative;
+        }
+    }
+
+    summary, a {
+        display: block;
+        padding: 1vh 2vw;
+        font-size: larger;
+        font-weight: bold;
+        text-decoration: none;
+        cursor: pointer;
+    }
+
+    summary:hover,
+    a:hover {
+        background-color: var(--contrast-primary);
+    }
+
+    .dropdown {
+        ul {
+            position: absolute;
+            z-index: 1;
+            min-width: 100%;
+            margin: 0;
+            padding: 0;
+            list-style: none;
+            background-color: var(--bg-secondary);
+        }
+
+        a {
+            white-space: nowrap;
+        }
+    }
+}
+
+
+/* ---------- Collapsible content ---------- */
+/* Anchors can point at a <summary> inside a closed <details>; CSS can't set the
+   `open` attribute, so force the content to render while it contains the target. */
+
+details {
+    &:has(:target)::details-content {
+        content-visibility: visible;
+        height: auto;
+    }
+
+    > summary {
+        cursor: pointer;
+
+        &::-webkit-details-marker {
+            display: none;
+        }
+    }
+}
+
+
+/* ---------- General: Tabs ---------- */
+
+.tab {
+    /* At most one tab is visible at a time: the one that is targeted
+        or contains the target, or nothing when nothing is targeted. */
+
+    display: none;
+    padding-inline: 1vw;
+
+    &:target,
+    &:has(:target) {
+        display: block;
+    }
+}
+
+
+/* ---------- General: Sections ---------- */
+
+section {
+    margin-bottom: 1rem;
+    background-color: var(--bg-section);
+    border: 2px solid black;
+
+    .section-title {
+        margin: 0;
+    }
+
+    .content {
+        display: flex;
+        flex-flow: column nowrap;
+    }
+
+    & > details {
+        & > summary {
+            list-style: none;
+            padding: 0.6em 0;
+            text-align: center;
+
+            &:hover {
+                background-color: var(--contrast-primary);
+            }
+        }
+    }
+}
+
+
+/* ---------- General: Cards ---------- */
+
+.card {
+    margin-bottom: 0.5rem;
+
+    > summary {
+        display: flex;
+        flex-flow: row nowrap;
+        align-items: center;
+        padding: 0.5em 1em;
+        background-color: var(--bg-header);
+
+        &:hover {
+            background-color: var(--contrast-primary);
+        }
+    }
+
+    /* The summary is split in half: title on the left, infos on the right. */
+    .card-title {
+        margin: 0;
+        margin-inline-start: max(0px, calc(50vw - var(--card-width) / 2));
+        flex: 1 1 50%;
+        text-align: left;
+    }
+
+    .card-info {
+        margin-inline-end: max(0px, calc(50vw - var(--card-width) / 2));
+        display: flex;
+        flex: 1 1 50%;
+        flex-flow: row nowrap;
+        gap: 1em;
+        
+        & > span {
+            flex: 1 1 0;
+            text-align: center;
+            
+            /* One info: right-aligned. Several: first left, last right, the rest centred. */
+            &:last-child {
+                text-align: right;
+            }
+
+            &:first-child:not(:last-child) {
+                text-align: left;
+            }
+        }
+    }
+
+    .card-content {
+        display: flex;
+        flex-direction: column;
+        padding: 0 1em;
+
+
+        width: auto;
+        max-width: var(--card-width);
+        margin-inline: max(0px, calc(50vw - var(--card-width) / 2));;
+        padding-inline: 1.5em;
+
+        .description {
+            padding-block: 0.25em;
+
+            > :first-child {
+                margin-top: 0.5em;
+            }
+        }
+
+        .titled-list {
+            margin-top: 0.5em;
+            margin-left: 1em;
+
+            .list-title {
+                font-weight: bold;
+            }
+
+            ul {
+                margin: 0;
+            }
+
+            li {
+                margin-bottom: 0.3em;
+            }
+        }
+    }
+}
+
+
+
+/* ---------- Actors ---------- */
+
+.actor-name-title {
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.item-card .card-info {
+    & > span:last-child {
+        max-width: 120px;
+
+        svg {
+            vertical-align: middle;
+        }
+    }
+}
+
+/* ---------- Settlement ---------- */
+
+.settlement-attributes {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    gap: 1em;
+    background-color: var(--bg-section);
+    border: 2px solid black;
+    margin-bottom: 1rem;
+
+    .attribute-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-weight: bold;
+        
+        .attr-value {
+            margin-top: 0.5em;
+            font-size: larger;
+        }
+
+        .attr-label {
+            margin-bottom: 0.5em;
+            text-transform: capitalize;
+        }
+    }
+}
+
+
+:is(.building-card, .effect-card) {
+    .content {
+        flex-direction: row;
+
+        .description {
+            flex: 1 1 30%;
+            font-style: italic;
+            font-family: serif;
+            font-size: 1.1em;
+            margin-right: 3em;
+        }
+
+        .stats {
+            flex: 1 1 30%;
+            display: flex;
+            flex-direction: column;
+        }
+    }
+}
+
+/* ---------- Journals ---------- */
+
+.page-card {
+    > summary {
+        padding-inline: 0;
+    }
+
+    .card-title {
+        margin-inline: max(0px, calc(50vw - var(--journal-card-width) / 2));
+        padding-inline: 0.3em;
+        border-bottom: 1px groove var(--border);
+    }
+
+    .card-content {
+        max-width: var(--journal-card-width);
+        margin: 0.5em max(0px, calc(50vw - var(--journal-card-width) / 2));
+        background-color: var(--bg-page);
+    }
+}
+
+
+/* ---------- Footer ---------- */
+
+footer {
+    position: fixed;
+    bottom: 0;
+    z-index: 1000;
+    width: 100%;
+    min-height: var(--footer-height);
+    padding: 0.5em 1em;
+    font-size: 0.9em;
+    color: #6f6f6f;
+    background-color: var(--bg-header);
+
+    p {
+        margin: 0;
+    }
+}
