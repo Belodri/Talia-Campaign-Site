@@ -38,6 +38,8 @@ declare global {
             ul: { class?: string, id?: string };
             li: { class?: string, id?: string };
             s: {};
+            svg: { xmlns: string, width: string, height: string, viewBox: string };
+            path: { fill: string, d: string }
         }
     }
 }
