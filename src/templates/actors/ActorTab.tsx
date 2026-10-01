@@ -1,4 +1,4 @@
-import { compareAsc, trueFirst } from "../../utils/compare.mts"
+import { compareAsc, falseFirst, trueFirst } from "../../utils/compare.mts"
 import { Section } from "../reusable/Section"
 import { Tab } from "../reusable/Tab"
 import { FeatureCard } from "./FeatureCard"
@@ -11,8 +11,9 @@ interface ActorTabProps {
 }
 
 export function ActorTab({ data, id }: ActorTabProps): HTMLDivElement {
-    const features = data.features.toSorted((a, b) => 
-        compareAsc(a.requirements, b.requirements)
+    const features = data.features.toSorted((a, b) =>
+        falseFirst(a.requirements.startsWith("Common"), b.requirements.startsWith("Common"))
+        || compareAsc(a.requirements, b.requirements)
         || compareAsc(a.name, b.name));
     
     const items = data.items.toSorted((a, b) => 
